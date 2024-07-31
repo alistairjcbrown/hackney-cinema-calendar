@@ -46,7 +46,7 @@ jobs:
         with:
           allowUpdates: false
           artifactErrorsFailBuild: true
-          artifacts: "./outpue/*.ics,./output/*.json,schema.json"
+          artifacts: "output/*.ics,output/*.json,schema.json"
           makeLatest: true
           tag: ${{ steps.date.outputs.currentDate }}.${{ inputs.tagSuffix || '0' }}
           commit: main
