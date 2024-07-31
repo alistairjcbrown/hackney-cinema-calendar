@@ -1,0 +1,59 @@
+on:
+  workflow_dispatch:
+    inputs:
+      tagSuffix:
+        description: 'Tag Suffix'
+        required: true
+        default: '1'
+        type: choice
+        options:
+        - '1'
+        - '2'
+        - '3'
+        - '4'
+        - '5'
+  # schedule:
+  #   - cron: '0 3 * * *' # every morning at 3am UTC
+
+name: Hackney Cinema Calendar
+
+jobs:
+  generate_calendar:
+    name: Generate Calendar
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # Setup
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: .node-version
+      - run: npm ci
+      - name: Get current date and time
+        id: date
+        run: |
+          echo "currentDate=$(TZ=Europe/Belfast date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+          echo "currentTime=$(TZ=Europe/Belfast date +'%H:%M:%S')" >> "$GITHUB_OUTPUT"
+
+      # Generate files
+      - run: npm run generate:all
+
+      # Create release with assets
+      - uses: ncipollo/release-action@v1
+        id: release
+        with:
+          allowUpdates: false
+          artifactErrorsFailBuild: true
+          artifacts: "./outpue/*.ics,./output/*.json,schema.json"
+          makeLatest: true
+          tag: ${{ steps.date.outputs.currentDate }}.${{ inputs.tagSuffix || '0' }}
+          commit: main
+          body: |
+            Calendar and data files generated at ${{ steps.date.outputs.currentTime }} on ${{ steps.date.outputs.currentDate }}
+            Created by job ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      - name: Output summary
+        run: |
+          echo "📆 Calendar generated at ${{ steps.date.outputs.currentTime }} on ${{ steps.date.outputs.currentDate }}" >> $GITHUB_STEP_SUMMARY
+          echo "🔖 New release - ${{ steps.release.outputs.html_url }}" >> $GITHUB_STEP_SUMMARY

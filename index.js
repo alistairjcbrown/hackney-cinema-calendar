@@ -18,10 +18,17 @@ const {
 } = require(`./cinemas/${cinema}`);
 
 async function generateCalendar() {
-  const data = await dailyCache(cinema, () => retrieve());
-  const shows = await transform(data);
+  console.log(`[Cinema: ${cinema}]`);
 
-  // Validate JSON output
+  process.stdout.write(` - Retriving data ...   `);
+  const data = await dailyCache(cinema, () => retrieve());
+  console.log(`\t✅ Retrieved`);
+
+  process.stdout.write(` - Transforming data ...   `);
+  const shows = await transform(data);
+  console.log(`\t✅ Transformed`);
+
+  process.stdout.write(` - Validating data ...   `);
   const ajv = new Ajv({ allErrors: true });
   addFormats(ajv);
   const validate = ajv.compile(schema);
@@ -29,10 +36,12 @@ async function generateCalendar() {
     console.log(validate.errors);
     throw new Error("Error validating JSON");
   }
+  console.log(`\t✅ Validated`);
 
   const dataFile = `./output/${cinema}-shows.json`;
   writeFileSync(dataFile, JSON.stringify(shows, null, 4));
 
+  process.stdout.write(` - Generating calendar ...   `);
   // Create an event for each show performance
   const icsFormattedEvents = shows.reduce((events, show) => {
     // Default to 90 minutes if we don't know the duration
@@ -56,9 +65,12 @@ async function generateCalendar() {
     console.log(error);
     throw new Error("Error generating ICS file");
   }
+  console.log(`\t✅ Calendar generated`);
 
   const calendarFile = `./output/${cinema}-calendar.ics`;
   writeFileSync(calendarFile, value);
+
+  console.log(`🗂️ Files created`);
 }
 
 generateCalendar();
