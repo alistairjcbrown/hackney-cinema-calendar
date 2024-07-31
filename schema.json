@@ -1,0 +1,81 @@
+{
+  "type": "array",
+  "description": "Structure of common cinema calendar JSON data",
+  "minItems": 1,
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "required": ["title", "url", "overview", "performances"],
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "url": {
+        "type": "string",
+        "format": "uri"
+      },
+      "overview": {
+        "type": "object",
+        "properties": {
+          "categories": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "duration": {
+            "type": "number"
+          },
+          "directors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "actors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "age-restriction": {
+            "type": "string",
+            "minLength": 1
+          },
+          "trailer": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": ["categories", "duration", "directors", "actors"]
+      },
+      "performances": {
+        "type": "array",
+        "uniqueItems": true,
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": ["time", "notes", "bookingUrl"],
+          "properties": {
+            "time": {
+              "type": "number"
+            },
+            "screen": {
+              "type": "string",
+              "minLength": 1
+            },
+            "notes": {
+              "type": "string",
+              "minLength": 0
+            },
+            "bookingUrl": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        }
+      }
+    }
+  }
+}
