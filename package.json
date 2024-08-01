@@ -5,6 +5,7 @@
   "description": "Automatically generated calendar of events for cinemas in Hackney, London",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "format": "prettier \"./**/*.js(on)?\" --write && prettier \"./**/*.md\" --write --prose-wrap=always",
     "generate:picturehouses.com": "TZ=Europe/London node index.js picturehouses.com",
     "generate:riocinema.org.uk": "TZ=Europe/London node index.js riocinema.org.uk",
@@ -19,9 +20,11 @@
     "cheerio": "^1.0.0-rc.12",
     "date-fns": "^3.6.0",
     "ics": "^3.7.6",
+    "replace-special-characters": "^1.2.7",
     "slugify": "^1.6.6"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "prettier": "^3.3.3"
   }
 }

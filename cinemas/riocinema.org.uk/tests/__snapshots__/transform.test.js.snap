@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rio Cinema when movies with local screenings provided returns an empty list of events 1`] = `
+[
+  {
+    "overview": {
+      "actors": [
+        "James Stewart",
+        "Grace Kelly and Wendell Corey",
+      ],
+      "age-restriction": "PG",
+      "categories": [],
+      "directors": [
+        "Alfred Hitchcock",
+      ],
+      "duration": 7500000,
+      "trailer": "https://www.youtube.com/watch?v=m01YktiEZCw?si=_frjOeEwBMBxJIFh",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/classic-matinee-rear-window/198863",
+        "notes": "151 of 154 seats remaining",
+        "screen": "1",
+        "time": 1723642200000,
+      },
+    ],
+    "title": "40 Years of Classic Matinee: REAR WINDOW",
+    "url": "https://www.riocinema.org.uk/movie/classic-matinee-rear-window",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Justice Smith",
+        "Brigette Lundy-Paine",
+        "Ian Foreman",
+        "Helena Howard",
+        "Danielle Deadwyler",
+        "Fred Durst",
+      ],
+      "age-restriction": "15",
+      "categories": [
+        "Drama",
+        "Horror",
+      ],
+      "directors": [
+        "Jane Schoenbrun",
+      ],
+      "duration": 6000000,
+      "trailer": "https://www.youtube.com/watch?v=k_-jGIhLaQ0",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/i-saw-the-tv-glow/204154",
+        "notes": "172 of 172 seats remaining",
+        "screen": "1",
+        "time": 1722525300000,
+      },
+      {
+        "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/i-saw-the-tv-glow/204155",
+        "notes": "25 of 30 seats remaining",
+        "screen": "2",
+        "time": 1722530700000,
+      },
+      {
+        "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/i-saw-the-tv-glow/206705",
+        "notes": "152 of 154 seats remaining",
+        "screen": "1",
+        "time": 1722627900000,
+      },
+      {
+        "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/i-saw-the-tv-glow/206712",
+        "notes": "28 of 30 seats remaining",
+        "screen": "2",
+        "time": 1722692700000,
+      },
+      {
+        "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/i-saw-the-tv-glow/206713",
+        "notes": "154 of 154 seats remaining",
+        "screen": "1",
+        "time": 1722715200000,
+      },
+      {
+        "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/i-saw-the-tv-glow/206714",
+        "notes": "154 of 154 seats remaining",
+        "screen": "1",
+        "time": 1722801600000,
+      },
+      {
+        "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/i-saw-the-tv-glow/206765",
+        "notes": "149 of 154 seats remaining",
+        "screen": "1",
+        "time": 1722879000000,
+      },
+      {
+        "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/i-saw-the-tv-glow/206719",
+        "notes": "30 of 30 seats remaining",
+        "screen": "2",
+        "time": 1722888000000,
+      },
+      {
+        "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/i-saw-the-tv-glow/206720",
+        "notes": "154 of 154 seats remaining",
+        "screen": "1",
+        "time": 1722962700000,
+      },
+      {
+        "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/i-saw-the-tv-glow/206723",
+        "notes": "30 of 30 seats remaining",
+        "screen": "2",
+        "time": 1722974400000,
+      },
+      {
+        "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/i-saw-the-tv-glow/206724",
+        "notes": "154 of 154 seats remaining",
+        "screen": "1",
+        "time": 1723049100000,
+      },
+      {
+        "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/i-saw-the-tv-glow/206725",
+        "notes": "30 of 30 seats remaining",
+        "screen": "2",
+        "time": 1723060800000,
+      },
+      {
+        "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/i-saw-the-tv-glow/206728",
+        "notes": "172 of 172 seats remaining",
+        "screen": "1",
+        "time": 1723120200000,
+      },
+      {
+        "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/i-saw-the-tv-glow/206729",
+        "notes": "30 of 30 seats remaining",
+        "screen": "2",
+        "time": 1723135500000,
+      },
+    ],
+    "title": "I Saw The TV Glow",
+    "url": "https://www.riocinema.org.uk/movie/i-saw-the-tv-glow",
+  },
+]
+`;

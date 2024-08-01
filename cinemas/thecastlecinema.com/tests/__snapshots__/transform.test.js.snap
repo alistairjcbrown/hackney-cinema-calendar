@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Castle Cinema when movies with local screenings provided returns an empty list of events 1`] = `
+[
+  {
+    "overview": {
+      "actors": [
+        "Jodie Comer",
+      ],
+      "age-restriction": "15",
+      "categories": [],
+      "directors": [
+        "Justin Martin",
+      ],
+      "duration": 7200000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://thecastlecinema.com/bookings/10389/nt-live-prima-facie",
+        "notes": "",
+        "time": 1726163100000,
+      },
+    ],
+    "title": "NT Live: Prima Facie",
+    "url": "https://thecastlecinema.com/programme/68385/nt-live-prima-facie/",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Glenn Close",
+        "Jeff Bridges",
+      ],
+      "age-restriction": "18",
+      "categories": [],
+      "directors": [
+        "Richard Marquand",
+      ],
+      "duration": 6540000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://thecastlecinema.com/bookings/10568/cine-real-presents-jagged-edge",
+        "notes": "16mm",
+        "time": 1724351400000,
+      },
+    ],
+    "title": "Cine-real presents: Jagged Edge",
+    "url": "https://thecastlecinema.com/programme/88019/cine-real-presents-jagged-edge/",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Fred MacMurray",
+        "Barbara Stanwyck",
+        "Edward G. Robinson",
+      ],
+      "age-restriction": "PG",
+      "categories": [],
+      "directors": [
+        "Billy Wilder",
+      ],
+      "duration": 6420000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://thecastlecinema.com/bookings/10570/cine-real-presents-double-indemnity",
+        "notes": "16mm",
+        "time": 1723986000000,
+      },
+    ],
+    "title": "Cine-real presents: Double Indemnity",
+    "url": "https://thecastlecinema.com/programme/88020/cine-real-presents-double-indemnity/",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "directors": [],
+      "duration": 2940000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://thecastlecinema.com/bookings/10565/pitchblack-playback-portishead-dummy-30th-anniversary",
+        "notes": "music",
+        "time": 1724184000000,
+      },
+    ],
+    "title": "Pitchblack Playback: Portishead 'Dummy' (30th Anniversary)",
+    "url": "https://thecastlecinema.com/programme/88022/pitchblack-playback-portishead-dummy-30th-anniversary/",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Maika Monroe",
+        "Nicolas Cage",
+        "Blair Underwood",
+      ],
+      "age-restriction": "15",
+      "categories": [],
+      "directors": [
+        "Oz Perkins",
+      ],
+      "duration": 6060000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://thecastlecinema.com/bookings/10564/longlegs",
+        "notes": "",
+        "time": 1722508200000,
+      },
+      {
+        "bookingUrl": "https://thecastlecinema.com/bookings/10561/longlegs",
+        "notes": "",
+        "time": 1722534300000,
+      },
+    ],
+    "title": "Longlegs",
+    "url": "https://thecastlecinema.com/programme/89530/longlegs/",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Justice Smith",
+        "Brigette Lundy-Paine",
+        "Ian Foreman",
+      ],
+      "age-restriction": "15",
+      "categories": [],
+      "directors": [
+        "Jane Schoenbrun",
+      ],
+      "duration": 6000000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://thecastlecinema.com/bookings/10560/i-saw-the-tv-glow",
+        "notes": "(last few seats) parent & baby",
+        "time": 1722506400000,
+      },
+      {
+        "bookingUrl": "https://thecastlecinema.com/bookings/10558/i-saw-the-tv-glow",
+        "notes": "",
+        "time": 1722528900000,
+      },
+    ],
+    "title": "I Saw the TV Glow",
+    "url": "https://thecastlecinema.com/programme/89840/i-saw-the-tv-glow/",
+  },
+]
+`;

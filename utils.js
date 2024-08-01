@@ -1,5 +1,6 @@
 const { format, isAfter, startOfDay } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
+const replaceSpecialCharacters = require('replace-special-characters');
 
 const generateEventDescription = (show, performance) => {
   let description = "";
@@ -35,10 +36,13 @@ const convertToList = (value) => {
 
 const parseMinsToMs = (value) => parseInt(value, 10) * 60 * 1000;
 
+const sanitize = (value) => replaceSpecialCharacters(value.replace(/\s+/g, " "))
+
 module.exports = {
   generateEventDescription,
   getEventDate,
   filterHistoricalPerformances,
   convertToList,
   parseMinsToMs,
+  sanitize
 };

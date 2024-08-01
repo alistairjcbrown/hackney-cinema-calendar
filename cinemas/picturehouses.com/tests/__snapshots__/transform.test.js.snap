@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hackney Picturehouse when movies with local screenings provided returns an empty list of events 1`] = `
+[
+  {
+    "overview": {
+      "actors": [],
+      "age-restriction": "U",
+      "categories": [],
+      "directors": [],
+      "duration": 6060000,
+      "trailer": "http://youtu.be/XRcOZZDvMv4",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=010&txtSessionId=90342&visLang=1",
+        "notes": "Kids' Club: Exclusively for children and their parents or carers. Unaccompanied adults are not admitted.",
+        "screen": "4",
+        "time": 1722687300000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=010&txtSessionId=90364&visLang=1",
+        "notes": "Kids' Club: Exclusively for children and their parents or carers. Unaccompanied adults are not admitted.",
+        "screen": "1",
+        "time": 1722766800000,
+      },
+    ],
+    "title": "Labyrinth",
+    "url": "https://www.picturehouses.com/movie-details/010/HO00000223/Labyrinth",
+  },
+]
+`;
