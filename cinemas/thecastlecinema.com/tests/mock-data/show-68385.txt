@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+
+<body>
+    <div class="toggle-name">
+        <p>MENU</p>
+        <div class="menu-toggle"> <img id="trigger-overlay" type="button" src="/static/images/menu.png"> </div>
+    </div>
+    <div class="overlay overlay-nav"> <button type="button" class="overlay-close"><img src="/static/images/cross.png"></button>
+        <nav>
+            <ul>
+                <li><a href="/calendar/">What's on</a></li>
+                <li><a href="/membership/">Membership</a></li>
+                <li><a href="/bar/">Bar &amp; food</a></li>
+                <li><a href="/private-hire/">Private hire</a></li>
+                <li><a href="/about-us/">About us</a></li>
+                <li><a href="/access/">Access</a></li>
+                <li>
+                    <ul class="social">
+                        <li> <a href="http://www.instagram.com/thecastlecinema" target="_blank"><img src="/static/images/instagram-b.png" /></a> </li>
+                        <li> <a href="http://www.twitter.com/thecastlecinema" target="_blank"><img src="/static/images/twitter-b.png" /></a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header inner blank"> <a href="/"><img class="inner-logo" src="/static/images/castle-stacked.png"></a>
+        <div id="main-nav">
+            <ul class="social">
+                <li> <a href="http://www.instagram.com/thecastlecinema" target="_blank"><img src="/static/images/instagram-b.png" /></a> </li>
+                <li> <a href="http://www.twitter.com/thecastlecinema" target="_blank"><img src="/static/images/twitter-b.png" /></a> </li>
+            </ul> <a href="/"><img class="crown" src="/static/images/castle-stacked.png"></a>
+            <div class="nav-links inner">
+                <ul>
+                    <li><a href="/calendar/">What's on</a></li>
+                    <li><a href="/membership/">Membership</a></li>
+                    <li><a href="/bar/">Bar &amp; food</a></li>
+                    <li><a href="/private-hire/">Private hire</a></li>
+                    <li><a href="/about-us/">About us</a></li>
+                    <li><a href="/access/">Access</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="hero-banner">
+        <div>
+            <div class="hero-image inner clip btm">
+                <div class="special responsive-image-wrapper programme-image-wrapper" style="padding-bottom: 45.390625%;">
+                    <picture>
+                        <source srcset="/optimised-images/c_crop,ar_1280:581/w_1280,h_581,f_webp,q_auto/https://thecastlecinema.com/external_images/stills/68385.jpg" type="image/webp">
+                        <source srcset="/optimised-images/c_crop,ar_1280:581/w_1280,h_581,f_jpg,q_auto/https://thecastlecinema.com/external_images/stills/68385.jpg" type="image/jpeg"> <img class="" src="/optimised-images/c_crop,ar_1280:581/w_1280,h_581,f_jpg,q_auto/https://thecastlecinema.com/external_images/stills/68385.jpg">
+                    </picture>
+                </div>
+            </div>
+            <div class="bumper mobile">
+                <div class="hero-info inner">
+                    <div class="film-poster">
+                        <div class=" responsive-image-wrapper programme-image-wrapper" style="padding-bottom: 150.0%;">
+                            <picture>
+                                <source srcset="/optimised-images/c_crop,ar_128:192/w_128,h_192,f_webp,q_auto/https://thecastlecinema.com/external_images/small/68385.jpg" type="image/webp">
+                                <source srcset="/optimised-images/c_crop,ar_128:192/w_128,h_192,f_jpg,q_auto/https://thecastlecinema.com/external_images/small/68385.jpg" type="image/jpeg"> <img class="" src="/optimised-images/c_crop,ar_128:192/w_128,h_192,f_jpg,q_auto/https://thecastlecinema.com/external_images/small/68385.jpg">
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="info-holder">
+                        <!--<div class="hero-subhead">Now playing</div>-->
+                        <div class="hero-title">
+                            <h3>NT Live: Prima Facie</h3>
+                        </div>
+                        <div class="film-details">
+                            <div class="film-organiser comma"><a href="/organisation/461/nt-live/">NT Live</a></div>
+                            <div class="film-duration comma">120 mins</div>
+                            <div class="film-year comma">2022</div>
+                            <div class="bbfc"> <img src="/static/images/BBFC_15.png" alt="BBFC 15"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Slider -->
+    <section class="main">
+        <div class="bumper">
+            <div class="half-col film-times tablet">
+                <h2 class="band">Event times</h2>
+                <div class="day-times">
+                    <div class="day">
+                        <h3>Thu</h3>12 Sep
+                    </div>
+                    <div class="times"> <a class="performance-button button sm  " data-perf-id="10389" data-filters="" href="/bookings/10389/nt-live-prima-facie"> 18:45 <span class="sold-out" style="display:none;">sold out</span> <span class="last-few" style="display:none;">(last few seats)</span> </a> </div>
+                </div>
+            </div>
+            <div class="half-col film-description tablet"> <span class="film-synopsis">
+                    <p>
+                    <p>Jodie Comer (<i>Killing Eve</i>) makes her West End debut in the UK premiere of Suzie Miller?s award-winning play. </p>
+                    <p>Tessa is a young, brilliant barrister. She has worked her way up from working class origins to be at the top of her game; defending; cross examining and winning. An unexpected event forces her to confront the lines where the patriarchal power of the law, burden of proof and morals diverge.</p>
+                    <p>Prima Facie takes us to the heart of where emotion and experience collide with the rules of the game. </p>
+                    <p>Justin Martin directs this solo tour de force, captured live from the intimate Harold Pinter Theatre in London?s West End.</p>
+                    <p><i>Includes sensitive subject matter including reference to sex, violence and rape</i></p>
+                    </p>
+                </span> <br>
+                <div class="meta">
+                    <div class="meta-line"><strong>Starring</strong>: <br> <span class="film-cast">Jodie Comer</span></div>
+                    <div class="meta-line"><strong>Director</strong>: <br> <span class="film-director">Justin Martin</span></div>
+                    <div class="meta-line"><strong>Writer</strong>: <br> <span class="film-writer">Suzie Miller</span></div>
+                </div>
+            </div>
+            <div class="clear marg"></div> <!-- Films -->
+        </div>
+    </section>
+    <footer class="inner clip top">
+        <div class="newsletter">
+            <form class="mc-form"> <span>Newsletter signup</span> <input id="mc-email" type="email" placeholder="Enter your email address">
+                <div class="button teal dark">Sign up</div> </br> <label for="mc-email"></label>
+            </form>
+        </div>
+        <div class="footer-cols">
+            <div class="third-col contact">
+                <div class="contact">
+                    <h3>The Castle Cinema</h3>
+                    <p> First floor, 64-66 Brooksby's Walk <br> Hackney, London E9 6DA <br> <a href="/info/#find-us">Map</a> </p>
+                    <p> <a href="mailto:hello@thecastlecinema.com">hello@thecastlecinema.com</a> </p>
+                    <h3>Hours</h3>
+                    <p> 10am til late, every day (except Christmas Day!) </p>
+                    <ul class="social">
+                        <li> <a href="http://www.instagram.com/thecastlecinema" target="_blank"><img src="/static/images/instagram.png" /></a> </li>
+                        <li> <a href="http://www.twitter.com/thecastlecinema" target="_blank"><img src="/static/images/twitter.png" /></a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="twothird-col">
+                <div class="nav-col">
+                    <ul class="first">
+                        <li>Top menu</li>
+                        <li><a href="/calendar/">What's on</a></li>
+                        <li><a href="/membership/">Membership</a></li>
+                        <li><a href="/bar/">Bar &amp; food</a></li>
+                        <li><a href="/private-hire/">Private hire</a></li>
+                        <li><a href="/about-us/">About us</a></li>
+                        <li><a href="/access/">Access</a></li>
+                    </ul>
+                </div>
+                <div class="nav-col">
+                    <ul class="first">
+                        <li>Cinema info</li>
+                        <li><a href="/about-us/">About us</a></li>
+                        <li><a href="/info/#contact">Contact us</a></li>
+                        <li><a href="/info/#find-us">Find us</a></li>
+                        <li><a href="/info/#booking">Booking info</a></li>
+                        <li><a href="/info/#booking">Ticket prices</a></li>
+                        <li><a href="/info/#get-involved">Get involved</a></li>
+                    </ul>
+                </div>
+                <div class="nav-col">
+                    <ul>
+                        <li>Listings</li>
+                        <li><a href="/listings/">All listings (A-Z)</a></li>
+                        <li><a href="/calendar/">Calendar</a></li>
+                        <li><a href="/listings/?category=live">Live</a></li>
+                        <li><a href="/listings/?category=events">Events</a></li>
+                        <li><a href="/bar/#events">Art gallery</a></li>
+                    </ul>
+                </div>
+                <div class="nav-col">
+                    <ul>
+                        <li>Share the love</li>
+                        <li><a href="/membership/#gifts">Gifts</a></li>
+                        <li><a href="/membership/">Support us</a></li>
+                        <li><a href="/info/#contact">Advertising</a></li>
+                        <li><a href="/about-us/#curators">Curators</a></li>
+                        <li><a href="/about-us/#thanks">Kickstarter thanks!</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="terms">
+                <ul>
+                    <li><a href="/faq/">FAQs</a></li>
+                    <li><a href="/privacy/">Privacy policy</a></li>
+                    <li><a href="/terms/">Terms &amp; conditions</a></li>
+                    <li><a href="/access/">Access</a></li>
+                </ul>
+                <p>&copy; 2016 The Castle Cinema</p>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </footer>
+</body>
+
+</html>

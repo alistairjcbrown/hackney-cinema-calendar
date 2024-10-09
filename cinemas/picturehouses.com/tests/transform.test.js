@@ -4,6 +4,8 @@ const moviesWithLocalScreenings = require("./mock-data/movie-with-local-screenin
 
 const formatParameter = (movies) => ({ movies });
 
+jest.useFakeTimers().setSystemTime(new Date("2024-08-01"));
+
 describe("Hackney Picturehouse", () => {
   describe("when no movies provided", () => {
     it("returns an empty list of events", async () => {

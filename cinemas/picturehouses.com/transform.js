@@ -13,11 +13,16 @@ async function transform({ movies }) {
 
     if (showings.length === 0) return moviesAtCinema;
 
+    // Remove private hire entries
+    if (movie.Title.toLowerCase().startsWith("private hire (")) {
+      return moviesAtCinema;
+    }
+
     const overview = {
       categories: [],
       directors: [],
       actors: [],
-      duration: parseMinsToMs(movie.RunTime),
+      duration: parseMinsToMs(movie.RunTime) || parseMinsToMs(90),
     };
 
     if (movie.Rating) {

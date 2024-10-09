@@ -48,6 +48,7 @@ async function generateCalendar() {
   if (!validate(shows)) {
     console.log(`\t❌ Error validating`);
     console.log(validate.errors);
+    console.log(shows);
     throw new Error("Error validating");
   }
   console.log(`\t✅ Validated`);
