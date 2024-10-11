@@ -8,9 +8,9 @@ const generateEventDescription = (show, performance) => {
     description += `Showing in screen ${performance.screen}\n`;
   if (show.overview["age-restriction"])
     description += `Film classification: ${show.overview["age-restriction"]}\n`;
-  if (show.overview.actors)
+  if (show.overview.actors && show.overview.actors.length > 0)
     description += `Starring ${show.overview.actors.join(", ")}\n`;
-  if (show.overview.directors)
+  if (show.overview.directors && show.overview.directors.length > 0)
     description += `Directed by ${show.overview.directors.join(", ")}\n`;
   if (show.url) description += `For more details, see ${show.url}\n`;
   if (performance.bookingUrl)
