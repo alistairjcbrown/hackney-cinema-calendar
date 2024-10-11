@@ -48,7 +48,6 @@ async function generateCalendar() {
   if (!validate(shows)) {
     console.log(`\t❌ Error validating`);
     console.log(validate.errors);
-    console.log(shows);
     throw new Error("Error validating");
   }
   console.log(`\t✅ Validated`);
@@ -65,7 +64,7 @@ async function generateCalendar() {
       const showEvents = show.performances.map((performance) => ({
         title: sanitize(show.title),
         description: generateEventDescription(show, performance),
-        categories: [].concat(show.overview.category),
+        categories: [].concat(show.overview.categories),
         start: getEventDate(performance.time),
         end: getEventDate(performance.time + duration),
         url,
