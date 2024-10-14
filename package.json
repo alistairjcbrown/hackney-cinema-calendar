@@ -7,11 +7,12 @@
   "scripts": {
     "test": "jest",
     "format": "prettier \"./**/*.js(on)?\" --write && prettier \"./**/*.md\" --write --prose-wrap=always",
+    "generate:genesiscinema.co.uk": "TZ=Europe/London node index.js genesiscinema.co.uk",
     "generate:picturehouses.com": "TZ=Europe/London node index.js picturehouses.com",
     "generate:princecharlescinema.com": "TZ=Europe/London node index.js princecharlescinema.com",
     "generate:riocinema.org.uk": "TZ=Europe/London node index.js riocinema.org.uk",
     "generate:thecastlecinema.com": "TZ=Europe/London node index.js thecastlecinema.com",
-    "generate:all": "npm run generate:picturehouses.com && npm run generate:princecharlescinema.com && npm run generate:riocinema.org.uk && npm run generate:thecastlecinema.com"
+    "generate:all": "npm run generate:genesiscinema.co.uk && npm run generate:picturehouses.com && npm run generate:princecharlescinema.com && npm run generate:riocinema.org.uk && npm run generate:thecastlecinema.com"
   },
   "author": "Alistair Brown <github@alistairjcbrown.com>",
   "license": "MIT",

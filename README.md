@@ -1,17 +1,20 @@
 # 📆 Hackney Cinema Calendar
 
 Automatically generated calendar of events at
+[Genesis Cinema](https://maps.app.goo.gl/tZHmxdPQJvXMdLvp8),
 [Hackney Picturehouse](https://maps.app.goo.gl/jvF1xUkQsoJnHoeZA),
 [Prince Charles Cinema](https://maps.app.goo.gl/PHF1xWvKAYhS6vPCA),
 [Rio Cinema](https://maps.app.goo.gl/ADne8QJKvNvjrbp46), and
 [The Castle Cinema](https://maps.app.goo.gl/Y4Nu2SEaaRo9TEpn9)
 
-Data retrieved from: https://www.picturehouses.com/cinema/hackney-picturehouse,
+Data retrieved from: https://genesiscinema.co.uk,
+https://www.picturehouses.com/cinema/hackney-picturehouse,
 https://princecharlescinema.com, https://www.riocinema.org.uk, and
 https://thecastlecinema.com
 
 The latest calendar files are available at:
 
+- https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/genesiscinema.co.uk-calendar.ics
 - https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/picturehouses.com-calendar.ics
 - https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/princecharlescinema.com-calendar.ics
 - https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/riocinema.org.uk-calendar.ics
@@ -31,6 +34,7 @@ https://support.google.com/calendar/answer/37100?co=GENIE.Platform%3DDesktop&oco
 2. On the left, next to "Other calendars," click "Add" or "+" and then "From
    URL".
 3. Paste in one of the following (depending on which events you want to see)
+   - `https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/genesiscinema.co.uk-calendar.ics`
    - `https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/picturehouses.com-calendar.ics`
    - `https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/princecharlescinema.com-calendar.ics`
    - `https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/riocinema.org.uk-calendar.ics`
@@ -55,14 +59,14 @@ Details of current releases:
 
 - Releases use git tags in the format `{date}.{suffix}`.
 - Releases contain 3 types of file
-  - The calendar files; `picturehouses.com-calendar.ics`,
-    `princecharlescinema.com-calendar.ics`, `riocinema.org.uk-calendar.ics`,
-    `thecastlecinema.com-calendar.ics`
+  - The calendar files; `genesiscinema.co.uk-calendar.ics`,
+    `picturehouses.com-calendar.ics`, `princecharlescinema.com-calendar.ics`,
+    `riocinema.org.uk-calendar.ics`, `thecastlecinema.com-calendar.ics`
     - 💡 This is what most users will want!
     - Event data formatted in a way that can be used in your calendar
-  - The data files; ; `picturehouses.com-shows.json`,
-    `princecharlescinema.com-shows.json`, `riocinema.org.uk-shows.json`,
-    `thecastlecinema.com-shows.json`
+  - The data files; ; `genesiscinema.co.uk-shows.json`,
+    `picturehouses.com-shows.json`, `princecharlescinema.com-shows.json`,
+    `riocinema.org.uk-shows.json`, `thecastlecinema.com-shows.json`
     - Contains all of the data extracted from each site (title, performances
       information, notes, booking URL, etc.)
     - Used to generate the calendar file above
