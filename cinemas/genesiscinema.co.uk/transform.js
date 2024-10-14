@@ -19,7 +19,7 @@ async function transform(data) {
     $movieShowings.each(function () {
       const $movieShowing = $(this);
       const $titleInfo = $movieShowing.find("h2");
-      const title = $titleInfo.find("a").text();
+      const title = $titleInfo.find("a").text().trim();
       const id = slugify(title);
 
       if (!movies[id]) {

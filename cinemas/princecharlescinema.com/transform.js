@@ -114,7 +114,7 @@ async function transform(data) {
 
       let $currentElement = $moviePerformanceDay.next();
       while ($currentElement.is("li")) {
-        const status = $currentElement.find(".hover").text();
+        const status = $currentElement.find(".hover").text().trim();
         const tags = [];
         $currentElement.find(".movietag .tag").each(function () {
           tags.push($(this).text().trim());
