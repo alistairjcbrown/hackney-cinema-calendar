@@ -42,7 +42,7 @@ function parseMovieProperties($, $movieProperties) {
     // if it's just 4 digits, it's the year
     const year = movieProperty.match(/^(\d{4})$/);
     if (year) {
-      otherProperties.year = year[1];
+      schemaProperties.year = year[1];
       return;
     }
 

@@ -13,6 +13,7 @@ exports[`The Castle Cinema when movies with local screenings provided returns an
         "Justin Martin",
       ],
       "duration": 7200000,
+      "year": "2022",
     },
     "performances": [
       {
@@ -36,6 +37,7 @@ exports[`The Castle Cinema when movies with local screenings provided returns an
         "Richard Marquand",
       ],
       "duration": 6540000,
+      "year": "1985",
     },
     "performances": [
       {
@@ -60,6 +62,7 @@ exports[`The Castle Cinema when movies with local screenings provided returns an
         "Billy Wilder",
       ],
       "duration": 6420000,
+      "year": "1944",
     },
     "performances": [
       {
@@ -77,6 +80,7 @@ exports[`The Castle Cinema when movies with local screenings provided returns an
       "categories": [],
       "directors": [],
       "duration": 2940000,
+      "year": "1994",
     },
     "performances": [
       {
@@ -101,6 +105,7 @@ exports[`The Castle Cinema when movies with local screenings provided returns an
         "Oz Perkins",
       ],
       "duration": 6060000,
+      "year": "2024",
     },
     "performances": [
       {
@@ -130,6 +135,7 @@ exports[`The Castle Cinema when movies with local screenings provided returns an
         "Jane Schoenbrun",
       ],
       "duration": 6000000,
+      "year": "2024",
     },
     "performances": [
       {

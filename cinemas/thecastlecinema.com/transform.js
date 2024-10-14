@@ -17,6 +17,7 @@ async function getAdditionalDataFor(pageUrls) {
         duration: parseMinsToMs(
           $(".film-duration").text().replace("mins", "").trim(),
         ),
+        year: $(".film-year").text().trim(),
         categories: [],
         directors: convertToList(
           $(".meta .meta-line .film-director").text().trim(),

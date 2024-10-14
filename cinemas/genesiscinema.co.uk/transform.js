@@ -2,13 +2,85 @@ const cheerio = require("cheerio");
 const slugify = require("slugify");
 const { parse } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
-const { parseMinsToMs } = require("../../utils");
+const dailyCache = require("../../cache");
+const { parseMinsToMs, convertToList } = require("../../utils");
 const { domain } = require("./attributes");
+const retrieve = require("./retrieve");
+
+async function getAdditionalDataFor(pageUrls) {
+  const additionalData = await Promise.all(
+    Object.keys(pageUrls).map(async (id) => {
+      const key = `genesiscinema.co.uk-show-${id}`;
+      const data = await dailyCache(key, () => retrieve(pageUrls[id]));
+      const $ = cheerio.load(data);
+      const addiitionalData = {
+        id,
+        categories: [],
+        directors: [],
+        actors: [],
+      };
+
+      $(".container .grid h1")
+        .parent()
+        .find("p")
+        .each(function () {
+          const contents = $(this).text().trim();
+
+          const hasCategories = contents.match(/Genre:\s+(.*)$/i);
+          if (hasCategories) {
+            addiitionalData.categories = convertToList(hasCategories[1]);
+          }
+
+          const hasDirector = contents.match(/Directed by:\s+(.*)$/i);
+          if (hasDirector) {
+            addiitionalData.directors = convertToList(hasDirector[1]);
+          }
+
+          const hasActors = contents.match(/Starring:\s+(.*)$/i);
+          if (hasActors) {
+            addiitionalData.actors = convertToList(hasActors[1]);
+
+            if (addiitionalData.actors.length === 1) {
+              addiitionalData.actors = addiitionalData.actors[0]
+                .split(" and ")
+                .map((actor) => actor.trim());
+            }
+          }
+
+          const hasDate = contents.match(/Release Date:\s+(.*)$/i);
+          if (hasDate) {
+            addiitionalData.year = hasDate[1].split("/")[2];
+          }
+        });
+
+      return addiitionalData;
+    }),
+  );
+
+  return additionalData.reduce(
+    (mapping, { id, ...data }) => ({ ...mapping, [id]: data }),
+    {},
+  );
+}
 
 async function transform(data) {
   const $ = cheerio.load(data);
   const $days = $(".whatson_panel");
 
+  const pageUrls = {};
+  $days.each(function () {
+    const $day = $(this);
+    const $movieShowings = $day.find("> div > div");
+    $movieShowings.each(function () {
+      const $movieShowing = $(this);
+      const $titleInfo = $movieShowing.find("h2");
+      const movieId = $titleInfo.find("a").attr("href").replace("event/", "");
+      const url = `${domain}/${$titleInfo.find("a").attr("href")}`;
+      pageUrls[movieId] = url;
+    });
+  });
+
+  const movieAdditionalData = await getAdditionalDataFor(pageUrls);
   const movies = {};
   $days.each(function () {
     const $day = $(this);
@@ -34,11 +106,13 @@ async function transform(data) {
           duration = parseMinsToMs(durationMatch[1]);
         }
 
+        const movieId = $titleInfo.find("a").attr("href").replace("event/", "");
         const overview = {
           duration,
           categories: [],
           directors: [],
           actors: [],
+          ...movieAdditionalData[movieId],
         };
 
         const ageRestriction = $titleInfo.next().attr("alt");

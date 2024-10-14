@@ -10,7 +10,16 @@ const readMockData = (filename) =>
 
 const moviesWithLocalScreenings = readMockData("movie-with-local-screenings");
 
-jest.useFakeTimers().setSystemTime(new Date("2024-10-12"));
+jest.useFakeTimers().setSystemTime(new Date("2024-10-14"));
+
+// Disable caching for test
+jest.mock("../../../cache", () => (key, retrieve) => retrieve());
+
+// Mock retrieve calls for additional data
+jest.mock("../retrieve", () => (url) => {
+  const id = url.split("event/")[1].split("/")[0];
+  return readMockData(`show-${id}`);
+});
 
 describe("The Genesis Cinema", () => {
   describe("when no movies provided", () => {

@@ -4,34 +4,25 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
 [
   {
     "overview": {
-      "actors": [],
+      "actors": [
+        "Sebastian Stan",
+        "Renate Reinsve",
+        "Adam Pearson",
+      ],
       "age-restriction": "15",
-      "categories": [],
-      "directors": [],
+      "categories": [
+        "Comedy",
+        "Horror",
+        "Thriller",
+      ],
+      "directors": [
+        "Aaron Schimberg",
+      ],
       "duration": 6720000,
       "trailer": "https://www.youtube.com/watch?v=3gIgpbZKltg",
+      "year": "2024",
     },
     "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=518",
-        "notes": "",
-        "time": 1728744000000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=538",
-        "notes": "",
-        "time": 1728839400000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=536",
-        "notes": "",
-        "time": 1728848700000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=544",
-        "notes": "",
-        "time": 1728926400000,
-      },
       {
         "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=567",
         "notes": "",
@@ -53,72 +44,65 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
   },
   {
     "overview": {
-      "actors": [],
-      "age-restriction": "15",
-      "categories": [],
-      "directors": [],
-      "duration": 5700000,
+      "actors": [
+        "Mia Pérez Ullod",
+        "Jaume Solà",
+        "Javier Cassi Gimeno",
+      ],
+      "age-restriction": "PG",
+      "categories": [
+        "Comedy",
+        "Adventure",
+        "Family",
+      ],
+      "directors": [
+        "Juan Jesús García Galocha",
+        "Pedro Solís García",
+      ],
+      "duration": 5580000,
+      "year": "2024",
     },
     "performances": [
       {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=612",
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=554",
         "notes": "",
-        "time": 1728754200000,
+        "time": 1729003500000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=568",
+        "notes": "",
+        "time": 1729089900000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=582",
+        "notes": "",
+        "time": 1729177500000,
       },
     ],
-    "title": "Babylon",
-    "url": "https://www.genesiscinema.co.uk/event/92616",
+    "title": "Buffalo Kids",
+    "url": "https://www.genesiscinema.co.uk/event/91614",
   },
   {
     "overview": {
-      "actors": [],
+      "actors": [
+        "Joaquin Phoenix",
+        "Zazie Beetz",
+        "Lady Gaga",
+      ],
       "age-restriction": "15",
-      "categories": [],
-      "directors": [],
+      "categories": [
+        "Crime",
+        "Drama",
+        "Thriller",
+      ],
+      "directors": [
+        "Todd Phillips",
+      ],
       "duration": 8280000,
       "trailer": "https://www.youtube.com/watch?v=xy8aJw1vYHo",
+      "year": "2024",
     },
     "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=516",
-        "notes": "",
-        "time": 1728750000000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=526",
-        "notes": "",
-        "time": 1728761100000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=528",
-        "notes": "",
-        "time": 1728825900000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=476",
-        "notes": "",
-        "time": 1728838800000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=527",
-        "notes": "",
-        "time": 1728847200000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=543",
-        "notes": "",
-        "time": 1728915300000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=541",
-        "notes": "",
-        "time": 1728924600000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=542",
-        "notes": "",
-        "time": 1728935700000,
-      },
       {
         "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=556",
         "notes": "",
@@ -164,39 +148,44 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "notes": "",
         "time": 1729194600000,
       },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=636",
+        "notes": "",
+        "time": 1729281600000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=651",
+        "notes": "",
+        "time": 1729366200000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=673",
+        "notes": "",
+        "time": 1729452000000,
+      },
     ],
     "title": "Joker Folie a Deux",
     "url": "https://www.genesiscinema.co.uk/event/87723",
   },
   {
     "overview": {
-      "actors": [],
+      "actors": [
+        "Adam Driver",
+        "Giancarlo Esposito",
+        "Nathalie Emmanuel",
+      ],
       "age-restriction": "15",
-      "categories": [],
-      "directors": [],
+      "categories": [
+        "Drama",
+        "Sci-Fi",
+      ],
+      "directors": [
+        "Francis Ford Coppola",
+      ],
       "duration": 8280000,
+      "year": "2024",
     },
     "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=523",
-        "notes": "",
-        "time": 1728762000000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=534",
-        "notes": "",
-        "time": 1728826200000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=549",
-        "notes": "",
-        "time": 1728915000000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=553",
-        "notes": "",
-        "time": 1728935700000,
-      },
       {
         "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=565",
         "notes": "",
@@ -217,6 +206,16 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "notes": "",
         "time": 1729108200000,
       },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=635",
+        "notes": "",
+        "time": 1729270800000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=650",
+        "notes": "",
+        "time": 1729356600000,
+      },
     ],
     "title": "Megalopolis",
     "url": "https://www.genesiscinema.co.uk/event/89986",
@@ -224,47 +223,41 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
   {
     "overview": {
       "actors": [],
-      "age-restriction": "18",
-      "categories": [],
+      "categories": [
+        "Comedy",
+      ],
       "directors": [],
-      "duration": 7500000,
+      "duration": 9000000,
+      "year": "2024",
     },
     "performances": [
       {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=521",
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=479",
         "notes": "",
-        "time": 1728740100000,
+        "time": 1729017000000,
       },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=525",
-        "notes": "",
-        "time": 1728750600000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=520",
-        "notes": "",
-        "time": 1728763200000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=529",
-        "notes": "",
-        "time": 1728837000000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=533",
-        "notes": "",
-        "time": 1728849600000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=550",
-        "notes": "",
-        "time": 1728925800000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=545",
-        "notes": "",
-        "time": 1728936000000,
-      },
+    ],
+    "title": "Slept On: An Alternative Comedy Night Hosted by Finlay & Joe",
+    "url": "https://www.genesiscinema.co.uk/event/92484",
+  },
+  {
+    "overview": {
+      "actors": [
+        "David Howard Thornton",
+        "Lauren LaVera",
+        "Jason Patric",
+      ],
+      "age-restriction": "18",
+      "categories": [
+        "Horror",
+      ],
+      "directors": [
+        "Damien Leone",
+      ],
+      "duration": 7500000,
+      "year": "2024",
+    },
+    "performances": [
       {
         "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=557",
         "notes": "",
@@ -286,9 +279,29 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "time": 1729108500000,
       },
       {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=589",
+        "notes": "",
+        "time": 1729171800000,
+      },
+      {
         "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=588",
         "notes": "",
         "time": 1729195200000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=634",
+        "notes": "",
+        "time": 1729281900000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=649",
+        "notes": "",
+        "time": 1729368000000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=669",
+        "notes": "",
+        "time": 1729453500000,
       },
     ],
     "title": "Terrifier 3",
@@ -296,213 +309,22 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
   },
   {
     "overview": {
-      "actors": [],
-      "age-restriction": "18",
-      "categories": [],
-      "directors": [],
-      "duration": 8400000,
-      "trailer": "https://www.youtube.com/watch?v=LNlrGhBpYjc",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=522",
-        "notes": "",
-        "time": 1728750600000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=514",
-        "notes": "",
-        "time": 1728762000000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=537",
-        "notes": "",
-        "time": 1728828000000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=535",
-        "notes": "",
-        "time": 1728837300000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=530",
-        "notes": "",
-        "time": 1728847200000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=552",
-        "notes": "",
-        "time": 1728924600000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=548",
-        "notes": "",
-        "time": 1728935100000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=563",
-        "notes": "",
-        "time": 1729011000000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=561",
-        "notes": "",
-        "time": 1729021500000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=579",
-        "notes": "",
-        "time": 1729097400000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=575",
-        "notes": "",
-        "time": 1729107900000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=593",
-        "notes": "",
-        "time": 1729194000000,
-      },
-    ],
-    "title": "The Substance",
-    "url": "https://www.genesiscinema.co.uk/event/89991",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "age-restriction": "PG",
-      "categories": [],
-      "directors": [],
-      "duration": 6240000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=471",
-        "notes": "",
-        "time": 1728743400000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=513",
-        "notes": "",
-        "time": 1728752400000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=473",
-        "notes": "",
-        "time": 1728819900000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=474",
-        "notes": "",
-        "time": 1728829200000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=475",
-        "notes": "",
-        "time": 1728838200000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=546",
-        "notes": "",
-        "time": 1728917400000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=547",
-        "notes": "",
-        "time": 1728926100000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=559",
-        "notes": "subtitles",
-        "time": 1729003800000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=560",
-        "notes": "",
-        "time": 1729012500000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=574",
-        "notes": "",
-        "time": 1729090200000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=504",
-        "notes": "",
-        "time": 1729098900000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=586",
-        "notes": "",
-        "time": 1729177200000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=587",
-        "notes": "subtitles",
-        "time": 1729186200000,
-      },
-    ],
-    "title": "Transformers One",
-    "url": "https://www.genesiscinema.co.uk/event/89379",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "age-restriction": "PG",
-      "categories": [],
-      "directors": [],
-      "duration": 5580000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=531",
-        "notes": "",
-        "time": 1728818100000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=554",
-        "notes": "",
-        "time": 1729003500000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=568",
-        "notes": "",
-        "time": 1729089900000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=582",
-        "notes": "",
-        "time": 1729177500000,
-      },
-    ],
-    "title": "Buffalo Kids",
-    "url": "https://www.genesiscinema.co.uk/event/91614",
-  },
-  {
-    "overview": {
-      "actors": [],
+      "actors": [
+        "Saoirse Ronan",
+        "Saskia Reeves",
+        "Stephen Dillane",
+      ],
       "age-restriction": "15",
-      "categories": [],
-      "directors": [],
+      "categories": [
+        "Drama",
+      ],
+      "directors": [
+        "Nora Fingscheidt",
+      ],
       "duration": 7080000,
+      "year": "2024",
     },
     "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=532",
-        "notes": "",
-        "time": 1728828300000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=539",
-        "notes": "",
-        "time": 1728849000000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=551",
-        "notes": "",
-        "time": 1728936000000,
-      },
       {
         "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=562",
         "notes": "",
@@ -529,28 +351,230 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
   },
   {
     "overview": {
-      "actors": [],
-      "categories": [],
-      "directors": [],
-      "duration": 9000000,
+      "actors": [
+        "Margaret Qualley",
+        "Dennis Quaid",
+        "Demi Moore",
+      ],
+      "age-restriction": "18",
+      "categories": [
+        "Drama",
+        "Horror",
+      ],
+      "directors": [
+        "Coralie Fargeat",
+      ],
+      "duration": 8400000,
+      "trailer": "https://www.youtube.com/watch?v=LNlrGhBpYjc",
+      "year": "2024",
     },
     "performances": [
       {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=479",
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=563",
         "notes": "",
-        "time": 1729017000000,
+        "time": 1729011000000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=561",
+        "notes": "",
+        "time": 1729021500000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=579",
+        "notes": "",
+        "time": 1729097400000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=575",
+        "notes": "",
+        "time": 1729107900000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=593",
+        "notes": "",
+        "time": 1729194000000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=731",
+        "notes": "",
+        "time": 1729260000000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=656",
+        "notes": "",
+        "time": 1729270800000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=633",
+        "notes": "",
+        "time": 1729280700000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=655",
+        "notes": "",
+        "time": 1729354800000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=648",
+        "notes": "",
+        "time": 1729367100000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=675",
+        "notes": "",
+        "time": 1729431000000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=674",
+        "notes": "",
+        "time": 1729442400000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=666",
+        "notes": "",
+        "time": 1729452000000,
       },
     ],
-    "title": "Slept On: An Alternative Comedy Night Hosted by Finlay & Joe",
-    "url": "https://www.genesiscinema.co.uk/event/92484",
+    "title": "The Substance",
+    "url": "https://www.genesiscinema.co.uk/event/89991",
   },
   {
     "overview": {
-      "actors": [],
+      "actors": [
+        "Chris Hemsworth",
+        "Brian Tyree Henry",
+        "Scarlett Johansson",
+      ],
+      "age-restriction": "PG",
+      "categories": [
+        "Action",
+        "Animation",
+        "Science Fiction",
+      ],
+      "directors": [
+        "Josh Cooley",
+      ],
+      "duration": 6240000,
+      "year": "2024",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=559",
+        "notes": "subtitles",
+        "time": 1729003800000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=560",
+        "notes": "",
+        "time": 1729012500000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=733",
+        "notes": "",
+        "time": 1729023000000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=574",
+        "notes": "",
+        "time": 1729090200000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=504",
+        "notes": "",
+        "time": 1729098900000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=735",
+        "notes": "",
+        "time": 1729113900000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=586",
+        "notes": "",
+        "time": 1729177200000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=587",
+        "notes": "subtitles",
+        "time": 1729186200000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=734",
+        "notes": "",
+        "time": 1729194600000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=657",
+        "notes": "",
+        "time": 1729262100000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=736",
+        "notes": "",
+        "time": 1729282200000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=653",
+        "notes": "",
+        "time": 1729336800000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=654",
+        "notes": "",
+        "time": 1729348200000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=737",
+        "notes": "",
+        "time": 1729362300000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=663",
+        "notes": "",
+        "time": 1729422600000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=660",
+        "notes": "",
+        "time": 1729429200000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=738",
+        "notes": "",
+        "time": 1729448400000,
+      },
+    ],
+    "title": "Transformers One",
+    "url": "https://www.genesiscinema.co.uk/event/89379",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Paolo Malco",
+        "Catriona Maccoll",
+        "Giovanni Frezza",
+        "Giovanni De Nava",
+        "Dagmar Lassander",
+        "Ania Pieroni",
+        "Carlo De Mejo",
+        "Silvia Collatina",
+        "Daniela Doria",
+        "Ranieri Ferrara",
+        "Lucio Fulci",
+        "Elmer Johnsson",
+        "John Olson",
+        "Teresa Rossi Passante",
+        "Gianpaolo Saccarola",
+      ],
       "age-restriction": "18",
-      "categories": [],
-      "directors": [],
+      "categories": [
+        "Horror",
+      ],
+      "directors": [
+        "Lucio Fulci",
+      ],
       "duration": 8700000,
+      "year": "2024",
     },
     "performances": [
       {
@@ -566,8 +590,11 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
     "overview": {
       "actors": [],
       "categories": [],
-      "directors": [],
+      "directors": [
+        "Andrew Leavold",
+      ],
       "duration": 4200000,
+      "year": "2024",
     },
     "performances": [
       {
@@ -581,12 +608,23 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
   },
   {
     "overview": {
-      "actors": [],
+      "actors": [
+        "Donald Pleasence",
+        "Jamie Lee Curtis",
+        "P.J. Soles",
+        "Kyle Richards",
+        "Nick Castle",
+      ],
       "age-restriction": "15",
-      "categories": [],
-      "directors": [],
+      "categories": [
+        "Horror",
+      ],
+      "directors": [
+        "John Carpenter",
+      ],
       "duration": 5460000,
       "trailer": "https://www.youtube.com/watch?v=T5ke9IPTIJQ",
+      "year": "2024",
     },
     "performances": [
       {
@@ -600,12 +638,23 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
   },
   {
     "overview": {
-      "actors": [],
+      "actors": [
+        "Rosemarie DeWitt",
+        "Naomi Scott",
+        "Kyle Gallner",
+      ],
       "age-restriction": "18",
-      "categories": [],
-      "directors": [],
+      "categories": [
+        "Horror",
+        "Mystery",
+        "Thriller",
+      ],
+      "directors": [
+        "Parker Finn",
+      ],
       "duration": 6900000,
       "trailer": "https://www.youtube.com/watch?v=GaDd9PQBkdw",
+      "year": "2024",
     },
     "performances": [
       {
@@ -617,6 +666,51 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=584",
         "notes": "",
         "time": 1729195200000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=639",
+        "notes": "",
+        "time": 1729260000000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=638",
+        "notes": "",
+        "time": 1729270500000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=637",
+        "notes": "",
+        "time": 1729281600000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=644",
+        "notes": "",
+        "time": 1729345800000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=643",
+        "notes": "",
+        "time": 1729356300000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=642",
+        "notes": "",
+        "time": 1729368000000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=671",
+        "notes": "",
+        "time": 1729431900000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=665",
+        "notes": "",
+        "time": 1729441500000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=659",
+        "notes": "",
+        "time": 1729452600000,
       },
     ],
     "title": "Smile 2",
@@ -641,404 +735,144 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
   },
   {
     "overview": {
-      "actors": [],
-      "age-restriction": "12A",
-      "categories": [],
-      "directors": [],
-      "duration": 6600000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=484",
-        "notes": "",
-        "time": 1729540800000,
-      },
-    ],
-    "title": "An Actor's Revenge - Filum Film Club",
-    "url": "https://www.genesiscinema.co.uk/event/92489",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "age-restriction": "18",
-      "categories": [],
-      "directors": [],
-      "duration": 8700000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=487",
-        "notes": "",
-        "time": 1729712700000,
-      },
-    ],
-    "title": "Bar Trash: NIGHT OF THE DEMON (1980)",
-    "url": "https://www.genesiscinema.co.uk/event/92494",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "directors": [],
-      "duration": 7080000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=485",
-        "notes": "",
-        "time": 1729701600000,
-      },
-    ],
-    "title": "BUFF 2024 : Block 1",
-    "url": "https://www.genesiscinema.co.uk/event/92490",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "directors": [],
-      "duration": 7800000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=486",
-        "notes": "",
-        "time": 1729711800000,
-      },
-    ],
-    "title": "BUFF 2024 : Block 2",
-    "url": "https://www.genesiscinema.co.uk/event/92491",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "directors": [],
-      "duration": 7320000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=488",
-        "notes": "",
-        "time": 1729787400000,
-      },
-    ],
-    "title": "BUFF 2024 : Block 3",
-    "url": "https://www.genesiscinema.co.uk/event/92492",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "directors": [],
-      "duration": 7860000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=489",
-        "notes": "",
-        "time": 1729797600000,
-      },
-    ],
-    "title": "BUFF 2024 : Block 4",
-    "url": "https://www.genesiscinema.co.uk/event/92493",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "directors": [],
-      "duration": 9000000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=490",
-        "notes": "",
-        "time": 1729885800000,
-      },
-    ],
-    "title": "BUFF Awards 2024: British Urban Film Festival (London)",
-    "url": "https://www.genesiscinema.co.uk/event/92495",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "directors": [],
-      "duration": 6600000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=596",
-        "notes": "",
-        "time": 1729877400000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=597",
-        "notes": "",
-        "time": 1729886400000,
-      },
-    ],
-    "title": "Venom The Last Dance",
-    "url": "https://www.genesiscinema.co.uk/event/89278",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "directors": [],
-      "duration": 25200000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=491",
-        "notes": "",
-        "time": 1729942200000,
-      },
-    ],
-    "title": "The London 48 Hour Film Project",
-    "url": "https://www.genesiscinema.co.uk/event/92496",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "age-restriction": "PG",
-      "categories": [],
-      "directors": [],
-      "duration": 4800000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=492",
-        "notes": "",
-        "time": 1730055600000,
-      },
-    ],
-    "title": "Dr Jekyll & Mr Hyde - Presented by GROK",
-    "url": "https://www.genesiscinema.co.uk/event/92497",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "age-restriction": "PG",
-      "categories": [],
-      "directors": [],
-      "duration": 7080000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=496",
-        "notes": "",
-        "time": 1730313000000,
-      },
-    ],
-    "title": "After Life (1998) - Beyond",
-    "url": "https://www.genesiscinema.co.uk/event/92517",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "age-restriction": "18",
-      "categories": [],
-      "directors": [],
-      "duration": 9900000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=497",
-        "notes": "",
-        "time": 1730321100000,
-      },
-    ],
-    "title": "Bar Trash 100 - Mystery Film",
-    "url": "https://www.genesiscinema.co.uk/event/92518",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "directors": [],
-      "duration": 6600000,
-      "trailer": "https://www.youtube.com/watch?v=O9i2vmFhSSY",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=595",
-        "notes": "",
-        "time": 1730408400000,
-      },
-    ],
-    "title": "Heretic",
-    "url": "https://www.genesiscinema.co.uk/event/91874",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "directors": [],
-      "duration": 5460000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=498",
-        "notes": "",
-        "time": 1730660400000,
-      },
-    ],
-    "title": "Macario (1960) - Beyond",
-    "url": "https://www.genesiscinema.co.uk/event/92519",
-  },
-  {
-    "overview": {
-      "actors": [],
+      "actors": [
+        "Sebastian Stan",
+        "Jeremy Strong",
+        "Maria Bakalova",
+      ],
       "age-restriction": "15",
-      "categories": [],
-      "directors": [],
-      "duration": 7440000,
-      "trailer": "https://www.youtube.com/watch?v=A73FnWETvr8",
+      "categories": [
+        "Biography",
+        "Drama",
+        "History",
+      ],
+      "directors": [
+        "Ali Abbasi",
+      ],
+      "duration": 7200000,
+      "trailer": "https://www.youtube.com/watch?v=bvPRxy9kmSg",
+      "year": "2024",
     },
     "performances": [
       {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=499",
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=628",
         "notes": "",
-        "time": 1730916600000,
+        "time": 1729261800000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=629",
+        "notes": "",
+        "time": 1729271700000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=630",
+        "notes": "",
+        "time": 1729281000000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=658",
+        "notes": "",
+        "time": 1729337400000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=640",
+        "notes": "",
+        "time": 1729344600000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=641",
+        "notes": "",
+        "time": 1729357500000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=645",
+        "notes": "",
+        "time": 1729367700000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=668",
+        "notes": "",
+        "time": 1729422000000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=672",
+        "notes": "",
+        "time": 1729431600000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=661",
+        "notes": "",
+        "time": 1729443000000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=664",
+        "notes": "",
+        "time": 1729453200000,
       },
     ],
-    "title": "Nine Days (2020) + Q&A with Director Edson Oda - Beyond",
-    "url": "https://www.genesiscinema.co.uk/event/92520",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "directors": [],
-      "duration": 6180000,
-      "trailer": "https://www.youtube.com/watch?v=lKgitu25ZAg",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=599",
-        "notes": "",
-        "time": 1731081900000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=598",
-        "notes": "",
-        "time": 1731090600000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=600",
-        "notes": "",
-        "time": 1731157200000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=601",
-        "notes": "",
-        "time": 1731166200000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=602",
-        "notes": "",
-        "time": 1731175200000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=603",
-        "notes": "",
-        "time": 1731243600000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=604",
-        "notes": "",
-        "time": 1731252600000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=605",
-        "notes": "",
-        "time": 1731261600000,
-      },
-    ],
-    "title": "Paddington in Peru",
-    "url": "https://www.genesiscinema.co.uk/event/89382",
+    "title": "The Apprentice",
+    "url": "https://www.genesiscinema.co.uk/event/90386",
   },
   {
     "overview": {
       "actors": [],
       "age-restriction": "U",
-      "categories": [],
-      "directors": [],
-      "duration": 6240000,
+      "categories": [
+        "Animation",
+        "Adventure",
+        "Family",
+      ],
+      "directors": [
+        "Chris Sanders",
+      ],
+      "duration": 6060000,
+      "trailer": "https://www.youtube.com/watch?v=njPNg0A9VpY",
+      "year": "2024",
     },
     "performances": [
       {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=493",
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=631",
         "notes": "",
-        "time": 1731264300000,
+        "time": 1729263000000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=632",
+        "notes": "",
+        "time": 1729271700000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=646",
+        "notes": "",
+        "time": 1729339200000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=652",
+        "notes": "",
+        "time": 1729347300000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=647",
+        "notes": "",
+        "time": 1729358700000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=662",
+        "notes": "",
+        "time": 1729425000000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=667",
+        "notes": "",
+        "time": 1729434000000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=732",
+        "notes": "",
+        "time": 1729443000000,
       },
     ],
-    "title": "A Matter of Life and Death (1946) - Beyond",
-    "url": "https://www.genesiscinema.co.uk/event/92499",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "age-restriction": "18",
-      "categories": [],
-      "directors": [],
-      "duration": 8340000,
-      "trailer": "https://www.youtube.com/watch?v=p1HxTmV5i7c",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=494",
-        "notes": "",
-        "time": 1731434400000,
-      },
-    ],
-    "title": "Anora: Black & Neurodiverse Movie Club Launch - A special screening and panel discussion of Anora",
-    "url": "https://www.genesiscinema.co.uk/event/92500",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "directors": [],
-      "duration": 9360000,
-      "trailer": "https://www.youtube.com/watch?v=4rgYUipGJNo",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=606",
-        "notes": "",
-        "time": 1731681000000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=607",
-        "notes": "",
-        "time": 1731692700000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=608",
-        "notes": "",
-        "time": 1731703500000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=611",
-        "notes": "",
-        "time": 1731765600000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=610",
-        "notes": "",
-        "time": 1731777900000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=609",
-        "notes": "",
-        "time": 1731790200000,
-      },
-    ],
-    "title": "Gladiator II",
-    "url": "https://www.genesiscinema.co.uk/event/90188",
+    "title": "The Wild Robot",
+    "url": "https://www.genesiscinema.co.uk/event/85814",
   },
 ]
 `;
