@@ -5,6 +5,7 @@ const Ajv = require("ajv");
 const addFormats = require("ajv-formats");
 const ics = require("ics");
 const dailyCache = require("./cache");
+const hydrate = require("./hydrate");
 const {
   generateEventDescription,
   getEventDate,
@@ -41,11 +42,22 @@ async function generateCalendar() {
     throw e;
   }
 
+  process.stdout.write(` - Hydrating movie data ...   `);
+  let hydratedShows;
+  try {
+    hydratedShows = await hydrate(shows);
+    const hydrated = hydratedShows.filter(({ moviedb }) => !!moviedb).length;
+    console.log(`\t✅ Hydrated (${hydrated} of ${hydratedShows.length})`);
+  } catch (e) {
+    console.log(`\t❌ Error hydrating`);
+    throw e;
+  }
+
   process.stdout.write(` - Validating data ...   `);
   const ajv = new Ajv({ allErrors: true });
   addFormats(ajv);
   const validate = ajv.compile(schema);
-  if (!validate(shows)) {
+  if (!validate(hydratedShows)) {
     console.log(`\t❌ Error validating`);
     console.log(validate.errors);
     throw new Error("Error validating");
@@ -53,12 +65,12 @@ async function generateCalendar() {
   console.log(`\t✅ Validated`);
 
   const dataFile = `./output/${cinema}-shows.json`;
-  writeFileSync(dataFile, JSON.stringify(shows, null, 4));
+  writeFileSync(dataFile, JSON.stringify(hydratedShows, null, 4));
 
   process.stdout.write(` - Generating calendar ...   `);
   let icsFormattedEvents;
   try {
-    icsFormattedEvents = shows.reduce((events, show) => {
+    icsFormattedEvents = hydratedShows.reduce((events, show) => {
       // Default to 90 minutes if we don't know the duration
       const duration = show.overview.duration || parseMinsToMs(90);
       const showEvents = show.performances.map((performance) => ({

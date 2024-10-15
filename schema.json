@@ -80,6 +80,27 @@
             }
           }
         }
+      },
+      "moviedb": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "releaseDate": {
+            "type": "string",
+            "minLength": 1
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": ["id", "title", "releaseDate", "summary"]
       }
     }
   }

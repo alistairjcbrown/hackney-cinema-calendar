@@ -16,6 +16,12 @@ const generateEventDescription = (show, performance) => {
   if (performance.bookingUrl)
     description += `Book tickets at ${performance.bookingUrl}\n`;
   if (performance.notes) description += `\nNotes:\n${performance.notes}\n`;
+  if (show.moviedb) {
+    description += `\n---\n\n`;
+    description += `[Match found in The Movie Database]\n`;
+    description += `${show.moviedb.title} (${show.moviedb.releaseDate.split("-")[0]}) - https://www.themoviedb.org/movie/${show.moviedb.id}\n`;
+    description += `${show.moviedb.summary}\n`;
+  }
   return description.trim();
 };
 
