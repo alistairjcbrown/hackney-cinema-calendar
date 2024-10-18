@@ -1,13 +1,12 @@
 const slugify = require("slugify");
 const { parse } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
-const { domain, cinemaId } = require("./attributes");
 const {
   filterHistoricalPerformances,
   parseMinsToMs,
 } = require("../../common/utils");
 
-async function transform({ movies }) {
+async function transform({ domain, cinemaId }, { movies }) {
   return movies.reduce((moviesAtCinema, movie) => {
     const slug = slugify(movie.Title);
     const showings = movie.show_times.filter(
@@ -52,7 +51,7 @@ async function transform({ movies }) {
           return {
             time: date.getTime(),
             screen: showing.ScreenName.replace("Screen ", ""),
-            notes: showing.attributes
+            notes: (showing.attributes || [])
               .map(
                 ({ attribute_full: title, description }) =>
                   `${title}: ${description}`,

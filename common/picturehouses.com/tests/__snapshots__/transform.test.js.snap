@@ -1,6 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Hackney Picturehouse when movies with local screenings provided returns an empty list of events 1`] = `
+exports[`Picturehouse Cinema (common) when movies with local screenings provided for Finsbury Park returns an empty list of events 1`] = `
+[
+  {
+    "overview": {
+      "actors": [],
+      "age-restriction": "U",
+      "categories": [],
+      "directors": [],
+      "duration": 6060000,
+      "trailer": "http://youtu.be/XRcOZZDvMv4",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=031&txtSessionId=28204&visLang=1",
+        "notes": "",
+        "screen": "6",
+        "time": 1722679200000,
+      },
+    ],
+    "title": "Labyrinth",
+    "url": "https://www.picturehouses.com/movie-details/031/HO00000223/Labyrinth",
+  },
+]
+`;
+
+exports[`Picturehouse Cinema (common) when movies with local screenings provided for Hackney returns an empty list of events 1`] = `
 [
   {
     "overview": {

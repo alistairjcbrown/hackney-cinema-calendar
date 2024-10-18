@@ -46,7 +46,8 @@ jobs:
       - run: npm run generate:princecharlescinema.com
       - run: npm run generate:genesiscinema.co.uk
       - run: npm run generate:thecastlecinema.com
-      - run: npm run generate:picturehouses.com
+      - run: npm run generate:picturehouses.com-hackney
+      - run: npm run generate:picturehouses.com-finsbury-park
       - run: npm run generate:riocinema.org.uk
 
       # Create release with assets

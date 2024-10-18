@@ -1,11 +1,9 @@
-const { domain, cinemaId } = require("./attributes");
+async function retrieve({ domain, cinemaId }) {
+  const variables = {
+    start_date: "show_all_dates",
+    cinema_id: cinemaId,
+  };
 
-const variables = {
-  start_date: "show_all_dates",
-  cinema_id: cinemaId,
-};
-
-async function retrieve() {
   const response = await fetch(`${domain}/api/get-movies-ajax`, {
     method: "POST",
     body: new URLSearchParams(variables).toString(),

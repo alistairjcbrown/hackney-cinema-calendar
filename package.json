@@ -8,7 +8,8 @@
     "test": "jest",
     "format": "prettier \"./**/*.js(on)?\" --write && prettier \"./**/*.md\" --write --prose-wrap=always",
     "generate:genesiscinema.co.uk": "TZ=Europe/London node index.js genesiscinema.co.uk",
-    "generate:picturehouses.com": "TZ=Europe/London node index.js picturehouses.com",
+    "generate:picturehouses.com-finsbury-park": "TZ=Europe/London node index.js picturehouses.com-finsbury-park",
+    "generate:picturehouses.com-hackney": "TZ=Europe/London node index.js picturehouses.com-hackney",
     "generate:princecharlescinema.com": "TZ=Europe/London node index.js princecharlescinema.com",
     "generate:riocinema.org.uk": "TZ=Europe/London node index.js riocinema.org.uk",
     "generate:thecastlecinema.com": "TZ=Europe/London node index.js thecastlecinema.com"

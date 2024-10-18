@@ -14,6 +14,8 @@ const getAndCacheData = ({ slug, year, normalizedTitle }) =>
   });
 
 function normalize(title) {
+  title = title.toLowerCase();
+
   const hasPresents = title.match(/\s+presents:?\s+(.*?)$/i);
   if (hasPresents) {
     title = hasPresents[1];
@@ -58,9 +60,9 @@ function normalize(title) {
     "Staff Selects Halloween Special:",
     "Carers & Babies:",
     "Carers & Babies Club:",
-    "Doc'N Roll:",
     "DOC'N ROLL:",
     "Doc'N Roll FF 24:",
+    "Doc'n Roll Film Festival Presents:",
     "for Halloween",
     "- UK PREMIERE",
     ": ANI DiFRANCO",
@@ -71,9 +73,12 @@ function normalize(title) {
     "Carers and Babies Club:",
     "Film Africa:",
     "The Dead Carpet :",
+    "ATOMIC ORIGINS:",
+    "Exhibition On Screen:",
+    "Green Screen:",
   ];
   knownRemovablePhrases.forEach((phrase) => {
-    title = title.replace(phrase, "");
+    title = title.replace(phrase.toLowerCase(), "");
   });
 
   const hasYear = title.trim().match(/\(\d{4}\)$/);
