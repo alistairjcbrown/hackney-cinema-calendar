@@ -28,28 +28,22 @@ The latest calendar files are available at:
 
 - 📅
   [genesiscinema.co.uk-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/genesiscinema.co.uk-calendar.ics)
-  ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/genesiscinema.co.uk-calendar.ics),
-  [Webcal](webcal://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/genesiscinema.co.uk-calendar.ics))
+  ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/genesiscinema.co.uk-calendar.ics))
 - 📅
   [picturehouses.com-finsbury-park-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/picturehouses.com-finsbury-park-calendar.ics)
-  ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/picturehouses.com-finsbury-park-calendar.ics),
-  [Webcal](webcal://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/picturehouses.com-finsbury-park-calendar.ics))
+  ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/picturehouses.com-finsbury-park-calendar.ics))
 - 📅
   [picturehouses.com-hackney-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/picturehouses.com-hackney-calendar.ics)
-  ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/picturehouses.com-hackney-calendar.ics),
-  [Webcal](webcal://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/picturehouses.com-hackney-calendar.ics))
+  ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/picturehouses.com-hackney-calendar.ics))
 - 📅
   [princecharlescinema.com-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/princecharlescinema.com-calendar.ics)
-  ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/princecharlescinema.com-calendar.ics),
-  [Webcal](webcal://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/princecharlescinema.com-calendar.ics))
+  ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/princecharlescinema.com-calendar.ics))
 - 📅
   [riocinema.org.uk-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/riocinema.org.uk-calendar.ics)
-  ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/riocinema.org.uk-calendar.ics),
-  [Webcal](webcal://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/riocinema.org.uk-calendar.ics))
+  ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/riocinema.org.uk-calendar.ics))
 - 📅
   [thecastlecinema.com-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/thecastlecinema.com-calendar.ics)
-  ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/thecastlecinema.com-calendar.ics),
-  [Webcal](webcal://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/thecastlecinema.com-calendar.ics))
+  ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/thecastlecinema.com-calendar.ics))
 
 ## ⚙️ How to use
 

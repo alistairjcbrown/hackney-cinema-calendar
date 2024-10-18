@@ -24,8 +24,7 @@ const calendarFiles = locations.map(({ site }) => {
   const link = `[${site}-calendar.ics](https://${calendarUri})`;
   // Note: calendar URL must use http and not https
   const googleCalendar = `[Google Calendar](https://calendar.google.com/calendar/render?cid=http://${calendarUri})`;
-  const webcal = `[Webcal](webcal://${calendarUri})`;
-  return `📅\n  ${link}\n  (${googleCalendar},\n  ${webcal})`;
+  return `📅\n  ${link}\n  (${googleCalendar})`;
 });
 
 console.log(
