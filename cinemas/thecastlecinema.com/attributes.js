@@ -1,4 +1,5 @@
 module.exports = {
+  name: "The Castle Cinema",
   domain: "https://thecastlecinema.com",
   url: "https://thecastlecinema.com",
   location:

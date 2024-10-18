@@ -1,4 +1,5 @@
 module.exports = {
+  name: "Prince Charles Cinema",
   domain: "https://princecharlescinema.com",
   url: "https://princecharlescinema.com",
   location: "Prince Charles Cinema, 7 Leicester Place, London WC2H 7BY, UK",

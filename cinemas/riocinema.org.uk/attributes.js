@@ -1,4 +1,5 @@
 module.exports = {
+  name: "Rio Cinema",
   domain: "https://www.riocinema.org.uk",
   url: "https://www.riocinema.org.uk",
   location: "Rio Cinema, 107 Kingsland High Street, London, E8 2PB, UK",

@@ -1,4 +1,5 @@
 module.exports = {
+  name: "Hackney Picturehouse",
   domain: "https://www.picturehouses.com",
   url: "https://www.picturehouses.com/cinema/hackney-picturehouse",
   location: "Hackney Picturehouse, 270 Mare Street, London, E8 1HE, UK",

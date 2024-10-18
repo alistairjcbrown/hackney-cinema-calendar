@@ -3,8 +3,9 @@ const moviesWithNoLocalScreenings = require("./mock-data/movie-with-no-local-scr
 const moviesWithLocalScreenings = require("./mock-data/movie-with-local-screenings.json");
 
 const formatParameter = (movies) => ({ movies });
-const hackney = { domain: "https://www.picturehouses.com", cinemaId: "010" };
-const finsburyPark = { domain: "https://www.picturehouses.com", cinemaId: "031" };
+const cinema = { domain: "https://www.picturehouses.com", cinemaId: undefined };
+const hackney = { ...cinema, cinemaId: "010" };
+const finsburyPark = { ...cinema, cinemaId: "031" };
 
 jest.useFakeTimers().setSystemTime(new Date("2024-08-01"));
 
