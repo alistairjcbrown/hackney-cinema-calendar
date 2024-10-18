@@ -7,33 +7,26 @@ const locations = getSites().map((site) => ({
   ...require(`../cinemas/${site}/attributes`),
 }));
 
-const locationUrls = locations.map(
-  ({ name, geo: { lat, lon } }) =>
-    `📍\n  [${name}](http://maps.google.com/maps?q=${encodeURIComponent(name)}+${encodeURIComponent("@")}${lat},${lon})`,
-);
-
-const dataSources = locations.map(({ url }) => `🌐 ${url}`);
-
-const calendarFiles = locations.map(({ site }) => {
+const locationUrls = locations.map(({ name, url, site, geo: { lat, lon } }) => {
+  const mapUrl = `http://maps.google.com/maps?q=${encodeURIComponent(name)}+${encodeURIComponent("@")}${lat},${lon}`;
   const calendarUri = `github.com/${repo}/releases/latest/download/${site}-calendar.ics`;
-  const link = `[${site}-calendar.ics](https://${calendarUri})`;
+  const calendarLink = `[${site}-calendar.ics](https://${calendarUri})`;
   // Note: calendar URL must use http and not https
-  const googleCalendar = `[Google Calendar](https://calendar.google.com/calendar/render?cid=http://${calendarUri})`;
-  return `📅\n  ${link}\n  (${googleCalendar})`;
+  const googleCalendarLink = `[Google Calendar](https://calendar.google.com/calendar/render?cid=http://${calendarUri})`;
+
+  return `${name} - 
+  [🌐 Site](${url})
+  &nbsp;|&nbsp;
+  [📍 Location](${mapUrl})
+
+  - 📅&nbsp;
+    ${calendarLink}
+    (${googleCalendarLink})
+`;
 });
 
 console.log(
-  `
-Automatically generated calendar of events at:
+  `Automatically generated calendar of events at:
 
-- ${locationUrls.join("\n- ")}
-
-Cinema listings from:
-
-- ${dataSources.join("\n- ")}
-
-The latest calendar files are available at:
-
-- ${calendarFiles.join("\n- ")}
-`.trim(),
+- ${locationUrls.join("\n- ")}`,
 );
