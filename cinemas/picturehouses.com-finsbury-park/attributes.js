@@ -4,6 +4,6 @@ module.exports = {
   url: "https://www.picturehouses.com/cinema/finsbury-park",
   location:
     "Finsbury Park Picturehouse, Unit 1 Cinema LS, 17 City North Place, London, N4 3FU, UK",
-  geo: { lat: 51.565450891883124, lon: -0.10763842328655573 },
+  geo: { lat: 51.56517572070054, lon: -0.10757585022923707 },
   cinemaId: "031",
 };

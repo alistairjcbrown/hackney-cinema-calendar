@@ -1,10 +1,13 @@
-const cinema = process.argv[2];
-
 const { writeFileSync } = require("fs");
 const Ajv = require("ajv");
 const addFormats = require("ajv-formats");
 const ics = require("ics");
-const { dailyCache, getCacheStats } = require("./common/cache");
+const getSites = require("./common/get-sites");
+const {
+  dailyCache,
+  getCacheStats,
+  clearCacheStats,
+} = require("./common/cache");
 const hydrate = require("./common/hydrate");
 const {
   generateEventDescription,
@@ -13,13 +16,15 @@ const {
   sanitize,
 } = require("./common/utils");
 const schema = require("./schema.json");
-const {
-  retrieve,
-  transform,
-  attributes: { url, location, geo },
-} = require(`./cinemas/${cinema}`);
 
-async function generateCalendar() {
+async function generateCalendar(cinema) {
+  const {
+    retrieve,
+    transform,
+    attributes: { url, location, geo },
+  } = require(`./cinemas/${cinema}`);
+  clearCacheStats();
+
   console.log(`[🎞️  Cinema: ${cinema}]`);
 
   process.stdout.write(` - Retriving data ...   `);
@@ -122,4 +127,18 @@ async function generateCalendar() {
   }
 }
 
-generateCalendar();
+(async function () {
+  const parameter = process.argv[2];
+  const sites = getSites();
+
+  if (parameter === "all") {
+    for (site of sites) {
+      await generateCalendar(site);
+      console.log("\n---\n");
+    }
+  } else if (sites.includes(parameter)) {
+    await generateCalendar(parameter);
+  } else {
+    throw new Error("❌ Invalid cinema site provided");
+  }
+})();

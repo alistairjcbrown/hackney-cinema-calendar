@@ -43,12 +43,21 @@ jobs:
       # Hydration calls to The Movie DB are cached, so earlier calls with more
       # specific data may provide better results to subsequent calls which then
       # get a cache hit.
-      - run: npm run generate:princecharlescinema.com
-      - run: npm run generate:genesiscinema.co.uk
-      - run: npm run generate:thecastlecinema.com
-      - run: npm run generate:picturehouses.com-hackney
-      - run: npm run generate:picturehouses.com-finsbury-park
-      - run: npm run generate:riocinema.org.uk
+      - run: npm run generate princecharlescinema.com
+      - run: npm run generate genesiscinema.co.uk
+      - run: npm run generate thecastlecinema.com
+      - run: npm run generate picturehouses.com-central
+      - run: npm run generate picturehouses.com-clapham
+      - run: npm run generate picturehouses.com-crouch-end
+      - run: npm run generate picturehouses.com-ealing
+      - run: npm run generate picturehouses.com-east-dulwich
+      - run: npm run generate picturehouses.com-greenwich
+      - run: npm run generate picturehouses.com-finsbury-park
+      - run: npm run generate picturehouses.com-hackney
+      - run: npm run generate picturehouses.com-the-gate
+      - run: npm run generate picturehouses.com-the-ritzy
+      - run: npm run generate picturehouses.com-west-norwood
+      - run: npm run generate riocinema.org.uk
 
       # Create release with assets
       - uses: ncipollo/release-action@v1

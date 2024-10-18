@@ -1,13 +1,8 @@
-const package = require("../package.json");
+const getSites = require("../common/get-sites");
+
 const repo = "alistairjcbrown/hackney-cinema-calendar";
 
-const sites = Object.keys(package.scripts).reduce((matched, name) => {
-  const isGenerate = name.match(/^generate:(.*)$/i);
-  if (isGenerate) return matched.concat(isGenerate[1].toLowerCase());
-  return matched;
-}, []);
-
-const locations = sites.map((site) => ({
+const locations = getSites().map((site) => ({
   site,
   ...require(`../cinemas/${site}/attributes`),
 }));

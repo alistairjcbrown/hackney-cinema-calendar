@@ -11,6 +11,11 @@ function getCacheStats() {
   return cacheStats;
 }
 
+function clearCacheStats() {
+  cacheStats.misses = [];
+  cacheStats.hits = [];
+}
+
 function getCachePath(filename) {
   return path.join(".", "cache", filename);
 }
@@ -61,6 +66,7 @@ function dailyCache(key, retrieve) {
 }
 
 module.exports = {
+  clearCacheStats,
   getCacheStats,
   getCachePath,
   cache,

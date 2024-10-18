@@ -76,6 +76,9 @@ function normalize(title) {
     "ATOMIC ORIGINS:",
     "Exhibition On Screen:",
     "Green Screen:",
+    "SLA:",
+    "OUT at Clapham:",
+    "OUT:",
   ];
   knownRemovablePhrases.forEach((phrase) => {
     title = title.replace(phrase.toLowerCase(), "");
