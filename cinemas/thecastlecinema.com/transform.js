@@ -1,8 +1,8 @@
 const cheerio = require("cheerio");
 const { parse, isBefore, startOfDay, addYears } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
-const dailyCache = require("../../cache");
-const { convertToList, parseMinsToMs } = require("../../utils");
+const { dailyCache } = require("../../common/cache");
+const { convertToList, parseMinsToMs } = require("../../common/utils");
 const { domain } = require("./attributes");
 const retrieve = require("./retrieve");
 

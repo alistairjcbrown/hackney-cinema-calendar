@@ -4,14 +4,14 @@ const { writeFileSync } = require("fs");
 const Ajv = require("ajv");
 const addFormats = require("ajv-formats");
 const ics = require("ics");
-const dailyCache = require("./cache");
-const hydrate = require("./hydrate");
+const { dailyCache, getCacheStats } = require("./common/cache");
+const hydrate = require("./common/hydrate");
 const {
   generateEventDescription,
   getEventDate,
   parseMinsToMs,
   sanitize,
-} = require("./utils");
+} = require("./common/utils");
 const schema = require("./schema.json");
 const {
   retrieve,
@@ -102,6 +102,24 @@ async function generateCalendar() {
   writeFileSync(calendarFile, value);
 
   console.log(`🗂️  Files created`);
+  console.log("");
+
+  const {
+    hits: { length: hit },
+    misses: { length: miss },
+  } = getCacheStats();
+  const percentage = Math.round((hit / (hit + miss)) * 100);
+  console.log(`📊 ${percentage}% cache success (${hit} hits, ${miss} misses)`);
+
+  const unhydrated = hydratedShows.filter((show) => !show.moviedb);
+  const unhydratedCount = unhydrated.length;
+  if (unhydratedCount > 0) {
+    const showsText = `show${unhydratedCount === 1 ? "" : "s"}`;
+    console.log(`🏜️ Unable to hydrate ${unhydratedCount} ${showsText}`);
+    console.log(` * ${unhydrated.map(({ title }) => title).join("\n * ")}`);
+  } else {
+    console.log(`🌊 All shows hydrated`);
+  }
 }
 
 generateCalendar();

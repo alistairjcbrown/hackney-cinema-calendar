@@ -4,7 +4,7 @@ const {
   filterHistoricalPerformances,
   convertToList,
   parseMinsToMs,
-} = require("../../utils");
+} = require("../../common/utils");
 
 const screenMapping = {
   115: "1",

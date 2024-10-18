@@ -13,7 +13,9 @@ const moviesWithLocalScreenings = readMockData("movie-with-local-screenings");
 jest.useFakeTimers().setSystemTime(new Date("2024-10-14"));
 
 // Disable caching for test
-jest.mock("../../../cache", () => (key, retrieve) => retrieve());
+jest.mock("../../../common/cache", () => ({
+  dailyCache: (key, retrieve) => retrieve(),
+}));
 
 // Mock retrieve calls for additional data
 jest.mock("../retrieve", () => (url) => {

@@ -2,16 +2,29 @@ const fs = require("node:fs");
 const path = require("node:path");
 const { format } = require("date-fns");
 
-function getPathDaily(filename) {
-  const suffix = format(new Date(), "yyyy-MM-dd");
-  return path.join(".", "cache", `${filename}-${suffix}`);
+const cacheStats = {
+  misses: [],
+  hits: [],
+};
+
+function getCacheStats() {
+  return cacheStats;
 }
 
-function checkCache(filename, getPath = getPathDaily) {
+function getCachePath(filename) {
+  return path.join(".", "cache", filename);
+}
+
+function getPathDaily(filename) {
+  const suffix = format(new Date(), "yyyy-MM-dd");
+  return getCachePath(`${filename}-${suffix}`);
+}
+
+function checkCache(filename, getPath) {
   return fs.existsSync(getPath(filename));
 }
 
-function readCache(filename, getPath = getPathDaily) {
+function readCache(filename, getPath) {
   const data = fs.readFileSync(getPath(filename), "utf8");
   try {
     return JSON.parse(data);
@@ -20,7 +33,7 @@ function readCache(filename, getPath = getPathDaily) {
   }
 }
 
-function writeCache(filename, value, getPath = getPathDaily) {
+function writeCache(filename, value, getPath) {
   let data;
   try {
     data = JSON.stringify(value, null, 2);
@@ -30,15 +43,26 @@ function writeCache(filename, value, getPath = getPathDaily) {
   fs.writeFileSync(getPath(filename), data);
 }
 
-async function cache(key, retrieve, getPath = getPathDaily) {
+async function cache(key, retrieve, getPath = getCachePath) {
   let data;
   if (checkCache(key, getPath)) {
     data = readCache(key, getPath);
+    cacheStats.hits.push(key);
   } else {
     data = await retrieve();
     writeCache(key, data, getPath);
+    cacheStats.misses.push(key);
   }
   return data;
 }
 
-module.exports = cache;
+function dailyCache(key, retrieve) {
+  return cache(key, retrieve, getPathDaily);
+}
+
+module.exports = {
+  getCacheStats,
+  getCachePath,
+  cache,
+  dailyCache,
+};

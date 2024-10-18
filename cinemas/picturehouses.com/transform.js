@@ -2,7 +2,10 @@ const slugify = require("slugify");
 const { parse } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
 const { domain, cinemaId } = require("./attributes");
-const { filterHistoricalPerformances, parseMinsToMs } = require("../../utils");
+const {
+  filterHistoricalPerformances,
+  parseMinsToMs,
+} = require("../../common/utils");
 
 async function transform({ movies }) {
   return movies.reduce((moviesAtCinema, movie) => {

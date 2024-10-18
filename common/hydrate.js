@@ -1,26 +1,17 @@
 const path = require("node:path");
 const slugify = require("slugify");
 const { MovieDb } = require("moviedb-promise");
-const cache = require("./cache");
+const { dailyCache } = require("./cache");
 require("dotenv").config();
 
 const moviedb = new MovieDb(process.env.MOVIEDB_API_KEY);
 
-function getPath(filename) {
-  return path.join(".", "cache", filename);
-}
-
 const getAndCacheData = ({ slug, year, normalizedTitle }) =>
-  cache(
-    `moviedb--${slug}`,
-    async () => {
-      const payload = { query: normalizedTitle };
-      if (year) payload.year = year;
-      const response = await moviedb.searchMovie(payload);
-      return response;
-    },
-    getPath,
-  );
+  dailyCache(`moviedb-${slug}`, async () => {
+    const payload = { query: normalizedTitle };
+    if (year) payload.year = year;
+    return moviedb.searchMovie(payload);
+  });
 
 function normalize(title) {
   const hasPresents = title.match(/\s+presents:?\s+(.*?)$/i);
@@ -66,6 +57,7 @@ function normalize(title) {
     "Bar Trash:",
     "Staff Selects Halloween Special:",
     "Carers & Babies:",
+    "Carers & Babies Club:",
     "Doc'N Roll:",
     "DOC'N ROLL:",
     "Doc'N Roll FF 24:",

@@ -8,7 +8,7 @@ const {
   setMinutes,
 } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
-const { convertToList, parseMinsToMs } = require("../../utils");
+const { convertToList, parseMinsToMs } = require("../../common/utils");
 
 function getListFromLine($, $lines, prefix) {
   let list = [];
