@@ -1,0 +1,514 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BFI (common) when movies with local screenings provided for IMAX returns a list of events 1`] = `
+[
+  {
+    "overview": {
+      "actors": [
+        "Matthew McConaughey",
+        "Jessica Chastain",
+        "Mackenzie Foy",
+        "Anne Hathaway and Timothee Chalamet",
+      ],
+      "age-restriction": "12A",
+      "categories": [],
+      "directors": [
+        "Christopher Nolan",
+      ],
+      "duration": 10080000,
+      "year": "2014",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=DE12D7A7-4116-4D1E-8B08-261F34FC4989",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1729516500000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=DE12D7A7-4116-4D1E-8B08-261F34FC4989",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1729602900000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=DE12D7A7-4116-4D1E-8B08-261F34FC4989",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1729767600000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=DE12D7A7-4116-4D1E-8B08-261F34FC4989",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1730481600000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=DE12D7A7-4116-4D1E-8B08-261F34FC4989",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1731265200000,
+      },
+    ],
+    "title": "Interstellar",
+    "url": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=DE12D7A7-4116-4D1E-8B08-261F34FC4989",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Lupita Nyong’o",
+        "Pedro Pascal",
+        "Catherine O'Hara",
+        "Bill Nighy",
+        "Kit Connor",
+      ],
+      "age-restriction": "U",
+      "categories": [],
+      "directors": [
+        "Chris Sanders",
+      ],
+      "duration": 6120000,
+      "year": "2024",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=11E424B9-AC05-4F29-A562-77489694AA99",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1729530000000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=11E424B9-AC05-4F29-A562-77489694AA99",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1729616400000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=11E424B9-AC05-4F29-A562-77489694AA99",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1729790100000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=11E424B9-AC05-4F29-A562-77489694AA99",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1729855800000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=11E424B9-AC05-4F29-A562-77489694AA99",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1729934100000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=11E424B9-AC05-4F29-A562-77489694AA99",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1730118600000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=11E424B9-AC05-4F29-A562-77489694AA99",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1730205000000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=11E424B9-AC05-4F29-A562-77489694AA99",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1730288700000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=11E424B9-AC05-4F29-A562-77489694AA99",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1730378700000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=11E424B9-AC05-4F29-A562-77489694AA99",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1730463300000,
+      },
+    ],
+    "title": "The Wild Robot",
+    "url": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=11E424B9-AC05-4F29-A562-77489694AA99",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Joaquin Phoenix",
+        "Lady Gaga",
+        "Catherine Keener",
+        "Zazie Beetz",
+        "Brendan Gleeson",
+        "Steve Coogan",
+      ],
+      "age-restriction": "15",
+      "categories": [],
+      "directors": [
+        "Todd Phillips",
+      ],
+      "duration": 8280000,
+      "year": "2024",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=1C8C86EE-26F2-4C63-9682-4071BEA9389C",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1729539000000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=1C8C86EE-26F2-4C63-9682-4071BEA9389C",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1729799100000,
+      },
+    ],
+    "title": "Joker: Folie a Deux",
+    "url": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=1C8C86EE-26F2-4C63-9682-4071BEA9389C",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Joaquin Phoenix",
+        "Lady Gaga",
+        "Catherine Keener",
+        "Zazie Beetz",
+        "Brendan Gleeson",
+        "Steve Coogan",
+      ],
+      "age-restriction": "15",
+      "categories": [],
+      "directors": [
+        "Todd Phillips",
+      ],
+      "duration": 8280000,
+      "year": "2024",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=2C6ABE1F-6361-4B12-96AD-5DF64E16EB63",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1729625400000,
+      },
+    ],
+    "title": "Joker: Folie a Deux (with subtitles for the D/deaf and those experiencing hearing loss)",
+    "url": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=2C6ABE1F-6361-4B12-96AD-5DF64E16EB63",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "age-restriction": "12A",
+      "categories": [],
+      "directors": [
+        "Tensai Okamura",
+      ],
+      "duration": 6660000,
+      "year": "2024",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=F868E46F-74CF-4C0B-84AE-6A07DFBE69E0",
+        "notes": "",
+        "screen": "BFI IMAX",
+        "time": 1729780800000,
+      },
+    ],
+    "title": "My Hero Academia: You’re Next",
+    "url": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=F868E46F-74CF-4C0B-84AE-6A07DFBE69E0",
+  },
+]
+`;
+
+exports[`BFI (common) when movies with local screenings provided for Southbank returns a list of events 1`] = `
+[
+  {
+    "overview": {
+      "actors": [
+        "Harold Lloyd",
+      ],
+      "age-restriction": "U",
+      "categories": [],
+      "directors": [],
+      "duration": 4140000,
+      "year": "1923",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=750D4137-91F5-4130-9FA0-BFD50B48C1F0",
+        "notes": "",
+        "screen": "NFT2",
+        "time": 1729517400000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=750D4137-91F5-4130-9FA0-BFD50B48C1F0",
+        "notes": "",
+        "screen": "NFT3",
+        "time": 1730838600000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=750D4137-91F5-4130-9FA0-BFD50B48C1F0",
+        "notes": "",
+        "screen": "NFT1",
+        "time": 1732983000000,
+      },
+    ],
+    "title": "Safety Last!",
+    "url": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=750D4137-91F5-4130-9FA0-BFD50B48C1F0",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Sebastian Stan",
+        "Jeremy Strong",
+        "Maria Bakalova",
+        "Martin Donovan",
+      ],
+      "categories": [],
+      "directors": [
+        "Ali Abbasi",
+      ],
+      "duration": 7320000,
+      "year": "2024",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9072A534-B5CD-4304-B6D9-6561FC7C15BD",
+        "notes": "",
+        "screen": "NFT4",
+        "time": 1729518000000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9072A534-B5CD-4304-B6D9-6561FC7C15BD",
+        "notes": "",
+        "screen": "NFT2",
+        "time": 1729530000000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9072A534-B5CD-4304-B6D9-6561FC7C15BD",
+        "notes": "",
+        "screen": "NFT2",
+        "time": 1729539300000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9072A534-B5CD-4304-B6D9-6561FC7C15BD",
+        "notes": "",
+        "screen": "NFT4",
+        "time": 1729603200000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9072A534-B5CD-4304-B6D9-6561FC7C15BD",
+        "notes": "",
+        "screen": "NFT3",
+        "time": 1729616400000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9072A534-B5CD-4304-B6D9-6561FC7C15BD",
+        "notes": "",
+        "screen": "NFT3",
+        "time": 1729625700000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9072A534-B5CD-4304-B6D9-6561FC7C15BD",
+        "notes": "",
+        "screen": "NFT4",
+        "time": 1729691100000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9072A534-B5CD-4304-B6D9-6561FC7C15BD",
+        "notes": "",
+        "screen": "NFT4",
+        "time": 1729712100000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9072A534-B5CD-4304-B6D9-6561FC7C15BD",
+        "notes": "",
+        "screen": "NFT4",
+        "time": 1729768500000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9072A534-B5CD-4304-B6D9-6561FC7C15BD",
+        "notes": "",
+        "screen": "NFT3",
+        "time": 1729789200000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9072A534-B5CD-4304-B6D9-6561FC7C15BD",
+        "notes": "",
+        "screen": "NFT3",
+        "time": 1729798500000,
+      },
+    ],
+    "title": "The Apprentice",
+    "url": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9072A534-B5CD-4304-B6D9-6561FC7C15BD",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Alice Lowe",
+        "Aneurin Barnard",
+        "Tanya Reynolds",
+      ],
+      "age-restriction": "15",
+      "categories": [],
+      "directors": [
+        "Alice Lowe",
+      ],
+      "duration": 5760000,
+      "year": "2024",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=487C17A5-A6F1-4086-AF05-9661017029CF",
+        "notes": "",
+        "screen": "NFT4",
+        "time": 1729530900000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=487C17A5-A6F1-4086-AF05-9661017029CF",
+        "notes": "",
+        "screen": "NFT4",
+        "time": 1729539600000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=487C17A5-A6F1-4086-AF05-9661017029CF",
+        "notes": "",
+        "screen": "NFT4",
+        "time": 1729617000000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=487C17A5-A6F1-4086-AF05-9661017029CF",
+        "notes": "",
+        "screen": "NFT4",
+        "time": 1729626300000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=487C17A5-A6F1-4086-AF05-9661017029CF",
+        "notes": "",
+        "screen": "NFT4",
+        "time": 1729702200000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=487C17A5-A6F1-4086-AF05-9661017029CF",
+        "notes": "",
+        "screen": "NFT4",
+        "time": 1729777800000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=487C17A5-A6F1-4086-AF05-9661017029CF",
+        "notes": "",
+        "screen": "NFT4",
+        "time": 1729798200000,
+      },
+    ],
+    "title": "Timestalker",
+    "url": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=487C17A5-A6F1-4086-AF05-9661017029CF",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Mel Gibson",
+        "Bruce Spence",
+        "Vernon Wells",
+      ],
+      "age-restriction": "15",
+      "categories": [],
+      "directors": [
+        "George Miller",
+      ],
+      "duration": 5760000,
+      "year": "1981",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=E74036FC-CB12-471F-A791-5B0A3F56407C",
+        "notes": "",
+        "screen": "NFT3",
+        "time": 1729531200000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=E74036FC-CB12-471F-A791-5B0A3F56407C",
+        "notes": "",
+        "screen": "NFT1",
+        "time": 1732740600000,
+      },
+    ],
+    "title": "Mad Max 2: The Road Warrior",
+    "url": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=E74036FC-CB12-471F-A791-5B0A3F56407C",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Takashi Shimura",
+        "Toshiro Mifune",
+        "Yoshio Inaba",
+        "Seiji Miyaguchi",
+      ],
+      "age-restriction": "PG",
+      "categories": [],
+      "directors": [
+        "Akira Kurosawa",
+      ],
+      "duration": 5400000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=C8C26BFA-BDFF-4932-AAE6-CE88047F5731",
+        "notes": "",
+        "screen": "NFT1",
+        "time": 1729531800000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=C8C26BFA-BDFF-4932-AAE6-CE88047F5731",
+        "notes": "",
+        "screen": "NFT1",
+        "time": 1730640600000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=C8C26BFA-BDFF-4932-AAE6-CE88047F5731",
+        "notes": "",
+        "screen": "NFT1",
+        "time": 1731239100000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=C8C26BFA-BDFF-4932-AAE6-CE88047F5731",
+        "notes": "",
+        "screen": "NFT1",
+        "time": 1732458600000,
+      },
+    ],
+    "title": "Seven Samurai",
+    "url": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=C8C26BFA-BDFF-4932-AAE6-CE88047F5731",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Paul Winfield",
+        "Olivia Cole",
+        "Rosalind Cash",
+        "C.C.H. Pounder",
+      ],
+      "categories": [],
+      "directors": [
+        "Stan Latham",
+      ],
+      "duration": 5760000,
+      "year": "1985",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=FCDB6506-B0B5-45A7-8E7D-C8DC8945D2A5",
+        "notes": "",
+        "screen": "NFT3",
+        "time": 1729539000000,
+      },
+    ],
+    "title": "Go Tell It on the Mountain",
+    "url": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=FCDB6506-B0B5-45A7-8E7D-C8DC8945D2A5",
+  },
+]
+`;
