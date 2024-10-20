@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`The Castle Cinema when movies with local screenings provided returns an empty list of events 1`] = `
+exports[`The Castle Cinema when movies with local screenings provided returns a list of events 1`] = `
 [
   {
     "overview": {

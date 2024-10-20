@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Picturehouse Cinema (common) when movies with local screenings provided for Finsbury Park returns an empty list of events 1`] = `
+exports[`Picturehouse Cinema (common) when movies with local screenings provided for Finsbury Park returns a list of events 1`] = `
 [
   {
     "overview": {
@@ -25,7 +25,7 @@ exports[`Picturehouse Cinema (common) when movies with local screenings provided
 ]
 `;
 
-exports[`Picturehouse Cinema (common) when movies with local screenings provided for Hackney returns an empty list of events 1`] = `
+exports[`Picturehouse Cinema (common) when movies with local screenings provided for Hackney returns a list of events 1`] = `
 [
   {
     "overview": {

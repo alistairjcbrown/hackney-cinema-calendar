@@ -14,7 +14,7 @@ describe("Rio Cinema", () => {
   });
 
   describe("when movies with local screenings provided", () => {
-    it("returns an empty list of events", async () => {
+    it("returns a list of events", async () => {
       const value = formatParameter(moviesWithLocalScreenings);
       expect(await transform(value)).toMatchSnapshot();
     });

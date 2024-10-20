@@ -1,4 +1,3 @@
-const path = require("node:path");
 const slugify = require("slugify");
 const { MovieDb } = require("moviedb-promise");
 const { dailyCache } = require("./cache");
@@ -10,7 +9,16 @@ const getAndCacheData = ({ slug, year, normalizedTitle }) =>
   dailyCache(`moviedb-${slug}`, async () => {
     const payload = { query: normalizedTitle };
     if (year) payload.year = year;
-    return moviedb.searchMovie(payload);
+    const search = await moviedb.searchMovie(payload);
+
+    // If there's a year available, sometimes the movie listing
+    // the year off by 1. Let's try again with the year incremented.
+    if (search.results.length === 0 && year) {
+      payload.year = year + 1;
+      return moviedb.searchMovie(payload);
+    }
+
+    return search;
   });
 
 function normalize(title) {
@@ -79,6 +87,16 @@ function normalize(title) {
     "SLA:",
     "OUT at Clapham:",
     "OUT:",
+    "UK Premiere:",
+    "London Korean Film Festival Opening Gala:",
+    "Closing Night Gala:",
+    "60th anniversary screenings",
+    "60th anniversary screening",
+    "with intro",
+    "with Dr Catherine Lester",
+    "Library Talks Screening:",
+    "Funday:",
+    "(BFI Classics) with David Forrest",
   ];
   knownRemovablePhrases.forEach((phrase) => {
     title = title.replace(phrase.toLowerCase(), "");
