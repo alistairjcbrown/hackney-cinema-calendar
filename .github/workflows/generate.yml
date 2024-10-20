@@ -33,16 +33,18 @@ jobs:
         with:
           node-version-file: .node-version
       - run: npm ci
+      - run: npx playwright install --with-deps
       - name: Get current date and time
         id: date
         run: |
-          echo "currentDate=$(TZ=Europe/Belfast date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
-          echo "currentTime=$(TZ=Europe/Belfast date +'%H:%M:%S')" >> "$GITHUB_OUTPUT"
+          echo "currentDate=$(TZ=Europe/London date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+          echo "currentTime=$(TZ=Europe/London date +'%H:%M:%S')" >> "$GITHUB_OUTPUT"
 
       # Generate files (order is important)
       # Hydration calls to The Movie DB are cached, so earlier calls with more
       # specific data may provide better results to subsequent calls which then
       # get a cache hit.
+      - run: xvfb-run npm run generate bfi.org.uk-southbank
       - run: npm run generate princecharlescinema.com
       - run: npm run generate genesiscinema.co.uk
       - run: npm run generate thecastlecinema.com
