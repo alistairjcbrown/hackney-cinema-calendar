@@ -44,6 +44,7 @@ jobs:
       # Hydration calls to The Movie DB are cached, so earlier calls with more
       # specific data may provide better results to subsequent calls which then
       # get a cache hit.
+      - run: xvfb-run npm run generate bfi.org.uk-imax
       - run: xvfb-run npm run generate bfi.org.uk-southbank
       - run: npm run generate princecharlescinema.com
       - run: npm run generate genesiscinema.co.uk
