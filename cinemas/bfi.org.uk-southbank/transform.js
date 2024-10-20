@@ -83,7 +83,7 @@ async function getShow({ url }) {
       retrieve(performancePage.url),
     );
     const $ = cheerio.load(data);
-    performances = await getPerformancesFrom($, url);
+    performances = performances.concat(await getPerformancesFrom($, url));
   }
 
   if (performances.length === 0) return;

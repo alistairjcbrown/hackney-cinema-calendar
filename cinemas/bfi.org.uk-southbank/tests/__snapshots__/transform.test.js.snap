@@ -136,6 +136,36 @@ exports[`BFI Southbank when movies with local screenings provided returns a list
         "bookingUrl": "https://whatson.bfi.org.uk/Online/article/watership-down",
         "notes": "",
         "screen": "NFT4",
+        "time": 1729855800000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/article/watership-down",
+        "notes": "",
+        "screen": "NFT2",
+        "time": 1729876800000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/article/watership-down",
+        "notes": "",
+        "screen": "NFT2",
+        "time": 1729944000000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/article/watership-down",
+        "notes": "",
+        "screen": "NFT3",
+        "time": 1730029800000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/article/watership-down",
+        "notes": "",
+        "screen": "NFT4",
+        "time": 1730125200000,
+      },
+      {
+        "bookingUrl": "https://whatson.bfi.org.uk/Online/article/watership-down",
+        "notes": "",
+        "screen": "NFT4",
         "time": 1730211000000,
       },
       {
