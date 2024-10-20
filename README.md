@@ -2,6 +2,14 @@
 
 Automatically generated calendar of events at:
 
+- BFI Southbank - [🌐 Site](https://whatson.bfi.org.uk/Online/default.asp)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=BFI%20Southbank+%4051.50694478669063,-0.11512917647911004)
+
+  - 📅&nbsp;
+    [bfi.org.uk-southbank-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/bfi.org.uk-southbank-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/bfi.org.uk-southbank-calendar.ics))
+
 - Genesis Cinema - [🌐 Site](https://www.genesiscinema.co.uk) &nbsp;|&nbsp;
   [📍 Location](http://maps.google.com/maps?q=Genesis%20Cinema+%4051.52128726645794,-0.051143457671891594)
 
