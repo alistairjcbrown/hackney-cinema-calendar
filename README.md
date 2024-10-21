@@ -25,6 +25,13 @@ Automatically generated calendar of events at:
     [genesiscinema.co.uk-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/genesiscinema.co.uk-calendar.ics)
     ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/genesiscinema.co.uk-calendar.ics))
 
+- Phoenix Cinema - [🌐 Site](https://www.phoenixcinema.co.uk) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Phoenix%20Cinema+%4051.58853061979289,-0.16390063689779108)
+
+  - 📅&nbsp;
+    [phoenixcinema.co.uk-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/phoenixcinema.co.uk-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/phoenixcinema.co.uk-calendar.ics))
+
 - Picturehouse Central -
   [🌐 Site](https://www.picturehouses.com/cinema/picturehouse-central)
   &nbsp;|&nbsp;
