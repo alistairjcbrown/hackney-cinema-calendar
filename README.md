@@ -2,6 +2,14 @@
 
 Automatically generated calendar of events at:
 
+- BFI IMAX - [🌐 Site](https://whatson.bfi.org.uk/imax/Online/default.asp)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=BFI%20IMAX+%4051.50505250318286,-0.11364253090880974)
+
+  - 📅&nbsp;
+    [bfi.org.uk-imax-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/bfi.org.uk-imax-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/bfi.org.uk-imax-calendar.ics))
+
 - BFI Southbank - [🌐 Site](https://whatson.bfi.org.uk/Online/default.asp)
   &nbsp;|&nbsp;
   [📍 Location](http://maps.google.com/maps?q=BFI%20Southbank+%4051.50694478669063,-0.11512917647911004)
