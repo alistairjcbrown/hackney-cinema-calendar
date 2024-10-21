@@ -77,6 +77,7 @@ jobs:
       - run: npm run generate picturehouses.com-the-ritzy
       - run: npm run generate picturehouses.com-west-norwood
       - run: npm run generate riocinema.org.uk
+      - run: npm run generate regentstreetcinema.com
 
       # Create release with assets
       - uses: ncipollo/release-action@v1
