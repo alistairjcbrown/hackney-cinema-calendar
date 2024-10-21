@@ -20,7 +20,7 @@ const generateEventDescription = (show, performance) => {
     description += `\n---\n\n`;
     description += `[Match found in The Movie Database]\n`;
     description += `${show.moviedb.title} (${show.moviedb.releaseDate.split("-")[0]}) - https://www.themoviedb.org/movie/${show.moviedb.id}\n`;
-    description += `${show.moviedb.summary}\n`;
+    description += `${show.moviedb.summary || "No summary available"}\n`;
   }
   return description.trim();
 };

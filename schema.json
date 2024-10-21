@@ -96,8 +96,7 @@
             "minLength": 1
           },
           "summary": {
-            "type": "string",
-            "minLength": 1
+            "type": "string"
           }
         },
         "required": ["id", "title", "releaseDate", "summary"]

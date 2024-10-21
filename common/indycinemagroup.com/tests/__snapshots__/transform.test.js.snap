@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Rio Cinema when movies with local screenings provided returns a list of events 1`] = `
+exports[`Cinema powered by Indy Cinema Group when movies with local screenings provided for Rio Cinema returns a list of events 1`] = `
 [
   {
     "overview": {
