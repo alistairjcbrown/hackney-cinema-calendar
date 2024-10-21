@@ -128,6 +128,14 @@ Automatically generated calendar of events at:
     [princecharlescinema.com-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/princecharlescinema.com-calendar.ics)
     ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/princecharlescinema.com-calendar.ics))
 
+- Regent Street Cinema - [🌐 Site](https://www.regentstreetcinema.com)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Regent%20Street%20Cinema+%4051.51697797578034,-0.14287260207236563)
+
+  - 📅&nbsp;
+    [regentstreetcinema.com-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/regentstreetcinema.com-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/regentstreetcinema.com-calendar.ics))
+
 - Rio Cinema - [🌐 Site](https://www.riocinema.org.uk) &nbsp;|&nbsp;
   [📍 Location](http://maps.google.com/maps?q=Rio%20Cinema+%4051.54970097438604,-0.07550473771574956)
 
