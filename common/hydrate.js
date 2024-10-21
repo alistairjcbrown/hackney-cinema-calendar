@@ -120,6 +120,7 @@ function normalize(title) {
     "28th MADE IN PRAGE FESTIVAL GALA:",
     "CinemaItaliaUK Special Screening of",
     ": SCRT X MUBI PRESENT",
+    "London Breeze Festival:",
   ];
   knownRemovablePhrases.forEach((phrase) => {
     title = title.replace(phrase.toLowerCase(), "");
