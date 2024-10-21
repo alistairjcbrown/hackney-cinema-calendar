@@ -46,15 +46,17 @@ jobs:
       # get a cache hit.
 
       # BFI runs needs a full browser and are flaky, so retry if they initially fail
-      - uses: nick-fields/retry@v3
+      - name: npm run generate bfi.org.uk-imax
+        uses: nick-fields/retry@v3
         with:
-          timeout_minutes: 10
+          timeout_minutes: 5
           retry_wait_seconds: 5
           max_attempts: 5
           command: xvfb-run npm run generate bfi.org.uk-imax
-      - uses: nick-fields/retry@v3
+      - name: npm run generate bfi.org.uk-southbank
+        uses: nick-fields/retry@v3
         with:
-          timeout_minutes: 10
+          timeout_minutes: 15
           retry_wait_seconds: 5
           max_attempts: 5
           command: xvfb-run npm run generate bfi.org.uk-southbank

@@ -107,7 +107,7 @@ async function generateCalendar(cinema) {
   writeFileSync(calendarFile, value);
 
   console.log(`🗂️  Files created`);
-  console.log("");
+  console.log(" ");
 
   const {
     hits: { length: hit },
