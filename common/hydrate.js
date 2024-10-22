@@ -121,6 +121,7 @@ function normalize(title) {
     "CinemaItaliaUK Special Screening of",
     ": SCRT X MUBI PRESENT",
     "London Breeze Festival:",
+    "1999 Season:",
   ];
   knownRemovablePhrases.forEach((phrase) => {
     title = title.replace(phrase.toLowerCase(), "");
