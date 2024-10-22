@@ -79,6 +79,8 @@ jobs:
       - run: npm run generate riocinema.org.uk
       - run: npm run generate regentstreetcinema.com
       - run: npm run generate phoenixcinema.co.uk
+      - run: npm run generate electriccinema.co.uk-portobello
+      - run: npm run generate electriccinema.co.uk-white-city
 
       # Create release with assets
       - uses: ncipollo/release-action@v1
