@@ -18,6 +18,22 @@ Automatically generated calendar of events at:
     [bfi.org.uk-southbank-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/bfi.org.uk-southbank-calendar.ics)
     ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/bfi.org.uk-southbank-calendar.ics))
 
+- Electric Cinema Portobello -
+  [🌐 Site](https://www.electriccinema.co.uk/cinemas/portobello/) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Electric%20Cinema%20Portobello+%4051.51573808588957,-0.20493321741616657)
+
+  - 📅&nbsp;
+    [electriccinema.co.uk-portobello-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/electriccinema.co.uk-portobello-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/electriccinema.co.uk-portobello-calendar.ics))
+
+- Electric Cinema White City -
+  [🌐 Site](https://www.electriccinema.co.uk/cinemas/whitecity/) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Electric%20Cinema%20White%20City+%4051.510808063329954,-0.22545809809352405)
+
+  - 📅&nbsp;
+    [electriccinema.co.uk-white-city-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/electriccinema.co.uk-white-city-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/electriccinema.co.uk-white-city-calendar.ics))
+
 - Genesis Cinema - [🌐 Site](https://www.genesiscinema.co.uk) &nbsp;|&nbsp;
   [📍 Location](http://maps.google.com/maps?q=Genesis%20Cinema+%4051.52128726645794,-0.051143457671891594)
 
