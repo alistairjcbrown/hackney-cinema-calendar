@@ -74,8 +74,13 @@ async function retrieve(attributes) {
     async (page) => {
       const pages = [];
       while (true) {
-        await page.waitForLoadState("domcontentloaded");
-        await page.getByRole("heading", { level: 1 }).waitFor();
+        // Wait until the page is finished everything
+        await page.waitForLoadState("networkidle");
+        // Make sure there's results showing
+        await page.locator(".detailed-search-results").waitFor();
+        // Make sure there's pagination available (this will break if BFI ever only has 1 page of results)
+        await page.locator(".pagination-box").waitFor();
+
         pages.push(await page.content());
 
         const $nextPageButton = await page.locator("css=#av-next-link");
@@ -84,6 +89,7 @@ async function retrieve(attributes) {
 
           // Wait for the next page to load
           const nextPageNumber = `${pages.length + 1}`;
+          // Wait for the URL to change
           await page.waitForURL((url) =>
             url
               .toString()
@@ -91,7 +97,10 @@ async function retrieve(attributes) {
                 `&BOset::WScontent::SearchResultsInfo::current_page=${nextPageNumber}&`,
               ),
           );
-          await page.locator(".page-item active", { hasText: nextPageNumber });
+          // Wait for the pagination to update
+          await page
+            .locator(".av-paging-links.active", { hasText: nextPageNumber })
+            .waitFor();
         } else {
           // If there's no next page button, we're at the end
           break;
