@@ -2,7 +2,11 @@ const cheerio = require("cheerio");
 const { parse, isBefore, startOfDay, addYears } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
 const { dailyCache } = require("../../common/cache");
-const { convertToList, parseMinsToMs } = require("../../common/utils");
+const {
+  convertToList,
+  splitConjoinedItemsInList,
+  parseMinsToMs,
+} = require("../../common/utils");
 const { domain } = require("./attributes");
 const retrieve = require("./retrieve");
 
@@ -19,10 +23,12 @@ async function getAdditionalDataFor(pageUrls) {
         ),
         year: $(".film-year").text().trim(),
         categories: [],
-        directors: convertToList(
-          $(".meta .meta-line .film-director").text().trim(),
+        directors: splitConjoinedItemsInList(
+          convertToList($(".meta .meta-line .film-director").text().trim()),
         ),
-        actors: convertToList($(".meta .meta-line .film-cast").text().trim()),
+        actors: splitConjoinedItemsInList(
+          convertToList($(".meta .meta-line .film-cast").text().trim()),
+        ),
       };
 
       if ($(".bbfc img").attr("alt")) {

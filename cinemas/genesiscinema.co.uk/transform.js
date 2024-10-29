@@ -3,7 +3,11 @@ const slugify = require("slugify");
 const { parse } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
 const { dailyCache } = require("../../common/cache");
-const { parseMinsToMs, convertToList } = require("../../common/utils");
+const {
+  parseMinsToMs,
+  convertToList,
+  splitConjoinedItemsInList,
+} = require("../../common/utils");
 const { domain } = require("./attributes");
 const retrieve = require("./retrieve");
 
@@ -33,18 +37,16 @@ async function getAdditionalDataFor(pageUrls) {
 
           const hasDirector = contents.match(/Directed by:\s+(.*)$/i);
           if (hasDirector) {
-            addiitionalData.directors = convertToList(hasDirector[1]);
+            addiitionalData.directors = splitConjoinedItemsInList(
+              convertToList(hasDirector[1]),
+            );
           }
 
           const hasActors = contents.match(/Starring:\s+(.*)$/i);
           if (hasActors) {
-            addiitionalData.actors = convertToList(hasActors[1]);
-
-            if (addiitionalData.actors.length === 1) {
-              addiitionalData.actors = addiitionalData.actors[0]
-                .split(" and ")
-                .map((actor) => actor.trim());
-            }
+            addiitionalData.actors = splitConjoinedItemsInList(
+              convertToList(hasActors[1]),
+            );
           }
 
           const hasDate = contents.match(/Release Date:\s+(.*)$/i);

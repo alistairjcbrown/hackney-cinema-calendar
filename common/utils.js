@@ -40,6 +40,14 @@ const convertToList = (value) => {
   return value.split(/,|\n|\||\//g).map((value) => value.trim());
 };
 
+const splitConjoinedItemsInList = (list, joiner = " and ") => {
+  return list.reduce(
+    (updatedList, item) =>
+      updatedList.concat(item.split(joiner).map((value) => value.trim())),
+    [],
+  );
+};
+
 const parseMinsToMs = (value) => parseInt(value, 10) * 60 * 1000;
 
 const sanitize = (value) =>
@@ -50,6 +58,7 @@ module.exports = {
   getEventDate,
   filterHistoricalPerformances,
   convertToList,
+  splitConjoinedItemsInList,
   parseMinsToMs,
   sanitize,
 };

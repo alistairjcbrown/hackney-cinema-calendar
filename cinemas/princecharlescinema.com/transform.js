@@ -8,14 +8,20 @@ const {
   setMinutes,
 } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
-const { convertToList, parseMinsToMs } = require("../../common/utils");
+const {
+  convertToList,
+  splitConjoinedItemsInList,
+  parseMinsToMs,
+} = require("../../common/utils");
 
 function getListFromLine($, $lines, prefix) {
   let list = [];
   $lines.find("span").each(function () {
     const line = $(this).text().trim();
     if (line.startsWith(prefix)) {
-      list = list.concat(convertToList(line.replace(prefix, "")));
+      list = list.concat(
+        splitConjoinedItemsInList(convertToList(line.replace(prefix, ""))),
+      );
     }
   });
   return list;

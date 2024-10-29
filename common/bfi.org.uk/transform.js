@@ -1,7 +1,11 @@
 const cheerio = require("cheerio");
 const { parse } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
-const { convertToList, parseMinsToMs } = require("../utils");
+const {
+  convertToList,
+  splitConjoinedItemsInList,
+  parseMinsToMs,
+} = require("../utils");
 
 function getOverviewFor({ html }) {
   const $ = cheerio.load(html);
@@ -21,9 +25,9 @@ function getOverviewFor({ html }) {
     const content = $(this).find(".Film-info__information__value").text();
 
     if (heading === "director" && overview.directors.length === 0) {
-      overview.directors = convertToList(content);
+      overview.directors = splitConjoinedItemsInList(convertToList(content));
     } else if (heading === "with" && overview.actors.length === 0) {
-      overview.actors = convertToList(content);
+      overview.actors = splitConjoinedItemsInList(convertToList(content));
     } else if (heading === "certificate" && !overview["age-restriction"]) {
       overview["age-restriction"] = content;
     } else {

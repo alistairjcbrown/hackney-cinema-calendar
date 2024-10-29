@@ -2,6 +2,7 @@ const { parseISO } = require("date-fns");
 const {
   filterHistoricalPerformances,
   convertToList,
+  splitConjoinedItemsInList,
   parseMinsToMs,
 } = require("../../common/utils");
 
@@ -26,8 +27,8 @@ async function transform(
       overview: {
         categories: convertToList(movie.allGenres),
         duration: parseMinsToMs(movie.duration),
-        directors: convertToList(movie.directedBy),
-        actors: convertToList(movie.starring),
+        directors: splitConjoinedItemsInList(convertToList(movie.directedBy)),
+        actors: splitConjoinedItemsInList(convertToList(movie.starring)),
       },
       performances: filterHistoricalPerformances(
         movie.showings.map((showing) => {
