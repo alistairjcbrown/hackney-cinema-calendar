@@ -81,7 +81,17 @@ async function retrieve(attributes) {
         const $nextPageButton = await page.locator("css=#av-next-link");
         if ((await $nextPageButton.count()) > 0) {
           $nextPageButton.click();
-          await page.waitForTimeout(1000);
+
+          // Wait for the next page to load
+          const nextPageNumber = `${pages.length + 1}`;
+          await page.waitForURL((url) =>
+            url
+              .toString()
+              .includes(
+                `&BOset::WScontent::SearchResultsInfo::current_page=${nextPageNumber}&`,
+              ),
+          );
+          await page.locator(".page-item active", { hasText: nextPageNumber });
         } else {
           // If there's no next page button, we're at the end
           break;
