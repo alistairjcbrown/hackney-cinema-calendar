@@ -24,11 +24,11 @@ async function transform({ domain, cinemaId }, { movies }) {
       categories: [],
       directors: [],
       actors: [],
-      duration: parseMinsToMs(movie.RunTime) || parseMinsToMs(90),
+      duration: parseMinsToMs(movie.RunTime),
     };
 
     if (movie.Rating) {
-      overview["age-restriction"] = movie.Rating;
+      overview.certification = movie.Rating;
     }
     if (movie.TrailerUrl) {
       overview.trailer = movie.TrailerUrl;

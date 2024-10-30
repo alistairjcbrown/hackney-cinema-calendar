@@ -9,12 +9,12 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "Renate Reinsve",
         "Adam Pearson",
       ],
-      "age-restriction": "15",
       "categories": [
         "Comedy",
         "Horror",
         "Thriller",
       ],
+      "certification": "15",
       "directors": [
         "Aaron Schimberg",
       ],
@@ -49,12 +49,12 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "Jaume Solà",
         "Javier Cassi Gimeno",
       ],
-      "age-restriction": "PG",
       "categories": [
         "Comedy",
         "Adventure",
         "Family",
       ],
+      "certification": "PG",
       "directors": [
         "Juan Jesús García Galocha",
         "Pedro Solís García",
@@ -89,12 +89,12 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "Zazie Beetz",
         "Lady Gaga",
       ],
-      "age-restriction": "15",
       "categories": [
         "Crime",
         "Drama",
         "Thriller",
       ],
+      "certification": "15",
       "directors": [
         "Todd Phillips",
       ],
@@ -174,11 +174,11 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "Giancarlo Esposito",
         "Nathalie Emmanuel",
       ],
-      "age-restriction": "15",
       "categories": [
         "Drama",
         "Sci-Fi",
       ],
+      "certification": "15",
       "directors": [
         "Francis Ford Coppola",
       ],
@@ -247,10 +247,10 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "Lauren LaVera",
         "Jason Patric",
       ],
-      "age-restriction": "18",
       "categories": [
         "Horror",
       ],
+      "certification": "18",
       "directors": [
         "Damien Leone",
       ],
@@ -314,10 +314,10 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "Saskia Reeves",
         "Stephen Dillane",
       ],
-      "age-restriction": "15",
       "categories": [
         "Drama",
       ],
+      "certification": "15",
       "directors": [
         "Nora Fingscheidt",
       ],
@@ -356,11 +356,11 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "Dennis Quaid",
         "Demi Moore",
       ],
-      "age-restriction": "18",
       "categories": [
         "Drama",
         "Horror",
       ],
+      "certification": "18",
       "directors": [
         "Coralie Fargeat",
       ],
@@ -445,12 +445,12 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "Brian Tyree Henry",
         "Scarlett Johansson",
       ],
-      "age-restriction": "PG",
       "categories": [
         "Action",
         "Animation",
         "Science Fiction",
       ],
+      "certification": "PG",
       "directors": [
         "Josh Cooley",
       ],
@@ -566,10 +566,10 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "Teresa Rossi Passante",
         "Gianpaolo Saccarola",
       ],
-      "age-restriction": "18",
       "categories": [
         "Horror",
       ],
+      "certification": "18",
       "directors": [
         "Lucio Fulci",
       ],
@@ -615,10 +615,10 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "Kyle Richards",
         "Nick Castle",
       ],
-      "age-restriction": "15",
       "categories": [
         "Horror",
       ],
+      "certification": "15",
       "directors": [
         "John Carpenter",
       ],
@@ -643,12 +643,12 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "Naomi Scott",
         "Kyle Gallner",
       ],
-      "age-restriction": "18",
       "categories": [
         "Horror",
         "Mystery",
         "Thriller",
       ],
+      "certification": "18",
       "directors": [
         "Parker Finn",
       ],
@@ -740,12 +740,12 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
         "Jeremy Strong",
         "Maria Bakalova",
       ],
-      "age-restriction": "15",
       "categories": [
         "Biography",
         "Drama",
         "History",
       ],
+      "certification": "15",
       "directors": [
         "Ali Abbasi",
       ],
@@ -816,12 +816,12 @@ exports[`The Genesis Cinema when movies with local screenings provided returns a
   {
     "overview": {
       "actors": [],
-      "age-restriction": "U",
       "categories": [
         "Animation",
         "Adventure",
         "Family",
       ],
+      "certification": "U",
       "directors": [
         "Chris Sanders",
       ],

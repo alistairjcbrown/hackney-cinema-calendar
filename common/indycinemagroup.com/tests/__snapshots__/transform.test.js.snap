@@ -9,8 +9,8 @@ exports[`Cinema powered by Indy Cinema Group when movies with local screenings p
         "Grace Kelly",
         "Wendell Corey",
       ],
-      "age-restriction": "PG",
       "categories": [],
+      "certification": "PG",
       "directors": [
         "Alfred Hitchcock",
       ],
@@ -38,11 +38,11 @@ exports[`Cinema powered by Indy Cinema Group when movies with local screenings p
         "Danielle Deadwyler",
         "Fred Durst",
       ],
-      "age-restriction": "15",
       "categories": [
         "Drama",
         "Horror",
       ],
+      "certification": "15",
       "directors": [
         "Jane Schoenbrun",
       ],

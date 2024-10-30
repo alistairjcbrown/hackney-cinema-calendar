@@ -98,7 +98,7 @@ async function transform(data) {
 
       if (!movies[id]) {
         const $duration = $titleInfo.parent().next();
-        let duration = parseMinsToMs(90);
+        let duration;
 
         const durationText = $duration.text().trim();
         const durationMatch = durationText.match(
@@ -119,7 +119,7 @@ async function transform(data) {
 
         const ageRestriction = $titleInfo.next().attr("alt");
         if (ageRestriction && !ageRestriction.startsWith("TBC")) {
-          overview["age-restriction"] = ageRestriction;
+          overview.certification = ageRestriction;
         }
 
         const $trailerLink = $movieShowing.find(".text-right a.text-black");

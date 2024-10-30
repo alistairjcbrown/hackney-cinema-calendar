@@ -28,8 +28,8 @@ function getOverviewFor({ html }) {
       overview.directors = splitConjoinedItemsInList(convertToList(content));
     } else if (heading === "with" && overview.actors.length === 0) {
       overview.actors = splitConjoinedItemsInList(convertToList(content));
-    } else if (heading === "certificate" && !overview["age-restriction"]) {
-      overview["age-restriction"] = content;
+    } else if (heading === "certificate" && !overview.certification) {
+      overview.certification = content;
     } else {
       const hasTimings = content.match(/\s+(\d{4}).\s+(\d+)min$/i);
       if (hasTimings && !overview.year) {
@@ -40,8 +40,6 @@ function getOverviewFor({ html }) {
       }
     }
   });
-
-  if (!overview.duration) overview.duration = parseMinsToMs(90);
 
   return overview;
 }

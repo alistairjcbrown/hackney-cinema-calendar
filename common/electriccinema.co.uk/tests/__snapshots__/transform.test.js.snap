@@ -5,12 +5,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "PG",
       "categories": [],
+      "certification": "PG",
       "directors": [
         "Tim Burton",
       ],
-      "duration": 5400000,
       "year": "2012",
     },
     "performances": [
@@ -27,12 +26,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Oz Perkins",
       ],
-      "duration": 5400000,
       "year": "2024",
     },
     "performances": [
@@ -49,12 +47,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Ellen Kuras",
       ],
-      "duration": 5400000,
       "year": "2024",
     },
     "performances": [
@@ -71,12 +68,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Nora Fingscheidt",
       ],
-      "duration": 5400000,
       "year": "2024",
     },
     "performances": [
@@ -93,12 +89,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Eduardo Sanchez • Daniel Myrick",
       ],
-      "duration": 5400000,
       "year": "1999",
     },
     "performances": [
@@ -115,12 +110,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Edgar Wright",
       ],
-      "duration": 5400000,
       "year": "2004",
     },
     "performances": [
@@ -137,12 +131,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Ali Abbasi",
       ],
-      "duration": 5400000,
       "year": "2024",
     },
     "performances": [
@@ -207,12 +200,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Ridley Scott",
       ],
-      "duration": 5400000,
       "year": "2000",
     },
     "performances": [
@@ -229,12 +221,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "18",
       "categories": [],
+      "certification": "18",
       "directors": [
         "Sean Baker",
       ],
-      "duration": 5400000,
       "year": "2024",
     },
     "performances": [
@@ -281,12 +272,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "12A",
       "categories": [],
+      "certification": "12A",
       "directors": [
         "Pedro Almodóvar",
       ],
-      "duration": 5400000,
       "year": "2024",
     },
     "performances": [
@@ -355,7 +345,6 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
       "directors": [
         "Dougal Wilson",
       ],
-      "duration": 5400000,
       "year": "2024",
     },
     "performances": [
@@ -444,12 +433,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Ridley Scott",
       ],
-      "duration": 5400000,
       "year": "2024",
     },
     "performances": [
@@ -489,12 +477,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "PG",
       "categories": [],
+      "certification": "PG",
       "directors": [
         "Tim Burton",
       ],
-      "duration": 5400000,
       "year": "2012",
     },
     "performances": [
@@ -511,12 +498,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "18",
       "categories": [],
+      "certification": "18",
       "directors": [
         "Coralie Fargeat",
       ],
-      "duration": 5400000,
       "year": "2024",
     },
     "performances": [
@@ -551,12 +537,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Eduardo Sanchez • Daniel Myrick",
       ],
-      "duration": 5400000,
       "year": "1999",
     },
     "performances": [
@@ -573,12 +558,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Ali Abbasi",
       ],
-      "duration": 5400000,
       "year": "2024",
     },
     "performances": [
@@ -649,12 +633,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "U",
       "categories": [],
+      "certification": "U",
       "directors": [
         "Chris Sanders",
       ],
-      "duration": 5400000,
       "year": "2024",
     },
     "performances": [
@@ -731,12 +714,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "18",
       "categories": [],
+      "certification": "18",
       "directors": [
         "Parker Finn",
       ],
-      "duration": 5400000,
       "year": "2024",
     },
     "performances": [
@@ -765,12 +747,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Kelly Marcel",
       ],
-      "duration": 5400000,
       "year": "2024",
     },
     "performances": [
@@ -877,12 +858,11 @@ exports[`Electric Cinema (common) when movies with local screenings provided for
   {
     "overview": {
       "actors": [],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Scott Beck • Bryan Woods",
       ],
-      "duration": 5400000,
       "year": "2024",
     },
     "performances": [

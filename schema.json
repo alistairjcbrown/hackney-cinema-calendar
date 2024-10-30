@@ -44,7 +44,7 @@
               "type": "string"
             }
           },
-          "age-restriction": {
+          "certification": {
             "type": "string",
             "minLength": 1
           },
@@ -53,7 +53,7 @@
             "minLength": 1
           }
         },
-        "required": ["categories", "duration", "directors", "actors"]
+        "required": ["categories", "directors", "actors"]
       },
       "performances": {
         "type": "array",

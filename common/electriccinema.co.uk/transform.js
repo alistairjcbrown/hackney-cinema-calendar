@@ -1,6 +1,5 @@
 const { parse } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
-const { parseMinsToMs } = require("../../common/utils");
 
 async function transform(
   { cinemaId, domain },
@@ -16,8 +15,6 @@ async function transform(
       url: fileUrl,
       overview: {
         year: film.premiere.split("-")[0],
-        // No duration data from cinema site, so default all to 90 minutes
-        duration: parseMinsToMs(90),
         categories: [],
         directors: [],
         actors: [],
@@ -26,7 +23,7 @@ async function transform(
     };
 
     if (film.rating && film.rating !== "TBC") {
-      show.overview["age-restriction"] = film.rating;
+      show.overview.certification = film.rating;
     }
 
     if (film.director) {

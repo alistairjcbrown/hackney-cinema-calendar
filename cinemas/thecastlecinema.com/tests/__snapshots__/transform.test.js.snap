@@ -7,8 +7,8 @@ exports[`The Castle Cinema when movies with local screenings provided returns a 
       "actors": [
         "Jodie Comer",
       ],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Justin Martin",
       ],
@@ -31,8 +31,8 @@ exports[`The Castle Cinema when movies with local screenings provided returns a 
         "Glenn Close",
         "Jeff Bridges",
       ],
-      "age-restriction": "18",
       "categories": [],
+      "certification": "18",
       "directors": [
         "Richard Marquand",
       ],
@@ -56,8 +56,8 @@ exports[`The Castle Cinema when movies with local screenings provided returns a 
         "Barbara Stanwyck",
         "Edward G. Robinson",
       ],
-      "age-restriction": "PG",
       "categories": [],
+      "certification": "PG",
       "directors": [
         "Billy Wilder",
       ],
@@ -99,8 +99,8 @@ exports[`The Castle Cinema when movies with local screenings provided returns a 
         "Nicolas Cage",
         "Blair Underwood",
       ],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Oz Perkins",
       ],
@@ -129,8 +129,8 @@ exports[`The Castle Cinema when movies with local screenings provided returns a 
         "Brigette Lundy-Paine",
         "Ian Foreman",
       ],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Jane Schoenbrun",
       ],

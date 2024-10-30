@@ -5,8 +5,8 @@ exports[`Picturehouse Cinema (common) when movies with local screenings provided
   {
     "overview": {
       "actors": [],
-      "age-restriction": "U",
       "categories": [],
+      "certification": "U",
       "directors": [],
       "duration": 6060000,
       "trailer": "http://youtu.be/XRcOZZDvMv4",
@@ -30,8 +30,8 @@ exports[`Picturehouse Cinema (common) when movies with local screenings provided
   {
     "overview": {
       "actors": [],
-      "age-restriction": "U",
       "categories": [],
+      "certification": "U",
       "directors": [],
       "duration": 6060000,
       "trailer": "http://youtu.be/XRcOZZDvMv4",

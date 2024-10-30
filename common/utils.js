@@ -6,8 +6,8 @@ const generateEventDescription = (show, performance) => {
   let description = "";
   if (performance.screen)
     description += `Showing in screen ${performance.screen}\n`;
-  if (show.overview["age-restriction"])
-    description += `Film classification: ${show.overview["age-restriction"]}\n`;
+  if (show.overview.certification)
+    description += `Film classification: ${show.overview.certification}\n`;
   if (show.overview.actors && show.overview.actors.length > 0)
     description += `Starring ${show.overview.actors.join(", ")}\n`;
   if (show.overview.directors && show.overview.directors.length > 0)

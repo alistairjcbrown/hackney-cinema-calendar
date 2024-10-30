@@ -62,7 +62,7 @@ function parseMovieProperties($, $movieProperties) {
     // if it's digits ending in mins it's the duration
     const ageRestriction = movieProperty.match(/^\((\w+)\)$/);
     if (ageRestriction) {
-      schemaProperties["age-restriction"] = ageRestriction[1];
+      schemaProperties.certification = ageRestriction[1];
       isAfterAgeRestriction = true;
       return;
     }

@@ -32,7 +32,7 @@ async function getAdditionalDataFor(pageUrls) {
       };
 
       if ($(".bbfc img").attr("alt")) {
-        addiitionalData["age-restriction"] = $(".bbfc img")
+        addiitionalData.certification = $(".bbfc img")
           .attr("alt")
           .replace("BBFC ", "")
           .trim();

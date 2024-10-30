@@ -11,8 +11,8 @@ exports[`BFI (common) when movies with local screenings provided for IMAX return
         "Anne Hathaway",
         "Timothee Chalamet",
       ],
-      "age-restriction": "12A",
       "categories": [],
+      "certification": "12A",
       "directors": [
         "Christopher Nolan",
       ],
@@ -63,8 +63,8 @@ exports[`BFI (common) when movies with local screenings provided for IMAX return
         "Bill Nighy",
         "Kit Connor",
       ],
-      "age-restriction": "U",
       "categories": [],
+      "certification": "U",
       "directors": [
         "Chris Sanders",
       ],
@@ -146,8 +146,8 @@ exports[`BFI (common) when movies with local screenings provided for IMAX return
         "Brendan Gleeson",
         "Steve Coogan",
       ],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Todd Phillips",
       ],
@@ -181,8 +181,8 @@ exports[`BFI (common) when movies with local screenings provided for IMAX return
         "Brendan Gleeson",
         "Steve Coogan",
       ],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Todd Phillips",
       ],
@@ -203,8 +203,8 @@ exports[`BFI (common) when movies with local screenings provided for IMAX return
   {
     "overview": {
       "actors": [],
-      "age-restriction": "12A",
       "categories": [],
+      "certification": "12A",
       "directors": [
         "Tensai Okamura",
       ],
@@ -232,8 +232,8 @@ exports[`BFI (common) when movies with local screenings provided for Southbank r
       "actors": [
         "Harold Lloyd",
       ],
-      "age-restriction": "U",
       "categories": [],
+      "certification": "U",
       "directors": [],
       "duration": 4140000,
       "year": "1923",
@@ -354,8 +354,8 @@ exports[`BFI (common) when movies with local screenings provided for Southbank r
         "Aneurin Barnard",
         "Tanya Reynolds",
       ],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "Alice Lowe",
       ],
@@ -416,8 +416,8 @@ exports[`BFI (common) when movies with local screenings provided for Southbank r
         "Bruce Spence",
         "Vernon Wells",
       ],
-      "age-restriction": "15",
       "categories": [],
+      "certification": "15",
       "directors": [
         "George Miller",
       ],
@@ -449,12 +449,11 @@ exports[`BFI (common) when movies with local screenings provided for Southbank r
         "Yoshio Inaba",
         "Seiji Miyaguchi",
       ],
-      "age-restriction": "PG",
       "categories": [],
+      "certification": "PG",
       "directors": [
         "Akira Kurosawa",
       ],
-      "duration": 5400000,
     },
     "performances": [
       {

@@ -48,7 +48,7 @@ async function transform(
     }
 
     if (movie.rating) {
-      transformedMovie.overview["age-restriction"] = movie.rating;
+      transformedMovie.overview.certification = movie.rating;
     }
 
     return moviesAtCinema.concat([transformedMovie]);
