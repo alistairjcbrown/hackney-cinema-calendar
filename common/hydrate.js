@@ -2,11 +2,12 @@ const slugify = require("slugify");
 const { MovieDb } = require("moviedb-promise");
 const { dailyCache } = require("./cache");
 const knownRemovablePhrases = require("./known-removable-phrases.json");
+const { parseMinsToMs } = require("./utils");
 require("dotenv").config();
 
 const moviedb = new MovieDb(process.env.MOVIEDB_API_KEY);
 
-const getAndCacheData = ({ slug, year, normalizedTitle }) =>
+const searchMovieAndCacheResults = ({ slug, year, normalizedTitle }) =>
   dailyCache(`moviedb-${slug}`, async () => {
     const payload = { query: normalizedTitle };
     if (year) payload.year = parseInt(year, 10);
@@ -20,6 +21,12 @@ const getAndCacheData = ({ slug, year, normalizedTitle }) =>
     }
 
     return search;
+  });
+
+const getMovieInfoAndCacheResults = ({ id }) =>
+  dailyCache(`moviedb-${id}`, async () => {
+    const payload = { id, append_to_response: "external_ids,videos" };
+    return moviedb.movieInfo(payload);
   });
 
 function normalize(title) {
@@ -103,7 +110,7 @@ async function hydrate(shows) {
       const title = normalize(show.title);
       const { title: normalizedTitle, year } = getMovieTitleAndYearFrom(title);
       const slug = slugify(normalizedTitle, { strict: true }).toLowerCase();
-      const search = await getAndCacheData({
+      const search = await searchMovieAndCacheResults({
         normalizedTitle,
         slug,
         year: year || show.overview.year,
@@ -112,13 +119,22 @@ async function hydrate(shows) {
       const result = getBestMatch(normalizedTitle, search.results);
       if (!result || !result.release_date) return show;
 
-      const moviedb = {
-        id: result.id,
-        title: result.title,
-        releaseDate: result.release_date,
-        summary: result.overview,
+      if (!show.overview.duration) {
+        const movieInfo = await getMovieInfoAndCacheResults({ id: result.id });
+        if (movieInfo.runtime) {
+          show.overview.duration = parseMinsToMs(movieInfo.runtime);
+        }
+      }
+
+      return {
+        ...show,
+        moviedb: {
+          id: result.id,
+          title: result.title,
+          releaseDate: result.release_date,
+          summary: result.overview,
+        },
       };
-      return { ...show, moviedb };
     }),
   );
 }

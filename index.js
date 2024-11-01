@@ -19,9 +19,10 @@ const schema = require("./schema.json");
 
 const getDuration = (show) => {
   const title = show.title.toLowerCase();
-  const isAllNighter = !!title.match(/all[\s|-]night/i);
+  const isAllNighter =
+    !!title.match(/all[\s|-]night/i) || !!title.match(/\s+marathon$/i);
   // Default to 90 minutes if we don't know the duration
-  // unless it's an all nighter, then make it 6 hours
+  // unless it's an all nighter/marathon, then make it 6 hours
   const defaultDuration = isAllNighter ? parseMinsToMs(360) : parseMinsToMs(90);
   return show.overview.duration || defaultDuration;
 };
