@@ -7,7 +7,8 @@
   "scripts": {
     "test": "jest",
     "format": "prettier \"./**/*.js(on)?\" --write && prettier \"./**/*.md\" --write --prose-wrap=always",
-    "generate": "TZ=Europe/London node index.js"
+    "generate": "TZ=Europe/London node index.js",
+    "output:highlight-hydration-misses-for-review": "node ./scripts/highlight-hydration-misses-for-review.js"
   },
   "author": "Alistair Brown <github@alistairjcbrown.com>",
   "license": "MIT",

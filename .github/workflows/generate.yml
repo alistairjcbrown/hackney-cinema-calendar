@@ -82,6 +82,9 @@ jobs:
       - run: npm run generate electriccinema.co.uk-portobello
       - run: npm run generate electriccinema.co.uk-white-city
 
+      # Run post-data scripts
+      - run: npm run output:highlight-hydration-misses-for-review
+
       # Create release with assets
       - uses: ncipollo/release-action@v1
         id: release

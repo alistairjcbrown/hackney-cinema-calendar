@@ -22,7 +22,10 @@ function getOverviewFor({ html }) {
       .text()
       .trim()
       .toLowerCase();
-    const content = $(this).find(".Film-info__information__value").text();
+    const content = $(this)
+      .find(".Film-info__information__value")
+      .text()
+      .trim();
 
     if (heading === "director" && overview.directors.length === 0) {
       overview.directors = splitConjoinedItemsInList(convertToList(content));
@@ -31,7 +34,7 @@ function getOverviewFor({ html }) {
     } else if (heading === "certificate" && !overview.certification) {
       overview.certification = content;
     } else {
-      const hasTimings = content.match(/\s+(\d{4}).\s+(\d+)min$/i);
+      const hasTimings = content.match(/\s+(\d{4}).\s+(\d+)min(?:\s|$)/i);
       if (hasTimings && !overview.year) {
         overview.year = hasTimings[1];
       }
