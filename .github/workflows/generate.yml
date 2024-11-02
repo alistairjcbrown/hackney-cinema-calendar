@@ -49,14 +49,14 @@ jobs:
       - name: npm run generate bfi.org.uk-imax
         uses: nick-fields/retry@v3
         with:
-          timeout_minutes: 5
+          timeout_minutes: 10
           retry_wait_seconds: 5
           max_attempts: 5
           command: xvfb-run npm run generate bfi.org.uk-imax
       - name: npm run generate bfi.org.uk-southbank
         uses: nick-fields/retry@v3
         with:
-          timeout_minutes: 15
+          timeout_minutes: 20
           retry_wait_seconds: 5
           max_attempts: 5
           command: xvfb-run npm run generate bfi.org.uk-southbank
