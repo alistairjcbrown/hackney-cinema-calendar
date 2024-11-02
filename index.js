@@ -145,6 +145,11 @@ async function generateCalendar(cinema) {
       await generateCalendar(site);
       console.log("\n---\n");
     }
+  } else if (parameter === "fast") {
+    for (site of sites.filter((site) => !site.startsWith("bfi.org.uk"))) {
+      await generateCalendar(site);
+      console.log("\n---\n");
+    }
   } else if (sites.includes(parameter)) {
     await generateCalendar(parameter);
   } else {

@@ -454,6 +454,8 @@ exports[`BFI (common) when movies with local screenings provided for Southbank r
       "directors": [
         "Akira Kurosawa",
       ],
+      "duration": 12420000,
+      "year": "1954",
     },
     "performances": [
       {

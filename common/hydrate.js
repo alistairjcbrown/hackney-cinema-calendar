@@ -12,7 +12,7 @@ const searchMovieAndCacheResults = ({
   year: yearValue,
   normalizedTitle,
 }) =>
-  dailyCache(`moviedb-${slug}`, async () => {
+  dailyCache(`moviedb-search-${yearValue || "no-year"}-${slug}`, async () => {
     const getPayload = (additional = {}) => ({
       query: normalizedTitle,
       ...additional,
@@ -46,7 +46,7 @@ const searchMovieAndCacheResults = ({
   });
 
 const getMovieInfoAndCacheResults = ({ id }) =>
-  dailyCache(`moviedb-${id}`, async () => {
+  dailyCache(`moviedb-info-${id}`, async () => {
     const payload = { id, append_to_response: "external_ids,videos" };
     return moviedb.movieInfo(payload);
   });

@@ -8,7 +8,10 @@
     "test": "jest",
     "format": "prettier \"./**/*.js(on)?\" --write && prettier \"./**/*.md\" --write --prose-wrap=always",
     "generate": "TZ=Europe/London node index.js",
-    "output:highlight-hydration-misses-for-review": "node ./scripts/highlight-hydration-misses-for-review.js"
+    "output:highlight-hydration-misses-for-review": "node ./scripts/highlight-hydration-misses-for-review.js",
+    "clear:cache": "rm -rf ./cache && git checkout ./cache",
+    "clear:output": "rm -rf ./output && git checkout ./output",
+    "populate:output": "./scripts/get-latest-release-assets.sh"
   },
   "author": "Alistair Brown <github@alistairjcbrown.com>",
   "license": "MIT",

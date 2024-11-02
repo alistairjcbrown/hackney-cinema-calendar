@@ -74,13 +74,15 @@ const expectedMatch = ({ title }) => {
   return true;
 };
 
-const data = getSites().reduce(
-  (mapping, site) => ({
-    ...mapping,
-    [site]: require(path.join(__dirname, "..", "output", `${site}-shows.json`)),
-  }),
-  {},
-);
+const data = getSites().reduce((mapping, site) => {
+  let data;
+  try {
+    data = require(path.join(__dirname, "..", "output", `${site}-shows.json`));
+  } catch (e) {
+    return mapping;
+  }
+  return { ...mapping, [site]: data };
+}, {});
 
 const flaggedForReview = {};
 Object.keys(data).forEach((site) => {
