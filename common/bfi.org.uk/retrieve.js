@@ -45,8 +45,14 @@ async function processSearchResultPage(
       `${domain}${showUrl}`,
       cacheKey,
       async (page) => {
-        await page.waitForLoadState("domcontentloaded");
-        await page.getByRole("heading", { level: 1 }).waitFor();
+        // Wait until the page is finished everything
+        await page.waitForLoadState("networkidle");
+        // Make sure there's information showing. Not all pages have film info
+        // (that we care about), so check for the rich text or media areas too
+        await page
+          .locator(".Film-info__information,.Rich-text,.Media")
+          .waitFor({ strict: false });
+
         return await page.content();
       },
     );
