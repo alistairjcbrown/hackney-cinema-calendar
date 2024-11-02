@@ -7,17 +7,39 @@ require("dotenv").config();
 
 const moviedb = new MovieDb(process.env.MOVIEDB_API_KEY);
 
-const searchMovieAndCacheResults = ({ slug, year, normalizedTitle }) =>
+const searchMovieAndCacheResults = ({
+  slug,
+  year: yearValue,
+  normalizedTitle,
+}) =>
   dailyCache(`moviedb-${slug}`, async () => {
-    const payload = { query: normalizedTitle };
-    if (year) payload.year = parseInt(year, 10);
-    const search = await moviedb.searchMovie(payload);
+    const getPayload = (additional = {}) => ({
+      query: normalizedTitle,
+      ...additional,
+    });
 
-    // If there's a year available, sometimes the movie listing
-    // the year off by 1. Let's try again with the year incremented.
-    if (search.results.length === 0 && year) {
-      payload.year = parseInt(year, 10) + 1;
-      return moviedb.searchMovie(payload);
+    // If there's no year provided, just search for the title
+    if (!yearValue) {
+      return moviedb.searchMovie(getPayload());
+    }
+
+    const year = parseInt(yearValue, 10);
+
+    // Try to find a movie first released on that year
+    let search = await moviedb.searchMovie(
+      getPayload({ primary_release_year: year }),
+    );
+
+    // If there's no matches, then try to find a movie with some release related
+    // to that year
+    if (search.results.length === 0) {
+      search = await moviedb.searchMovie(getPayload({ year }));
+    }
+
+    // If there's no matches, sometimes the movie listing has the year off by 1,
+    // so try to find a movie with some release related to the next year
+    if (search.results.length === 0) {
+      return moviedb.searchMovie(getPayload({ year: year + 1 }));
     }
 
     return search;
