@@ -47,7 +47,10 @@ const searchMovieAndCacheResults = ({
 
 const getMovieInfoAndCacheResults = ({ id }) =>
   dailyCache(`moviedb-info-${id}`, async () => {
-    const payload = { id, append_to_response: "external_ids,videos" };
+    const payload = {
+      id,
+      append_to_response: "credits,external_ids,keywords,videos",
+    };
     return moviedb.movieInfo(payload);
   });
 

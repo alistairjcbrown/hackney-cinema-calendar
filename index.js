@@ -31,7 +31,7 @@ async function generateCalendar(cinema) {
   const {
     retrieve,
     transform,
-    attributes: { url, location, geo },
+    attributes: { url, name, address, geo },
   } = require(`./cinemas/${cinema}`);
   clearCacheStats();
 
@@ -94,7 +94,7 @@ async function generateCalendar(cinema) {
         start: getEventDate(performance.time),
         end: getEventDate(performance.time + duration),
         url,
-        location,
+        location: `${name}, ${address}`,
         geo,
       }));
       return events.concat(showEvents);

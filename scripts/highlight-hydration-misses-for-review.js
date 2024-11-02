@@ -75,13 +75,13 @@ const expectedMatch = ({ title }) => {
 };
 
 const data = getSites().reduce((mapping, site) => {
-  let data;
+  let shows;
   try {
-    data = require(path.join(__dirname, "..", "output", `${site}-shows.json`));
+    shows = require(path.join(__dirname, "..", "output", `${site}-shows.json`));
   } catch (e) {
     return mapping;
   }
-  return { ...mapping, [site]: data };
+  return { ...mapping, [site]: shows };
 }, {});
 
 const flaggedForReview = {};
