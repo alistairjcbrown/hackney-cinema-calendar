@@ -11,7 +11,8 @@
     "output:highlight-hydration-misses-for-review": "node ./scripts/highlight-hydration-misses-for-review.js",
     "clear:cache": "rm -rf ./cache && git checkout ./cache",
     "clear:output": "rm -rf ./output && git checkout ./output",
-    "populate:output": "./scripts/get-latest-release-assets.sh"
+    "populate:output": "./scripts/get-latest-release-assets.sh",
+    "generate:combined-data": "node ./scripts/generate-combined-data.js"
   },
   "author": "Alistair Brown <github@alistairjcbrown.com>",
   "license": "MIT",
@@ -19,10 +20,12 @@
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "cheerio": "^1.0.0-rc.12",
+    "compress-json": "^3.1.0",
     "date-fns": "^3.6.0",
     "dotenv": "^16.4.5",
     "ics": "^3.7.6",
     "moviedb-promise": "^4.0.7",
+    "nanoid": "^3.3.7",
     "playwright": "^1.48.1",
     "replace-special-characters": "^1.2.7",
     "slugify": "^1.6.6"
