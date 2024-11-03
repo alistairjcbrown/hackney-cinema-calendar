@@ -82,6 +82,15 @@ jobs:
       - run: npm run generate electriccinema.co.uk-portobello
       - run: npm run generate electriccinema.co.uk-white-city
 
+      - name: Save any test failure artifacts
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-failures
+          path: ./playwright-failures
+          if-no-files-found: ignore
+          retention-days: 7
+
       # Run post-data scripts
       - run: npm run output:highlight-hydration-misses-for-review
 

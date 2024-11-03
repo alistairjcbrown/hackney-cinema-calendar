@@ -1,6 +1,7 @@
 # output files
 output/*
 cache/*
+playwright-failures/*
 
 # Logs
 logs

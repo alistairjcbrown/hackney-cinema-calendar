@@ -11,10 +11,17 @@ async function getPageWithPlaywright(url, cacheKey, callback) {
     const browser = await chromium.launch({ headless: false });
     const context = await browser.newContext();
     const page = await context.newPage();
-    await page.goto(url);
-    const result = await callback(page);
-    await browser.close();
-    return result;
+    try {
+      await page.goto(url);
+      const result = await callback(page);
+      await browser.close();
+      return result;
+    } catch (error) {
+      await page.screenshot({
+        path: `./playwright-failures/error--${cacheKey}.png`,
+      });
+      throw error;
+    }
   });
 }
 
@@ -49,9 +56,14 @@ async function processSearchResultPage(
         await page.waitForLoadState("networkidle");
         // Make sure there's information showing. Not all pages have film info
         // (that we care about), so check for the rich text or media areas too
-        await page
-          .locator(".Film-info__information,.Rich-text,.Media")
-          .waitFor({ strict: false });
+        try {
+          await page
+            .locator(".Film-info__information,.Rich-text,.Media")
+            .waitFor({ strict: false });
+        } catch (error) {
+          console.error(`Page data not available at ${domain}${showUrl}`);
+          throw error;
+        }
 
         return await page.content();
       },
