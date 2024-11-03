@@ -1,13 +1,14 @@
 const { writeFileSync } = require("node:fs");
 const path = require("node:path");
-const { nanoid } = require("nanoid");
+const crypto = require("node:crypto");
 const { compress, trimUndefinedRecursively } = require("compress-json");
 const getSites = require("../common/get-sites");
 const normalizeTitle = require("../common/normalize-title");
 const { getMovieInfoAndCacheResults } = require("../common/get-movie-data");
 const { parseMinsToMs } = require("../common/utils");
 
-const getId = () => nanoid(8);
+const getId = (value) =>
+  crypto.createHash("sha256").update(value).digest("hex").slice(0, 8);
 
 const getCertification = ({ release_dates: { results } }) => {
   const result = results.find(({ iso_3166_1: locale }) => locale === "GB");
@@ -69,11 +70,11 @@ const siteData = {
 (async function () {
   for (cinema in data) {
     console.log(`[🎞️  Cinema: ${cinema}]`);
-    const venueId = getId();
     const {
       attributes: { name, url, address, geo },
       shows,
     } = data[cinema];
+    const venueId = getId(name);
 
     siteData.venues[venueId] = {
       id: venueId,
@@ -101,7 +102,7 @@ const siteData = {
         }
       }
 
-      const movieId = movieInfo ? movieInfo.id : getId();
+      const movieId = movieInfo ? movieInfo.id : getId(title);
       if (!siteData.movies[movieId]) {
         if (movieInfo) {
           const directors = getDirectors(movieInfo);
@@ -115,7 +116,7 @@ const siteData = {
           siteData.movies[movieId] = {
             id: movieId,
             title: movieInfo.title,
-            normalizedTitla: normalizeTitle(movieInfo.title),
+            normalizedTitle: normalizeTitle(movieInfo.title),
             certification: getCertification(movieInfo),
             overview: movieInfo.overview,
             year: movieInfo.release_date.split("-")[0],
@@ -133,6 +134,7 @@ const siteData = {
           siteData.movies[movieId] = {
             id: movieId,
             title: title,
+            normalizedTitle: normalizeTitle(title),
             isUnmatched: true,
             showings: {},
             performances: [],
@@ -140,7 +142,7 @@ const siteData = {
         }
       }
 
-      const showingId = getId();
+      const showingId = getId(`${venueId}-${title}`);
       const movie = siteData.movies[movieId];
 
       movie.showings[showingId] = {
@@ -165,9 +167,9 @@ const siteData = {
 
   process.stdout.write(`Compressing data ...   `);
   try {
-    const dataFile = `./output/combined-data.json`;
+    const dataFile = `./site/public/combined-data.json`;
     trimUndefinedRecursively(siteData);
-    const compressed = compress(siteData).toString();
+    const compressed = JSON.stringify(compress(siteData));
     console.log(`✅ Compressed`);
 
     writeFileSync(dataFile, compressed);

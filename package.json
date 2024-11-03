@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "format": "prettier \"./**/*.js(on)?\" --write && prettier \"./**/*.md\" --write --prose-wrap=always",
+    "format": "prettier \"./**/*.js(on)?\" --write && prettier \"./**/*.ts(x)?\" --write && prettier \"./**/*.md\" --write --prose-wrap=always",
     "generate": "TZ=Europe/London node index.js",
     "output:highlight-hydration-misses-for-review": "node ./scripts/highlight-hydration-misses-for-review.js",
     "clear:cache": "rm -rf ./cache && git checkout ./cache",
@@ -25,7 +25,6 @@
     "dotenv": "^16.4.5",
     "ics": "^3.7.6",
     "moviedb-promise": "^4.0.7",
-    "nanoid": "^3.3.7",
     "playwright": "^1.48.1",
     "replace-special-characters": "^1.2.7",
     "slugify": "^1.6.6"
