@@ -1,8 +1,11 @@
 const cheerio = require("cheerio");
 const { format, addYears } = require("date-fns");
-const { chromium } = require("playwright");
+const { chromium } = require("playwright-extra");
 const slugify = require("slugify");
 const { dailyCache } = require("../cache");
+
+const stealth = require("puppeteer-extra-plugin-stealth")();
+chromium.use(stealth);
 
 const dateFormat = "yyyy-MM-dd";
 

@@ -25,7 +25,9 @@
     "dotenv": "^16.4.5",
     "ics": "^3.7.6",
     "moviedb-promise": "^4.0.7",
-    "playwright": "^1.48.1",
+    "playwright": "^1.49.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "replace-special-characters": "^1.2.7",
     "slugify": "^1.6.6"
   },
