@@ -51,7 +51,13 @@ const getMovieInfoAndCacheResults = ({ id }) =>
     return moviedb.movieInfo(payload);
   });
 
+const getMovieGenresAndCacheResults = () =>
+  dailyCache(`moviedb-genres`, async () => {
+    return moviedb.genreMovieList();
+  });
+
 module.exports = {
   searchMovieAndCacheResults,
   getMovieInfoAndCacheResults,
+  getMovieGenresAndCacheResults,
 };

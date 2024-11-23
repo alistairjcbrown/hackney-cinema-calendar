@@ -4,7 +4,10 @@ const crypto = require("node:crypto");
 const { compress, trimUndefinedRecursively } = require("compress-json");
 const getSites = require("../common/get-sites");
 const normalizeTitle = require("../common/normalize-title");
-const { getMovieInfoAndCacheResults } = require("../common/get-movie-data");
+const {
+  getMovieInfoAndCacheResults,
+  getMovieGenresAndCacheResults,
+} = require("../common/get-movie-data");
 const { parseMinsToMs } = require("../common/utils");
 
 const getId = (value) =>
@@ -26,15 +29,16 @@ const getCertification = ({ release_dates: { results } }) => {
 const getDirectors = ({ credits: { crew } }) =>
   crew
     .filter(({ job }) => job.toLowerCase() === "director")
-    .map(({ id, name }) => ({ id, name }));
+    .map(({ id, name }) => ({ id: `${id}`, name }));
 
 const getActors = ({ credits: { cast } }) =>
   cast
     .slice(0, 10)
     .filter(({ popularity }) => popularity >= 5)
-    .map(({ id, name }) => ({ id, name }));
+    .map(({ id, name }) => ({ id: `${id}`, name }));
 
-const getGenres = ({ genres }) => genres;
+const getGenres = ({ genres }) =>
+  genres.map(({ id, name }) => ({ id: `${id}`, name }));
 
 const getYoutubeTrailer = ({ videos: { results } }) => {
   const trailer = results.find(
@@ -84,6 +88,8 @@ const siteData = {
       geo,
     };
 
+    const movieGenres = await getMovieGenresAndCacheResults();
+
     for (show of shows) {
       const { title, url, overview, performances, moviedb } = show;
 
@@ -102,7 +108,7 @@ const siteData = {
         }
       }
 
-      const movieId = movieInfo ? movieInfo.id : getId(title);
+      const movieId = movieInfo ? `${movieInfo.id}` : getId(title);
       if (!siteData.movies[movieId]) {
         if (movieInfo) {
           const directors = getDirectors(movieInfo);
@@ -136,6 +142,7 @@ const siteData = {
             title: title,
             normalizedTitle: normalizeTitle(title),
             isUnmatched: true,
+            genres: [],
             showings: {},
             performances: [],
           };
@@ -144,6 +151,23 @@ const siteData = {
 
       const showingId = getId(`${venueId}-${title}`);
       const movie = siteData.movies[movieId];
+
+      if (movie.isUnmatched) {
+        const matchedGenres = overview.categories.reduce(
+          (matchedCategories, name) => {
+            const match = movieGenres.genres.find(
+              (movieGenre) =>
+                movieGenre.name.toLowerCase().trim() ===
+                name.toLowerCase().trim(),
+            );
+            if (match) return [...matchedCategories, match.id];
+            return matchedCategories;
+          },
+          [],
+        );
+
+        movie.genres = [...movie.genres, ...matchedGenres];
+      }
 
       movie.showings[showingId] = {
         id: showingId,
@@ -162,8 +186,67 @@ const siteData = {
         })),
       );
     }
+
     console.log(" ");
   }
+
+  Object.keys(siteData.movies).forEach((movieId) => {
+    const id = getId("uncategorised");
+    const movie = siteData.movies[movieId];
+    if (movie.genres.length === 0) {
+      movie.genres = [id];
+      siteData.genres[id] = { id, name: "Uncategorised" };
+    }
+  });
+
+  const potentialCombinations = Object.values(siteData.movies).reduce(
+    (collection, movie) => {
+      collection[movie.normalizedTitle] =
+        collection[movie.normalizedTitle] || [];
+      collection[movie.normalizedTitle].push(movie);
+      return collection;
+    },
+    {},
+  );
+  const confirmedConbinations = Object.values(potentialCombinations).reduce(
+    (combinations, group) => {
+      if (group.length <= 1) return combinations;
+
+      // Don't try to combine movies which are already matched
+      if (group.filter(({ isUnmatched }) => !isUnmatched).length > 1) {
+        return combinations;
+      }
+      // But if there's only 1, we can combine unmatched ones with it
+      return {
+        ...combinations,
+        [group[0].normalizedTitle]: group,
+      };
+    },
+    {},
+  );
+
+  Object.values(confirmedConbinations).forEach((group) => {
+    const matched = group.find(({ isUnmatched }) => !isUnmatched);
+    const container = { ...(matched || group[0]) };
+    group.forEach((movie) => {
+      if (movie.id === container.id) return;
+      // TODO: Merge genres? movie.genres
+      container.showings = { ...container.showings, ...movie.showings };
+      // Add performace title in case it doesn't match container title
+      // TODO: do this condionally
+      movie.performances = movie.performances.map((performance) => ({
+        ...performance,
+        title: movie.title,
+      }));
+      container.performances = [
+        ...container.performances,
+        ...movie.performances,
+      ];
+
+      delete siteData.movies[movie.id];
+    });
+    siteData.movies[container.id] = container;
+  });
 
   process.stdout.write(`Compressing data ...   `);
   try {
