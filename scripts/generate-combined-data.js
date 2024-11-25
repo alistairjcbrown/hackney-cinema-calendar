@@ -178,11 +178,12 @@ const siteData = {
       };
 
       movie.performances = movie.performances.concat(
-        performances.map(({ time, notes, bookingUrl }) => ({
+        performances.map(({ time, notes, bookingUrl, screen }) => ({
           showingId,
           time,
           notes: notes !== "" ? notes : undefined,
           bookingUrl,
+          screen,
         })),
       );
     }
@@ -230,14 +231,22 @@ const siteData = {
     const container = { ...(matched || group[0]) };
     group.forEach((movie) => {
       if (movie.id === container.id) return;
+      // Add showing title in case it doesn't match container title
+      movie.showings = Object.keys(movie.showings).reduce(
+        (updatedShowings, showingId) => {
+          const showing = movie.showings[showingId];
+          if (showing.title || movie.title === container.title) {
+            return { ...updatedShowings, [showingId]: showing };
+          }
+          return {
+            ...updatedShowings,
+            [showingId]: { ...showing, title: movie.title },
+          };
+        },
+        {},
+      );
       // TODO: Merge genres? movie.genres
       container.showings = { ...container.showings, ...movie.showings };
-      // Add performace title in case it doesn't match container title
-      // TODO: do this condionally
-      movie.performances = movie.performances.map((performance) => ({
-        ...performance,
-        title: movie.title,
-      }));
       container.performances = [
         ...container.performances,
         ...movie.performances,

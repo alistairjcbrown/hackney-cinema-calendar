@@ -6,6 +6,9 @@ function normalizeTitle(title) {
   const removablePrefixes = [
     "Scared To Dance -",
     "Hitchcock: The Gainsborough Days -",
+    "Bar Screening x Muse:",
+    "Kung Fu Cinema:",
+    "Preview Screening of",
   ];
 
   removablePrefixes.forEach((phrase) => {
@@ -22,7 +25,7 @@ function normalizeTitle(title) {
     title = hasPresented[1];
   }
 
-  const hasSeparator = title.match(/^(.*?)\s+(?:\+|\-)\s*/);
+  const hasSeparator = title.match(/^(.*?)\s+(?:\+|\-|•)\s*/);
   if (hasSeparator) {
     title = hasSeparator[1];
   }
