@@ -1,11 +1,20 @@
 import type { Movie, Filters } from "@/types";
-import { memo, useMemo } from "react";
+import { memo, ReactNode, useMemo } from "react";
 import Link from "next/link";
 import slugify from "@sindresorhus/slugify";
+import {
+  AutoSizer,
+  List,
+  type ListRowProps,
+  WindowScroller,
+} from "react-virtualized";
 import { useCinemaData } from "@/state/cinema-data-context";
 import getMatchingMovies from "@/utils/get-matching-movies";
 import MovieItem from "@/components/movie-item";
 import "./index.scss";
+
+const movieItemWidth = 200;
+const movieItemHeight = 375;
 
 function MovieItemLink({ movie }: { movie: Movie }) {
   return (
@@ -13,10 +22,34 @@ function MovieItemLink({ movie }: { movie: Movie }) {
       href={`/movies/${movie.id}/${slugify(movie.title)}`}
       className="movie-item-wrapper"
     >
-      <MovieItem movie={movie} />
+      <MovieItem
+        movie={movie}
+        width={movieItemWidth}
+        height={movieItemHeight}
+      />
     </Link>
   );
 }
+
+const rowRenderer = (
+  movies: Movie[],
+  itemsPerRow: number,
+  { key, style, index }: ListRowProps,
+) => {
+  const start = itemsPerRow * index;
+  const end = start + itemsPerRow;
+  return (
+    <div key={key} style={style}>
+      <ol className="movie-list">
+        {movies.slice(start, end).map((movie) => (
+          <li key={movie.id}>
+            <MovieItemLink movie={movie} />
+          </li>
+        ))}
+      </ol>
+    </div>
+  );
+};
 
 const MovieList = memo(function MovieList({ filters }: { filters: Filters }) {
   const { data } = useCinemaData();
@@ -26,13 +59,38 @@ const MovieList = memo(function MovieList({ filters }: { filters: Filters }) {
   );
 
   return (
-    <ol className="movie-list">
-      {movies.map((movie) => (
-        <li key={movie.id}>
-          <MovieItemLink movie={movie} />
-        </li>
-      ))}
-    </ol>
+    <WindowScroller scrollElement={window}>
+      {({ height, isScrolling, registerChild, onChildScroll, scrollTop }) => (
+        <AutoSizer disableHeight>
+          {({ width }) => {
+            const itemsPerRow = Math.floor(width / movieItemWidth);
+            const rowCount = Math.ceil(movies.length / itemsPerRow);
+            return (
+              <div
+                ref={(ref) => {
+                  if (ref) registerChild(ref as unknown as ReactNode);
+                }}
+              >
+                <List
+                  autoHeight
+                  height={height}
+                  width={width}
+                  isScrolling={isScrolling}
+                  onScroll={onChildScroll}
+                  scrollTop={scrollTop}
+                  rowRenderer={(...args) =>
+                    rowRenderer(movies, itemsPerRow, ...args)
+                  }
+                  overscanRowCount={1}
+                  rowCount={rowCount}
+                  rowHeight={movieItemHeight}
+                />
+              </div>
+            );
+          }}
+        </AutoSizer>
+      )}
+    </WindowScroller>
   );
 });
 

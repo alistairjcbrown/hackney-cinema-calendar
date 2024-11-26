@@ -1,7 +1,16 @@
 "use client";
 import type { Filters } from "@/types";
 import { useDeferredValue } from "react";
-import { Container, Content, Divider, Header, Stack } from "rsuite";
+import {
+  Checkbox,
+  Container,
+  Content,
+  Divider,
+  Header,
+  RangeSlider,
+  Stack,
+  Text,
+} from "rsuite";
 import { useCinemaData } from "@/state/cinema-data-context";
 import { useFilters } from "@/state/filters-context";
 import getMatchingMovies from "@/utils/get-matching-movies";
@@ -16,7 +25,15 @@ export default function Home() {
   const { data } = useCinemaData();
   const { filters, setFilters } = useFilters();
 
-  const { filteredVenues, filteredGenres, searchTerm, dateRange } = filters;
+  const {
+    filteredVenues,
+    filteredGenres,
+    searchTerm,
+    dateRange,
+    yearRange,
+    getYearRange,
+    includeUnknownYears,
+  } = filters;
   const setFilteredVenues = (filteredVenues: Filters["filteredVenues"]) =>
     setFilters({ ...filters, filteredVenues });
   const setFilteredGenres = (filteredGenres: Filters["filteredGenres"]) =>
@@ -25,6 +42,11 @@ export default function Home() {
     setFilters({ ...filters, searchTerm });
   const setDateRange = (dateRange: Filters["dateRange"]) =>
     setFilters({ ...filters, dateRange });
+  const setYearRange = (yearRange: Filters["yearRange"]) =>
+    setFilters({ ...filters, yearRange });
+  const setIncludeUnknownYears = (
+    includeUnknownYears: Filters["includeUnknownYears"],
+  ) => setFilters({ ...filters, includeUnknownYears });
 
   const deferredFilters = useDeferredValue(filters);
 
@@ -57,11 +79,37 @@ export default function Home() {
               <Stack.Item grow={1}>
                 <DateRangePicker value={dateRange} onChange={setDateRange} />
               </Stack.Item>
+              {yearRange.min > yearRange.max ? null : (
+                <>
+                  <Divider vertical />
+                  <Stack.Item grow={1}>
+                    <Text weight="bold" style={{ color: "#fff" }}>
+                      Years
+                    </Text>
+                    <RangeSlider
+                      {...getYearRange()}
+                      value={[yearRange.min, yearRange.max]}
+                      onChange={([min, max]) => {
+                        setYearRange({ min, max });
+                      }}
+                    />
+                    <Checkbox
+                      style={{ color: "#fff" }}
+                      checked={includeUnknownYears}
+                      onChange={(value, checked) => {
+                        setIncludeUnknownYears(checked);
+                      }}
+                    >
+                      Include unknown
+                    </Checkbox>
+                  </Stack.Item>
+                </>
+              )}
             </Stack>
           </Stack.Item>
         </Stack>
       </Header>
-      <Content>
+      <Content style={{ padding: "0 1.5rem" }}>
         <Summary movies={getMatchingMovies(data!.movies, filters)} />
         <MovieList filters={deferredFilters} />
       </Content>

@@ -2,7 +2,14 @@ import type { MoviePerformance, Movie, Filters, CinemaData } from "@/types";
 
 const getMatchingMovies = (
   movies: CinemaData["movies"],
-  { searchTerm, dateRange, filteredVenues, filteredGenres }: Filters,
+  {
+    searchTerm,
+    dateRange,
+    filteredVenues,
+    filteredGenres,
+    yearRange,
+    includeUnknownYears,
+  }: Filters,
 ) => {
   const sortedMovies = Object.keys(movies)
     .map((id) => movies[id])
@@ -22,6 +29,17 @@ const getMatchingMovies = (
       !movie.genres?.some((genre) => filteredGenres[genre])
     ) {
       return filteredMovies;
+    }
+
+    if (movie.year) {
+      const year = parseInt(movie.year, 10);
+      if (year > yearRange.max || year < yearRange.min) {
+        return filteredMovies;
+      }
+    } else {
+      if (!includeUnknownYears) {
+        return filteredMovies;
+      }
     }
 
     const performances = movie.performances.reduce(

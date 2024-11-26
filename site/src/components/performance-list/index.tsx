@@ -46,6 +46,7 @@ export default function PerformanceList({ movie }: { movie?: Movie }) {
               <Divider>{day}</Divider>
             </Heading>
             {performanceGroup.map((performance) => {
+              const isInThePast = Date.now() > performance.time;
               const time = format(new Date(performance.time), "H:mm");
               const showing = movie.showings[performance.showingId];
               const venue = data?.venues[showing.venueId];
@@ -60,11 +61,18 @@ export default function PerformanceList({ movie }: { movie?: Movie }) {
                   <div
                     key={`${performance.showingId}-${performance.time}`}
                     className="performance-details"
+                    style={
+                      isInThePast ? { textDecoration: "line-through" } : {}
+                    }
                   >
                     <a href={showing.url}>{venue?.name}</a>
                     <Button
                       href={performance.bookingUrl}
                       className="peformance-booking-button"
+                      style={
+                        isInThePast ? { textDecoration: "line-through" } : {}
+                      }
+                      disabled={isInThePast}
                     >
                       {time}
                     </Button>
@@ -74,11 +82,20 @@ export default function PerformanceList({ movie }: { movie?: Movie }) {
 
               return (
                 <details key={`${performance.showingId}-${performance.time}`}>
-                  <summary className="performance-details">
+                  <summary
+                    className="performance-details"
+                    style={
+                      isInThePast ? { textDecoration: "line-through" } : {}
+                    }
+                  >
                     <a href={showing.url}>{venue?.name}</a>
                     <Button
                       href={performance.bookingUrl}
                       className="peformance-booking-button"
+                      style={
+                        isInThePast ? { textDecoration: "line-through" } : {}
+                      }
+                      disabled={isInThePast}
                     >
                       {time}
                     </Button>

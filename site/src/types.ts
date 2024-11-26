@@ -72,9 +72,17 @@ export type DateRange = {
   end: number;
 };
 
+export type YearRange = {
+  min: number;
+  max: number;
+};
+
 export type Filters = {
   searchTerm: string;
   dateRange: DateRange;
+  yearRange: YearRange;
+  getYearRange: () => YearRange;
+  includeUnknownYears: boolean;
   filteredVenues: Record<Venue["id"], boolean>;
   filteredGenres: Record<Genre["id"], boolean>;
 };

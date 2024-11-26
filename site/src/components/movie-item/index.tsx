@@ -42,9 +42,13 @@ const getTimeToNextPerformance = (performances: Movie["performances"]) => {
 export default function MovieItem({
   movie,
   className,
+  width,
+  height,
 }: {
   movie: Movie;
   className?: string;
+  width: number;
+  height: number;
 }) {
   const { filters } = useFilters();
 
@@ -59,7 +63,10 @@ export default function MovieItem({
     venueCount === 1 ? `${venueCount} venue` : `${venueCount} venues`;
 
   return (
-    <div className={classNames("movie-item", className)}>
+    <div
+      className={classNames("movie-item", className)}
+      style={{ width, height }}
+    >
       <MoviePoster movie={movie} />
       <div className="movie-item-text-wrapper">
         <div className="movie-item-title" tabIndex={-1}>

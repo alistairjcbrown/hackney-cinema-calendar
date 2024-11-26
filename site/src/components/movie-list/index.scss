@@ -7,7 +7,7 @@
 
 .movie-list {
   margin: 0;
-  padding: 0 1.5rem;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -19,4 +19,9 @@
     margin: 0;
     padding: 0;
   }
+}
+
+.ReactVirtualized__Grid,
+.ReactVirtualized__Grid__innerScrollContainer {
+  overflow: visible !important;
 }

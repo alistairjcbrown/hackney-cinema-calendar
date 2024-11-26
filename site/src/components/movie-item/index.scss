@@ -1,9 +1,9 @@
 .movie-item {
   display: flex;
-  width: 180px;
   flex-direction: column;
   padding: 0.5rem;
   text-align: center;
+  box-sizing: border-box;
 
   & &-summary {
     font-size: 11px;

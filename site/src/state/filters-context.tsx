@@ -19,6 +19,9 @@ const FiltersContext = createContext<{
   filters: {
     searchTerm: "",
     dateRange: { start: 0, end: 0 },
+    yearRange: { min: Infinity, max: -Infinity },
+    getYearRange: () => ({ min: Infinity, max: -Infinity }),
+    includeUnknownYears: true,
     filteredVenues: {},
     filteredGenres: {},
   },
@@ -47,9 +50,28 @@ export function FiltersProvider({ children }: { children: ReactNode }) {
     [],
   );
 
+  const getYearRange = () =>
+    data?.movies
+      ? Object.values(data.movies).reduce(
+          (maxMin, movie) => {
+            if (!movie.year) return maxMin;
+            const year = parseInt(movie.year, 10);
+            return {
+              max: Math.max(maxMin.max, year),
+              min: Math.min(maxMin.min, year),
+            };
+          },
+          { max: -Infinity, min: Infinity },
+        )
+      : { max: -Infinity, min: Infinity };
+  const yearRange = useMemo(getYearRange, [data?.movies]);
+
   const [filters, setFilters] = useState<Filters>({
     searchTerm: "",
     dateRange,
+    yearRange,
+    getYearRange,
+    includeUnknownYears: true,
     filteredVenues,
     filteredGenres,
   });
