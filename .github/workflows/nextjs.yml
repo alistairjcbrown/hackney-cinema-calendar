@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
 
-name: Update site
+name: Build and deploy website
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -16,8 +16,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build site
   build:
+    name: Build Next.js site
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -42,14 +42,18 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - run: npm ci
         working-directory: ./site
+      - name: Generate combined blob from latest release
+        run: |
+          npm run populate:output
+          npm run generate:combined-data
       - run: npm run build
         working-directory: ./site
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./site/out
 
-  # Deployment site
   deploy:
+    name: Deploy site
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
