@@ -29,6 +29,7 @@ jobs:
       - uses: actions/configure-pages@v5
         with:
           static_site_generator: next
+          generator_config_file: ./site/next.config.ts
       - name: Restore cache
         uses: actions/cache@v4
         with:
@@ -39,12 +40,13 @@ jobs:
           # If source files changed but packages didn't, rebuild from a prior cache.
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
-      - run: cd site
       - run: npm ci
+        working-directory: ./site
       - run: npm run build
+        working-directory: ./site
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./site/out
 
   # Deployment site
   deploy:
