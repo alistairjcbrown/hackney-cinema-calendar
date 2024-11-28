@@ -42,10 +42,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - run: npm ci # Install the script dependencies
-      - name: Generate combined blob from latest release
-        run: |
-          npm run populate:output
-          npm run generate:combined-data
+      - name: Pull data from latest release
+        run: npm run populate:output
+      - name: Generate combined compressed blob
+        run: npm run generate:combined-data
       - run: npm ci # Install the site dependencies
         working-directory: ./site
       - run: npm run build

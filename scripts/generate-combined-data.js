@@ -1,5 +1,6 @@
 const { writeFileSync } = require("node:fs");
 const path = require("node:path");
+const fs = require("node:fs");
 const crypto = require("node:crypto");
 const { compress, trimUndefinedRecursively } = require("compress-json");
 const getSites = require("../common/get-sites");
@@ -259,15 +260,19 @@ const siteData = {
 
   process.stdout.write(`Compressing data ...   `);
   try {
-    const dataFile = `./site/public/combined-data.json`;
+    const outputPath = "./site/public/"
+    const outputFilename = "combined-data.json";
     trimUndefinedRecursively(siteData);
     const compressed = JSON.stringify(compress(siteData));
     console.log(`✅ Compressed`);
 
-    writeFileSync(dataFile, compressed);
+    if (!fs.existsSync(outputPath)){
+      fs.mkdirSync(outputPath, { recursive: true });
+    }
+    writeFileSync(`${outputPath}${outputFilename}`, compressed);
     console.log(`🗂️  Combined file created`);
   } catch (e) {
-    console.log(`\t❌ Error compressing`);
+    console.log(`\t❌ Error creating combined file`);
     throw e;
   }
 })();
