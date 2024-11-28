@@ -25,7 +25,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version-file: .node-version
-          cache: npm
       - uses: actions/configure-pages@v5
         with:
           static_site_generator: next
@@ -40,12 +39,13 @@ jobs:
           # If source files changed but packages didn't, rebuild from a prior cache.
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
-      - run: npm ci
-        working-directory: ./site
+      - run: npm ci # Install the script dependencies
       - name: Generate combined blob from latest release
         run: |
           npm run populate:output
           npm run generate:combined-data
+      - run: npm ci # Install the site dependencies
+        working-directory: ./site
       - run: npm run build
         working-directory: ./site
       - uses: actions/upload-pages-artifact@v3
