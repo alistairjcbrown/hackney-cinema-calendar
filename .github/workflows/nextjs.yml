@@ -1,4 +1,6 @@
 on:
+  release:
+    types: [published]
   workflow_dispatch:
 
 name: Build and deploy website

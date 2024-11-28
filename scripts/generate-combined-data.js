@@ -260,13 +260,13 @@ const siteData = {
 
   process.stdout.write(`Compressing data ...   `);
   try {
-    const outputPath = "./site/public/"
+    const outputPath = "./site/public/";
     const outputFilename = "combined-data.json";
     trimUndefinedRecursively(siteData);
     const compressed = JSON.stringify(compress(siteData));
     console.log(`✅ Compressed`);
 
-    if (!fs.existsSync(outputPath)){
+    if (!fs.existsSync(outputPath)) {
       fs.mkdirSync(outputPath, { recursive: true });
     }
     writeFileSync(`${outputPath}${outputFilename}`, compressed);
