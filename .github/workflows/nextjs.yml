@@ -19,6 +19,8 @@ jobs:
   build:
     name: Build Next.js site
     runs-on: ubuntu-latest
+    env:
+      MOVIEDB_API_KEY: ${{ secrets.MOVIEDB_API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
