@@ -2,6 +2,7 @@ import type { CinemaData } from "@/types";
 import type { Dispatch, ReactNode, SetStateAction } from "react";
 import { createContext, useContext, useEffect, useState } from "react";
 import { decompress } from "compress-json";
+import nextConfig from "../../next.config";
 
 const CinemaDataContext = createContext<{
   data: CinemaData | null;
@@ -30,7 +31,9 @@ export function GetCinemaData({ children }: { children: ReactNode }) {
     if (data) return;
 
     (async () => {
-      const response = await fetch("combined-data.json");
+      const response = await fetch(
+        `${nextConfig.basePath}/combined-data.json`,
+      );
       const compressedData = await response.json();
       setData(decompress(compressedData));
     })();
