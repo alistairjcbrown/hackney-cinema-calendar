@@ -1,4 +1,5 @@
-import { AutoComplete, InputGroup } from "rsuite";
+import AutoComplete from "rsuite/cjs/AutoComplete";
+import InputGroup from "rsuite/cjs/InputGroup";
 import SearchIcon from "@rsuite/icons/Search";
 import CloseIcon from "@rsuite/icons/Close";
 import { useCinemaData } from "@/state/cinema-data-context";

@@ -1,16 +1,14 @@
 "use client";
 import type { Filters } from "@/types";
 import { useDeferredValue } from "react";
-import {
-  Checkbox,
-  Container,
-  Content,
-  Divider,
-  Header,
-  RangeSlider,
-  Stack,
-  Text,
-} from "rsuite";
+import Checkbox from "rsuite/cjs/Checkbox";
+import Container from "rsuite/cjs/Container";
+import Content from "rsuite/cjs/Content";
+import Divider from "rsuite/cjs/Divider";
+import Header from "rsuite/cjs/Header";
+import RangeSlider from "rsuite/cjs/RangeSlider";
+import Stack from "rsuite/cjs/Stack";
+import Text from "rsuite/cjs/Text";
 import { useCinemaData } from "@/state/cinema-data-context";
 import { useFilters } from "@/state/filters-context";
 import getMatchingMovies from "@/utils/get-matching-movies";

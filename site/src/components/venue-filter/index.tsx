@@ -1,5 +1,6 @@
 import type { Venue } from "@/types";
-import { Checkbox, CheckPicker } from "rsuite";
+import Checkbox from "rsuite/cjs/Checkbox";
+import CheckPicker from "rsuite/cjs/CheckPicker";
 
 export default function VenueFilter({
   venues,

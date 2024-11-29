@@ -1,5 +1,5 @@
 import type { DateRange } from "@/types";
-import { DateRangePicker } from "rsuite";
+import DateRangePicker from "rsuite/cjs/DateRangePicker";
 import { startOfDay, endOfDay, addDays } from "date-fns";
 
 export default function DateRange({

@@ -1,6 +1,8 @@
 import type { Movie, MoviePerformance } from "@/types";
 import { Fragment } from "react";
-import { Button, Divider, Heading } from "rsuite";
+import Button from "rsuite/cjs/Button";
+import Divider from "rsuite/cjs/Divider";
+import Heading from "rsuite/cjs/Heading";
 import { format } from "date-fns";
 import { useCinemaData } from "@/state/cinema-data-context";
 import "./index.scss";

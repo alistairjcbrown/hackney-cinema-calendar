@@ -1,18 +1,16 @@
 "use client";
 import { use, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import {
-  Container,
-  Heading,
-  Content,
-  TagGroup,
-  Tag,
-  Panel,
-  Sidebar,
-  Stack,
-  Divider,
-  Toggle,
-} from "rsuite";
+import Container from "rsuite/cjs/Container";
+import Heading from "rsuite/cjs/Heading";
+import Content from "rsuite/cjs/Content";
+import TagGroup from "rsuite/cjs/TagGroup";
+import Tag from "rsuite/cjs/Tag";
+import Panel from "rsuite/cjs/Panel";
+import Sidebar from "rsuite/cjs/Sidebar";
+import Stack from "rsuite/cjs/Stack";
+import Divider from "rsuite/cjs/Divider";
+import Toggle from "rsuite/cjs/Toggle";
 import { intervalToDuration, formatDuration } from "date-fns";
 import { useCinemaData } from "@/state/cinema-data-context";
 import { useFilters } from "@/state/filters-context";
