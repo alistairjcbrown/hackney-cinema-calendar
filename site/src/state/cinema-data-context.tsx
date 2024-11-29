@@ -31,9 +31,7 @@ export function GetCinemaData({ children }: { children: ReactNode }) {
     if (data) return;
 
     (async () => {
-      const response = await fetch(
-        `${nextConfig.basePath}/combined-data.json`,
-      );
+      const response = await fetch(`${nextConfig.basePath}/combined-data.json`);
       const compressedData = await response.json();
       setData(decompress(compressedData));
     })();

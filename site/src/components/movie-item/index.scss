@@ -5,22 +5,22 @@
   text-align: center;
   box-sizing: border-box;
 
-  & &-summary {
+  & .movie-item-summary {
     font-size: 11px;
     text-wrap: balance;
     margin-top: 0.2rem;
     line-height: 1.2;
   }
 
-  .movie-item-wrapper:hover & &-title {
+  .movie-item-wrapper:hover & .movie-item-title {
     text-decoration: underline;
   }
 
-  & &-text-wrapper {
+  & .movie-item-text-wrapper {
     min-height: 75px;
   }
 
-  & &-title {
+  & .movie-item-title {
     font-size: 14px;
     font-weight: bold;
     line-height: 1.1;
@@ -35,14 +35,14 @@
       linear-gradient(rgba(255, 255, 255, 0), white 70%) 0 100%,
       /* Shadows */
         radial-gradient(
-          50% 0,
           farthest-side,
+          50% 0,
           rgba(0, 0, 0, 0.3),
           rgba(0, 0, 0, 0)
         ),
       radial-gradient(
-          50% 100%,
           farthest-side,
+          50% 100%,
           rgba(0, 0, 0, 0.3),
           rgba(0, 0, 0, 0)
         )

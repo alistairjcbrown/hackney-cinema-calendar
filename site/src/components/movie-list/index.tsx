@@ -2,12 +2,9 @@ import type { Movie, Filters } from "@/types";
 import { memo, ReactNode, useMemo } from "react";
 import Link from "next/link";
 import slugify from "@sindresorhus/slugify";
-import {
-  AutoSizer,
-  List,
-  type ListRowProps,
-  WindowScroller,
-} from "react-virtualized";
+import { List, type ListRowProps } from "react-virtualized/dist/es/List";
+import { AutoSizer } from "react-virtualized/dist/es/AutoSizer";
+import { WindowScroller } from "react-virtualized/dist/es/WindowScroller";
 import { useCinemaData } from "@/state/cinema-data-context";
 import getMatchingMovies from "@/utils/get-matching-movies";
 import MovieItem from "@/components/movie-item";
