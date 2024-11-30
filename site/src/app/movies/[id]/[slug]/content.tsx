@@ -3,6 +3,7 @@ import { use, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import Container from "rsuite/cjs/Container";
 import Heading from "rsuite/cjs/Heading";
+import Footer from "rsuite/cjs/Footer";
 import Content from "rsuite/cjs/Content";
 import TagGroup from "rsuite/cjs/TagGroup";
 import Tag from "rsuite/cjs/Tag";
@@ -18,6 +19,7 @@ import getMatchingMovies from "@/utils/get-matching-movies";
 import MoviePoster from "@/components/movie-poster";
 import MovieCertification from "@/components/movie-certification";
 import PerformanceList from "@/components/performance-list";
+import SiteGeneratedMessage from "@/components/site-generated-message";
 import "./page.css";
 
 export default function MoviePageContent({
@@ -64,181 +66,191 @@ export default function MoviePageContent({
 
   return (
     <Container style={{ padding: "20px" }}>
-      <Sidebar>
-        <Panel
-          shaded
-          bordered
-          bodyFill
-          style={{ display: "inline-block", width: 250 }}
-        >
-          <MoviePoster movie={displayedMovie} width={250} height={375} />
-          <Panel header={displayedMovie.title}>
-            <p>
-              {displayedMovie.overview ? (
-                <small>{displayedMovie.overview}</small>
-              ) : null}
-            </p>
+      <Container>
+        <Sidebar>
+          <Panel
+            shaded
+            bordered
+            bodyFill
+            style={{ display: "inline-block", width: 250 }}
+          >
+            <MoviePoster movie={displayedMovie} width={250} height={375} />
+            <Panel header={displayedMovie.title}>
+              <p>
+                {displayedMovie.overview ? (
+                  <small>{displayedMovie.overview}</small>
+                ) : null}
+              </p>
+            </Panel>
           </Panel>
-        </Panel>
-      </Sidebar>
-      <Container style={{ padding: "20px" }}>
-        <Content>
-          <Heading level={1}>
-            <MovieCertification movie={displayedMovie} /> {displayedMovie.title}{" "}
-            {displayedMovie.year ? `(${displayedMovie.year})` : null}
-          </Heading>
+        </Sidebar>
+        <Container style={{ padding: "20px" }}>
+          <Content>
+            <Heading level={1}>
+              <MovieCertification movie={displayedMovie} />{" "}
+              {displayedMovie.title}{" "}
+              {displayedMovie.year ? `(${displayedMovie.year})` : null}
+            </Heading>
 
-          <Stack spacing={18} direction="column" alignItems="flex-start">
-            <div>Duration: {formattedDuration}</div>
-            <div>
-              Venues
-              <TagGroup>
-                {Array.from(
-                  Object.values(displayedMovie.showings).reduce(
-                    (unique, { venueId }) => unique.add(venueId),
-                    new Set<string>(),
-                  ),
-                )
-                  .map((venueId) => data!.venues[venueId])
-                  .sort((a, b) => a.name.localeCompare(b.name))
-                  .map(({ id, name }) => {
-                    const { filteredVenues } = filters;
-                    const filterVenueIds = Object.keys(filteredVenues);
-                    const isInFilter = filterVenueIds.includes(id);
-                    return (
-                      <Tag
-                        style={{ cursor: "pointer" }}
-                        size="lg"
-                        color={isInFilter ? "violet" : "blue"}
-                        closable={isInFilter}
-                        key={id}
-                        onClick={() => {
-                          if (isInFilter) {
-                            delete filteredVenues[id];
-                          } else {
-                            filteredVenues[id] = true;
-                          }
-                          setFilters({ ...filters, filteredVenues });
-                        }}
+            <Stack spacing={18} direction="column" alignItems="flex-start">
+              <div>Duration: {formattedDuration}</div>
+              <div>
+                Venues
+                <TagGroup>
+                  {Array.from(
+                    Object.values(displayedMovie.showings).reduce(
+                      (unique, { venueId }) => unique.add(venueId),
+                      new Set<string>(),
+                    ),
+                  )
+                    .map((venueId) => data!.venues[venueId])
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .map(({ id, name }) => {
+                      const { filteredVenues } = filters;
+                      const filterVenueIds = Object.keys(filteredVenues);
+                      const isInFilter = filterVenueIds.includes(id);
+                      return (
+                        <Tag
+                          style={{ cursor: "pointer" }}
+                          size="lg"
+                          color={isInFilter ? "violet" : "blue"}
+                          closable={isInFilter}
+                          key={id}
+                          onClick={() => {
+                            if (isInFilter) {
+                              delete filteredVenues[id];
+                            } else {
+                              filteredVenues[id] = true;
+                            }
+                            setFilters({ ...filters, filteredVenues });
+                          }}
+                        >
+                          {name}
+                        </Tag>
+                      );
+                    })}
+                </TagGroup>
+              </div>
+
+              {displayedMovie.genres ? (
+                <div>
+                  Genres
+                  <TagGroup>
+                    {Object.values(displayedMovie.genres)
+                      .map((id) => data!.genres[id])
+                      .sort((a, b) => a.name.localeCompare(b.name))
+                      .map(({ id, name }) => (
+                        <Tag size="lg" color="blue" key={id}>
+                          {name}
+                        </Tag>
+                      ))}
+                  </TagGroup>
+                </div>
+              ) : null}
+              {displayedMovie.directors ? (
+                <div>
+                  Directed by
+                  <TagGroup>
+                    {Object.values(displayedMovie.directors)
+                      .map((id) => data!.people[id])
+                      .sort((a, b) => a.name.localeCompare(b.name))
+                      .map(({ id, name }) => (
+                        <Tag size="lg" color="blue" key={id}>
+                          {name}
+                        </Tag>
+                      ))}
+                  </TagGroup>
+                </div>
+              ) : null}
+              {displayedMovie.actors ? (
+                <div>
+                  Starring
+                  <TagGroup>
+                    {Object.values(displayedMovie.actors)
+                      .map((id) => data!.people[id])
+                      .sort((a, b) => a.name.localeCompare(b.name))
+                      .map(({ id, name }) => (
+                        <Tag size="lg" color="blue" key={id}>
+                          {name}
+                        </Tag>
+                      ))}
+                  </TagGroup>
+                </div>
+              ) : null}
+              <div>
+                Links:
+                <ul>
+                  {displayedMovie.isUnmatched ? (
+                    <li>
+                      <a
+                        href={`https://www.themoviedb.org/search?query=${encodeURIComponent(displayedMovie.normalizedTitle)}`}
                       >
-                        {name}
-                      </Tag>
-                    );
-                  })}
-              </TagGroup>
-            </div>
-
-            {displayedMovie.genres ? (
-              <div>
-                Genres
-                <TagGroup>
-                  {Object.values(displayedMovie.genres)
-                    .map((id) => data!.genres[id])
-                    .sort((a, b) => a.name.localeCompare(b.name))
-                    .map(({ id, name }) => (
-                      <Tag size="lg" color="blue" key={id}>
-                        {name}
-                      </Tag>
-                    ))}
-                </TagGroup>
+                        Search themoviedb
+                      </a>
+                    </li>
+                  ) : null}
+                  {displayedMovie.isUnmatched ? null : (
+                    <li>
+                      <a
+                        href={`https://www.themoviedb.org/movie/${displayedMovie.id}`}
+                      >
+                        themoviedb
+                      </a>
+                    </li>
+                  )}
+                  {displayedMovie.imdbId ? (
+                    <li>
+                      <a
+                        href={`https://www.imdb.com/title/${displayedMovie.imdbId}`}
+                      >
+                        IMDB
+                      </a>
+                    </li>
+                  ) : null}
+                  {displayedMovie.youtubeTrailer ? (
+                    <li>
+                      <a
+                        href={`https://www.youtube.com/watch?v=${displayedMovie.youtubeTrailer}`}
+                      >
+                        Trailer (YouTube)
+                      </a>
+                    </li>
+                  ) : null}
+                </ul>
               </div>
-            ) : null}
-            {displayedMovie.directors ? (
-              <div>
-                Directed by
-                <TagGroup>
-                  {Object.values(displayedMovie.directors)
-                    .map((id) => data!.people[id])
-                    .sort((a, b) => a.name.localeCompare(b.name))
-                    .map(({ id, name }) => (
-                      <Tag size="lg" color="blue" key={id}>
-                        {name}
-                      </Tag>
-                    ))}
-                </TagGroup>
-              </div>
-            ) : null}
-            {displayedMovie.actors ? (
-              <div>
-                Starring
-                <TagGroup>
-                  {Object.values(displayedMovie.actors)
-                    .map((id) => data!.people[id])
-                    .sort((a, b) => a.name.localeCompare(b.name))
-                    .map(({ id, name }) => (
-                      <Tag size="lg" color="blue" key={id}>
-                        {name}
-                      </Tag>
-                    ))}
-                </TagGroup>
-              </div>
-            ) : null}
-            <div>
-              Links:
-              <ul>
-                {displayedMovie.isUnmatched ? (
-                  <li>
-                    <a
-                      href={`https://www.themoviedb.org/search?query=${encodeURIComponent(displayedMovie.normalizedTitle)}`}
-                    >
-                      Search themoviedb
-                    </a>
-                  </li>
-                ) : null}
-                {displayedMovie.isUnmatched ? null : (
-                  <li>
-                    <a
-                      href={`https://www.themoviedb.org/movie/${displayedMovie.id}`}
-                    >
-                      themoviedb
-                    </a>
-                  </li>
-                )}
-                {displayedMovie.imdbId ? (
-                  <li>
-                    <a
-                      href={`https://www.imdb.com/title/${displayedMovie.imdbId}`}
-                    >
-                      IMDB
-                    </a>
-                  </li>
-                ) : null}
-                {displayedMovie.youtubeTrailer ? (
-                  <li>
-                    <a
-                      href={`https://www.youtube.com/watch?v=${displayedMovie.youtubeTrailer}`}
-                    >
-                      Trailer (YouTube)
-                    </a>
-                  </li>
-                ) : null}
-              </ul>
-            </div>
-          </Stack>
-          <Divider />
-          <Heading level={3}>
-            Performances{" "}
-            <Tag size="lg">
-              {(isShowingAllPerformances ? movieAllPerformances : movie)
-                ?.performances.length || 0}
-            </Tag>
-            {isFilterApplied ? (
-              <>
-                &nbsp;
-                <Toggle
-                  checkedChildren={<>&nbsp;Filters Applied&nbsp;</>}
-                  unCheckedChildren={<>&nbsp;Filters Removed&nbsp;</>}
-                  checked={!isShowingAllPerformances}
-                  onChange={(value) => setIsShowingAllPerformances(!value)}
-                />
-              </>
-            ) : null}
-          </Heading>
-          <PerformanceList
-            movie={isShowingAllPerformances ? movieAllPerformances : movie}
-          />
-        </Content>
+            </Stack>
+            <Divider />
+            <Heading level={3}>
+              Performances{" "}
+              <Tag size="lg">
+                {(isShowingAllPerformances ? movieAllPerformances : movie)
+                  ?.performances.length || 0}
+              </Tag>
+              {isFilterApplied ? (
+                <>
+                  &nbsp;
+                  <Toggle
+                    checkedChildren={<>&nbsp;Filters Applied&nbsp;</>}
+                    unCheckedChildren={<>&nbsp;Filters Removed&nbsp;</>}
+                    checked={!isShowingAllPerformances}
+                    onChange={(value) => setIsShowingAllPerformances(!value)}
+                  />
+                </>
+              ) : null}
+            </Heading>
+            <PerformanceList
+              movie={isShowingAllPerformances ? movieAllPerformances : movie}
+            />
+          </Content>
+        </Container>
       </Container>
+      <Footer>
+        <Footer>
+          <SiteGeneratedMessage
+            generatedTime={process.env.NEXT_PUBLIC_GENERATED_AT}
+          />
+        </Footer>
+      </Footer>
     </Container>
   );
 }
