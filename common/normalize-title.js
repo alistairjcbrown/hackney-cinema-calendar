@@ -9,6 +9,10 @@ function normalizeTitle(title) {
     "Bar Screening x Muse:",
     "Kung Fu Cinema:",
     "Preview Screening of",
+    "70th anniversary screening:",
+    "uk premiere of:",
+    "member library lates:",
+    "carers & babies club:",
   ];
 
   removablePrefixes.forEach((phrase) => {

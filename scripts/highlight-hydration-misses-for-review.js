@@ -43,6 +43,8 @@ const termsExpectedToNotMatch = [
   // Film festival
   /Opening Gala/i,
   /Film Awards/i,
+  /^LSFF\b/i,
+  /^LSSF\b/i,
 
   // Live recordings
   /^NT Live:/i,
