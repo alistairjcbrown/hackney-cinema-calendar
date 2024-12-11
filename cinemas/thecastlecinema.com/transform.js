@@ -16,12 +16,17 @@ async function getAdditionalDataFor(pageUrls) {
       const key = `thecastlecinema.com-show-${id}`;
       const data = await dailyCache(key, () => retrieve(pageUrls[id]));
       const $ = cheerio.load(data);
-      const addiitionalData = {
+      const year = $(".film-year")
+        .text()
+        .trim()
+        .match(/(\d{4})/);
+
+      const additionalData = {
         id,
         duration: parseMinsToMs(
           $(".film-duration").text().replace("mins", "").trim(),
         ),
-        year: $(".film-year").text().trim(),
+        year: year ? year[1] : undefined,
         categories: [],
         directors: splitConjoinedItemsInList(
           convertToList($(".meta .meta-line .film-director").text().trim()),
@@ -32,13 +37,13 @@ async function getAdditionalDataFor(pageUrls) {
       };
 
       if ($(".bbfc img").attr("alt")) {
-        addiitionalData.certification = $(".bbfc img")
+        additionalData.certification = $(".bbfc img")
           .attr("alt")
           .replace("BBFC ", "")
           .trim();
       }
 
-      return addiitionalData;
+      return additionalData;
     }),
   );
 
