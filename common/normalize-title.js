@@ -12,6 +12,7 @@ function normalizeTitle(title) {
     "70th anniversary screening:",
     "uk premiere of:",
     "member library lates:",
+    "Carer's & Babies Club:",
     "carers & babies club:",
   ];
 
