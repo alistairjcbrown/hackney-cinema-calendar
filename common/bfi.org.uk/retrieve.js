@@ -37,9 +37,14 @@ async function processSearchResultPage(
   const $showLinks = $(".result-box-item");
   $showLinks.each(function () {
     const $showLink = $(this).find("a.more-info");
-    const showUrl = $showLink
-      .attr("href")
-      .split("&BOparam::WScontent::loadArticle::context_id=")[0];
+    const href = $showLink.attr("href");
+    // Sometimes the BFI listings aren't links. If so, there's nothing we can do
+    // but skip it and hope they fix the issue in a future run.
+    if (!href) return;
+
+    const showUrl = href.split(
+      "&BOparam::WScontent::loadArticle::context_id=",
+    )[0];
     parsedData[showUrl] = parsedData[showUrl] || { performances: [] };
     parsedData[showUrl].performances.push($(this).html());
     parsedData[showUrl].title = $showLink.text().trim();
