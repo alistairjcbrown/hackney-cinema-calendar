@@ -1,5 +1,6 @@
 import type { Movie, Filters } from "@/types";
 import { memo, ReactNode, useMemo } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import slugify from "@sindresorhus/slugify";
 import { List, type ListRowProps } from "react-virtualized/dist/es/List";
@@ -14,9 +15,12 @@ const movieItemWidth = 200;
 const movieItemHeight = 375;
 
 function MovieItemLink({ movie }: { movie: Movie }) {
+  const searchParams = useSearchParams();
+  const filterParams =
+    searchParams.size > 0 ? `?${searchParams.toString()}` : "";
   return (
     <Link
-      href={`/movies/${movie.id}/${slugify(movie.title)}`}
+      href={`/movies/${movie.id}/${slugify(movie.title)}${filterParams}`}
       className="movie-item-wrapper"
     >
       <MovieItem

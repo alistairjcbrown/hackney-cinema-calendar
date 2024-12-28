@@ -24,7 +24,7 @@ import SiteGeneratedMessage from "@/components/site-generated-message";
 
 export default function Home() {
   const { data } = useCinemaData();
-  const { filters, setFilters } = useFilters();
+  const { filters, setFilters, getYearRange } = useFilters();
 
   const {
     filteredVenues,
@@ -32,7 +32,6 @@ export default function Home() {
     searchTerm,
     dateRange,
     yearRange,
-    getYearRange,
     includeUnknownYears,
   } = filters;
   const setFilteredVenues = (filteredVenues: Filters["filteredVenues"]) =>

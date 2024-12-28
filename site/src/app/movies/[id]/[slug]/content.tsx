@@ -1,6 +1,7 @@
 "use client";
+import Link from "next/link";
 import { use, useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import Container from "rsuite/cjs/Container";
 import Heading from "rsuite/cjs/Heading";
 import Footer from "rsuite/cjs/Footer";
@@ -33,6 +34,7 @@ export default function MoviePageContent({
   const router = useRouter();
   const { data } = useCinemaData();
   const { filters, setFilters } = useFilters();
+  const searchParams = useSearchParams();
 
   const matchingMovies = getMatchingMovies(data!.movies, filters);
   const movieAllPerformances = data?.movies[id];
@@ -63,11 +65,16 @@ export default function MoviePageContent({
   const formattedDuration = formatDuration(dateDuration, {
     format: ["hours", "minutes"],
   });
+  const filterParams =
+    searchParams.size > 0 ? `?${searchParams.toString()}` : "";
 
   return (
     <Container style={{ padding: "20px" }}>
       <Container>
         <Sidebar>
+          <div style={{ paddingBottom: "14px" }}>
+            <Link href={`/${filterParams}`}>&larr; Back</Link>
+          </div>
           <Panel
             shaded
             bordered

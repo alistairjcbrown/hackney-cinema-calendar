@@ -1,9 +1,14 @@
+export type Position = {
+  lat: number;
+  lon: number;
+};
+
 export type Venue = {
   id: string;
   name: string;
   url: string;
   address: string;
-  geo: string;
+  geo: Position;
 };
 
 type Person = {
@@ -81,7 +86,6 @@ export type Filters = {
   searchTerm: string;
   dateRange: DateRange;
   yearRange: YearRange;
-  getYearRange: () => YearRange;
   includeUnknownYears: boolean;
   filteredVenues: Record<Venue["id"], boolean>;
   filteredGenres: Record<Genre["id"], boolean>;

@@ -35,7 +35,10 @@ export default function DateRange({
       onChange={(value) => {
         if (!value) return;
         const [start, end] = value;
-        onChange({ start: start.getTime(), end: end.getTime() });
+        onChange({
+          start: startOfDay(start).getTime(),
+          end: endOfDay(end).getTime(),
+        });
       }}
     />
   );
