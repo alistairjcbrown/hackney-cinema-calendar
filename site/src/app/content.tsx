@@ -112,7 +112,7 @@ export default function Home() {
           </Stack.Item>
         </Stack>
       </Header>
-      <Content style={{ padding: "0 1.5rem" }}>
+      <Content>
         <Summary movies={getMatchingMovies(data!.movies, filters)} />
         <MovieList filters={deferredFilters} />
       </Content>
