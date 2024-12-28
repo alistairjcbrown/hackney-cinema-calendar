@@ -27,6 +27,7 @@ function getVenuesNear(
 
 const dateRanges = [
   {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     matcher: (value: string, data: CinemaData | null): boolean =>
       value === "today",
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -39,6 +40,7 @@ const dateRanges = [
       ),
   },
   {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     matcher: (value: string, data: CinemaData | null): boolean =>
       value === "tomorrow",
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -51,6 +53,7 @@ const dateRanges = [
       ),
   },
   {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     matcher: (value: string, data: CinemaData | null): boolean =>
       !!value.match(/\d{4}-\d{2}-\d{2}/),
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -66,6 +69,7 @@ const dateRanges = [
 
 const locations = [
   {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     matcher: (value: string, data: CinemaData | null): boolean =>
       value === "near-me",
     generator: (value: string, data: CinemaData | null): Promise<VenueFilter> =>
@@ -80,6 +84,7 @@ const locations = [
       }),
   },
   {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     matcher: (value: string, data: CinemaData | null): boolean => {
       const match = value.match(/^near-(.+)$/i);
       if (!match || !data?.venues) return false;
