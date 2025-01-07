@@ -13,7 +13,8 @@ export default function SiteGeneratedMessage({
     end: new Date(),
   });
   const formattedDuration = formatDuration(dateDuration, {
-    format: ["hours", "minutes"],
+    format: ["years", "months", "weeks", "days", "hours", "minutes"],
+    delimiter: ", ",
   });
 
   return (
