@@ -104,8 +104,6 @@ async function retrieve(attributes) {
         await page.waitForLoadState("networkidle", { timeout: 60000 });
         // Make sure there's results showing
         await page.locator(".detailed-search-results").waitFor();
-        // Make sure there's pagination available (this will break if BFI ever only has 1 page of results)
-        await page.locator(".pagination-box").waitFor();
 
         pages.push(await page.content());
 
