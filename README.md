@@ -41,6 +41,78 @@ Automatically generated calendar of events at:
     [genesiscinema.co.uk-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/genesiscinema.co.uk-calendar.ics)
     ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/genesiscinema.co.uk-calendar.ics))
 
+- Vue Finchley Road - [🌐 Site](https://www.myvue.com/cinema/finchley-road)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Vue%20Finchley%20Road+%4051.548230431889884,-0.18187623564446753)
+
+  - 📅&nbsp;
+    [myvue.com-finchley-road-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-finchley-road-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-finchley-road-calendar.ics))
+
+- Vue Fulham Broadway - [🌐 Site](https://www.myvue.com/cinema/fulham-broadway)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Vue%20Fulham%20Broadway+%4051.48073987570263,-0.1945338518683316)
+
+  - 📅&nbsp;
+    [myvue.com-fulham-broadway-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-fulham-broadway-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-fulham-broadway-calendar.ics))
+
+- Vue Islington - [🌐 Site](https://www.myvue.com/cinema/islington)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Vue%20Islington+%4051.53423879588184,-0.10597526017120817)
+
+  - 📅&nbsp;
+    [myvue.com-islington-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-islington-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-islington-calendar.ics))
+
+- Vue West End - [🌐 Site](https://www.myvue.com/cinema/leicester-square)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Vue%20West%20End+%4051.51154027444083,-0.12948804448422094)
+
+  - 📅&nbsp;
+    [myvue.com-leicester-square-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-leicester-square-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-leicester-square-calendar.ics))
+
+- Vue North Finchley - [🌐 Site](https://www.myvue.com/cinema/north-finchley)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Vue%20North%20Finchley+%4051.60394898210143,-0.17335463620273625)
+
+  - 📅&nbsp;
+    [myvue.com-north-finchley-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-north-finchley-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-north-finchley-calendar.ics))
+
+- Vue Piccadilly - [🌐 Site](https://www.myvue.com/cinema/piccadilly)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Vue%20Piccadilly+%4051.50888866495835,-0.13420100172148164)
+
+  - 📅&nbsp;
+    [myvue.com-piccadilly-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-piccadilly-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-piccadilly-calendar.ics))
+
+- Vue Shepherd's Bush - [🌐 Site](https://www.myvue.com/cinema/shepherds-bush)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Vue%20Shepherd's%20Bush+%4051.503260038296496,-0.21867278333820994)
+
+  - 📅&nbsp;
+    [myvue.com-shepherds-bush-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-shepherds-bush-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-shepherds-bush-calendar.ics))
+
+- Vue Westfield London - [🌐 Site](https://www.myvue.com/cinema/westfield)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Vue%20Westfield%20London+%4051.50815418057353,-0.22167792027755137)
+
+  - 📅&nbsp;
+    [myvue.com-westfield-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-westfield-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-westfield-calendar.ics))
+
+- Vue Westfield Stratford -
+  [🌐 Site](https://www.myvue.com/cinema/westfield-stratford-city) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Vue%20Westfield%20Stratford+%4051.543689722073395,-0.0064143205156271445)
+
+  - 📅&nbsp;
+    [myvue.com-westfield-stratford-city-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-westfield-stratford-city-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-westfield-stratford-city-calendar.ics))
+
 - Phoenix Cinema - [🌐 Site](https://www.phoenixcinema.co.uk) &nbsp;|&nbsp;
   [📍 Location](http://maps.google.com/maps?q=Phoenix%20Cinema+%4051.58853061979289,-0.16390063689779108)
 

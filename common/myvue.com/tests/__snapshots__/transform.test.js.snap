@@ -1,0 +1,1707 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Vue Cinema (common) when movies with local screenings provided for Westfield Stratford returns a list of events 1`] = `
+[
+  {
+    "overview": {
+      "actors": [
+        "Emma Corrin",
+        "Aaron Taylor-Johnson",
+        "Bill Skarsgård",
+        "Nicholas Hoult",
+        "Willem Dafoe",
+      ],
+      "categories": [
+        "Fantasy",
+        "Horror",
+        "Mystery",
+        "Drama",
+      ],
+      "directors": [
+        "Robert Eggers",
+      ],
+      "duration": 7920000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536462",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required
+AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "8",
+        "time": 1736463900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537004",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "16",
+        "time": 1736510100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536903",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "9",
+        "time": 1736517900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536918",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "10",
+        "time": 1736521500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536889",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "8",
+        "time": 1736524800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536904",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "9",
+        "time": 1736528400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536960",
+        "notes": "Open Captioned: Films and Events that feature subtitles on screen for dialogue, sound effects and music.",
+        "screen": "13",
+        "time": 1736531700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536819",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "3",
+        "time": 1736536200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536848",
+        "notes": "",
+        "screen": "5",
+        "time": 1736539500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536879",
+        "notes": "",
+        "screen": "7",
+        "time": 1736543400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536935",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "11",
+        "time": 1736546400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536849",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "5",
+        "time": 1736550300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536962",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "13",
+        "time": 1736552400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537044",
+        "notes": "",
+        "screen": "19",
+        "time": 1736586300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536954",
+        "notes": "",
+        "screen": "13",
+        "time": 1736593800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536985",
+        "notes": "",
+        "screen": "15",
+        "time": 1736600400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537000",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "16",
+        "time": 1736607000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536914",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "10",
+        "time": 1736612700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536796",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "2",
+        "time": 1736616900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537018",
+        "notes": "",
+        "screen": "17",
+        "time": 1736620200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536987",
+        "notes": "",
+        "screen": "15",
+        "time": 1736624400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536930",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "11",
+        "time": 1736627400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537061",
+        "notes": "",
+        "screen": "20",
+        "time": 1736629200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536916",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "10",
+        "time": 1736632800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536828",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required
+AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "4",
+        "time": 1736636700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537035",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "18",
+        "time": 1736640000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536964",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "14",
+        "time": 1736681100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536790",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "2",
+        "time": 1736687100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536866",
+        "notes": "",
+        "screen": "7",
+        "time": 1736690400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536923",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "11",
+        "time": 1736694000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536791",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "2",
+        "time": 1736697900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536807",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "3",
+        "time": 1736702100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536882",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "8",
+        "time": 1736705700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536836",
+        "notes": "",
+        "screen": "5",
+        "time": 1736709300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536808",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "3",
+        "time": 1736712900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/536837",
+        "notes": "",
+        "screen": "5",
+        "time": 1736720100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537353",
+        "notes": "",
+        "screen": "18",
+        "time": 1736767800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537120",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "4",
+        "time": 1736775000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537338",
+        "notes": "",
+        "screen": "17",
+        "time": 1736777400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537188",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "8",
+        "time": 1736781600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537206",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "9",
+        "time": 1736783700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537276",
+        "notes": "",
+        "screen": "13",
+        "time": 1736787600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537224",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "10",
+        "time": 1736790300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537189",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Open Captioned: Films and Events that feature subtitles on screen for dialogue, sound effects and music.",
+        "screen": "8",
+        "time": 1736793300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537138",
+        "notes": "",
+        "screen": "5",
+        "time": 1736795100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537156",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "6",
+        "time": 1736799000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537109",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "3",
+        "time": 1736802000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537139",
+        "notes": "",
+        "screen": "5",
+        "time": 1736805900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537302",
+        "notes": "",
+        "screen": "15",
+        "time": 1736854500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537234",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "11",
+        "time": 1736859300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537379",
+        "notes": "",
+        "screen": "20",
+        "time": 1736861400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537201",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "9",
+        "time": 1736865900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537071",
+        "notes": "",
+        "screen": "1",
+        "time": 1736868300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537132",
+        "notes": "",
+        "screen": "5",
+        "time": 1736872800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537288",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "14",
+        "time": 1736876700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537319",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "16",
+        "time": 1736878500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537151",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "6",
+        "time": 1736881500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537203",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "9",
+        "time": 1736884800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537352",
+        "notes": "",
+        "screen": "18",
+        "time": 1736887500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537320",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "16",
+        "time": 1736889600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537152",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "6",
+        "time": 1736892300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537248",
+        "notes": "",
+        "screen": "12",
+        "time": 1736941500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537314",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "16",
+        "time": 1736948100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537147",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "6",
+        "time": 1736954700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537216",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "10",
+        "time": 1736960700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537300",
+        "notes": "",
+        "screen": "15",
+        "time": 1736965800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537128",
+        "notes": "",
+        "screen": "5",
+        "time": 1736967900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537331",
+        "notes": "",
+        "screen": "17",
+        "time": 1736972100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537085",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "2",
+        "time": 1736975700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537129",
+        "notes": "",
+        "screen": "5",
+        "time": 1736978700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537386",
+        "notes": "",
+        "screen": "20",
+        "time": 1737027000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537262",
+        "notes": "",
+        "screen": "12",
+        "time": 1737029400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537122",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "4",
+        "time": 1737034500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537343",
+        "notes": "",
+        "screen": "17",
+        "time": 1737036600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537263",
+        "notes": "",
+        "screen": "12",
+        "time": 1737039900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537192",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "8",
+        "time": 1737042900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537344",
+        "notes": "",
+        "screen": "17",
+        "time": 1737047100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537097",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "2",
+        "time": 1737051900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537143",
+        "notes": "",
+        "screen": "5",
+        "time": 1737054300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537345",
+        "notes": "",
+        "screen": "17",
+        "time": 1737057600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537081",
+        "notes": "",
+        "screen": "1",
+        "time": 1737060000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537194",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "8",
+        "time": 1737063300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019664/537144",
+        "notes": "",
+        "screen": "5",
+        "time": 1737065100000,
+      },
+    ],
+    "title": "Nosferatu",
+    "url": "https://www.myvue.com/cinema/westfield-stratford-city/film/nosferatu",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Aaron Pierre",
+        "Kelvin Harrison Jr.",
+        "Seth Rogen",
+        "Billy Eichner",
+        "John Kani",
+      ],
+      "categories": [
+        "Animation",
+        "Drama",
+        "Musical",
+        "Family",
+        "Kids",
+      ],
+      "directors": [
+        "Barry Jenkins",
+      ],
+      "duration": 7080000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536418",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "11",
+        "time": 1736460000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536358",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required
+AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "2",
+        "time": 1736464800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536845",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "5",
+        "time": 1736509800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536932",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "11",
+        "time": 1736513700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536785",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "1",
+        "time": 1736516100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536846",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "5",
+        "time": 1736519700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536976",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "14",
+        "time": 1736522100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536933",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "11",
+        "time": 1736523900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536847",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "5",
+        "time": 1736529600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536878",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "7",
+        "time": 1736533200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537024",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "17",
+        "time": 1736535600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536802",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "2",
+        "time": 1736540700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536820",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "3",
+        "time": 1736547300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537419",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "11",
+        "time": 1736587800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536810",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "3",
+        "time": 1736591400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536970",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "14",
+        "time": 1736594400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537016",
+        "notes": "3D: Screenings shown in 3D
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "17",
+        "time": 1736598000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536871",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "7",
+        "time": 1736600100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536913",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "10",
+        "time": 1736602500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536899",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "9",
+        "time": 1736605800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537032",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "18",
+        "time": 1736607900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536812",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "3",
+        "time": 1736609700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536859",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "6",
+        "time": 1736613600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536929",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "11",
+        "time": 1736617500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536842",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "5",
+        "time": 1736621700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537002",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "16",
+        "time": 1736625900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536814",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "3",
+        "time": 1736629200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536875",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "7",
+        "time": 1736639700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536844",
+        "notes": "3D: Screenings shown in 3D
+Over 18s: Shows only those aged 18+ can attend - ID may be required
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "5",
+        "time": 1736641200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537424",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "9",
+        "time": 1736672400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536936",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "12",
+        "time": 1736679000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537010",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "17",
+        "time": 1736685000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536994",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Open Captioned: Films and Events that feature subtitles on screen for dialogue, sound effects and music.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "16",
+        "time": 1736687700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536980",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "15",
+        "time": 1736689500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536894",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "9",
+        "time": 1736692500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536908",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "10",
+        "time": 1736696100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536853",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "6",
+        "time": 1736700300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536924",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "11",
+        "time": 1736704800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536982",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "15",
+        "time": 1736709000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537013",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "17",
+        "time": 1736714100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/536869",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "7",
+        "time": 1736721000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537014",
+        "notes": "3D: Screenings shown in 3D
+Over 18s: Shows only those aged 18+ can attend - ID may be required
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "17",
+        "time": 1736724600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537274",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "13",
+        "time": 1736768700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537153",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "6",
+        "time": 1736770800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537136",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "5",
+        "time": 1736775900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537259",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "12",
+        "time": 1736780400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537291",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "14",
+        "time": 1736783100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537137",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "5",
+        "time": 1736785500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537121",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "4",
+        "time": 1736787300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537155",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "6",
+        "time": 1736789400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537308",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "15",
+        "time": 1736791800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537207",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "9",
+        "time": 1736794200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537324",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "16",
+        "time": 1736798400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537286",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "14",
+        "time": 1736854200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537200",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "9",
+        "time": 1736856000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537131",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "5",
+        "time": 1736863200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537219",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "10",
+        "time": 1736867700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537150",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "6",
+        "time": 1736871900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537271",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "13",
+        "time": 1736874000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537304",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "15",
+        "time": 1736875500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537256",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "12",
+        "time": 1736880900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537305",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "15",
+        "time": 1736885700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537134",
+        "notes": "3D: Screenings shown in 3D
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "5",
+        "time": 1736893200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537195",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "9",
+        "time": 1736940600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537282",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "14",
+        "time": 1736942400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537082",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "2",
+        "time": 1736947200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537196",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "9",
+        "time": 1736950200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537180",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "8",
+        "time": 1736955900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537127",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "5",
+        "time": 1736958300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537101",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "3",
+        "time": 1736961600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537232",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "11",
+        "time": 1736964900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537363",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "19",
+        "time": 1736967300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537316",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "16",
+        "time": 1736970600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537252",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "12",
+        "time": 1736979300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537175",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "7",
+        "time": 1737027900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537356",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "18",
+        "time": 1737030300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537141",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "5",
+        "time": 1737035100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537387",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "20",
+        "time": 1737037500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537227",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "10",
+        "time": 1737042300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537142",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "5",
+        "time": 1737044700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537388",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "20",
+        "time": 1737047400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537264",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "12",
+        "time": 1737051600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537212",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "9",
+        "time": 1737056100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537178",
+        "notes": "Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "7",
+        "time": 1737059100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00018857/537247",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Family Blockbuster: The latest and greatest family friendly blockbusters, providing nothing but pure escapism.",
+        "screen": "11",
+        "time": 1737066000000,
+      },
+    ],
+    "title": "Mufasa: The Lion King",
+    "url": "https://www.myvue.com/cinema/westfield-stratford-city/film/mufasa-the-lion-king",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Andrew Garfield",
+        "Florence Pugh",
+        "Marama Corlett",
+        "Adam James",
+      ],
+      "categories": [
+        "Drama",
+        "Romance",
+      ],
+      "directors": [
+        "John Crowley",
+      ],
+      "duration": 6420000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536816",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "3",
+        "time": 1736509500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536830",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "4",
+        "time": 1736517000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536946",
+        "notes": "",
+        "screen": "12",
+        "time": 1736519100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536786",
+        "notes": "",
+        "screen": "1",
+        "time": 1736525700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536919",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "10",
+        "time": 1736532000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536890",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "8",
+        "time": 1736535300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537007",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "16",
+        "time": 1736539200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537025",
+        "notes": "",
+        "screen": "17",
+        "time": 1736545500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537054",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "19",
+        "time": 1736552700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536984",
+        "notes": "",
+        "screen": "15",
+        "time": 1736591400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536971",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "14",
+        "time": 1736604600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536885",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "8",
+        "time": 1736610900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536943",
+        "notes": "",
+        "screen": "12",
+        "time": 1736615400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536873",
+        "notes": "",
+        "screen": "7",
+        "time": 1736620800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536915",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "10",
+        "time": 1736623500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536797",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "2",
+        "time": 1736627700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536843",
+        "notes": "",
+        "screen": "5",
+        "time": 1736631900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537049",
+        "notes": "",
+        "screen": "14",
+        "time": 1736641200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537425",
+        "notes": "",
+        "screen": "7",
+        "time": 1736672700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536865",
+        "notes": "",
+        "screen": "7",
+        "time": 1736681400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536777",
+        "notes": "",
+        "screen": "1",
+        "time": 1736689200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536806",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "3",
+        "time": 1736692800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537028",
+        "notes": "",
+        "screen": "18",
+        "time": 1736696700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536835",
+        "notes": "",
+        "screen": "5",
+        "time": 1736700000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537012",
+        "notes": "",
+        "screen": "17",
+        "time": 1736704800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536952",
+        "notes": "",
+        "screen": "13",
+        "time": 1736708100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/536967",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "14",
+        "time": 1736712000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537238",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "11",
+        "time": 1736769600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537382",
+        "notes": "",
+        "screen": "20",
+        "time": 1736772000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537075",
+        "notes": "",
+        "screen": "1",
+        "time": 1736778000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537154",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "6",
+        "time": 1736780400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537092",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "2",
+        "time": 1736784600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537260",
+        "notes": "",
+        "screen": "12",
+        "time": 1736790900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537093",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "2",
+        "time": 1736793600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537340",
+        "notes": "",
+        "screen": "17",
+        "time": 1736796900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537293",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "14",
+        "time": 1736800500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537242",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "11",
+        "time": 1736806800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537148",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "6",
+        "time": 1736855100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537333",
+        "notes": "",
+        "screen": "17",
+        "time": 1736865000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537167",
+        "notes": "",
+        "screen": "7",
+        "time": 1736870400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537220",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "10",
+        "time": 1736877300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537185",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "8",
+        "time": 1736879700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537335",
+        "notes": "",
+        "screen": "17",
+        "time": 1736882400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537118",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "4",
+        "time": 1736883900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537336",
+        "notes": "",
+        "screen": "17",
+        "time": 1736892000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537066",
+        "notes": "",
+        "screen": "1",
+        "time": 1736941800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537126",
+        "notes": "",
+        "screen": "5",
+        "time": 1736949000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537231",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "11",
+        "time": 1736955900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537330",
+        "notes": "",
+        "screen": "17",
+        "time": 1736963100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537181",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "8",
+        "time": 1736965500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537198",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "9",
+        "time": 1736968800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537165",
+        "notes": "",
+        "screen": "7",
+        "time": 1736973600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537199",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "9",
+        "time": 1736978100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537078",
+        "notes": "",
+        "screen": "1",
+        "time": 1737031200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537244",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "11",
+        "time": 1737039000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537279",
+        "notes": "",
+        "screen": "13",
+        "time": 1737046200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537358",
+        "notes": "",
+        "screen": "18",
+        "time": 1737049200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537160",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "6",
+        "time": 1737053400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537280",
+        "notes": "",
+        "screen": "13",
+        "time": 1737055200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537313",
+        "notes": "",
+        "screen": "15",
+        "time": 1737060000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019665/537360",
+        "notes": "",
+        "screen": "16",
+        "time": 1737065400000,
+      },
+    ],
+    "title": "We Live in Time",
+    "url": "https://www.myvue.com/cinema/westfield-stratford-city/film/we-live-in-time",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Pamela Anderson",
+        "Kiernan Shipka",
+        "Brenda Song",
+        "Billie Lourd",
+        "Jamie Lee Curtis",
+        "Dave Bautista",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "directors": [
+        "Gia Coppola",
+      ],
+      "duration": undefined,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019991/533790",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Recorded Q&A: A special screening, complete with a recorded Q&amp;A section, typically after the film.",
+        "screen": "14",
+        "time": 1739215800000,
+      },
+    ],
+    "title": "The Last Showgirl",
+    "url": "https://www.myvue.com/cinema/westfield-stratford-city/film/the-last-showgirl",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Rashida Jones",
+        "Joseph Mazzello",
+        "Armie Hammer",
+        "Dakota Johnson",
+        "Jesse Eisenberg",
+        "Justin Timberlake",
+        "Andrew Garfield",
+        "Rooney Mara",
+      ],
+      "categories": [
+        "Drama",
+        "Biography",
+      ],
+      "directors": [
+        "David Fincher",
+      ],
+      "duration": 7200000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00020009/534392",
+        "notes": "",
+        "screen": "20",
+        "time": 1737231300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00020009/534391",
+        "notes": "",
+        "screen": "20",
+        "time": 1737402000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00020009/534390",
+        "notes": "",
+        "screen": "20",
+        "time": 1737574800000,
+      },
+    ],
+    "title": "The Social Network",
+    "url": "https://www.myvue.com/cinema/westfield-stratford-city/film/the-social-network",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Julia Garner",
+        "Christopher Abbott",
+        "Sam Jaeger",
+        "Matilda Firth",
+      ],
+      "categories": [
+        "Horror",
+      ],
+      "directors": [
+        "Leigh Whannell",
+      ],
+      "duration": 6180000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019671/537431",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "6",
+        "time": 1737144900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019671/537430",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "6",
+        "time": 1737231300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019671/537429",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "6",
+        "time": 1737317700000,
+      },
+    ],
+    "title": "Wolf Man",
+    "url": "https://www.myvue.com/cinema/westfield-stratford-city/film/wolf-man",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
+        "Bollywood",
+      ],
+      "directors": [],
+      "duration": 11580000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019996/536833",
+        "notes": "Hindi: Films shown in the Hindi language
+Over 18s: Shows only those aged 18+ can attend - ID may be required
+AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "4",
+        "time": 1736549700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019996/537003",
+        "notes": "Hindi: Films shown in the Hindi language
+Over 18s: Shows only those aged 18+ can attend - ID may be required
+AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "16",
+        "time": 1736636100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019996/536997",
+        "notes": "Hindi: Films shown in the Hindi language
+AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "16",
+        "time": 1736716500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019996/537384",
+        "notes": "Hindi: Films shown in the Hindi language",
+        "screen": "20",
+        "time": 1736789400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019996/537184",
+        "notes": "Hindi: Films shown in the Hindi language
+AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "8",
+        "time": 1736866800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00019996/537278",
+        "notes": "Hindi: Films shown in the Hindi language",
+        "screen": "13",
+        "time": 1737032400000,
+      },
+    ],
+    "title": "Yeh Jawaani Hai Deewani (Hindi)",
+    "url": "https://www.myvue.com/cinema/westfield-stratford-city/film/yeh-jawaani-hai-deewani-re-2025",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "directors": [],
+      "duration": undefined,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00020012/534399",
+        "notes": "",
+        "screen": "20",
+        "time": 1738440900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00020012/537481",
+        "notes": "",
+        "screen": "20",
+        "time": 1738611600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10074/HO00020012/537480",
+        "notes": "",
+        "screen": "20",
+        "time": 1738784400000,
+      },
+    ],
+    "title": "Zodiac",
+    "url": "https://www.myvue.com/cinema/westfield-stratford-city/film/zodiac-re2025",
+  },
+]
+`;
