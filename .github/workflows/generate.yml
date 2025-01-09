@@ -71,15 +71,15 @@ jobs:
       - run: npm run generate picturehouses.com-the-gate
       - run: npm run generate picturehouses.com-the-ritzy
       - run: npm run generate picturehouses.com-west-norwood
-      - run: npm run generate myvue.com-finchley-road
-      - run: npm run generate myvue.com-fulham-broadway
-      - run: npm run generate myvue.com-islington
-      - run: npm run generate myvue.com-leicester-square
-      - run: npm run generate myvue.com-north-finchley
-      - run: npm run generate myvue.com-piccadilly
-      - run: npm run generate myvue.com-shepherds-bush
-      - run: npm run generate myvue.com-westfield
-      - run: npm run generate myvue.com-westfield-stratford-city
+      - run: xvfb-run npm run generate myvue.com-finchley-road
+      - run: xvfb-run npm run generate myvue.com-fulham-broadway
+      - run: xvfb-run npm run generate myvue.com-islington
+      - run: xvfb-run npm run generate myvue.com-leicester-square
+      - run: xvfb-run npm run generate myvue.com-north-finchley
+      - run: xvfb-run npm run generate myvue.com-piccadilly
+      - run: xvfb-run npm run generate myvue.com-shepherds-bush
+      - run: xvfb-run npm run generate myvue.com-westfield
+      - run: xvfb-run npm run generate myvue.com-westfield-stratford-city
       - run: npm run generate riocinema.org.uk
       - run: npm run generate regentstreetcinema.com
       - run: npm run generate phoenixcinema.co.uk
