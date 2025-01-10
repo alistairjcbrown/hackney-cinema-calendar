@@ -20,12 +20,11 @@ name: Hackney Cinema Calendar
 jobs:
   generate_calendar:
     name: Generate Calendar
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     permissions:
       contents: write
     env:
       MOVIEDB_API_KEY: ${{ secrets.MOVIEDB_API_KEY }}
-      ZENROWS_API_KEY: ${{ secrets.ZENROWS_API_KEY }}
 
     steps:
       # Setup
@@ -41,86 +40,89 @@ jobs:
           echo "currentDate=$(TZ=Europe/London date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
           echo "currentTime=$(TZ=Europe/London date +'%H:%M:%S')" >> "$GITHUB_OUTPUT"
 
-      # Vue runs need a full browser and may get caught in connection checks
-      - name: npm run generate myvue.com-finchley-road
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 5
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: xvfb-run npm run generate myvue.com-finchley-road
-      - name: npm run generate myvue.com-fulham-broadway
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 5
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: xvfb-run npm run generate myvue.com-fulham-broadway
-      - name: npm run generate myvue.com-islington
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 5
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: xvfb-run npm run generate myvue.com-islington
-      - name: npm run generate myvue.com-leicester-square
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 5
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: xvfb-run npm run generate myvue.com-leicester-square
-      - name: npm run generate myvue.com-north-finchley
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 5
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: xvfb-run npm run generate myvue.com-north-finchley
-      - name: npm run generate myvue.com-piccadilly
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 5
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: xvfb-run npm run generate myvue.com-piccadilly
-      - name: npm run generate myvue.com-shepherds-bush
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 5
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: xvfb-run npm run generate myvue.com-shepherds-bush
-      - name: npm run generate myvue.com-westfield
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 5
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: xvfb-run npm run generate myvue.com-westfield
-      - name: npm run generate myvue.com-westfield-stratford-city
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 5
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: xvfb-run npm run generate myvue.com-westfield-stratford-city
-
-      # BFI runs need a full browser and are flaky, so retry if they initially fail
+      # BFI runs need a full browser to not get caught in connection checks.
+      # The pages are slow to load and can often time out. With the scripts
+      # caching responses between runs, we can leverage this with a high number
+      # of retries.
       - name: npm run generate bfi.org.uk-imax
         uses: nick-fields/retry@v3
         with:
-          timeout_minutes: 15
+          timeout_minutes: 30
           retry_wait_seconds: 30
           max_attempts: 10
           command: xvfb-run npm run generate bfi.org.uk-imax
       - name: npm run generate bfi.org.uk-southbank
         uses: nick-fields/retry@v3
         with:
-          timeout_minutes: 30
+          timeout_minutes: 120
           retry_wait_seconds: 60
-          max_attempts: 10
+          max_attempts: 20
           command: xvfb-run npm run generate bfi.org.uk-southbank
+
+      # Vue runs need a full browser to not get caught in connection checks.
+      - name: npm run generate myvue.com-finchley-road
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          retry_wait_seconds: 30
+          max_attempts: 3
+          command: xvfb-run npm run generate myvue.com-finchley-road
+      - name: npm run generate myvue.com-fulham-broadway
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          retry_wait_seconds: 30
+          max_attempts: 3
+          command: xvfb-run npm run generate myvue.com-fulham-broadway
+      - name: npm run generate myvue.com-islington
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          retry_wait_seconds: 30
+          max_attempts: 3
+          command: xvfb-run npm run generate myvue.com-islington
+      - name: npm run generate myvue.com-leicester-square
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          retry_wait_seconds: 30
+          max_attempts: 3
+          command: xvfb-run npm run generate myvue.com-leicester-square
+      - name: npm run generate myvue.com-north-finchley
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          retry_wait_seconds: 30
+          max_attempts: 3
+          command: xvfb-run npm run generate myvue.com-north-finchley
+      - name: npm run generate myvue.com-piccadilly
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          retry_wait_seconds: 30
+          max_attempts: 3
+          command: xvfb-run npm run generate myvue.com-piccadilly
+      - name: npm run generate myvue.com-shepherds-bush
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          retry_wait_seconds: 30
+          max_attempts: 3
+          command: xvfb-run npm run generate myvue.com-shepherds-bush
+      - name: npm run generate myvue.com-westfield
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          retry_wait_seconds: 30
+          max_attempts: 3
+          command: xvfb-run npm run generate myvue.com-westfield
+      - name: npm run generate myvue.com-westfield-stratford-city
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          retry_wait_seconds: 30
+          max_attempts: 3
+          command: xvfb-run npm run generate myvue.com-westfield-stratford-city
 
       # All other cinema site runs use data which can be fetched
       - run: npm run generate princecharlescinema.com

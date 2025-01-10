@@ -31,6 +31,7 @@ async function processSearchResultPage(
     const showData = parsedData[showUrl];
     if (showData.html) continue;
 
+    console.log(`    - Getting data for "${showData.title}" ... `);
     const slug = slugify(showData.title, { strict: true }).toLowerCase();
     const cacheKey = `bfi.org.uk-${articleId}-${slug}`;
     parsedData[showUrl].html = await getPageWithPlaywright(
@@ -38,7 +39,12 @@ async function processSearchResultPage(
       cacheKey,
       async (page) => {
         // Wait until the page is finished everything
-        await page.waitForLoadState("networkidle");
+        try {
+          await page.waitForLoadState("networkidle");
+        } catch (e) {
+          // If this fails, it'll be because it timed out. At that point, we
+          // might as well keep going and see if the next waitFor passes.
+        }
         // Make sure there's information showing. Not all pages have film info
         // (that we care about), so check for the rich text or media areas too
         try {
@@ -70,6 +76,8 @@ async function retrieve(attributes) {
     `BOset%3A%3AWScontent%3A%3ASearchCriteria%3A%3Asearch_to=${end}`,
   ];
 
+  console.log("");
+  console.log("    - Retriving search results pages ... ");
   const cacheKey = `bfi.org.uk-${articleId}`;
   const searchResultPages = await getPageWithPlaywright(
     `${url}?${urlQuery.join("&")}`,
@@ -111,6 +119,9 @@ async function retrieve(attributes) {
     },
   );
 
+  console.log(
+    `    - Processing ${searchResultPages.length} search results pages ... `,
+  );
   let parsedData = {};
   for (searchResultPage of searchResultPages) {
     parsedData = await processSearchResultPage(

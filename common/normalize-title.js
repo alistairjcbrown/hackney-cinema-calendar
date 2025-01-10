@@ -3,6 +3,8 @@ const knownRemovablePhrases = require("./known-removable-phrases.json");
 function normalizeTitle(title) {
   title = title.toLowerCase();
 
+  if (title === "seven") return "se7en";
+
   const removablePrefixes = [
     "Scared To Dance -",
     "Hitchcock: The Gainsborough Days -",
@@ -14,6 +16,7 @@ function normalizeTitle(title) {
     "member library lates:",
     "Carer's & Babies Club:",
     "carers & babies club:",
+    "Valentine’s Day Preview:",
   ];
 
   removablePrefixes.forEach((phrase) => {

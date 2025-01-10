@@ -8,9 +8,10 @@ async function getPageWithPlaywright(url, cacheKey, callback) {
   return dailyCache(cacheKey, async () => {
     const browser = await chromium.launch({ headless: false });
     const context = await browser.newContext();
-    // Make the timeout much higher for running on slower runners
+    // Make the timeout much higher than default for running on slower runners
     context.setDefaultTimeout(90_000);
     const page = await context.newPage();
+    await page.setViewportSize({ width: 1280, height: 720 });
     try {
       await page.goto(url);
       const result = await callback(page);
@@ -22,7 +23,9 @@ async function getPageWithPlaywright(url, cacheKey, callback) {
           path: `./playwright-failures/error--${cacheKey}.png`,
         });
       } catch (screenshotError) {
-        console.log("Unable to take error screenshot:", screenshotError);
+        console.log(
+          `Unable to take error screenshot: ${screenshotError.message}`,
+        );
       }
       throw error;
     }
