@@ -28,6 +28,8 @@ async function getPageWithPlaywright(url, cacheKey, callback) {
         );
       }
       throw error;
+    } finally {
+      await browser.close();
     }
   });
 }

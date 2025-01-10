@@ -31,7 +31,7 @@ async function processSearchResultPage(
     const showData = parsedData[showUrl];
     if (showData.html) continue;
 
-    console.log(`    - Getting data for "${showData.title}" ... `);
+    console.log(`    - [${Date.now()}] Getting data for "${showData.title}" ... `);
     const slug = slugify(showData.title, { strict: true }).toLowerCase();
     const cacheKey = `bfi.org.uk-${articleId}-${slug}`;
     parsedData[showUrl].html = await getPageWithPlaywright(
@@ -77,7 +77,7 @@ async function retrieve(attributes) {
   ];
 
   console.log("");
-  console.log("    - Retriving search results pages ... ");
+  console.log(`    - [${Date.now()}] Retriving search results pages ... `);
   const cacheKey = `bfi.org.uk-${articleId}`;
   const searchResultPages = await getPageWithPlaywright(
     `${url}?${urlQuery.join("&")}`,
@@ -86,7 +86,12 @@ async function retrieve(attributes) {
       const pages = [];
       while (true) {
         // Wait until the page is finished everything
-        await page.waitForLoadState("networkidle");
+        try {
+          await page.waitForLoadState("networkidle");
+        } catch (e) {
+          // If this fails, it'll be because it timed out. At that point, we
+          // might as well keep going and see if the next waitFor passes.
+        }
         // Make sure there's results showing
         await page.locator(".detailed-search-results").waitFor();
 
@@ -120,7 +125,7 @@ async function retrieve(attributes) {
   );
 
   console.log(
-    `    - Processing ${searchResultPages.length} search results pages ... `,
+    `    - [${Date.now()}] Processing ${searchResultPages.length} search results pages ... `,
   );
   let parsedData = {};
   for (searchResultPage of searchResultPages) {
