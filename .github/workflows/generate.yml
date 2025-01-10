@@ -25,6 +25,7 @@ jobs:
       contents: write
     env:
       MOVIEDB_API_KEY: ${{ secrets.MOVIEDB_API_KEY }}
+      ZENROWS_API_KEY: ${{ secrets.ZENROWS_API_KEY }}
 
     steps:
       # Setup
