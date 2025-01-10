@@ -38,7 +38,7 @@ async function processSearchResultPage(
       cacheKey,
       async (page) => {
         // Wait until the page is finished everything
-        await page.waitForLoadState("networkidle", { timeout: 60000 });
+        await page.waitForLoadState("networkidle");
         // Make sure there's information showing. Not all pages have film info
         // (that we care about), so check for the rich text or media areas too
         try {
@@ -78,7 +78,7 @@ async function retrieve(attributes) {
       const pages = [];
       while (true) {
         // Wait until the page is finished everything
-        await page.waitForLoadState("networkidle", { timeout: 60000 });
+        await page.waitForLoadState("networkidle");
         // Make sure there's results showing
         await page.locator(".detailed-search-results").waitFor();
 

@@ -94,14 +94,14 @@ jobs:
         with:
           timeout_minutes: 30
           retry_wait_seconds: 30
-          max_attempts: 5
+          max_attempts: 10
           command: xvfb-run npm run generate bfi.org.uk-imax
       - name: npm run generate bfi.org.uk-southbank
         uses: nick-fields/retry@v3
         with:
           timeout_minutes: 120
           retry_wait_seconds: 60
-          max_attempts: 5
+          max_attempts: 10
           command: xvfb-run npm run generate bfi.org.uk-southbank
 
       # All other cinema site runs use data which can be fetched

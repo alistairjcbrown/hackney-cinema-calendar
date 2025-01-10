@@ -8,6 +8,8 @@ async function getPageWithPlaywright(url, cacheKey, callback) {
   return dailyCache(cacheKey, async () => {
     const browser = await chromium.launch({ headless: false });
     const context = await browser.newContext();
+    // Make the timeout much higher for running on slower runners
+    context.setDefaultTimeout(90_000);
     const page = await context.newPage();
     try {
       await page.goto(url);
