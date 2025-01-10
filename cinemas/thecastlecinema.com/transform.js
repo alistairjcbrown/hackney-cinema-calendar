@@ -114,11 +114,13 @@ async function transform(data) {
         }
       });
 
-      const [time, ...notes] = $link
-        .text()
-        .replace(/\s+/g, " ")
-        .trim()
-        .split(" ");
+      let notes = $link.find(".screening-type").text().trim();
+      if ($link.hasClass("is-sold-out")) {
+        notes += "\nSold out";
+      } else if ($link.hasClass("low-availability")) {
+        notes += "\nLast few seats";
+      }
+      const [time] = $link.text().replace(/\s+/g, " ").trim().split(" ");
       const [hours, minutes] = time.split(":");
       movies[id].performances = movies[id].performances.concat([
         {
@@ -126,8 +128,9 @@ async function transform(data) {
             parseInt(hours, 10),
             parseInt(minutes, 10),
           ),
-          notes: (notes || []).join(" ").trim(),
+          notes: notes.trim(),
           bookingUrl: `${domain}${$link.attr("href")}`,
+          screen: $link.find(".screen").text().trim(),
         },
       ]);
     });

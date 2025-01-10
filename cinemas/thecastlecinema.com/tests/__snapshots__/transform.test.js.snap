@@ -19,6 +19,7 @@ exports[`The Castle Cinema when movies with local screenings provided returns a 
       {
         "bookingUrl": "https://thecastlecinema.com/bookings/10389/nt-live-prima-facie",
         "notes": "",
+        "screen": "",
         "time": 1726163100000,
       },
     ],
@@ -43,6 +44,7 @@ exports[`The Castle Cinema when movies with local screenings provided returns a 
       {
         "bookingUrl": "https://thecastlecinema.com/bookings/10568/cine-real-presents-jagged-edge",
         "notes": "16mm",
+        "screen": "",
         "time": 1724351400000,
       },
     ],
@@ -68,6 +70,7 @@ exports[`The Castle Cinema when movies with local screenings provided returns a 
       {
         "bookingUrl": "https://thecastlecinema.com/bookings/10570/cine-real-presents-double-indemnity",
         "notes": "16mm",
+        "screen": "",
         "time": 1723986000000,
       },
     ],
@@ -86,6 +89,7 @@ exports[`The Castle Cinema when movies with local screenings provided returns a 
       {
         "bookingUrl": "https://thecastlecinema.com/bookings/10565/pitchblack-playback-portishead-dummy-30th-anniversary",
         "notes": "music",
+        "screen": "",
         "time": 1724184000000,
       },
     ],
@@ -111,11 +115,13 @@ exports[`The Castle Cinema when movies with local screenings provided returns a 
       {
         "bookingUrl": "https://thecastlecinema.com/bookings/10564/longlegs",
         "notes": "",
+        "screen": "",
         "time": 1722508200000,
       },
       {
         "bookingUrl": "https://thecastlecinema.com/bookings/10561/longlegs",
         "notes": "",
+        "screen": "",
         "time": 1722534300000,
       },
     ],
@@ -140,12 +146,14 @@ exports[`The Castle Cinema when movies with local screenings provided returns a 
     "performances": [
       {
         "bookingUrl": "https://thecastlecinema.com/bookings/10560/i-saw-the-tv-glow",
-        "notes": "(last few seats) parent & baby",
+        "notes": "parent & baby",
+        "screen": "",
         "time": 1722506400000,
       },
       {
         "bookingUrl": "https://thecastlecinema.com/bookings/10558/i-saw-the-tv-glow",
         "notes": "",
+        "screen": "",
         "time": 1722528900000,
       },
     ],
