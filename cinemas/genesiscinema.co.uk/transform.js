@@ -52,6 +52,10 @@ async function getAdditionalDataFor(pageUrls) {
           const hasDate = contents.match(/Release Date:\s+(.*)$/i);
           if (hasDate) {
             addiitionalData.year = hasDate[1].split("/")[2];
+            const thisYear = new Date().getFullYear();
+            if (parseInt(addiitionalData.year, 10) > thisYear) {
+              addiitionalData.year = `${thisYear}`;
+            }
           }
         });
 

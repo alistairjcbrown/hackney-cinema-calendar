@@ -31,7 +31,9 @@ async function processSearchResultPage(
     const showData = parsedData[showUrl];
     if (showData.html) continue;
 
-    console.log(`    - [${Date.now()}] Getting data for "${showData.title}" ... `);
+    console.log(
+      `    - [${Date.now()}] Getting data for "${showData.title}" ... `,
+    );
     const slug = slugify(showData.title, { strict: true }).toLowerCase();
     const cacheKey = `bfi.org.uk-${articleId}-${slug}`;
     parsedData[showUrl].html = await getPageWithPlaywright(
