@@ -7,7 +7,7 @@ export default function SiteGeneratedMessage({
 }) {
   if (!generatedTime) return null;
 
-  const time = parseInt(generatedTime, 10) * 1000;
+  const time = new Date(generatedTime);
   const dateDuration = intervalToDuration({
     start: new Date(time),
     end: new Date(),
@@ -19,7 +19,7 @@ export default function SiteGeneratedMessage({
 
   return (
     <div style={{ textAlign: "center", margin: "2rem" }}>
-      Site generated on {new Date(time).toLocaleDateString()} at{" "}
+      Data retrieved on {new Date(time).toLocaleDateString()} at{" "}
       {new Date(time).toLocaleTimeString()} (
       {formattedDuration ? `${formattedDuration} ago` : "Just now!"})
     </div>

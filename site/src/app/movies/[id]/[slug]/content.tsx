@@ -253,9 +253,7 @@ export default function MoviePageContent({
       </Container>
       <Footer>
         <Footer>
-          <SiteGeneratedMessage
-            generatedTime={process.env.NEXT_PUBLIC_GENERATED_AT}
-          />
+          <SiteGeneratedMessage generatedTime={data!.generatedAt} />
         </Footer>
       </Footer>
     </Container>

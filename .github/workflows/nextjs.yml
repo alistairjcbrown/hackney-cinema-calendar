@@ -52,7 +52,7 @@ jobs:
         run: npm run generate:combined-data
       - run: npm ci # Install the site dependencies
         working-directory: ./site
-      - run: NEXT_PUBLIC_GENERATED_AT=$(TZ=Europe/London date +%s) npm run build
+      - run: npm run build
         working-directory: ./site
       - uses: actions/upload-pages-artifact@v3
         with:

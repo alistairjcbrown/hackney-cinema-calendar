@@ -66,6 +66,7 @@ export type Movie = {
 };
 
 export type CinemaData = {
+  generatedAt: string;
   venues: Record<string, Venue>;
   people: Record<string, Person>;
   genres: Record<string, Genre>;

@@ -73,6 +73,12 @@ const siteData = {
 };
 
 (async function () {
+  const releaseResponse = await fetch(
+    "https://api.github.com/repos/alistairjcbrown/hackney-cinema-calendar/releases/latest",
+  );
+  const releaseData = await releaseResponse.json();
+  siteData.generatedAt = releaseData.published_at;
+
   for (cinema in data) {
     console.log(`[🎞️  Cinema: ${cinema}]`);
     const {

@@ -117,9 +117,7 @@ export default function Home() {
         <MovieList filters={deferredFilters} />
       </Content>
       <Footer>
-        <SiteGeneratedMessage
-          generatedTime={process.env.NEXT_PUBLIC_GENERATED_AT}
-        />
+        <SiteGeneratedMessage generatedTime={data!.generatedAt} />
       </Footer>
     </Container>
   );
