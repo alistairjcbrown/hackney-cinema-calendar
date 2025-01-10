@@ -1,0 +1,43 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  generate_calendar:
+    runs-on: self-hosted
+    permissions:
+      contents: write
+    env:
+      MOVIEDB_API_KEY: ${{ secrets.MOVIEDB_API_KEY }}
+
+    steps:
+      # Setup
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: .node-version
+      - run: npm ci
+      - run: npx playwright install --with-deps
+      - name: Get current date and time
+        id: date
+        run: |
+          echo "currentDate=$(TZ=Europe/London date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
+          echo "currentTime=$(TZ=Europe/London date +'%H:%M:%S')" >> "$GITHUB_OUTPUT"
+
+
+      - name: npm run generate bfi.org.uk-imax
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 15
+          retry_wait_seconds: 30
+          max_attempts: 10
+          command: xvfb-run npm run generate bfi.org.uk-imax
+
+      - run: npm run generate picturehouses.com-central
+
+      # Run post-data scripts
+      - run: npm run output:highlight-hydration-misses-for-review
+
+      - name: Output summary
+        run: |
+          echo "📆 Calendar generated at ${{ steps.date.outputs.currentTime }} on ${{ steps.date.outputs.currentDate }}" >> $GITHUB_STEP_SUMMARY
+          echo "🔖 New release - ${{ steps.release.outputs.html_url }}" >> $GITHUB_STEP_SUMMARY
