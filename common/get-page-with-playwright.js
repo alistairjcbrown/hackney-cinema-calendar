@@ -15,9 +15,13 @@ async function getPageWithPlaywright(url, cacheKey, callback) {
       await browser.close();
       return result;
     } catch (error) {
-      await page.screenshot({
-        path: `./playwright-failures/error--${cacheKey}.png`,
-      });
+      try {
+        await page.screenshot({
+          path: `./playwright-failures/error--${cacheKey}.png`,
+        });
+      } catch (screenshotError) {
+        console.log("Unable to take error screenshot:", screenshotError);
+      }
       throw error;
     }
   });

@@ -23,13 +23,20 @@ jobs:
           echo "currentDate=$(TZ=Europe/London date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
           echo "currentTime=$(TZ=Europe/London date +'%H:%M:%S')" >> "$GITHUB_OUTPUT"
 
+      - name: npm run generate myvue.com-finchley-road
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 10
+          retry_wait_seconds: 30
+          max_attempts: 3
+          command: xvfb-run npm run generate myvue.com-finchley-road
 
       - name: npm run generate bfi.org.uk-imax
         uses: nick-fields/retry@v3
         with:
-          timeout_minutes: 15
+          timeout_minutes: 30
           retry_wait_seconds: 30
-          max_attempts: 10
+          max_attempts: 5
           command: xvfb-run npm run generate bfi.org.uk-imax
 
       - run: npm run generate picturehouses.com-central
