@@ -235,7 +235,12 @@ const siteData = {
 
   Object.values(confirmedConbinations).forEach((group) => {
     const matched = group.find(({ isUnmatched }) => !isUnmatched);
-    const container = { ...(matched || group[0]) };
+    const shortestName = group.reduce(
+      (selected, challenger) =>
+        selected.title.length > challenger.title.length ? challenger : selected,
+      group[0],
+    );
+    const container = { ...(matched || shortestName) };
     group.forEach((movie) => {
       if (movie.id === container.id) return;
       // Add showing title in case it doesn't match container title

@@ -59,6 +59,8 @@ function normalizeTitle(title) {
   }
 
   return title
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
     .replace(/\s*:\s+/g, ": ")
     .trim()
     .replace(/:$/, "")

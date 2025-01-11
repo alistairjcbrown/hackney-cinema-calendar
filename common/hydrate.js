@@ -16,13 +16,17 @@ const getMovieTitleAndYearFrom = (title) => {
   return { title };
 };
 
-function getBestMatch(titleQuery, results) {
+function getBestMatch(titleQuery, rawResults) {
+  const results = rawResults.filter(({ release_date: date }) => !!date);
+
   // If there's only a few results returned, then pick the first
   if (results.length <= 3) return results[0];
 
   // If there's only one match that has the same title, then pick it
   const matches = results.filter(
-    ({ title }) => normalizeTitle(title) === titleQuery.toLowerCase(),
+    ({ title, original_title: originalTitle }) =>
+      normalizeTitle(title) === titleQuery ||
+      normalizeTitle(originalTitle) === titleQuery,
   );
 
   if (matches.length === 1) return matches[0];
@@ -50,7 +54,7 @@ async function hydrate(shows) {
       });
 
       const result = getBestMatch(normalizedTitle, search.results);
-      if (!result || !result.release_date) return show;
+      if (!result) return show;
 
       if (!show.overview.duration) {
         const movieInfo = await getMovieInfoAndCacheResults({ id: result.id });

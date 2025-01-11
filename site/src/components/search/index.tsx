@@ -12,9 +12,9 @@ export default function Search({
   onChange: (value: string) => void;
 }) {
   const { data } = useCinemaData();
-  const autocompleteData = Object.values(data!.movies).map(
-    ({ title }) => title,
-  );
+  const autocompleteData = [
+    ...new Set(Object.values(data!.movies).map(({ title }) => title)),
+  ];
   return (
     <InputGroup inside>
       <InputGroup.Addon>
