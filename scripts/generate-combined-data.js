@@ -10,6 +10,7 @@ const {
   getMovieGenresAndCacheResults,
 } = require("../common/get-movie-data");
 const { parseMinsToMs } = require("../common/utils");
+const standardizePrefixingForTheatrePerformances = require("../common/standardize-prefixing-for-theatre-performances");
 
 const getId = (value) =>
   crypto.createHash("sha256").update(value).digest("hex").slice(0, 8);
@@ -241,6 +242,26 @@ const siteData = {
       group[0],
     );
     const container = { ...(matched || shortestName) };
+    const originalTitle = container.title;
+    container.title = standardizePrefixingForTheatrePerformances(
+      container.title,
+    );
+
+    // If we've just updated the container title, add the old title into the
+    // existing showings
+    if (container.title !== originalTitle) {
+      container.showings = Object.keys(container.showings).reduce(
+        (updatedShowings, showingId) => {
+          const showing = container.showings[showingId];
+          return {
+            ...updatedShowings,
+            [showingId]: { ...showing, title: originalTitle },
+          };
+        },
+        {},
+      );
+    }
+
     group.forEach((movie) => {
       if (movie.id === container.id) return;
       // Add showing title in case it doesn't match container title

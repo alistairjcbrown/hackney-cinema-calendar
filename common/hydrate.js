@@ -44,7 +44,7 @@ function getBestMatch(titleQuery, rawResults) {
 async function hydrate(shows) {
   return await Promise.all(
     shows.map(async (show) => {
-      const title = normalizeTitle(show.title);
+      const title = normalizeTitle(show.title, { retainYear: true });
       const { title: normalizedTitle, year } = getMovieTitleAndYearFrom(title);
       const slug = slugify(normalizedTitle, { strict: true }).toLowerCase();
       const search = await searchMovieAndCacheResults({

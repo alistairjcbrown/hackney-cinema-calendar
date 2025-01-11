@@ -1,7 +1,11 @@
 const knownRemovablePhrases = require("./known-removable-phrases.json");
+const standardizePrefixingForTheatrePerformances = require("./standardize-prefixing-for-theatre-performances");
 
-function normalizeTitle(title) {
-  title = title.toLowerCase();
+function normalizeTitle(title, options) {
+  title = standardizePrefixingForTheatrePerformances(
+    title,
+    options,
+  ).toLowerCase();
 
   if (title === "seven") return "se7en";
 

@@ -8,7 +8,7 @@ import {
   useState,
 } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { startOfDay, endOfDay, addMonths } from "date-fns";
+import { startOfDay, endOfDay, addYears } from "date-fns";
 import { useCinemaData } from "@/state/cinema-data-context";
 
 function safelyJsonStringify<T>(value: T): string | undefined {
@@ -127,7 +127,7 @@ export function FiltersProvider({ children }: { children: ReactNode }) {
     const yearRange = getYearRange();
     const dateRange = {
       start: startOfDay(Date.now()).getTime(),
-      end: endOfDay(addMonths(Date.now(), 2)).getTime(),
+      end: endOfDay(addYears(Date.now(), 1)).getTime(),
     };
 
     return {
