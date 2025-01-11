@@ -18,6 +18,75 @@ Automatically generated calendar of events at:
     [bfi.org.uk-southbank-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/bfi.org.uk-southbank-calendar.ics)
     ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/bfi.org.uk-southbank-calendar.ics))
 
+- Curzon Aldgate - [🌐 Site](https://www.curzon.com/venues/aldgate)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Curzon%20Aldgate+%4051.51388963429393,-0.06902143582463525)
+
+  - 📅&nbsp;
+    [curzon.com-aldgate-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-aldgate-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-aldgate-calendar.ics))
+
+- Curzon Bloomsbury - [🌐 Site](https://www.curzon.com/venues/bloomsbury)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Curzon%20Bloomsbury+%4051.52424479879273,-0.12308232804596259)
+
+  - 📅&nbsp;
+    [curzon.com-bloomsbury-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-bloomsbury-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-bloomsbury-calendar.ics))
+
+- Curzon Camden - [🌐 Site](https://www.curzon.com/venues/camden) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Curzon%20Camden+%4051.54260193795309,-0.14356015926434765)
+
+  - 📅&nbsp;
+    [curzon.com-camden-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-camden-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-camden-calendar.ics))
+
+- Curzon Hoxton - [🌐 Site](https://www.curzon.com/venues/hoxton) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Curzon%20Hoxton+%4051.52919526013429,-0.08374533281084108)
+
+  - 📅&nbsp;
+    [curzon.com-hoxton-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-hoxton-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-hoxton-calendar.ics))
+
+- Curzon Kingston - [🌐 Site](https://www.curzon.com/venues/kingston)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Curzon%20Kingston+%4051.41133439637979,-0.30457939999999994)
+
+  - 📅&nbsp;
+    [curzon.com-kingston-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-kingston-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-kingston-calendar.ics))
+
+- Curzon Mayfair - [🌐 Site](https://www.curzon.com/venues/mayfair)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Curzon%20Mayfair+%4051.506734218879856,-0.14792424440091292)
+
+  - 📅&nbsp;
+    [curzon.com-mayfair-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-mayfair-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-mayfair-calendar.ics))
+
+- Curzon Soho - [🌐 Site](https://www.curzon.com/venues/soho) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Curzon%20Soho+%4051.51298767477921,-0.1305613666708299)
+
+  - 📅&nbsp;
+    [curzon.com-soho-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-soho-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-soho-calendar.ics))
+
+- Curzon Victoria - [🌐 Site](https://www.curzon.com/venues/victoria)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Curzon%20Victoria+%4051.49764787294184,-0.13683633158947858)
+
+  - 📅&nbsp;
+    [curzon.com-victoria-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-victoria-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-victoria-calendar.ics))
+
+- Curzon Wimbledon - [🌐 Site](https://www.curzon.com/venues/wimbledon)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Curzon%20Wimbledon+%4051.420747389164646,-0.2054954322800224)
+
+  - 📅&nbsp;
+    [curzon.com-wimbledon-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-wimbledon-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/curzon.com-wimbledon-calendar.ics))
+
 - Electric Cinema Portobello -
   [🌐 Site](https://www.electriccinema.co.uk/cinemas/portobello/) &nbsp;|&nbsp;
   [📍 Location](http://maps.google.com/maps?q=Electric%20Cinema%20Portobello+%4051.51573808588957,-0.20493321741616657)

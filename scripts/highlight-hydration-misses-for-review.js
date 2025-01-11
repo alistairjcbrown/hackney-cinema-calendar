@@ -9,6 +9,7 @@ const termsExpectedToNotMatch = [
   /Double Feature/i,
   /Trilogy/i,
   /Mystery Movie/i,
+  /Double Bill/i,
 
   // Non feature film events
   /Comedy Night/i,
@@ -52,6 +53,7 @@ const termsExpectedToNotMatch = [
   /^The Royal Ballet:/i,
   /^Met Opera[^:]*:/i,
   /^The Metropolitan Opera:/i,
+  /^The Met:/i,
   /^The Royal Opera:/i,
   /^MACBETH:/i,
   /EXHIBITION ON SCREEN:/i,

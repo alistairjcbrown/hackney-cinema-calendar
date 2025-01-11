@@ -128,6 +128,8 @@ jobs:
       - run: npm run generate princecharlescinema.com
       - run: npm run generate genesiscinema.co.uk
       - run: npm run generate thecastlecinema.com
+
+      # Picturehouses
       - run: npm run generate picturehouses.com-central
       - run: npm run generate picturehouses.com-clapham
       - run: npm run generate picturehouses.com-crouch-end
@@ -139,9 +141,24 @@ jobs:
       - run: npm run generate picturehouses.com-the-gate
       - run: npm run generate picturehouses.com-the-ritzy
       - run: npm run generate picturehouses.com-west-norwood
+
+      # Curzon
+      - run: npm run generate curzon.com-aldgate
+      - run: npm run generate curzon.com-bloomsbury
+      - run: npm run generate curzon.com-camden
+      - run: npm run generate curzon.com-hoxton
+      - run: npm run generate curzon.com-kingston
+      - run: npm run generate curzon.com-mayfair
+      - run: npm run generate curzon.com-soho
+      - run: npm run generate curzon.com-victoria
+      - run: npm run generate curzon.com-wimbledon
+
+      # Indy Cinema Group
       - run: npm run generate riocinema.org.uk
       - run: npm run generate regentstreetcinema.com
       - run: npm run generate phoenixcinema.co.uk
+
+      # Electric Cinema
       - run: npm run generate electriccinema.co.uk-portobello
       - run: npm run generate electriccinema.co.uk-white-city
 
