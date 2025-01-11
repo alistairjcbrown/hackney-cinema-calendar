@@ -153,6 +153,22 @@ jobs:
       - run: npm run generate curzon.com-victoria
       - run: npm run generate curzon.com-wimbledon
 
+      # Everyman
+      - run: npm run generate everymancinema.com-baker-street
+      - run: npm run generate everymancinema.com-barnet
+      - run: npm run generate everymancinema.com-belsize-park
+      - run: npm run generate everymancinema.com-borough-yards
+      - run: npm run generate everymancinema.com-broadgate
+      - run: npm run generate everymancinema.com-canary-wharf
+      - run: npm run generate everymancinema.com-chelsea
+      - run: npm run generate everymancinema.com-crystal-palace
+      - run: npm run generate everymancinema.com-hampstead
+      - run: npm run generate everymancinema.com-kings-cross
+      - run: npm run generate everymancinema.com-maida-vale
+      - run: npm run generate everymancinema.com-muswell-hill
+      - run: npm run generate everymancinema.com-screen-on-the-green
+      - run: npm run generate everymancinema.com-stratford-international
+
       # Indy Cinema Group
       - run: npm run generate riocinema.org.uk
       - run: npm run generate regentstreetcinema.com

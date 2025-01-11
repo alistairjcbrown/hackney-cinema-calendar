@@ -103,6 +103,132 @@ Automatically generated calendar of events at:
     [electriccinema.co.uk-white-city-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/electriccinema.co.uk-white-city-calendar.ics)
     ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/electriccinema.co.uk-white-city-calendar.ics))
 
+- Everyman Baker Street -
+  [🌐 Site](https://www.everymancinema.com/venues-list/x0712-everyman-baker-street/)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20Baker%20Street+%4051.52066293094318,-0.15653786014148804)
+
+  - 📅&nbsp;
+    [everymancinema.com-baker-street-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-baker-street-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-baker-street-calendar.ics))
+
+- Everyman Barnet -
+  [🌐 Site](https://www.everymancinema.com/venues-list/x06si-everyman-barnet/)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20Barnet+%4051.64645248831123,-0.18753579238038853)
+
+  - 📅&nbsp;
+    [everymancinema.com-barnet-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-barnet-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-barnet-calendar.ics))
+
+- Everyman Belsize Park -
+  [🌐 Site](https://www.everymancinema.com/venues-list/x077p-everyman-belsize-park/)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20Belsize%20Park+%4051.55083152855264,-0.16580429000453512)
+
+  - 📅&nbsp;
+    [everymancinema.com-belsize-park-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-belsize-park-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-belsize-park-calendar.ics))
+
+- Everyman Borough Yards -
+  [🌐 Site](https://www.everymancinema.com/venues-list/g011i-everyman-borough-yards/)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20Borough%20Yards+%4051.50554636417702,-0.09223577607832761)
+
+  - 📅&nbsp;
+    [everymancinema.com-borough-yards-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-borough-yards-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-borough-yards-calendar.ics))
+
+- Everyman Canary Wharf -
+  [🌐 Site](https://www.everymancinema.com/venues-list/x0vpb-everyman-canary-wharf/)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20Canary%20Wharf+%4051.506196667696564,-0.01804259923495616)
+
+  - 📅&nbsp;
+    [everymancinema.com-broadgate-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-broadgate-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-broadgate-calendar.ics))
+
+- Everyman Broadgate -
+  [🌐 Site](https://www.everymancinema.com/venues-list/x11nt-everyman-broadgate/)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20Broadgate+%4051.51966442955747,-0.0846111324961203)
+
+  - 📅&nbsp;
+    [everymancinema.com-canary-wharf-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-canary-wharf-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-canary-wharf-calendar.ics))
+
+- Everyman Chelsea -
+  [🌐 Site](https://www.everymancinema.com/venues-list/x078x-everyman-chelsea/)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20Chelsea+%4051.48545760933609,-0.17337379614330337)
+
+  - 📅&nbsp;
+    [everymancinema.com-chelsea-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-chelsea-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-chelsea-calendar.ics))
+
+- Everyman Crystal Palace -
+  [🌐 Site](https://www.everymancinema.com/venues-list/x11dr-everyman-crystal-palace/)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20Crystal%20Palace+%4051.419131040508724,-0.07916852926438332)
+
+  - 📅&nbsp;
+    [everymancinema.com-crystal-palace-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-crystal-palace-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-crystal-palace-calendar.ics))
+
+- Everyman Hampstead -
+  [🌐 Site](https://www.everymancinema.com/venues-list/x06zw-everyman-hampstead/)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20Hampstead+%4051.55651076249022,-0.1790675620582569)
+
+  - 📅&nbsp;
+    [everymancinema.com-hampstead-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-hampstead-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-hampstead-calendar.ics))
+
+- Everyman King's Cross -
+  [🌐 Site](https://www.everymancinema.com/venues-list/x0x5p-everyman-kings-cross/)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20King's%20Cross+%4051.537584804379954,-0.12401118962353243)
+
+  - 📅&nbsp;
+    [everymancinema.com-kings-cross-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-kings-cross-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-kings-cross-calendar.ics))
+
+- Everyman Maida Vale -
+  [🌐 Site](https://www.everymancinema.com/venues-list/x0lwi-everyman-maida-vale/)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20Maida%20Vale+%4051.52805162625692,-0.18172050256232536)
+
+  - 📅&nbsp;
+    [everymancinema.com-maida-vale-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-maida-vale-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-maida-vale-calendar.ics))
+
+- Everyman Muswell Hill -
+  [🌐 Site](https://www.everymancinema.com/venues-list/x06sn-everyman-muswell-hill/)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20Muswell%20Hill+%4051.58967201632439,-0.1459151347281199)
+
+  - 📅&nbsp;
+    [everymancinema.com-muswell-hill-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-muswell-hill-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-muswell-hill-calendar.ics))
+
+- Everyman Screen on the Green -
+  [🌐 Site](https://www.everymancinema.com/venues-list/x077o-everyman-screen-on-the-green/)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20Screen%20on%20the%20Green+%4051.536895795317655,-0.10367029831557663)
+
+  - 📅&nbsp;
+    [everymancinema.com-screen-on-the-green-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-screen-on-the-green-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-screen-on-the-green-calendar.ics))
+
+- Everyman Stratford International -
+  [🌐 Site](https://www.everymancinema.com/venues-list/g029x-everyman-stratford-international/)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20Stratford%20International+%4051.54257211871595,-0.010748691552051819)
+
+  - 📅&nbsp;
+    [everymancinema.com-stratford-international-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-stratford-international-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-stratford-international-calendar.ics))
+
 - Genesis Cinema - [🌐 Site](https://www.genesiscinema.co.uk) &nbsp;|&nbsp;
   [📍 Location](http://maps.google.com/maps?q=Genesis%20Cinema+%4051.52128726645794,-0.051143457671891594)
 
