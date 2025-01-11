@@ -1,248 +1,2205 @@
 [
   {
-    "id": "16080",
-    "name": "40 Years of Classic Matinee: REAR WINDOW",
-    "showingStatus": "On Sale",
-    "urlSlug": "classic-matinee-rear-window",
-    "posterImage": "zd24rtfqzd9mh84srqc0p18ij8p1",
-    "bannerImage": "cd2cqk44vqco92x1pb0fm4iyppav",
-    "synopsis": "Here it is! Our Summer Classic Matinee, a hot hot thriller for you! And it's our 40th Anniversary of the Rio Cinema's Classic Matinee! So come celebrate with us! \n\nArguably Hitchcock's most loved film, Rear Window is a suspense packed masterpiece. James Stewart stars as a wheelchair-bound photographer who spies on his neighbours from his Greenwich Village courtyard apartment window and, despite the skepticism of his fashion-model girlfriend, acted by the wonderful Grace Kelly, he slowly but surely becomes convinced one of them has committed murder. So lets hunker down with a brew, a biscuit and let the mystery unravel.",
-    "starring": "James Stewart, Grace Kelly and Wendell Corey",
-    "directedBy": "Alfred Hitchcock",
-    "producedBy": null,
-    "searchTerms": "",
-    "duration": 125,
-    "genre": "Thriller Hot Hot Summer Suspence",
-    "allGenres": null,
-    "rating": "PG",
-    "trailerYoutubeId": "m01YktiEZCw?si=_frjOeEwBMBxJIFh",
-    "trailerVideo": null,
-    "releaseDate": "2024-08-14",
-    "dateOfFirstShowing": "2024-08-14",
-    "tmdbPopularityScore": null,
-    "tmdbId": null,
-    "dcmEdiMovieId": "8888954",
-    "dcmEdiMovieName": "10 Nahi 40  (2D) [U]",
-    "siteId": "84",
-    "titleClassId": "65",
-    "showings": [
-      {
-        "id": "198863",
-        "time": "2024-08-14T13:30:00Z",
-        "ticketsSold": 3,
-        "screenId": "115",
-        "seatsRemaining": 151
-      }
-    ]
-  },
-  {
-    "id": "16251",
-    "name": "I Saw The TV Glow",
+    "id": "20754",
+    "name": "Babygirl",
     "showingStatus": "Now Playing",
-    "urlSlug": "i-saw-the-tv-glow",
-    "posterImage": "fnh7zztlldcjj2rhwxp4sp9d5eu7",
-    "bannerImage": "swmr80kui8rf7ugat8dz4ttfrvfr",
-    "synopsis": "Teenager Owen is just trying to make it through life in the suburbs when his classmate introduces him to a mysterious late-night TV show – a vision of a supernatural world beneath their own. In the pale glow of the television, Owen’s view of reality begins to crack...",
-    "starring": "Justice Smith, Brigette Lundy-Paine, Ian Foreman, Helena Howard, Danielle Deadwyler, Fred Durst",
-    "directedBy": "Jane Schoenbrun",
-    "producedBy": "Emma Stone, Dave McCary, Ali Herting, Sam Intili, Sarah Winshall",
+    "urlSlug": "babygirl",
+    "posterImage": "byrscgutxd02kn4sabwbmx2rj4xz",
+    "bannerImage": "73vsmu8ykhhr9k5d4q8avkmrkj93",
+    "synopsis": "Nicole Kidman shines as a high-powered executive who puts her life's work and her marriage on the line when she begins a torrid, sado-masochistic affair with much younger employee in this bold, darkly funny and erotic thriller from writer-director Halina Reijn.\n\nWhen Romy meets Samuel, an impertinent intern at her company, who can intuit more about her than she intends to share — and who’s happy to take control — it’s only a matter of time before a roller-coaster of frenzied desire and psychological manipulation is triggered…\n\nNicole Kidman’s fearless performance won her the Best Actress prize at the Venice Film Festival and there is sterling support from Antonio Banderas as her husband and Harris Dickinson as her lover. And although centred on one woman's sexual desire, BABYGIRL also explores the complexities of power relationships – and takes a few unexpected turns along the way.",
+    "starring": "Nicole Kidman, Harris Dickinson, Antonio Banderas, Sophie Wilde, Esther-Rose McGregor, Victor Slezak, Molly Price, Gaite Jansen",
+    "directedBy": "Halina Reijn",
+    "producedBy": "Halina Reijn, David Hinojosa, Julia Oh",
     "searchTerms": "",
-    "duration": 100,
+    "duration": 115,
     "genre": "Drama",
-    "allGenres": "Drama, Horror",
-    "rating": "15",
-    "trailerYoutubeId": "k_-jGIhLaQ0",
+    "allGenres": "Drama",
+    "rating": "18",
+    "trailerYoutubeId": "gHBQTX_eMN4",
     "trailerVideo": null,
-    "releaseDate": "2024-07-26",
-    "dateOfFirstShowing": "2024-07-26",
-    "tmdbPopularityScore": 124.103,
-    "tmdbId": "858017",
-    "dcmEdiMovieId": "413296",
-    "dcmEdiMovieName": "I Saw The Tv Glow (2D) [15]",
+    "releaseDate": "2025-01-10",
+    "dateOfFirstShowing": "2025-01-10",
+    "tmdbPopularityScore": 310.034,
+    "tmdbId": "1097549",
+    "dcmEdiMovieId": "421273",
+    "dcmEdiMovieName": "Babygirl (2D) [18]",
     "siteId": "84",
     "titleClassId": "59",
     "showings": [
       {
-        "id": "204118",
-        "time": "2024-07-26T15:15:00Z",
-        "ticketsSold": 18,
+        "id": "260041",
+        "time": "2025-01-10T17:30:00Z",
+        "ticketsSold": 78,
         "screenId": "115",
-        "seatsRemaining": 136
+        "seatsRemaining": 84,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
       },
       {
-        "id": "204164",
-        "time": "2024-07-26T20:00:00Z",
-        "ticketsSold": 38,
-        "screenId": "115",
-        "seatsRemaining": 116
-      },
-      {
-        "id": "204124",
-        "time": "2024-07-27T15:15:00Z",
-        "ticketsSold": 13,
-        "screenId": "115",
-        "seatsRemaining": 143
-      },
-      {
-        "id": "204125",
-        "time": "2024-07-27T16:45:00Z",
-        "ticketsSold": 14,
-        "screenId": "116",
-        "seatsRemaining": 16
-      },
-      {
-        "id": "204131",
-        "time": "2024-07-28T14:45:00Z",
-        "ticketsSold": 27,
-        "screenId": "115",
-        "seatsRemaining": 364
-      },
-      {
-        "id": "204132",
-        "time": "2024-07-28T16:15:00Z",
-        "ticketsSold": 17,
-        "screenId": "116",
-        "seatsRemaining": 13
-      },
-      {
-        "id": "204136",
-        "time": "2024-07-29T15:15:00Z",
-        "ticketsSold": 12,
-        "screenId": "115",
-        "seatsRemaining": 160
-      },
-      {
-        "id": "204162",
-        "time": "2024-07-29T20:00:00Z",
-        "ticketsSold": 44,
-        "screenId": "115",
-        "seatsRemaining": 110
-      },
-      {
-        "id": "204143",
-        "time": "2024-07-30T15:15:00Z",
-        "ticketsSold": 16,
-        "screenId": "115",
-        "seatsRemaining": 156
-      },
-      {
-        "id": "204144",
-        "time": "2024-07-30T16:45:00Z",
+        "id": "260042",
+        "time": "2025-01-10T20:50:00Z",
         "ticketsSold": 29,
         "screenId": "116",
-        "seatsRemaining": 1
+        "seatsRemaining": 1,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
       },
       {
-        "id": "204148",
-        "time": "2024-07-31T15:00:00Z",
-        "ticketsSold": 6,
+        "id": "260109",
+        "time": "2025-01-11T20:50:00Z",
+        "ticketsSold": 29,
+        "screenId": "116",
+        "seatsRemaining": 1,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260345",
+        "time": "2025-01-12T15:15:00Z",
+        "ticketsSold": 40,
         "screenId": "115",
-        "seatsRemaining": 166
+        "seatsRemaining": 132,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
       },
       {
-        "id": "204151",
-        "time": "2024-07-31T16:45:00Z",
+        "id": "260130",
+        "time": "2025-01-12T20:45:00Z",
+        "ticketsSold": 16,
+        "screenId": "115",
+        "seatsRemaining": 146,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "260201",
+        "time": "2025-01-13T17:45:00Z",
+        "ticketsSold": 33,
+        "screenId": "115",
+        "seatsRemaining": 129,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "260356",
+        "time": "2025-01-13T20:40:00Z",
+        "ticketsSold": 29,
+        "screenId": "116",
+        "seatsRemaining": 1,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260207",
+        "time": "2025-01-14T17:45:00Z",
+        "ticketsSold": 25,
+        "screenId": "116",
+        "seatsRemaining": 5,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260208",
+        "time": "2025-01-15T17:45:00Z",
+        "ticketsSold": 2,
+        "screenId": "115",
+        "seatsRemaining": 160,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "260213",
+        "time": "2025-01-16T17:45:00Z",
+        "ticketsSold": 1,
+        "screenId": "115",
+        "seatsRemaining": 161,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "261759",
+        "time": "2025-01-17T17:45:00Z",
+        "ticketsSold": 0,
+        "screenId": "115",
+        "seatsRemaining": 162,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "261763",
+        "time": "2025-01-18T20:50:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "261770",
+        "time": "2025-01-19T20:30:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "261773",
+        "time": "2025-01-20T21:05:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "261782",
+        "time": "2025-01-21T17:45:00Z",
+        "ticketsSold": 0,
+        "screenId": "115",
+        "seatsRemaining": 162,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "261788",
+        "time": "2025-01-22T21:05:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "261787",
+        "time": "2025-01-23T16:10:00Z",
+        "ticketsSold": 0,
+        "screenId": "115",
+        "seatsRemaining": 162,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      }
+    ]
+  },
+  {
+    "id": "20511",
+    "name": "Nickel Boys",
+    "showingStatus": "Now Playing",
+    "urlSlug": "nickel-boys",
+    "posterImage": "8u0qwg37ez15ap8w4wx0joubfhjv",
+    "bannerImage": "sqdly13oofydcrcnvhosb0bt7wlh",
+    "synopsis": "Based on the Pulitzer Prize-winning novel by Colson Whitehead and inspired by real-life events, the Golden Globe nominated NICKEL BOYS is a dazzling achievement – a bold and beguiling exploration of buried American history brought vividly to life via an ingenious visual approach.\n\n★★★★★ The Observer\n★★★★★ The Guardian\n★★★★★ Empire\n★★★★★ LWL\n★★★★★ Times\n★★★★★ FT\n★★★★★ Independent\n★★★★★ Skinny\n★★★★★ Scotsman\n★★★★★ Standard\n\n1960s Florida: Elwood Curtis is sent to the Nickel Academy, a barbaric juvenile reformatory, for a crime he did not commit. There he meets the worldly-wise Jack Turner and  life-changing friendship is formed. Present day New York:  the cruel realities of racism are recalled alongside the beauty of the natural world and an unbreakable bond of hope between two black teenagers.\n\nWith its cutting-edge performances from Ethan Herisse and Brandon Wilson as Elwood and Turner, the groundbreaking NICKEL BOYS is never less than remarkable’ .",
+    "starring": "Ethan Herisse, Brandon Wilson, Aunjanue Ellis-Taylor, Hamish Linklater, Fred Hechinger, Luke Tennie",
+    "directedBy": "RaMell Ross",
+    "producedBy": "Jeremy Kleiner, Dede Gardner, Joslyn Barnes, David Levine",
+    "searchTerms": "",
+    "duration": 140,
+    "genre": "Drama",
+    "allGenres": "Drama, History",
+    "rating": "12A",
+    "trailerYoutubeId": "2jeti8dl1WI",
+    "trailerVideo": null,
+    "releaseDate": "2025-01-03",
+    "dateOfFirstShowing": "2025-01-03",
+    "tmdbPopularityScore": 23.505,
+    "tmdbId": "1028196",
+    "dcmEdiMovieId": "418151",
+    "dcmEdiMovieName": "Nickel Boys (2D) [12A]",
+    "siteId": "84",
+    "titleClassId": "59",
+    "showings": [
+      {
+        "id": "254214",
+        "time": "2025-01-03T17:35:00Z",
+        "ticketsSold": 54,
+        "screenId": "115",
+        "seatsRemaining": 108,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "254215",
+        "time": "2025-01-03T20:10:00Z",
+        "ticketsSold": 29,
+        "screenId": "116",
+        "seatsRemaining": 1,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "254203",
+        "time": "2025-01-04T17:35:00Z",
+        "ticketsSold": 87,
+        "screenId": "115",
+        "seatsRemaining": 75,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "254205",
+        "time": "2025-01-04T20:10:00Z",
+        "ticketsSold": 29,
+        "screenId": "116",
+        "seatsRemaining": 1,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "254211",
+        "time": "2025-01-05T17:20:00Z",
+        "ticketsSold": 84,
+        "screenId": "115",
+        "seatsRemaining": 78,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "254212",
+        "time": "2025-01-05T19:50:00Z",
+        "ticketsSold": 25,
+        "screenId": "116",
+        "seatsRemaining": 5,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "257768",
+        "time": "2025-01-06T14:15:00Z",
+        "ticketsSold": 7,
+        "screenId": "116",
+        "seatsRemaining": 23,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "254708",
+        "time": "2025-01-06T17:20:00Z",
+        "ticketsSold": 29,
+        "screenId": "116",
+        "seatsRemaining": 1,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "254707",
+        "time": "2025-01-06T20:15:00Z",
+        "ticketsSold": 29,
+        "screenId": "116",
+        "seatsRemaining": 1,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "254714",
+        "time": "2025-01-07T17:20:00Z",
+        "ticketsSold": 30,
+        "screenId": "116",
+        "seatsRemaining": 0,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "254713",
+        "time": "2025-01-07T20:15:00Z",
+        "ticketsSold": 29,
+        "screenId": "116",
+        "seatsRemaining": 1,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "254709",
+        "time": "2025-01-08T17:20:00Z",
+        "ticketsSold": 18,
+        "screenId": "116",
+        "seatsRemaining": 12,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "254710",
+        "time": "2025-01-08T20:15:00Z",
+        "ticketsSold": 30,
+        "screenId": "116",
+        "seatsRemaining": 0,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "254711",
+        "time": "2025-01-09T17:20:00Z",
+        "ticketsSold": 30,
+        "screenId": "116",
+        "seatsRemaining": 0,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "254712",
+        "time": "2025-01-09T20:15:00Z",
+        "ticketsSold": 29,
+        "screenId": "116",
+        "seatsRemaining": 1,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260266",
+        "time": "2025-01-10T17:45:00Z",
+        "ticketsSold": 28,
+        "screenId": "116",
+        "seatsRemaining": 2,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260268",
+        "time": "2025-01-11T14:45:00Z",
+        "ticketsSold": 29,
+        "screenId": "116",
+        "seatsRemaining": 1,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260108",
+        "time": "2025-01-11T17:50:00Z",
+        "ticketsSold": 29,
+        "screenId": "116",
+        "seatsRemaining": 1,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260132",
+        "time": "2025-01-12T14:00:00Z",
+        "ticketsSold": 9,
+        "screenId": "116",
+        "seatsRemaining": 21,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260131",
+        "time": "2025-01-12T17:45:00Z",
+        "ticketsSold": 24,
+        "screenId": "115",
+        "seatsRemaining": 138,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "260202",
+        "time": "2025-01-13T14:30:00Z",
+        "ticketsSold": 2,
+        "screenId": "116",
+        "seatsRemaining": 28,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260203",
+        "time": "2025-01-13T17:30:00Z",
+        "ticketsSold": 4,
+        "screenId": "116",
+        "seatsRemaining": 26,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260204",
+        "time": "2025-01-14T17:20:00Z",
+        "ticketsSold": 10,
+        "screenId": "115",
+        "seatsRemaining": 152,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "260206",
+        "time": "2025-01-14T20:15:00Z",
+        "ticketsSold": 8,
+        "screenId": "116",
+        "seatsRemaining": 22,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260210",
+        "time": "2025-01-15T18:00:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260355",
+        "time": "2025-01-16T17:30:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "261764",
+        "time": "2025-01-18T17:50:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "261772",
+        "time": "2025-01-19T14:15:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "261774",
+        "time": "2025-01-20T18:10:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      }
+    ]
+  },
+  {
+    "id": "20324",
+    "name": "Nosferatu",
+    "showingStatus": "Now Playing",
+    "urlSlug": "nosferatu",
+    "posterImage": "9tjz49swf989ly6rofl87w589mab",
+    "bannerImage": "elfxmrdb9xr8djfhavomhzhifk8u",
+    "synopsis": "The director of THE LIGHTHOUSE and THE NORTHMAN raises cinema’s greatest vampire from the grave with a fresh spin on the timeless tale of obsession between a haunted young woman and the vampiric Count from Transylvania who has set his bloodthirsty heart on her.\n\nRobert Eggers’ gorgeous delve into the psyche of Dracula is a mesmeric macabre masterpiece topped by Lily-Rose Depp’s emotional powerhouse of a performance as the object of his affections.",
+    "starring": "Lily-Rose Depp, Nicholas Hoult, Bill Skarsgård, Aaron Taylor-Johnson, Willem Dafoe, Emma Corrin, Ralph Ineson, Simon McBurney",
+    "directedBy": "Robert Eggers",
+    "producedBy": "Robert Eggers, Chris Columbus, Eleanor Columbus, Jeff Robinov, John Graham",
+    "searchTerms": "",
+    "duration": 133,
+    "genre": "Fantasy",
+    "allGenres": "Fantasy",
+    "rating": "15",
+    "trailerYoutubeId": "KKp9RFnD5ag?si=0g2G0gVug1KBT5kF",
+    "trailerVideo": null,
+    "releaseDate": "2025-01-01",
+    "dateOfFirstShowing": "2025-01-01",
+    "tmdbPopularityScore": 923.788,
+    "tmdbId": "426063",
+    "dcmEdiMovieId": "405931",
+    "dcmEdiMovieName": "Nosferatu (2D) [15]",
+    "siteId": "84",
+    "titleClassId": "59",
+    "showings": [
+      {
+        "id": "252388",
+        "time": "2025-01-01T14:50:00Z",
+        "ticketsSold": 188,
+        "screenId": "115",
+        "seatsRemaining": 198,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "252151",
+        "time": "2025-01-01T17:45:00Z",
+        "ticketsSold": 313,
+        "screenId": "115",
+        "seatsRemaining": 73,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "252152",
+        "time": "2025-01-01T20:35:00Z",
+        "ticketsSold": 178,
+        "screenId": "115",
+        "seatsRemaining": 208,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "252156",
+        "time": "2025-01-02T14:30:00Z",
+        "ticketsSold": 47,
+        "screenId": "115",
+        "seatsRemaining": 125,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "252157",
+        "time": "2025-01-02T17:20:00Z",
+        "ticketsSold": 107,
+        "screenId": "115",
+        "seatsRemaining": 65,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "252158",
+        "time": "2025-01-02T20:15:00Z",
+        "ticketsSold": 218,
+        "screenId": "115",
+        "seatsRemaining": 168,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "254218",
+        "time": "2025-01-03T14:45:00Z",
+        "ticketsSold": 47,
+        "screenId": "115",
+        "seatsRemaining": 125,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "254216",
+        "time": "2025-01-03T17:15:00Z",
+        "ticketsSold": 29,
+        "screenId": "116",
+        "seatsRemaining": 1,
+        "displayMetaData": "{\"classes\":\"sc2 award-winner\"}"
+      },
+      {
+        "id": "252369",
+        "time": "2025-01-03T20:35:00Z",
+        "ticketsSold": 237,
+        "screenId": "115",
+        "seatsRemaining": 149,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "254204",
+        "time": "2025-01-04T14:45:00Z",
+        "ticketsSold": 69,
+        "screenId": "115",
+        "seatsRemaining": 317,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "254206",
+        "time": "2025-01-04T17:15:00Z",
+        "ticketsSold": 29,
+        "screenId": "116",
+        "seatsRemaining": 1,
+        "displayMetaData": "{\"classes\":\"sc2 award-winner\"}"
+      },
+      {
+        "id": "252373",
+        "time": "2025-01-04T20:35:00Z",
+        "ticketsSold": 285,
+        "screenId": "115",
+        "seatsRemaining": 101,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "254209",
+        "time": "2025-01-05T14:30:00Z",
+        "ticketsSold": 118,
+        "screenId": "115",
+        "seatsRemaining": 44,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "254210",
+        "time": "2025-01-05T17:00:00Z",
+        "ticketsSold": 29,
+        "screenId": "116",
+        "seatsRemaining": 1,
+        "displayMetaData": "{\"classes\":\"sc2 award-winner\"}"
+      },
+      {
+        "id": "252471",
+        "time": "2025-01-05T20:20:00Z",
+        "ticketsSold": 88,
+        "screenId": "115",
+        "seatsRemaining": 74,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "257767",
+        "time": "2025-01-06T14:30:00Z",
+        "ticketsSold": 24,
+        "screenId": "115",
+        "seatsRemaining": 148,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "252472",
+        "time": "2025-01-06T17:45:00Z",
+        "ticketsSold": 69,
+        "screenId": "115",
+        "seatsRemaining": 103,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "252473",
+        "time": "2025-01-06T20:35:00Z",
+        "ticketsSold": 143,
+        "screenId": "115",
+        "seatsRemaining": 243,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "252382",
+        "time": "2025-01-07T17:45:00Z",
+        "ticketsSold": 48,
+        "screenId": "115",
+        "seatsRemaining": 114,
+        "displayMetaData": "{\"classes\":\"hoh\"}"
+      },
+      {
+        "id": "252383",
+        "time": "2025-01-07T20:35:00Z",
+        "ticketsSold": 158,
+        "screenId": "115",
+        "seatsRemaining": 228,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "252384",
+        "time": "2025-01-08T17:45:00Z",
+        "ticketsSold": 42,
+        "screenId": "115",
+        "seatsRemaining": 120,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "252385",
+        "time": "2025-01-08T20:35:00Z",
+        "ticketsSold": 61,
+        "screenId": "115",
+        "seatsRemaining": 101,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "252386",
+        "time": "2025-01-09T17:45:00Z",
+        "ticketsSold": 22,
+        "screenId": "115",
+        "seatsRemaining": 140,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "252387",
+        "time": "2025-01-09T20:35:00Z",
+        "ticketsSold": 72,
+        "screenId": "115",
+        "seatsRemaining": 90,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "260044",
+        "time": "2025-01-10T20:30:00Z",
+        "ticketsSold": 141,
+        "screenId": "115",
+        "seatsRemaining": 245,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "260267",
+        "time": "2025-01-11T13:40:00Z",
+        "ticketsSold": 26,
+        "screenId": "115",
+        "seatsRemaining": 146,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "260106",
+        "time": "2025-01-11T20:30:00Z",
+        "ticketsSold": 129,
+        "screenId": "115",
+        "seatsRemaining": 257,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "260133",
+        "time": "2025-01-12T17:00:00Z",
         "ticketsSold": 17,
         "screenId": "116",
-        "seatsRemaining": 13
+        "seatsRemaining": 13,
+        "displayMetaData": "{\"classes\":\"sc2 award-winner\"}"
       },
       {
-        "id": "204154",
-        "time": "2024-08-01T15:15:00Z",
-        "ticketsSold": 0,
-        "screenId": "115",
-        "seatsRemaining": 172
-      },
-      {
-        "id": "204155",
-        "time": "2024-08-01T16:45:00Z",
-        "ticketsSold": 5,
+        "id": "260134",
+        "time": "2025-01-12T20:00:00Z",
+        "ticketsSold": 19,
         "screenId": "116",
-        "seatsRemaining": 25
+        "seatsRemaining": 11,
+        "displayMetaData": "{\"classes\":\"sc2 award-winner\"}"
       },
       {
-        "id": "206705",
-        "time": "2024-08-02T19:45:00Z",
-        "ticketsSold": 2,
-        "screenId": "115",
-        "seatsRemaining": 152
-      },
-      {
-        "id": "206712",
-        "time": "2024-08-03T13:45:00Z",
-        "ticketsSold": 2,
-        "screenId": "116",
-        "seatsRemaining": 28
-      },
-      {
-        "id": "206713",
-        "time": "2024-08-03T20:00:00Z",
-        "ticketsSold": 0,
-        "screenId": "115",
-        "seatsRemaining": 154
-      },
-      {
-        "id": "206714",
-        "time": "2024-08-04T20:00:00Z",
-        "ticketsSold": 0,
-        "screenId": "115",
-        "seatsRemaining": 154
-      },
-      {
-        "id": "206765",
-        "time": "2024-08-05T17:30:00Z",
+        "id": "260198",
+        "time": "2025-01-13T14:45:00Z",
         "ticketsSold": 5,
         "screenId": "115",
-        "seatsRemaining": 149
+        "seatsRemaining": 157,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
       },
       {
-        "id": "206719",
-        "time": "2024-08-05T20:00:00Z",
-        "ticketsSold": 0,
-        "screenId": "116",
-        "seatsRemaining": 30
+        "id": "260200",
+        "time": "2025-01-13T20:30:00Z",
+        "ticketsSold": 46,
+        "screenId": "115",
+        "seatsRemaining": 116,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
       },
       {
-        "id": "206720",
-        "time": "2024-08-06T16:45:00Z",
+        "id": "260205",
+        "time": "2025-01-14T20:30:00Z",
+        "ticketsSold": 9,
+        "screenId": "115",
+        "seatsRemaining": 153,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "260209",
+        "time": "2025-01-15T20:30:00Z",
+        "ticketsSold": 4,
+        "screenId": "115",
+        "seatsRemaining": 158,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
+      },
+      {
+        "id": "260212",
+        "time": "2025-01-16T20:30:00Z",
         "ticketsSold": 0,
         "screenId": "115",
-        "seatsRemaining": 154
+        "seatsRemaining": 162,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
       },
       {
-        "id": "206723",
-        "time": "2024-08-06T20:00:00Z",
+        "id": "261760",
+        "time": "2025-01-17T20:35:00Z",
         "ticketsSold": 0,
         "screenId": "116",
-        "seatsRemaining": 30
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2 award-winner\"}"
       },
       {
-        "id": "206724",
-        "time": "2024-08-07T16:45:00Z",
+        "id": "261762",
+        "time": "2025-01-18T17:15:00Z",
         "ticketsSold": 0,
         "screenId": "115",
-        "seatsRemaining": 154
+        "seatsRemaining": 162,
+        "displayMetaData": "{\"classes\":\"sc1 award-winner\"}"
       },
       {
-        "id": "206725",
-        "time": "2024-08-07T20:00:00Z",
+        "id": "261771",
+        "time": "2025-01-19T17:15:00Z",
         "ticketsSold": 0,
         "screenId": "116",
-        "seatsRemaining": 30
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2 award-winner\"}"
       },
       {
-        "id": "206728",
-        "time": "2024-08-08T12:30:00Z",
+        "id": "261775",
+        "time": "2025-01-20T15:10:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2 award-winner\"}"
+      },
+      {
+        "id": "261784",
+        "time": "2025-01-21T20:35:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2 award-winner\"}"
+      },
+      {
+        "id": "261789",
+        "time": "2025-01-22T18:15:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2 award-winner\"}"
+      },
+      {
+        "id": "261786",
+        "time": "2025-01-23T17:30:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2 award-winner\"}"
+      }
+    ]
+  },
+  {
+    "id": "20839",
+    "name": "Carers & Babies Club: Babygirl",
+    "showingStatus": "On Sale",
+    "urlSlug": "carers-babies-club-babygirl",
+    "posterImage": "byrscgutxd02kn4sabwbmx2rj4xz",
+    "bannerImage": "73vsmu8ykhhr9k5d4q8avkmrkj93",
+    "synopsis": "Nicole Kidman shines as a high-powered executive who puts her life's work and her marriage on the line when she begins a torrid, sado-masochistic affair with much younger employee in this bold, darkly funny and erotic thriller from writer-director Halina Reijn.\n\nWhen Romy meets Samuel, an impertinent intern at her company, who can intuit more about her than she intends to share — and who’s happy to take control — it’s only a matter of time before a roller-coaster of frenzied desire and psychological manipulation is triggered…\n\nNicole Kidman’s fearless performance won her the Best Actress prize at the Venice Film Festival and there is sterling support from Antonio Banderas as her husband and Harris Dickinson as her lover. And although centred on one woman's sexual desire, BABYGIRL also explores the complexities of power relationships – and takes a few unexpected turns along the way.",
+    "starring": "Nicole Kidman, Harris Dickinson, Antonio Banderas, Sophie Wilde, Esther-Rose McGregor, Victor Slezak, Molly Price, Gaite Jansen",
+    "directedBy": "Halina Reijn",
+    "producedBy": "Halina Reijn, David Hinojosa, Julia Oh",
+    "searchTerms": "",
+    "duration": 115,
+    "genre": "Drama",
+    "allGenres": "Drama",
+    "rating": "18",
+    "trailerYoutubeId": "gHBQTX_eMN4",
+    "trailerVideo": null,
+    "releaseDate": "2025-01-10",
+    "dateOfFirstShowing": "2025-01-13",
+    "tmdbPopularityScore": 310.034,
+    "tmdbId": "1097549",
+    "dcmEdiMovieId": "421273",
+    "dcmEdiMovieName": "Babygirl (2D) [18]",
+    "siteId": "84",
+    "titleClassId": "189",
+    "showings": [
+      {
+        "id": "260197",
+        "time": "2025-01-13T11:00:00Z",
+        "ticketsSold": 5,
+        "screenId": "115",
+        "seatsRemaining": 167,
+        "displayMetaData": "{\"classes\":\"sc1 carers--babies\"}"
+      }
+    ]
+  },
+  {
+    "id": "20691",
+    "name": "Dream Emulator Presents: A Night in the Mansion of Hidden Souls",
+    "showingStatus": "On Sale",
+    "urlSlug": "dream-emulator-presents-a-night-in-the-mansion-of-hidden-souls",
+    "posterImage": "aut9aq6wwal833cqwycmnoxqchvo",
+    "bannerImage": "gv6kbhxc40q6hede5kalaonn2ook",
+    "synopsis": "Sega CD Original 'Mansion of Hidden Souls,1993' + Sega Saturn Remake 'The Mansion of Hidden Souls,1994'\n\n\n\"He will turn you into a butterfly, after that you will no longer be human.\"\n\n\nThis is the closest we’ve gotten as an entity to putting on a B-movie screening, but we couldn’t resist the clunky charm of this pair of early 90s FMV horror games, one eerie and abstract, the other uncanny and irreverent. \n\nThe Mansion of Hidden Souls series is a relic that harkens to the earliest FMV games from the early 90s, a snapshot of games that simultaneously exemplify the technological advances being made in the industry and its inability to combine these advances with a coherent narrative or mechanical foundation. \n\nThis installment of Dream Emulator is a love letter to these clunky early attempts to describe a 3-dimensional space, with mismatched translations of wire frame object to bitmapped displays, and poorly-synced talking-heads.\n\nIf Dream Emulator usually focuses on games that wear their rough edges with pride and intention, these two games will be a welcome introduction of naive camp to our programming, veering into uncanny territory purely through pushing the envelope of game development for the hardware they were each created for.",
+    "starring": null,
+    "directedBy": "System Sacom, Tokai Communications",
+    "producedBy": "Dream Emulator- Rosa PMS\nSystem Sacom, Tokai Communications",
+    "searchTerms": "Horror Double-Bill Experimental Video-Game FMV Psychadelic",
+    "duration": 89,
+    "genre": null,
+    "allGenres": null,
+    "rating": "12",
+    "trailerYoutubeId": null,
+    "trailerVideo": null,
+    "releaseDate": "1993-12-10",
+    "dateOfFirstShowing": "2025-01-16",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "170",
+    "dcmEdiMovieName": "Akira Kurosawa's Dreams (2D) [PG]",
+    "siteId": "84",
+    "titleClassId": "258",
+    "showings": [
+      {
+        "id": "256750",
+        "time": "2025-01-16T20:45:00Z",
+        "ticketsSold": 14,
+        "screenId": "116",
+        "seatsRemaining": 16,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      }
+    ]
+  },
+  {
+    "id": "20730",
+    "name": "PINK PALACE: ORLANDO",
+    "showingStatus": "On Sale",
+    "urlSlug": "pink-palace-orlando",
+    "posterImage": "32ftsuq8s7g9kb712haooyi2z1s2",
+    "bannerImage": "w2jd8reiuf5w27ikpa7bd9whdzr6",
+    "synopsis": "Pink Palace presents Sally Potters sumptuous and subversive cinematic treat ORLANDO, adapted from the pioneering transgressive feminist novel by Virginia Woolf.\n\nIn 1600, nobleman Orlando (Tilda Swinton) inherits his parents' house, thanks to Queen Elizabeth I (Quentin Crisp), who commands the young man to never change \"Do not fade. Do not wither. Do not grow old\".\nAfter a disastrous affair with Russian princess Sasha, Orlando looks for solace in the arts before being appointed ambassador to Constantinople in 1700, where war is raging. One morning, Orlando is shocked to wake up as a woman and returns home, struggling as a female to retain her status and property as the centuries roll by.\n\n\"Potter began making films in the 1980s as part of a radical artistic scene working in response to the neoconservatism of Margaret Thatcher's Britain. Section 28, which prohibited the \"promotion of homosexuality\" by local authorities, was introduced in 1988, against the backdrop of the escalating Aids crisis. Filmmakers such as Derek Jarman reacted to this heightened homophobia by making outspoken work centring queer politics, boundary-pushing films that found a home on television on the newly launched Channel 4.\nAlthough it does not offer explicit political critique, Orlando radically centres queer culture, and is full of references that speak to LGBTQI+ viewers across the generations. By casting an 83-year-old Quentin Crisp as Queen Elizabeth I, Potter pays tribute to a gay icon while adding another layer to the film's discussion of identity. Described by Potter as \"the Queen of Queens,\" Crisp would go on to identify as transgender and use she/her pronouns in the final years of her life. Rewatching the film with this knowledge adds a dimension to the film's reflections on the mutability of gender.\" BBC\n\nPlease note there are NO ads or trailers, we start on time!\nPink Palace is a super low fi highly relaxed event that takes place in the basement bar, its a safe queer space so come along and catch some queer film and pop culture history, each week the film is introduced by curator Andrew Woodyatt, and feel free to stay and chat afterwards, participation is encouraged!",
+    "starring": "Tilda Swinton, Billy Zane, Quentin Crisp",
+    "directedBy": "Sally Potter",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 90,
+    "genre": "Historical drama",
+    "allGenres": null,
+    "rating": "PG",
+    "trailerYoutubeId": "MorOaD61KUI",
+    "trailerVideo": null,
+    "releaseDate": "2025-01-16",
+    "dateOfFirstShowing": "2025-01-16",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "341226",
+    "dcmEdiMovieName": "Blackpink The Movie (Concert) (2D) [12A]",
+    "siteId": "84",
+    "titleClassId": "52",
+    "showings": [
+      {
+        "id": "257839",
+        "time": "2025-01-16T19:30:00Z",
+        "ticketsSold": 25,
+        "screenId": "122",
+        "seatsRemaining": 0,
+        "displayMetaData": "{\"classes\":\"ludski-bar pink-palace\"}"
+      }
+    ]
+  },
+  {
+    "id": "20755",
+    "name": "A Complete Unknown",
+    "showingStatus": "On Sale",
+    "urlSlug": "a-complete-unknown",
+    "posterImage": "uj0j8j7su9o9c8dbhsesfhxv7l98",
+    "bannerImage": "c8qy16k9115c4xs3uud7fesyn9g7",
+    "synopsis": "A magnetic Timothée Chalamet stars, sings and plays as Bob Dylan in James Mangold’s sparkling A COMPLETE UNKNOWN, the electric true story behind the rise of one of the most iconic singer-songwriters in modern music.\n\nAgainst the backdrop of New York’s vibrant Greenwich Village music scene in 1961, an enigmatic 19-year-old from Minnesota arrives with his guitar and divine talent. What follows is a revolutionary chapter in music history culminating in a controversial performance that reverberates worldwide….\n\nWith multi- award worthy performances from Timothée Chalamet, Edward Norton and Elle Fanning, A COMPLETE UNKNOWN is a joyous celebration of greatness alongside an intimate portrait of the legend who defied everyone to change everything.",
+    "starring": "Timothée Chalamet, Edward Norton, Elle Fanning, Monica Barbaro, Joe Tippett, Eriko Hatsune, Peter Gerety",
+    "directedBy": "James Mangold",
+    "producedBy": "Timothée Chalamet, James Mangold, Fred Berger, Alan Gasmer, Alex Heineman, Peter Jaysen, Bob Bookman, Jeff Rosen",
+    "searchTerms": "",
+    "duration": 140,
+    "genre": "Drama",
+    "allGenres": "Drama, Music, History",
+    "rating": "15",
+    "trailerYoutubeId": "Zwv-vVOjpCk",
+    "trailerVideo": null,
+    "releaseDate": "2025-01-17",
+    "dateOfFirstShowing": "2025-01-17",
+    "tmdbPopularityScore": 84.831,
+    "tmdbId": "661539",
+    "dcmEdiMovieId": "427010",
+    "dcmEdiMovieName": "Complete Unknown, A (2D) [15]",
+    "siteId": "84",
+    "titleClassId": "59",
+    "showings": [
+      {
+        "id": "261761",
+        "time": "2025-01-17T17:30:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260347",
+        "time": "2025-01-17T20:20:00Z",
+        "ticketsSold": 26,
+        "screenId": "115",
+        "seatsRemaining": 136,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "261765",
+        "time": "2025-01-18T14:50:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260348",
+        "time": "2025-01-18T20:20:00Z",
+        "ticketsSold": 9,
+        "screenId": "115",
+        "seatsRemaining": 153,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "260349",
+        "time": "2025-01-19T17:30:00Z",
+        "ticketsSold": 12,
+        "screenId": "115",
+        "seatsRemaining": 150,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "261776",
+        "time": "2025-01-20T12:15:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260350",
+        "time": "2025-01-20T20:50:00Z",
+        "ticketsSold": 4,
+        "screenId": "115",
+        "seatsRemaining": 158,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "261783",
+        "time": "2025-01-21T17:30:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      },
+      {
+        "id": "260351",
+        "time": "2025-01-21T20:20:00Z",
+        "ticketsSold": 8,
+        "screenId": "115",
+        "seatsRemaining": 154,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "260352",
+        "time": "2025-01-22T20:50:00Z",
         "ticketsSold": 0,
         "screenId": "115",
-        "seatsRemaining": 172
+        "seatsRemaining": 162,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
       },
       {
-        "id": "206729",
-        "time": "2024-08-08T16:45:00Z",
+        "id": "261785",
+        "time": "2025-01-23T20:30:00Z",
         "ticketsSold": 0,
         "screenId": "116",
-        "seatsRemaining": 30
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2\"}"
+      }
+    ]
+  },
+  {
+    "id": "20148",
+    "name": "LSFF: The Gap in the Curtain + Q&A",
+    "showingStatus": "On Sale",
+    "urlSlug": "lsff-the-gap-in-the-curtain-qa",
+    "posterImage": "mnor3n7mwqh1togtmkd0arvzb909",
+    "bannerImage": "w0t9rzlq13bzdg8sjfwnds0unmd8",
+    "synopsis": "Hexham Heads, dirs. Chloë Delanghe / Mattijs Driesen, Belgium 2024, 34mins\nA Place without Fear, dir. Susanne Deeken, UK 2023, 30mins \nHart of the Wood: Ways of the Plant, dir. Benjamin Wigley, UK 2024, 30mins\n\nThe esoteric and extraordinary begin to leak into the domestic sphere in this selection of three haunting shorts. Join us on a ritualistic journey from the desolate moors of 1970s Northumberland to a derelict house in post-Industrial Chicago, and onwards to the myths and masks contained within the Carboniferous fossil collection at Birmingham's Lapworth Museum of Geology.\n\nArtist-filmmaker Susanne Deekin deconstructs an abandoned house, which serves as a canvas for a phantasmagorical stop-motion painting over the walls, floors, ceilings, furniture and stairs. Belgian artists Chloë Delanghe and Mattijs Driesen document a series of paranormal events that took place in Hexham, Northumberland in the early '70s upon the unearthing of two mysterious stone heads. Filmmaker Benjamin Wigley delves into the museum’s collections to create hand-crafted photographic prints, etchings, drawings, sculptures and costumes that feed into a single channel, hand-processed 16mm film, a further material layer that infuses myth, mask, and folkloric traditions.\n\nThe filmmakers will be in conversation after the screening.",
+    "starring": null,
+    "directedBy": "Chloë Delanghe / Mattijs Driesen\nSusanne Deeken\nBenjamin Wigley,",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 94,
+    "genre": null,
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": null,
+    "trailerVideo": null,
+    "releaseDate": null,
+    "dateOfFirstShowing": "2025-01-18",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": null,
+    "dcmEdiMovieName": "No Match Found",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "249001",
+        "time": "2025-01-18T14:30:00Z",
+        "ticketsSold": 70,
+        "screenId": "115",
+        "seatsRemaining": 92,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      }
+    ]
+  },
+  {
+    "id": "20149",
+    "name": "LSFF: Alien Extravaganza",
+    "showingStatus": "On Sale",
+    "urlSlug": "lsff-alien-extravaganza",
+    "posterImage": "2a9tc1gn4as1xeeq483yqmcawom5",
+    "bannerImage": "z31qjdoyca0i2conl8jxzevw7kgc",
+    "synopsis": "Are we alone? The dream of space exploration, once capturing the imagination of millions, has become a concern of private corporations and the super-wealthy, hoarding heteronormative futures behind grey CGI renders.\n\nA new collaborative programme between LSFF, Nelly Ben Hayoun Stépanian Studios, Dr. Franck Marchis of SETI Institute and San Francisco International LGBTQ+ Film Festival aims to disrupt this vision, imagining a queer, colourful, experimental galaxy of new filmmaking.\n\nArctic Diva, dir. Federico Barni, UK 2024, 17mins\nBetween Mars and Earth, dir. Diego Marzuil, Argentina 2022, 11mins\nBut wait… there’s more!, dir. Kialy Tihngang, UK 2023, 3mins\nPRIMALDIAL MAGMA_ZYGMUTROPHOOZE, dir. mirrored fatality, USA 2024, 7mins\nREDMAN, dir. Edith Morris, UK 2014, 1min\nSpace Plug, dir. Marcus Anthony Thomas, UK 2023, 14mins\nThe Burden, dir. Tish Arana, USA 2023, 15mins\nThe Last Story on Earth, dir. Aaron Immediato, USA 2024, 19mins\nBr00dm0ther's e-Fable, dir. Zijing Zhao, UK 2024, 8mins\n\nThis 90-minute programme of short film is specifically concerned with Alien Aesthetics, cosmic glamour, genderfluid and pluralistic futures, extraterrestrial matters and SETI (Search for Extraterrestrial Intelligence) research. Join us for this bold, colourful, original, experimental touring programme of short films to confront ideas of extraction, colonisation and profiteering that have wrought so much damage on Planet Earth. \n\nFollowing the premiering of these films at London Short Film Festival in January 2025, the shorts will travel to San Francisco International LGBTQ+ Film Festival, the longest-running queer film exhibition event in the world, in June 2025.",
+    "starring": null,
+    "directedBy": null,
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 95,
+    "genre": null,
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": null,
+    "trailerVideo": null,
+    "releaseDate": null,
+    "dateOfFirstShowing": "2025-01-19",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": null,
+    "dcmEdiMovieName": "No Match Found",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "249003",
+        "time": "2025-01-19T20:45:00Z",
+        "ticketsSold": 62,
+        "screenId": "115",
+        "seatsRemaining": 100,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      }
+    ]
+  },
+  {
+    "id": "20254",
+    "name": "LSFF x Babes with Blades: Fighting Form + Q&A",
+    "showingStatus": "On Sale",
+    "urlSlug": "lsff-x-babes-with-blades-fighting-form-qa",
+    "posterImage": "k4nntb8wsqjq9gayh4cycvfqd41j",
+    "bannerImage": "8gbmc21s965c0fqzljaqt4svzodm",
+    "synopsis": "Babes with Blades is a tongue-in-cheek reference to hot female assassins with few clothes and even fewer words that once were the archetypal side-kick, or femme fatale, strong woman in the action genre. Formed by director, Jade Ang Jackman, and actor/stuntwoman, Ayesha Hussain, the programme celebrates new visions of gender within this high-octane world.\n\nCar fights, girl-on-girl brawls, and stylish and multilingual femmes come head to head with familiar faces such as FKA Twigs and Uma Thurman in this program. Stereotypically, action has been associated with one type of voice or violence. Here, new characters are brought center stage to reveal stunning swordsmanship in FKA Twigs' Sad Day, consider East Asian paying customs in Split, the impact of periods in Overdrive, the protection of our elders in Don’t F*ck with, Ba and the iniquity of boarding schools in Nida Manzoor’s early short, 7.2. \n\nJoin us for a Q&A after with some of the shorts directors and Ayesha Hussain (Deadpool & Wolverine, Gladiator II). \n\nSad Day, dir. FKA Twigs & Hiro Murai, United Kingdom 2020\nSplit, dir. Jade Ang Jackman, United Kingdom 2024\nDon't F*ck with Ba, dir. Sally Tran, Canada, 2024\nA Shot In The Foot, dir. Diane Lac, United States 2024\nOverdrive, dir. Abigail Wilson, United Kingdom, 2024\nThe Calm, dir. Sam Hargrave, United States / France, 2023\nThe Como Connection, dir. Alexi Tan, China, 2019\nYoung Hot Bloods, dir. Jade Ang Jackman, United Kingdom, 2022\nThe Last Dumpling, dir. Jadey Duffield, United Kingdom\nThe Librarian, dir. Adam Brashaw, United Kingdom, 2024 \n7.2, dir. Nida Manzoor, 2014, United Kingdom",
+    "starring": null,
+    "directedBy": null,
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 95,
+    "genre": null,
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": null,
+    "trailerVideo": null,
+    "releaseDate": null,
+    "dateOfFirstShowing": "2025-01-19",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": null,
+    "dcmEdiMovieName": "No Match Found",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "249965",
+        "time": "2025-01-19T15:00:00Z",
+        "ticketsSold": 124,
+        "screenId": "115",
+        "seatsRemaining": 262,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      }
+    ]
+  },
+  {
+    "id": "20844",
+    "name": "Carers & Babies Club: A Complete Unknown",
+    "showingStatus": "On Sale",
+    "urlSlug": "carers-babies-club-a-complete-unknown",
+    "posterImage": "uj0j8j7su9o9c8dbhsesfhxv7l98",
+    "bannerImage": "c8qy16k9115c4xs3uud7fesyn9g7",
+    "synopsis": "A magnetic Timothée Chalamet stars, sings and plays as Bob Dylan in James Mangold’s sparkling A COMPLETE UNKNOWN, the electric true story behind the rise of one of the most iconic singer-songwriters in modern music.\n\nAgainst the backdrop of New York’s vibrant Greenwich Village music scene in 1961, an enigmatic 19-year-old from Minnesota arrives with his guitar and divine talent. What follows is a revolutionary chapter in music history culminating in a controversial performance that reverberates worldwide….\n\nWith multi- award worthy performances from Timothée Chalamet, Edward Norton and Elle Fanning, A COMPLETE UNKNOWN is a joyous celebration of greatness alongside an intimate portrait of the legend who defied everyone to change everything.",
+    "starring": "Timothée Chalamet, Edward Norton, Elle Fanning, Monica Barbaro, Joe Tippett, Eriko Hatsune, Peter Gerety",
+    "directedBy": "James Mangold",
+    "producedBy": "Timothée Chalamet, James Mangold, Fred Berger, Alan Gasmer, Alex Heineman, Peter Jaysen, Bob Bookman, Jeff Rosen",
+    "searchTerms": "",
+    "duration": 140,
+    "genre": "Drama",
+    "allGenres": "Drama, Music, History",
+    "rating": "15",
+    "trailerYoutubeId": "Zwv-vVOjpCk",
+    "trailerVideo": null,
+    "releaseDate": "2025-01-17",
+    "dateOfFirstShowing": "2025-01-20",
+    "tmdbPopularityScore": 84.831,
+    "tmdbId": "661539",
+    "dcmEdiMovieId": "427010",
+    "dcmEdiMovieName": "Complete Unknown, A (2D) [15]",
+    "siteId": "84",
+    "titleClassId": "189",
+    "showings": [
+      {
+        "id": "260218",
+        "time": "2025-01-20T11:00:00Z",
+        "ticketsSold": 1,
+        "screenId": "115",
+        "seatsRemaining": 171,
+        "displayMetaData": "{\"classes\":\"sc1 carers--babies\"}"
+      }
+    ]
+  },
+  {
+    "id": "20157",
+    "name": "LSFF: Lo-Budget Mayhem 2025 + Intros",
+    "showingStatus": "On Sale",
+    "urlSlug": "lsff-lo-budget-mayhem-2025-intros",
+    "posterImage": "j2clbaj712ywylshtgpr0iwsq1os",
+    "bannerImage": "pcr1rlvs8jglno62vyrtk17hudf5",
+    "synopsis": "One of LSFF’s most popular annual programmes returns with a cracking collection of oddities, hand-crafted from the confines of our empty wallets and our mortal bodies. The sets are made of found newspaper and the butchers’ leftovers, and the cast is the filmmaker, their mates, and a sock puppet.\n\nCome with us to see what happens when the budget is tight, but the mind knows no bounds. This year we offer you a journey through worlds of Magritte-style living matchsticks, snooker playing puppets, and vengeful street lamps. The guts are fake, but the meat is real.\n\nA Knife with a Fur Handle, dir. Duncan Reekie, UK 2023, 8mins\nAlone at a party for a few minutes, dir. Carlos Nahuel Cerutti, USA 2024, 9mins\nSeek Beyond, dir. Louis Scantlebury, UK 2022, 4mins\nLittle Fire, dir. Chen Wu, Taiwan 2024, 4mins\nRIP-A-DOODLE-DOO!, dir. Lucy Ellis, UK 2024, 3mins\nSlides, dir. Ben Slotover / Benjamin Rowlinson, UK 2023, 3mins\nVHX, dir. Alisa Stern / Scott Ampleford, USA 2024, 5mins\nInside You, dir. Erik Sémashkin, Ukraine 2023, 3mins\nGod Bless You, dir. Joseph Whitmore, UK 2023, 6mins\nSublimination, dir. Felicitas Fuchs, UK 2024, 8mins\nThe Warmest Color is Blue, dir. Kevin Ralston, USA 2023, 6mins\nSome City in a Nightmare, dir. Ah Young Shin / Zoe Shum, UK 2024, 6mins\nKurt the street lamp, dir. Sacha Schwarz, Switzerland 2024, 6mins\nThe Triangle, Ben Sonjira Young, USA 2023, 4mins\nHow To Take A Nude, dir. Martha Treves / Dean Kay-Barry / Sim Lotay / Warren Michael Berchie, UK 2024\nBeyond Failure, dir. Marissa Losoya, USA 2023, 9mins",
+    "starring": null,
+    "directedBy": null,
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 95,
+    "genre": null,
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": null,
+    "trailerVideo": null,
+    "releaseDate": null,
+    "dateOfFirstShowing": "2025-01-20",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": null,
+    "dcmEdiMovieName": "No Match Found",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "249091",
+        "time": "2025-01-20T18:30:00Z",
+        "ticketsSold": 181,
+        "screenId": "115",
+        "seatsRemaining": 205,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      }
+    ]
+  },
+  {
+    "id": "20789",
+    "name": "Classic Matinee: The Lady in the Van",
+    "showingStatus": "On Sale",
+    "urlSlug": "classic-matinee-the-lady-in-the-van",
+    "posterImage": "dkcl3db3ujiixkxovyavksubrkfj",
+    "bannerImage": "gzdwhd2br8bf9l0rvqbkc0hv9qb3",
+    "synopsis": "This January come and celebrate the life and talent of the incomparable Dame Maggie Smith in The Lady in the Van, released 10 years ago this year, a truly heartwarming and hilarious tale of an eccentric woman of uncertain origins, who 'temporarily' parks her life - and her van - in writer Alan Bennett’s driveway for 15 years…\n\nStarring Alex Jennings as Alan Bennett alongside Maggie Smith in an unforgettable performance, this largely true tale captures the unlikely friendship between the cantankerous Miss Shepherd and the bemused playwright who reluctantly becomes her host. Don't miss the chance to catch this charming contemporary classic back on the big screen!\n\nClassic Matinee is our monthly senior screening, where tickets are just £2.50 for those over 60 years, and we offer free tea, coffee and biscuits for all! These screenings are a fantastic opportunity to socialise and a chance to experience the full 1930's atmosphere of the Rio, as we open up the circle for the classic cinema experience. We hope to see you soon!",
+    "starring": "Maggie Smith, Alex Jennings, Jim Broadbent",
+    "directedBy": "Nicholas Hytner",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 104,
+    "genre": "Comedy / Drama",
+    "allGenres": null,
+    "rating": "12A",
+    "trailerYoutubeId": "47T0HORY9gs",
+    "trailerVideo": null,
+    "releaseDate": "2015-11-13",
+    "dateOfFirstShowing": "2025-01-20",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "171186",
+    "dcmEdiMovieName": "Lady In The Van, The (2D) [12A]",
+    "siteId": "84",
+    "titleClassId": "65",
+    "showings": [
+      {
+        "id": "259175",
+        "time": "2025-01-20T14:30:00Z",
+        "ticketsSold": 4,
+        "screenId": "115",
+        "seatsRemaining": 158,
+        "displayMetaData": "{\"classes\":\"sc1 classic-matinee\"}"
+      }
+    ]
+  },
+  {
+    "id": "20147",
+    "name": "LSFF x BWB: The Villainess + Intro",
+    "showingStatus": "On Sale",
+    "urlSlug": "lsff-x-bwb-the-villainess-intro",
+    "posterImage": "uatgyx98nd63450syxedx2d3rgba",
+    "bannerImage": "fr8nf4gfw2q2h9sqvutop4dp20sp",
+    "synopsis": "Presented as part of BFI’s nationwide Art of Action season, filmmakers, artists and stunt performers Jade Ang Jackman and Ayesha Hussain, curators of Babes with Blades, present an electrifying screening of Korean director Byung gil Jung’s 2017 action thriller The Villainess.\n\nLet spectacularly choreographed action sequences fully immerse you in the chaotic and surreal world of Sook-hee. Honed from childhood to be an elite assassin, the unfolding web of lies around her forces our protagonist into an unrelenting mission for revenge. This female fronted revenge saga inspired some of the motorbike stunts in John Wick Chapter 3: Parabellum. Expect high octane chase sequences!\n\nContent warning: violence, gore",
+    "starring": "Kim Ok-bin, Shin Ha-kyun, Sung Joon, Kim Seo-hyung",
+    "directedBy": "Byung-gil Jung",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 129,
+    "genre": null,
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": null,
+    "trailerVideo": null,
+    "releaseDate": null,
+    "dateOfFirstShowing": "2025-01-22",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": null,
+    "dcmEdiMovieName": "No Match Found",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "249002",
+        "time": "2025-01-22T18:00:00Z",
+        "ticketsSold": 29,
+        "screenId": "115",
+        "seatsRemaining": 133,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      }
+    ]
+  },
+  {
+    "id": "20731",
+    "name": "PINK PALACE: BUDDIES",
+    "showingStatus": "On Sale",
+    "urlSlug": "pink-palace-buddies",
+    "posterImage": "nmbt3r0lickuks64k2ax9dzlvqgl",
+    "bannerImage": "2sqw4x499w9xzceqw2qe3cmpntt7",
+    "synopsis": "Pink Palace present BUDDIES.\n\nOriginally released in cinemas in 1985, the film is a deeply moving portrayal of the start of the AIDS crisis and how the lesbian and gay communities organised themselves to fight it, in the face of government inaction and hostile media.\n\nThe very first full length drama about AIDS, BUDDIES focuses on 25 year - old gay yuppie David (David Schachter) who volunteers to be a “buddy” to an AIDS patient. The gay community centre assigns him to Robert (Geoff Edholm), a 32 year - old politically impassioned California gardener abandoned by his friends and lovers. Revolving around the confines of Robert’s Manhattan hospital room, Bressan skillfully unfolds this two - hander with devastating effect. Tragically both Arthur J. Bressan and Geoff Edholm went on to die from complications of AIDS.\n\n\"Bressan Jr’s film is full of fury, both explicit and subtle. It takes aim at the Reagan administration’s failure to act on the Aids crisis, and hits its target again and again. Compare this with the glossy Oscar-winning theatrics of Tom Hanks’s opera scene in Philadelphia (1993) and the pugnacious spirit of Buddies seems even more potent. Yes, it’s appalling that young men are dying, but the tragedy must be coupled with a fierce resolve to fight back – a battle cry ignored by so many Aids dramas of the era, which got lost in the excitement of A-list straight actors playing tragic gay victims.\n\nEdholm, who also died from Aids-related illness in 1989, has an arresting scene where he chokes with anger when he reads a homophobic article stating that Aids is God’s punishment on gay men. Yet the most powerful sequence pulsates with an understated rage; a final overhead shot of the White House cuts to a printer churning out an endless list of those who have died from Aids-related illness.\n\nBuddies’ authenticity is its greatest strength. This is a rare film from the era, made by and about gay men, and it movingly evokes the loneliness and isolation of so many with Aids. Robert never leaves his hospital room, where he lies alone, surrounded by messages warning medics to exert caution around Aids patients.\" BFI\n\nPlease note there are NO ads or trailers, we start on time!\nPink Palace is a super low fi highly relaxed event that takes place in the basement bar, its a safe queer space so come along and catch some queer film and pop culture history, each week the film is introduced by curator Andrew Woodyatt, and feel free to stay and chat afterwards, participation is encouraged!",
+    "starring": "Geoff Edholm, David Schachter, Damon Hairston, Joyce Korn, Billy Lux, David Rose",
+    "directedBy": "Arthur J. Bressan",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 76,
+    "genre": null,
+    "allGenres": "Drama",
+    "rating": "15",
+    "trailerYoutubeId": "_kir7Qg8fc0",
+    "trailerVideo": null,
+    "releaseDate": "2025-01-23",
+    "dateOfFirstShowing": "2025-01-23",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "341226",
+    "dcmEdiMovieName": "Blackpink The Movie (Concert) (2D) [12A]",
+    "siteId": "84",
+    "titleClassId": "52",
+    "showings": [
+      {
+        "id": "257838",
+        "time": "2025-01-23T19:30:00Z",
+        "ticketsSold": 11,
+        "screenId": "122",
+        "seatsRemaining": 14,
+        "displayMetaData": "{\"classes\":\"ludski-bar pink-palace\"}"
+      }
+    ]
+  },
+  {
+    "id": "20158",
+    "name": "LSFF:Dark Fantasies",
+    "showingStatus": "On Sale",
+    "urlSlug": "lsffdark-fantasies",
+    "posterImage": "4dar13nsbqv6w8moxdevivhmy0zu",
+    "bannerImage": "ctkbcktkkxp31wfs1lfirinpfpnk",
+    "synopsis": "Curated and presented by Lover Management’s Helena Whittingham and Harlan Whittingham, Dark Fantasies invites you to revel in fantastical depictions of sexuality and taboo as we explore the use of horror and fantasy in representations of the erotic.\n\nNever without complaint, and in some cases with risk of legal prosecution, these films transform the forbidden into roleplay, and the unspeakable into a moan. They challenge society's repressive hold on sexuality and untether themselves from shame.\n\nOpen a portal into the dark recesses of the erotic mind, and join us at the intersection of the real and the imaginary for an evening of queer, orgiastic, violent delights!\n\nEl Satario, dir. Unknown, Argentina or Cuba 1907, 9mins\nFireworks, dir. Kenneth Anger, USA 1947, 14 mins\nThe Happy Necrophiliacs, dir. Lasse Braun (as Falcon Stuart), Netherlands 1974, 7mins\nNight Crawl, dir. Four Chambers, UK 2024, 15 mins\nMesse Noire, dir. Unknown, France 1928, 6mins\nUnder the Cherries, dir. Frida Retz, Denmark 2024, 17mins\n\nContent warning: pornographic imagery, fantastical depictions of taboo and sexual imagery, horror imagery",
+    "starring": null,
+    "directedBy": null,
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 70,
+    "genre": null,
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": null,
+    "trailerVideo": null,
+    "releaseDate": null,
+    "dateOfFirstShowing": "2025-01-23",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": null,
+    "dcmEdiMovieName": "No Match Found",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "249093",
+        "time": "2025-01-23T18:45:00Z",
+        "ticketsSold": 57,
+        "screenId": "115",
+        "seatsRemaining": 105,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      }
+    ]
+  },
+  {
+    "id": "20896",
+    "name": "The Brutalist",
+    "showingStatus": "On Sale",
+    "urlSlug": "the-brutalist",
+    "posterImage": "rwfb61992kj1glfmq86ga9vyjqxg",
+    "bannerImage": "py85hj5b2a1g6kwp0jbqch2bhuin",
+    "synopsis": "The past is always present in director Brady Corbet’s multi-award winning epic vision about the dark connections between capitalism, power, trauma and art.\n\nEscaping post-war Europe, visionary architect László Toth arrives in America to rebuild his life, his work, and his marriage to his wife Erzsébet after being forced apart during wartime by shifting borders and regimes. On his own in a strange new country, László settles in Pennsylvania, where the wealthy and prominent industrialist Harrison Lee Van Buren recognises his talent for building. But power and legacy come at a heavy cost…\n\nLed by powerful performances from Adrien Brody, Felicity Jones and Guy Pearce, THE BRUTALIST, much like the architectural designs of its protagonist, is a monumental achievement, brilliantly performed, evocatively filmed and richly drawn.\n\nTHE BRUTALIST is shown with a 15-minute interval.",
+    "starring": "Adrien Brody, Felicity Jones, Guy Pearce, Joe Alwyn, Raffey Cassidy, Stacy Martin, Emma Laird, Alessandro Nivola",
+    "directedBy": "Brady Corbet",
+    "producedBy": "Brady Corbet, Andrew Lauren, Trevor Matthews, Nick Gordon, D.J. Gugenheim, Andrew Morrison, Brian Young",
+    "searchTerms": "",
+    "duration": 215,
+    "genre": "Drama",
+    "allGenres": "Drama",
+    "rating": "18",
+    "trailerYoutubeId": "hNiwPU5vjCk",
+    "trailerVideo": null,
+    "releaseDate": "2025-01-24",
+    "dateOfFirstShowing": "2025-01-24",
+    "tmdbPopularityScore": 120.013,
+    "tmdbId": "549509",
+    "dcmEdiMovieId": "429932",
+    "dcmEdiMovieName": "Brutalist, The (2D) [18]",
+    "siteId": "84",
+    "titleClassId": "59",
+    "showings": [
+      {
+        "id": "261020",
+        "time": "2025-01-24T19:00:00Z",
+        "ticketsSold": 0,
+        "screenId": "115",
+        "seatsRemaining": 162,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "261021",
+        "time": "2025-01-25T19:00:00Z",
+        "ticketsSold": 3,
+        "screenId": "115",
+        "seatsRemaining": 159,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "261022",
+        "time": "2025-01-26T19:00:00Z",
+        "ticketsSold": 0,
+        "screenId": "115",
+        "seatsRemaining": 162,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "261023",
+        "time": "2025-01-27T19:00:00Z",
+        "ticketsSold": 2,
+        "screenId": "115",
+        "seatsRemaining": 160,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "261024",
+        "time": "2025-01-28T19:00:00Z",
+        "ticketsSold": 0,
+        "screenId": "115",
+        "seatsRemaining": 162,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "261025",
+        "time": "2025-01-29T19:00:00Z",
+        "ticketsSold": 3,
+        "screenId": "115",
+        "seatsRemaining": 159,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      },
+      {
+        "id": "261026",
+        "time": "2025-01-30T19:00:00Z",
+        "ticketsSold": 0,
+        "screenId": "115",
+        "seatsRemaining": 162,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      }
+    ]
+  },
+  {
+    "id": "20160",
+    "name": "LSSF: Midnight Movies",
+    "showingStatus": "On Sale",
+    "urlSlug": "lssf-midnight-movies",
+    "posterImage": "9g4wcu6mpr5aysunpjoety0ldh3i",
+    "bannerImage": "otwoke8c3za3gzrbtrglqdlxeqa4",
+    "synopsis": "A most explosive, explicit, and exquisite midnight session that will sure raise your adrenaline level wild high. Prepare yourself for our annual cornucopia of gore and guts, drenched in blood, and served with love and hysteria.\n\nPumpkin Guts, dir. Bryan M. Ferguson, UK 2024, 14mins \nCakes!, dir. Johnny Herbin, UK 2024, 2mins\nThe Beast Inside, dir. Nerun Kalpajith, Sri Lanka 2024, 19mins \nMake Me A Pizza, dir. Talia Shea Levin, USA 2024, 12mins \nStuck, dir. Giselle Bonilla, USA 2023, 3mins \nShe Stays, dir. Marinthia Gutiérrez, Mexico 2024, 10mins\nChloe, dir. Chuan Yu, Taiwan 2023, 10mins\nThat Door, dir. Edem Wornoo, UK 2024, 15mins\nThe Last Thing She Saw, dir. Anthony Cousins / Rebecca Daugherty, USA 2024, 9min\n\nA vampirish urban myth, a corner store that sets the scene for an implosive Backroom horror, a weeping girl who revenges in the game of love, a burglary-turned-gory-farce, a maximalist pizza-themed porn, and cakes, cakes, cakes, more cakes! A must for horror fans seeking something on the shorter side.\n\nContent warning: blood, violence, gore",
+    "starring": null,
+    "directedBy": null,
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 95,
+    "genre": null,
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": null,
+    "trailerVideo": null,
+    "releaseDate": null,
+    "dateOfFirstShowing": "2025-01-24",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": null,
+    "dcmEdiMovieName": "No Match Found",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "249097",
+        "time": "2025-01-24T23:30:00Z",
+        "ticketsSold": 60,
+        "screenId": "115",
+        "seatsRemaining": 102,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      }
+    ]
+  },
+  {
+    "id": "20162",
+    "name": "LSFF: WTF! with Filmmaker Q&A",
+    "showingStatus": "On Sale",
+    "urlSlug": "lsff-wtf-with-filmmaker-qa",
+    "posterImage": "r2k289h3zo1lsekmpamen60wzz3a",
+    "bannerImage": "f8v5ucrkyugyjeye8h8cswe38blq",
+    "synopsis": "Another year, another classic WTF programme. Bringing you an annual dose of the delightfully eccentric and marvellously outlandish. A programme brimming with the most wildly unconventional and fantastically ludicrous short films to land on our doorstep.\n\nRe-Memory Foam ™, dir. William Phoenix / Zachary Bailey, USA 2024, 8mins\nThe Exploding Girl, dir. Caroline Poggi / Jonathan Vinel, France 2024, 19mins\nADIDAS!, dir. Frankie Roberts, UK 2024, 3mins\nBunnyhood, dir. Mansi Maheshwari, UK 2024, 9mins\nProfessional Development (Enchanted Forest PLC), dir. Joshua Alexander, UK 2024, 11mins\nThe Inescapable Desire of Roots, dir. Li Shuen Lam / Mark Chua, Singapore 2024, 6mins \nNumber32. Giant Fish, dir. Seunghyun Si, South Korea 2024, 10mins\nThe Sunset Special 2, dir. Nicolas Gebbe, Germany 2024, 19mins\n\nIn equal parts glitzy and glitchy, psychedelic dreamscapes will unfold before you, men will wrestle with corporate nightmares come to life, face exuberantly sprouting locks of hair, and children will learn life’s greatest lessons—delivered by talking bodily organs (obviously) There might even be a surprise song break somewhere in there. Buckle your seatbelts, kids.\n\nContent warning: Flashing images, Suicide, Heavy violence and gore, Pornographic content",
+    "starring": null,
+    "directedBy": null,
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 90,
+    "genre": null,
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": null,
+    "trailerVideo": null,
+    "releaseDate": null,
+    "dateOfFirstShowing": "2025-01-25",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": null,
+    "dcmEdiMovieName": "No Match Found",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "249101",
+        "time": "2025-01-25T14:30:00Z",
+        "ticketsSold": 110,
+        "screenId": "115",
+        "seatsRemaining": 276,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      }
+    ]
+  },
+  {
+    "id": "20748",
+    "name": "PINK PALACE:THE FLOWER OF MY SECRET",
+    "showingStatus": "On Sale",
+    "urlSlug": "pink-palacethe-flower-of-my-secret",
+    "posterImage": "6ksvr6n3jbxw9lyiuw76hdp5w1gf",
+    "bannerImage": "yvdfjvisj51hpgfkbd7cgi235284",
+    "synopsis": "Pink Palace presents the sublime Almodovar drama THE FLOWER OF MY SECRET in tribute to the sad passing of its iconic star Marisa Paredes.\n\nEvery woman has a secret...  Leo leads a secret double life as an author or romantic fiction. However her success as the best-selling Amanda Gris hasn't brought her happiness and things are getting worse. Her often absent husband doesn't love her, her best friend is strangely distracted and her mother and sister are too busy bickering to notice that anything's wrong. Abandoned by her muse and seeking solace in the bottle since the collapse of her marriage, an unlikely rescuer sets her on a collision course to a new emotional entanglement.\n\nMarisa Paredes is a towering emotional force in this often over-looked Almodovar drama, released in 1995  it marked a departure away from the madness of his previous film Kika and a move to the more introspective personal stories that followed, do not fear however, all his trademark style is here in full, with magnificent support from regulars Rossy de Palma and Chus Lampreave.\n\nPlease note there are NO ads or trailers, we start on time!\nPink Palace is a super low fi highly relaxed event that takes place in the basement bar, its a safe queer space so come along and catch some queer film and pop culture history, each week the film is introduced by curator Andrew Woodyatt, and feel free to stay and chat afterwards, participation is encouraged!",
+    "starring": "Marisa Paredes, Rossy de Palma, Chus Lampreave, Carmen Elias, Joaquin Cortes",
+    "directedBy": "Pedro Almodovar",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 106,
+    "genre": "Romantic Drama",
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": "Zg7qqTOgT1M",
+    "trailerVideo": null,
+    "releaseDate": "2025-01-27",
+    "dateOfFirstShowing": "2025-01-29",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "341226",
+    "dcmEdiMovieName": "Blackpink The Movie (Concert) (2D) [12A]",
+    "siteId": "84",
+    "titleClassId": "52",
+    "showings": [
+      {
+        "id": "259004",
+        "time": "2025-01-29T20:00:00Z",
+        "ticketsSold": 17,
+        "screenId": "122",
+        "seatsRemaining": 8,
+        "displayMetaData": "{\"classes\":\"ludski-bar pink-palace\"}"
+      }
+    ]
+  },
+  {
+    "id": "20749",
+    "name": "PINK PALACE: SUNDAY BLOODY SUNDAY",
+    "showingStatus": "On Sale",
+    "urlSlug": "pink-palace-sunday-bloody-sunday",
+    "posterImage": "v3w96lm4oey6zn6fu8f69v5802xn",
+    "bannerImage": "9osgaey9sg60lbm19sniv9i65rfn",
+    "synopsis": "Pink Palace presents John Schlesinger's pioneering drama that shocked the middle classes in the early 70's with its frank and explicit portrayal of a bisexual love triangle.\n\n\"With a screenplay by novelist and film critic Penelope Gilliatt, John Schlesinger’s Sunday Bloody Sunday (1971) was a pivotal moment in British cinema. After the Oscar-winning sensation of his New York street-hustler saga Midnight Cowboy (1969), Schlesinger returned to the UK for another groundbreaking portrayal of sexuality. His new film would prove radical by staying unusually true to everyday London life.\nPeter Finch and Glenda Jackson star in John Schlesinger’s piercing and brilliantly observed suburban drama.\nA recent divorcée (Jackson) and middle-aged Jewish doctor (Finch) find themselves embroiled in a progressive love triangle with a bisexual artist (Murray Head). Both discover a new freedom with their young lover, as they confront the conventions and obstacles that have defined their lives.\nAn exploration of middle-class life and permissiveness in 1970s London, its depiction of bisexuality changed the landscape of LGBTQ+ representation on screen. Featuring outstanding, BAFTA-winning performances by Finch and Jackson, Sunday Bloody Sunday is a tender and complex view on the politics of love, lust and longing.\" BFI\n\nPlease note there are NO ads or trailers, we start on time!\n\nPink Palace is a super low fi highly relaxed event that takes place in the basement bar, its a safe queer space so come along and catch some queer film and pop culture history, each week the film is introduced by curator Andrew Woodyatt, and feel free to stay and chat afterwards, participation is encouraged!",
+    "starring": "Glenda Jackson, Peter Finch, Murray Head",
+    "directedBy": "John Schlesinger",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 110,
+    "genre": "Drama",
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": "YLYLasLqII4",
+    "trailerVideo": null,
+    "releaseDate": "2025-01-30",
+    "dateOfFirstShowing": "2025-01-30",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "341226",
+    "dcmEdiMovieName": "Blackpink The Movie (Concert) (2D) [12A]",
+    "siteId": "84",
+    "titleClassId": "52",
+    "showings": [
+      {
+        "id": "257863",
+        "time": "2025-01-30T19:30:00Z",
+        "ticketsSold": 6,
+        "screenId": "122",
+        "seatsRemaining": 19,
+        "displayMetaData": "{\"classes\":\"ludski-bar pink-palace\"}"
+      }
+    ]
+  },
+  {
+    "id": "20764",
+    "name": "PINK PALACE:INDIA'S 1ST BEST TRANS MODEL AGENCY",
+    "showingStatus": "On Sale",
+    "urlSlug": "pink-palaceindias-1st-best-trans-model-agency",
+    "posterImage": "l5tb8jpq6vntmn8l02xv8kxr7znv",
+    "bannerImage": "p9mnv2chh3azxgtnx99y4ssgk2z2",
+    "synopsis": "Pink Palace presents this incredible 2024 documentary, India's 1st Best Trans Model Agency.\n\nThis emotionally charged journey, filmed over 7 years, follows the extraordinary story of Rudrani Chettri and her friends from baby blessings, red light districts and dazzling Hindu festivals to the glamorous world of photoshoots, designers, hair and make-up, lights and electrifying action. We discover the transgender trans - Hijra  community of Delhi as they set about creating India’s first ever trans modelling agency and an extravagant, paradigm-shifting, catwalk event.\n\nFar from a bleak story of suffering and discrimination, this film explores the world of India’s ‘third gender’ (Hijra) in a positive way, full of laughter, drama, excitement, and pathos. We discover a complex world where traditional Hindu values clash with modern human rights. We immerse ourselves in unfamiliar places but find identifiable stories of love and loss, hope and poverty, beauty, glamour, and catwalk glory.\n\nPlease note there are NO ads or trailers, we start on time!\n\nPink Palace is a super low fi highly relaxed event that takes place in the basement bar, its a safe queer space so come along and catch some queer film and pop culture history, each week the film is introduced by curator Andrew Woodyatt, and feel free to stay and chat afterwards, participation is encouraged!",
+    "starring": null,
+    "directedBy": "Ila Mehrotra",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 70,
+    "genre": "Documentary",
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": "YLLOecDidSg",
+    "trailerVideo": null,
+    "releaseDate": "2025-02-05",
+    "dateOfFirstShowing": "2025-02-05",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "341226",
+    "dcmEdiMovieName": "Blackpink The Movie (Concert) (2D) [12A]",
+    "siteId": "84",
+    "titleClassId": "52",
+    "showings": [
+      {
+        "id": "258556",
+        "time": "2025-02-05T20:00:00Z",
+        "ticketsSold": 4,
+        "screenId": "122",
+        "seatsRemaining": 21,
+        "displayMetaData": "{\"classes\":\"ludski-bar pink-palace\"}"
+      }
+    ]
+  },
+  {
+    "id": "20835",
+    "name": "We Are Fugazi from Washington, D.C + Q&A",
+    "showingStatus": "On Sale",
+    "urlSlug": "we-are-fugazi-from-washington-dc-qa",
+    "posterImage": "g5l1z9ocqtp7rt8xexrnjfhkht8i",
+    "bannerImage": "twgwmdnszmc108hnq4vlitczpbhs",
+    "synopsis": "A Doc 'n Roll Films Presentation.\n\nCreated to commemorate the 20 years that have passed since DC-based post-hardcore band Fugazi’s last live appearance (4th November 2002, at London's Forum), WE ARE FUGAZI FROM WASHINGTON D.C. comprises crowd-sourced, fan-recorded live shows and rare archive footage of Fugazi curated by Joe Gross, Joseph Pattisall and Jeff Krulik.\n\nExplicitly billed as a non-documentary, the film pays tribute to Fugazi’s prowess as a live act - for old fans to remember and for a new generation to discover what they missed. This unique archival assemblage celebrates the fans and their cameras, as much as the band itself - a collision/collusion of the ephemeral moment on stage, and the moments captured on camera.\n\nFollowed by a Q&A with directors Joe Gross, Joseph Pattisall and Jeff Krulik, Live via Zoom.",
+    "starring": null,
+    "directedBy": "Joe Gross, Jeff Krulik, Joseph Pattisall",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 96,
+    "genre": "Documentary",
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": "b2YvUkzHC3E",
+    "trailerVideo": null,
+    "releaseDate": null,
+    "dateOfFirstShowing": "2025-02-08",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "32706",
+    "dcmEdiMovieName": "Farewell (L'affaire Farewell) (2D) [12A]",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "259880",
+        "time": "2025-02-08T16:30:00Z",
+        "ticketsSold": 21,
+        "screenId": "115",
+        "seatsRemaining": 141,
+        "displayMetaData": "{\"classes\":\"sc1 special-event qa docn-roll\"}"
+      }
+    ]
+  },
+  {
+    "id": "20500",
+    "name": "Preview: The Last Showgirl + Pamela Anderson Q&A",
+    "showingStatus": "On Sale",
+    "urlSlug": "preview-the-last-showgirl-pamela-anderson-qa",
+    "posterImage": "ryin684aax2vehg1uu35ott2hmfc",
+    "bannerImage": "auvhaepr5i5cfk82fjq2z75t54qx",
+    "synopsis": "There is resilience among the rhinestones and the feathers as Golden Globe nominee Pamela Anderson gives an extraordinary comeback performance as a glamorous Las Vegas showgirl facing the abrupt closure of her show after a 30-year run.\n\nThis special advance screening will be followed by an exclusive pre-recorded Q&A with Pamela Anderson.",
+    "starring": "Pamela Anderson, Jamie Lee Curtis, Dave Bautista, Kiernan Shipka, Brenda Song, Billie Lourd",
+    "directedBy": "Gia Coppola",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 85,
+    "genre": null,
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": "r4xpoKBKrpo",
+    "trailerVideo": null,
+    "releaseDate": null,
+    "dateOfFirstShowing": "2025-02-10",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": null,
+    "dcmEdiMovieName": "No Match Found",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "254131",
+        "time": "2025-02-10T20:45:00Z",
+        "ticketsSold": 160,
+        "screenId": "115",
+        "seatsRemaining": 2,
+        "displayMetaData": "{\"classes\":\"sc1 special-event qa\"}"
+      }
+    ]
+  },
+  {
+    "id": "20775",
+    "name": "PINK PALACE: DRIFTER",
+    "showingStatus": "On Sale",
+    "urlSlug": "pink-palace-drifter",
+    "posterImage": "5qkcd6ytud3evp70uafvokvfglvu",
+    "bannerImage": "3p8zcrt4eu09i7x6344ured80opq",
+    "synopsis": "Pink Palace presents this award winning German hard hitting queer clubbing drama from 2023.\n\n\"A scintillating portrait of a young man coming to terms with life, love, sex and relationships in contemporary Berlin.\" BFI\n\n\"Moritz is excited to be moving to Berlin with his boyfriend. But the relationship falls apart when his partner wants the freedom to explore other bodies and experiences without the encumbrance of a live-in lover. So begins an odyssey of new relationships in a city full of possibilities. His circle of arty friends are energetic consumers of everything the city has to offer – drugs, sex, clubs and each other. \nAlthough broken-hearted, Moritz goes with the flow of the city, discovering the joys of sexual abandon. With each new encounter – straight, gay and a flirtation with S&M – he understands more of himself and how to fulfil people’s desires. A coming-of-age story with a difference, \nDrifter is a revelatory portrait of an individual becoming sexually and emotionally confident, learning about friendship, sex and the thrill of living in the moment. Hannes Hirsch’s hugely impressive feature debut is a refreshing and authentic look at queer lives, imbued with the excitement of this generation’s ways of being.\" BFI\n\nPlease note there are NO ads or trailers, we start on time!\n\nPink Palace is a super low fi highly relaxed event that takes place in the basement bar, its a safe queer space so come along and catch some queer film and pop culture history, each week the film is introduced by curator Andrew Woodyatt, and feel free to stay and chat afterwards, participation is encouraged!",
+    "starring": "Lorenz Hochhuth, Cino Djavid, Gustav Schmidt, Oscar Hoppe, Aviran Edri",
+    "directedBy": "Hannes Hirsch",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 79,
+    "genre": "Nightlife drama",
+    "allGenres": null,
+    "rating": "18",
+    "trailerYoutubeId": "Yx__5xTdmQg",
+    "trailerVideo": null,
+    "releaseDate": "2025-02-13",
+    "dateOfFirstShowing": "2025-02-13",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "341226",
+    "dcmEdiMovieName": "Blackpink The Movie (Concert) (2D) [12A]",
+    "siteId": "84",
+    "titleClassId": "52",
+    "showings": [
+      {
+        "id": "259060",
+        "time": "2025-02-13T19:30:00Z",
+        "ticketsSold": 6,
+        "screenId": "122",
+        "seatsRemaining": 19,
+        "displayMetaData": "{\"classes\":\"ludski-bar pink-palace\"}"
+      }
+    ]
+  },
+  {
+    "id": "20804",
+    "name": "Valentines Wes Anderson Double Bill: Badlands & Moonrise Kingdom",
+    "showingStatus": "On Sale",
+    "urlSlug": "valentines-wes-anderson-double-bill-badlands-moonrise-kingdom",
+    "posterImage": "1rzpqavz7xubk6amvntg04kdxgrr",
+    "bannerImage": "ziykxpyuuk2pp6pjucidcmkblcjk",
+    "synopsis": "Badlands and Moonrise Kingdom will be presented as part of a special valentines double bill, celebrating the release of the new book ‘The Worlds of Wes Anderson: The Influences and Inspiration Behind the Iconic Films’. Each screening will include a short introduction by the book’s author, Adam Woodward, who will also be signing copies after the double bill finishes. \n\nTickets are available for the Double Bill of Badlands and Moonrise Kingdom on this page, or you can also find tickets to the films individually here: \n<a href=\"https://www.riocinema.org.uk/movie/badlands\" target=\"_blank\">Badlands tickets</a>\n<a href=\"https://www.riocinema.org.uk/movie/moonrise-kingdom\" target=\"_blank\">Moonrise Kingdom tickets</a>\n\n<b><u>Badlands (1973)</b></u>\nTerrence Malick’s debut feature was loosely inspired by the real-life story of serial killer Charles Starkweather and his girlfriend-turned-accomplice Caril Ann Fugate, who together embarked on a week-long rampage in January 1958 that resulted in the murders of ten people. In Malick’s version of events, Holly (Sissy Spacek), a baton-twirling girl-next-door, meets Kit (Martin Sheen), a James Dean type from the wrong side of the tracks, while he’s working as a garbage collector outside her home in smalltown South Dakota. They quickly fall in love and not before long find themselves making tracks for the titular ‘badlands’ of Montana, leaving a trail of bodies in their wake. Despite being punctuated by violence, Badlands is at its heart a hopelessly romantic, deeply tender film, with Sheen and Spacek setting the template for on-screen errant young couples for years to come.\n\n<b><u>Moonrise Kingdom (2012)</b></u>\nMoonrise Kingdom follows in the tradition of the great American adventure story, concerning a couple of star-crossed kids who find comfort in each other’s idiosyncrasies and decide to run away together: it could have been called The Ballad of Sam and Suzy. Of course, this being a Wes Anderson film, our preteen protagonists (played by Jared Gilman and Kara Hayward) quite often appear more grown up than the adults who conspire to thwart their union. Set in 1960s New England on the fictional island of New Penzance, Moonrise Kingdom contains narrative and visual allusions to everyone from Agnès Varda and Arthur C. Clarke, to Norman Rockwell and Satyajit Ray. But its most significant spiritual connection is with Badlands, Terrence Malick’s lilting tale of young lovers on the lam.\n\n<b><u>Adam Woodward bio</b></u>\nAdam Woodward is Editor-At-Large at Little White Lies magazine, where he has been writing about film since 2009. His first book, ‘The Worlds of Wes Anderson’ was published in 2024.",
+    "starring": "",
+    "directedBy": null,
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 240,
+    "genre": null,
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": null,
+    "trailerVideo": null,
+    "releaseDate": "2025-02-16",
+    "dateOfFirstShowing": "2025-02-16",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": null,
+    "dcmEdiMovieName": "No Match Found",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "259337",
+        "time": "2025-02-16T12:15:00Z",
+        "ticketsSold": 0,
+        "screenId": "122",
+        "seatsRemaining": 25,
+        "displayMetaData": "{\"classes\":\"ludski-bar special-event book-launch\"}"
+      },
+      {
+        "id": "259332",
+        "time": "2025-02-16T14:00:00Z",
+        "ticketsSold": 8,
+        "screenId": "115",
+        "seatsRemaining": 164,
+        "displayMetaData": "{\"classes\":\"sc1 special-event book-launch\"}"
+      },
+      {
+        "id": "259340",
+        "time": "2025-02-16T17:30:00Z",
+        "ticketsSold": 0,
+        "screenId": "122",
+        "seatsRemaining": 25,
+        "displayMetaData": "{\"classes\":\"ludski-bar special-event book-launch\"}"
+      }
+    ]
+  },
+  {
+    "id": "20803",
+    "name": "Moonrise Kingdom",
+    "showingStatus": "On Sale",
+    "urlSlug": "moonrise-kingdom",
+    "posterImage": "ckq62pixne7dfqw0k5621k6jts35",
+    "bannerImage": "lbh3pi10jyg7van7bax1g2jw0odo",
+    "synopsis": "Badlands and Moonrise Kingdom will be presented as part of a special valentines double bill, celebrating the release of the new book ‘The Worlds of Wes Anderson: The Influences and Inspiration Behind the Iconic Films’. Each screening will include a short introduction by the book’s author, Adam Woodward, who will also be signing copies after the double bill finishes. \n\nIf you wish to purchase tickets to Moonrise Kingdom individually, please purchase tickets through this page. \nYou can also purchase tickets to the double bill of Badlands and Moonrise Kingdom here: <a href=\"https://www.riocinema.org.uk/movie/valentines-wes-anderson-double-bill-badlands-moonrise-kingdom\" target=\"_blank\">Valentines Wes Anderson Double Bill tickets</a>\n\n<b><u>Moonrise Kingdom (2012)</b></u>\nMoonrise Kingdom follows in the tradition of the great American adventure story, concerning a couple of star-crossed kids who find comfort in each other’s idiosyncrasies and decide to run away together: it could have been called The Ballad of Sam and Suzy. Of course, this being a Wes Anderson film, our preteen protagonists (played by Jared Gilman and Kara Hayward) quite often appear more grown up than the adults who conspire to thwart their union. Set in 1960s New England on the fictional island of New Penzance, Moonrise Kingdom contains narrative and visual allusions to everyone from Agnès Varda and Arthur C. Clarke, to Norman Rockwell and Satyajit Ray. But its most significant spiritual connection is with Badlands, Terrence Malick’s lilting tale of young lovers on the lam.\n\n<b><u>Adam Woodward bio</b></u>\nAdam Woodward is Editor-At-Large at Little White Lies magazine, where he has been writing about film since 2009. His first book, ‘The Worlds of Wes Anderson’ was published in 2024.",
+    "starring": "Jared Gilman, Kara Hayward, Bruce Willis, Edward Norton, Bill Murray, Frances McDormand, Tilda Swinton, Jason Schwartzman, Bob Balaban",
+    "directedBy": "Wes Anderson",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 100,
+    "genre": "Comedy/Romance",
+    "allGenres": null,
+    "rating": "12A",
+    "trailerYoutubeId": "dzx9GUdDz7k",
+    "trailerVideo": null,
+    "releaseDate": "2025-02-16",
+    "dateOfFirstShowing": "2025-02-16",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "43144",
+    "dcmEdiMovieName": "Moonrise Kingdom (2D) [12A]",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "259339",
+        "time": "2025-02-16T14:40:00Z",
+        "ticketsSold": 0,
+        "screenId": "122",
+        "seatsRemaining": 25,
+        "displayMetaData": "{\"classes\":\"ludski-bar special-event book-launch\"}"
+      },
+      {
+        "id": "259334",
+        "time": "2025-02-16T16:00:00Z",
+        "ticketsSold": 8,
+        "screenId": "115",
+        "seatsRemaining": 164,
+        "displayMetaData": "{\"classes\":\"sc1 special-event book-launch\"}"
+      },
+      {
+        "id": "259342",
+        "time": "2025-02-16T19:55:00Z",
+        "ticketsSold": 0,
+        "screenId": "122",
+        "seatsRemaining": 25,
+        "displayMetaData": "{\"classes\":\"ludski-bar special-event book-launch\"}"
+      }
+    ]
+  },
+  {
+    "id": "20802",
+    "name": "Badlands",
+    "showingStatus": "On Sale",
+    "urlSlug": "badlands",
+    "posterImage": "8sufcvxp0v7zuvp4xomo9k6dvgms",
+    "bannerImage": "e56n6emicyeya14giw845wlipsmb",
+    "synopsis": "Badlands and Moonrise Kingdom will be presented as part of a special valentines double bill, celebrating the release of the new book ‘The Worlds of Wes Anderson: The Influences and Inspiration Behind the Iconic Films’. Each screening will include a short introduction by the book’s author, Adam Woodward, who will also be signing copies after the double bill finishes. \n\nIf you wish to purchase tickets to Badlands individually, please purchase tickets through this page. \nYou can also purchase tickets to the double bill of Badlands and Moonrise Kingdom here: <a href=\"https://www.riocinema.org.uk/movie/valentines-wes-anderson-double-bill-badlands-moonrise-kingdom\" target=\"_blank\">Valentines Wes Anderson Double Bill tickets</a>\n<b><u>Badlands (1973)</b></u>\nTerrence Malick’s debut feature was loosely inspired by the real-life story of serial killer Charles Starkweather and his girlfriend-turned-accomplice Caril Ann Fugate, who together embarked on a week-long rampage in January 1958 that resulted in the murders of ten people. In Malick’s version of events, Holly (Sissy Spacek), a baton-twirling girl-next-door, meets Kit (Martin Sheen), a James Dean type from the wrong side of the tracks, while he’s working as a garbage collector outside her home in small-town South Dakota. They quickly fall in love and not before long find themselves making tracks for the titular ‘badlands’ of Montana, leaving a trail of bodies in their wake. Despite being punctuated by violence, Badlands is at its heart a hopelessly romantic, deeply tender film, with Sheen and Spacek setting the template for on-screen errant young couples for years to come.\n\n<b><u>Adam Woodward bio</b></u>\nAdam Woodward is Editor-At-Large at Little White Lies magazine, where he has been writing about film since 2009. His first book, ‘The Worlds of Wes Anderson’ was published in 2024.",
+    "starring": "Martin Sheen, Sissy Spacek",
+    "directedBy": "Terrence Malick",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 110,
+    "genre": "Crime/Noir",
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": "_tp0JmXUdXU",
+    "trailerVideo": null,
+    "releaseDate": "2025-02-16",
+    "dateOfFirstShowing": "2025-02-16",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "12739",
+    "dcmEdiMovieName": "Badlands (Re: 2008) (2D) [15]",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "259338",
+        "time": "2025-02-16T12:15:00Z",
+        "ticketsSold": 0,
+        "screenId": "122",
+        "seatsRemaining": 25,
+        "displayMetaData": "{\"classes\":\"ludski-bar special-event book-launch\"}"
+      },
+      {
+        "id": "259333",
+        "time": "2025-02-16T14:00:00Z",
+        "ticketsSold": 8,
+        "screenId": "115",
+        "seatsRemaining": 164,
+        "displayMetaData": "{\"classes\":\"sc1 special-event book-launch\"}"
+      },
+      {
+        "id": "259341",
+        "time": "2025-02-16T17:30:00Z",
+        "ticketsSold": 0,
+        "screenId": "122",
+        "seatsRemaining": 25,
+        "displayMetaData": "{\"classes\":\"ludski-bar special-event book-launch\"}"
+      }
+    ]
+  },
+  {
+    "id": "20911",
+    "name": "Classic Matinee: Casablanca",
+    "showingStatus": "On Sale",
+    "urlSlug": "classic-matinee-casablanca",
+    "posterImage": "ankf6xerh7j9cpdp5fssjpswr8f8",
+    "bannerImage": "kroubwdc3wqgd4tqqst5jcuq9dp4",
+    "synopsis": "This February, fall in love all over again with one of the greatest films of all time – CASABLANCA. The perfect screening for Valentine’s season, this timeless classic tells a tale of love, sacrifice, and resistance, set against the backdrop of the war. \n\nSilver screen superstars Humphrey Bogart and Ingrid Bergman are thrust into an unforgettable romance, filled with longing and heartbreak, plays out in Rick’s Café Américain, where lost souls and desperate lovers cross paths in wartime Morocco. Whether you’ve seen it a dozen times or are experiencing it for the first time, CASABLANCA remains as powerful and poignant as ever on the big screen. Here's looking at you, kid!\n\nClassic Matinee is our monthly senior screening, where tickets are just £2.50 for those over 60 years, and we offer free tea, coffee, and biscuits for all! These screenings are a fantastic opportunity to socialise and a chance to experience the full 1930s atmosphere of the Rio, as we open up the circle for the classic cinema experience. We hope to see you soon!",
+    "starring": "Humphrey Bogart, Ingrid Bergman, Paul Henreid",
+    "directedBy": "Michael Curtiz",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 102,
+    "genre": "Drama / Romance",
+    "allGenres": null,
+    "rating": "U",
+    "trailerYoutubeId": "MF7JH_54d8c",
+    "trailerVideo": null,
+    "releaseDate": "1942-11-26",
+    "dateOfFirstShowing": "2025-02-17",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "350862",
+    "dcmEdiMovieName": "Casablanca (Re: 2022) (2D) [U]",
+    "siteId": "84",
+    "titleClassId": "65",
+    "showings": [
+      {
+        "id": "261086",
+        "time": "2025-02-17T14:30:00Z",
+        "ticketsSold": 1,
+        "screenId": "115",
+        "seatsRemaining": 161,
+        "displayMetaData": "{\"classes\":\"sc1 special-event classic-matinee\"}"
+      }
+    ]
+  },
+  {
+    "id": "20752",
+    "name": "PINK PALACE: PAT ROCCO DARED",
+    "showingStatus": "On Sale",
+    "urlSlug": "pink-palace-pat-rocco-dared",
+    "posterImage": "mwq8kn8aue2jhz13yzvmw1wd7nnm",
+    "bannerImage": "6tj8q5szt8vio5g318l3wr6qa7ri",
+    "synopsis": "Pink Palace presents an incredible documentary, a wildly colourful trip back in time, as filmmaker and activist Pat Rocco shares his incredible life story as one of Hollywood's original boundary pushing gay pioneers.\n\nIn the 1970s, Playboy magazine dubbed Pat Rocco the King of the Nudies, but he is much more than an erotic filmmaker. Rocco is an activist, artist, filmmaker and entertainer. He's the whole Hollywood package, with one more story to tell: his own.\nA truly joyful romp through the 70's as Pat not only made iconic early gay adult films but also documented the queer rights movement, the first Pride parade and the work of activists like Harvey Milk... not to be missed if you love queer history!\n\nPlease note there are NO ads or trailers, we start on time!\n\nPink Palace is a super low fi highly relaxed event that takes place in the basement bar, its a safe queer space so come along and catch some queer film and pop culture history, each week the film is introduced by curator Andrew Woodyatt, and feel free to stay and chat afterwards, participation is encouraged!",
+    "starring": "Pat Rocco, Charlie David, Phyllis Diller, Harvey Milk",
+    "directedBy": "Morris Chapdelaine, Bob Christie",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 90,
+    "genre": "queer documentary",
+    "allGenres": null,
+    "rating": "18",
+    "trailerYoutubeId": "6EBN6aXqVgc",
+    "trailerVideo": null,
+    "releaseDate": "2025-02-19",
+    "dateOfFirstShowing": "2025-02-19",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "341226",
+    "dcmEdiMovieName": "Blackpink The Movie (Concert) (2D) [12A]",
+    "siteId": "84",
+    "titleClassId": "52",
+    "showings": [
+      {
+        "id": "259335",
+        "time": "2025-02-16T14:30:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2 pink-palace\"}"
+      },
+      {
+        "id": "259336",
+        "time": "2025-02-16T20:30:00Z",
+        "ticketsSold": 0,
+        "screenId": "116",
+        "seatsRemaining": 30,
+        "displayMetaData": "{\"classes\":\"sc2 pink-palace\"}"
+      },
+      {
+        "id": "257864",
+        "time": "2025-02-19T20:00:00Z",
+        "ticketsSold": 0,
+        "screenId": "122",
+        "seatsRemaining": 25,
+        "displayMetaData": "{\"classes\":\"ludski-bar pink-palace\"}"
+      }
+    ]
+  },
+  {
+    "id": "20885",
+    "name": "Doc'n Roll: God Said Give ‘Em Drum Machines",
+    "showingStatus": "On Sale",
+    "urlSlug": "docn-roll-god-said-give-em-drum-machines",
+    "posterImage": "c6t4tc3c1v3kqmcg5kzkk3dkwicr",
+    "bannerImage": "5qzpxfdcl5pjh3jehg21xn84bkb7",
+    "synopsis": "GOD SAID GIVE ‘EM DRUM MACHINES is the story behind one of Detroit’s great contributions to world culture: techno, the electronic-music phenomenon created by Black artists in the 1980s that would transform dance music worldwide and ultimately blossom into the multibillion-dollar EDM industry of today. In the spotlight: and more..\n\nThis is an African-American story delivered straight from the city that gave birth to it: Motor City native Kristian R. Hill directs, Detroit-born Jennifer Washington and David Grandison are producers, and in the spotlight are creative forces including Juan Atkins, Derrick May, Kevin Saunderson, Blake Baxter, Santonio Echols, Eddie Fowlkes and more.\n\nMoving from Detroit to Chicago to London and Berlin, GOD SAID GIVE ’EM DRUM MACHINES offers an important corrective to previous accounts and focuses on the talent of a group of young Black artists – along with tales of mismanaged success, damaged friendships, ascendant beats, and raw inspiration.",
+    "starring": "Juan Atkins, Derrick May, Kevin Saunderson, Blake Baxter, Santonio Echols, Eddie Fowlkes",
+    "directedBy": "Kristian R. Hill",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 90,
+    "genre": "Documentary",
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": "gzM_hLrP-WY",
+    "trailerVideo": null,
+    "releaseDate": null,
+    "dateOfFirstShowing": "2025-02-26",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": null,
+    "dcmEdiMovieName": "No Match Found",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "260807",
+        "time": "2025-02-26T18:30:00Z",
+        "ticketsSold": 11,
+        "screenId": "115",
+        "seatsRemaining": 151,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      }
+    ]
+  },
+  {
+    "id": "20888",
+    "name": "Dory Previn; On My Way to Where + director Q&A",
+    "showingStatus": "On Sale",
+    "urlSlug": "dory-previn-on-my-way-to-where-director-qa",
+    "posterImage": "w25wscbmz2zguinkwyqlhq4ie08v",
+    "bannerImage": "rfbqo9cv95dg41vz48m6u0sjvf8k",
+    "synopsis": "A Doc 'n Roll Presentation\n\n“If you’ve never heard of Dory Previn, prepare to be ashamed of yourself.\" – Rex Reed\n\nWriting and singing the unvarnished truth about buried secret life experiences is more common today than when Dory Previn wrote brilliant, disturbing and \ndarkly funny songs in the 1970s. She began as an Academy Award-nominated lyricist for Hollywood musicals with songs for Frank Sinatra, Judy Garland and Dionne Warwick, before a tabloid scandal and public breakdown led to her re-emergence as a cult artist in the Laurel Canyon scene. \n\nThe film draws on archives for its compelling story as J. Smith-Cameron (Succession) reads the voices in Dory’s head. Previn’s eloquent articulation of her relationship with her voices anticipates the burgeoning Hearing Voices and Mad Pride movements that are revolutionising how we now understand mental health.",
+    "starring": null,
+    "directedBy": "Julia Greenberg and Dianna Dilworth",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 80,
+    "genre": "Documentary",
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": null,
+    "trailerVideo": null,
+    "releaseDate": null,
+    "dateOfFirstShowing": "2025-03-06",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "8890066",
+    "dcmEdiMovieName": "Dory Previn: On The Way to There (2D) [18]",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "260890",
+        "time": "2025-03-06T18:30:00Z",
+        "ticketsSold": 0,
+        "screenId": "115",
+        "seatsRemaining": 162,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      }
+    ]
+  },
+  {
+    "id": "20915",
+    "name": "Classic Matinee: Mrs. Harris Goes To Paris",
+    "showingStatus": "On Sale",
+    "urlSlug": "classic-matinee-mrs-harris-goes-to-paris",
+    "posterImage": "34hcjogbj79p3wkc10xrawh8xo1m",
+    "bannerImage": "767f3f79z4elk4tqrini977fqih7",
+    "synopsis": "This March, join us for a heartwarming and uplifting journey in MRS. HARRIS GOES TO PARIS, a delightful tale of dreams, determination, and Dior. Led by a luminous Lesley Manville who shines shines as Ada Harris, a widowed cleaning lady in 1950s London who dares to pursue her dream of owning a couture dress. \n\nHer adventure takes her to Paris, where she not only discovers the magic of high fashion but also changes the lives of those she meets along the way. Mrs. Harris’ unrestrained enthusiasm for life rubs off on everyone she meets and her magic will most certainly rub off on you too! A charming, feel-good film full of warmth and wit, MRS. HARRIS GOES TO PARIS is a celebration of optimism, second chances, and finding an outer beauty that reflects the purity of heart within...\n\nClassic Matinee is our monthly senior screening, where tickets are just £2.50 for those over 60 years, and we offer free tea, coffee, and biscuits for all! These screenings are a fantastic opportunity to socialise and a chance to experience the full 1930s atmosphere of the Rio, as we open up the circle for the classic cinema experience. We hope to see you soon!",
+    "starring": "Lesley Manville, Isabelle Huppert, Lambert Wilson, Alba Baptista, Lucas Bravo, and Jason Isaacs.",
+    "directedBy": "Anthony Fabian",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 116,
+    "genre": "Comedy / Drama",
+    "allGenres": null,
+    "rating": "PG",
+    "trailerYoutubeId": "h1tIdv5avWY",
+    "trailerVideo": null,
+    "releaseDate": "2025-03-10",
+    "dateOfFirstShowing": "2025-03-10",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "338412",
+    "dcmEdiMovieName": "Mrs. Harris Goes To Paris (2D) [PG]",
+    "siteId": "84",
+    "titleClassId": "65",
+    "showings": [
+      {
+        "id": "261161",
+        "time": "2025-03-10T14:30:00Z",
+        "ticketsSold": 0,
+        "screenId": "115",
+        "seatsRemaining": 162,
+        "displayMetaData": "{\"classes\":\"sc1 special-event classic-matinee\"}"
+      }
+    ]
+  },
+  {
+    "id": "20890",
+    "name": "Doc'n Roll: Electronic Body Movie + director Q&A",
+    "showingStatus": "On Sale",
+    "urlSlug": "docn-roll-electronic-body-movie-director-qa",
+    "posterImage": "ed90pm6oosvjr63zdfp86ea38018",
+    "bannerImage": "q7f9gj48xhh3jf3qbqy90gq55wb9",
+    "synopsis": "ELECTRONIC BODY MOVIE is the first feature documentary film on the history of EBM from the early 1980s of industrial music in Germany and Belgium, during the era of post-punk and Neue Deutsche Welle.\n\nEBM was the hot new music style based on thumping beats, aggressive vocals and sequenced synth bass lines. The adrenaline-filled live shows, controversial lyrics and provocative looks associated with the genre often shocked the music press and fuelled the audience's imagination, leaving a burning mark on the hearts and minds of the genre’s fans.\n\nNow, four decades later, EBM still has a big impact on techno and modern clubbing music. A wide and devoted fan community from all around the globe keeps its cult alive, organising regular festivals and events. The documentary offers a unique journey into EBM’s iconic sound, showcasing rare archive videos, unreleased live footage and exclusive interviews with the genre’s trailblazers, including DAF, Front 242, and Liaisons Dangereuses.",
+    "starring": null,
+    "directedBy": "Pietro Anton",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 54,
+    "genre": "Doccumentary",
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": "vuDgDKMonb0",
+    "trailerVideo": null,
+    "releaseDate": null,
+    "dateOfFirstShowing": "2025-03-15",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": null,
+    "dcmEdiMovieName": "No Match Found",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "260976",
+        "time": "2025-03-15T15:45:00Z",
+        "ticketsSold": 0,
+        "screenId": "115",
+        "seatsRemaining": 162,
+        "displayMetaData": "{\"classes\":\"sc1\"}"
+      }
+    ]
+  },
+  {
+    "id": "19714",
+    "name": "Haxan: Witchcraft Through the Ages + Live Score",
+    "showingStatus": "On Sale",
+    "urlSlug": "haxan-witchcraft-through-the-ages-live-score",
+    "posterImage": "nb7j8enh4yilvg75d01nixc22rhw",
+    "bannerImage": "xc0ug56a60sph44g2zcpk6euwjbo",
+    "synopsis": "<b>This screening is live scored by instrumental four-piece band AUTOHAUs.</b>\n\nThis screening will have an interval. \n\nHäxan: Witchcraft Through the Ages (1922) is a Swedish-Danish silent film directed by Benjamin Christensen that blends documentary and dramatized scenes to explore the history and myths surrounding witchcraft.\n\nInspired by the 15th-century guide Malleus Maleficarum, the film traces the rise of superstition and the persecution of alleged witches in the Middle Ages, showing how ignorance and fear often led to hysteria and brutal witch hunts.\n\nChristensen uses a mix of historical analysis and eerie re-enactments to depict the accusations of witchcraft, with a focus on how conditions like mental illness were often misunderstood and linked to supernatural causes. With its vivid portrayals of torture, occult rituals, and the Inquisition, the film was highly controversial, facing censorship and bans in various countries. Despite this, Häxan is now recognised as a groundbreaking work that paved the way for modern documentary and horror cinema.​\n\n“AUTOHAUs make fractal music; layering fuzzed-out noise and electronic drones, motorik percussion and hypnotic bass lines… a must for fans of Spacemen3, The Cosmic Dead, Ash Ra Tempel and Neu!”",
+    "starring": "Benjamin Christensen, Clara Pontoppidan, Oscar Stribolt, Astrid Holm, Maren Pedersen",
+    "directedBy": "Benjamin Christensen",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 105,
+    "genre": "Documentary, Fantasy",
+    "allGenres": null,
+    "rating": "15",
+    "trailerYoutubeId": "/bt15G5109bk",
+    "trailerVideo": null,
+    "releaseDate": "2025-03-22",
+    "dateOfFirstShowing": "2025-03-22",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": null,
+    "dcmEdiMovieName": "No Match Found",
+    "siteId": "84",
+    "titleClassId": "51",
+    "showings": [
+      {
+        "id": "243426",
+        "time": "2024-12-06T20:30:00Z",
+        "ticketsSold": 0,
+        "screenId": "115",
+        "seatsRemaining": 386,
+        "displayMetaData": "{\"classes\":\"sc1 special-event performance witches-brew-ha-ha\"}"
+      },
+      {
+        "id": "251750",
+        "time": "2025-03-22T20:30:00Z",
+        "ticketsSold": 15,
+        "screenId": "115",
+        "seatsRemaining": 147,
+        "displayMetaData": "{\"classes\":\"sc1 special-event performance witches-brew-ha-ha\"}"
+      }
+    ]
+  },
+  {
+    "id": "20916",
+    "name": "Classic Matinee: Easter Parade",
+    "showingStatus": "On Sale",
+    "urlSlug": "classic-matinee-easter-parade",
+    "posterImage": "mv5h2vb9zzl0np1aw13z4e0jyjyi",
+    "bannerImage": "qmvcin8fsxye88e0wm91p7852svp",
+    "synopsis": "This April, step into a world of dazzling song and dance with EASTER PARADE, a technicolor treat that brings the golden age of Hollywood to life. Fred Astaire and Judy Garland shine in this delightful musical, filled with timeless Irving Berlin songs, spectacular dance numbers, and a charming romance set against the backdrop of Broadway’s bustling showbiz scene. A heartwarming story of love and ambition, EASTER PARADE is the ideal way to celebrate the spring season on the big screen.\n\nClassic Matinee is our monthly senior screening, where tickets are just £2.50 for those over 60 years, and we offer free tea, coffee, and biscuits for all! These screenings are a fantastic opportunity to socialise and a chance to experience the full 1930s atmosphere of the Rio, as we open up the circle for the classic cinema experience. We hope to see you soon!",
+    "starring": "Judy Garland, Fred Astaire",
+    "directedBy": "Charles Walters",
+    "producedBy": null,
+    "searchTerms": "",
+    "duration": 107,
+    "genre": "Musical / Romance",
+    "allGenres": null,
+    "rating": "U",
+    "trailerYoutubeId": "KKr9S2UNFAU",
+    "trailerVideo": null,
+    "releaseDate": "2025-04-14",
+    "dateOfFirstShowing": "2025-04-14",
+    "tmdbPopularityScore": null,
+    "tmdbId": null,
+    "dcmEdiMovieId": "999943",
+    "dcmEdiMovieName": "Easter Parade (2D) [U]",
+    "siteId": "84",
+    "titleClassId": "65",
+    "showings": [
+      {
+        "id": "261201",
+        "time": "2025-04-14T13:30:00Z",
+        "ticketsSold": 0,
+        "screenId": "115",
+        "seatsRemaining": 162,
+        "displayMetaData": "{\"classes\":\"sc1 special-event classic-matinee\"}"
       }
     ]
   }

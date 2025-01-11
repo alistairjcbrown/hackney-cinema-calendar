@@ -44,6 +44,7 @@ query ($limit: Int, $orderBy: String, $type: String) {
         ticketsSold
         screenId
         seatsRemaining
+        displayMetaData
       }
     }
   }

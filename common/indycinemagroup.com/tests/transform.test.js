@@ -4,7 +4,7 @@ const moviesWithLocalScreenings = require("./mock-data/movie-with-local-screenin
 const formatParameter = (data) => ({ data: { movies: { data } } });
 const rioCinema = { domain: "https://www.riocinema.org.uk" };
 
-jest.useFakeTimers().setSystemTime(new Date("2024-08-01"));
+jest.useFakeTimers().setSystemTime(new Date("2025-01-11"));
 
 describe("Cinema powered by Indy Cinema Group", () => {
   describe("when no movies provided", () => {
