@@ -6,7 +6,7 @@ chromium.use(stealth);
 
 async function getPageWithPlaywright(url, cacheKey, callback) {
   return dailyCache(cacheKey, async () => {
-    const browser = await chromium.launch({ headless: false });
+    const browser = await chromium.launch({ headless: true });
     const context = await browser.newContext();
     // Make the timeout much higher than default for running on slower runners
     context.setDefaultTimeout(90_000);
