@@ -21,6 +21,7 @@ function normalizeTitle(title, options) {
     "Carer's & Babies Club:",
     "carers & babies club:",
     "Valentine’s Day Preview:",
+    "Sky Original -",
   ];
 
   removablePrefixes.forEach((phrase) => {

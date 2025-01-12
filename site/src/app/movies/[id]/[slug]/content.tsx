@@ -139,7 +139,7 @@ export default function MoviePageContent({
                 </TagGroup>
               </div>
 
-              {displayedMovie.genres ? (
+              {displayedMovie.genres && displayedMovie.genres.length > 0 ? (
                 <div>
                   Genres
                   <TagGroup>
@@ -154,7 +154,8 @@ export default function MoviePageContent({
                   </TagGroup>
                 </div>
               ) : null}
-              {displayedMovie.directors ? (
+              {displayedMovie.directors &&
+              displayedMovie.directors.length > 0 ? (
                 <div>
                   Directed by
                   <TagGroup>
@@ -169,7 +170,7 @@ export default function MoviePageContent({
                   </TagGroup>
                 </div>
               ) : null}
-              {displayedMovie.actors ? (
+              {displayedMovie.actors && displayedMovie.actors.length > 0 ? (
                 <div>
                   Starring
                   <TagGroup>

@@ -36,6 +36,12 @@ async function transform(
       ),
     ).sort((a, b) => a > b);
 
+    const isActorsPlaceholder = movie.starring
+      ?.toLowerCase()
+      ?.startsWith("cast to be announced");
+    const actors = isActorsPlaceholder
+      ? []
+      : splitConjoinedItemsInList(convertToList(movie.starring));
     const transformedMovie = {
       title: movie.name,
       url: `${domain}/movie/${movie.urlSlug}`,
@@ -43,7 +49,7 @@ async function transform(
         categories: convertToList(movie.allGenres),
         duration: parseMinsToMs(movie.duration),
         directors: splitConjoinedItemsInList(convertToList(movie.directedBy)),
-        actors: splitConjoinedItemsInList(convertToList(movie.starring)),
+        actors,
       },
       performances: filterHistoricalPerformances(
         showings.map((showing) => {

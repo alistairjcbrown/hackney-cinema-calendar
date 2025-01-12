@@ -1,8 +1,8 @@
 module.exports = {
-  name: "Everyman Canary Wharf",
+  name: "Everyman Broadgate",
   domain: "https://www.everymancinema.com",
-  url: "https://www.everymancinema.com/venues-list/x0vpb-everyman-canary-wharf/",
-  address: "Crossrail Place - Level Minus Two, London, E14 5AR, UK",
-  geo: { lat: 51.506196667696564, lon: -0.01804259923495616 },
-  cinemaId: "X0VPB",
+  url: "https://www.everymancinema.com/venues-list/x11nt-everyman-broadgate/",
+  address: "1 Finsbury Avenue, London, EC2M 2PF, UK",
+  geo: { lat: 51.51966442955747, lon: -0.0846111324961203 },
+  cinemaId: "X11NT",
 };

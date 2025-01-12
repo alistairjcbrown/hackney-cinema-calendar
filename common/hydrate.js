@@ -17,7 +17,7 @@ const getMovieTitleAndYearFrom = (title) => {
 };
 
 function getManualMatch(titleQuery) {
-  if (titleQuery === "macbeth: david tennant & cush jumbo") {
+  if (titleQuery === "macbeth david tennant & cush jumbo") {
     return require("./manual-overrides/1368487.json");
   }
   return null;
