@@ -1,4 +1,5 @@
 const slugify = require("slugify");
+const { format } = require("date-fns");
 const { parseMinsToMs } = require("./utils");
 const normalizeTitle = require("./normalize-title");
 const {
@@ -24,6 +25,10 @@ function getManualMatch(titleQuery) {
 }
 
 function getBestMatch(titleQuery, rawResults) {
+  // If there's only one result, then pick it
+  if (rawResults.length === 1) return rawResults[0];
+
+  // If there's a few results, remove any which don't have a release date
   const results = rawResults.filter(({ release_date: date }) => !!date);
 
   // If there's only a few results returned, then pick the first
@@ -72,12 +77,18 @@ async function hydrate(shows) {
         }
       }
 
+      // If the result doesn't have a release date, default it to the date of
+      // the first performance.
+      const defaultReleaseDate = format(
+        new Date(show.performances[0].time),
+        "yyyy-MM-dd",
+      );
       return {
         ...show,
         moviedb: {
           id: result.id,
           title: result.title,
-          releaseDate: result.release_date,
+          releaseDate: result.release_date || defaultReleaseDate,
           summary: result.overview,
         },
       };

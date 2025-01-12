@@ -146,9 +146,7 @@ async function generateCalendar(cinema) {
       console.log("\n---\n");
     }
   } else if (parameter === "fast") {
-    for (site of sites.filter(
-      (site) => !site.startsWith("bfi.org.uk") && !site.startsWith("myvue.com"),
-    )) {
+    for (site of sites.filter((site) => !site.startsWith("bfi.org.uk"))) {
       await generateCalendar(site);
       console.log("\n---\n");
     }
