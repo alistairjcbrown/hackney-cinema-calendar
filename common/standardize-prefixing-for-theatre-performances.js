@@ -3,6 +3,23 @@ const shortYearRangeMatcher = /\d{2}-(\d{2})/;
 const yearSuffixMatcher = /\(\d{4}\)$/;
 const ownerMatcher = /:\s+[^\s]+['|’]s/;
 
+// National Theatre
+const nationalTheatrePrefixes = [/NT Live:/i];
+
+function standardizePrefixingForNationalTheatrePerformances(title, options) {
+  title = title.replace(/\s+&\s+/, " and ").replace(/\s+-\s+/, ": ");
+
+  let updatedPrefixTitle = nationalTheatrePrefixes.reduce(
+    (value, prefix) => value.replace(prefix, "National Theatre Live: "),
+    title,
+  );
+
+  return updatedPrefixTitle
+    .replace(/\s+:\s+/, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 // Metropolitan Opera
 const metOperaPrefixes = [
   /Met Opera Encore:/i,
@@ -93,6 +110,10 @@ function standardizePrefixingForTheatrePerformances(
   options = { retainYear: false },
 ) {
   const lowercaseTitle = title.toLowerCase().trim();
+
+  if (lowercaseTitle.startsWith("nt live:")) {
+    return standardizePrefixingForNationalTheatrePerformances(title, options);
+  }
 
   if (
     lowercaseTitle.startsWith("met opera") ||
