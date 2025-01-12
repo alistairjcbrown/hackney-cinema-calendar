@@ -117,6 +117,7 @@ const siteData = {
       }
 
       const movieId = movieInfo ? `${movieInfo.id}` : getId(title);
+
       if (!siteData.movies[movieId]) {
         if (movieInfo) {
           const directors = getDirectors(movieInfo);
@@ -174,7 +175,7 @@ const siteData = {
           [],
         );
 
-        movie.genres = [...movie.genres, ...matchedGenres];
+        movie.genres = [...new Set([...movie.genres, ...matchedGenres])];
       }
 
       movie.showings[showingId] = {
@@ -217,6 +218,7 @@ const siteData = {
     },
     {},
   );
+
   const confirmedConbinations = Object.values(potentialCombinations).reduce(
     (combinations, group) => {
       if (group.length <= 1) return combinations;

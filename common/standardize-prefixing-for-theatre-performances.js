@@ -1,4 +1,10 @@
-const metOperaprefixes = [
+const yearRangeMatcher = /(\d{2})\d{2}-(\d{2})/;
+const shortYearRangeMatcher = /\d{2}-(\d{2})/;
+const yearSuffixMatcher = /\(\d{4}\)$/;
+const ownerMatcher = /:\s+[^\s]+['|’]s/;
+
+// Metropolitan Opera
+const metOperaPrefixes = [
   /Met Opera Encore:/i,
   /Met Opera Live:/i,
   /Met Opera Season/i,
@@ -6,47 +12,107 @@ const metOperaprefixes = [
   /The Met:/i,
   /The Metropolitan Opera:/i,
 ];
-const yearRangeMatcher = /(\d{2})\d{2}-(\d{2})/;
-const shortYearRangeMatcher = /\d{2}-(\d{2})/;
-const yearSuffixMatcher = /\(\d{4}\)$/;
-const ownerMatcher = /:\s+[^\s]+['|’]s/;
+
+function standardizePrefixingForMetropolitanOperaPerformances(title, options) {
+  title = title.replace(/\s+&\s+/, " and ").replace(/\s+-\s+/, ": ");
+
+  let updatedPrefixTitle = metOperaPrefixes.reduce(
+    (value, prefix) => value.replace(prefix, "The Metropolitan Opera: "),
+    title,
+  );
+
+  updatedPrefixTitle = updatedPrefixTitle.replace(ownerMatcher, ":");
+
+  const yearRangeMatch = updatedPrefixTitle.match(yearRangeMatcher);
+  if (yearRangeMatch) {
+    updatedPrefixTitle = `${updatedPrefixTitle.replace(yearRangeMatcher, "")} (${yearRangeMatch[1]}${yearRangeMatch[2]})`;
+  }
+
+  const shortYearRangeMatch = updatedPrefixTitle.match(shortYearRangeMatcher);
+  if (shortYearRangeMatch) {
+    updatedPrefixTitle = `${updatedPrefixTitle.replace(shortYearRangeMatcher, "")} (20${shortYearRangeMatch[1]})`;
+  }
+
+  if (!options.retainYear) {
+    updatedPrefixTitle = updatedPrefixTitle.replace(yearSuffixMatcher, "");
+  }
+
+  return updatedPrefixTitle
+    .replace(/Live in HD/i, "")
+    .replace(/\s+:\s+/, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+// Royal Ballet and Opera
+const rboPrefixes = [
+  /RBO Encore:/i,
+  /RBO Live:/i,
+  /RBO[:|\s]/i,
+  /Royal Ballet and Opera:/i,
+  /Royal Ballet & Opera:/i,
+  /Royal Opera House:/i,
+  /The Royal Ballet:/i,
+  /The Royal Opera:/i,
+  /RB&O Live:/i,
+];
+
+function standardizePrefixingForRoyalBalletOperaPerformances(title, options) {
+  title = title
+    .replace(/Captured Live /i, "")
+    .replace(/Hoffman\s/i, "Hoffmann ")
+    .replace(/\s+&\s+/, " and ")
+    .replace(/\s+-\s+/, ": ");
+
+  let updatedPrefixTitle = rboPrefixes.reduce(
+    (value, prefix) => value.replace(prefix, "RB&O Live: "),
+    title,
+  );
+
+  updatedPrefixTitle = updatedPrefixTitle.replace(ownerMatcher, ":");
+
+  const yearRangeMatch = updatedPrefixTitle.match(yearRangeMatcher);
+  if (yearRangeMatch) {
+    updatedPrefixTitle = `${updatedPrefixTitle.replace(yearRangeMatcher, "")} (${yearRangeMatch[1]}${yearRangeMatch[2]})`;
+  }
+
+  if (!options.retainYear) {
+    updatedPrefixTitle = updatedPrefixTitle.replace(yearSuffixMatcher, "");
+  }
+
+  return updatedPrefixTitle
+    .replace(/\s+:\s+/, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+// ---
 
 function standardizePrefixingForTheatrePerformances(
   title,
   options = { retainYear: false },
 ) {
-  const lowercaseTitle = title.toLowerCase();
+  const lowercaseTitle = title.toLowerCase().trim();
+
   if (
     lowercaseTitle.startsWith("met opera") ||
     lowercaseTitle.startsWith("the met:") ||
     lowercaseTitle.startsWith("the metropolitan opera")
   ) {
-    let updatedPrefixTitle = metOperaprefixes.reduce(
-      (value, prefix) => value.replace(prefix, "The Metropolitan Opera: "),
-      title,
-    );
-
-    updatedPrefixTitle = updatedPrefixTitle.replace(ownerMatcher, ":");
-
-    const yearRangeMatch = updatedPrefixTitle.match(yearRangeMatcher);
-    if (yearRangeMatch) {
-      updatedPrefixTitle = `${updatedPrefixTitle.replace(yearRangeMatcher, "")} (${yearRangeMatch[1]}${yearRangeMatch[2]})`;
-    }
-
-    const shortYearRangeMatch = updatedPrefixTitle.match(shortYearRangeMatcher);
-    if (shortYearRangeMatch) {
-      updatedPrefixTitle = `${updatedPrefixTitle.replace(shortYearRangeMatcher, "")} (20${shortYearRangeMatch[1]})`;
-    }
-
-    if (!options.retainYear) {
-      updatedPrefixTitle = updatedPrefixTitle.replace(yearSuffixMatcher, "");
-    }
-    return updatedPrefixTitle
-      .replace(/live in hd/i, "")
-      .replace(/\s+:\s+/, " ")
-      .replace(/\s+/g, " ")
-      .trim();
+    return standardizePrefixingForMetropolitanOperaPerformances(title, options);
   }
+
+  if (
+    lowercaseTitle.startsWith("rbo ") ||
+    lowercaseTitle.startsWith("rbo:") ||
+    lowercaseTitle.startsWith("royal opera") ||
+    lowercaseTitle.startsWith("royal ballet") ||
+    lowercaseTitle.startsWith("the royal opera") ||
+    lowercaseTitle.startsWith("the royal ballet")
+  ) {
+    return standardizePrefixingForRoyalBalletOperaPerformances(title, options);
+  }
+
   return title;
 }
 

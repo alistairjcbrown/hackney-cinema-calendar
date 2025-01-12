@@ -10,8 +10,8 @@ async function transform({ domain, url }, { result: movies }) {
 
     const overview = {
       categories: movie.genres || [],
-      directors: convertToList(movie.director),
-      actors: convertToList(movie.cast),
+      directors: convertToList(movie.director.replace(/\s+/g, " ")),
+      actors: convertToList(movie.cast.replace(/\s+/g, " ")),
       duration: movie.runningTime
         ? parseMinsToMs(movie.runningTime)
         : undefined,
