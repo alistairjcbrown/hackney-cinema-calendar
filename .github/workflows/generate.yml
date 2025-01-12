@@ -40,109 +40,42 @@ jobs:
           echo "currentDate=$(TZ=Europe/London date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
           echo "currentTime=$(TZ=Europe/London date +'%H:%M:%S')" >> "$GITHUB_OUTPUT"
 
-      # BFI runs need a full browser to not get caught in connection checks.
-      # The pages are slow to load and can often time out. With the scripts
-      # caching responses between runs, we can leverage this with a high number
-      # of retries.
+      # BFI (2)
+      # Needs a full browser to not get caught in connection checks. The pages
+      # are slow to load and can often time out. With heavy caching of responses
+      # between runs, we can leverage this with a high number of retries.
+
       - name: npm run generate bfi.org.uk-imax
         uses: nick-fields/retry@v3
         with:
-          timeout_minutes: 30
+          timeout_minutes: 20
           retry_wait_seconds: 30
           max_attempts: 10
           command: npm run generate bfi.org.uk-imax
+
       - name: npm run generate bfi.org.uk-southbank
         uses: nick-fields/retry@v3
         with:
-          timeout_minutes: 120
-          retry_wait_seconds: 60
-          max_attempts: 20
+          timeout_minutes: 60
+          retry_wait_seconds: 30
+          max_attempts: 10
           command: npm run generate bfi.org.uk-southbank
 
-      # Vue runs need a full browser to not get caught in connection checks.
-      - name: npm run generate myvue.com-finchley-road
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 10
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: npm run generate myvue.com-finchley-road
-      - name: npm run generate myvue.com-fulham-broadway
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 10
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: npm run generate myvue.com-fulham-broadway
-      - name: npm run generate myvue.com-islington
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 10
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: npm run generate myvue.com-islington
-      - name: npm run generate myvue.com-leicester-square
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 10
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: npm run generate myvue.com-leicester-square
-      - name: npm run generate myvue.com-north-finchley
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 10
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: npm run generate myvue.com-north-finchley
-      - name: npm run generate myvue.com-piccadilly
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 10
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: npm run generate myvue.com-piccadilly
-      - name: npm run generate myvue.com-shepherds-bush
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 10
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: npm run generate myvue.com-shepherds-bush
-      - name: npm run generate myvue.com-westfield
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 10
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: npm run generate myvue.com-westfield
-      - name: npm run generate myvue.com-westfield-stratford-city
-        uses: nick-fields/retry@v3
-        with:
-          timeout_minutes: 10
-          retry_wait_seconds: 30
-          max_attempts: 3
-          command: npm run generate myvue.com-westfield-stratford-city
+      # Cineworld (12)
+      - run: npm run generate cineworld.co.uk-bexleyheath
+      - run: npm run generate cineworld.co.uk-enfield
+      - run: npm run generate cineworld.co.uk-feltham
+      - run: npm run generate cineworld.co.uk-hounslow
+      - run: npm run generate cineworld.co.uk-ilford
+      - run: npm run generate cineworld.co.uk-leicester-square
+      - run: npm run generate cineworld.co.uk-south-ruislip
+      - run: npm run generate cineworld.co.uk-the-o2-greenwich
+      - run: npm run generate cineworld.co.uk-wandsworth
+      - run: npm run generate cineworld.co.uk-wembley
+      - run: npm run generate cineworld.co.uk-west-india-quay
+      - run: npm run generate cineworld.co.uk-wood-green
 
-      # All other cinema site runs use data which can be fetched
-      - run: npm run generate princecharlescinema.com
-      - run: npm run generate genesiscinema.co.uk
-      - run: npm run generate thecastlecinema.com
-
-      # Picturehouses
-      - run: npm run generate picturehouses.com-central
-      - run: npm run generate picturehouses.com-clapham
-      - run: npm run generate picturehouses.com-crouch-end
-      - run: npm run generate picturehouses.com-ealing
-      - run: npm run generate picturehouses.com-east-dulwich
-      - run: npm run generate picturehouses.com-greenwich
-      - run: npm run generate picturehouses.com-finsbury-park
-      - run: npm run generate picturehouses.com-hackney
-      - run: npm run generate picturehouses.com-the-gate
-      - run: npm run generate picturehouses.com-the-ritzy
-      - run: npm run generate picturehouses.com-west-norwood
-
-      # Curzon
+      # Curzon (9)
       - run: npm run generate curzon.com-aldgate
       - run: npm run generate curzon.com-bloomsbury
       - run: npm run generate curzon.com-camden
@@ -153,7 +86,11 @@ jobs:
       - run: npm run generate curzon.com-victoria
       - run: npm run generate curzon.com-wimbledon
 
-      # Everyman
+      # Electric Cinema (2)
+      - run: npm run generate electriccinema.co.uk-portobello
+      - run: npm run generate electriccinema.co.uk-white-city
+
+      # Everyman (14)
       - run: npm run generate everymancinema.com-baker-street
       - run: npm run generate everymancinema.com-barnet
       - run: npm run generate everymancinema.com-belsize-park
@@ -169,28 +106,60 @@ jobs:
       - run: npm run generate everymancinema.com-screen-on-the-green
       - run: npm run generate everymancinema.com-stratford-international
 
-      # Cineworld
-      - run: npm run generate cineworld.co.uk-bexleyheath
-      - run: npm run generate cineworld.co.uk-enfield
-      - run: npm run generate cineworld.co.uk-feltham
-      - run: npm run generate cineworld.co.uk-hounslow
-      - run: npm run generate cineworld.co.uk-ilford
-      - run: npm run generate cineworld.co.uk-leicester-square
-      - run: npm run generate cineworld.co.uk-south-ruislip
-      - run: npm run generate cineworld.co.uk-the-o2-greenwich
-      - run: npm run generate cineworld.co.uk-wandsworth
-      - run: npm run generate cineworld.co.uk-wembley
-      - run: npm run generate cineworld.co.uk-west-india-quay
-      - run: npm run generate cineworld.co.uk-wood-green
+      # Vue (9)
+      - run: npm run generate myvue.com-finchley-road
+      - run: npm run generate myvue.com-fulham-broadway
+      - run: npm run generate myvue.com-islington
+      - run: npm run generate myvue.com-leicester-square
+      - run: npm run generate myvue.com-north-finchley
+      - run: npm run generate myvue.com-piccadilly
+      - run: npm run generate myvue.com-shepherds-bush
+      - run: npm run generate myvue.com-westfield
+      - run: npm run generate myvue.com-westfield-stratford-city
 
-      # Indy Cinema Group
+      # ODEON (19)
+      - run: npm run generate odeon.co.uk-acton
+      - run: npm run generate odeon.co.uk-beckenham
+      - run: npm run generate odeon.co.uk-camden
+      - run: npm run generate odeon.co.uk-greenwich
+      - run: npm run generate odeon.co.uk-haymarket
+      - run: npm run generate odeon.co.uk-holloway
+      - run: npm run generate odeon.co.uk-islington
+      - run: npm run generate odeon.co.uk-kingston
+      - run: npm run generate odeon.co.uk-lee-valley
+      - run: npm run generate odeon.co.uk-leicester-square
+      - run: npm run generate odeon.co.uk-putney
+      - run: npm run generate odeon.co.uk-richmond
+      - run: npm run generate odeon.co.uk-south-woodford
+      - run: npm run generate odeon.co.uk-streatham
+      - run: npm run generate odeon.co.uk-swiss-cottage
+      - run: npm run generate odeon.co.uk-tottenham-court-road
+      - run: npm run generate odeon.co.uk-uxbridge
+      - run: npm run generate odeon.co.uk-west-end
+      - run: npm run generate odeon.co.uk-wimbledon
+
+      # Picturehouses (11)
+      - run: npm run generate picturehouses.com-central
+      - run: npm run generate picturehouses.com-clapham
+      - run: npm run generate picturehouses.com-crouch-end
+      - run: npm run generate picturehouses.com-ealing
+      - run: npm run generate picturehouses.com-east-dulwich
+      - run: npm run generate picturehouses.com-greenwich
+      - run: npm run generate picturehouses.com-finsbury-park
+      - run: npm run generate picturehouses.com-hackney
+      - run: npm run generate picturehouses.com-the-gate
+      - run: npm run generate picturehouses.com-the-ritzy
+      - run: npm run generate picturehouses.com-west-norwood
+
+      # Indy Cinema Group (3)
       - run: npm run generate riocinema.org.uk
       - run: npm run generate regentstreetcinema.com
       - run: npm run generate phoenixcinema.co.uk
 
-      # Electric Cinema
-      - run: npm run generate electriccinema.co.uk-portobello
-      - run: npm run generate electriccinema.co.uk-white-city
+      # Remaining cinemas (3)
+      - run: npm run generate princecharlescinema.com
+      - run: npm run generate genesiscinema.co.uk
+      - run: npm run generate thecastlecinema.com
 
       - name: Save any test failure artifacts
         if: failure()

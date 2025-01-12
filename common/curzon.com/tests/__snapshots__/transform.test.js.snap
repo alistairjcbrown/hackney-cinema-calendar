@@ -123,7 +123,7 @@ exports[`Curzon cinema (common) when movies with local screenings provided for A
       },
       {
         "bookingUrl": "https://www.curzon.com/ticketing/seats/ALD1-53869/",
-        "notes": "Captioned: Closed Captioned screening for Hard of Hearing",
+        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing",
         "screen": "Screen 1",
         "time": 1736607600000,
       },

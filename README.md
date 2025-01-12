@@ -246,19 +246,19 @@ Automatically generated calendar of events at:
     [everymancinema.com-borough-yards-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-borough-yards-calendar.ics)
     ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-borough-yards-calendar.ics))
 
-- Everyman Canary Wharf -
-  [🌐 Site](https://www.everymancinema.com/venues-list/x0vpb-everyman-canary-wharf/)
+- Everyman Broadgate -
+  [🌐 Site](https://www.everymancinema.com/venues-list/x11nt-everyman-broadgate/)
   &nbsp;|&nbsp;
-  [📍 Location](http://maps.google.com/maps?q=Everyman%20Canary%20Wharf+%4051.506196667696564,-0.01804259923495616)
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20Broadgate+%4051.51966442955747,-0.0846111324961203)
 
   - 📅&nbsp;
     [everymancinema.com-broadgate-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-broadgate-calendar.ics)
     ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-broadgate-calendar.ics))
 
-- Everyman Broadgate -
-  [🌐 Site](https://www.everymancinema.com/venues-list/x11nt-everyman-broadgate/)
+- Everyman Canary Wharf -
+  [🌐 Site](https://www.everymancinema.com/venues-list/x0vpb-everyman-canary-wharf/)
   &nbsp;|&nbsp;
-  [📍 Location](http://maps.google.com/maps?q=Everyman%20Broadgate+%4051.51966442955747,-0.0846111324961203)
+  [📍 Location](http://maps.google.com/maps?q=Everyman%20Canary%20Wharf+%4051.506196667696564,-0.01804259923495616)
 
   - 📅&nbsp;
     [everymancinema.com-canary-wharf-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-canary-wharf-calendar.ics)
@@ -414,6 +414,159 @@ Automatically generated calendar of events at:
   - 📅&nbsp;
     [myvue.com-westfield-stratford-city-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-westfield-stratford-city-calendar.ics)
     ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/myvue.com-westfield-stratford-city-calendar.ics))
+
+- ODEON Luxe Acton - [🌐 Site](https://www.odeon.co.uk/cinemas/acton)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Luxe%20Acton+%4051.52595189830721,-0.2812872732359816)
+
+  - 📅&nbsp;
+    [odeon.co.uk-acton-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-acton-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-acton-calendar.ics))
+
+- ODEON Beckenham - [🌐 Site](https://www.odeon.co.uk/cinemas/beckenham)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Beckenham+%4051.40716017510172,-0.031203472381438547)
+
+  - 📅&nbsp;
+    [odeon.co.uk-beckenham-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-beckenham-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-beckenham-calendar.ics))
+
+- ODEON Camden - [🌐 Site](https://www.odeon.co.uk/cinemas/camden) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Camden+%4051.53898358120131,-0.14352900207134897)
+
+  - 📅&nbsp;
+    [odeon.co.uk-camden-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-camden-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-camden-calendar.ics))
+
+- ODEON Greenwich - [🌐 Site](https://www.odeon.co.uk/cinemas/greenwich)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Greenwich+%4051.49074581697735,0.012738853746754953)
+
+  - 📅&nbsp;
+    [odeon.co.uk-greenwich-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-greenwich-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-greenwich-calendar.ics))
+
+- ODEON Luxe Haymarket -
+  [🌐 Site](https://www.odeon.co.uk/cinemas/london-haymarket) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Luxe%20Haymarket+%4051.50977762735127,-0.13114905789292086)
+
+  - 📅&nbsp;
+    [odeon.co.uk-haymarket-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-haymarket-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-haymarket-calendar.ics))
+
+- ODEON Luxe Holloway - [🌐 Site](https://www.odeon.co.uk/cinemas/holloway)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Luxe%20Holloway+%4051.55873663641544,-0.12135780021883036)
+
+  - 📅&nbsp;
+    [odeon.co.uk-holloway-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-holloway-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-holloway-calendar.ics))
+
+- ODEON Luxe & Dine Islington -
+  [🌐 Site](https://www.odeon.co.uk/cinemas/islington) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Luxe%20%26%20Dine%20Islington+%4051.538986888542766,-0.10360688672760725)
+
+  - 📅&nbsp;
+    [odeon.co.uk-islington-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-islington-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-islington-calendar.ics))
+
+- ODEON Kingston - [🌐 Site](https://www.odeon.co.uk/cinemas/kingston)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Kingston+%4051.41187198262875,-0.29925354440516305)
+
+  - 📅&nbsp;
+    [odeon.co.uk-kingston-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-kingston-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-kingston-calendar.ics))
+
+- ODEON Luxe Lee Valley - [🌐 Site](https://www.odeon.co.uk/cinemas/lee-valley)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Luxe%20Lee%20Valley+%4051.63330659541319,-0.037261659738988054)
+
+  - 📅&nbsp;
+    [odeon.co.uk-lee-valley-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-lee-valley-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-lee-valley-calendar.ics))
+
+- ODEON Luxe Leicester Square -
+  [🌐 Site](https://www.odeon.co.uk/cinemas/london-leicester-square)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Luxe%20Leicester%20Square+%4051.51053736313127,-0.12932277571696912)
+
+  - 📅&nbsp;
+    [odeon.co.uk-leicester-square-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-leicester-square-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-leicester-square-calendar.ics))
+
+- ODEON Luxe Putney - [🌐 Site](https://www.odeon.co.uk/cinemas/putney)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Luxe%20Putney+%4051.46537777035683,-0.2142494309105879)
+
+  - 📅&nbsp;
+    [odeon.co.uk-putney-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-putney-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-putney-calendar.ics))
+
+- ODEON Richmond - [🌐 Site](https://www.odeon.co.uk/cinemas/richmond)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Richmond+%4051.45849059120495,-0.3052322637154849)
+
+  - 📅&nbsp;
+    [odeon.co.uk-richmond-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-richmond-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-richmond-calendar.ics))
+
+- ODEON South Woodford -
+  [🌐 Site](https://www.odeon.co.uk/cinemas/south-woodford) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20South%20Woodford+%4051.59469466141251,0.02304015560304074)
+
+  - 📅&nbsp;
+    [odeon.co.uk-south-woodford-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-south-woodford-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-south-woodford-calendar.ics))
+
+- ODEON Streatham - [🌐 Site](https://www.odeon.co.uk/cinemas/streatham)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Streatham+%4051.432352857631685,-0.128545929060448)
+
+  - 📅&nbsp;
+    [odeon.co.uk-streatham-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-streatham-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-streatham-calendar.ics))
+
+- ODEON Luxe Swiss Cottage -
+  [🌐 Site](https://www.odeon.co.uk/cinemas/swiss-cottage) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Luxe%20Swiss%20Cottage+%4051.542663441957075,-0.17453571556332595)
+
+  - 📅&nbsp;
+    [odeon.co.uk-swiss-cottage-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-swiss-cottage-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-swiss-cottage-calendar.ics))
+
+- ODEON Tottenham Court Road -
+  [🌐 Site](https://www.odeon.co.uk/cinemas/london-tottenham-court-road)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Tottenham%20Court%20Road+%4051.51848609497034,-0.13240604440037115)
+
+  - 📅&nbsp;
+    [odeon.co.uk-tottenham-court-road-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-tottenham-court-road-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-tottenham-court-road-calendar.ics))
+
+- ODEON Luxe Uxbridge - [🌐 Site](https://www.odeon.co.uk/cinemas/uxbridge)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Luxe%20Uxbridge+%4051.54521947784089,-0.475636859742944)
+
+  - 📅&nbsp;
+    [odeon.co.uk-uxbridge-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-uxbridge-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-uxbridge-calendar.ics))
+
+- ODEON Luxe West End -
+  [🌐 Site](https://www.odeon.co.uk/cinemas/london-west-end) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Luxe%20West%20End+%4051.509968860027634,-0.13017680497804437)
+
+  - 📅&nbsp;
+    [odeon.co.uk-west-end-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-west-end-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-west-end-calendar.ics))
+
+- ODEON Wimbledon - [🌐 Site](https://www.odeon.co.uk/cinemas/wimbledon)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ODEON%20Wimbledon+%4051.41999060231851,-0.20482694440479335)
+
+  - 📅&nbsp;
+    [odeon.co.uk-wimbledon-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-wimbledon-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/odeon.co.uk-wimbledon-calendar.ics))
 
 - Phoenix Cinema - [🌐 Site](https://www.phoenixcinema.co.uk) &nbsp;|&nbsp;
   [📍 Location](http://maps.google.com/maps?q=Phoenix%20Cinema+%4051.58853061979289,-0.16390063689779108)
