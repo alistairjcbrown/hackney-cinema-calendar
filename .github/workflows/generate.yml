@@ -169,6 +169,20 @@ jobs:
       - run: npm run generate everymancinema.com-screen-on-the-green
       - run: npm run generate everymancinema.com-stratford-international
 
+      # Cineworld
+      - run: npm run generate cineworld.co.uk-bexleyheath
+      - run: npm run generate cineworld.co.uk-enfield
+      - run: npm run generate cineworld.co.uk-feltham
+      - run: npm run generate cineworld.co.uk-hounslow
+      - run: npm run generate cineworld.co.uk-ilford
+      - run: npm run generate cineworld.co.uk-leicester-square
+      - run: npm run generate cineworld.co.uk-south-ruislip
+      - run: npm run generate cineworld.co.uk-the-o2-greenwich
+      - run: npm run generate cineworld.co.uk-wandsworth
+      - run: npm run generate cineworld.co.uk-wembley
+      - run: npm run generate cineworld.co.uk-west-india-quay
+      - run: npm run generate cineworld.co.uk-wood-green
+
       # Indy Cinema Group
       - run: npm run generate riocinema.org.uk
       - run: npm run generate regentstreetcinema.com

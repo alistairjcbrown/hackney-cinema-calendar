@@ -4,7 +4,7 @@ const yearSuffixMatcher = /\(\d{4}\)$/;
 const ownerMatcher = /:\s+[^\s]+['|’]s/;
 
 // National Theatre
-const nationalTheatrePrefixes = [/NT Live:/i];
+const nationalTheatrePrefixes = [/NT Live[:|\s]/i];
 
 function standardizePrefixingForNationalTheatrePerformances(title, options) {
   title = title.replace(/\s+&\s+/, " and ").replace(/\s+-\s+/, ": ");
@@ -22,11 +22,12 @@ function standardizePrefixingForNationalTheatrePerformances(title, options) {
 
 // Metropolitan Opera
 const metOperaPrefixes = [
-  /Met Opera Encore:/i,
-  /Met Opera Live:/i,
-  /Met Opera Season/i,
+  /Met Opera Encore[:|\s]/i,
+  /Met Opera Live[:|\s]/i,
+  /Met Opera Season[:|\s]/i,
   /Met Opera:/i,
   /The Met:/i,
+  /The MET 2025:/i,
   /The Metropolitan Opera:/i,
 ];
 
@@ -63,21 +64,21 @@ function standardizePrefixingForMetropolitanOperaPerformances(title, options) {
 
 // Royal Ballet and Opera
 const rboPrefixes = [
-  /RBO Encore:/i,
-  /RBO Live:/i,
+  /RBO Encore[:|\s]/i,
+  /RBO Live[:|\s]/i,
   /RBO[:|\s]/i,
-  /Royal Ballet and Opera:/i,
-  /Royal Ballet & Opera:/i,
-  /Royal Opera House:/i,
-  /The Royal Ballet:/i,
-  /The Royal Opera:/i,
+  /Royal Ballet and Opera[:|\s]/i,
+  /Royal Ballet & Opera[:|\s]/i,
+  /Royal Opera House[:|\s]/i,
+  /The Royal Ballet[:|\s]/i,
+  /The Royal Opera[:|\s]/i,
   /RB&O Live:/i,
 ];
 
 function standardizePrefixingForRoyalBalletOperaPerformances(title, options) {
   title = title
     .replace(/Captured Live /i, "")
-    .replace(/Hoffman\s/i, "Hoffmann ")
+    .replace(/Hoffman(\s|$)/i, "Hoffmann$1")
     .replace(/\s+&\s+/, " and ")
     .replace(/\s+-\s+/, ": ");
 
@@ -117,6 +118,7 @@ function standardizePrefixingForTheatrePerformances(
 
   if (
     lowercaseTitle.startsWith("met opera") ||
+    lowercaseTitle.startsWith("the met ") ||
     lowercaseTitle.startsWith("the met:") ||
     lowercaseTitle.startsWith("the metropolitan opera")
   ) {

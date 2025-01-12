@@ -70,6 +70,7 @@ function normalizeTitle(title, options) {
     .replace(/:$/, "")
     .replace(/'|’/g, "")
     .replace(/\s+(-|–)(\s|$)/g, " ")
+    .replace(/:/g, "")
     .replace(/\s+/g, " ")
     .trim();
 }

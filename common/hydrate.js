@@ -16,6 +16,13 @@ const getMovieTitleAndYearFrom = (title) => {
   return { title };
 };
 
+function getManualMatch(titleQuery) {
+  if (titleQuery === "macbeth: david tennant & cush jumbo") {
+    return require("./manual-overrides/1368487.json");
+  }
+  return null;
+}
+
 function getBestMatch(titleQuery, rawResults) {
   const results = rawResults.filter(({ release_date: date }) => !!date);
 
@@ -53,7 +60,9 @@ async function hydrate(shows) {
         year: year || show.overview.year,
       });
 
-      const result = getBestMatch(normalizedTitle, search.results);
+      const result =
+        getBestMatch(normalizedTitle, search.results) ||
+        getManualMatch(normalizedTitle, show);
       if (!result) return show;
 
       if (!show.overview.duration) {

@@ -18,6 +18,113 @@ Automatically generated calendar of events at:
     [bfi.org.uk-southbank-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/bfi.org.uk-southbank-calendar.ics)
     ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/bfi.org.uk-southbank-calendar.ics))
 
+- Cineworld Bexleyheath -
+  [🌐 Site](https://www.cineworld.co.uk/cinemas/london-bexleyheath/027)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Cineworld%20Bexleyheath+%4051.45631788581106,0.14990942676089997)
+
+  - 📅&nbsp;
+    [cineworld.co.uk-bexleyheath-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-bexleyheath-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-bexleyheath-calendar.ics))
+
+- Cineworld Enfield -
+  [🌐 Site](https://www.cineworld.co.uk/cinemas/london-enfield/048)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Cineworld%20Enfield+%4051.65037791937242,-0.06085201555847656)
+
+  - 📅&nbsp;
+    [cineworld.co.uk-enfield-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-enfield-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-enfield-calendar.ics))
+
+- Cineworld Feltham -
+  [🌐 Site](https://www.cineworld.co.uk/cinemas/london-feltham/023)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Cineworld%20Feltham+%4051.443762523424645,-0.4047875383180283)
+
+  - 📅&nbsp;
+    [cineworld.co.uk-feltham-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-feltham-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-feltham-calendar.ics))
+
+- Cineworld Hounslow -
+  [🌐 Site](https://www.cineworld.co.uk/cinemas/london-hounslow/118)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Cineworld%20Hounslow+%4051.469831487446285,-0.3621082309104013)
+
+  - 📅&nbsp;
+    [cineworld.co.uk-hounslow-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-hounslow-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-hounslow-calendar.ics))
+
+- Cineworld Ilford -
+  [🌐 Site](https://www.cineworld.co.uk/cinemas/london-ilford/060) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Cineworld%20Ilford+%4051.55816488967811,0.07463076902848469)
+
+  - 📅&nbsp;
+    [cineworld.co.uk-ilford-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-ilford-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-ilford-calendar.ics))
+
+- Cineworld Leicester Square -
+  [🌐 Site](https://www.cineworld.co.uk/cinemas/london-leicester-square/103)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Cineworld%20Leicester%20Square+%4051.510957471585925,-0.1304760309735258)
+
+  - 📅&nbsp;
+    [cineworld.co.uk-leicester-square-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-leicester-square-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-leicester-square-calendar.ics))
+
+- Cineworld South Ruislip -
+  [🌐 Site](https://www.cineworld.co.uk/cinemas/london-south-ruislip/106)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Cineworld%20South%20Ruislip+%4051.55950343595646,-0.40034875795272346)
+
+  - 📅&nbsp;
+    [cineworld.co.uk-south-ruislip-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-south-ruislip-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-south-ruislip-calendar.ics))
+
+- Cineworld The O2 Greenwich -
+  [🌐 Site](https://www.cineworld.co.uk/cinemas/london-the-o2-greenwich/077)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Cineworld%20The%20O2%20Greenwich+%4051.503345974515135,0.004482326699068324)
+
+  - 📅&nbsp;
+    [cineworld.co.uk-the-o2-greenwich-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-the-o2-greenwich-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-the-o2-greenwich-calendar.ics))
+
+- Cineworld Wandsworth -
+  [🌐 Site](https://www.cineworld.co.uk/cinemas/london-wandsworth/066)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Cineworld%20Wandsworth+%4051.45409154047021,-0.19339668864883441)
+
+  - 📅&nbsp;
+    [cineworld.co.uk-wandsworth-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-wandsworth-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-wandsworth-calendar.ics))
+
+- Cineworld Wembley -
+  [🌐 Site](https://www.cineworld.co.uk/cinemas/london-wembley/082)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Cineworld%20Wembley+%4051.55675190612522,-0.28386748672677914)
+
+  - 📅&nbsp;
+    [cineworld.co.uk-wembley-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-wembley-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-wembley-calendar.ics))
+
+- Cineworld West India Quay -
+  [🌐 Site](https://www.cineworld.co.uk/cinemas/london-west-india-quay/041)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Cineworld%20West%20India%20Quay+%4051.507894267261314,-0.022363414797207246)
+
+  - 📅&nbsp;
+    [cineworld.co.uk-west-india-quay-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-west-india-quay-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-west-india-quay-calendar.ics))
+
+- Cineworld Wood Green -
+  [🌐 Site](https://www.cineworld.co.uk/cinemas/london-wood-green/046)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Cineworld%20Wood%20Green+%4051.594508397099744,-0.10764738857666808)
+
+  - 📅&nbsp;
+    [cineworld.co.uk-wood-green-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-wood-green-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/cineworld.co.uk-wood-green-calendar.ics))
+
 - Curzon Aldgate - [🌐 Site](https://www.curzon.com/venues/aldgate)
   &nbsp;|&nbsp;
   [📍 Location](http://maps.google.com/maps?q=Curzon%20Aldgate+%4051.51388963429393,-0.06902143582463525)

@@ -1,0 +1,65 @@
+{
+  "adult": false,
+  "backdrop_path": "/7TkY8XIqnt8C6XGpBAmzkEPUCwu.jpg",
+  "belongs_to_collection": null,
+  "budget": 0,
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 10752,
+      "name": "War"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    }
+  ],
+  "homepage": "https://macbethdonmarcinema.com/",
+  "id": 1368487,
+  "imdb_id": "tt34729082",
+  "origin_country": ["GB"],
+  "original_language": "en",
+  "original_title": "Macbeth",
+  "overview": "Three witches tell the Scottish general Macbeth that he will be King of Scotland. Encouraged by his wife, Macbeth kills the king, becomes the new king, and kills more people out of paranoia. Civil war erupts to overthrow Macbeth, resulting in more death.",
+  "popularity": 3.574,
+  "poster_path": "/xp7jhx06sSFlYsOGgZpowS2DEMI.jpg",
+  "production_companies": [
+    {
+      "id": 108306,
+      "logo_path": "/i2FJvIAHd9NYpFcSiHDY6RA3hTf.png",
+      "name": "The Donmar Warehouse",
+      "origin_country": "GB"
+    },
+    {
+      "id": 139109,
+      "logo_path": null,
+      "name": "Trafalgar Releasing",
+      "origin_country": ""
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "release_date": "2025-02-05",
+  "revenue": 0,
+  "runtime": 114,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Post Production",
+  "tagline": "",
+  "title": "Macbeth",
+  "video": false,
+  "vote_average": 0,
+  "vote_count": 0
+}
