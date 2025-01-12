@@ -3,6 +3,24 @@ const shortYearRangeMatcher = /\d{2}-(\d{2})/;
 const yearSuffixMatcher = /\(\d{4}\)$/;
 const ownerMatcher = /:\s+[^\s]+['|’]s/;
 
+// Les Miserables
+function standardizePrefixingForLesMiserablesPerformances(title, options) {
+  // Cineworld Enfield have done a bad job with the title of this listing.
+  // Replace it with what it should be.
+  if (title === "Les Miserables (40th Anniversary)") {
+    return "Les Misérables The Staged Concert";
+  }
+
+  // Remove the hyphen and "live" to compact the title into something that will
+  // normalize well for searching.
+  // E.g. "Les Misérables - The Staged Concert Live!"
+  // will become "Les Misérables The Staged Concert"
+  return title
+    .replace(/\s+-\s+/g, " ")
+    .replace(/\s+Live!?(\s|$)/, " ")
+    .trim();
+}
+
 // National Theatre
 const nationalTheatrePrefixes = [/NT Live[:|\s]/i];
 
@@ -111,6 +129,13 @@ function standardizePrefixingForTheatrePerformances(
   options = { retainYear: false },
 ) {
   const lowercaseTitle = title.toLowerCase().trim();
+
+  if (
+    lowercaseTitle.startsWith("les misérables") ||
+    lowercaseTitle.startsWith("les miserables")
+  ) {
+    return standardizePrefixingForLesMiserablesPerformances(title, options);
+  }
 
   if (lowercaseTitle.startsWith("nt live:")) {
     return standardizePrefixingForNationalTheatrePerformances(title, options);

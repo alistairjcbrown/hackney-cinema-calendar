@@ -27,6 +27,17 @@ const searchMovieAndCacheResults = ({
       getPayload({ primary_release_year: year }),
     );
 
+    // Check we haven't matched a "making of" documentary, and if we have search
+    // the previous year
+    if (
+      search.results.length === 1 &&
+      search.results[0].title.toLowerCase().startsWith("making")
+    ) {
+      search = await moviedb.searchMovie(
+        getPayload({ primary_release_year: year - 1 }),
+      );
+    }
+
     // If there's no matches, then try to find a movie with some release related
     // to that year
     if (search.results.length === 0) {
