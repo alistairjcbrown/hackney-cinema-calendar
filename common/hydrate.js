@@ -1,5 +1,6 @@
 const slugify = require("slugify");
 const { format } = require("date-fns");
+const diff = require("fast-diff");
 const { parseMinsToMs } = require("./utils");
 const normalizeTitle = require("./normalize-title");
 const {
@@ -7,20 +8,36 @@ const {
   getMovieInfoAndCacheResults,
 } = require("./get-movie-data");
 
+const compareAsSimilar = (firstString, secondString) => {
+  if (firstString === secondString) return true;
+
+  // Compare strings, calculating a score based on the number of characters that
+  // have changed. This following counts the number of characters changed
+  // (additions and deletions).
+  const lettersChanges = diff(firstString, secondString).reduce(
+    (count, [score, letters]) => (score === 0 ? count : count + letters.length),
+    0,
+  );
+  // The threshold of 2 below allows for 1 character to mismatch (a character
+  // deleted and then another added), or a difference of 2 characters in length.
+  return lettersChanges <= 2;
+};
+
 const normalizeName = (name) =>
   name
     .toLowerCase()
+    .replace(", jr.", "")
+    .replace("mehrotra jenkins", "mehrotra")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/[\s-]+/g, "")
     .replace(/\./g, "");
 
-const matchesExpectedCrew = async (match, show) => {
+const matchesExpectedCastCrew = async (match, show) => {
   const movieInfo = await getMovieInfoAndCacheResults(match);
   const crew = movieInfo.credits.crew.flatMap(({ name }) => [
     normalizeName(name),
     normalizeName(name.split(" ").reverse().join(" ")),
-    normalizeName(name).slice(0, -1),
   ]);
 
   // If there's no crew information to check against, let's assume it's a match
@@ -30,11 +47,23 @@ const matchesExpectedCrew = async (match, show) => {
   // Don't bother checking the Opera listings, they're usualy wrong
   if (directors.length && directors[0] === "themetropolitanopera") return true;
 
-  const directorMatches = crew.filter((member) => directors.includes(member));
+  const directorMatches = crew.filter((member) =>
+    directors.some((director) => compareAsSimilar(director, member)),
+  );
   if (directorMatches.length > 0) return true;
 
+  const cast = movieInfo.credits.cast.flatMap(({ name }) => [
+    normalizeName(name),
+    normalizeName(name.split(" ").reverse().join(" ")),
+  ]);
+
+  // If there's no cast information to check against, let's assume it's a match
+  if (cast.length === 0) return true;
+
   const actors = show.overview.actors.map((name) => normalizeName(name));
-  const actorMatches = crew.filter((member) => actors.includes(member));
+  const actorMatches = cast.filter((member) =>
+    actors.some((actor) => compareAsSimilar(actor, member)),
+  );
   if (actorMatches.length > 0) return true;
 
   return false;
@@ -67,8 +96,8 @@ async function getBestMatch(titleQuery, rawResults, show) {
     // If there's no crew information, pick this match
     if (!hasCrewForShow) return match;
     // If there's is crew information, use it to confirm the match
-    const hasCrewMatch = await matchesExpectedCrew(match, show);
-    return hasCrewMatch ? match : undefined;
+    const hasCastCrewMatch = await matchesExpectedCastCrew(match, show);
+    return hasCastCrewMatch ? match : undefined;
   }
 
   // If there's a few results, remove any which don't have a release date
@@ -96,8 +125,8 @@ async function getBestMatch(titleQuery, rawResults, show) {
   // use that information to help decide
   if (hasCrewForShow) {
     for (match of matches) {
-      const hasDirectorMatch = await matchesExpectedCrew(match, show);
-      if (hasDirectorMatch) return match;
+      const hasCastCrewMatch = await matchesExpectedCastCrew(match, show);
+      if (hasCastCrewMatch) return match;
     }
   }
 
