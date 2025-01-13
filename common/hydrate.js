@@ -90,46 +90,73 @@ async function getBestMatch(titleQuery, rawResults, show) {
   const hasCrewForShow =
     show.overview.directors.length > 0 || show.overview.actors.length > 0;
 
-  // If there's only one result, then use it
+  // If there's only one result ...
   if (rawResults.length === 1) {
-    const match = rawResults[0];
-    // If there's no crew information, pick this match
-    if (!hasCrewForShow) return match;
-    // If there's is crew information, use it to confirm the match
-    const hasCastCrewMatch = await matchesExpectedCastCrew(match, show);
-    return hasCastCrewMatch ? match : undefined;
+    const result = rawResults[0];
+    // ... and there's no crew info, pick the result
+    if (!hasCrewForShow) return result;
+    // ... and there's crew info, use it to match the result
+    const hasCastCrewMatch = await matchesExpectedCastCrew(result, show);
+    return hasCastCrewMatch ? result : undefined;
   }
 
-  // If there's a few results, remove any which don't have a release date
-  const results = rawResults.filter(({ release_date: date }) => !!date);
+  // As we have more than 1 result, filter these down by removing any which
+  // don't have a release date (if it's in the cinema, it should have a release
+  // date available).
+  const resultsWithReleaseDate = rawResults.filter(
+    ({ release_date: date }) => !!date,
+  );
 
-  // If there's only a few results returned, then pick the first
-  if (results.length <= 3) return results[0];
+  // If there's only a few results remaining ...
+  if (resultsWithReleaseDate.length <= 3) {
+    // ... and there's no crew info, pick the first as the most likely
+    if (!hasCrewForShow) return resultsWithReleaseDate[0];
+    // ... and there's crew info, use it to match a result ...
+    for (result of resultsWithReleaseDate) {
+      const hasCastCrewMatch = await matchesExpectedCastCrew(result, show);
+      if (hasCastCrewMatch) return result;
+    }
+    // ... or reject the results if we can't match against any of them
+    return undefined;
+  }
 
-  // If there's only one match that has the same title, then pick it
-  const matches = results.filter(
+  // As we still have more than 3 results, filter these down by removing any
+  // which don't have the same normalized title as our query (this will probbaly
+  // fail for foreign language films where the title may not match).
+  const resultsWithSameTitle = resultsWithReleaseDate.filter(
     ({ title, original_title: originalTitle }) =>
       normalizeTitle(title) === titleQuery ||
       normalizeTitle(originalTitle) === titleQuery,
   );
-  if (matches.length === 1) return matches[0];
 
-  // Otherwise if there's a bunch which match the title, pick the most popular
-  // so long as it's has a decent level of popularity.
-  const popularResults = matches
-    .filter(({ popularity }) => popularity > 15)
-    .sort((a, b) => b.popularity - a.popularity);
-  if (popularResults.length > 0) return popularResults[0];
+  // If there's only one result ...
+  if (resultsWithSameTitle.length === 1) {
+    const result = resultsWithSameTitle[0];
+    // ... and there's no crew info, pick the result
+    if (!hasCrewForShow) return result;
+    // ... and there's crew info, use it to match the result
+    const hasCastCrewMatch = await matchesExpectedCastCrew(result, show);
+    return hasCastCrewMatch ? result : undefined;
+  }
 
-  // If there's no one obvious match, and we have a crew information, then let's
-  // use that information to help decide
-  if (hasCrewForShow) {
-    for (match of matches) {
-      const hasCastCrewMatch = await matchesExpectedCastCrew(match, show);
-      if (hasCastCrewMatch) return match;
+  // As we still have more than 1 result ...
+  if (!hasCrewForShow) {
+    // If there's no crew info, pick the most popular so long as it's has a
+    // relatively high level of popularity.
+    const relativelyHighPopularity = 15;
+    const popularResults = resultsWithSameTitle
+      .filter(({ popularity }) => popularity > relativelyHighPopularity)
+      .sort((a, b) => b.popularity - a.popularity);
+    if (popularResults.length > 0) return popularResults[0];
+  } else {
+    // If there's crew info, use it to match the result
+    for (result of resultsWithSameTitle) {
+      const hasCastCrewMatch = await matchesExpectedCastCrew(result, show);
+      if (hasCastCrewMatch) return result;
     }
   }
 
+  // Reject the results if there are none that we can match confidently
   return undefined;
 }
 
