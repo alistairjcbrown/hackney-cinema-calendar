@@ -3,7 +3,7 @@ const path = require("node:path");
 const fs = require("node:fs");
 const crypto = require("node:crypto");
 const { compress, trimUndefinedRecursively } = require("compress-json");
-const getSites = require("../common/get-sites");
+const getModuleNamesFor = require("../common/get-module-names-for");
 const normalizeTitle = require("../common/normalize-title");
 const {
   getMovieInfoAndCacheResults,
@@ -52,7 +52,7 @@ const getYoutubeTrailer = ({ videos: { results } }) => {
 
 const getImddId = ({ external_ids: externalIds = {} }) => externalIds.imdb_id;
 
-const data = getSites().reduce((mapping, site) => {
+const data = getModuleNamesFor("cinemas").reduce((mapping, site) => {
   let attributes;
   let shows;
   try {

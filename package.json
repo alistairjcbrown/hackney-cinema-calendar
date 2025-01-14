@@ -7,6 +7,7 @@
   "scripts": {
     "test": "jest",
     "format": "prettier \"./**/*.js(on)?\" --write && prettier \"./**/*.ts(x)?\" --write && prettier \"./**/*.md\" --write --prose-wrap=always",
+    "retrieve:sources": "TZ=Europe/London node sources.js",
     "generate": "TZ=Europe/London node index.js",
     "output:highlight-hydration-misses-for-review": "node ./scripts/highlight-hydration-misses-for-review.js",
     "clear:cache": "rm -rf ./cache && git checkout ./cache",

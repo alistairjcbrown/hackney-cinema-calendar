@@ -53,7 +53,7 @@ async function getAdditionalDataFor(pageUrls) {
   );
 }
 
-async function transform(data) {
+async function transform(data, sourcedEvents) {
   const $ = cheerio.load(data);
   const timelineEntries = $("#slim-tiles").children();
 
@@ -136,7 +136,10 @@ async function transform(data) {
     });
   });
 
-  return Object.values(movies);
+  const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
+    (events) => events,
+  );
+  return Object.values(movies).concat(listOfSourcedEvents);
 }
 
 module.exports = transform;

@@ -1,11 +1,11 @@
 const path = require("node:path");
 const fs = require("node:fs");
 
-function getSites() {
-  const srcpath = path.join(".", "cinemas");
+function getModuleNamesFor(directory) {
+  const srcpath = path.join(".", directory);
   return fs
     .readdirSync(srcpath)
     .filter((file) => fs.statSync(path.join(srcpath, file)).isDirectory());
 }
 
-module.exports = getSites;
+module.exports = getModuleNamesFor;

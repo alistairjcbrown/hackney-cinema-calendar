@@ -4,7 +4,12 @@ const {
   parseMinsToMs,
 } = require("../../common/utils");
 
-async function transform({ domain }, showtimeDays, { getBookingUrl }) {
+async function transform(
+  { domain },
+  showtimeDays,
+  { getBookingUrl },
+  sourcedEvents,
+) {
   const movies = showtimeDays.reduce(
     (
       mapping,
@@ -94,10 +99,16 @@ async function transform({ domain }, showtimeDays, { getBookingUrl }) {
     },
   );
 
-  return Object.values(movies).map((movie) => ({
-    ...movie,
-    performances: filterHistoricalPerformances(movie.performances),
-  }));
+  const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
+    (events) => events,
+  );
+
+  return Object.values(movies)
+    .map((movie) => ({
+      ...movie,
+      performances: filterHistoricalPerformances(movie.performances),
+    }))
+    .concat(listOfSourcedEvents);
 }
 
 module.exports = transform;

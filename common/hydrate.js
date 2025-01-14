@@ -3,6 +3,7 @@ const { format } = require("date-fns");
 const diff = require("fast-diff");
 const { parseMinsToMs } = require("./utils");
 const normalizeTitle = require("./normalize-title");
+const normalizeName = require("./normalize-name");
 const {
   searchMovieAndCacheResults,
   getMovieInfoAndCacheResults,
@@ -22,16 +23,6 @@ const compareAsSimilar = (firstString, secondString) => {
   // deleted and then another added), or a difference of 2 characters in length.
   return lettersChanges <= 2;
 };
-
-const normalizeName = (name) =>
-  name
-    .toLowerCase()
-    .replace(", jr.", "")
-    .replace("mehrotra jenkins", "mehrotra")
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[\s-]+/g, "")
-    .replace(/\./g, "");
 
 const matchesExpectedCastCrew = async (match, show) => {
   const movieInfo = await getMovieInfoAndCacheResults(match);

@@ -1,8 +1,8 @@
-const getSites = require("../common/get-sites");
+const getModuleNamesFor = require("../common/get-module-names-for");
 
 const repo = "alistairjcbrown/hackney-cinema-calendar";
 
-const locations = getSites().map((site) => ({
+const locations = getModuleNamesFor("cinemas").map((site) => ({
   site,
   ...require(`../cinemas/${site}/attributes`),
 }));
@@ -14,7 +14,7 @@ const locationUrls = locations.map(({ name, url, site, geo: { lat, lon } }) => {
   // Note: calendar URL must use http and not https
   const googleCalendarLink = `[Google Calendar](https://calendar.google.com/calendar/render?cid=http://${calendarUri})`;
 
-  return `${name} - 
+  return `${name} -
   [🌐 Site](${url})
   &nbsp;|&nbsp;
   [📍 Location](${mapUrl})

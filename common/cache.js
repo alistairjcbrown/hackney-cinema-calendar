@@ -65,10 +65,17 @@ function dailyCache(key, retrieve) {
   return cache(key, retrieve, getPathDaily);
 }
 
+function readDailyCache(key) {
+  if (checkCache(key, getPathDaily)) {
+    return readCache(key, getPathDaily);
+  }
+}
+
 module.exports = {
   clearCacheStats,
   getCacheStats,
   getCachePath,
   cache,
   dailyCache,
+  readDailyCache,
 };

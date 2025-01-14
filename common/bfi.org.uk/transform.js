@@ -65,7 +65,7 @@ async function getPerformancesFor(pageUrl, { performances }) {
   return showPerformances;
 }
 
-async function transform({ url }, showData) {
+async function transform({ url }, showData, sourcedEvents) {
   const shows = [];
 
   for (showPath in showData) {
@@ -79,7 +79,10 @@ async function transform({ url }, showData) {
     });
   }
 
-  return shows;
+  const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
+    (events) => events,
+  );
+  return shows.concat(listOfSourcedEvents);
 }
 
 module.exports = transform;

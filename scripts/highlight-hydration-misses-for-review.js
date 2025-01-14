@@ -1,5 +1,5 @@
 const path = require("node:path");
-const getSites = require("../common/get-sites");
+const getModuleNamesFor = require("../common/get-module-names-for");
 const normalizeTitle = require("../common/normalize-title");
 
 const termsExpectedToNotMatch = [
@@ -78,7 +78,7 @@ const expectedMatch = ({ title }) => {
   return true;
 };
 
-const data = getSites().reduce((mapping, site) => {
+const data = getModuleNamesFor("cinemas").reduce((mapping, site) => {
   let shows;
   try {
     shows = require(path.join(__dirname, "..", "output", `${site}-shows.json`));

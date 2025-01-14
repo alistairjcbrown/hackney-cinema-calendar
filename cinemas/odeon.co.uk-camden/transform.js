@@ -1,8 +1,8 @@
 const attributes = require("./attributes");
-const curzonTransform = require("../../common/odeon.co.uk/transform");
+const odeonTransform = require("../../common/odeon.co.uk/transform");
 
-async function transform(data) {
-  return curzonTransform(attributes, data);
+async function transform(data, sourcedEvents) {
+  return odeonTransform(attributes, data, sourcedEvents);
 }
 
 module.exports = transform;

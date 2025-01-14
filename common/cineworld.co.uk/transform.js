@@ -20,7 +20,7 @@ const getCategories = (attributeIds) => {
   return categories;
 };
 
-async function transform(venue, data) {
+async function transform(venue, data, sourcedEvents) {
   const movies = {};
   let events = [];
 
@@ -78,7 +78,10 @@ async function transform(venue, data) {
     });
   });
 
-  return Object.values(movies);
+  const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
+    (events) => events,
+  );
+  return Object.values(movies).concat(listOfSourcedEvents);
 }
 
 module.exports = transform;

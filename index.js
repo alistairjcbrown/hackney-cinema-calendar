@@ -2,7 +2,7 @@ const { writeFileSync } = require("fs");
 const Ajv = require("ajv");
 const addFormats = require("ajv-formats");
 const ics = require("ics");
-const getSites = require("./common/get-sites");
+const getModuleNamesFor = require("./common/get-module-names-for");
 const {
   dailyCache,
   getCacheStats,
@@ -28,11 +28,8 @@ const getDuration = (show) => {
 };
 
 async function generateCalendar(cinema) {
-  const {
-    retrieve,
-    transform,
-    attributes: { url, name, address, geo },
-  } = require(`./cinemas/${cinema}`);
+  const { retrieve, transform, attributes } = require(`./cinemas/${cinema}`);
+  const { url, name, address, geo } = attributes;
   clearCacheStats();
 
   console.log(`[🎞️  Cinema: ${cinema}]`);
@@ -47,10 +44,17 @@ async function generateCalendar(cinema) {
     throw e;
   }
 
+  const sources = getModuleNamesFor("sources");
+  const sourcedEvents = {};
+  for (source of sources) {
+    const { findEvents } = require(`./sources/${source}`);
+    sourcedEvents[source] = await findEvents(attributes);
+  }
+
   process.stdout.write(` - Transforming data ...   `);
   let shows;
   try {
-    shows = await transform(data);
+    shows = await transform(data, sourcedEvents);
     console.log(`\t✅ Transformed`);
   } catch (e) {
     console.log(`\t❌ Error transforming`);
@@ -138,21 +142,23 @@ async function generateCalendar(cinema) {
 
 (async function () {
   const parameter = process.argv[2];
-  const sites = getSites();
+  const cinemas = getModuleNamesFor("cinemas");
 
   if (parameter === "all") {
-    for (site of sites) {
-      await generateCalendar(site);
+    for (cinema of cinemas) {
+      await generateCalendar(cinema);
       console.log("\n---\n");
     }
   } else if (parameter === "fast") {
-    for (site of sites.filter((site) => !site.startsWith("bfi.org.uk"))) {
-      await generateCalendar(site);
+    for (cinema of cinemas.filter(
+      (cinema) => !cinema.startsWith("bfi.org.uk"),
+    )) {
+      await generateCalendar(cinema);
       console.log("\n---\n");
     }
-  } else if (sites.includes(parameter)) {
+  } else if (cinemas.includes(parameter)) {
     await generateCalendar(parameter);
   } else {
-    throw new Error("❌ Invalid cinema site provided");
+    throw new Error("❌ Invalid cinema provided");
   }
 })();

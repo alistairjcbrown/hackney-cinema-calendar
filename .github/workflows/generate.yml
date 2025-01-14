@@ -40,6 +40,10 @@ jobs:
           echo "currentDate=$(TZ=Europe/London date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
           echo "currentTime=$(TZ=Europe/London date +'%H:%M:%S')" >> "$GITHUB_OUTPUT"
 
+      # Retrieve & cache data from other event sources, which can be used in the
+      # runs below, e.g. events on Eventbrite which are not on the venue site.
+      - run: npm run retrieve:sources
+
       # BFI (2)
       # Needs a full browser to not get caught in connection checks. The pages
       # are slow to load and can often time out. With heavy caching of responses

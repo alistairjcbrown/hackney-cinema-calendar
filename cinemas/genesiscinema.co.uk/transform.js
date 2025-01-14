@@ -69,7 +69,7 @@ async function getAdditionalDataFor(pageUrls) {
   );
 }
 
-async function transform(data) {
+async function transform(data, sourcedEvents) {
   const $ = cheerio.load(data);
   const $days = $(".whatson_panel");
 
@@ -175,9 +175,12 @@ async function transform(data) {
     });
   });
 
-  return Object.values(movies).filter(
-    ({ performances }) => performances.length !== 0,
+  const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
+    (events) => events,
   );
+  return Object.values(movies)
+    .filter(({ performances }) => performances.length !== 0)
+    .concat(listOfSourcedEvents);
 }
 
 module.exports = transform;

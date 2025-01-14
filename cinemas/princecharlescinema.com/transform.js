@@ -77,7 +77,7 @@ function parseMovieProperties($, $movieProperties) {
   return { schemaProperties, otherProperties };
 }
 
-async function transform(data) {
+async function transform(data, sourcedEvents) {
   const $ = cheerio.load(data);
   const $entries = $(".jacro-event");
 
@@ -156,7 +156,10 @@ async function transform(data) {
     });
   });
 
-  return movies;
+  const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
+    (events) => events,
+  );
+  return movies.concat(listOfSourcedEvents);
 }
 
 module.exports = transform;
