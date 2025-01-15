@@ -29,8 +29,8 @@ const matchesExpectedCastCrew = async (match, show) => {
     normalizeName(name.split(" ").reverse().join(" ")),
   ]);
 
-  // If there's no crew information to check against, let's assume it's a match
-  if (crew.length === 0) return true;
+  // If there's no crew information to check against, don't match
+  if (crew.length === 0) return false;
 
   const directors = show.overview.directors.map((name) => normalizeName(name));
   // Don't bother checking the Opera listings, they're usualy wrong
@@ -46,8 +46,8 @@ const matchesExpectedCastCrew = async (match, show) => {
     normalizeName(name.split(" ").reverse().join(" ")),
   ]);
 
-  // If there's no cast information to check against, let's assume it's a match
-  if (cast.length === 0) return true;
+  // If there's no cast information to check against, don't match
+  if (cast.length === 0) return false;
 
   const actors = show.overview.actors.map((name) => normalizeName(name));
   const actorMatches = cast.filter((member) =>

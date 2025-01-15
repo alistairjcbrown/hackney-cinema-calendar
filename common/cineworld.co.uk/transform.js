@@ -44,6 +44,9 @@ async function transform(venue, data, sourcedEvents) {
         overview.certificate = certificate;
       }
 
+      // Ignore placeholders for private screenings
+      if (film.name.toUpperCase() === "THEATRE LET") return;
+
       movies[film.id] = {
         title: film.name,
         url: film.link,
@@ -55,6 +58,9 @@ async function transform(venue, data, sourcedEvents) {
 
   events.forEach((event) => {
     const movie = movies[event.filmId];
+
+    // If the movie isn't available, then we've omitted it previously
+    if (!movie) return;
 
     let notes = "";
     if (event.soldOut) notes += "\nSold out";
