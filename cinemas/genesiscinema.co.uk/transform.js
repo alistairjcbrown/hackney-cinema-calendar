@@ -48,15 +48,6 @@ async function getAdditionalDataFor(pageUrls) {
               convertToList(hasActors[1]),
             );
           }
-
-          const hasDate = contents.match(/Release Date:\s+(.*)$/i);
-          if (hasDate) {
-            addiitionalData.year = hasDate[1].split("/")[2];
-            const thisYear = new Date().getFullYear();
-            if (parseInt(addiitionalData.year, 10) > thisYear) {
-              addiitionalData.year = `${thisYear}`;
-            }
-          }
         });
 
       return addiitionalData;
@@ -142,10 +133,16 @@ async function transform(data, sourcedEvents) {
         };
       }
 
-      const $performances = $titleInfo.parent().parent().find("a.perfButton");
+      const $performances = $titleInfo
+        .parent()
+        .parent()
+        .find("a.perfButton,span.perfButton");
       $performances.each(function () {
         $performance = $(this);
-        const $bookingButton = $performance.children().last();
+        const $bookingButton =
+          $performance.children().length > 0
+            ? $performance.children().last()
+            : $performance;
         const [hours, minutes] = $bookingButton.text().trim().split(":");
 
         let notes = "";
@@ -168,7 +165,7 @@ async function transform(data, sourcedEvents) {
               },
             ).getTime(),
             notes: notes.trim(),
-            bookingUrl: $performance.attr("href"),
+            bookingUrl: $performance.attr("href") || movies[id].url,
           },
         ]);
       });

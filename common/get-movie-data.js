@@ -29,31 +29,37 @@ const matchesExpectedCastCrew = async (match, show) => {
     normalizeName(name.split(" ").reverse().join(" ")),
   ]);
 
-  // If there's no crew information to check against, don't match
-  if (crew.length === 0) return false;
+  // Only attepmpt to match if there's crew information to check against
+  if (crew.length > 0) {
+    const directors = show.overview.directors.map((name) =>
+      normalizeName(name),
+    );
 
-  const directors = show.overview.directors.map((name) => normalizeName(name));
-  // Don't bother checking the Opera listings, they're usualy wrong
-  if (directors.length && directors[0] === "themetropolitanopera") return true;
+    // Don't bother checking the Opera listings, they're usualy wrong
+    if (directors.length && directors[0] === "themetropolitanopera") {
+      return true;
+    }
 
-  const directorMatches = crew.filter((member) =>
-    directors.some((director) => compareAsSimilar(director, member)),
-  );
-  if (directorMatches.length > 0) return true;
+    const directorMatches = crew.filter((member) =>
+      directors.some((director) => compareAsSimilar(director, member)),
+    );
+    if (directorMatches.length > 0) return true;
+  }
 
   const cast = movieInfo.credits.cast.flatMap(({ name }) => [
     normalizeName(name),
     normalizeName(name.split(" ").reverse().join(" ")),
   ]);
 
-  // If there's no cast information to check against, don't match
-  if (cast.length === 0) return false;
+  // Only attepmpt to match if there's cast information to check against
+  if (cast.length > 0) {
+    const actors = show.overview.actors.map((name) => normalizeName(name));
 
-  const actors = show.overview.actors.map((name) => normalizeName(name));
-  const actorMatches = cast.filter((member) =>
-    actors.some((actor) => compareAsSimilar(actor, member)),
-  );
-  if (actorMatches.length > 0) return true;
+    const actorMatches = cast.filter((member) =>
+      actors.some((actor) => compareAsSimilar(actor, member)),
+    );
+    if (actorMatches.length > 0) return true;
+  }
 
   return false;
 };

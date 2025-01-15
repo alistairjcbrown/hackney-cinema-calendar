@@ -57,10 +57,10 @@ async function transform({ domain, cinemaId }, { movies }, sourcedEvents) {
               time: date.getTime(),
               screen: showing.ScreenName.replace("Screen ", ""),
               notes: (showing.attributes || [])
-                .map(
-                  ({ attribute_full: title, description }) =>
-                    `${title}: ${description}`,
-                )
+                .map(({ attribute_full: title, description }) => {
+                  if (description) return `${title}: ${description}`;
+                  return title;
+                })
                 .join("\n"),
               bookingUrl: `https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=${cinemaId}&txtSessionId=${showing.SessionId}&visLang=1`,
             };

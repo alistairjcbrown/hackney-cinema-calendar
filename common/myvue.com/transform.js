@@ -4,6 +4,15 @@ const {
   convertToList,
 } = require("../../common/utils");
 
+const sanitize = (value) =>
+  value
+    .replaceAll("<br />", "\n")
+    .trim()
+    .replaceAll("&amp;", "&")
+    .replaceAll("&pound;", "£")
+    .replaceAll("&euro;", "€")
+    .replaceAll("&ndash;", "–");
+
 async function transform({ domain, url }, { result: movies }, sourcedEvents) {
   const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
     (events) => events,
@@ -43,7 +52,7 @@ async function transform({ domain, url }, { result: movies }, sourcedEvents) {
                       .reduce(
                         (notes, { shortName: title, description }) =>
                           title && description
-                            ? notes.concat(`${title}: ${description}`)
+                            ? notes.concat(`${title}: ${sanitize(description)}`)
                             : notes,
                         [],
                       )
