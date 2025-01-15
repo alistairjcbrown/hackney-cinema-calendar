@@ -16,14 +16,14 @@ describe("The Prince Charles Cinema", () => {
   describe("when no movies provided", () => {
     it("returns an empty list of events", async () => {
       const value = "";
-      expect(await transform(value)).toEqual([]);
+      expect(await transform(value, {})).toEqual([]);
     });
   });
 
   describe("when movies with local screenings provided", () => {
     it("returns a list of events", async () => {
       const value = moviesWithLocalScreenings;
-      expect(await transform(value)).toMatchSnapshot();
+      expect(await transform(value, {})).toMatchSnapshot();
     });
   });
 });

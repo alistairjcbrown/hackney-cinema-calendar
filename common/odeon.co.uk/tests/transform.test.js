@@ -14,14 +14,14 @@ describe("Odeon Cinema (common)", () => {
   describe("when no movies provided", () => {
     it("returns an empty list of events", async () => {
       const value = formatParameter([]);
-      expect(await transform(islington, value)).toEqual([]);
+      expect(await transform(islington, value, {})).toEqual([]);
     });
   });
 
   describe("when movies with local screenings provided for Islington", () => {
     it("returns a list of events", async () => {
       const value = formatParameter(moviesWithLocalScreenings);
-      expect(await transform(islington, value)).toMatchSnapshot();
+      expect(await transform(islington, value, {})).toMatchSnapshot();
     });
   });
 });

@@ -8,7 +8,13 @@ describe("BFI (common)", () => {
   describe("when no movies provided", () => {
     it("returns an empty list of events", async () => {
       const value = "";
-      expect(await transform(value)).toEqual([]);
+      expect(
+        await transform(
+          { url: "https://whatson.bfi.org.uk/Online/default.asp" },
+          value,
+          {},
+        ),
+      ).toEqual([]);
     });
   });
 
@@ -19,6 +25,7 @@ describe("BFI (common)", () => {
         await transform(
           { url: "https://whatson.bfi.org.uk/Online/default.asp" },
           value,
+          {},
         ),
       ).toMatchSnapshot();
     });
@@ -31,6 +38,7 @@ describe("BFI (common)", () => {
         await transform(
           { url: "https://whatson.bfi.org.uk/imax/Online/default.asp" },
           value,
+          {},
         ),
       ).toMatchSnapshot();
     });

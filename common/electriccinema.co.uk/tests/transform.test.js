@@ -13,6 +13,7 @@ describe("Electric Cinema (common)", () => {
         await transform(
           { cinemaId: "7497", domain: "https://www.electriccinema.co.uk" },
           value,
+          {},
         ),
       ).toEqual([]);
     });
@@ -25,6 +26,7 @@ describe("Electric Cinema (common)", () => {
         await transform(
           { cinemaId: "7497", domain: "https://www.electriccinema.co.uk" },
           value,
+          {},
         ),
       ).toMatchSnapshot();
     });
@@ -37,6 +39,7 @@ describe("Electric Cinema (common)", () => {
         await transform(
           { cinemaId: "55140", domain: "https://www.electriccinema.co.uk" },
           value,
+          {},
         ),
       ).toMatchSnapshot();
     });

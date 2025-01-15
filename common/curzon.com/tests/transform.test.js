@@ -13,14 +13,14 @@ describe("Curzon cinema (common)", () => {
   describe("when no movies provided", () => {
     it("returns an empty list of events", async () => {
       const value = formatParameter([]);
-      expect(await transform(aldgate, value)).toEqual([]);
+      expect(await transform(aldgate, value, {})).toEqual([]);
     });
   });
 
   describe("when movies with local screenings provided for Aldgate", () => {
     it("returns a list of events", async () => {
       const value = formatParameter(moviesWithLocalScreenings);
-      expect(await transform(aldgate, value)).toMatchSnapshot();
+      expect(await transform(aldgate, value, {})).toMatchSnapshot();
     });
   });
 });

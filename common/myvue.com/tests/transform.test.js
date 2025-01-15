@@ -13,14 +13,14 @@ describe("Vue Cinema (common)", () => {
   describe("when no movies provided", () => {
     it("returns an empty list of events", async () => {
       const value = formatParameter([]);
-      expect(await transform(westfieldStratford, value)).toEqual([]);
+      expect(await transform(westfieldStratford, value, {})).toEqual([]);
     });
   });
 
   describe("when movies with local screenings provided for Westfield Stratford", () => {
     it("returns a list of events", async () => {
       const value = formatParameter(moviesWithLocalScreenings);
-      expect(await transform(westfieldStratford, value)).toMatchSnapshot();
+      expect(await transform(westfieldStratford, value, {})).toMatchSnapshot();
     });
   });
 });

@@ -13,28 +13,28 @@ describe("Picturehouse Cinema (common)", () => {
   describe("when no movies provided", () => {
     it("returns an empty list of events", async () => {
       const value = formatParameter([]);
-      expect(await transform(hackney, value)).toEqual([]);
+      expect(await transform(hackney, value, {})).toEqual([]);
     });
   });
 
   describe("when movies with no local screenings provided", () => {
     it("returns an empty list of events", async () => {
       const value = formatParameter(moviesWithNoLocalScreenings);
-      expect(await transform(hackney, value)).toEqual([]);
+      expect(await transform(hackney, value, {})).toEqual([]);
     });
   });
 
   describe("when movies with local screenings provided for Hackney", () => {
     it("returns a list of events", async () => {
       const value = formatParameter(moviesWithLocalScreenings);
-      expect(await transform(hackney, value)).toMatchSnapshot();
+      expect(await transform(hackney, value, {})).toMatchSnapshot();
     });
   });
 
   describe("when movies with local screenings provided for Finsbury Park", () => {
     it("returns a list of events", async () => {
       const value = formatParameter(moviesWithLocalScreenings);
-      expect(await transform(finsburyPark, value)).toMatchSnapshot();
+      expect(await transform(finsburyPark, value, {})).toMatchSnapshot();
     });
   });
 });

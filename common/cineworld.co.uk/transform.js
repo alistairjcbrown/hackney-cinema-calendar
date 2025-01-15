@@ -1,4 +1,4 @@
-const { parseMinsToMs } = require("../../common/utils");
+const { parseMinsToMs, convertToList } = require("../../common/utils");
 
 const getCertificate = (attributeIds) => {
   if (attributeIds.includes("u")) return "U";
@@ -20,19 +20,21 @@ const getCategories = (attributeIds) => {
   return categories;
 };
 
-async function transform(venue, data, sourcedEvents) {
+async function transform(venue, { filmShowings, filmData }, sourcedEvents) {
   const movies = {};
   let events = [];
 
-  data.forEach((dayData) => {
+  filmShowings.forEach((dayData) => {
     events = events.concat(dayData.events);
 
     dayData.films.forEach((film) => {
+      const additionalData = filmData[film.id].filmDetails;
+
       const overview = {
         duration: film.length ? parseMinsToMs(film.length) : undefined,
         categories: getCategories(film.attributeIds),
-        directors: [],
-        actors: [],
+        directors: convertToList(additionalData.directors),
+        actors: convertToList(additionalData.cast),
       };
 
       if (film.videoLink) {

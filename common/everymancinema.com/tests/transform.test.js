@@ -18,14 +18,14 @@ describe("Everyman Cinema (common)", () => {
         movieData: [],
         attributeData: [],
       });
-      expect(await transform(bakerStreet, value)).toEqual([]);
+      expect(await transform(bakerStreet, value, {})).toEqual([]);
     });
   });
 
   describe("when movies with local screenings provided for Baker Street", () => {
     it("returns a list of events", async () => {
       const value = formatParameter(moviesWithLocalScreenings);
-      expect(await transform(bakerStreet, value)).toMatchSnapshot();
+      expect(await transform(bakerStreet, value, {})).toMatchSnapshot();
     });
   });
 });
