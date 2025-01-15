@@ -17,9 +17,9 @@ const compareAsSimilar = (firstString, secondString) => {
     (count, [score, letters]) => (score === 0 ? count : count + letters.length),
     0,
   );
-  // The threshold of 2 below allows for 1 character to mismatch (a character
-  // deleted and then another added), or a difference of 2 characters in length.
-  return lettersChanges <= 2;
+  // The threshold of 4 below allows for 2 characters to mismatch (a character
+  // deleted and then another added), or a difference of 4 characters in length.
+  return lettersChanges <= 4;
 };
 
 const matchesExpectedCastCrew = async (match, show) => {

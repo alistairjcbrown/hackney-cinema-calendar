@@ -69,6 +69,7 @@ function normalizeTitle(title, options) {
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/\s*:\s+/g, ": ")
     .trim()
+    .replace(/\s+and\s+/i, "")
     .replace(/:$/, "")
     .replace(/'|’|"/g, "")
     .replace(/\s+(-|–)(\s|$)/g, " ")
