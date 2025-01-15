@@ -6,7 +6,11 @@ const {
   parseMinsToMs,
 } = require("../../common/utils");
 
-async function transform({ domain, cinemaId }, { movies }, sourcedEvents) {
+async function transform(
+  { domain, cinemaId },
+  { movies, additionalData },
+  sourcedEvents,
+) {
   const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
     (events) => events,
   );
@@ -27,8 +31,8 @@ async function transform({ domain, cinemaId }, { movies }, sourcedEvents) {
 
       const overview = {
         categories: [],
-        directors: [],
-        actors: [],
+        directors: additionalData[movie.ScheduledFilmId]?.directors || [],
+        actors: additionalData[movie.ScheduledFilmId]?.actors || [],
         duration: parseMinsToMs(movie.RunTime),
       };
 

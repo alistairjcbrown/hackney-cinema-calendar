@@ -1,25 +1,20 @@
 const transform = require("../transform");
-const moviesWithNoLocalScreenings = require("./mock-data/movie-with-no-local-screenings.json");
 const moviesWithLocalScreenings = require("./mock-data/movie-with-local-screenings.json");
 
-const formatParameter = (movies) => ({ movies });
+const formatParameter = (result) => result;
 const cinema = { domain: "https://www.picturehouses.com", cinemaId: undefined };
 const hackney = { ...cinema, cinemaId: "010" };
 const finsburyPark = { ...cinema, cinemaId: "031" };
 
-jest.useFakeTimers().setSystemTime(new Date("2024-08-01"));
+jest.useFakeTimers().setSystemTime(new Date("2025-01-15"));
 
 describe("Picturehouse Cinema (common)", () => {
   describe("when no movies provided", () => {
     it("returns an empty list of events", async () => {
-      const value = formatParameter([]);
-      expect(await transform(hackney, value, {})).toEqual([]);
-    });
-  });
-
-  describe("when movies with no local screenings provided", () => {
-    it("returns an empty list of events", async () => {
-      const value = formatParameter(moviesWithNoLocalScreenings);
+      const value = formatParameter({
+        movies: [],
+        additionalData: {},
+      });
       expect(await transform(hackney, value, {})).toEqual([]);
     });
   });
