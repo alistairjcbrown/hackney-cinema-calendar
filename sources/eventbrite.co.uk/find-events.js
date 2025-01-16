@@ -63,8 +63,10 @@ async function findEvents(cinema) {
     }) => {
       if (isCancelled || isOnline) return false;
       const distance = distanceInKmBetweenCoordinates(cinema.geo, { lat, lon });
+      const [venueName] = name.split(",");
       return (
-        normalizeName(name) === normalizeName(cinema.name) && distance < 0.1
+        normalizeName(venueName) === normalizeName(cinema.name) &&
+        distance < 0.1
       );
     },
   );
