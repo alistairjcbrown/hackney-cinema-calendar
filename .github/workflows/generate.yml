@@ -44,7 +44,9 @@ jobs:
       # runs below, e.g. events on Eventbrite which are not on the venue site.
       - run: npm run retrieve:sources
 
+      # Smaller venues which use external event sources (2)
       - run: npm run generate beermerchantstap.com
+      - run: npm run generate freud.org.uk
 
       # BFI (2)
       # Needs a full browser to not get caught in connection checks. The pages
