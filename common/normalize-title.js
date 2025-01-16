@@ -24,6 +24,7 @@ function normalizeTitle(title, options) {
     "Sky Original -",
     "- Part ",
     "Bar Trash: Season Launch:",
+    "CELLULOID JAM! –",
   ];
 
   removablePrefixes.forEach((phrase) => {

@@ -1,7 +1,7 @@
 {
   "type": "array",
   "description": "Structure of common cinema calendar JSON data",
-  "minItems": 1,
+  "minItems": 0,
   "uniqueItems": true,
   "items": {
     "type": "object",
