@@ -163,6 +163,7 @@ jobs:
       - run: npm run generate riocinema.org.uk
       - run: npm run generate regentstreetcinema.com
       - run: npm run generate phoenixcinema.co.uk
+      - run: npm run generate actonecinema.co.uk
 
       # Remaining cinemas (3)
       - run: npm run generate princecharlescinema.com

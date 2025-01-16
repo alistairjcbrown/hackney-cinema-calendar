@@ -2,6 +2,21 @@
 
 Automatically generated calendar of events at:
 
+- ActOne Cinema - [🌐 Site](https://www.actonecinema.co.uk) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=ActOne%20Cinema+%4051.50659496972112,-0.2685726176017849)
+
+  - 📅&nbsp;
+    [actonecinema.co.uk-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/actonecinema.co.uk-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/actonecinema.co.uk-calendar.ics))
+
+- Beer Merchants Tap - [🌐 Site](https://beermerchantstap.com/events/)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Beer%20Merchants%20Tap+%4051.54464146295322,-0.02408037325831264)
+
+  - 📅&nbsp;
+    [beermerchantstap.com-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/beermerchantstap.com-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/beermerchantstap.com-calendar.ics))
+
 - BFI IMAX - [🌐 Site](https://whatson.bfi.org.uk/imax/Online/default.asp)
   &nbsp;|&nbsp;
   [📍 Location](http://maps.google.com/maps?q=BFI%20IMAX+%4051.50505250318286,-0.11364253090880974)
@@ -335,6 +350,14 @@ Automatically generated calendar of events at:
   - 📅&nbsp;
     [everymancinema.com-stratford-international-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-stratford-international-calendar.ics)
     ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/everymancinema.com-stratford-international-calendar.ics))
+
+- Freud Museum London -
+  [🌐 Site](https://www.freud.org.uk/events/category/events/) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Freud%20Museum%20London+%4051.54849449406559,-0.17746256161052631)
+
+  - 📅&nbsp;
+    [freud.org.uk-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/freud.org.uk-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/freud.org.uk-calendar.ics))
 
 - Genesis Cinema - [🌐 Site](https://www.genesiscinema.co.uk) &nbsp;|&nbsp;
   [📍 Location](http://maps.google.com/maps?q=Genesis%20Cinema+%4051.52128726645794,-0.051143457671891594)

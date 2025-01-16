@@ -84,6 +84,8 @@ function standardizePrefixingForMetropolitanOperaPerformances(title, options) {
 const rboPrefixes = [
   /RBO Encore[:|\s]/i,
   /RBO Live[:|\s]/i,
+  /Royal Opera Live[:|\s]/i,
+  /Royal Ballet Live[:|\s]/i,
   /RBO[:|\s]/i,
   /Royal Ballet and Opera[:|\s]/i,
   /Royal Ballet & Opera[:|\s]/i,
@@ -119,6 +121,7 @@ function standardizePrefixingForRoyalBalletOperaPerformances(title, options) {
   return updatedPrefixTitle
     .replace(/\s+:\s+/, " ")
     .replace(/\s+/g, " ")
+    .replace(/\s+and\s+/gi, " & ")
     .trim();
 }
 
