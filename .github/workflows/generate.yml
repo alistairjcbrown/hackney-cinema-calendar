@@ -165,10 +165,11 @@ jobs:
       - run: npm run generate phoenixcinema.co.uk
       - run: npm run generate actonecinema.co.uk
 
-      # Remaining cinemas (6)
+      # Remaining cinemas (7)
       - run: npm run generate barbican.org.uk
       - run: npm run generate thegardencinema.co.uk
       - run: npm run generate richmix.org.uk
+      - run: npm run generate thelexicinema.co.uk
       - run: npm run generate princecharlescinema.com
       - run: npm run generate genesiscinema.co.uk
       - run: npm run generate thecastlecinema.com

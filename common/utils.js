@@ -53,6 +53,15 @@ const parseMinsToMs = (value) => parseInt(value, 10) * 60 * 1000;
 const sanitize = (value) =>
   replaceSpecialCharacters(value.replace(/\s+/g, " "));
 
+const sanitizeRichText = (value) =>
+  value
+    .replaceAll("<br />", "\n")
+    .trim()
+    .replaceAll("&amp;", "&")
+    .replaceAll("&pound;", "£")
+    .replaceAll("&euro;", "€")
+    .replaceAll("&ndash;", "–");
+
 module.exports = {
   generateEventDescription,
   getEventDate,
@@ -61,4 +70,5 @@ module.exports = {
   splitConjoinedItemsInList,
   parseMinsToMs,
   sanitize,
+  sanitizeRichText,
 };

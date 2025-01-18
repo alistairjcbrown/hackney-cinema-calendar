@@ -12,6 +12,7 @@
     "output:highlight-hydration-misses-for-review": "node ./scripts/highlight-hydration-misses-for-review.js",
     "clear:cache": "rm -rf ./cache && git checkout ./cache",
     "clear:output": "rm -rf ./output && git checkout ./output",
+    "clear:all": "npm run clear:cache && npm run clear:output",
     "populate:output": "./scripts/get-latest-release-assets.sh",
     "generate:combined-data": "node ./scripts/generate-combined-data.js"
   },

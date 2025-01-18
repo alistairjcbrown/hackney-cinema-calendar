@@ -745,6 +745,14 @@ Automatically generated calendar of events at:
     [thegardencinema.co.uk-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/thegardencinema.co.uk-calendar.ics)
     ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/thegardencinema.co.uk-calendar.ics))
 
+- The Lexi Cinema -
+  [🌐 Site](https://thelexicinema.co.uk/TheLexiCinema.dll/WhatsOn) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=The%20Lexi%20Cinema+%4051.537776385097956,-0.22250680213596027)
+
+  - 📅&nbsp;
+    [thelexicinema.co.uk-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/thelexicinema.co.uk-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/thelexicinema.co.uk-calendar.ics))
+
 ## ⚙️ How to use
 
 The URLs above always points to the latest calendar data. Add them to your

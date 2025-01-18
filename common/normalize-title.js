@@ -83,6 +83,7 @@ function normalizeTitle(title, options) {
       // Mismatches between cinema listings and themoviedb
       .replace("vasthunnam", "vasthunam")
       .replace("eftihia", "eftyhia")
+      .replace("ernest", "earnest")
       .trim()
   );
 }
