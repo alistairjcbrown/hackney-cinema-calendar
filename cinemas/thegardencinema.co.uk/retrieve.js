@@ -2,10 +2,11 @@ const cheerio = require("cheerio");
 const attributes = require("./attributes");
 const { dailyCache } = require("../../common/cache");
 
+const cacheKeyPrefix = "thegardencinema.co.uk";
+
 async function retrieve() {
-  const movieListPage = await dailyCache(
-    "thegardencinema.co.uk-main",
-    async () => (await fetch(attributes.url)).text(),
+  const movieListPage = await dailyCache(`${cacheKeyPrefix}-main`, async () =>
+    (await fetch(attributes.url)).text(),
   );
 
   const $ = cheerio.load(movieListPage);
@@ -18,7 +19,7 @@ async function retrieve() {
     const [, urlSegment] = moviePageUrl.split("/film/");
     const slug = urlSegment.replace(/\//g, "");
     const moviePage = await dailyCache(
-      `thegardencinema.co.uk-info-${slug}`,
+      `${cacheKeyPrefix}-info-${slug}`,
       async () => (await fetch(moviePageUrl)).text(),
     );
     moviePages.push(moviePage);

@@ -717,6 +717,13 @@ Automatically generated calendar of events at:
     [regentstreetcinema.com-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/regentstreetcinema.com-calendar.ics)
     ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/regentstreetcinema.com-calendar.ics))
 
+- Rich Mix - [🌐 Site](https://richmix.org.uk/whats-on/cinema/) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=Rich%20Mix+%4051.52457570406875,-0.07315388679058897)
+
+  - 📅&nbsp;
+    [richmix.org.uk-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/richmix.org.uk-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/richmix.org.uk-calendar.ics))
+
 - Rio Cinema - [🌐 Site](https://www.riocinema.org.uk) &nbsp;|&nbsp;
   [📍 Location](http://maps.google.com/maps?q=Rio%20Cinema+%4051.54970097438604,-0.07550473771574956)
 
