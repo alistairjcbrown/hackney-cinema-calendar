@@ -67,21 +67,24 @@ function normalizeTitle(title, options) {
     title = title.replace(/\([^(]*\)$/, "").trim(); // Do it twice in case there's more paraenthesis
   }
 
-  return title
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/\s*:\s+/g, ": ")
-    .trim()
-    .replace(/\s+and\s+/gi, " ")
-    .replace(/\s+&\s+/gi, " ")
-    .replace(/:$/, "")
-    .replace(/'|’|"/g, "")
-    .replace(/\s+(-|–)(\s|$)/g, " ")
-    .replace(/:/g, "")
-    .replace(/\s+/g, " ")
-    // Mismatches between cinema listings and themoviedb
-    .replace("vasthunnam", "vasthunam")
-    .trim();
+  return (
+    title
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/\s*:\s+/g, ": ")
+      .trim()
+      .replace(/\s+and\s+/gi, " ")
+      .replace(/\s+&\s+/gi, " ")
+      .replace(/:$/, "")
+      .replace(/'|’|"/g, "")
+      .replace(/\s+(-|–)(\s|$)/g, " ")
+      .replace(/:/g, "")
+      .replace(/\s+/g, " ")
+      // Mismatches between cinema listings and themoviedb
+      .replace("vasthunnam", "vasthunam")
+      .replace("eftihia", "eftyhia")
+      .trim()
+  );
 }
 
 module.exports = normalizeTitle;

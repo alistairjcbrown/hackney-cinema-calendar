@@ -731,6 +731,13 @@ Automatically generated calendar of events at:
     [thecastlecinema.com-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/thecastlecinema.com-calendar.ics)
     ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/thecastlecinema.com-calendar.ics))
 
+- The Garden Cinema - [🌐 Site](https://www.thegardencinema.co.uk) &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=The%20Garden%20Cinema+%4051.51630878949358,-0.12132637330038583)
+
+  - 📅&nbsp;
+    [thegardencinema.co.uk-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/thegardencinema.co.uk-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/thegardencinema.co.uk-calendar.ics))
+
 ## ⚙️ How to use
 
 The URLs above always points to the latest calendar data. Add them to your
