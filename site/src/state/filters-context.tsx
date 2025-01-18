@@ -49,7 +49,8 @@ export const processingFunctions: Record<keyof Filters, any> = {
     fromUrl: (value: string) => value === "true",
   },
   filteredVenues: {
-    toUrl: (value: Filters["filteredVenues"]) => Object.keys(value).join(","),
+    toUrl: (value: Filters["filteredVenues"]) =>
+      Object.keys(value).sort().join(","),
     fromUrl: (value: string) =>
       value
         .split(",")
@@ -59,7 +60,8 @@ export const processingFunctions: Record<keyof Filters, any> = {
         ),
   },
   filteredGenres: {
-    toUrl: (value: Filters["filteredGenres"]) => Object.keys(value).join(","),
+    toUrl: (value: Filters["filteredGenres"]) =>
+      Object.keys(value).sort().join(","),
     fromUrl: (value: string) =>
       value
         .split(",")
@@ -80,6 +82,7 @@ const convertToFilterList = (
 
 const FiltersContext = createContext<{
   filters: Filters;
+  defaultFilters?: Filters;
   getYearRange: () => Filters["yearRange"];
   setFilters: Dispatch<SetStateAction<Filters>>;
 }>({
@@ -91,6 +94,7 @@ const FiltersContext = createContext<{
     filteredVenues: {},
     filteredGenres: {},
   },
+  defaultFilters: undefined,
   getYearRange: () => ({ min: Infinity, max: -Infinity }),
   setFilters: () => {},
 });
@@ -198,21 +202,29 @@ export function FiltersProvider({ children }: { children: ReactNode }) {
         const value = processingFunctions[property].toUrl(
           updatedFilters[property],
         );
-        if (value) {
+        const defaultValue = processingFunctions[property].toUrl(
+          defaultFilters[property],
+        );
+        if (value && value !== defaultValue) {
           params.set(property, value);
         } else {
           params.delete(property);
         }
       }
     });
-    router.replace(`${pathname}?${params.toString()}`);
+    router.replace(`${pathname}?${params.toString()}`, { scroll: false });
 
     return setFilters(value);
   };
 
   return (
     <FiltersContext.Provider
-      value={{ filters, getYearRange, setFilters: setFiltersAndUpdateUrl }}
+      value={{
+        filters,
+        defaultFilters,
+        getYearRange,
+        setFilters: setFiltersAndUpdateUrl,
+      }}
     >
       {children}
     </FiltersContext.Provider>

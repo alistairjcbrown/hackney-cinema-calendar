@@ -4,9 +4,11 @@ import { startOfDay, endOfDay, addDays } from "date-fns";
 
 export default function DateRange({
   value,
+  defaultValue,
   onChange,
 }: {
   value: DateRange;
+  defaultValue?: DateRange;
   onChange: (value: DateRange) => void;
 }) {
   return (
@@ -39,6 +41,9 @@ export default function DateRange({
           start: startOfDay(start).getTime(),
           end: endOfDay(end).getTime(),
         });
+      }}
+      onClean={() => {
+        if (defaultValue) onChange(defaultValue);
       }}
     />
   );

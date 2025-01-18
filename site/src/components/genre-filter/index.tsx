@@ -31,6 +31,15 @@ export default function GenreFilter({
           );
           onChange(filteredGenres);
         }}
+        onClean={() => {
+          const filteredGenres = data.reduce(
+            (filtered, { value }) => ({ ...filtered, [value]: true }),
+            {} as Record<string, boolean>,
+          );
+          // Horrible hack to let us control the change call for "clearing" the
+          // input. In this case, we want to reset it back to fully populated.
+          setTimeout(() => onChange(filteredGenres), 0);
+        }}
         renderExtraFooter={() => (
           <div style={{ borderTop: "1px solid #e5e5e5" }}>
             <Checkbox

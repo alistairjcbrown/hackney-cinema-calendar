@@ -24,7 +24,7 @@ import SiteGeneratedMessage from "@/components/site-generated-message";
 
 export default function Home() {
   const { data } = useCinemaData();
-  const { filters, setFilters, getYearRange } = useFilters();
+  const { filters, defaultFilters, setFilters, getYearRange } = useFilters();
 
   const {
     filteredVenues,
@@ -80,7 +80,11 @@ export default function Home() {
               </Stack.Item>
               <Divider vertical />
               <Stack.Item grow={1}>
-                <DateRangePicker value={dateRange} onChange={setDateRange} />
+                <DateRangePicker
+                  value={dateRange}
+                  defaultValue={defaultFilters?.dateRange}
+                  onChange={setDateRange}
+                />
               </Stack.Item>
               {yearRange.min > yearRange.max ? null : (
                 <>
