@@ -12,7 +12,7 @@ export default function VenueFilter({
   onChange: (values: Record<string, boolean>) => void;
 }) {
   const data = Object.values(venues)
-    .map(({ id, name }) => ({ value: id, label: name }))
+    .map(({ id, name }) => ({ value: id, label: name.replace(/^the\s+/i, "") }))
     .sort((a, b) => a.label.localeCompare(b.label));
 
   return (
