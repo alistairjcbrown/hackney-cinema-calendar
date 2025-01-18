@@ -25,6 +25,7 @@ function normalizeTitle(title, options) {
     "- Part ",
     "Bar Trash: Season Launch:",
     "CELLULOID JAM! –",
+    "Pierre Boulez - ",
   ];
 
   removablePrefixes.forEach((phrase) => {
@@ -72,6 +73,7 @@ function normalizeTitle(title, options) {
     .replace(/\s*:\s+/g, ": ")
     .trim()
     .replace(/\s+and\s+/gi, " ")
+    .replace(/\s+&\s+/gi, " ")
     .replace(/:$/, "")
     .replace(/'|’|"/g, "")
     .replace(/\s+(-|–)(\s|$)/g, " ")

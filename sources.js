@@ -13,8 +13,9 @@ async function retrieveSource(source) {
   process.stdout.write(` - Retriving data ...   `);
   let data;
   try {
+    const start = Date.now();
     data = await dailyCache(attributes.cacheKey, () => retrieve());
-    console.log(`\t✅ Retrieved`);
+    console.log(`\t✅ Retrieved (${Math.round((Date.now() - start) / 1000)}s)`);
   } catch (e) {
     console.log(`\t❌ Error retriving`);
     throw e;

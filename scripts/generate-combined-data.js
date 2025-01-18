@@ -104,12 +104,15 @@ const siteData = {
       let movieInfo;
       if (moviedb) {
         const outputTitle = title.slice(0, 35);
+        const start = Date.now();
         process.stdout.write(
           ` - Retriving data for ${outputTitle} ... ${"".padEnd(35 - outputTitle.length, " ")}`,
         );
         try {
           movieInfo = await getMovieInfoAndCacheResults(moviedb);
-          console.log(`\t✅ Retrieved`);
+          console.log(
+            `\t✅ Retrieved (${Math.round((Date.now() - start) / 1000)}s)`,
+          );
         } catch (e) {
           console.log(`\t❌ Error retriving`);
           throw e;

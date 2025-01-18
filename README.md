@@ -9,6 +9,14 @@ Automatically generated calendar of events at:
     [actonecinema.co.uk-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/actonecinema.co.uk-calendar.ics)
     ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/actonecinema.co.uk-calendar.ics))
 
+- The Barbican - [🌐 Site](https://www.barbican.org.uk/whats-on/cinema)
+  &nbsp;|&nbsp;
+  [📍 Location](http://maps.google.com/maps?q=The%20Barbican+%4051.52024395978229,-0.093786)
+
+  - 📅&nbsp;
+    [barbican.org.uk-calendar.ics](https://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/barbican.org.uk-calendar.ics)
+    ([Google Calendar](https://calendar.google.com/calendar/render?cid=http://github.com/alistairjcbrown/hackney-cinema-calendar/releases/latest/download/barbican.org.uk-calendar.ics))
+
 - Beer Merchants Tap - [🌐 Site](https://beermerchantstap.com/events/)
   &nbsp;|&nbsp;
   [📍 Location](http://maps.google.com/maps?q=Beer%20Merchants%20Tap+%4051.54464146295322,-0.02408037325831264)

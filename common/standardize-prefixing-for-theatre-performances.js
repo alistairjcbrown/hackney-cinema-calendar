@@ -114,6 +114,11 @@ function standardizePrefixingForRoyalBalletOperaPerformances(title, options) {
     updatedPrefixTitle = `${updatedPrefixTitle.replace(yearRangeMatcher, "")} (${yearRangeMatch[1]}${yearRangeMatch[2]})`;
   }
 
+  const shortYearRangeMatch = updatedPrefixTitle.match(shortYearRangeMatcher);
+  if (shortYearRangeMatch) {
+    updatedPrefixTitle = `${updatedPrefixTitle.replace(shortYearRangeMatcher, "")} (20${shortYearRangeMatch[1]})`;
+  }
+
   if (!options.retainYear) {
     updatedPrefixTitle = updatedPrefixTitle.replace(yearSuffixMatcher, "");
   }

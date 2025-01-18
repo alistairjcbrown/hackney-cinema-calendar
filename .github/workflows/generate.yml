@@ -159,13 +159,14 @@ jobs:
       - run: npm run generate picturehouses.com-the-ritzy
       - run: npm run generate picturehouses.com-west-norwood
 
-      # Indy Cinema Group (3)
+      # Indy Cinema Group (4)
       - run: npm run generate riocinema.org.uk
       - run: npm run generate regentstreetcinema.com
       - run: npm run generate phoenixcinema.co.uk
       - run: npm run generate actonecinema.co.uk
 
-      # Remaining cinemas (3)
+      # Remaining cinemas (4)
+      - run: npm run generate barbican.org.uk
       - run: npm run generate princecharlescinema.com
       - run: npm run generate genesiscinema.co.uk
       - run: npm run generate thecastlecinema.com

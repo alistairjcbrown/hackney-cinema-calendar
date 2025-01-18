@@ -37,8 +37,9 @@ async function generateCalendar(cinema) {
   process.stdout.write(` - Retriving data ...   `);
   let data;
   try {
+    const start = Date.now();
     data = await dailyCache(cinema, () => retrieve());
-    console.log(`\t✅ Retrieved`);
+    console.log(`\t✅ Retrieved (${Math.round((Date.now() - start) / 1000)}s)`);
   } catch (e) {
     console.log(`\t❌ Error retriving`);
     throw e;
@@ -54,8 +55,11 @@ async function generateCalendar(cinema) {
   process.stdout.write(` - Transforming data ...   `);
   let shows;
   try {
+    const start = Date.now();
     shows = await transform(data, sourcedEvents);
-    console.log(`\t✅ Transformed`);
+    console.log(
+      `\t✅ Transformed (${Math.round((Date.now() - start) / 1000)}s)`,
+    );
   } catch (e) {
     console.log(`\t❌ Error transforming`);
     throw e;
@@ -64,9 +68,12 @@ async function generateCalendar(cinema) {
   process.stdout.write(` - Hydrating movie data ...   `);
   let hydratedShows;
   try {
+    const start = Date.now();
     hydratedShows = await hydrate(shows);
     const hydrated = hydratedShows.filter(({ moviedb }) => !!moviedb).length;
-    console.log(`\t✅ Hydrated (${hydrated} of ${hydratedShows.length})`);
+    console.log(
+      `\t✅ Hydrated (${hydrated}/${hydratedShows.length} in ${Math.round((Date.now() - start) / 1000)}s)`,
+    );
   } catch (e) {
     console.log(`\t❌ Error hydrating`);
     throw e;

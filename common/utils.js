@@ -37,7 +37,7 @@ const filterHistoricalPerformances = (performances) => {
 
 const convertToList = (value) => {
   if (!value) return [];
-  return value.split(/,|\n|\||\//g).map((value) => value.trim());
+  return value.split(/,|\n|\||\/|&/g).map((value) => value.trim());
 };
 
 const splitConjoinedItemsInList = (list, joiner = " and ") => {
