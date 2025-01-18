@@ -74,6 +74,8 @@ const siteData = {
 };
 
 (async function () {
+  // Use the same slugify library as the site
+  const { default: slugify } = await import("@sindresorhus/slugify");
   const releaseResponse = await fetch(
     "https://api.github.com/repos/alistairjcbrown/hackney-cinema-calendar/releases/latest",
   );
@@ -131,10 +133,18 @@ const siteData = {
           actors.forEach((cast) => (siteData.people[cast.id] = cast));
           genres.forEach((genre) => (siteData.genres[genre.id] = genre));
 
+          // Make sure the title can be slugified for use in URLs. If it can't
+          // be we may be trying to use a title in non-roman letters. If so, we
+          // can't use it in the URL and it will be harder to search for, so
+          // let's try swapping to the original title value.
+          const title = slugify(movieInfo.title)
+            ? movieInfo.title
+            : movieInfo.original_title;
+
           siteData.movies[movieId] = {
             id: movieId,
-            title: movieInfo.title,
-            normalizedTitle: normalizeTitle(movieInfo.title),
+            title,
+            normalizedTitle: normalizeTitle(title),
             certification: getCertification(movieInfo),
             overview: movieInfo.overview,
             year: movieInfo.release_date.split("-")[0],
