@@ -79,6 +79,8 @@ function normalizeTitle(title, options) {
     .replace(/\s+(-|–)(\s|$)/g, " ")
     .replace(/:/g, "")
     .replace(/\s+/g, " ")
+    // Mismatches between cinema listings and themoviedb
+    .replace("vasthunnam", "vasthunam")
     .trim();
 }
 
