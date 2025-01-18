@@ -5,10 +5,11 @@ const { parseMinsToMs, convertToList } = require("../../common/utils");
 const { domain } = require("./attributes");
 
 async function transform({ movieList, moviePages }, sourcedEvents) {
-  const movies = movieList.map((movie) => {
+  const movies = movieList.reduce((moviesWithPerformances, movie) => {
     const performances = Object.values(movie.spektrix_data.instances).flatMap(
       (value) => value,
     );
+    if (performances.length === 0) return moviesWithPerformances;
 
     const $ = cheerio.load(moviePages[movie.id]);
 
@@ -33,40 +34,42 @@ async function transform({ movieList, moviePages }, sourcedEvents) {
     });
     const actors = convertToList($cast.text().trim());
 
-    return {
-      title: movie.post_title,
-      url: `${domain}/cinema/${movie.slug}/`,
-      overview: {
-        duration: parseMinsToMs(movie.spektrix_data.duration),
-        certification: movie.spektrix_data.rating,
-        categories: [],
-        directors,
-        actors,
+    return moviesWithPerformances.concat([
+      {
+        title: movie.post_title,
+        url: `${domain}/cinema/${movie.slug}/`,
+        overview: {
+          duration: parseMinsToMs(movie.spektrix_data.duration),
+          certification: movie.spektrix_data.rating,
+          categories: [],
+          directors,
+          actors,
+        },
+        performances: performances.map(({ start, status, iframeId }) => {
+          const date = parse(start, "yyyy-MM-dd HH:mm:ss", new Date(), {
+            locale: enGB,
+          });
+
+          let notes = `${status.available} of ${status.capacity} seats remaining`;
+          const isSoldOut = $(
+            `#dates-and-times a[href="/book-online/${iframeId}"]`,
+          ).hasClass("sold-out");
+          if (isSoldOut) notes += "\nSold out";
+
+          return {
+            time: date.getTime(),
+            notes,
+            bookingUrl: `${domain}/book-online/${iframeId}`,
+            screen: status.name
+              .toLowerCase()
+              .replace("screen", "")
+              .replace("(unreserved)", "")
+              .trim(),
+          };
+        }),
       },
-      performances: performances.map(({ start, status, iframeId }) => {
-        const date = parse(start, "yyyy-MM-dd HH:mm:ss", new Date(), {
-          locale: enGB,
-        });
-
-        let notes = `${status.available} of ${status.capacity} seats remaining`;
-        const isSoldOut = $(
-          `#dates-and-times a[href="/book-online/${iframeId}"]`,
-        ).hasClass("sold-out");
-        if (isSoldOut) notes += "\nSold out";
-
-        return {
-          time: date.getTime(),
-          notes,
-          bookingUrl: `${domain}/book-online/${iframeId}`,
-          screen: status.name
-            .toLowerCase()
-            .replace("screen", "")
-            .replace("(unreserved)", "")
-            .trim(),
-        };
-      }),
-    };
-  });
+    ]);
+  }, []);
 
   const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
     (events) => events,
