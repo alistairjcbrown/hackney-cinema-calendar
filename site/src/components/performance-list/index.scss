@@ -1,8 +1,14 @@
 .performance-list {
   .performance-details {
-    width: 350px;
+    max-width: 350px;
     height: 2.7rem;
     line-height: 2.2rem;
+    padding-left: 10px;
+  }
+
+  summary.performance-details {
+    cursor: pointer;
+    list-style-position: outside;
   }
 
   .peformance-booking-button {

@@ -1,3 +1,4 @@
+const yearMatcher = /(\d{4})/;
 const yearRangeMatcher = /(\d{2})\d{2}-(\d{2})/;
 const shortYearRangeMatcher = /\d{2}-(\d{2})/;
 const yearSuffixMatcher = /\(\d{4}\)$/;
@@ -84,6 +85,7 @@ function standardizePrefixingForMetropolitanOperaPerformances(title, options) {
 const rboPrefixes = [
   /RBO Encore[:|\s]/i,
   /RBO Live[:|\s]/i,
+  /ROH Royal Opera Live[:|\s]/i,
   /Royal Opera Live[:|\s]/i,
   /Royal Ballet Live[:|\s]/i,
   /RBO[:|\s]/i,
@@ -117,6 +119,11 @@ function standardizePrefixingForRoyalBalletOperaPerformances(title, options) {
   const shortYearRangeMatch = updatedPrefixTitle.match(shortYearRangeMatcher);
   if (shortYearRangeMatch) {
     updatedPrefixTitle = `${updatedPrefixTitle.replace(shortYearRangeMatcher, "")} (20${shortYearRangeMatch[1]})`;
+  }
+
+  const yearMatch = updatedPrefixTitle.match(yearMatcher);
+  if (yearMatch) {
+    updatedPrefixTitle = `${updatedPrefixTitle.replace(yearMatcher, "")} (${yearMatch[1]})`;
   }
 
   if (!options.retainYear) {
@@ -164,7 +171,8 @@ function standardizePrefixingForTheatrePerformances(
     lowercaseTitle.startsWith("royal opera") ||
     lowercaseTitle.startsWith("royal ballet") ||
     lowercaseTitle.startsWith("the royal opera") ||
-    lowercaseTitle.startsWith("the royal ballet")
+    lowercaseTitle.startsWith("the royal ballet") ||
+    lowercaseTitle.startsWith("roh royal opera")
   ) {
     return standardizePrefixingForRoyalBalletOperaPerformances(title, options);
   }
