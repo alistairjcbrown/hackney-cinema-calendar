@@ -1,4 +1,10 @@
-import type { MoviePerformance, Movie, Filters, CinemaData } from "@/types";
+import {
+  type MoviePerformance,
+  type Movie,
+  type Filters,
+  type CinemaData,
+} from "@/types";
+import getMovieCertification from "./get-movie-certification";
 
 const getMatchingMovies = (
   movies: CinemaData["movies"],
@@ -6,6 +12,8 @@ const getMatchingMovies = (
     searchTerm,
     dateRange,
     filteredVenues,
+    filteredMovies,
+    filteredCertifications,
     filteredGenres,
     yearRange,
     includeUnknownYears,
@@ -15,12 +23,20 @@ const getMatchingMovies = (
     .map((id) => movies[id])
     .sort((a, b) => a.normalizedTitle.localeCompare(b.normalizedTitle));
 
-  return sortedMovies.reduce((filteredMovies, movie) => {
+  return sortedMovies.reduce((matchingMovies, movie) => {
     if (
       searchTerm &&
       !movie.title.toLowerCase().includes(searchTerm.toLowerCase())
     ) {
-      return filteredMovies;
+      return matchingMovies;
+    }
+
+    if (!filteredMovies[movie.id]) {
+      return matchingMovies;
+    }
+
+    if (!filteredCertifications[getMovieCertification(movie)]) {
+      return matchingMovies;
     }
 
     if (
@@ -28,17 +44,17 @@ const getMatchingMovies = (
       movie.genres.length > 0 &&
       !movie.genres?.some((genre) => filteredGenres[genre])
     ) {
-      return filteredMovies;
+      return matchingMovies;
     }
 
     if (movie.year) {
       const year = parseInt(movie.year, 10);
       if (year > yearRange.max || year < yearRange.min) {
-        return filteredMovies;
+        return matchingMovies;
       }
     } else {
       if (!includeUnknownYears) {
-        return filteredMovies;
+        return matchingMovies;
       }
     }
 
@@ -59,10 +75,10 @@ const getMatchingMovies = (
       [] as MoviePerformance[],
     );
     if (performances.length > 0) {
-      filteredMovies.push({ ...movie, performances });
+      matchingMovies.push({ ...movie, performances });
     }
 
-    return filteredMovies;
+    return matchingMovies;
   }, [] as Movie[]);
 };
 

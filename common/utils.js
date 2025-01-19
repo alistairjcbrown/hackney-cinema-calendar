@@ -1,3 +1,4 @@
+const { decode } = require("html-entities");
 const { format, isAfter, startOfDay } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
 const replaceSpecialCharacters = require("replace-special-characters");
@@ -54,13 +55,7 @@ const sanitize = (value) =>
   replaceSpecialCharacters(value.replace(/\s+/g, " "));
 
 const sanitizeRichText = (value) =>
-  value
-    .replaceAll("<br />", "\n")
-    .trim()
-    .replaceAll("&amp;", "&")
-    .replaceAll("&pound;", "£")
-    .replaceAll("&euro;", "€")
-    .replaceAll("&ndash;", "–");
+  decode(value.replaceAll("<br />", "\n").trim());
 
 module.exports = {
   generateEventDescription,

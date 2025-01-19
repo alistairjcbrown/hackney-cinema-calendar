@@ -1,4 +1,4 @@
-import type { CinemaData, Filters } from "@/types";
+import { Certification, Movie, type CinemaData, type Filters } from "@/types";
 import type { Dispatch, ReactNode, SetStateAction } from "react";
 import {
   createContext,
@@ -10,6 +10,7 @@ import {
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { startOfDay, endOfDay, addYears } from "date-fns";
 import { useCinemaData } from "@/state/cinema-data-context";
+import getMovieCertification from "@/utils/get-movie-certification";
 
 function safelyJsonStringify<T>(value: T): string | undefined {
   try {
@@ -59,6 +60,28 @@ export const processingFunctions: Record<keyof Filters, any> = {
           {} as Record<string, boolean>,
         ),
   },
+  filteredMovies: {
+    toUrl: (value: Filters["filteredMovies"]) =>
+      Object.keys(value).sort().join(","),
+    fromUrl: (value: string) =>
+      value
+        .split(",")
+        .reduce(
+          (mapping, id) => ({ ...mapping, [id.trim()]: true }),
+          {} as Record<string, boolean>,
+        ),
+  },
+  filteredCertifications: {
+    toUrl: (value: Filters["filteredCertifications"]) =>
+      Object.keys(value).sort().join(","),
+    fromUrl: (value: string) =>
+      value
+        .split(",")
+        .reduce(
+          (mapping, id) => ({ ...mapping, [id.trim()]: true }),
+          {} as Record<string, boolean>,
+        ),
+  },
   filteredGenres: {
     toUrl: (value: Filters["filteredGenres"]) =>
       Object.keys(value).sort().join(","),
@@ -73,12 +96,22 @@ export const processingFunctions: Record<keyof Filters, any> = {
 };
 
 const convertToFilterList = (
-  data: CinemaData["genres"] | CinemaData["venues"],
+  data: CinemaData["genres"] | CinemaData["venues"] | CinemaData["movies"],
 ) =>
   Object.values(data).reduce(
     (mapped, { id }) => ({ ...mapped, [id]: true }),
     {} as Record<string, boolean>,
   );
+
+const getCertificationOptions = (movies: Record<string, Movie>) => {
+  return Object.values(movies).reduce(
+    (certifications, movie) => ({
+      ...certifications,
+      [getMovieCertification(movie)]: true,
+    }),
+    {} as Record<Certification, boolean>,
+  );
+};
 
 const FiltersContext = createContext<{
   filters: Filters;
@@ -92,6 +125,8 @@ const FiltersContext = createContext<{
     yearRange: { min: Infinity, max: -Infinity },
     includeUnknownYears: true,
     filteredVenues: {},
+    filteredMovies: {},
+    filteredCertifications: {} as Record<Certification, boolean>,
     filteredGenres: {},
   },
   defaultFilters: undefined,
@@ -127,6 +162,10 @@ export function FiltersProvider({ children }: { children: ReactNode }) {
 
   const defaultFilters = useMemo(() => {
     const filteredVenues = data?.venues ? convertToFilterList(data.venues) : {};
+    const filteredMovies = data?.movies ? convertToFilterList(data.movies) : {};
+    const filteredCertifications = data?.movies
+      ? getCertificationOptions(data.movies)
+      : ({} as Record<Certification, boolean>);
     const filteredGenres = data?.genres ? convertToFilterList(data.genres) : {};
     const yearRange = getYearRange();
     const dateRange = {
@@ -140,9 +179,11 @@ export function FiltersProvider({ children }: { children: ReactNode }) {
       yearRange,
       includeUnknownYears: true,
       filteredVenues,
+      filteredMovies,
+      filteredCertifications,
       filteredGenres,
     };
-  }, [data?.genres, data?.venues, getYearRange]);
+  }, [data?.genres, data?.venues, data?.movies, getYearRange]);
 
   const getUrlFilters = () => {
     const urlFilters = {} as Filters;
@@ -175,6 +216,20 @@ export function FiltersProvider({ children }: { children: ReactNode }) {
     if (filteredVenues) {
       urlFilters.filteredVenues =
         processingFunctions.filteredVenues.fromUrl(filteredVenues);
+    }
+
+    const filteredMovies = searchParams.get("filteredMovies");
+    if (filteredMovies) {
+      urlFilters.filteredMovies =
+        processingFunctions.filteredMovies.fromUrl(filteredMovies);
+    }
+
+    const filteredCertifications = searchParams.get("filteredCertifications");
+    if (filteredCertifications) {
+      urlFilters.filteredCertifications =
+        processingFunctions.filteredCertifications.fromUrl(
+          filteredCertifications,
+        );
     }
 
     const filteredGenres = searchParams.get("filteredGenres");

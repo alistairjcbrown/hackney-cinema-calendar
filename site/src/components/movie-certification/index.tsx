@@ -1,5 +1,5 @@
 import type { ComponentProps } from "react";
-import type { Movie } from "@/types";
+import type { Certification } from "@/types";
 import Image from "next/image";
 import bbfcU from "./images/BBFC_U_2019.svg";
 import bbfcPg from "./images/BBFC_PG_2019.svg";
@@ -17,11 +17,15 @@ const mapping: Record<string, ComponentProps<typeof Image>> = {
   "18": bbfc18,
 };
 
+interface CertificationImageProps
+  extends Partial<ComponentProps<typeof Image>> {
+  certification?: Certification;
+}
+
 export default function MovieCertification({
-  movie: { certification },
-}: {
-  movie: Movie;
-}) {
+  certification,
+  ...props
+}: CertificationImageProps) {
   if (!certification) return null;
   const imageDetails = mapping[certification.toLowerCase().trim()];
   if (imageDetails)
@@ -31,6 +35,7 @@ export default function MovieCertification({
         width={50}
         height={50}
         alt={certification}
+        {...props}
       />
     );
   return <span>[{certification}]</span>;

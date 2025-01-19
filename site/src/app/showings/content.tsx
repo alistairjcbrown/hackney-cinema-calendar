@@ -123,14 +123,14 @@ export default function ShowingsRedirectContent() {
   useEffect(() => {
     let pendingDateRange: Promise<DateRange | null> = Promise.resolve(null);
     dateRanges.some(({ matcher, generator }) => {
-      const isMatch = matcher(timeSegment, data);
+      const isMatch = timeSegment && matcher(timeSegment, data);
       if (isMatch) pendingDateRange = generator(timeSegment, data);
       return isMatch;
     });
 
     let pendingFilteredVanues: Promise<VenueFilter> = Promise.resolve(null);
     locations.some(({ matcher, generator }) => {
-      const isMatch = matcher(locationSegment, data);
+      const isMatch = locationSegment && matcher(locationSegment, data);
       if (isMatch) pendingFilteredVanues = generator(locationSegment, data);
       return isMatch;
     });
@@ -160,7 +160,7 @@ export default function ShowingsRedirectContent() {
     })();
 
     // eslint-disable-next-line react-hooks/exhaustive-deps -- Only run this once on mount, regardless if data changes
-  }, []);
+  }, [timeSegment, locationSegment]);
 
   return null;
 }

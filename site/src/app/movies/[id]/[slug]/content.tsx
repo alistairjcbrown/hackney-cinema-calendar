@@ -4,7 +4,6 @@ import { use, useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Container from "rsuite/cjs/Container";
 import Heading from "rsuite/cjs/Heading";
-import Footer from "rsuite/cjs/Footer";
 import Content from "rsuite/cjs/Content";
 import TagGroup from "rsuite/cjs/TagGroup";
 import Tag from "rsuite/cjs/Tag";
@@ -20,8 +19,6 @@ import getMatchingMovies from "@/utils/get-matching-movies";
 import MoviePoster from "@/components/movie-poster";
 import MovieCertification from "@/components/movie-certification";
 import PerformanceList from "@/components/performance-list";
-import SiteGeneratedMessage from "@/components/site-generated-message";
-import "./page.css";
 
 export default function MoviePageContent({
   params,
@@ -94,7 +91,9 @@ export default function MoviePageContent({
         <Container style={{ padding: "20px" }}>
           <Content>
             <Heading level={1}>
-              <MovieCertification movie={displayedMovie} />{" "}
+              <MovieCertification
+                certification={displayedMovie.certification}
+              />{" "}
               {displayedMovie.title}{" "}
               {displayedMovie.year ? `(${displayedMovie.year})` : null}
             </Heading>
@@ -252,11 +251,6 @@ export default function MoviePageContent({
           </Content>
         </Container>
       </Container>
-      <Footer>
-        <Footer>
-          <SiteGeneratedMessage generatedTime={data!.generatedAt} />
-        </Footer>
-      </Footer>
     </Container>
   );
 }

@@ -46,12 +46,31 @@ export type MoviePerformance = {
   screen?: string;
 };
 
+export enum Certification {
+  Universal = "U",
+  ParentalGuidance = "PG",
+  Suitablefor12years = "12",
+  Suitablefor12yearsAccompanied = "12A",
+  Suitablefor15years = "15",
+  Suitablefor18years = "18",
+  Unknown = "Unknown",
+}
+export const certificationOrder: Certification[] = [
+  Certification.Universal,
+  Certification.ParentalGuidance,
+  Certification.Suitablefor12years,
+  Certification.Suitablefor12yearsAccompanied,
+  Certification.Suitablefor15years,
+  Certification.Suitablefor18years,
+  Certification.Unknown,
+];
+
 export type Movie = {
   id: string;
   title: string;
   normalizedTitle: string;
   isUnmatched?: boolean;
-  certification?: string;
+  certification?: Certification;
   overview?: string;
   year?: string;
   duration?: number;
@@ -89,5 +108,7 @@ export type Filters = {
   yearRange: YearRange;
   includeUnknownYears: boolean;
   filteredVenues: Record<Venue["id"], boolean>;
+  filteredMovies: Record<Movie["id"], boolean>;
+  filteredCertifications: Record<Certification, boolean>;
   filteredGenres: Record<Genre["id"], boolean>;
 };
