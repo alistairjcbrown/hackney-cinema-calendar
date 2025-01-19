@@ -148,6 +148,7 @@ const siteData = {
             certification: getCertification(movieInfo),
             overview: movieInfo.overview,
             year: movieInfo.release_date.split("-")[0],
+            releaseDate: movieInfo.release_date,
             duration: parseMinsToMs(movieInfo.runtime),
             directors: directors.map(({ id }) => id),
             actors: actors.map(({ id }) => id),

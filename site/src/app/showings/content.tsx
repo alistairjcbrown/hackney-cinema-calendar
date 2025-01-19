@@ -1,10 +1,10 @@
 "use client";
 import { useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { addDays, endOfDay, startOfDay } from "date-fns";
 import distanceInKmBetweenCoordinates from "@/utils/distance-in-km-between-coordinates";
 import { useCinemaData } from "@/state/cinema-data-context";
-import { processingFunctions, useFilters } from "@/state/filters-context";
+import { useFilters } from "@/state/filters-context";
 import type { CinemaData, DateRange, Position } from "@/types";
 
 type VenueFilter = Record<string, boolean> | null;
@@ -111,10 +111,11 @@ const locations = [
 
 export default function ShowingsRedirectContent() {
   const router = useRouter();
+  const params = useSearchParams();
   const { filters, setFilters } = useFilters();
   const { data } = useCinemaData();
 
-  const query = window.location.hash.substring(1);
+  const query = Array.from(params.keys())[0];
   // #/today/near-me
   const [timeSegment, locationSegment] = query
     .split("/")
@@ -136,31 +137,19 @@ export default function ShowingsRedirectContent() {
     });
 
     (async function () {
-      const params = new URLSearchParams();
       const dateRange = await pendingDateRange;
       const filteredVenues = await pendingFilteredVanues;
 
-      if (dateRange) {
-        const dateRangeParam = processingFunctions.dateRange.toUrl(dateRange);
-        params.set("dateRange", dateRangeParam);
-      }
-
-      if (filteredVenues) {
-        const filterVenuesParam =
-          processingFunctions.filteredVenues.toUrl(filteredVenues);
-        params.set("filteredVenues", filterVenuesParam);
-      }
-
-      setFilters({
+      const params = setFilters({
         ...filters,
         ...(dateRange ? { dateRange } : {}),
         ...(filteredVenues ? { filteredVenues } : {}),
       });
-      router.push(`/?${params.toString()}`);
+      router.push(`/?${params}`);
     })();
 
     // eslint-disable-next-line react-hooks/exhaustive-deps -- Only run this once on mount, regardless if data changes
-  }, [timeSegment, locationSegment]);
+  }, []);
 
   return null;
 }

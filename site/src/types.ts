@@ -73,6 +73,7 @@ export type Movie = {
   certification?: Certification;
   overview?: string;
   year?: string;
+  releaseDate?: string;
   duration?: number;
   directors?: Person["id"][];
   actors?: Person["id"][];

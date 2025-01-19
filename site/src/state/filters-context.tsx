@@ -246,7 +246,7 @@ export function FiltersProvider({ children }: { children: ReactNode }) {
     ...getUrlFilters(),
   });
 
-  const setFiltersAndUpdateUrl = (value: SetStateAction<Filters>): void => {
+  const setFiltersAndUpdateUrl = (value: SetStateAction<Filters>): string => {
     const existingFilters = filters;
     const updatedFilters = value as Filters;
 
@@ -269,7 +269,8 @@ export function FiltersProvider({ children }: { children: ReactNode }) {
     });
     router.replace(`${pathname}?${params.toString()}`, { scroll: false });
 
-    return setFilters(value);
+    setFilters(value);
+    return params.toString();
   };
 
   return (

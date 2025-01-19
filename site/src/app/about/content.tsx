@@ -4,9 +4,11 @@ import {
   certificationOrder,
   type CinemaData,
   type Movie,
+  type Filters,
 } from "@/types";
-import { ReactNode } from "react";
+import { ComponentProps } from "react";
 import { formatDuration, intervalToDuration, parseISO } from "date-fns";
+import { useRouter } from "next/navigation";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
@@ -16,11 +18,20 @@ import Heading from "rsuite/cjs/Heading";
 import Stack from "rsuite/cjs/Stack";
 import Text from "rsuite/cjs/Text";
 import Divider from "rsuite/cjs/Divider";
+import { useFilters } from "@/state/filters-context";
 import AppHeading from "@/components/app-heading";
 import { useCinemaData } from "@/state/cinema-data-context";
 import getMovieCertification from "@/utils/get-movie-certification";
 import MovieCertification from "@/components/movie-certification";
 import logo from "./blue_long_1-8ba2ac31f354005783fab473602c34c3f4fd207150182061e425d366e4f34596.svg";
+import slugify from "@sindresorhus/slugify";
+import getMatchingMovies from "@/utils/get-matching-movies";
+
+const convertToMapping = (values: string[]) =>
+  values.reduce((mapping, value) => ({ ...mapping, [value]: true }), {});
+
+const getMoviePath = ({ id, title }: Movie) =>
+  `/movies/${id}/${slugify(title)}`;
 
 const getMoviesShowingAt = (venueId: string, movies: CinemaData["movies"]) => {
   return Object.values(movies)
@@ -42,7 +53,7 @@ const filterUnmatched = (matches: string[]) => (movies: CinemaData["movies"]) =>
         ),
     )
     .map(({ id }) => id);
-const getFestivalMovies = filterUnmatched([
+const getFestivalShowings = filterUnmatched([
   "LSFF",
   "LSSF",
   "Festival",
@@ -87,20 +98,53 @@ const getCertificationCounts = (movies: CinemaData["movies"]) =>
 const showNumber = (value: number) =>
   new Intl.NumberFormat("en-GB").format(value);
 
-const ExternalLink = ({
-  href,
-  children,
-}: {
-  href: string;
-  children: ReactNode;
-}) => (
-  <Link href={href} rel="noreferrer" target="_blank">
-    {children}
-  </Link>
+const ExternalLink = (props: ComponentProps<typeof Link>) => (
+  <Link {...props} rel="noreferrer" target="_blank" />
 );
+
+type FilterLinkProps = {
+  filters: Partial<Filters>;
+} & Partial<ComponentProps<typeof Link>>;
+
+const FilterLink = ({ filters, ...props }: FilterLinkProps) => {
+  const { setFilters, defaultFilters } = useFilters();
+  const router = useRouter();
+  return (
+    <Link
+      {...props}
+      href="/"
+      onClick={(e) => {
+        e.preventDefault();
+        const params = setFilters({ ...defaultFilters!, ...filters });
+        router.push(`/?${params}`);
+      }}
+    />
+  );
+};
+
+const releaseForMovie = (
+  date: string,
+  format = ["years", "months", "weeks", "days", "hours", "minutes"],
+) => {
+  const start = parseISO(date);
+  const end = new Date();
+
+  let duration = intervalToDuration({ start, end });
+  const key = Object.keys(duration)[0] as keyof Duration;
+  const isInTheFuture = duration[key]! < 0;
+  if (isInTheFuture) duration = intervalToDuration({ start: end, end: start });
+
+  const formatted = formatDuration(duration, { format, delimiter: ", " });
+  if (formatted === "") return " now";
+
+  const prefix = isInTheFuture ? "being released in" : "released";
+  const suffix = isInTheFuture ? "" : "ago";
+  return `${prefix} ${formatted} ${suffix}`.trim();
+};
 
 export default function AboutContent() {
   const { data } = useCinemaData();
+  const { defaultFilters } = useFilters();
   const start = parseISO(data!.generatedAt);
   const dateDuration = intervalToDuration({ start, end: new Date() });
   const formattedDuration = formatDuration(dateDuration, {
@@ -110,6 +154,27 @@ export default function AboutContent() {
 
   const movieCount = getMovieCount(data!.movies);
   const certificationTotals = getCertificationCounts(data!.movies);
+  const festivalShowings = getFestivalShowings(data!.movies);
+  const marathons = getMarathons(data!.movies);
+  const premieres = getPremiere(data!.movies);
+  const filmsOrderedByYear = Object.values(data!.movies)
+    .filter(({ releaseDate }) => !!releaseDate)
+    .sort(
+      (a, b) =>
+        parseISO(a.releaseDate!).getTime() - parseISO(b.releaseDate!).getTime(),
+    );
+  const oldestMovie = filmsOrderedByYear[0];
+  const newestMovie = filmsOrderedByYear[filmsOrderedByYear.length - 1];
+  const matchingMovies = getMatchingMovies(data!.movies, defaultFilters!);
+  const moviesWithoutPerformances = Object.values(
+    matchingMovies.reduce(
+      (movies, { id }) => {
+        delete movies[id];
+        return movies;
+      },
+      { ...data!.movies },
+    ),
+  );
   return (
     <Container>
       <Head>
@@ -117,51 +182,111 @@ export default function AboutContent() {
       </Head>
       <AppHeading />
       <Content style={{ padding: "1rem" }}>
-        <Heading>General Stats</Heading>
         <Stack spacing={12} direction="column" alignItems="flex-start">
+          <Stack.Item>
+            <Heading>General Info</Heading>
+          </Stack.Item>
           <Stack.Item>
             <Text>
               This site uses data retrieved{" "}
-              <time dateTime={data!.generatedAt}>
-                {formattedDuration ? `${formattedDuration} ago` : "just now"}
-              </time>{" "}
-              from {showNumber(getVenueCount(data!.venues))} venues, showing{" "}
-              {showNumber(getPerformanceCount(data!.movies))} performances of{" "}
-              {showNumber(movieCount)} movies.
+              <strong>
+                <time dateTime={data!.generatedAt}>
+                  {formattedDuration ? `${formattedDuration} ago` : "just now"}
+                </time>
+              </strong>{" "}
+              from <strong>{showNumber(getVenueCount(data!.venues))}</strong>{" "}
+              venues, showing{" "}
+              <strong>{showNumber(getPerformanceCount(data!.movies))}</strong>{" "}
+              performances of <strong>{showNumber(movieCount)}</strong> movies.
             </Text>
             <Text>
               Of these, we were able to match{" "}
-              {Math.round(
-                (getMatchedMoviesCount(data!.movies) / movieCount) * 100,
-              )}
-              % ({showNumber(getMatchedMoviesCount(data!.movies))}) on{" "}
+              <strong>
+                {Math.round(
+                  (getMatchedMoviesCount(data!.movies) / movieCount) * 100,
+                )}
+                %
+              </strong>{" "}
+              ({showNumber(getMatchedMoviesCount(data!.movies))}) with{" "}
               <ExternalLink href="https://www.themoviedb.org">
                 The Movie Database (TMDB)
               </ExternalLink>
               . The remaining unmatched events include{" "}
-              <ExternalLink
-                href={`/?filteredMovies=${getFestivalMovies(data!.movies).join(",")}`}
+              <FilterLink
+                filters={{ filteredMovies: convertToMapping(festivalShowings) }}
               >
-                {showNumber(getFestivalMovies(data!.movies).length)} film
-                festival showings
-              </ExternalLink>
+                {showNumber(festivalShowings.length)} festival showings
+              </FilterLink>
               ,{" "}
-              <ExternalLink
-                href={`/?filteredMovies=${getMarathons(data!.movies).join(",")}`}
+              <FilterLink
+                filters={{ filteredMovies: convertToMapping(marathons) }}
               >
-                {showNumber(getMarathons(data!.movies).length)} movie marathons
-              </ExternalLink>
+                {showNumber(marathons.length)} movie marathons
+              </FilterLink>
               , and{" "}
-              <ExternalLink
-                href={`/?filteredMovies=${getPremiere(data!.movies).join(",")}`}
+              <FilterLink
+                filters={{ filteredMovies: convertToMapping(premieres) }}
               >
-                {showNumber(getPremiere(data!.movies).length)} premiers
-              </ExternalLink>
+                {showNumber(premieres.length)} premieres
+              </FilterLink>
               .
             </Text>
           </Stack.Item>
           <Stack.Item>
-            <Text>The spread of classifications for these films:</Text>
+            <Text>
+              The oldest movie is{" "}
+              <Link href={getMoviePath(oldestMovie)}>
+                {oldestMovie.title} ({oldestMovie.year})
+              </Link>{" "}
+              &mdash; {releaseForMovie(oldestMovie.releaseDate!, ["years"])}
+            </Text>
+            <Text>
+              The newest movie is{" "}
+              <Link href={getMoviePath(newestMovie)}>
+                {newestMovie.title} ({newestMovie.year})
+              </Link>{" "}
+              &mdash;{" "}
+              {releaseForMovie(newestMovie.releaseDate!, [
+                "years",
+                "months",
+                "weeks",
+                "days",
+              ])}
+            </Text>
+          </Stack.Item>
+          <Stack.Item>
+            <details>
+              <Text
+                as="summary"
+                style={{
+                  cursor: "pointer",
+                  borderRadius: 5,
+                  backgroundColor: "var(--rs-violet-50)",
+                  padding: "0.5rem",
+                }}
+              >
+                From the movies retrieved,{" "}
+                <strong>{showNumber(moviesWithoutPerformances.length)}</strong>{" "}
+                have now shown all of their performances and are no longer
+                available to see (don&apos;t worry, there&apos;s still{" "}
+                <strong>
+                  {showNumber(movieCount - moviesWithoutPerformances.length)}
+                </strong>{" "}
+                to pick from!)
+              </Text>
+              <ol>
+                {moviesWithoutPerformances.map((movie) => (
+                  <li key={movie.id}>
+                    <Link href={getMoviePath(movie)}>
+                      {movie.title} {movie.year ? `(${movie.year})` : ""}
+                    </Link>
+                  </li>
+                ))}
+              </ol>
+            </details>
+          </Stack.Item>
+          <Stack.Item>
+            <Text>The spread of classifications for these films is:</Text>
             <ul>
               {certificationOrder.map((certification) => (
                 <li key={certification}>
@@ -196,7 +321,7 @@ export default function AboutContent() {
           </Stack.Item>
           <Stack.Item>
             <Text>
-              The code for powering this site, including retriving performances
+              The code for powering this site, including retrieving performances
               from venue sites and matching against TMDB API is{" "}
               <ExternalLink href="https://github.com/alistairjcbrown/hackney-cinema-calendar">
                 available on Github
@@ -213,13 +338,33 @@ export default function AboutContent() {
               .
             </Text>
           </Stack.Item>
+          <Stack.Item>
+            <Text>
+              ⚠️ Please make sure to consult the venue listing page before
+              planning attendance or booking tickets for any performance. There
+              may be inaccuracies in the data presented and it is sometimes
+              possible that the wrong movie has been matched, with the wrong
+              details therefore shown.
+            </Text>
+            <Text>
+              🐞 If you do see any issues or bugs with the data or this site,
+              please let us know by logging an issue at{" "}
+              <ExternalLink href="https://github.com/alistairjcbrown/hackney-cinema-calendar/issues">
+                https://github.com/alistairjcbrown/hackney-cinema-calendar/issues
+              </ExternalLink>
+            </Text>
+          </Stack.Item>
         </Stack>
         <Divider />
-        <Heading>Sources</Heading>
         <Stack spacing={24} direction="column" alignItems="flex-start">
           <Stack.Item>
-            <Heading level={5}>Source of Movie data</Heading>
+            <Heading>Sources</Heading>
+          </Stack.Item>
+          <Stack.Item>
             <Stack spacing={12} direction="column" alignItems="flex-start">
+              <Stack.Item>
+                <Heading level={5}>Source of Movie Data</Heading>
+              </Stack.Item>
               <Stack.Item>
                 <Text>
                   Using the data gathered from each venue website, we attempt to
@@ -233,7 +378,7 @@ export default function AboutContent() {
               </Stack.Item>
               <Stack.Item>
                 <Text>
-                  This API is gratiously provided for free with attribution:
+                  This API is graciously provided for free with attribution:
                 </Text>
               </Stack.Item>
               <Stack.Item>
@@ -241,7 +386,12 @@ export default function AboutContent() {
                   as="blockquote"
                   cite="https://www.themoviedb.org/api-terms-of-use"
                 >
-                  <Image src={logo.src} height={logo.height} alt="TMDB logo" />
+                  <Image
+                    src={logo.src}
+                    width={logo.width}
+                    height={logo.height}
+                    alt="TMDB logo"
+                  />
                   <Text>
                     This website uses TMDB and the TMDB APIs but is not
                     endorsed, certified, or otherwise approved by TMDB
@@ -251,30 +401,50 @@ export default function AboutContent() {
             </Stack>
           </Stack.Item>
           <Stack.Item>
-            <Heading level={5}>Source of Movie showings</Heading>
-            <Text>
-              Performances are retrieved for each of the venues below:
-            </Text>
-            <ol>
-              {Object.values(data!.venues)
-                .sort((a, b) => a.name.localeCompare(b.name))
-                .map(({ id, name, url }) => {
-                  const movieCount = getMoviesShowingAt(
-                    id,
-                    data!.movies,
-                  ).length;
-                  return (
-                    <li key={id}>
-                      <ExternalLink href={url}>{name}</ExternalLink> (
-                      <ExternalLink href={`/?filteredVenues=${id}`}>
-                        {showNumber(movieCount)} movie
-                        {movieCount === 1 ? "" : "s"}
-                      </ExternalLink>
-                      )
-                    </li>
-                  );
-                })}
-            </ol>
+            <Stack spacing={12} direction="column" alignItems="flex-start">
+              <Stack.Item>
+                <Heading level={5}>Source of Movie Showings</Heading>
+              </Stack.Item>
+              <Stack.Item>
+                <Text>
+                  Performances are retrieved for each of the venues below:
+                </Text>
+              </Stack.Item>
+              <Stack.Item>
+                <ol>
+                  {Object.values(data!.venues)
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .map(({ id, name, url }) => {
+                      const movieCount = getMoviesShowingAt(
+                        id,
+                        data!.movies,
+                      ).length;
+                      return (
+                        <li key={id}>
+                          📍{" "}
+                          <ExternalLink
+                            href={url}
+                            style={{
+                              display: "inline-block",
+                              minWidth: "16rem",
+                            }}
+                          >
+                            {name}
+                          </ExternalLink>{" "}
+                          (📽️{" "}
+                          <FilterLink
+                            filters={{ filteredVenues: { [id]: true } }}
+                          >
+                            {showNumber(movieCount)} movie
+                            {movieCount === 1 ? "" : "s"}
+                          </FilterLink>
+                          )
+                        </li>
+                      );
+                    })}
+                </ol>
+              </Stack.Item>
+            </Stack>
           </Stack.Item>
         </Stack>
       </Content>

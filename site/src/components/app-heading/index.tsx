@@ -26,7 +26,7 @@ export default function AppHeading({
             }}
           >
             <Nav.Item eventKey="/">Home</Nav.Item>
-            <Nav.Item eventKey="/showings#/today/near-me">
+            <Nav.Item eventKey="/showings?/today/near-me">
               Showings near me
             </Nav.Item>
             <Nav.Item eventKey="/about">About</Nav.Item>
