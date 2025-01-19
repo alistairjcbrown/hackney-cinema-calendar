@@ -5,6 +5,7 @@ import {
   type CinemaData,
 } from "@/types";
 import getMovieCertification from "./get-movie-certification";
+import normalizeString from "./normalize-string";
 
 const getMatchingMovies = (
   movies: CinemaData["movies"],
@@ -26,7 +27,7 @@ const getMatchingMovies = (
   return sortedMovies.reduce((matchingMovies, movie) => {
     if (
       searchTerm &&
-      !movie.title.toLowerCase().includes(searchTerm.toLowerCase())
+      !normalizeString(movie.title).includes(normalizeString(searchTerm))
     ) {
       return matchingMovies;
     }
