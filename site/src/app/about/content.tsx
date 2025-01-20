@@ -390,6 +390,7 @@ export default function AboutContent() {
                     src={logo.src}
                     width={logo.width}
                     height={logo.height}
+                    style={{ width: "100%" }}
                     alt="TMDB logo"
                   />
                   <Text>
@@ -411,7 +412,12 @@ export default function AboutContent() {
                 </Text>
               </Stack.Item>
               <Stack.Item>
-                <ol>
+                <ol
+                  style={{
+                    listStyleType: "none",
+                    padding: 0,
+                  }}
+                >
                   {Object.values(data!.venues)
                     .sort((a, b) => a.name.localeCompare(b.name))
                     .map(({ id, name, url }) => {
@@ -420,25 +426,41 @@ export default function AboutContent() {
                         data!.movies,
                       ).length;
                       return (
-                        <li key={id}>
-                          📍{" "}
-                          <ExternalLink
-                            href={url}
+                        <li
+                          key={id}
+                          style={{
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "space-between",
+                            listStyleType: "none",
+                            padding: 0,
+                          }}
+                        >
+                          <span
                             style={{
-                              display: "inline-block",
-                              minWidth: "16rem",
+                              flex: 1,
+                              whiteSpace: "nowrap",
+                              overflow: "hidden",
+                              textOverflow: "ellipsis",
                             }}
                           >
-                            {name}
-                          </ExternalLink>{" "}
-                          (📽️{" "}
-                          <FilterLink
-                            filters={{ filteredVenues: { [id]: true } }}
+                            📍 <ExternalLink href={url}>{name}</ExternalLink>
+                          </span>
+                          <span
+                            style={{
+                              flexShrink: 0,
+                              marginLeft: "1rem",
+                            }}
                           >
-                            {showNumber(movieCount)} movie
-                            {movieCount === 1 ? "" : "s"}
-                          </FilterLink>
-                          )
+                            (📽️{" "}
+                            <FilterLink
+                              filters={{ filteredVenues: { [id]: true } }}
+                            >
+                              {showNumber(movieCount)} movie
+                              {movieCount === 1 ? "" : "s"}
+                            </FilterLink>
+                            )
+                          </span>
                         </li>
                       );
                     })}
