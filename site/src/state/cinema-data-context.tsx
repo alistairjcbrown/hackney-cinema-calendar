@@ -2,6 +2,7 @@ import type { CinemaData } from "@/types";
 import type { Dispatch, ReactNode, SetStateAction } from "react";
 import { createContext, useContext, useEffect, useState } from "react";
 import { decompress } from "compress-json";
+import Loader from "rsuite/cjs/Loader";
 import nextConfig from "../../next.config";
 
 const CinemaDataContext = createContext<{
@@ -37,6 +38,12 @@ export function GetCinemaData({ children }: { children: ReactNode }) {
     })();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  if (!data) return <div>Loading...</div>;
+  if (!data) {
+    return (
+      <div>
+        <Loader backdrop content="Loading..." />
+      </div>
+    );
+  }
   return <>{children}</>;
 }

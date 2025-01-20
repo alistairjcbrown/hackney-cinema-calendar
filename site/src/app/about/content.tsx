@@ -15,6 +15,7 @@ import Image from "next/image";
 import Container from "rsuite/cjs/Container";
 import Content from "rsuite/cjs/Content";
 import Heading from "rsuite/cjs/Heading";
+import Message from "rsuite/cjs/Message";
 import Stack from "rsuite/cjs/Stack";
 import Text from "rsuite/cjs/Text";
 import Divider from "rsuite/cjs/Divider";
@@ -95,6 +96,42 @@ const getCertificationCounts = (movies: CinemaData["movies"]) =>
     {} as Record<Certification, number>,
   );
 
+const getGenreCounts = (movies: CinemaData["movies"]) =>
+  Object.values(movies).reduce(
+    (totals: Record<string, number>, movie: Movie) =>
+      (movie.genres || []).reduce(
+        (genreTotals, id) => ({
+          ...genreTotals,
+          [id]: (genreTotals[id] || 0) + 1,
+        }),
+        totals,
+      ),
+    {} as Record<string, number>,
+  );
+
+const genreIcons: Record<string, string> = {
+  "12": "🗺️",
+  "14": "🧝‍♀️",
+  "16": "💫",
+  "18": "🎭",
+  "27": "👻",
+  "28": "🔫",
+  "35": "🤡",
+  "36": "🏺",
+  "37": "🤠",
+  "53": "🔪",
+  "80": "🚓",
+  "99": "🎥",
+  "878": "🚀",
+  "9648": "🔍",
+  "10402": "🎶",
+  "10749": "💌",
+  "10751": "👪",
+  "10752": "🪖",
+  "10770": "📺",
+  "95b92df1": "❓",
+};
+
 const showNumber = (value: number) =>
   new Intl.NumberFormat("en-GB").format(value);
 
@@ -154,6 +191,7 @@ export default function AboutContent() {
 
   const movieCount = getMovieCount(data!.movies);
   const certificationTotals = getCertificationCounts(data!.movies);
+  const genreTotals = getGenreCounts(data!.movies);
   const festivalShowings = getFestivalShowings(data!.movies);
   const marathons = getMarathons(data!.movies);
   const premieres = getPremiere(data!.movies);
@@ -182,7 +220,7 @@ export default function AboutContent() {
       </Head>
       <AppHeading />
       <Content style={{ padding: "1rem" }}>
-        <Stack spacing={12} direction="column" alignItems="flex-start">
+        <Stack spacing={24} direction="column" alignItems="flex-start">
           <Stack.Item>
             <Heading>General Info</Heading>
           </Stack.Item>
@@ -254,40 +292,65 @@ export default function AboutContent() {
               ])}
             </Text>
           </Stack.Item>
+          {moviesWithoutPerformances.length ? (
+            <Stack.Item>
+              <details>
+                <Text
+                  as="summary"
+                  style={{
+                    cursor: "pointer",
+                    borderRadius: 5,
+                    backgroundColor: "var(--rs-violet-50)",
+                    padding: "0.5rem",
+                  }}
+                >
+                  ℹ️&nbsp;
+                  <strong>
+                    {showNumber(moviesWithoutPerformances.length)}
+                  </strong>{" "}
+                  {moviesWithoutPerformances.length === 1 ? (
+                    <>
+                      movie has now shown all of its performances and is no
+                      longer available to see
+                    </>
+                  ) : (
+                    <>
+                      movies have now shown all of their performances and are no
+                      longer available to see
+                    </>
+                  )}{" "}
+                  (but there&apos;s still{" "}
+                  <strong>
+                    {showNumber(movieCount - moviesWithoutPerformances.length)}
+                  </strong>{" "}
+                  more movies to pick from!)
+                </Text>
+                <br />
+                <ol>
+                  {moviesWithoutPerformances.map((movie) => (
+                    <li key={movie.id}>
+                      <Link href={getMoviePath(movie)}>
+                        {movie.title} {movie.year ? `(${movie.year})` : ""}
+                      </Link>
+                    </li>
+                  ))}
+                </ol>
+                <Divider />
+              </details>
+            </Stack.Item>
+          ) : null}
           <Stack.Item>
-            <details>
-              <Text
-                as="summary"
-                style={{
-                  cursor: "pointer",
-                  borderRadius: 5,
-                  backgroundColor: "var(--rs-violet-50)",
-                  padding: "0.5rem",
-                }}
-              >
-                From the movies retrieved,{" "}
-                <strong>{showNumber(moviesWithoutPerformances.length)}</strong>{" "}
-                have now shown all of their performances and are no longer
-                available to see (don&apos;t worry, there&apos;s still{" "}
-                <strong>
-                  {showNumber(movieCount - moviesWithoutPerformances.length)}
-                </strong>{" "}
-                to pick from!)
-              </Text>
-              <ol>
-                {moviesWithoutPerformances.map((movie) => (
-                  <li key={movie.id}>
-                    <Link href={getMoviePath(movie)}>
-                      {movie.title} {movie.year ? `(${movie.year})` : ""}
-                    </Link>
-                  </li>
-                ))}
-              </ol>
-            </details>
-          </Stack.Item>
-          <Stack.Item>
-            <Text>The spread of classifications for these films is:</Text>
-            <ul>
+            <Text>The spread of classifications of the movies is:</Text>
+            <ul
+              style={{
+                listStyleType: "none",
+                padding: 0,
+                width: "100%",
+                columns: "20em 4",
+                gap: "5em",
+                columnRule: "1px dotted #666",
+              }}
+            >
               {certificationOrder.map((certification) => (
                 <li key={certification}>
                   {certification === Certification.Unknown ? (
@@ -295,9 +358,11 @@ export default function AboutContent() {
                       style={{
                         textAlign: "center",
                         display: "inline-block",
-                        margin: "0.25rem 0.5rem 0.25rem 0",
+                        margin: "0.2rem 0.5rem 0.2rem 0",
                         width: 25,
                         height: 25,
+                        fontSize: "1.2rem",
+                        lineHeight: "1",
                       }}
                     >
                       ❓
@@ -310,7 +375,16 @@ export default function AboutContent() {
                       style={{ margin: "0.25rem 0.5rem 0.25rem 0" }}
                     />
                   )}
-                  {certificationTotals[certification]} movies (
+                  <FilterLink
+                    filters={{
+                      filteredCertifications: {
+                        [certification]: true,
+                      } as Record<Certification, boolean>,
+                    }}
+                  >
+                    {certificationTotals[certification]} movies
+                  </FilterLink>{" "}
+                  (
                   {Math.round(
                     (certificationTotals[certification] / movieCount) * 100,
                   )}
@@ -320,15 +394,84 @@ export default function AboutContent() {
             </ul>
           </Stack.Item>
           <Stack.Item>
+            <Text>And the genres of these movies:</Text>
+            <ul
+              style={{
+                listStyleType: "none",
+                padding: 0,
+                width: "100%",
+                columns: "20em 4",
+                gap: "5em",
+                columnRule: "1px dotted #666",
+              }}
+            >
+              {Object.keys(genreTotals).map((genre) => (
+                <li key={genre}>
+                  <span
+                    style={{
+                      textAlign: "center",
+                      display: "inline-block",
+                      margin: "0.2rem 0.5rem 0.2rem 0",
+                      width: 25,
+                      height: 25,
+                      fontSize: "1.3rem",
+                    }}
+                  >
+                    {genreIcons[genre]}
+                  </span>
+                  <span
+                    style={{
+                      display: "inline-block",
+                      width: "100%",
+                      maxWidth: "7rem",
+                    }}
+                  >
+                    {data!.genres[genre].name}
+                  </span>
+                  <FilterLink
+                    filters={{
+                      filteredGenres: {
+                        [genre]: true,
+                      },
+                    }}
+                  >
+                    {genreTotals[genre]} movies
+                  </FilterLink>{" "}
+                  ({Math.round((genreTotals[genre] / movieCount) * 100)}
+                  %)
+                </li>
+              ))}
+            </ul>
+          </Stack.Item>
+          <Stack.Item>
+            <Message showIcon type="warning" bordered>
+              <Text>
+                Please make sure to consult the venue listing page before
+                planning attendance or booking tickets for any performance.{" "}
+              </Text>
+              <Text>
+                There may be inaccuracies in the data presented or the wrong
+                movie may be matched, with the wrong details therefore shown.
+              </Text>
+            </Message>
+          </Stack.Item>
+        </Stack>
+        <Divider />
+        <Stack spacing={24} direction="column" alignItems="flex-start">
+          <Stack.Item>
+            <Heading>Development</Heading>
+          </Stack.Item>
+          <Stack.Item>
             <Text>
               The code for powering this site, including retrieving performances
               from venue sites and matching against TMDB API is{" "}
               <ExternalLink href="https://github.com/alistairjcbrown/hackney-cinema-calendar">
                 available on Github
               </ExternalLink>
+              .
             </Text>
             <Text>
-              Data is refreshed early every morning, and available in normalized
+              Data is refreshed early every morning and available in normalized
               form in a JSON file per venue. This data is also available in a
               ICS calendar file per venue. Releases are made on Github after
               each run,{" "}
@@ -339,24 +482,30 @@ export default function AboutContent() {
             </Text>
           </Stack.Item>
           <Stack.Item>
-            <Text>
-              ⚠️ Please make sure to consult the venue listing page before
-              planning attendance or booking tickets for any performance. There
-              may be inaccuracies in the data presented and it is sometimes
-              possible that the wrong movie has been matched, with the wrong
-              details therefore shown.
-            </Text>
-            <Text>
-              🐞 If you do see any issues or bugs with the data or this site,
-              please let us know by logging an issue at{" "}
+            <Message bordered>
+              <span
+                style={{
+                  textAlign: "center",
+                  display: "inline-block",
+                  margin: "0.2rem 0.5rem 0.2rem 0",
+                  width: 25,
+                  height: 25,
+                  fontSize: "1.3rem",
+                  lineHeight: "1",
+                }}
+              >
+                🐞
+              </span>{" "}
+              If you see any issues or bugs with the data shown or how this site
+              works, please let us know by logging an issue at{" "}
               <ExternalLink href="https://github.com/alistairjcbrown/hackney-cinema-calendar/issues">
                 https://github.com/alistairjcbrown/hackney-cinema-calendar/issues
               </ExternalLink>
-            </Text>
+            </Message>
           </Stack.Item>
         </Stack>
         <Divider />
-        <Stack spacing={24} direction="column" alignItems="flex-start">
+        <Stack spacing={36} direction="column" alignItems="flex-start">
           <Stack.Item>
             <Heading>Sources</Heading>
           </Stack.Item>
@@ -416,6 +565,10 @@ export default function AboutContent() {
                   style={{
                     listStyleType: "none",
                     padding: 0,
+                    width: "100%",
+                    columns: "26em 4",
+                    gap: "5em",
+                    columnRule: "1px dotted #666",
                   }}
                 >
                   {Object.values(data!.venues)
@@ -434,6 +587,7 @@ export default function AboutContent() {
                             justifyContent: "space-between",
                             listStyleType: "none",
                             padding: 0,
+                            lineHeight: "2",
                           }}
                         >
                           <span
@@ -452,14 +606,13 @@ export default function AboutContent() {
                               marginLeft: "1rem",
                             }}
                           >
-                            (📽️{" "}
+                            📽️{" "}
                             <FilterLink
                               filters={{ filteredVenues: { [id]: true } }}
                             >
                               {showNumber(movieCount)} movie
                               {movieCount === 1 ? "" : "s"}
                             </FilterLink>
-                            )
                           </span>
                         </li>
                       );
