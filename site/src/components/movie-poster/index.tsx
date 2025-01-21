@@ -24,7 +24,12 @@ const NoPoster = ({
       ></div>
       <div
         className="no-poster-text"
-        style={{ color, filter: `drop-shadow(0 0 0.5rem ${shadow})` }}
+        style={{
+          color,
+          filter: `drop-shadow(0 0 0.5rem ${shadow})`,
+          width,
+          height,
+        }}
       >
         {title}
       </div>
