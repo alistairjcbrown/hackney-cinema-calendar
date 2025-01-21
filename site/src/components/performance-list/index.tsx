@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import Button from "rsuite/cjs/Button";
 import Divider from "rsuite/cjs/Divider";
 import Heading from "rsuite/cjs/Heading";
+import Tag from "rsuite/cjs/Tag";
 import { format, formatRelative } from "date-fns";
 import { useCinemaData } from "@/state/cinema-data-context";
 import "./index.scss";
@@ -61,7 +62,17 @@ export default function PerformanceList({ movie }: { movie?: Movie }) {
         return (
           <Fragment key={date.getTime()}>
             <Heading level={4}>
-              <Divider>{relativeDay}</Divider>
+              <Divider>
+                {relativeDay}{" "}
+                <Tag
+                  style={{
+                    backgroundColor: "var(--rs-yellow-100)",
+                    border: "1px solid var(--rs-yellow-200)",
+                  }}
+                >
+                  {performanceGroup.length}
+                </Tag>
+              </Divider>
             </Heading>
             <div style={{ columns: "35em 4", gap: "5em" }}>
               {performanceGroup.map((performance) => {

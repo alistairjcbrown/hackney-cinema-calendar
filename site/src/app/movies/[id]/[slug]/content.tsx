@@ -150,6 +150,7 @@ export default function MoviePageContent({
                               width: "15rem",
                               display: "inline-block",
                               cursor: "pointer",
+                              lineHeight: "24px",
                             }}
                           >
                             <strong>Venues:</strong> ({venueTags.length}){" "}
@@ -277,7 +278,13 @@ export default function MoviePageContent({
           <Stack.Item style={{ width: "100%" }}>
             <Heading level={3}>
               Performances{" "}
-              <Tag size="lg">
+              <Tag
+                size="lg"
+                style={{
+                  backgroundColor: "var(--rs-yellow-100)",
+                  border: "1px solid var(--rs-yellow-200)",
+                }}
+              >
                 {(isShowingAllPerformances ? movieAllPerformances : movie)
                   ?.performances.length || 0}
               </Tag>

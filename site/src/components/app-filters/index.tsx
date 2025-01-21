@@ -91,6 +91,7 @@ export default function AppFilters() {
               <Stack
                 direction={isDesktop ? "row" : "column"}
                 spacing={isDesktop ? 0 : 8}
+                alignItems="flex-start"
               >
                 <Stack.Item grow={1} style={isDesktop ? {} : { width: "100%" }}>
                   <DateRangePicker

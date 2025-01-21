@@ -1,5 +1,10 @@
 .movie-venues {
   summary {
+    &::marker,
+    &::-webkit-details-marker {
+      display: none;
+    }
+
     .movie-venues-preview {
       display: inline-block;
     }

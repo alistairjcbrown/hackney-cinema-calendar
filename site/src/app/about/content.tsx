@@ -7,7 +7,12 @@ import {
   type Filters,
 } from "@/types";
 import { ComponentProps } from "react";
-import { formatDuration, intervalToDuration, parseISO } from "date-fns";
+import {
+  formatDuration,
+  intervalToDuration,
+  isToday,
+  parseISO,
+} from "date-fns";
 import { useRouter } from "next/navigation";
 import Head from "next/head";
 import Link from "next/link";
@@ -217,6 +222,11 @@ export default function AboutContent() {
       { ...data!.movies },
     ),
   );
+  const moviesWithOnePerformanceToday = Object.values(matchingMovies).filter(
+    ({ performances }) =>
+      performances.length === 1 && isToday(new Date(performances[0].time)),
+  );
+
   return (
     <Container>
       <Head>
@@ -304,6 +314,47 @@ export default function AboutContent() {
               performances
             </Text>
           </Stack.Item>
+          {moviesWithOnePerformanceToday.length ? (
+            <Stack.Item>
+              <details>
+                <Text
+                  as="summary"
+                  style={{
+                    cursor: "pointer",
+                    borderRadius: 5,
+                    backgroundColor: "var(--rs-violet-50)",
+                    padding: "0.5rem",
+                  }}
+                >
+                  ℹ️&nbsp;&nbsp;
+                  <strong>
+                    {showNumber(moviesWithOnePerformanceToday.length)}
+                  </strong>{" "}
+                  {moviesWithOnePerformanceToday.length === 1 ? (
+                    <>
+                      movie has its last performance today &mdash; last chance
+                      to see it on the big screen!
+                    </>
+                  ) : (
+                    <>
+                      movies have their last performances today &mdash; last
+                      chance to see them on the big screen!
+                    </>
+                  )}
+                </Text>
+                <br />
+                <ol>
+                  {moviesWithOnePerformanceToday.map((movie) => (
+                    <li key={movie.id}>
+                      <Link href={getMoviePath(movie)}>
+                        {movie.title} {movie.year ? `(${movie.year})` : ""}
+                      </Link>
+                    </li>
+                  ))}
+                </ol>
+              </details>
+            </Stack.Item>
+          ) : null}
           {moviesWithoutPerformances.length ? (
             <Stack.Item>
               <details>
@@ -316,7 +367,7 @@ export default function AboutContent() {
                     padding: "0.5rem",
                   }}
                 >
-                  ℹ️&nbsp;
+                  ℹ️&nbsp;&nbsp;
                   <strong>
                     {showNumber(moviesWithoutPerformances.length)}
                   </strong>{" "}
@@ -331,11 +382,11 @@ export default function AboutContent() {
                       longer available to see
                     </>
                   )}{" "}
-                  (but there&apos;s still{" "}
+                  &mdash; but there&apos;s still{" "}
                   <strong>
                     {showNumber(movieCount - moviesWithoutPerformances.length)}
                   </strong>{" "}
-                  more movies to pick from!)
+                  others to pick from!
                 </Text>
                 <br />
                 <ol>
@@ -347,7 +398,6 @@ export default function AboutContent() {
                     </li>
                   ))}
                 </ol>
-                <Divider />
               </details>
             </Stack.Item>
           ) : null}
