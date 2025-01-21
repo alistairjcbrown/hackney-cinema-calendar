@@ -101,10 +101,15 @@ export default function MoviePageContent({
                 >
                   <Stack.Item>
                     <Heading level={2}>
-                      <MovieCertification
-                        certification={displayedMovie.certification}
-                      />
-                      &nbsp; {displayedMovie.title}&nbsp;
+                      {displayedMovie.certification ? (
+                        <>
+                          <MovieCertification
+                            certification={displayedMovie.certification}
+                          />
+                          &nbsp;
+                        </>
+                      ) : null}{" "}
+                      {displayedMovie.title}&nbsp;
                       {displayedMovie.year ? `(${displayedMovie.year})` : null}
                     </Heading>
                   </Stack.Item>

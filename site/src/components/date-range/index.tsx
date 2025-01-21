@@ -1,6 +1,10 @@
 import type { DateRange } from "@/types";
+import { useMemo } from "react";
+import { startOfDay, endOfDay, addDays, format } from "date-fns";
 import DateRangePicker from "rsuite/cjs/DateRangePicker";
-import { startOfDay, endOfDay, addDays } from "date-fns";
+import Tag from "rsuite/cjs/Tag";
+import { useCinemaData } from "@/state/cinema-data-context";
+import "./index.scss";
 
 export default function DateRange({
   value,
@@ -11,6 +15,21 @@ export default function DateRange({
   defaultValue?: DateRange;
   onChange: (value: DateRange) => void;
 }) {
+  const { data } = useCinemaData();
+  const datesWithPerformances = useMemo(
+    () =>
+      Object.values(data!.movies)
+        .flatMap(({ performances }) => performances)
+        .reduce(
+          (mapping, { time }) => {
+            const key = format(new Date(time), "yyyy-MM-dd");
+            mapping[key] = mapping[key] ? mapping[key] + 1 : 1;
+            return mapping;
+          },
+          {} as Record<string, number>,
+        ),
+    [data],
+  );
   return (
     <DateRangePicker
       block
@@ -45,6 +64,17 @@ export default function DateRange({
       onClean={() => {
         if (defaultValue) onChange(defaultValue);
       }}
+      renderCell={(date) => {
+        const key = format(date, "yyyy-MM-dd");
+        const hasPerformances = !!datesWithPerformances[key];
+        if (!hasPerformances) return date.getDate();
+        return (
+          <Tag size="sm" className="date-with-performances">
+            {date.getDate()}
+          </Tag>
+        );
+      }}
+      isoWeek={true}
     />
   );
 }
