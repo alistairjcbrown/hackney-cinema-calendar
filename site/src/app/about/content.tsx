@@ -203,6 +203,10 @@ export default function AboutContent() {
     );
   const oldestMovie = filmsOrderedByYear[0];
   const newestMovie = filmsOrderedByYear[filmsOrderedByYear.length - 1];
+  const filmsOrderedByPerformanceCount = Object.values(data!.movies).sort(
+    (a, b) => b.performances.length - a.performances.length,
+  );
+  const mostPerformancesMovie = filmsOrderedByPerformanceCount[0];
   const matchingMovies = getMatchingMovies(data!.movies, defaultFilters!);
   const moviesWithoutPerformances = Object.values(
     matchingMovies.reduce(
@@ -290,6 +294,14 @@ export default function AboutContent() {
                 "weeks",
                 "days",
               ])}
+            </Text>
+            <Text>
+              The movie with the most performances is{" "}
+              <Link href={getMoviePath(mostPerformancesMovie)}>
+                {mostPerformancesMovie.title} ({mostPerformancesMovie.year})
+              </Link>{" "}
+              &mdash; {showNumber(mostPerformancesMovie.performances.length)}{" "}
+              performances
             </Text>
           </Stack.Item>
           {moviesWithoutPerformances.length ? (

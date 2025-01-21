@@ -36,26 +36,26 @@ export default function MoviePoster({
   movie: { isUnmatched, posterPath, title },
   width = 171,
   height = 260,
+  hideShadow = false,
 }: {
   movie: Movie;
   width?: number;
   height?: number;
+  hideShadow?: boolean;
 }) {
   return (
-    <div>
-      <div className="movie-poster">
-        {isUnmatched || !posterPath ? (
-          <NoPoster title={title} width={width} height={height} />
-        ) : (
-          <Image
-            unoptimized
-            src={`https://image.tmdb.org/t/p/w${2 * width}${posterPath}`}
-            alt={title}
-            width={width}
-            height={height}
-          />
-        )}
-      </div>
+    <div className={`movie-poster ${hideShadow ? "" : "movie-poster--shadow"}`}>
+      {isUnmatched || !posterPath ? (
+        <NoPoster title={title} width={width} height={height} />
+      ) : (
+        <Image
+          unoptimized
+          src={`https://image.tmdb.org/t/p/w${2 * width}${posterPath}`}
+          alt={title}
+          width={width}
+          height={height}
+        />
+      )}
     </div>
   );
 }

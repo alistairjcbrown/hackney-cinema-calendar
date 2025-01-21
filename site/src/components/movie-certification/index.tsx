@@ -32,8 +32,8 @@ export default function MovieCertification({
     return (
       <Image
         src={imageDetails.src}
-        width={50}
-        height={50}
+        width={40}
+        height={40}
         alt={certification}
         {...props}
       />

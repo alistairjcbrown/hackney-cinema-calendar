@@ -27,7 +27,7 @@ export async function generateMetadata({
   const data = decompress(compressedData.default as Compressed) as CinemaData;
   const movie = data.movies[id];
   return {
-    title: `Performances for ${movie.title} ${movie.year ? `(${movie.year})` : ""}`,
+    title: `${movie.title} ${movie.year ? `(${movie.year})` : ""} - Performances`,
   };
 }
 
