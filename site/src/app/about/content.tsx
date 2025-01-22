@@ -4,7 +4,6 @@ import {
   certificationOrder,
   type CinemaData,
   type Movie,
-  type Filters,
 } from "@/types";
 import { ComponentProps } from "react";
 import {
@@ -13,7 +12,6 @@ import {
   isToday,
   parseISO,
 } from "date-fns";
-import { useRouter } from "next/navigation";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
@@ -32,6 +30,7 @@ import MovieCertification from "@/components/movie-certification";
 import logo from "./blue_long_1-8ba2ac31f354005783fab473602c34c3f4fd207150182061e425d366e4f34596.svg";
 import slugify from "@sindresorhus/slugify";
 import getMatchingMovies from "@/utils/get-matching-movies";
+import FilterLink from "@/components/filter-link";
 
 const convertToMapping = (values: string[]) =>
   values.reduce((mapping, value) => ({ ...mapping, [value]: true }), {});
@@ -143,26 +142,6 @@ const showNumber = (value: number) =>
 const ExternalLink = (props: ComponentProps<typeof Link>) => (
   <Link {...props} rel="noreferrer" target="_blank" />
 );
-
-type FilterLinkProps = {
-  filters: Partial<Filters>;
-} & Partial<ComponentProps<typeof Link>>;
-
-const FilterLink = ({ filters, ...props }: FilterLinkProps) => {
-  const { setFilters, defaultFilters } = useFilters();
-  const router = useRouter();
-  return (
-    <Link
-      {...props}
-      href="/"
-      onClick={(e) => {
-        e.preventDefault();
-        const params = setFilters({ ...defaultFilters!, ...filters });
-        router.push(`/?${params}`);
-      }}
-    />
-  );
-};
 
 const releaseForMovie = (
   date: string,

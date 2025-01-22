@@ -1,5 +1,5 @@
 import { Certification, Movie, type CinemaData, type Filters } from "@/types";
-import type { Dispatch, ReactNode, SetStateAction } from "react";
+import type { ReactNode, SetStateAction } from "react";
 import {
   createContext,
   useCallback,
@@ -117,7 +117,10 @@ const FiltersContext = createContext<{
   filters: Filters;
   defaultFilters?: Filters;
   getYearRange: () => Filters["yearRange"];
-  setFilters: Dispatch<SetStateAction<Filters>>;
+  setFilters: (
+    value: SetStateAction<Filters>,
+    options?: { resetParams?: boolean },
+  ) => string;
 }>({
   filters: {
     searchTerm: "",
@@ -131,7 +134,7 @@ const FiltersContext = createContext<{
   },
   defaultFilters: undefined,
   getYearRange: () => ({ min: Infinity, max: -Infinity }),
-  setFilters: () => {},
+  setFilters: () => "",
 });
 
 export const useFilters = () => useContext(FiltersContext);
@@ -246,11 +249,16 @@ export function FiltersProvider({ children }: { children: ReactNode }) {
     ...getUrlFilters(),
   });
 
-  const setFiltersAndUpdateUrl = (value: SetStateAction<Filters>): string => {
+  const setFiltersAndUpdateUrl = (
+    value: SetStateAction<Filters>,
+    options: { resetParams?: boolean } = {},
+  ): string => {
     const existingFilters = filters;
     const updatedFilters = value as Filters;
 
-    const params = new URLSearchParams(searchParams.toString());
+    const params = new URLSearchParams(
+      options.resetParams ? "" : searchParams.toString(),
+    );
     Object.keys(defaultFilters).forEach((key) => {
       const property = key as keyof Filters;
       if (existingFilters[property] !== updatedFilters[property]) {

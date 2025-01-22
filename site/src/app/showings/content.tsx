@@ -115,7 +115,7 @@ export default function ShowingsRedirectContent() {
   const { filters, setFilters } = useFilters();
   const { data } = useCinemaData();
 
-  const query = Array.from(params.keys())[0];
+  const query = Array.from(params.keys())[0] || "";
   // #/today/near-me
   const [timeSegment, locationSegment] = query
     .split("/")
@@ -140,12 +140,15 @@ export default function ShowingsRedirectContent() {
       const dateRange = await pendingDateRange;
       const filteredVenues = await pendingFilteredVanues;
 
-      const params = setFilters({
-        ...filters,
-        ...(dateRange ? { dateRange } : {}),
-        ...(filteredVenues ? { filteredVenues } : {}),
-      });
-      router.push(`/?${params}`);
+      const params = setFilters(
+        {
+          ...filters,
+          ...(dateRange ? { dateRange } : {}),
+          ...(filteredVenues ? { filteredVenues } : {}),
+        },
+        { resetParams: true },
+      );
+      router.replace(`/?${params}`);
     })();
 
     // eslint-disable-next-line react-hooks/exhaustive-deps -- Only run this once on mount, regardless if data changes
