@@ -1,88 +1,71 @@
 const cheerio = require("cheerio");
-const { parseMinsToMs, convertToList } = require("../../common/utils");
 const { parseISO } = require("date-fns");
+const {
+  convertDurationStringToMinutes,
+  getText,
+  getYear,
+  getDirectorDuration,
+  createOverview,
+  createPerformance,
+} = require("./utils");
 
-const convertToMs = (runtime) => {
-  if (!runtime) return undefined;
-  const hrsAndMinsString = runtime
-    .trim()
-    .match(/^(?:(\d+)\s*hr?s?\s+)?(\d+)\s*mi?n?s?/i);
-  const hoursString = runtime.trim().match(/^(\d+)\s*hour?s?/i);
-  const [, hours = 0, minutes = 0] = hrsAndMinsString || hoursString;
-  return parseMinsToMs(parseInt(hours, 10) * 60 + parseInt(minutes, 10));
+const convertSummaryToMapping = ($) => {
+  const summary = {};
+  $(".at-a-glance-row").each(function () {
+    const $key = $(this).find("strong");
+    const key = getText($key).toLowerCase().replace(":", "").trim();
+    // Remove the key element so we can extract the value
+    $key.remove();
+    summary[key] = getText($(this));
+  });
+  return summary;
+};
+
+const convertFootnotesToMapping = ($) => {
+  let footnotes = {};
+  $(".further-credits p, .footnote p").each(function () {
+    const footnoteContents = getText($(this));
+    const year = getYear(footnoteContents);
+    if (year) {
+      const directorDuration = getDirectorDuration(footnoteContents);
+      footnotes = { ...footnotes, ...directorDuration, year };
+    }
+  });
+  return footnotes;
+};
+
+const convertMovieBlurbToDirectors = ($) => {
+  // If we can't find a director in formatted spots, try and scan the blurb
+  const movieBlurb = getText($(".js-show-more-content"));
+  return movieBlurb.match(/Directed\s+by\s+(?:.+?\s+)?(\w+\s+\w+)\s+\(/i)?.[1];
 };
 
 function processListingPage(data) {
   const $ = cheerio.load(data);
 
-  const summary = {};
-  $(".at-a-glance-row").each(function () {
-    const key = $(this)
-      .find("strong")
-      .text()
-      .toLowerCase()
-      .replace(":", "")
-      .trim();
-    $(this).find("strong").remove();
-    const value = $(this).text().trim();
-    summary[key] = value;
-  });
-
-  const footnotes = {};
-  $(".further-credits p, .footnote p").each(function () {
-    const footnoteContents = $(this).text().trim();
-    const matchYear = footnoteContents.match(/^(?:[^\s]+\s+)?(\d{4})\s+\w/i);
-    if (matchYear) {
-      footnotes.year = matchYear[1];
-      const matchDirectorDuration = footnoteContents.match(
-        /dirs?\.?\s+([^\d]+?)(\d+)\s*min/i,
-      );
-      if (matchDirectorDuration) {
-        footnotes.director = matchDirectorDuration[1];
-        footnotes.duration = matchDirectorDuration[2];
-      }
-    }
-  });
+  const summary = convertSummaryToMapping($);
+  const footnotes = convertFootnotesToMapping($);
+  const movieBlurbDirectors = convertMovieBlurbToDirectors($);
 
   const $title = $(".heading-group__primary");
-  let title = $title.text().trim();
-  if ($title.find("> span").length > 0) {
-    title = $title.find("> span").eq(0).text().trim();
-  }
-
-  const getDirectors = () => {
-    if (summary.director) return convertToList(summary.director);
-    if (footnotes.director) return convertToList(footnotes.director);
-
-    // If we can't find a director in formatted spots, try and scan the blurb
-    const movieBlurb = $(".js-show-more-content").text().trim();
-    const directedByMatch = movieBlurb.match(
-      /Directed\s+by\s+(?:.+?\s+)?(\w+\s+\w+)\s+\(/i,
-    );
-    if (directedByMatch) {
-      return convertToList(directedByMatch[1]);
-    }
-
-    return [];
-  };
-
-  const getDuration = () => {
-    if (summary.runtime) return convertToMs(summary.runtime);
-    if (footnotes.duration) return parseMinsToMs(footnotes.duration);
-    return undefined;
-  };
-
-  const certification =
-    $("._classification").text().replace(/[()]/g, "").trim() || undefined;
+  let title = getText($title);
+  const $titleSpecific = $title.find("> span");
+  if ($titleSpecific.length > 0) title = getText($titleSpecific.eq(0));
 
   return {
     url: $('link[rel="canonical"]').attr("href"),
     title,
-    year: summary["release year"] || footnotes.year,
-    duration: getDuration(),
-    certification,
-    directors: getDirectors(),
-    venue: $("#venue").parent().text().trim(),
+    venue: getText($("#venue").parent()),
+    overview: createOverview({
+      duration: summary.runtime
+        ? convertDurationStringToMinutes(summary.runtime)
+        : footnotes.duration,
+      year: summary["release year"] || footnotes.year,
+      categories: "",
+      directors: summary.director || footnotes.director || movieBlurbDirectors,
+      actors: "",
+      certification: getText($("._classification")).replace(/[()]/g, "").trim(),
+    }),
   };
 }
 
@@ -91,72 +74,67 @@ function processPerformancePage(data, fallbackUrl, fallbackScreen) {
 
   const performances = [];
   $(".instance-listing").each(function () {
-    const dateTime = $(this).find(".instance-time__time time").attr("datetime");
-    const screen = $(this).find(".instance-listing__venue").text().trim();
     const $bookingButton = $(this).find(".instance-listing__button a");
-    const bookingText = $bookingButton.text().toLowerCase().trim();
 
-    let notes = "";
-    if (bookingText === "sold out") {
-      notes += "Sold out";
+    const notesList = [];
+    if (getText($bookingButton).toLowerCase() === "sold out") {
+      notesList.push("Sold out");
     }
 
-    $(this)
-      .find(".instance-accessibility-tags")
-      .each(function () {
-        const tag = $(this).text().toLowerCase().trim();
-        if (tag === "ad") {
-          notes += `\nThis event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.`;
-        }
-        if (tag === "cap") {
-          notes += `\nThis event is captioned. Captioning is a format that includes text description of significant sound effects as well as dialogue.`;
-        }
-      });
-
-    performances.push({
-      time: parseISO(dateTime).getTime(),
-      screen: screen || fallbackScreen,
-      notes: notes.trim(),
-      bookingUrl: $bookingButton.attr("href") || fallbackUrl,
+    const $tags = $(this).find(".instance-accessibility-tags");
+    $tags.each(function () {
+      const tag = getText($(this)).toLowerCase();
+      if (tag === "ad") {
+        notesList.push(
+          "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        );
+      }
+      if (tag === "cap") {
+        notesList.push(
+          "This event is captioned. Captioning is a format that includes text description of significant sound effects as well as dialogue.",
+        );
+      }
     });
+
+    const dateTime = $(this).find(".instance-time__time time").attr("datetime");
+    const screen = getText($(this).find(".instance-listing__venue"));
+    performances.push(
+      createPerformance({
+        date: parseISO(dateTime),
+        notesList,
+        url: $bookingButton.attr("href") || fallbackUrl,
+        screen: screen || fallbackScreen,
+      }),
+    );
   });
   return performances;
 }
 
-async function transform(movies, sourcedEvents) {
-  const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
-    (events) => events,
-  );
-
-  return movies
-    .map(({ title: searchTitle, listingPage, performancePage }) => {
+async function transform({ moviePages }, sourcedEvents) {
+  const movies = moviePages.map(
+    ({ title: searchTitle, listingPage, performancePage }) => {
       const {
         url,
-        title: pageTitle,
-        year,
-        duration,
-        certification,
-        directors,
+        title: listingPageTitle,
         venue,
+        overview,
       } = processListingPage(listingPage);
       const performances = processPerformancePage(performancePage, url, venue);
-      const title =
-        searchTitle.endsWith("..") && pageTitle ? pageTitle : searchTitle;
+      const useFallbackTitle = searchTitle.endsWith("..") && listingPageTitle;
+      const title = useFallbackTitle ? listingPageTitle : searchTitle;
       return {
         title,
         url,
-        overview: {
-          year,
-          duration,
-          certification,
-          categories: [],
-          directors,
-          actors: [],
-        },
+        overview,
         performances,
       };
-    })
-    .concat(listOfSourcedEvents);
+    },
+  );
+
+  const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
+    (events) => events,
+  );
+  return Object.values(movies).concat(listOfSourcedEvents);
 }
 
 module.exports = transform;

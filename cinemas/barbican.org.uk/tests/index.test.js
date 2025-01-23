@@ -11,13 +11,13 @@ describe("The Barbican", () => {
   it(
     "retrieve and transform",
     async () => {
-      const moviePages = await retrieve();
+      const { moviePages } = await retrieve();
 
       // Make sure the input looks roughly correct
       expect(moviePages).toBeTruthy();
-      expect(Object.keys(moviePages).length).toBe(62);
+      expect(moviePages.length).toBe(62);
 
-      const output = await transform(moviePages, {});
+      const output = await transform({ moviePages }, {});
       const data = JSON.parse(JSON.stringify(output));
 
       // Make sure the data looks roughly correct

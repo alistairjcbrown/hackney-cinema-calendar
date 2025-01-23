@@ -1,7 +1,6 @@
 const cheerio = require("cheerio");
+const { fetchText } = require("./utils");
 const { domain } = require("./attributes");
-
-const fetchText = async (url) => (await fetch(url)).text();
 
 async function retrieve() {
   const movieListPageUrl = `${domain}/calendar/`;

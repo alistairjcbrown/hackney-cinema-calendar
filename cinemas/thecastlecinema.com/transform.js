@@ -20,26 +20,20 @@ const getEntry = ($el, movieAdditionalData) => {
 };
 
 async function getAdditionalDataFor(moviePages) {
-  const additionalData = await Promise.all(
-    Object.keys(moviePages).map(async (url) => {
-      const $ = cheerio.load(moviePages[url]);
+  return Object.keys(moviePages).reduce((mapping, url) => {
+    const $ = cheerio.load(moviePages[url]);
 
-      return createOverview({
-        url,
-        duration: getText($(".film-duration")).replace("mins", ""),
-        year: getText($(".film-year")).match(/(\d{4})/)?.[0],
-        categories: "",
-        directors: getText($(".meta .meta-line .film-director")),
-        actors: getText($(".meta .meta-line .film-cast")),
-        certification: $(".bbfc img").attr("alt")?.replace("BBFC ", "")?.trim(),
-      });
-    }),
-  );
+    const data = createOverview({
+      duration: getText($(".film-duration")).replace("mins", ""),
+      year: getText($(".film-year")).match(/(\d{4})/)?.[0],
+      categories: "",
+      directors: getText($(".meta .meta-line .film-director")),
+      actors: getText($(".meta .meta-line .film-cast")),
+      certification: $(".bbfc img").attr("alt")?.replace("BBFC ", "")?.trim(),
+    });
 
-  return additionalData.reduce(
-    (mapping, { url, ...data }) => ({ ...mapping, [url]: data }),
-    {},
-  );
+    return { ...mapping, [url]: data };
+  }, {});
 }
 
 async function transform({ movieListPage, moviePages }, sourcedEvents) {

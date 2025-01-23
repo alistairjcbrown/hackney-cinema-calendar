@@ -1,34 +1,20 @@
 const cheerio = require("cheerio");
-const { dailyCache } = require("../../common/cache");
+const { getParams, fetchJson, fetchText, getText } = require("./utils");
 const { domain } = require("./attributes");
 
-const getParams = (page) =>
-  new URLSearchParams({
-    // Filters to just cinema
-    "af[16]": 16,
-    // Parameters required for drupal_ajax
-    view_name: "event_calendar",
-    view_display_id: "page",
-    view_dom_id: "dom-id",
-    "ajax_page_state[libraries]": "none",
-    // Pagination
-    page,
-  });
-
 async function retrieve() {
-  let page = 1;
-
   const movieIds = new Set();
-  const movieTitles = {};
+  const movieTitles = new Map();
+
+  let page = 1;
   while (true) {
-    const responseData = await dailyCache(
-      `barbican.org.uk-page-${page}`,
-      async () =>
-        (await fetch(`${domain}/views/ajax?${getParams(page)}`)).json(),
+    const responseData = await fetchJson(
+      `${domain}/views/ajax?${getParams(page)}`,
     );
     const { data } = responseData.find(
       ({ method }) => method === "infiniteScrollInsertView",
     );
+
     const $ = cheerio.load(data);
 
     if ($(".no-result-message").length > 0) break;
@@ -39,35 +25,28 @@ async function retrieve() {
         .data("saved-event-id");
 
       movieIds.add(movieId);
-      movieTitles[movieId] = $(this).find(".listing-title--event").text();
+      movieTitles.set(movieId, getText($(this).find(".listing-title--event")));
     });
 
     page++;
   }
 
-  const movies = [];
+  const moviePages = [];
   for (movieId of movieIds) {
-    const performancesUrl = `${domain}/whats-on/event/${movieId}/performances`;
-    const listingUrl = `${domain}/node/${movieId}`;
-
     const [performancePage, listingPage] = await Promise.all([
-      dailyCache(`barbican.org.uk-info-${movieId}-performances`, async () =>
-        fetch(performancesUrl).then((response) => response.text()),
-      ),
-      dailyCache(`barbican.org.uk-info-${movieId}-listing`, async () =>
-        fetch(listingUrl).then((response) => response.text()),
-      ),
+      fetchText(`${domain}/whats-on/event/${movieId}/performances`),
+      fetchText(`${domain}/node/${movieId}`),
     ]);
 
-    movies.push({
+    moviePages.push({
       movieId,
-      title: movieTitles[movieId],
+      title: movieTitles.get(movieId),
       performancePage,
       listingPage,
     });
   }
 
-  return movies;
+  return { moviePages };
 }
 
 module.exports = retrieve;

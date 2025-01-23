@@ -6,6 +6,8 @@ const {
   parseMinsToMs,
 } = require("../../common/utils");
 
+const fetchText = async (url) => (await fetch(url)).text();
+
 const getText = ($el) => $el.text().trim();
 
 const parseDate = ($el) => {
@@ -32,7 +34,6 @@ const createPerformance = ({ date, notesList, url, screen }) => ({
 });
 
 const createOverview = ({
-  url,
   duration,
   year,
   categories,
@@ -41,7 +42,6 @@ const createOverview = ({
   certification,
 }) => {
   return {
-    url,
     duration: parseMinsToMs(duration),
     year: year || undefined,
     categories: splitConjoinedItemsInList(convertToList(categories)),
@@ -52,6 +52,7 @@ const createOverview = ({
 };
 
 module.exports = {
+  fetchText,
   getText,
   parseDate,
   createPerformance,
