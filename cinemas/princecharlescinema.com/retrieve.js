@@ -1,5 +1,7 @@
-async function retrieve(url = "https://princecharlescinema.com/whats-on/") {
-  const response = await fetch(url);
+const { domain } = require("./attributes");
+
+async function retrieve() {
+  const response = await fetch(`${domain}/whats-on/`);
   return await response.text();
 }
 

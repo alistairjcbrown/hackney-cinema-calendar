@@ -4,8 +4,8 @@ const { enGB } = require("date-fns/locale/en-GB");
 const { parseMinsToMs, convertToList } = require("../../common/utils");
 const { domain } = require("./attributes");
 
-async function transform({ movieList, moviePages }, sourcedEvents) {
-  const movies = movieList.reduce((moviesWithPerformances, movie) => {
+async function transform({ movieListPage, moviePages }, sourcedEvents) {
+  const movies = movieListPage.reduce((moviesWithPerformances, movie) => {
     const performances = Object.values(movie.spektrix_data.instances).flatMap(
       (value) => value,
     );
