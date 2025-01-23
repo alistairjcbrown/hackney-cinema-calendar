@@ -2,57 +2,52 @@ const cheerio = require("cheerio");
 const slugify = require("slugify");
 const { parse } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
-const { dailyCache } = require("../../common/cache");
 const {
   parseMinsToMs,
   convertToList,
   splitConjoinedItemsInList,
 } = require("../../common/utils");
 const { domain } = require("./attributes");
-const retrieve = require("./retrieve");
 
-async function getAdditionalDataFor(pageUrls) {
-  const additionalData = await Promise.all(
-    Object.keys(pageUrls).map(async (id) => {
-      const key = `genesiscinema.co.uk-show-${id}`;
-      const data = await dailyCache(key, () => retrieve(pageUrls[id]));
-      const $ = cheerio.load(data);
-      const addiitionalData = {
-        id,
-        categories: [],
-        directors: [],
-        actors: [],
-      };
+async function getAdditionalDataFor(pageUrls, moviePages) {
+  const additionalData = Object.keys(pageUrls).map((id) => {
+    const data = moviePages[pageUrls[id]];
+    const $ = cheerio.load(data);
+    const addiitionalData = {
+      id,
+      categories: [],
+      directors: [],
+      actors: [],
+    };
 
-      $(".container .grid h1")
-        .parent()
-        .find("p")
-        .each(function () {
-          const contents = $(this).text().trim();
+    $(".container .grid h1")
+      .parent()
+      .find("p")
+      .each(function () {
+        const contents = $(this).text().trim();
 
-          const hasCategories = contents.match(/Genre:\s+(.*)$/i);
-          if (hasCategories) {
-            addiitionalData.categories = convertToList(hasCategories[1]);
-          }
+        const hasCategories = contents.match(/Genre:\s+(.*)$/i);
+        if (hasCategories) {
+          addiitionalData.categories = convertToList(hasCategories[1]);
+        }
 
-          const hasDirector = contents.match(/Directed by:\s+(.*)$/i);
-          if (hasDirector) {
-            addiitionalData.directors = splitConjoinedItemsInList(
-              convertToList(hasDirector[1]),
-            );
-          }
+        const hasDirector = contents.match(/Directed by:\s+(.*)$/i);
+        if (hasDirector) {
+          addiitionalData.directors = splitConjoinedItemsInList(
+            convertToList(hasDirector[1]),
+          );
+        }
 
-          const hasActors = contents.match(/Starring:\s+(.*)$/i);
-          if (hasActors) {
-            addiitionalData.actors = splitConjoinedItemsInList(
-              convertToList(hasActors[1]),
-            );
-          }
-        });
+        const hasActors = contents.match(/Starring:\s+(.*)$/i);
+        if (hasActors) {
+          addiitionalData.actors = splitConjoinedItemsInList(
+            convertToList(hasActors[1]),
+          );
+        }
+      });
 
-      return addiitionalData;
-    }),
-  );
+    return addiitionalData;
+  });
 
   return additionalData.reduce(
     (mapping, { id, ...data }) => ({ ...mapping, [id]: data }),
@@ -60,8 +55,8 @@ async function getAdditionalDataFor(pageUrls) {
   );
 }
 
-async function transform(data, sourcedEvents) {
-  const $ = cheerio.load(data);
+async function transform({ movieListPage, moviePages }, sourcedEvents) {
+  const $ = cheerio.load(movieListPage);
   const $days = $(".whatson_panel");
 
   const pageUrls = {};
@@ -77,7 +72,7 @@ async function transform(data, sourcedEvents) {
     });
   });
 
-  const movieAdditionalData = await getAdditionalDataFor(pageUrls);
+  const movieAdditionalData = await getAdditionalDataFor(pageUrls, moviePages);
   const movies = {};
   $days.each(function () {
     const $day = $(this);

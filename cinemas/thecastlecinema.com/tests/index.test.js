@@ -1,10 +1,10 @@
 /** @jest-environment setup-polly-jest/jest-environment-node */
 const { setupPolly, schemaValidate } = require("../../../common/test-utils");
-const { retrieve, transform } = require("..");
+const { retrieve, transform, attributes } = require("..");
 
 const isRecording = false;
 
-describe("The Castle Cinema", () => {
+describe(attributes.name, () => {
   setupPolly(isRecording, __dirname);
   jest.useFakeTimers().setSystemTime(new Date("2025-01-23"));
 
