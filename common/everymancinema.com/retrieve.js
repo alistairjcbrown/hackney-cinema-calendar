@@ -25,16 +25,16 @@ async function retrieve({ domain, url, cinemaId }) {
 
     // All movie data
     if (data?.data?.allMovie) {
-      movieData = data.data;
+      movieData = data.data.allMovie.nodes;
     }
 
     // Attribute values
     if (data?.data?.allAttribute) {
-      attributeData = data.data;
+      attributeData = data.data.allAttribute.nodes;
     }
   }
 
-  const movieIds = movieData.allMovie.nodes.map(({ id }) => id);
+  const movieIds = movieData.map(({ id }) => id);
   const today = new Date();
   const schedulePayload = {
     theaters: [{ id: cinemaId, timeZone: "Europe/London" }],
@@ -56,9 +56,8 @@ async function retrieve({ domain, url, cinemaId }) {
   const schedule = await scheduleResponse.json();
 
   return {
-    schedule: schedule[cinemaId].schedule,
-    movieData: movieData.allMovie.nodes,
-    attributeData: attributeData.allAttribute.nodes,
+    movieListPage: schedule[cinemaId].schedule,
+    moviePages: { movieData, attributeData },
   };
 }
 

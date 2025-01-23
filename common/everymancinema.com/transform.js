@@ -6,7 +6,7 @@ const {
 
 async function transform(
   { domain, cinemaId },
-  { schedule, movieData, attributeData },
+  { movieListPage, moviePages: { movieData, attributeData } },
   sourcedEvents,
 ) {
   const movies = movieData.reduce((moviesAtThreate, movie) => {
@@ -40,9 +40,9 @@ async function transform(
     (events) => events,
   );
 
-  return Object.keys(schedule)
+  return Object.keys(movieListPage)
     .map((movieId) => {
-      const performances = Object.values(schedule[movieId]).flatMap(
+      const performances = Object.values(movieListPage[movieId]).flatMap(
         (dayPerformances) => dayPerformances,
       );
       return {
