@@ -78,4 +78,5 @@ module.exports = {
   cache,
   dailyCache,
   readDailyCache,
+  readCache,
 };
