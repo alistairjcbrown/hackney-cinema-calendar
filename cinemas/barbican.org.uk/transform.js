@@ -4,9 +4,11 @@ const { parseISO } = require("date-fns");
 
 const convertToMs = (runtime) => {
   if (!runtime) return undefined;
-  const [, hours = 0, minutes] = runtime
+  const hrsAndMinsString = runtime
     .trim()
     .match(/^(?:(\d+)\s*hr?s?\s+)?(\d+)\s*mi?n?s?/i);
+  const hoursString = runtime.trim().match(/^(\d+)\s*hour?s?/i);
+  const [, hours = 0, minutes = 0] = hrsAndMinsString || hoursString;
   return parseMinsToMs(parseInt(hours, 10) * 60 + parseInt(minutes, 10));
 };
 
@@ -63,11 +65,13 @@ function processListingPage(data) {
 
     return [];
   };
+
   const getDuration = () => {
     if (summary.runtime) return convertToMs(summary.runtime);
     if (footnotes.duration) return parseMinsToMs(footnotes.duration);
     return undefined;
   };
+
   const certification =
     $("._classification").text().replace(/[()]/g, "").trim() || undefined;
 
