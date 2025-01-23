@@ -9,14 +9,17 @@ describe("The Castle Cinema", () => {
   it("retrieve and transform", async () => {
     const { movieListPage, moviePages } = await retrieve();
 
-    // Make sure the data looks roughly correct
+    // Make sure the input looks roughly correct
     expect(movieListPage).toBeTruthy();
     expect(movieListPage).toBeTruthy();
-    expect(Object.keys(moviePages).length).toBe(19);
+    expect(Object.keys(moviePages).length).toBe(21);
 
-    // Snapshot the transformation
-    expect(
-      await transform({ movieListPage, moviePages }, {}),
-    ).toMatchSnapshot();
+    const output = await transform({ movieListPage, moviePages }, {});
+    const data = JSON.parse(JSON.stringify(output));
+
+    // Make sure the data looks roughly correct
+    expect(data.length).toBe(21);
+
+    expect(data).toMatchSnapshot();
   }, 10_000);
 });

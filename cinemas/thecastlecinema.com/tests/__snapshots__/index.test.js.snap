@@ -70,7 +70,7 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
       "directors": [
         "Max Webster",
       ],
-      "duration": 10800000,
+      "duration": 10200000,
       "year": "2025",
     },
     "performances": [
@@ -493,6 +493,43 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
   },
   {
     "overview": {
+      "actors": [],
+      "categories": [],
+      "directors": [],
+      "duration": 14400000,
+      "year": "2025",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://thecastlecinema.com/bookings/12314/the-castle-s-8th-birthday-party-in-the-bar",
+        "notes": "",
+        "time": 1738956600000,
+      },
+    ],
+    "title": "The Castle's 8th Birthday Party (in the bar)",
+    "url": "https://thecastlecinema.com/programme/93193/the-castle-s-8th-birthday-party-in-the-bar/",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "directors": [],
+      "duration": 3420000,
+      "year": "1995",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://thecastlecinema.com/bookings/12313/pitchblack-playback-tricky-maxinquaye-30th-anniversary",
+        "notes": "music",
+        "screen": "S1",
+        "time": 1740517200000,
+      },
+    ],
+    "title": "Pitchblack Playback: Tricky 'Maxinquaye' (30th Anniversary)",
+    "url": "https://thecastlecinema.com/programme/93194/pitchblack-playback-tricky-maxinquaye-30th-anniversary/",
+  },
+  {
+    "overview": {
       "actors": [
         "Timothee Chalamet",
         "Elle Fanning",
@@ -533,7 +570,7 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
       },
       {
         "bookingUrl": "https://thecastlecinema.com/bookings/12249/a-complete-unknown",
-        "notes": "",
+        "notes": "Sold out",
         "screen": "S2",
         "time": 1737751500000,
       },

@@ -1,9 +1,12 @@
 const cheerio = require("cheerio");
 const { domain } = require("./attributes");
 
+const fetchText = async (url) => (await fetch(url)).text();
+
 async function retrieve() {
   const movieListPageUrl = `${domain}/calendar/`;
-  const movieListPage = await (await fetch(movieListPageUrl)).text();
+  const movieListPage = await fetchText(movieListPageUrl);
+
   const $ = cheerio.load(movieListPage);
 
   const moviePageUrls = new Set();
@@ -14,7 +17,7 @@ async function retrieve() {
 
   const moviePages = {};
   for (moviePageUrl of [...moviePageUrls]) {
-    moviePages[moviePageUrl] = await (await fetch(moviePageUrl)).text();
+    moviePages[moviePageUrl] = await fetchText(moviePageUrl);
   }
 
   return {
