@@ -2,6 +2,9 @@ const path = require("path");
 const { setupPolly } = require("setup-polly-jest");
 const FetchAdapter = require("@pollyjs/adapter-fetch");
 const PersisterFs = require("@pollyjs/persister-fs");
+const Ajv = require("ajv");
+const addFormats = require("ajv-formats");
+const schema = require("../schema.json");
 
 global.navigator.onLine = true;
 
@@ -17,7 +20,7 @@ class FetchAdapterNoWarning extends FetchAdapter {
   }
 }
 
-function setupPollyWrapper(mode, dirname) {
+function setupPollyWrapper(isRecording, dirname) {
   return setupPolly({
     adapters: [FetchAdapterNoWarning],
     persister: PersisterFs,
@@ -26,10 +29,19 @@ function setupPollyWrapper(mode, dirname) {
         recordingsDir: path.resolve(dirname, "__recordings__"),
       },
     },
-    mode, // "replay", "record", or "passthrough"
+    // "replay", "record", or "passthrough"
+    mode: isRecording ? "record" : "replay",
   });
+}
+
+function schemaValidate(data) {
+  const ajv = new Ajv({ allErrors: true });
+  addFormats(ajv);
+  const validate = ajv.compile(schema);
+  return validate(data);
 }
 
 module.exports = {
   setupPolly: setupPollyWrapper,
+  schemaValidate,
 };
