@@ -20,15 +20,15 @@ const getCategories = (attributeIds) => {
   return categories;
 };
 
-async function transform(venue, { filmShowings, filmData }, sourcedEvents) {
+async function transform(venue, { movieListPage, moviePages }, sourcedEvents) {
   const movies = {};
   let events = [];
 
-  filmShowings.forEach((dayData) => {
+  movieListPage.forEach((dayData) => {
     events = events.concat(dayData.events);
 
     dayData.films.forEach((film) => {
-      const additionalData = filmData[film.id].filmDetails;
+      const additionalData = moviePages[film.id].filmDetails;
 
       const overview = {
         duration: film.length ? parseMinsToMs(film.length) : undefined,
