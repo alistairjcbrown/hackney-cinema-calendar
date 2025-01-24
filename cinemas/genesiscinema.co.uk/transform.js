@@ -1,128 +1,78 @@
 const cheerio = require("cheerio");
 const slugify = require("slugify");
-const { parse } = require("date-fns");
-const { enGB } = require("date-fns/locale/en-GB");
 const {
-  parseMinsToMs,
-  convertToList,
-  splitConjoinedItemsInList,
+  getText,
+  createOverview,
+  createPerformance,
 } = require("../../common/utils");
+const { parseDate } = require("./utils");
 const { domain } = require("./attributes");
 
-async function getAdditionalDataFor(pageUrls, moviePages) {
-  const additionalData = Object.keys(pageUrls).map((id) => {
-    const data = moviePages[pageUrls[id]];
-    const $ = cheerio.load(data);
-    const addiitionalData = {
-      id,
-      categories: [],
-      directors: [],
-      actors: [],
-    };
+function getAdditionalDataFor(data) {
+  const $ = cheerio.load(data);
 
-    $(".container .grid h1")
-      .parent()
-      .find("p")
-      .each(function () {
-        const contents = $(this).text().trim();
+  const addiitionalData = {};
 
-        const hasCategories = contents.match(/Genre:\s+(.*)$/i);
-        if (hasCategories) {
-          addiitionalData.categories = convertToList(hasCategories[1]);
-        }
+  $(".container .grid h1")
+    .parent()
+    .find("p")
+    .each(function () {
+      const contents = getText($(this));
 
-        const hasDirector = contents.match(/Directed by:\s+(.*)$/i);
-        if (hasDirector) {
-          addiitionalData.directors = splitConjoinedItemsInList(
-            convertToList(hasDirector[1]),
-          );
-        }
+      const categories = contents.match(/Genre:\s+(.*)$/i);
+      if (categories) addiitionalData.categories = categories[1];
 
-        const hasActors = contents.match(/Starring:\s+(.*)$/i);
-        if (hasActors) {
-          addiitionalData.actors = splitConjoinedItemsInList(
-            convertToList(hasActors[1]),
-          );
-        }
-      });
+      const directors = contents.match(/Directed by:\s+(.*)$/i);
+      if (directors) addiitionalData.directors = directors[1];
 
-    return addiitionalData;
-  });
+      const actors = contents.match(/Starring:\s+(.*)$/i);
+      if (actors) addiitionalData.actors = actors[1];
+    });
 
-  return additionalData.reduce(
-    (mapping, { id, ...data }) => ({ ...mapping, [id]: data }),
-    {},
-  );
+  return addiitionalData;
 }
 
 async function transform({ movieListPage, moviePages }, sourcedEvents) {
   const $ = cheerio.load(movieListPage);
   const $days = $(".whatson_panel");
 
-  const pageUrls = {};
-  $days.each(function () {
-    const $day = $(this);
-    const $movieShowings = $day.find("> div > div");
-    $movieShowings.each(function () {
-      const $movieShowing = $(this);
-      const $titleInfo = $movieShowing.find("h2");
-      const movieId = $titleInfo.find("a").attr("href").replace("event/", "");
-      const url = `${domain}/${$titleInfo.find("a").attr("href")}`;
-      pageUrls[movieId] = url;
-    });
-  });
-
-  const movieAdditionalData = await getAdditionalDataFor(pageUrls, moviePages);
   const movies = {};
   $days.each(function () {
-    const $day = $(this);
-    const dayId = $day.attr("id").replace("panel_", "");
+    const dayId = $(this).attr("id").replace("panel_", "");
     const [, year, month, day] = dayId.match(/^(\d{4})(\d{2})(\d{2})$/);
 
-    const $movieShowings = $day.find("> div > div");
+    const $movieShowings = $(this).find("> div > div");
     $movieShowings.each(function () {
-      const $movieShowing = $(this);
-      const $titleInfo = $movieShowing.find("h2");
-      const title = $titleInfo.find("a").text().trim();
+      const $titleInfo = $(this).find("h2");
+      const title = getText($titleInfo.find("a"));
       const id = slugify(title);
 
       if (!movies[id]) {
-        const $duration = $titleInfo.parent().next();
-        let duration;
+        const urlPath = $titleInfo.find("a").attr("href");
+        const movieUrl = `${domain}/${urlPath}`;
 
-        const durationText = $duration.text().trim();
-        const durationMatch = durationText.match(
+        const $duration = $titleInfo.parent().next();
+        const durationMatch = getText($duration).match(
           /^Running time:\W+(\d+)\W*mins$/,
         );
-        if (durationMatch) {
-          duration = parseMinsToMs(durationMatch[1]);
-        }
-
-        const movieId = $titleInfo.find("a").attr("href").replace("event/", "");
-        const overview = {
-          duration,
-          categories: [],
-          directors: [],
-          actors: [],
-          ...movieAdditionalData[movieId],
-        };
-
         const ageRestriction = $titleInfo.next().attr("alt");
-        if (ageRestriction && !ageRestriction.startsWith("TBC")) {
-          overview.certification = ageRestriction;
-        }
-
-        const $trailerLink = $movieShowing.find(".text-right a.text-black");
+        const $trailerLink = $(this).find(".text-right a.text-black");
         const youtubeCall = $trailerLink.attr("onclick").trim();
         const youtubeMatch = youtubeCall.match(/^showTrailer\('(\w+)'\)$/);
-        if (youtubeMatch) {
-          overview.trailer = `https://www.youtube.com/watch?v=${youtubeMatch[1]}`;
-        }
+
+        const overview = createOverview({
+          duration: durationMatch[1],
+          certification: ageRestriction,
+          trailer: youtubeMatch
+            ? `https://www.youtube.com/watch?v=${youtubeMatch[1]}`
+            : undefined,
+          ...getAdditionalDataFor(moviePages[movieUrl]),
+        });
 
         movies[id] = {
           // Fix for special characters not encoding correctly in calendar
           title: title.replace(/’/g, "'").replace(/–/g, "-"),
-          url: `${domain}/${$titleInfo.find("a").attr("href")}`,
+          url: movieUrl,
           overview,
           performances: [],
         };
@@ -132,37 +82,30 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
         .parent()
         .parent()
         .find("a.perfButton,span.perfButton");
+
       $performances.each(function () {
         $performance = $(this);
         const $bookingButton =
           $performance.children().length > 0
             ? $performance.children().last()
             : $performance;
-        const [hours, minutes] = $bookingButton.text().trim().split(":");
 
-        let notes = "";
+        const [hours, minutes] = getText($bookingButton).split(":");
+
+        const notesList = [];
         $performance.find("i").each(function () {
           const indicatorClass = $(this).attr("class").trim();
           const indicator = indicatorClass.match(/\ba1-event-(\w+)\b/);
-          if (indicator) {
-            notes = `${notes}\n${indicator[1]}`;
-          }
+          if (indicator) notesList.push(indicator[1]);
         });
 
-        movies[id].performances = movies[id].performances.concat([
-          {
-            time: parse(
-              `${year}-${month}-${day} ${hours}:${minutes}`,
-              "yyyy-MM-dd HH:mm",
-              new Date(),
-              {
-                locale: enGB,
-              },
-            ).getTime(),
-            notes: notes.trim(),
-            bookingUrl: $performance.attr("href") || movies[id].url,
-          },
-        ]);
+        movies[id].performances = movies[id].performances.concat(
+          createPerformance({
+            date: parseDate(`${year}-${month}-${day} ${hours}:${minutes}`),
+            notesList,
+            url: $performance.attr("href") || movies[id].url,
+          }),
+        );
       });
     });
   });
@@ -170,9 +113,7 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
   const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
     (events) => events,
   );
-  return Object.values(movies)
-    .filter(({ performances }) => performances.length !== 0)
-    .concat(listOfSourcedEvents);
+  return Object.values(movies).concat(listOfSourcedEvents);
 }
 
 module.exports = transform;

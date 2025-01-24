@@ -33,12 +33,14 @@ const getEventDate = (time) =>
 
 const filterHistoricalPerformances = (movies) => {
   const startOfToday = startOfDay(new Date());
-  return movies.map((movie) => ({
-    ...movie,
-    performances: movie.performances.filter(({ time }) =>
+  return movies.reduce((populatedMovies, movie) => {
+    const performances = movie.performances.filter(({ time }) =>
       isAfter(time, startOfToday),
-    ),
-  }));
+    );
+    // Remove movies which don't have any performances
+    if (performances.length === 0) return populatedMovies;
+    return populatedMovies.concat({ ...movie, performances });
+  }, []);
 };
 
 const convertToList = (value) => {
