@@ -37,9 +37,16 @@ async function hydrate(shows) {
     }
 
     if (!show.overview.duration) {
-      const movieInfo = await getMovieInfoAndCacheResults({ id: result.id });
-      if (movieInfo.runtime) {
-        show.overview.duration = parseMinsToMs(movieInfo.runtime);
+      try {
+        const movieInfo = await getMovieInfoAndCacheResults({ id: result.id });
+        if (movieInfo.runtime) {
+          show.overview.duration = parseMinsToMs(movieInfo.runtime);
+        }
+      } catch (e) {
+        // Nothing to be done if the movieBD is having an issue!
+        // This can happen if the match has been removed, but is still being
+        // returned by the search API - looking up the movie will return 404
+        console.log(">>> error", e);
       }
     }
 

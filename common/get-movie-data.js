@@ -23,8 +23,18 @@ const compareAsSimilar = (firstString, secondString) => {
 };
 
 const matchesExpectedCastCrew = async (match, show) => {
-  const movieInfo = await getMovieInfoAndCacheResults(match);
-  const crew = movieInfo.credits.crew.flatMap(({ name }) => [
+  let movieInfo;
+  try {
+    movieInfo = await getMovieInfoAndCacheResults(match);
+  } catch (e) {
+    // Nothing to be done if the movieBD is having an issue!
+    // This can happen if the match has been removed, but is still being
+    // returned by the search API - looking up the movie will return 404
+    return false;
+  }
+
+  const crewCredits = movieInfo.credits?.crew || [];
+  const crew = crewCredits.flatMap(({ name }) => [
     normalizeName(name),
     normalizeName(name.split(" ").reverse().join(" ")),
   ]);
@@ -46,7 +56,8 @@ const matchesExpectedCastCrew = async (match, show) => {
     if (directorMatches.length > 0) return true;
   }
 
-  const cast = movieInfo.credits.cast.flatMap(({ name }) => [
+  const castCredits = movieInfo.credits?.cast || [];
+  const cast = castCredits.flatMap(({ name }) => [
     normalizeName(name),
     normalizeName(name.split(" ").reverse().join(" ")),
   ]);
