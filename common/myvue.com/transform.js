@@ -18,7 +18,7 @@ async function transform(
       directors: movie.director,
       actors: movie.cast,
       duration: movie.runningTime,
-      certification: movie.certification?.name,
+      classification: movie.certificate?.name,
     });
 
     const performances = movie.showingGroups.flatMap(({ sessions }) =>

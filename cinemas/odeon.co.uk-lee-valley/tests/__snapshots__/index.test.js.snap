@@ -21,7 +21,7 @@ exports[`ODEON Luxe Lee Valley retrieve and transform 1`] = `
         "Comedy",
         "Family",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Dougal Wilson",
       ],
@@ -129,7 +129,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Drama",
         "Family",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Barry Jenkins",
       ],
@@ -288,7 +288,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "time": 1737893400000,
@@ -578,7 +577,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Musical ",
         "Romance",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Jon M. Chu",
       ],
@@ -704,7 +703,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       "categories": [
         "Animation",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [],
       "duration": 3600000,
     },
@@ -777,7 +776,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Family",
         "Musical ",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Dave Derrick Jr.",
       ],
@@ -789,7 +788,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74861",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 9",
@@ -799,7 +797,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74901",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 9",
@@ -809,7 +806,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74900",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 9",
@@ -819,7 +815,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74814",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 9",
@@ -829,7 +824,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74914",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 9",
@@ -839,7 +833,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74923",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 9",
@@ -849,7 +842,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74933",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 9",
@@ -859,7 +851,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74977",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -870,7 +861,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75013",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 9",
@@ -880,7 +870,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75050",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 9",
@@ -890,7 +879,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75088",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 9",
@@ -917,7 +905,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Drama",
         "Family",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Ridley Scott",
       ],
@@ -988,7 +976,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       "categories": [
         "Thriller",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Mel Gibson",
       ],
@@ -1156,7 +1144,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 8",
@@ -1285,7 +1272,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Animation",
         "Family",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Jeff Fowler",
       ],
@@ -1297,7 +1284,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74854",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 3",
@@ -1307,7 +1293,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74866",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 3",
@@ -1317,7 +1302,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74905",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -1327,7 +1311,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74897",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 3",
@@ -1337,7 +1320,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74904",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -1347,7 +1329,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74808",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 3",
@@ -1357,7 +1338,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75111",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -1367,7 +1347,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74819",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 3",
@@ -1377,7 +1356,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74910",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -1387,7 +1365,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74916",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 3",
@@ -1397,7 +1374,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74921",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -1407,7 +1383,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74927",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 3",
@@ -1417,7 +1392,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75112",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -1427,7 +1401,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74939",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 3",
@@ -1437,7 +1410,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74970",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -1448,7 +1420,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74982",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -1459,7 +1430,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75005",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
@@ -1469,7 +1439,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75018",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
@@ -1479,7 +1448,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75042",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
@@ -1489,7 +1457,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75055",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
@@ -1499,7 +1466,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75080",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
@@ -1509,7 +1475,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75093",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
@@ -1535,7 +1500,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       "categories": [
         "Thriller",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Edward Berger",
       ],
@@ -1607,7 +1572,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Drama",
         "Romance",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "John Crowley",
       ],
@@ -1765,7 +1730,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Biography",
         "Musical ",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Michael Gracey",
       ],
@@ -1776,7 +1741,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75138",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 11",
@@ -1785,7 +1749,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74862",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 11",
@@ -1794,7 +1757,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74815",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 11",
@@ -1803,7 +1765,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74934",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 11",
@@ -1812,7 +1773,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74978",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -1822,7 +1782,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75015",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 6",
@@ -1831,7 +1790,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75052",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 6",
@@ -1840,7 +1798,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75117",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
@@ -1849,7 +1806,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75090",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
@@ -1876,7 +1832,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Fantasy",
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -2004,7 +1960,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 12",
         "time": 1738075200000,
@@ -2093,7 +2048,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       "categories": [
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Leigh Whannell",
       ],
@@ -2170,7 +2125,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 8",
         "time": 1737927000000,
@@ -2287,7 +2241,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Drama",
         "Music",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -2299,7 +2253,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74851",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2309,7 +2262,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74865",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2319,7 +2271,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74877",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2329,7 +2280,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75120",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -2339,7 +2289,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74818",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2349,7 +2298,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74830",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2359,7 +2307,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74925",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -2369,7 +2316,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74937",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2379,7 +2325,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74951",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2389,7 +2334,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74967",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -2400,7 +2344,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74981",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -2411,7 +2354,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74993",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -2422,7 +2364,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75003",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2432,7 +2373,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75017",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2442,7 +2382,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75029",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2452,7 +2391,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75040",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2462,10 +2400,8 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75054",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "time": 1738170000000,
@@ -2474,7 +2410,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75067",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2484,7 +2419,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75078",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2494,7 +2428,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75092",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2504,7 +2437,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75104",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2529,7 +2461,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Horror",
         "Thriller",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Steven Soderbergh",
       ],
@@ -2762,7 +2694,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
         "time": 1738270200000,
@@ -2786,7 +2717,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Mystery",
         "Thriller",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -2797,7 +2728,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74848",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 10",
@@ -2806,7 +2736,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74884",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 10",
@@ -2815,7 +2744,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74907",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 11",
@@ -2824,7 +2752,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74802",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 10",
@@ -2833,7 +2760,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74837",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 10",
@@ -2842,7 +2768,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74922",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 11",
@@ -2851,7 +2776,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74938",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 10",
@@ -2860,7 +2784,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74958",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 9",
@@ -2869,7 +2792,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75141",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -2879,7 +2801,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74983",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -2889,7 +2810,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75113",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -2899,7 +2819,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75142",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -2909,7 +2828,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75019",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 10",
@@ -2918,7 +2836,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75114",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 9",
@@ -2927,7 +2844,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75144",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -2937,7 +2853,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75056",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 10",
@@ -2946,7 +2861,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75116",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 9",
@@ -2955,7 +2869,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75094",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 10",
@@ -2964,7 +2877,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75115",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 9",
@@ -2989,7 +2901,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Comedy",
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -3055,7 +2967,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Family",
         "Fantasy",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Ang Lee",
       ],
@@ -3094,7 +3006,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Romance",
         "Subtitled Foreign Language",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Engin Erden",
       ],
@@ -3209,7 +3121,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Thriller",
         "Subtitled Foreign Language",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Abhishek Anil Kapur",
         "Sandeep Kewlani",
@@ -3263,7 +3175,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Comedy",
         "Subtitled Foreign Language",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Kamil Cetin",
       ],
@@ -3354,7 +3266,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Animation",
         "Family",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Don Hall",
         "Carlos López Estrada",
@@ -3399,7 +3311,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Comedy",
         "Family",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Kelsey Mann",
       ],
@@ -3449,7 +3361,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Comedy",
         "Family",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Chris Renaud",
       ],
@@ -3508,7 +3420,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Comedy",
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jason Reitman",
       ],
@@ -3547,7 +3459,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Comedy",
         "Family",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Richard Claus",
         "Karsten Kiilerich",
@@ -3580,7 +3492,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       "categories": [
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [],
       "duration": 7200000,
     },
@@ -3622,7 +3534,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Biography",
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Nick Hamm",
       ],
@@ -3633,7 +3545,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75158",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 11",
@@ -3658,7 +3569,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Documentary",
         "Music",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Dawn Porter",
       ],
@@ -3708,7 +3619,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Thriller",
         "Sci-Fi",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Drew Hancock",
       ],
@@ -3863,7 +3774,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Comedy",
         "Romance",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Garry Marshall",
       ],
@@ -3980,7 +3891,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Comedy",
         "Fantasy",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Peter Hastings",
       ],
@@ -4309,7 +4220,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Drama",
         "Romance",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Robert Zemeckis",
       ],
@@ -4350,7 +4261,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74619",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -4717,7 +4627,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 8",
         "time": 1739820600000,
@@ -4823,7 +4732,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 6",
         "time": 1739986200000,
@@ -4940,7 +4848,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74497",
         "notes": "Requires 3D glasses
-3D - Web 
+3D - Web
 Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -5000,7 +4908,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74509",
         "notes": "Requires 3D glasses
-3D - Web 
+3D - Web
 Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -5061,7 +4969,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74518",
         "notes": "Requires 3D glasses
-3D - Web 
+3D - Web
 Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -5121,7 +5029,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74530",
         "notes": "Requires 3D glasses
-3D - Web 
+3D - Web
 Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -5182,7 +5090,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74539",
         "notes": "Requires 3D glasses
-3D - Web 
+3D - Web
 Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -5242,7 +5150,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74551",
         "notes": "Requires 3D glasses
-3D - Web 
+3D - Web
 Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -5271,7 +5179,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
         "time": 1739740200000,
@@ -5531,7 +5438,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       "categories": [
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [],
       "duration": 7200000,
     },
@@ -5540,7 +5447,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-75161",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -5568,7 +5474,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74618",
         "notes": "Event Cinema
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -5617,7 +5522,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Event Cinema
 ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
         "time": 1740496800000,
@@ -5660,7 +5564,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74624",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 12",
@@ -5670,7 +5573,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74629",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 12",
@@ -5680,7 +5582,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74635",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 12",
@@ -5690,7 +5591,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74641",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 12",
@@ -5700,7 +5600,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74649",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 12",
@@ -5710,7 +5609,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74654",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 12",
@@ -5720,7 +5618,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74660",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 12",
@@ -5730,7 +5627,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74666",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 12",
@@ -5740,7 +5636,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74674",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 12",
@@ -5750,7 +5645,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74679",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 12",
@@ -5760,7 +5654,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74685",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 12",
@@ -5770,7 +5663,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=949-74691",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 12",
@@ -5829,7 +5721,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Family",
         "Thriller",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Gary Ross",
       ],

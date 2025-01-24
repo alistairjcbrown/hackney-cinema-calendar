@@ -6,7 +6,7 @@ exports[`Electric Cinema Portobello retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "James Bobin",
       ],
@@ -27,7 +27,7 @@ exports[`Electric Cinema Portobello retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -54,7 +54,7 @@ exports[`Electric Cinema Portobello retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [],
       "year": "2024",
     },
@@ -85,7 +85,7 @@ exports[`Electric Cinema Portobello retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -190,7 +190,7 @@ exports[`Electric Cinema Portobello retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],

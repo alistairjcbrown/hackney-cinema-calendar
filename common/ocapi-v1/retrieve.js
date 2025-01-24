@@ -11,15 +11,17 @@ async function retrieve({ cinemaId }, { url, apiUrl, authToken }) {
   );
   const { filmScreeningDates } = await screeningDatesResponse.json();
 
-  return Promise.all(
-    filmScreeningDates.map(async ({ businessDate }) => {
-      const showtimesResponse = await fetch(
-        `${prefix}/ocapi/v1/showtimes/by-business-date/${businessDate}?siteIds=${cinemaId}`,
-        { headers: getHeaders() },
-      );
-      return showtimesResponse.json();
-    }),
-  );
+  const moviePages = [];
+
+  for ({ businessDate } of filmScreeningDates) {
+    const showtimesResponse = await fetch(
+      `${prefix}/ocapi/v1/showtimes/by-business-date/${businessDate}?siteIds=${cinemaId}`,
+      { headers: getHeaders() },
+    );
+    moviePages.push(await showtimesResponse.json());
+  }
+
+  return moviePages;
 }
 
 module.exports = retrieve;

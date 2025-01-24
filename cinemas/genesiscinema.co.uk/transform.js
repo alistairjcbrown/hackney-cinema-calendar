@@ -62,7 +62,7 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
 
         const overview = createOverview({
           duration: durationMatch[1],
-          certification: ageRestriction,
+          classification: ageRestriction,
           trailer: youtubeMatch
             ? `https://www.youtube.com/watch?v=${youtubeMatch[1]}`
             : undefined,

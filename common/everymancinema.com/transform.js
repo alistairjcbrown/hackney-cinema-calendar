@@ -17,7 +17,7 @@ async function transform(
       categories: movie.genres,
       actors: movie.casting,
       directors: movie.direction.concat(movie.coDirection),
-      certification: movie.certificate,
+      classification: movie.certificate,
       trailer: movie.trailer.youtube?.[0],
     });
 

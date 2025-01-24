@@ -11,7 +11,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Monica Barbaro",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -43,7 +43,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Timothee Chalamet",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Christopher Nolan",
       ],
@@ -82,7 +82,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Jerry Harrison",
       ],
       "categories": [],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Jonathan Demme",
       ],
@@ -108,7 +108,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Guy Pearce",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -158,7 +158,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Kris Kristofferson",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Stephen Norrington",
       ],
@@ -182,7 +182,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Ron Perlman",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Guillermo del Toro",
       ],
@@ -204,7 +204,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Victor Kossakovsky",
       ],
@@ -239,7 +239,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Tom Waits",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Francis Ford Coppola",
       ],
@@ -265,7 +265,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Dennis Quaid",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Coralie Fargeat",
       ],
@@ -294,7 +294,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Lily-Rose Depp",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -327,7 +327,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Eileen Stevens",
       ],
       "categories": [],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Naoko Yamada",
       ],
@@ -390,7 +390,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Rupert Friend",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Drew Hancock",
       ],
@@ -509,7 +509,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Hayato Taya",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Kenji Kamiyama",
       ],
@@ -555,7 +555,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Eileen Stevens",
       ],
       "categories": [],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Naoko Yamada",
       ],
@@ -593,7 +593,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Allen Joseph",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "David Lynch",
       ],
@@ -621,7 +621,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Kiefer Sutherland",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Joel Schumacher",
       ],
@@ -648,7 +648,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Gary Busey",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Kathryn Bigelow",
       ],
@@ -760,7 +760,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Ron Perlman",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Guillermo del Toro",
       ],
@@ -787,7 +787,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Mozhan Marnò",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Ana Lily Amirpour",
       ],
@@ -1019,7 +1019,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Taylor Lautner",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Catherine Hardwicke",
       ],
@@ -1047,7 +1047,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Jeffrey Wright",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jim Jarmusch",
       ],
@@ -1073,7 +1073,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Bradley Whitford",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jordan Peele",
       ],
@@ -1118,7 +1118,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Elisabeth Moss.",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jordan Peele",
       ],
@@ -1144,7 +1144,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Per Ragnar",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Tomas Alfredson",
       ],
@@ -1170,7 +1170,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Emily Robinson",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Bo Burnham",
       ],
@@ -1196,7 +1196,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Deborah Unger",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "David Cronenberg",
       ],
@@ -1220,7 +1220,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Heidi von Palleske",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "David Cronenberg",
       ],
@@ -1254,7 +1254,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Andy Serkis",
       ],
       "categories": [],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Peter Jackson",
       ],
@@ -1282,7 +1282,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Joseph Quinn",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Ridley Scott",
       ],
@@ -1309,7 +1309,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Robert De Niro",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Todd Phillips",
       ],
@@ -1338,7 +1338,7 @@ exports[`BFI IMAX retrieve and transform 1`] = `
         "Steve Coogan",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Todd Phillips",
       ],

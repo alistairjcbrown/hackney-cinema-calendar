@@ -33,7 +33,7 @@ exports[`Clapham Picturehouse retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "U",
+      "classification": "U",
       "directors": [],
       "duration": 1560000,
     },
@@ -70,7 +70,7 @@ exports[`Clapham Picturehouse retrieve and transform 1`] = `
         "Carla Tous",
       ],
       "categories": [],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Dougal Wilson",
       ],
@@ -104,7 +104,7 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "Matt Berry",
       ],
       "categories": [],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Chris Sanders",
       ],
@@ -133,7 +133,7 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "VALERIA GOLINO",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Pablo Larraín",
       ],
@@ -176,7 +176,7 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "Elisabet Strid",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Barrie Kosky",
       ],
@@ -616,7 +616,7 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "Judit Kutasi",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -638,7 +638,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Christopher Wheeldon",
       ],
@@ -666,7 +666,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Hansung Yoo",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Andrei Serban",
       ],
@@ -689,7 +689,7 @@ Subtitled: This show is in the original language and will have English subtitles
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Kenneth MacMillan",
       ],
@@ -719,7 +719,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Magnus Dietrich",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -749,7 +749,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Elizabeth Bishop",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -777,7 +777,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Peter Kálmán",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -907,7 +907,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Adam James",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "John Crowley",
       ],
@@ -1021,7 +1021,7 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "Emma Laird",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -1142,7 +1142,7 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "Dan Fogler",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -1300,7 +1300,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Piotr Buszewski",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -1331,7 +1331,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Simon McBurney",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -1386,7 +1386,7 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "Magnus Dietrich",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -1416,7 +1416,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "Elisabet Strid",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Barrie Kosky",
       ],
@@ -1440,7 +1440,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [],
       "duration": 13200000,
     },
@@ -1467,7 +1467,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "Piotr Buszewski",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -1496,7 +1496,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "Peter Kálmán",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -1527,7 +1527,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "Elizabeth Bishop",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -1558,7 +1558,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "Daniel Oreskes",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -1661,7 +1661,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Eddy Maday",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Steven Soderbergh",
       ],
@@ -1745,7 +1745,7 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "Hansung Yoo",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Andrei Serban",
       ],
@@ -1769,7 +1769,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Kenneth MacMillan",
       ],
@@ -1792,7 +1792,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Christopher Wheeldon",
       ],
@@ -1900,7 +1900,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Roberta Flack",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Dawn Porter",
       ],
@@ -1929,7 +1929,7 @@ Out: Elevating and celebrating LGBTQ+ cinema, from reclaimed classics to the cut
         "Giles Terera",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Sean Foley",
       ],
@@ -1981,7 +1981,7 @@ Out: Elevating and celebrating LGBTQ+ cinema, from reclaimed classics to the cut
         "Omar Apollo",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Luca Guadagnino",
       ],
@@ -2008,7 +2008,7 @@ Out: Elevating and celebrating LGBTQ+ cinema, from reclaimed classics to the cut
         "Edgar Ramírez",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jacques Audiard",
       ],
@@ -2033,7 +2033,7 @@ Out: Elevating and celebrating LGBTQ+ cinema, from reclaimed classics to the cut
         "Cush Jumbo",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Max Webster",
       ],
@@ -2080,7 +2080,7 @@ Out: Elevating and celebrating LGBTQ+ cinema, from reclaimed classics to the cut
         "Anoop Desai",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -2164,7 +2164,7 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "Kiernan Shipka",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Gia Coppola",
       ],

@@ -18,7 +18,7 @@ exports[`Cineworld West India Quay retrieve and transform 1`] = `
         "Drama",
         "Comedy",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -188,7 +188,7 @@ exports[`Cineworld West India Quay retrieve and transform 1`] = `
         "Adventure",
         "Action",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Abhishek Kapoor",
       ],
@@ -221,7 +221,7 @@ exports[`Cineworld West India Quay retrieve and transform 1`] = `
       "categories": [
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Leigh Whannell",
       ],
@@ -372,7 +372,7 @@ exports[`Cineworld West India Quay retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -530,7 +530,7 @@ exports[`Cineworld West India Quay retrieve and transform 1`] = `
       "categories": [
         "Comedy",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -605,7 +605,7 @@ exports[`Cineworld West India Quay retrieve and transform 1`] = `
       "categories": [
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -754,7 +754,7 @@ exports[`Cineworld West India Quay retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "John Crowley",
       ],
@@ -825,7 +825,7 @@ exports[`Cineworld West India Quay retrieve and transform 1`] = `
         "Action",
         "Animation",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Barry Jenkins",
       ],
@@ -926,7 +926,7 @@ exports[`Cineworld West India Quay retrieve and transform 1`] = `
       "categories": [
         "Action",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Mel Gibson",
       ],
@@ -1120,7 +1120,7 @@ This is a subtitled screening",
         "Eddy Maday",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Steven Soderbergh",
       ],
@@ -1287,7 +1287,7 @@ This is a subtitled screening",
       "categories": [
         "Action",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Abhishek Anil Kapur",
         "Sandeep Kewlani",
@@ -1358,7 +1358,7 @@ This is a subtitled screening",
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -1508,7 +1508,7 @@ This is a subtitled screening",
       "categories": [
         "Adventure",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Jon M. Chu",
       ],
@@ -1583,7 +1583,7 @@ This is a subtitled screening",
       "categories": [
         "Action",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Jeff Fowler",
       ],
@@ -1648,7 +1648,7 @@ This is a subtitled screening",
         "Adventure",
         "Animation",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Chris Sanders",
       ],
@@ -1686,7 +1686,7 @@ This is a subtitled screening",
         "Action",
         "Animation",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Dave Derrick Jr.",
       ],
@@ -1756,7 +1756,7 @@ This is a subtitled screening",
         "Drama",
         "Comedy",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "David Fincher",
       ],
@@ -1816,7 +1816,7 @@ This is a classic film",
         "Megan Suri",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Drew Hancock",
       ],
@@ -1894,7 +1894,7 @@ This is a classic film",
       "categories": [
         "Animation",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [],
       "duration": 7080000,
       "trailer": "https://youtu.be/do0c3iLWdE8?si=3tzVMXcXPFEo4OCK",
@@ -1928,7 +1928,7 @@ This is a classic film",
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Tim Fehlbaum",
       ],
@@ -1953,7 +1953,7 @@ This is a classic film",
         "Cush Jumbo",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Max Webster",
       ],
@@ -1991,7 +1991,7 @@ This is a classic film",
         "Drama",
         "Comedy",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Michel Gondry",
       ],
@@ -2982,7 +2982,7 @@ This is a subtitled screening",
         "Drama",
         "Comedy",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Garry Marshall",
       ],
@@ -3010,7 +3010,7 @@ This is a classic film",
         "Ncuti Gatwa",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Max Webster",
       ],
@@ -3202,7 +3202,7 @@ This is a classic film",
         "Tony Jayawardena",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Sean Foley",
       ],
@@ -3250,7 +3250,7 @@ This is a classic film",
         "The Johann Strauss Orchestra",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "André Rieu",
         "Michel Fizzano",

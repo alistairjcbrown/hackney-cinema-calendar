@@ -42,7 +42,7 @@ async function transform(
 
     const overview = createOverview({
       duration: movie.RunTime,
-      certification: movie.Rating,
+      classification: movie.Rating,
       trailer: movie.TrailerUrl,
       ...getAdditionalDataFor(moviePages[movie.ScheduledFilmId]),
     });

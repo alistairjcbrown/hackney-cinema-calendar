@@ -17,7 +17,7 @@ exports[`Curzon Mayfair retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -128,7 +128,7 @@ exports[`Curzon Mayfair retrieve and transform 1`] = `
         "Drama",
         "Comedy",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -159,7 +159,7 @@ exports[`Curzon Mayfair retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Pablo Larraín",
       ],
@@ -271,7 +271,7 @@ exports[`Curzon Mayfair retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Edward Berger",
       ],
@@ -335,7 +335,7 @@ exports[`Curzon Mayfair retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -475,7 +475,7 @@ exports[`Curzon Mayfair retrieve and transform 1`] = `
         "Drama",
         "Comedy",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Rich Peppiatt",
       ],
@@ -560,7 +560,7 @@ exports[`Curzon Mayfair retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Mahdi Fleifel",
       ],
@@ -741,7 +741,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Live Opera, Music & Theatre",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Max Webster",
       ],
@@ -857,7 +857,7 @@ Screening followed by a Q&A: Q&A",
         "Comedy",
         "Thriller",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Sean Foley",
       ],
@@ -1030,7 +1030,7 @@ Recorded Performance: Prerecorded Q&A",
       "categories": [
         "Live Opera, Music & Theatre",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],

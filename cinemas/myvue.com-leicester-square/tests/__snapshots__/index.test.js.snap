@@ -19,6 +19,7 @@ exports[`Vue West End retrieve and transform 1`] = `
         "Music",
         "Biography",
       ],
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -235,6 +236,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Family",
         "Kids",
       ],
+      "classification": "PG",
       "directors": [
         "Barry Jenkins",
       ],
@@ -391,6 +393,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Drama",
         "Romance",
       ],
+      "classification": "15",
       "directors": [
         "John Crowley",
       ],
@@ -608,6 +611,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Mystery",
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -854,6 +858,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Sci-Fi",
         "Animation",
       ],
+      "classification": "PG",
       "directors": [
         "Jeff Fowler",
       ],
@@ -942,6 +947,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Crime",
         "Mystery",
       ],
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -1184,6 +1190,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Kids",
         "Family",
       ],
+      "classification": "PG",
       "directors": [
         "Dave Derrick Jr.",
       ],
@@ -1221,6 +1228,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Thriller",
       ],
+      "classification": "15",
       "directors": [
         "Mel Gibson",
       ],
@@ -1756,6 +1764,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Musical",
         "Fantasy",
       ],
+      "classification": "PG",
       "directors": [
         "Jon M. Chu",
       ],
@@ -1867,6 +1876,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Horror",
       ],
+      "classification": "15",
       "directors": [
         "Leigh Whannell",
       ],
@@ -2461,6 +2471,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Comedy",
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -2558,6 +2569,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Biography",
         "Music",
       ],
+      "classification": "12A",
       "directors": [
         "Pablo Larraín",
       ],
@@ -2633,6 +2645,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Comedy",
         "Fantasy",
       ],
+      "classification": "U",
       "directors": [
         "Peter Hastings",
       ],
@@ -2706,6 +2719,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Ridley Scott",
       ],
@@ -2771,6 +2785,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Horror",
         "Thriller",
       ],
+      "classification": "15",
       "directors": [
         "Steven Soderbergh",
       ],
@@ -2915,6 +2930,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Thriller",
         "Mystery",
       ],
+      "classification": "18",
       "directors": [
         "David Fincher",
       ],
@@ -2945,6 +2961,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Music",
       ],
+      "classification": "12A",
       "directors": [
         "Yoondong Oh",
       ],
@@ -3009,6 +3026,7 @@ Big Screen Music: Get up close and personal with your favourite artists. From in
         "BAEKHYUN",
       ],
       "categories": [],
+      "classification": "PG",
       "directors": [],
       "duration": 6000000,
     },
@@ -3115,6 +3133,7 @@ Big Screen Music: Get up close and personal with your favourite artists. From in
       "categories": [
         "Fantasy",
       ],
+      "classification": "12A",
       "directors": [
         "Ang Lee",
       ],
@@ -3181,6 +3200,7 @@ Mandarin: Films shown in the Mandarin language",
       "categories": [
         "Music",
       ],
+      "classification": "U",
       "directors": [
         "Milton Lage",
       ],
@@ -3246,6 +3266,7 @@ Big Screen Music: Get up close and personal with your favourite artists. From in
         "Music",
         "Documentary",
       ],
+      "classification": "15",
       "directors": [
         "Dawn Porter",
       ],
@@ -3311,6 +3332,7 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "Drama",
         "Comedy",
       ],
+      "classification": "15",
       "directors": [
         "Sean Foley",
       ],
@@ -3514,6 +3536,7 @@ Big Screen Opera: Unexpected love. Tragic consequences. A prince in disguise. Lo
       "categories": [
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Gia Coppola",
       ],
@@ -3534,6 +3557,7 @@ Recorded Q&A: A special screening, complete with a recorded Q&A section, typical
     "overview": {
       "actors": [],
       "categories": [],
+      "classification": "15",
       "directors": [],
     },
     "performances": [

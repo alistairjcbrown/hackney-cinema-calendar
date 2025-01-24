@@ -19,6 +19,7 @@ exports[`Vue North Finchley retrieve and transform 1`] = `
         "Music",
         "Biography",
       ],
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -238,6 +239,7 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "Family",
         "Kids",
       ],
+      "classification": "PG",
       "directors": [
         "Barry Jenkins",
       ],
@@ -423,6 +425,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "Drama",
         "Romance",
       ],
+      "classification": "15",
       "directors": [
         "John Crowley",
       ],
@@ -473,6 +476,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "Mystery",
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -540,6 +544,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "Sci-Fi",
         "Animation",
       ],
+      "classification": "PG",
       "directors": [
         "Jeff Fowler",
       ],
@@ -675,6 +680,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "Crime",
         "Mystery",
       ],
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -776,6 +782,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "Kids",
         "Family",
       ],
+      "classification": "PG",
       "directors": [
         "Dave Derrick Jr.",
       ],
@@ -890,6 +897,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
       "categories": [
         "Thriller",
       ],
+      "classification": "15",
       "directors": [
         "Mel Gibson",
       ],
@@ -1383,6 +1391,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "Biography",
         "Musical",
       ],
+      "classification": "15",
       "directors": [
         "Michael Gracey",
       ],
@@ -1419,6 +1428,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "Musical",
         "Fantasy",
       ],
+      "classification": "PG",
       "directors": [
         "Jon M. Chu",
       ],
@@ -1470,6 +1480,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
       "categories": [
         "Horror",
       ],
+      "classification": "15",
       "directors": [
         "Leigh Whannell",
       ],
@@ -1826,6 +1837,7 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "Comedy",
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -1908,6 +1920,7 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
       "categories": [
         "Thriller",
       ],
+      "classification": "12A",
       "directors": [
         "Edward Berger",
       ],
@@ -1957,6 +1970,7 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "Biography",
         "Music",
       ],
+      "classification": "12A",
       "directors": [
         "Pablo Larraín",
       ],
@@ -2038,6 +2052,7 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "Comedy",
         "Fantasy",
       ],
+      "classification": "U",
       "directors": [
         "Peter Hastings",
       ],
@@ -2235,6 +2250,7 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "Comedy",
         "Family",
       ],
+      "classification": "PG",
       "directors": [
         "Dougal Wilson",
       ],
@@ -2296,6 +2312,7 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
       "categories": [
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Ridley Scott",
       ],
@@ -2316,6 +2333,7 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
     "overview": {
       "actors": [],
       "categories": [],
+      "classification": "U",
       "directors": [],
       "duration": 3600000,
     },
@@ -2347,6 +2365,7 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
       "categories": [
         "Animation",
       ],
+      "classification": "U",
       "directors": [
         "Tim O'Sullivan",
       ],
@@ -2405,6 +2424,7 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
       "categories": [
         "Animation",
       ],
+      "classification": "U",
       "directors": [
         "Chris Sanders",
       ],
@@ -2444,6 +2464,7 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "Horror",
         "Thriller",
       ],
+      "classification": "15",
       "directors": [
         "Steven Soderbergh",
       ],
@@ -2639,6 +2660,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
       "categories": [
         "Drama",
       ],
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -2804,6 +2826,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "Horror",
         "Sci-Fi",
       ],
+      "classification": "15",
       "directors": [
         "Drew Hancock",
       ],
@@ -2846,6 +2869,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "Thriller",
         "Mystery",
       ],
+      "classification": "18",
       "directors": [
         "David Fincher",
       ],
@@ -2882,6 +2906,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
       "categories": [
         "Animation",
       ],
+      "classification": "PG",
       "directors": [
         "Don Hall",
         "Carlos López Estrada",
@@ -2968,6 +2993,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
       "categories": [
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Abhishek Kapoor",
       ],
@@ -2990,6 +3016,7 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
       "categories": [
         "Musical",
       ],
+      "classification": "15",
       "directors": [
         "Stephen Daldry",
       ],
@@ -3026,6 +3053,7 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
       "categories": [
         "Fantasy",
       ],
+      "classification": "12A",
       "directors": [
         "Ang Lee",
       ],
@@ -3059,6 +3087,7 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
       "categories": [
         "Musical",
       ],
+      "classification": "12A",
       "directors": [],
       "duration": 6900000,
     },
@@ -3141,6 +3170,7 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
       "categories": [
         "Musical",
       ],
+      "classification": "12A",
       "directors": [
         "Nick Morris",
       ],
@@ -3180,6 +3210,7 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "Music",
         "Documentary",
       ],
+      "classification": "15",
       "directors": [
         "Dawn Porter",
       ],
@@ -3278,6 +3309,7 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "Drama",
         "Comedy",
       ],
+      "classification": "15",
       "directors": [
         "Sean Foley",
       ],
@@ -3400,6 +3432,7 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "Animation",
         "Comedy",
       ],
+      "classification": "U",
       "directors": [
         "Richard Claus",
         "Karsten Kiilerich",
@@ -3693,6 +3726,7 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
     "overview": {
       "actors": [],
       "categories": [],
+      "classification": "15",
       "directors": [],
     },
     "performances": [

@@ -12,7 +12,7 @@ async function transform(
 
     const overview = createOverview({
       year: movie.premiere.split("-")[0],
-      certification: movie.rating,
+      classification: movie.rating,
       directors: movie.director,
     });
 

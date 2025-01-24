@@ -22,8 +22,8 @@ function getOverviewFor({ html }) {
       overview.directors = content;
     } else if (heading === "with" && !overview.actors) {
       overview.actors = content;
-    } else if (heading === "certificate" && !overview.certification) {
-      overview.certification = content;
+    } else if (heading === "certificate" && !overview.classification) {
+      overview.classification = content;
     } else {
       const hasTimings = content.match(/\s+(\d{4}).\s+(\d+)min(?:\s|$)/i);
       if (hasTimings && !overview.year) {

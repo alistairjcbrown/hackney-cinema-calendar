@@ -16,7 +16,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Drama",
         "Music",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -108,7 +108,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -146,7 +146,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -219,7 +219,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Comedy",
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -282,7 +282,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Comedy",
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Michael Gracey",
       ],
@@ -317,7 +317,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Thriller",
         "Crime",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Irving Lerner",
       ],
@@ -348,7 +348,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -379,7 +379,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Drama",
         "Romance",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Billy Wilder",
       ],
@@ -403,7 +403,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Cush Jumbo",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Max Webster",
       ],
@@ -473,7 +473,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Drama",
         "Thriller",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Christopher Andrews",
       ],
@@ -586,7 +586,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Comedy",
         "Romance",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "George Cukor",
       ],
@@ -619,7 +619,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Drama",
         "Mystery",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "David Lynch",
       ],
@@ -849,7 +849,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
       "categories": [
         "Comedy",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Alexander Hall",
       ],
@@ -873,7 +873,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Sharon D Clarke",
       ],
       "categories": [],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Max Webster",
       ],
@@ -902,7 +902,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
       "categories": [
         "Comedy",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Gene Saks",
       ],
@@ -931,7 +931,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Thriller",
         "Adventure",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Alfred Hitchcock",
       ],
@@ -960,7 +960,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
       "categories": [
         "Western",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "John Ford",
       ],
@@ -1014,7 +1014,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Drama",
         "Thriller",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Raoul Walsh",
       ],
@@ -1064,7 +1064,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Drama",
         "Romance",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "George Stevens",
       ],
@@ -1116,7 +1116,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Drama",
         "Comedy",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Michael Powell",
         "Emeric Pressburger",
@@ -1147,7 +1147,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Romance",
         "Comedy",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Michael Powell",
         "Emeric Pressburger",
@@ -1178,7 +1178,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "War",
         "Comedy",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Michael Powell",
         "Emeric Pressburger",
@@ -1210,7 +1210,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Romance",
         "Drama",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Michael Powell",
         "Emeric Pressburger",
@@ -1239,7 +1239,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Michael Powell",
         "Emeric Pressburger",
@@ -1268,7 +1268,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
         "Drama",
         "Romance",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Michael Powell",
         "Emeric Pressburger",
@@ -1299,7 +1299,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
       "categories": [
         "Music",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Michael Powell",
         "Emeric Pressburger",
@@ -1323,7 +1323,7 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
       "categories": [
         "Documentary",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "David Bickerstaff",
       ],

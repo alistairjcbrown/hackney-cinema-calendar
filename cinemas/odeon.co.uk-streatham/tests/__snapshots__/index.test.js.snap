@@ -26,7 +26,7 @@ exports[`ODEON Streatham retrieve and transform 1`] = `
         "Drama",
         "Family",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Barry Jenkins",
       ],
@@ -95,7 +95,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45442",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Saver",
         "screen": "Screen 1",
         "time": 1737893400000,
@@ -242,7 +241,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Musical ",
         "Romance",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Jon M. Chu",
       ],
@@ -355,7 +354,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       "categories": [
         "Thriller",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Mel Gibson",
       ],
@@ -470,7 +469,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45484",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -575,7 +573,7 @@ Saver",
         "Animation",
         "Family",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Jeff Fowler",
       ],
@@ -587,7 +585,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45390",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -597,7 +594,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45413",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -607,7 +603,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45420",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -617,7 +612,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45426",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -627,7 +621,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45440",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 8",
         "time": 1737889200000,
@@ -636,7 +629,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45447",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 8",
         "time": 1737898800000,
@@ -645,7 +637,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45453",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 8",
         "time": 1737908400000,
@@ -654,7 +645,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45471",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -664,7 +654,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45498",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -674,7 +663,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45520",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -684,7 +672,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45541",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -706,7 +693,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Drama",
         "Romance",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "John Crowley",
       ],
@@ -839,7 +826,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Biography",
         "Musical ",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Michael Gracey",
       ],
@@ -850,7 +837,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45388",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 7",
@@ -859,7 +845,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45562",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1737745200000,
@@ -867,7 +852,6 @@ Saver",
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45423",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 7",
@@ -876,7 +860,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45450",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 7",
@@ -885,7 +868,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45468",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 7",
@@ -894,7 +876,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45496",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 7",
@@ -903,7 +884,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45517",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 7",
@@ -912,7 +892,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45571",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1738177200000,
@@ -938,7 +917,7 @@ Saver",
         "Fantasy",
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -1016,7 +995,7 @@ Saver",
       "categories": [
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Leigh Whannell",
       ],
@@ -1060,7 +1039,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45465",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 7",
@@ -1133,7 +1111,7 @@ Saver",
         "Drama",
         "Music",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -1145,7 +1123,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45391",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1737733800000,
@@ -1154,7 +1131,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45393",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -1164,7 +1140,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45401",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -1174,7 +1149,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45419",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1737812400000,
@@ -1183,7 +1157,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45427",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1737824400000,
@@ -1192,7 +1165,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45432",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1737836400000,
@@ -1201,7 +1173,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45446",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1737898800000,
@@ -1210,7 +1181,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45454",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1737910800000,
@@ -1219,7 +1189,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45461",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1737922800000,
@@ -1228,7 +1197,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45472",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1737993000000,
@@ -1237,7 +1205,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45474",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 1",
         "time": 1737997200000,
@@ -1246,7 +1213,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45483",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 1",
         "time": 1738009200000,
@@ -1255,9 +1221,7 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45493",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -1267,7 +1231,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45499",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1738079400000,
@@ -1276,7 +1239,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45501",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -1286,7 +1248,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45510",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -1296,7 +1257,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45521",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1738165800000,
@@ -1305,9 +1265,7 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45523",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Saver",
         "screen": "Screen 1",
         "time": 1738170000000,
@@ -1316,7 +1274,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45532",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 1",
         "time": 1738182000000,
@@ -1325,7 +1282,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45542",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 1",
         "time": 1738252200000,
@@ -1334,7 +1290,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45545",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -1344,7 +1299,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45554",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -1369,7 +1323,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Horror",
         "Thriller",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Steven Soderbergh",
       ],
@@ -1485,7 +1439,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45557",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -1510,7 +1463,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Mystery",
         "Thriller",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -1521,7 +1474,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45570",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 7",
@@ -1530,7 +1482,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45405",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 1",
         "time": 1737752400000,
@@ -1538,7 +1489,6 @@ Saver",
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45424",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 5",
@@ -1547,7 +1497,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45451",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 8",
         "time": 1737918000000,
@@ -1555,7 +1504,6 @@ Saver",
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45464",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 1",
         "time": 1737925200000,
@@ -1563,7 +1511,6 @@ Saver",
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45475",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1738004400000,
@@ -1571,7 +1518,6 @@ Saver",
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45494",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 2",
         "time": 1738075200000,
@@ -1579,7 +1525,6 @@ Saver",
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45502",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 2",
         "time": 1738084800000,
@@ -1587,7 +1532,6 @@ Saver",
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45565",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 2",
         "time": 1738094400000,
@@ -1595,7 +1539,6 @@ Saver",
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45524",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 2",
         "time": 1738171200000,
@@ -1603,7 +1546,6 @@ Saver",
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45569",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1738267200000,
@@ -1628,7 +1570,7 @@ Saver",
         "Animation",
         "Family",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Don Hall",
         "Carlos López Estrada",
@@ -1667,7 +1609,7 @@ Saver",
         "Comedy",
         "Family",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Chris Renaud",
       ],
@@ -1714,7 +1656,7 @@ Saver",
         "Comedy",
         "Family",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Dougal Wilson",
       ],
@@ -1763,7 +1705,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       "categories": [
         "Animation",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [],
       "duration": 3600000,
     },
@@ -1824,7 +1766,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Family",
         "Musical ",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Dave Derrick Jr.",
       ],
@@ -1836,7 +1778,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45411",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -1846,7 +1787,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45418",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -1856,7 +1796,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45558",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -1866,7 +1805,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45560",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -1876,7 +1814,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45445",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -1886,7 +1823,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45561",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 4",
@@ -1925,7 +1861,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Comedy",
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jason Reitman",
       ],
@@ -1971,7 +1907,7 @@ Saver",
       "categories": [
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [],
       "duration": 7200000,
     },
@@ -2003,7 +1939,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Comedy",
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -2035,7 +1971,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Pedro Almodóvar",
       ],
@@ -2069,7 +2005,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Family",
         "Fantasy",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Ang Lee",
       ],
@@ -2104,7 +2040,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Documentary",
         "Music",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Dawn Porter",
       ],
@@ -2152,7 +2088,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Thriller",
         "Sci-Fi",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Drew Hancock",
       ],
@@ -2283,7 +2219,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Comedy",
         "Romance",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Garry Marshall",
       ],
@@ -2367,7 +2303,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Tim Fehlbaum",
       ],
@@ -2379,7 +2315,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45042",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 6",
@@ -2493,7 +2428,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Comedy",
         "Fantasy",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Peter Hastings",
       ],
@@ -2750,7 +2685,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Drama",
         "Romance",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Robert Zemeckis",
       ],
@@ -2782,7 +2717,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Romance",
         "Sci-Fi",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Michel Gondry",
       ],
@@ -3202,7 +3137,7 @@ Saver",
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45272",
         "notes": "Requires 3D glasses
-3D - Web 
+3D - Web
 Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -3268,7 +3203,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45288",
         "notes": "Requires 3D glasses
-3D - Web 
+3D - Web
 Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -3334,7 +3269,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45304",
         "notes": "Requires 3D glasses
-3D - Web 
+3D - Web
 Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
@@ -3527,7 +3462,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
       "categories": [
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [],
       "duration": 7200000,
     },
@@ -3536,7 +3471,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45572",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 6",
@@ -3620,7 +3554,6 @@ Open Captioned: Open captions (English subtitles) are text and sound description
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45354",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 6",
@@ -3630,7 +3563,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45356",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 6",
@@ -3640,7 +3572,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45358",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 6",
@@ -3650,7 +3581,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45360",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 6",
@@ -3660,7 +3590,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45362",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 6",
@@ -3670,7 +3599,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45364",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 6",
@@ -3680,7 +3608,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45366",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 6",
@@ -3690,7 +3617,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45368",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 6",
@@ -3700,7 +3626,6 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=694-45370",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 6",
@@ -3758,7 +3683,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "Family",
         "Thriller",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Gary Ross",
       ],

@@ -17,7 +17,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
       "categories": [
         "Comedy",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Gautham Vasudev Menon",
       ],
@@ -152,7 +152,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
         "Drama",
         "Comedy",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -226,7 +226,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
         "Adventure",
         "Action",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Abhishek Kapoor",
       ],
@@ -349,7 +349,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
         "Revathi",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Sreeraj Sreenivasan",
       ],
@@ -418,7 +418,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
       "categories": [
         "Comedy",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Kiruthiga Udhayanidhi",
       ],
@@ -527,7 +527,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
       "categories": [
         "Comedy",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Anil Ravipudi",
       ],
@@ -695,7 +695,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
         "Drama",
         "Action",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Bobby Kolli",
       ],
@@ -744,7 +744,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
         "Drama",
         "Action",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "S. Shankar",
       ],
@@ -783,7 +783,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
       "categories": [
         "Action",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Jeff Fowler",
       ],
@@ -986,7 +986,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
         "Action",
         "Comedy",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Sundar C.",
       ],
@@ -1112,7 +1112,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Pratim D. Gupta",
       ],
@@ -1307,7 +1307,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
       "categories": [
         "Action",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Mel Gibson",
       ],
@@ -1528,7 +1528,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
       "categories": [
         "Action",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Abhishek Anil Kapur",
         "Sandeep Kewlani",
@@ -1709,7 +1709,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
       "categories": [
         "Action",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Sonu Sood",
       ],
@@ -1773,7 +1773,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
         "Action",
         "Animation",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Barry Jenkins",
       ],
@@ -1958,7 +1958,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
         "Adventure",
         "Animation",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Chris Sanders",
       ],
@@ -1996,7 +1996,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
         "Action",
         "Animation",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Dave Derrick Jr.",
       ],
@@ -2050,7 +2050,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
       "categories": [
         "Adventure",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Dougal Wilson",
       ],
@@ -2133,7 +2133,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
       "categories": [
         "Animation",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Alexs Stadermann",
       ],
@@ -2213,7 +2213,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
       "categories": [
         "Animation",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [],
       "duration": 7080000,
       "trailer": "https://youtu.be/do0c3iLWdE8?si=3tzVMXcXPFEo4OCK",
@@ -2247,7 +2247,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Tim Fehlbaum",
       ],

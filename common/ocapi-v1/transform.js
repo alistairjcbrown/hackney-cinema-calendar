@@ -30,7 +30,7 @@ async function transform(
           return group.concat(`${givenName.trim()} ${familyName.trim()}`);
         };
 
-        const certification = findFor(censorRatings, film.censorRatingId)
+        const classification = findFor(censorRatings, film.censorRatingId)
           ?.classification?.text;
 
         const overview = createOverview({
@@ -40,7 +40,7 @@ async function transform(
           ),
           directors: film.castAndCrew.reduce(findByRole("Director"), []),
           actors: film.castAndCrew.reduce(findByRole("Actor"), []),
-          certification,
+          classification,
           trailer: film.trailerUrl,
         });
 
@@ -75,7 +75,7 @@ async function transform(
           const attribute = findFor(attributes, attributeId);
           if (attribute) {
             if (!attribute.description?.text) {
-              notesList.push(`${attribute.name.text}`);
+              notesList.push(attribute.name.text);
             } else {
               notesList.push(
                 `${attribute.name.text}: ${attribute.description.text}`,

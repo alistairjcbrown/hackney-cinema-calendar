@@ -21,7 +21,7 @@ exports[`Everyman Screen on the Green retrieve and transform 1`] = `
         "Music",
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -182,7 +182,7 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [],
     },
     "performances": [
@@ -275,7 +275,7 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
         "Drama",
         "Romance",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],

@@ -40,7 +40,7 @@ async function transform(
         duration: movie.duration,
         directors: movie.directedBy,
         actors: isCastPlaceholder(movie.starring) ? "" : movie.starring,
-        certification: movie.rating,
+        classification: movie.rating,
         trailer: movie.trailerYoutubeId
           ? `https://www.youtube.com/watch?v=${movie.trailerYoutubeId}`
           : undefined,

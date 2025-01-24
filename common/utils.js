@@ -7,8 +7,8 @@ const generateEventDescription = (show, performance) => {
   let description = "";
   if (performance.screen)
     description += `Showing in screen ${performance.screen}\n`;
-  if (show.overview.certification)
-    description += `Film classification: ${show.overview.certification}\n`;
+  if (show.overview.classification)
+    description += `Film classification: ${show.overview.classification}\n`;
   if (show.overview.actors && show.overview.actors.length > 0)
     description += `Starring ${show.overview.actors.join(", ")}\n`;
   if (show.overview.directors && show.overview.directors.length > 0)
@@ -89,7 +89,11 @@ const getText = ($el) => $el.text().trim();
 
 const createPerformance = ({ date, notesList, url, screen }) => ({
   time: date.getTime(),
-  notes: notesList.join("\n").trim(),
+  notes: notesList
+    .map((value) => value?.trim())
+    .filter((value) => !!value)
+    .join("\n")
+    .trim(),
   bookingUrl: url,
   screen: screen || undefined,
 });
@@ -100,7 +104,7 @@ const createOverview = ({
   categories = "",
   directors = "",
   actors = "",
-  certification,
+  classification,
   trailer,
 }) => {
   return {
@@ -115,7 +119,7 @@ const createOverview = ({
     actors: Array.isArray(actors)
       ? actors
       : splitConjoinedItemsInList(convertToList(actors)),
-    certification: isValidClassification(certification),
+    classification: isValidClassification(classification),
     trailer: trailer || undefined,
   };
 };

@@ -1,4 +1,4 @@
-import { Certification, Movie, type CinemaData, type Filters } from "@/types";
+import { Classification, Movie, type CinemaData, type Filters } from "@/types";
 import type { ReactNode, SetStateAction } from "react";
 import {
   createContext,
@@ -10,7 +10,7 @@ import {
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { startOfDay, endOfDay, addYears } from "date-fns";
 import { useCinemaData } from "@/state/cinema-data-context";
-import getMovieCertification from "@/utils/get-movie-certification";
+import getMovieClassification from "@/utils/get-movie-classification";
 
 function safelyJsonStringify<T>(value: T): string | undefined {
   try {
@@ -71,8 +71,8 @@ export const processingFunctions: Record<keyof Filters, any> = {
           {} as Record<string, boolean>,
         ),
   },
-  filteredCertifications: {
-    toUrl: (value: Filters["filteredCertifications"]) =>
+  filteredClassifications: {
+    toUrl: (value: Filters["filteredClassifications"]) =>
       Object.keys(value).sort().join(","),
     fromUrl: (value: string) =>
       value
@@ -103,13 +103,13 @@ const convertToFilterList = (
     {} as Record<string, boolean>,
   );
 
-const getCertificationOptions = (movies: Record<string, Movie>) => {
+const getClassificationOptions = (movies: Record<string, Movie>) => {
   return Object.values(movies).reduce(
-    (certifications, movie) => ({
-      ...certifications,
-      [getMovieCertification(movie)]: true,
+    (classifications, movie) => ({
+      ...classifications,
+      [getMovieClassification(movie)]: true,
     }),
-    {} as Record<Certification, boolean>,
+    {} as Record<Classification, boolean>,
   );
 };
 
@@ -129,7 +129,7 @@ const FiltersContext = createContext<{
     includeUnknownYears: true,
     filteredVenues: {},
     filteredMovies: {},
-    filteredCertifications: {} as Record<Certification, boolean>,
+    filteredClassifications: {} as Record<Classification, boolean>,
     filteredGenres: {},
   },
   defaultFilters: undefined,
@@ -166,9 +166,9 @@ export function FiltersProvider({ children }: { children: ReactNode }) {
   const defaultFilters = useMemo(() => {
     const filteredVenues = data?.venues ? convertToFilterList(data.venues) : {};
     const filteredMovies = data?.movies ? convertToFilterList(data.movies) : {};
-    const filteredCertifications = data?.movies
-      ? getCertificationOptions(data.movies)
-      : ({} as Record<Certification, boolean>);
+    const filteredClassifications = data?.movies
+      ? getClassificationOptions(data.movies)
+      : ({} as Record<Classification, boolean>);
     const filteredGenres = data?.genres ? convertToFilterList(data.genres) : {};
     const yearRange = getYearRange();
     const dateRange = {
@@ -183,7 +183,7 @@ export function FiltersProvider({ children }: { children: ReactNode }) {
       includeUnknownYears: true,
       filteredVenues,
       filteredMovies,
-      filteredCertifications,
+      filteredClassifications,
       filteredGenres,
     };
   }, [data?.genres, data?.venues, data?.movies, getYearRange]);
@@ -227,11 +227,11 @@ export function FiltersProvider({ children }: { children: ReactNode }) {
         processingFunctions.filteredMovies.fromUrl(filteredMovies);
     }
 
-    const filteredCertifications = searchParams.get("filteredCertifications");
-    if (filteredCertifications) {
-      urlFilters.filteredCertifications =
-        processingFunctions.filteredCertifications.fromUrl(
-          filteredCertifications,
+    const filteredClassifications = searchParams.get("filteredClassifications");
+    if (filteredClassifications) {
+      urlFilters.filteredClassifications =
+        processingFunctions.filteredClassifications.fromUrl(
+          filteredClassifications,
         );
     }
 

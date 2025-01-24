@@ -15,17 +15,17 @@ const standardizePrefixingForTheatrePerformances = require("../common/standardiz
 const getId = (value) =>
   crypto.createHash("sha256").update(value).digest("hex").slice(0, 8);
 
-const getCertification = ({ release_dates: { results } }) => {
+const getClassification = ({ release_dates: { results } }) => {
   const result = results.find(({ iso_3166_1: locale }) => locale === "GB");
   if (!result) return undefined;
 
   const { release_dates: releaseDates } = result;
-  const releaseDateWithCertification = releaseDates.find(
+  const releaseDateWithClassification = releaseDates.find(
     ({ certification }) => !!certification,
   );
 
-  if (!releaseDateWithCertification) return undefined;
-  return releaseDateWithCertification.certification;
+  if (!releaseDateWithClassification) return undefined;
+  return releaseDateWithClassification.certification;
 };
 
 const getDirectors = ({ credits: { crew } }) =>
@@ -145,7 +145,7 @@ const siteData = {
             id: movieId,
             title,
             normalizedTitle: normalizeTitle(title),
-            certification: getCertification(movieInfo),
+            classification: getClassification(movieInfo),
             overview: movieInfo.overview,
             year: movieInfo.release_date.split("-")[0],
             releaseDate: movieInfo.release_date,

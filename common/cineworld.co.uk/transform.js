@@ -37,7 +37,7 @@ async function transform(venue, { movieListPage, moviePages }, sourcedEvents) {
         directors: additionalData.directors,
         actors: additionalData.cast,
         trailer: film.videoLink,
-        certification: getCertificate(film.attributeIds),
+        classification: getCertificate(film.attributeIds),
       });
 
       // Ignore placeholders for private screenings

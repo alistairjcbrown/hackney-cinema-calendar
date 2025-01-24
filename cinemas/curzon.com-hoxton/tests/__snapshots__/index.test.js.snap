@@ -17,7 +17,7 @@ exports[`Curzon Hoxton retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -210,7 +210,7 @@ Adults without a baby will not be allowed to purchase a ticket to a ‘Baby Club
         "Fantasy",
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -279,7 +279,7 @@ Adults without a baby will not be allowed to purchase a ticket to a ‘Baby Club
         "Drama",
         "Comedy",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -349,7 +349,7 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
         "Drama",
         "Romance",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -466,7 +466,7 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Sean Baker",
       ],
@@ -523,7 +523,7 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -632,7 +632,7 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Pablo Larraín",
       ],
@@ -688,7 +688,7 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
         "Family",
         "Animation",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Pablo Berger",
       ],
@@ -723,7 +723,7 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Tim Fehlbaum",
       ],

@@ -10,7 +10,7 @@ exports[`Rich Mix retrieve and transform 1`] = `
         "Karren Karagulian",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Sean Baker",
       ],
@@ -79,7 +79,7 @@ exports[`Rich Mix retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [],
       "duration": 4680000,
     },
@@ -103,7 +103,7 @@ exports[`Rich Mix retrieve and transform 1`] = `
         "Nicholas Hoult",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -128,7 +128,7 @@ exports[`Rich Mix retrieve and transform 1`] = `
         "Antonio Banderas",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -231,7 +231,7 @@ exports[`Rich Mix retrieve and transform 1`] = `
         "Monica Barbaro",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -384,7 +384,7 @@ exports[`Rich Mix retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [],
       "duration": 5280000,
     },
@@ -403,7 +403,7 @@ exports[`Rich Mix retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [],
       "duration": 4440000,
     },
@@ -426,7 +426,7 @@ exports[`Rich Mix retrieve and transform 1`] = `
         "Felicity Jones",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -525,7 +525,7 @@ exports[`Rich Mix retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [],
       "duration": 6300000,
     },
@@ -544,7 +544,7 @@ exports[`Rich Mix retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [],
       "duration": 8280000,
     },
@@ -563,7 +563,7 @@ exports[`Rich Mix retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [],
       "duration": 4500000,
     },
@@ -582,7 +582,7 @@ exports[`Rich Mix retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Max Webster",
       ],
@@ -613,7 +613,7 @@ exports[`Rich Mix retrieve and transform 1`] = `
         "Hugh Skinner",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Max Webster",
       ],
@@ -634,7 +634,7 @@ exports[`Rich Mix retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [],
       "duration": 25200000,
     },

@@ -16,7 +16,7 @@ exports[`Picturehouse Central retrieve and transform 1`] = `
         "Matt Berry",
       ],
       "categories": [],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Chris Sanders",
       ],
@@ -28,7 +28,7 @@ exports[`Picturehouse Central retrieve and transform 1`] = `
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=022&txtSessionId=104328&visLang=1",
         "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
- Q&A: This screening will be followed by a Q&A.",
+Q&A: This screening will be followed by a Q&A.",
         "screen": "KIA 2",
         "time": 1737801000000,
       },
@@ -50,7 +50,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Merab Ninidze",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Edward Berger",
       ],
@@ -134,7 +134,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Daniel Oreskes",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -272,7 +272,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Claude Rains",
       ],
       "categories": [],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Michael Curtiz",
       ],
@@ -298,7 +298,7 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "Michele Austin",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Mike Leigh",
       ],
@@ -327,7 +327,7 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "Adam James",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "John Crowley",
       ],
@@ -695,7 +695,7 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "VALERIA GOLINO",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Pablo Larraín",
       ],
@@ -782,7 +782,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Emma Laird",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -885,7 +885,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Dan Fogler",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -1026,7 +1026,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Emma Laird",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -1105,7 +1105,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Simon McBurney",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -1219,7 +1219,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Omar Apollo",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Luca Guadagnino",
       ],
@@ -1260,7 +1260,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Anoop Desai",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -1369,7 +1369,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Eddy Maday",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Steven Soderbergh",
       ],
@@ -1471,7 +1471,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Kirk Douglas",
       ],
       "categories": [],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Billy Wilder",
       ],
@@ -1499,7 +1499,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Marian Carr",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Robert Aldrich",
       ],
@@ -1531,7 +1531,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Reed Hadley",
       ],
       "categories": [],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "John M. Stahl",
       ],
@@ -1562,7 +1562,7 @@ reDiscover: Time to broaden your cinematic horizons: you'll find the best of wha
         "John Philliber",
       ],
       "categories": [],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Billy Wilder",
       ],
@@ -1588,7 +1588,7 @@ reDiscover: Time to broaden your cinematic horizons: you'll find the best of wha
         "Jocelyn Brando",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Fritz Lang",
       ],
@@ -1619,7 +1619,7 @@ reDiscover: Time to broaden your cinematic horizons: you'll find the best of wha
         "Simon McBurney",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -1647,7 +1647,7 @@ reDiscover: Time to broaden your cinematic horizons: you'll find the best of wha
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [],
       "duration": 5700000,
     },
@@ -1674,7 +1674,7 @@ reDiscover: Time to broaden your cinematic horizons: you'll find the best of wha
         "Roberta Flack",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Dawn Porter",
       ],
@@ -1703,7 +1703,7 @@ reDiscover: Time to broaden your cinematic horizons: you'll find the best of wha
         "Kiernan Shipka",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Gia Coppola",
       ],
@@ -1733,7 +1733,7 @@ reDiscover: Time to broaden your cinematic horizons: you'll find the best of wha
         "Daniel Oreskes",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -1744,7 +1744,7 @@ reDiscover: Time to broaden your cinematic horizons: you'll find the best of wha
       {
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=022&txtSessionId=104197&visLang=1",
         "notes": "Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
- Q&A: This screening will be followed by a Q&A.",
+Q&A: This screening will be followed by a Q&A.",
         "screen": "1",
         "time": 1738436400000,
       },
@@ -1795,7 +1795,7 @@ reDiscover: Time to broaden your cinematic horizons: you'll find the best of wha
         "Giles Terera",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Sean Foley",
       ],
@@ -1828,7 +1828,7 @@ reDiscover: Time to broaden your cinematic horizons: you'll find the best of wha
         "Luis Rico",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Mike Cheslik",
       ],
@@ -1839,7 +1839,7 @@ reDiscover: Time to broaden your cinematic horizons: you'll find the best of wha
       {
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=022&txtSessionId=103735&visLang=1",
         "notes": "Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
- Q&A: This screening will be followed by a Q&A.",
+Q&A: This screening will be followed by a Q&A.",
         "screen": "1",
         "time": 1744829100000,
       },
@@ -1854,7 +1854,7 @@ reDiscover: Time to broaden your cinematic horizons: you'll find the best of wha
         "Cush Jumbo",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Max Webster",
       ],

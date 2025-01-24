@@ -1,10 +1,10 @@
-import { certificationOrder, type Certification } from "@/types";
+import { classificationOrder, type Classification } from "@/types";
 import Checkbox from "rsuite/cjs/Checkbox";
 import CheckPicker from "rsuite/cjs/CheckPicker";
 
 function sortArrayByOrder(
-  unorderedArray: Certification[],
-  orderedArray: Certification[],
+  unorderedArray: Classification[],
+  orderedArray: Classification[],
 ) {
   // Create a map to store the index of each letter in the first array
   const indexMap = new Map();
@@ -29,16 +29,16 @@ function sortArrayByOrder(
   });
 }
 
-export default function CertificationFilter({
-  certifications,
+export default function ClassificationFilter({
+  classifications,
   values,
   onChange,
 }: {
-  certifications: Certification[];
-  values: Record<Certification, boolean>;
+  classifications: Classification[];
+  values: Record<Classification, boolean>;
   onChange: (values: Record<string, boolean>) => void;
 }) {
-  const data = sortArrayByOrder(certifications, certificationOrder).map(
+  const data = sortArrayByOrder(classifications, classificationOrder).map(
     (value) => ({ value, label: value }),
   );
 
@@ -48,37 +48,37 @@ export default function CertificationFilter({
         block
         searchable
         size="lg"
-        placeholder="Movie Certification"
+        placeholder="Movie Classification"
         data={data}
         value={Object.keys(values)}
         onChange={(displayed: string[]) => {
-          const filteredCertifications = displayed.reduce(
+          const filteredClassifications = displayed.reduce(
             (filtered, value) => ({ ...filtered, [value]: true }),
             {} as Record<string, boolean>,
           );
-          onChange(filteredCertifications);
+          onChange(filteredClassifications);
         }}
         onClean={() => {
-          const filteredCertifications = certifications.reduce(
+          const filteredClassifications = classifications.reduce(
             (filtered, value) => ({ ...filtered, [value]: true }),
             {} as Record<string, boolean>,
           );
           // Horrible hack to let us control the change call for "clearing" the
           // input. In this case, we want to reset it back to fully populated.
-          setTimeout(() => onChange(filteredCertifications), 0);
+          setTimeout(() => onChange(filteredClassifications), 0);
         }}
         renderExtraFooter={() => (
           <div style={{ borderTop: "1px solid #e5e5e5" }}>
             <Checkbox
               indeterminate={
                 Object.keys(values).length > 0 &&
-                Object.keys(values).length < certifications.length
+                Object.keys(values).length < classifications.length
               }
-              checked={Object.keys(values).length === certifications.length}
+              checked={Object.keys(values).length === classifications.length}
               onChange={(value, checked) => {
                 if (checked) {
                   onChange(
-                    certifications.reduce(
+                    classifications.reduce(
                       (mapping, id) => ({ ...mapping, [id]: true }),
                       {},
                     ),

@@ -64,7 +64,9 @@ function processListingPage(data) {
         : footnotes.duration,
       year: summary["release year"] || footnotes.year,
       directors: summary.director || footnotes.director || movieBlurbDirectors,
-      certification: getText($("._classification")).replace(/[()]/g, "").trim(),
+      classification: getText($("._classification"))
+        .replace(/[()]/g, "")
+        .trim(),
     }),
   };
 }

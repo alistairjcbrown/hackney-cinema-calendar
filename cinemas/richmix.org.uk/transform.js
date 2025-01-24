@@ -40,7 +40,7 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
         url: `${domain}/cinema/${movie.slug}/`,
         overview: {
           duration: parseMinsToMs(movie.spektrix_data.duration),
-          certification: movie.spektrix_data.rating,
+          classification: movie.spektrix_data.rating,
           categories: [],
           directors,
           actors,

@@ -13,7 +13,7 @@ exports[`ODEON Tottenham Court Road retrieve and transform 1`] = `
       "categories": [
         "Thriller",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Mel Gibson",
       ],
@@ -81,7 +81,7 @@ Open Captioned: Open captions (English subtitles) are text and sound description
         "Drama",
         "Romance",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "John Crowley",
       ],
@@ -153,7 +153,7 @@ Saver",
         "Fantasy",
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -219,7 +219,7 @@ Saver",
         "Drama",
         "Music",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -273,7 +273,6 @@ Flash Warning: This title has been issued a Guest Warning by the BBFC - it conta
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=200-15246",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.",
         "screen": "Screen 3",
         "time": 1737900000000,
@@ -296,7 +295,6 @@ Flash Warning: This title has been issued a Guest Warning by the BBFC - it conta
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=200-15257",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1737987300000,
@@ -305,7 +303,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=200-15261",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 1",
         "time": 1738001700000,
@@ -314,7 +311,6 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=200-15264",
         "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 2",
         "time": 1738009800000,
@@ -401,7 +397,7 @@ Flash Warning: This title has been issued a Guest Warning by the BBFC - it conta
         "Mystery",
         "Thriller",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -448,7 +444,6 @@ Flash Warning: This title has been issued a Guest Warning by the BBFC - it conta
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=200-15265",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 2",
         "time": 1737990000000,
@@ -456,7 +451,6 @@ Saver",
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=200-15263",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Saver",
         "screen": "Screen 3",
         "time": 1738008900000,
@@ -476,7 +470,6 @@ Saver",
       {
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=200-15281",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.",
         "screen": "Screen 2",
         "time": 1738162800000,
@@ -505,7 +498,7 @@ Open Captioned: Open captions (English subtitles) are text and sound description
       "categories": [
         "Live Concert",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [],
       "duration": 5400000,
     },
@@ -515,7 +508,6 @@ Open Captioned: Open captions (English subtitles) are text and sound description
         "notes": "English (Sub)
 Event Cinema
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Korean (Audio)",
         "screen": "Screen 3",
         "time": 1737748200000,
@@ -525,7 +517,6 @@ Korean (Audio)",
         "notes": "English (Sub)
 Event Cinema
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Korean (Audio)",
         "screen": "Screen 3",
         "time": 1737806400000,
@@ -558,7 +549,7 @@ Korean (Audio)",
         "Drama",
         "Family",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Barry Jenkins",
       ],
@@ -627,7 +618,7 @@ Saver",
         "Musical ",
         "Romance",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Jon M. Chu",
       ],
@@ -659,7 +650,7 @@ Saver",
       "categories": [
         "Music",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Yoondong Oh",
       ],
@@ -671,7 +662,6 @@ Saver",
         "notes": "English (Sub)
 Event Cinema
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Korean (Audio)",
         "screen": "Screen 3",
         "time": 1738177200000,
@@ -681,7 +671,6 @@ Korean (Audio)",
         "notes": "English (Sub)
 Event Cinema
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Korean (Audio)",
         "screen": "Screen 3",
         "time": 1738422000000,
@@ -764,7 +753,6 @@ Mandarin (Audio)",
         "notes": "English (Sub)
 Event Cinema
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Korean (Audio)",
         "screen": "Screen 3",
         "time": 1738784700000,
@@ -774,7 +762,6 @@ Korean (Audio)",
         "notes": "English (Sub)
 Event Cinema
 Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-
 Korean (Audio)",
         "screen": "Screen 2",
         "time": 1739025000000,

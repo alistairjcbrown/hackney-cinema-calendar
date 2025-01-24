@@ -18,7 +18,7 @@ exports[`Curzon Kingston retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Edward Berger",
       ],
@@ -112,7 +112,7 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -315,7 +315,7 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
         "Fantasy",
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -387,7 +387,7 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
         "Drama",
         "Romance",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Robert Zemeckis",
       ],
@@ -418,7 +418,7 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
         "Drama",
         "Romance",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -503,7 +503,7 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Pablo Larraín",
       ],
@@ -620,7 +620,7 @@ Adults without a baby will not be allowed to purchase a ticket to a ‘Baby Club
         "Crime",
         "Musical",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jacques Audiard",
       ],
@@ -689,7 +689,7 @@ Adults without a baby will not be allowed to purchase a ticket to a ‘Baby Club
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -877,7 +877,7 @@ Adults without a baby will not be allowed to purchase a ticket to a ‘Baby Club
         "Family",
         "Animation",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Pablo Berger",
       ],
@@ -912,7 +912,7 @@ Adults without a baby will not be allowed to purchase a ticket to a ‘Baby Club
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Tim Fehlbaum",
       ],
@@ -1216,7 +1216,7 @@ Special Preview: Special Preview Screening",
         "Family",
         "Crime",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Ridley Scott",
       ],
@@ -1242,7 +1242,7 @@ Special Preview: Special Preview Screening",
       "categories": [
         "Animation",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Morgan Neville",
       ],
@@ -1272,7 +1272,7 @@ Special Preview: Special Preview Screening",
       "categories": [
         "Live Opera, Music & Theatre",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Max Webster",
       ],
@@ -1316,7 +1316,7 @@ Encore: Encore",
         "Comedy",
         "Family",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Dougal Wilson",
       ],
@@ -1402,7 +1402,7 @@ Encore: Encore",
         "Comedy",
         "Thriller",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Sean Foley",
       ],
@@ -1519,7 +1519,7 @@ Recorded Performance: Prerecorded Q&A",
       "categories": [
         "Live Opera, Music & Theatre",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],

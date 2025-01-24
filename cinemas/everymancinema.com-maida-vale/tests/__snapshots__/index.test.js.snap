@@ -21,7 +21,7 @@ exports[`Everyman Maida Vale retrieve and transform 1`] = `
         "Music",
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -182,7 +182,7 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
       "categories": [
         "Comedy drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -277,7 +277,7 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
         "Thriller",
         "Erotic",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -350,7 +350,7 @@ This feature is Subtitled in English",
         "Fantasy",
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Robert Zemeckis",
       ],
@@ -385,7 +385,7 @@ One more chance to discover curated cinema beyond the mainstream.",
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "RaMell Ross",
       ],
@@ -541,7 +541,7 @@ One more chance to discover curated cinema beyond the mainstream.",
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [],
     },
     "performances": [
@@ -574,7 +574,7 @@ One more chance to discover curated cinema beyond the mainstream.",
         "Adventure",
         "Family",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Barry Jenkins",
       ],
@@ -690,7 +690,7 @@ One more chance to discover curated cinema beyond the mainstream.",
       "categories": [
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -736,7 +736,7 @@ One more chance to discover curated cinema beyond the mainstream.",
         "Romance",
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "John Crowley",
       ],

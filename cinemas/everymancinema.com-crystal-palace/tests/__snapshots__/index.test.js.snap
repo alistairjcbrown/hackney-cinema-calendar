@@ -21,7 +21,7 @@ exports[`Everyman Crystal Palace retrieve and transform 1`] = `
         "Music",
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -211,7 +211,7 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
       "categories": [
         "Comedy drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -333,7 +333,7 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
         "Thriller",
         "Erotic",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -428,7 +428,7 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
         "Biopic",
         "Music",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Michael Gracey",
       ],
@@ -478,7 +478,7 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
         "Fantasy",
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Robert Zemeckis",
       ],
@@ -513,7 +513,7 @@ One more chance to discover curated cinema beyond the mainstream.",
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "RaMell Ross",
       ],
@@ -541,7 +541,7 @@ One more chance to discover curated cinema beyond the mainstream.",
       "categories": [
         "Musical",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Stephen Daldry",
       ],
@@ -813,7 +813,7 @@ One more chance to discover curated cinema beyond the mainstream.",
       "categories": [
         "Thriller",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Edward Berger",
       ],
@@ -869,7 +869,7 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
       "categories": [
         "Musical",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Cameron Mackintosh",
       ],
@@ -899,7 +899,7 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
         "Documentary",
         "Music",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Dawn Porter",
       ],
@@ -984,7 +984,7 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [],
     },
     "performances": [
@@ -1016,7 +1016,7 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
         "Adventure",
         "Family",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "David G. Derrick Jr.",
         "Jason Hand",
@@ -1065,7 +1065,7 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
         "Adventure",
         "Family",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Barry Jenkins",
       ],
@@ -1196,7 +1196,7 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
       "categories": [
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -1296,7 +1296,7 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
         "Drama",
         "Romance",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -1533,7 +1533,7 @@ A ticket includes one seat for you and one for your child aged 1 to 5, plus a co
         "Family",
         "Comedy",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Dougal Wilson",
       ],
@@ -1582,7 +1582,7 @@ A ticket includes one seat for you and one for your child aged 1 to 5, plus a co
         "Romance",
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "John Crowley",
       ],
@@ -1657,7 +1657,7 @@ A ticket includes one seat for you and one for your child aged 1 to 5, plus a co
         "Fantasy",
         "Musical",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Jon M. Chu",
       ],
@@ -1697,7 +1697,7 @@ A ticket includes one seat for you and one for your child aged 1 to 5, plus a co
         "Horror",
         "Thriller",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Leigh Whannell",
       ],

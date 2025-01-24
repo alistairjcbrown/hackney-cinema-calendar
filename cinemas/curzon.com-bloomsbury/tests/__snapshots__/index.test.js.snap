@@ -18,7 +18,7 @@ exports[`Curzon Bloomsbury retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Edward Berger",
       ],
@@ -83,7 +83,7 @@ exports[`Curzon Bloomsbury retrieve and transform 1`] = `
       "categories": [
         "Documentary",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Johan Grimonprez",
       ],
@@ -134,7 +134,7 @@ exports[`Curzon Bloomsbury retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -337,7 +337,7 @@ exports[`Curzon Bloomsbury retrieve and transform 1`] = `
         "Fantasy",
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -403,7 +403,7 @@ exports[`Curzon Bloomsbury retrieve and transform 1`] = `
       "categories": [
         "Documentary",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Farahnaz Sharifi",
       ],
@@ -465,7 +465,7 @@ exports[`Curzon Bloomsbury retrieve and transform 1`] = `
         "Drama",
         "Comedy",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -659,7 +659,7 @@ Closed Captioned: Closed Captioned screening for Hard of Hearing",
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Pablo Larraín",
       ],
@@ -822,7 +822,7 @@ Closed Captioned: Closed Captioned screening for Hard of Hearing",
         "Crime",
         "Musical",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jacques Audiard",
       ],
@@ -938,7 +938,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Payal Kapadia",
       ],
@@ -992,7 +992,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Documentary",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Asif Kapadia",
       ],
@@ -1040,7 +1040,7 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
       "categories": [
         "Documentary",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Ben Addelman",
         "Ziya Tong",
@@ -1092,7 +1092,7 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -1271,7 +1271,7 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
       "categories": [
         "Documentary",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Victor Kossakovsky",
       ],
@@ -1312,7 +1312,7 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
       "categories": [
         "Documentary",
       ],
-      "certification": "12",
+      "classification": "12",
       "directors": [
         "Arum Nam",
       ],
@@ -1453,7 +1453,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Rachel Morrison",
       ],
@@ -1592,7 +1592,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Chantal Akerman",
       ],
@@ -1646,7 +1646,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Cheryl Dunye",
       ],
@@ -1696,7 +1696,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Documentary",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Shiori Ito",
       ],
@@ -1771,7 +1771,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Documentary",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Yuval Abraham",
         "Basel Adra",
@@ -1803,7 +1803,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Drama",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Chantal Akerman",
       ],
@@ -1826,7 +1826,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Documentary",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Chantal Akerman",
       ],
@@ -1879,7 +1879,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Live Opera, Music & Theatre",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Max Webster",
       ],
@@ -1971,7 +1971,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Chantal Akerman",
       ],
@@ -2044,7 +2044,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Chantal Akerman",
       ],
@@ -2183,7 +2183,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Chantal Akerman",
       ],
@@ -2214,7 +2214,7 @@ Screening followed by a Q&A: Q&A",
         "Comedy",
         "Thriller",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Sean Foley",
       ],
@@ -2244,7 +2244,7 @@ Recorded Performance: Prerecorded Q&A",
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Chantal Akerman",
       ],
@@ -2436,7 +2436,7 @@ Recorded Performance: Prerecorded Q&A",
       "categories": [
         "Live Opera, Music & Theatre",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],

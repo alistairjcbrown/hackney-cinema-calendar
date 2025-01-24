@@ -67,8 +67,8 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
     const $title = $(".film-detail__title");
 
     const $ceritification = $title.find(".film-detail__film__rating");
-    const certification = getText($ceritification);
-    // Remove the certification element so that it doesn't come up in the title
+    const classification = getText($ceritification);
+    // Remove the classification element so that it doesn't come up in the title
     // text when we get that later
     $ceritification.remove();
 
@@ -93,7 +93,7 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
       overview: createOverview({
         year,
         duration: stats[stats.length - 1].replace("m.", ""),
-        certification,
+        classification,
         directors: isCatchAll(stats[0]) ? "" : stats[0],
         actors: getText($cast),
       }),

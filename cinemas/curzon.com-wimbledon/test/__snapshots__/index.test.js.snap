@@ -17,7 +17,7 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -174,7 +174,7 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Pablo Larraín",
       ],
@@ -247,7 +247,7 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
         "Crime",
         "Musical",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jacques Audiard",
       ],
@@ -358,7 +358,7 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Edward Berger",
       ],
@@ -422,7 +422,7 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -533,7 +533,7 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
         "Drama",
         "Comedy",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -593,7 +593,7 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
         "Drama",
         "Romance",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Robert Zemeckis",
       ],
@@ -693,7 +693,7 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Tim Fehlbaum",
       ],
@@ -1003,7 +1003,7 @@ Special Preview: Special Preview Screening",
         "Family",
         "Crime",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Ridley Scott",
       ],
@@ -1064,7 +1064,7 @@ Special Preview: Special Preview Screening",
       "categories": [
         "Live Opera, Music & Theatre",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Max Webster",
       ],
@@ -1203,7 +1203,7 @@ Encore: Encore",
         "Comedy",
         "Thriller",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Sean Foley",
       ],

@@ -21,7 +21,7 @@ exports[`Everyman Belsize Park retrieve and transform 1`] = `
         "Music",
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -120,7 +120,7 @@ Reduced ticket price for guests aged 55 and over, including a complimentary hot 
       "categories": [
         "Comedy drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -310,7 +310,7 @@ Reduced ticket price for guests aged 55 and over, including a complimentary hot 
       "categories": [
         "Documentary",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "David Bickerstaff",
       ],
@@ -364,7 +364,7 @@ Reduced ticket price for guests aged 55 and over, including a complimentary hot 
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [],
     },
     "performances": [
@@ -532,7 +532,7 @@ Reduced ticket price for guests aged 55 and over, including a complimentary hot 
         "Opera",
         "Musical",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Liam Scarlett",
       ],

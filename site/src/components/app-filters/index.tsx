@@ -1,4 +1,4 @@
-import { Certification, type Filters } from "@/types";
+import { Classification, type Filters } from "@/types";
 import Accordion from "rsuite/cjs/Accordion";
 import Checkbox from "rsuite/cjs/Checkbox";
 import Divider from "rsuite/cjs/Divider";
@@ -12,7 +12,7 @@ import Search from "@/components/search";
 import DateRangePicker from "@/components/date-range";
 import VenueFilter from "@/components/venue-filter";
 import MovieFilter from "@/components/movie-filter";
-import CertificationFilter from "@/components/certification-filter";
+import ClassificationFilter from "@/components/classification-filter";
 import GenreFilter from "@/components/genre-filter";
 
 export default function AppFilters() {
@@ -23,7 +23,7 @@ export default function AppFilters() {
   const {
     filteredVenues,
     filteredMovies,
-    filteredCertifications,
+    filteredClassifications,
     filteredGenres,
     searchTerm,
     dateRange,
@@ -34,9 +34,9 @@ export default function AppFilters() {
     setFilters({ ...filters, filteredVenues });
   const setFilteredMovies = (filteredMovies: Filters["filteredMovies"]) =>
     setFilters({ ...filters, filteredMovies });
-  const setFilteredCertifications = (
-    filteredCertifications: Filters["filteredCertifications"],
-  ) => setFilters({ ...filters, filteredCertifications });
+  const setFilteredClassifications = (
+    filteredClassifications: Filters["filteredClassifications"],
+  ) => setFilters({ ...filters, filteredClassifications });
   const setFilteredGenres = (filteredGenres: Filters["filteredGenres"]) =>
     setFilters({ ...filters, filteredGenres });
   const setSearchTerm = (searchTerm: Filters["searchTerm"]) =>
@@ -70,14 +70,14 @@ export default function AppFilters() {
               />
             </Stack.Item>
             <Stack.Item style={{ width: "100%" }}>
-              <CertificationFilter
-                certifications={
+              <ClassificationFilter
+                classifications={
                   Object.keys(
-                    defaultFilters!.filteredCertifications,
-                  ) as Certification[]
+                    defaultFilters!.filteredClassifications,
+                  ) as Classification[]
                 }
-                values={filteredCertifications}
-                onChange={setFilteredCertifications}
+                values={filteredClassifications}
+                onChange={setFilteredClassifications}
               />
             </Stack.Item>
             <Stack.Item style={{ width: "100%" }}>

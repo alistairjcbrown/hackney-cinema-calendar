@@ -25,7 +25,7 @@ type Overview = {
   actors: string[];
   categories: string[];
   directors: string[];
-  certification: string;
+  classification: string;
   duration: number;
   year: string;
 };
@@ -46,7 +46,7 @@ export type MoviePerformance = {
   screen?: string;
 };
 
-export enum Certification {
+export enum Classification {
   Universal = "U",
   ParentalGuidance = "PG",
   Suitablefor12years = "12",
@@ -55,14 +55,14 @@ export enum Certification {
   Suitablefor18years = "18",
   Unknown = "Unknown",
 }
-export const certificationOrder: Certification[] = [
-  Certification.Universal,
-  Certification.ParentalGuidance,
-  Certification.Suitablefor12years,
-  Certification.Suitablefor12yearsAccompanied,
-  Certification.Suitablefor15years,
-  Certification.Suitablefor18years,
-  Certification.Unknown,
+export const classificationOrder: Classification[] = [
+  Classification.Universal,
+  Classification.ParentalGuidance,
+  Classification.Suitablefor12years,
+  Classification.Suitablefor12yearsAccompanied,
+  Classification.Suitablefor15years,
+  Classification.Suitablefor18years,
+  Classification.Unknown,
 ];
 
 export type Movie = {
@@ -70,7 +70,7 @@ export type Movie = {
   title: string;
   normalizedTitle: string;
   isUnmatched?: boolean;
-  certification?: Certification;
+  classification?: Classification;
   overview?: string;
   year?: string;
   releaseDate?: string;
@@ -110,6 +110,6 @@ export type Filters = {
   includeUnknownYears: boolean;
   filteredVenues: Record<Venue["id"], boolean>;
   filteredMovies: Record<Movie["id"], boolean>;
-  filteredCertifications: Record<Certification, boolean>;
+  filteredClassifications: Record<Classification, boolean>;
   filteredGenres: Record<Genre["id"], boolean>;
 };

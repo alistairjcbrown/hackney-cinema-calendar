@@ -8,7 +8,7 @@ exports[`Curzon Soho retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [],
       "duration": 5520000,
     },
@@ -38,7 +38,7 @@ exports[`Curzon Soho retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -217,7 +217,7 @@ exports[`Curzon Soho retrieve and transform 1`] = `
         "Fantasy",
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -249,7 +249,7 @@ exports[`Curzon Soho retrieve and transform 1`] = `
         "Drama",
         "Romance",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -363,7 +363,7 @@ exports[`Curzon Soho retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [],
       "duration": 5280000,
     },
@@ -394,7 +394,7 @@ exports[`Curzon Soho retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -574,7 +574,7 @@ exports[`Curzon Soho retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [],
       "duration": 5100000,
     },
@@ -595,7 +595,7 @@ exports[`Curzon Soho retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [],
       "duration": 7200000,
     },
@@ -622,7 +622,7 @@ exports[`Curzon Soho retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Mohammad Rasoulof",
       ],
@@ -651,7 +651,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Mike Leigh",
       ],
@@ -684,7 +684,7 @@ Screening followed by a Q&A: Q&A",
         "Drama",
         "Comedy",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -712,7 +712,7 @@ Screening followed by a Q&A: Q&A",
         "Family",
         "Fantasy",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Gints Zilbalodis",
       ],
@@ -774,7 +774,7 @@ Screening followed by a Q&A: Q&A",
         "Family",
         "Crime",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Ridley Scott",
       ],
@@ -799,7 +799,7 @@ Valentine's Day: Special Valentine's Day Screening",
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Chantal Akerman",
       ],
@@ -849,7 +849,7 @@ Screening followed by a Q&A: Q&A",
       "categories": [
         "Documentary",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Lucy Walker",
         "Sam Chown Ahern",

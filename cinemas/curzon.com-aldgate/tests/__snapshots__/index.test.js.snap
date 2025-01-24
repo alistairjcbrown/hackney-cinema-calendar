@@ -17,7 +17,7 @@ exports[`Curzon Aldgate retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -184,7 +184,7 @@ exports[`Curzon Aldgate retrieve and transform 1`] = `
         "Fantasy",
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -295,7 +295,7 @@ exports[`Curzon Aldgate retrieve and transform 1`] = `
         "Drama",
         "Comedy",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -408,7 +408,7 @@ Adults without a baby will not be allowed to purchase a ticket to a ‘Baby Club
         "Drama",
         "Romance",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -523,7 +523,7 @@ Adults without a baby will not be allowed to purchase a ticket to a ‘Baby Club
         "Crime",
         "Musical",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jacques Audiard",
       ],
@@ -634,7 +634,7 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
         "Drama",
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Steven Soderbergh",
       ],
@@ -746,7 +746,7 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -898,7 +898,7 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
       "categories": [
         "Documentary",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Dawn Porter",
       ],
@@ -1165,7 +1165,7 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
         "Family",
         "Crime",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Ridley Scott",
       ],
@@ -1366,7 +1366,7 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
       "categories": [
         "Live Opera, Music & Theatre",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Max Webster",
       ],
@@ -1446,7 +1446,7 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
         "Comedy",
         "Thriller",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Sean Foley",
       ],

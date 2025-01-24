@@ -18,7 +18,7 @@ exports[`Curzon Victoria retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Edward Berger",
       ],
@@ -172,7 +172,7 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -381,7 +381,7 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
         "Fantasy",
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -456,7 +456,7 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
         "Drama",
         "Comedy",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -566,7 +566,7 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
         "Drama",
         "Romance",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -729,7 +729,7 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Pablo Larraín",
       ],
@@ -838,7 +838,7 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
         "Crime",
         "Musical",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jacques Audiard",
       ],
@@ -907,7 +907,7 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
       "categories": [
         "Drama",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -1059,7 +1059,7 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
       "categories": [
         "Documentary",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Dawn Porter",
       ],
@@ -1095,7 +1095,7 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Tim Fehlbaum",
       ],
@@ -1160,7 +1160,7 @@ Special Preview: Special Preview Screening",
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Rachel Morrison",
       ],
@@ -1503,7 +1503,7 @@ Special Preview: Special Preview Screening",
         "Family",
         "Crime",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Ridley Scott",
       ],
@@ -1728,7 +1728,7 @@ Special Preview: Special Preview Screening",
       "categories": [
         "Live Opera, Music & Theatre",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Max Webster",
       ],
@@ -1830,7 +1830,7 @@ Special Preview: Special Preview Screening",
         "Comedy",
         "Thriller",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Sean Foley",
       ],
@@ -1971,7 +1971,7 @@ Recorded Performance: Prerecorded Q&A",
       "categories": [
         "Live Opera, Music & Theatre",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],

@@ -28,7 +28,7 @@ async function getAdditionalDataFor(moviePages) {
       year: getText($(".film-year")).match(/(\d{4})/)?.[0],
       directors: getText($(".meta .meta-line .film-director")),
       actors: getText($(".meta .meta-line .film-cast")),
-      certification: $(".bbfc img").attr("alt")?.replace("BBFC ", "")?.trim(),
+      classification: $(".bbfc img").attr("alt")?.replace("BBFC ", "")?.trim(),
     });
 
     return { ...mapping, [url]: data };

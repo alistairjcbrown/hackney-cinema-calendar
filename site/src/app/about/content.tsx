@@ -1,7 +1,7 @@
 "use client";
 import {
-  Certification,
-  certificationOrder,
+  Classification,
+  classificationOrder,
   type CinemaData,
   type Movie,
 } from "@/types";
@@ -25,8 +25,8 @@ import Divider from "rsuite/cjs/Divider";
 import { useFilters } from "@/state/filters-context";
 import AppHeading from "@/components/app-heading";
 import { useCinemaData } from "@/state/cinema-data-context";
-import getMovieCertification from "@/utils/get-movie-certification";
-import MovieCertification from "@/components/movie-certification";
+import getMovieClassification from "@/utils/get-movie-classification";
+import MovieClassification from "@/components/movie-classification";
 import logo from "./blue_long_1-8ba2ac31f354005783fab473602c34c3f4fd207150182061e425d366e4f34596.svg";
 import slugify from "@sindresorhus/slugify";
 import getMatchingMovies from "@/utils/get-matching-movies";
@@ -88,16 +88,16 @@ const getPerformanceCount = (movies: CinemaData["movies"]) =>
 const getVenueCount = (venues: CinemaData["venues"]) =>
   Object.values(venues).length;
 
-const getCertificationCounts = (movies: CinemaData["movies"]) =>
+const getClassificationCounts = (movies: CinemaData["movies"]) =>
   Object.values(movies).reduce(
-    (totals: Record<Certification, number>, movie: Movie) => {
-      const certification = getMovieCertification(movie);
+    (totals: Record<Classification, number>, movie: Movie) => {
+      const classification = getMovieClassification(movie);
       return {
         ...totals,
-        [certification]: (totals[certification] || 0) + 1,
+        [classification]: (totals[classification] || 0) + 1,
       };
     },
-    {} as Record<Certification, number>,
+    {} as Record<Classification, number>,
   );
 
 const getGenreCounts = (movies: CinemaData["movies"]) =>
@@ -174,7 +174,7 @@ export default function AboutContent() {
   });
 
   const movieCount = getMovieCount(data!.movies);
-  const certificationTotals = getCertificationCounts(data!.movies);
+  const classificationTotals = getClassificationCounts(data!.movies);
   const genreTotals = getGenreCounts(data!.movies);
   const festivalShowings = getFestivalShowings(data!.movies);
   const marathons = getMarathons(data!.movies);
@@ -392,9 +392,9 @@ export default function AboutContent() {
                 columnRule: "1px dotted #666",
               }}
             >
-              {certificationOrder.map((certification) => (
-                <li key={certification}>
-                  {certification === Certification.Unknown ? (
+              {classificationOrder.map((classification) => (
+                <li key={classification}>
+                  {classification === Classification.Unknown ? (
                     <span
                       style={{
                         textAlign: "center",
@@ -409,8 +409,8 @@ export default function AboutContent() {
                       ❓
                     </span>
                   ) : (
-                    <MovieCertification
-                      certification={certification}
+                    <MovieClassification
+                      classification={classification}
                       width={25}
                       height={25}
                       style={{ margin: "0.25rem 0.5rem 0.25rem 0" }}
@@ -418,16 +418,16 @@ export default function AboutContent() {
                   )}
                   <FilterLink
                     filters={{
-                      filteredCertifications: {
-                        [certification]: true,
-                      } as Record<Certification, boolean>,
+                      filteredClassifications: {
+                        [classification]: true,
+                      } as Record<Classification, boolean>,
                     }}
                   >
-                    {certificationTotals[certification]} movies
+                    {classificationTotals[classification]} movies
                   </FilterLink>{" "}
                   (
                   {Math.round(
-                    (certificationTotals[certification] / movieCount) * 100,
+                    (classificationTotals[classification] / movieCount) * 100,
                   )}
                   %)
                 </li>

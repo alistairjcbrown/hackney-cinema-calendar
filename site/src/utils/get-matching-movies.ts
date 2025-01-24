@@ -4,7 +4,7 @@ import {
   type Filters,
   type CinemaData,
 } from "@/types";
-import getMovieCertification from "./get-movie-certification";
+import getMovieClassification from "./get-movie-classification";
 import normalizeString from "./normalize-string";
 
 const getMatchingMovies = (
@@ -14,7 +14,7 @@ const getMatchingMovies = (
     dateRange,
     filteredVenues,
     filteredMovies,
-    filteredCertifications,
+    filteredClassifications,
     filteredGenres,
     yearRange,
     includeUnknownYears,
@@ -36,7 +36,7 @@ const getMatchingMovies = (
       return matchingMovies;
     }
 
-    if (!filteredCertifications[getMovieCertification(movie)]) {
+    if (!filteredClassifications[getMovieClassification(movie)]) {
       return matchingMovies;
     }
 

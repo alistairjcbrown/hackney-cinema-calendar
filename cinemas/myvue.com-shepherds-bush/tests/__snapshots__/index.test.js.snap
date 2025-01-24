@@ -19,6 +19,7 @@ exports[`Vue Shepherd's Bush retrieve and transform 1`] = `
         "Music",
         "Biography",
       ],
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -186,6 +187,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Family",
         "Kids",
       ],
+      "classification": "PG",
       "directors": [
         "Barry Jenkins",
       ],
@@ -280,6 +282,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Drama",
         "Romance",
       ],
+      "classification": "15",
       "directors": [
         "John Crowley",
       ],
@@ -408,6 +411,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Mystery",
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -517,6 +521,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Sci-Fi",
         "Animation",
       ],
+      "classification": "PG",
       "directors": [
         "Jeff Fowler",
       ],
@@ -657,6 +662,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Crime",
         "Mystery",
       ],
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -828,6 +834,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Kids",
         "Family",
       ],
+      "classification": "PG",
       "directors": [
         "Dave Derrick Jr.",
       ],
@@ -892,6 +899,7 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
       "categories": [
         "Thriller",
       ],
+      "classification": "15",
       "directors": [
         "Mel Gibson",
       ],
@@ -1450,6 +1458,7 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "Biography",
         "Musical",
       ],
+      "classification": "15",
       "directors": [
         "Michael Gracey",
       ],
@@ -1492,6 +1501,7 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "Musical",
         "Fantasy",
       ],
+      "classification": "PG",
       "directors": [
         "Jon M. Chu",
       ],
@@ -1591,6 +1601,7 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
       "categories": [
         "Horror",
       ],
+      "classification": "15",
       "directors": [
         "Leigh Whannell",
       ],
@@ -1954,6 +1965,7 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "Comedy",
         "Romance",
       ],
+      "classification": "12A",
       "directors": [
         "Robert Zemeckis",
       ],
@@ -2010,6 +2022,7 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "War",
         "History",
       ],
+      "classification": "15",
       "directors": [
         "Nick Hamm",
       ],
@@ -2039,6 +2052,7 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "Comedy",
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -2163,6 +2177,7 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
       "categories": [
         "Thriller",
       ],
+      "classification": "12A",
       "directors": [
         "Edward Berger",
       ],
@@ -2410,6 +2425,7 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "Biography",
         "Music",
       ],
+      "classification": "12A",
       "directors": [
         "Pablo Larraín",
       ],
@@ -2479,6 +2495,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Comedy",
         "Fantasy",
       ],
+      "classification": "U",
       "directors": [
         "Peter Hastings",
       ],
@@ -2676,6 +2693,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Comedy",
         "Family",
       ],
+      "classification": "PG",
       "directors": [
         "Dougal Wilson",
       ],
@@ -2713,6 +2731,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Ridley Scott",
       ],
@@ -2787,6 +2806,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
     "overview": {
       "actors": [],
       "categories": [],
+      "classification": "U",
       "directors": [],
       "duration": 3600000,
     },
@@ -2818,6 +2838,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Animation",
       ],
+      "classification": "U",
       "directors": [
         "Tim O'Sullivan",
       ],
@@ -2846,6 +2867,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Animation",
       ],
+      "classification": "U",
       "directors": [
         "Chris Sanders",
       ],
@@ -2885,6 +2907,7 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "Horror",
         "Thriller",
       ],
+      "classification": "15",
       "directors": [
         "Steven Soderbergh",
       ],
@@ -3110,6 +3133,7 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "Horror",
         "Sci-Fi",
       ],
+      "classification": "15",
       "directors": [
         "Drew Hancock",
       ],
@@ -3152,6 +3176,7 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "Thriller",
         "Crime",
       ],
+      "classification": "18",
       "directors": [
         "David Fincher",
       ],
@@ -3189,6 +3214,7 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "Thriller",
         "Mystery",
       ],
+      "classification": "18",
       "directors": [
         "David Fincher",
       ],
@@ -3231,6 +3257,7 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
       "categories": [
         "Animation",
       ],
+      "classification": "PG",
       "directors": [
         "Don Hall",
         "Carlos López Estrada",
@@ -3288,6 +3315,7 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
       "categories": [
         "Drama",
       ],
+      "classification": "12A",
       "directors": [
         "Thomas Lee",
         "Daniel Ho",
@@ -3350,6 +3378,7 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
       "categories": [
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Abhishek Kapoor",
       ],
@@ -3463,6 +3492,7 @@ Big Screen Music: Get up close and personal with your favourite artists. From in
       "categories": [
         "Fantasy",
       ],
+      "classification": "12A",
       "directors": [
         "Ang Lee",
       ],
@@ -3526,6 +3556,7 @@ Big Screen Music: Get up close and personal with your favourite artists. From in
     "overview": {
       "actors": [],
       "categories": [],
+      "classification": "15",
       "directors": [],
     },
     "performances": [
@@ -3607,6 +3638,7 @@ Big Screen Music: Get up close and personal with your favourite artists. From in
         "Music",
         "Documentary",
       ],
+      "classification": "15",
       "directors": [
         "Dawn Porter",
       ],
@@ -3669,6 +3701,7 @@ Big Screen Music: Get up close and personal with your favourite artists. From in
         "Drama",
         "Comedy",
       ],
+      "classification": "15",
       "directors": [
         "Sean Foley",
       ],
@@ -3740,6 +3773,7 @@ Big Screen Music: Get up close and personal with your favourite artists. From in
         "Drama",
         "Crime",
       ],
+      "classification": "15",
       "directors": [
         "Jacky Gan",
       ],
@@ -3799,6 +3833,7 @@ Mandarin: Films shown in the Mandarin language",
         "Animation",
         "Comedy",
       ],
+      "classification": "U",
       "directors": [
         "Richard Claus",
         "Karsten Kiilerich",
@@ -3835,6 +3870,7 @@ Mandarin: Films shown in the Mandarin language",
         "Thriller",
         "Mystery",
       ],
+      "classification": "15",
       "directors": [
         "Sreeraj Sreenivasan",
       ],
@@ -3872,6 +3908,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Thriller",
         "Drama",
       ],
+      "classification": "12A",
       "directors": [
         "Jofin T. Chacko",
       ],
@@ -4141,6 +4178,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
     "overview": {
       "actors": [],
       "categories": [],
+      "classification": "15",
       "directors": [],
     },
     "performances": [

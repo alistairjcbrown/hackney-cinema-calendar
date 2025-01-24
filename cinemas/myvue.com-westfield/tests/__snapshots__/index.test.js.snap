@@ -19,6 +19,7 @@ exports[`Vue Westfield London retrieve and transform 1`] = `
         "Music",
         "Biography",
       ],
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -330,6 +331,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Family",
         "Kids",
       ],
+      "classification": "PG",
       "directors": [
         "Barry Jenkins",
       ],
@@ -751,6 +753,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "Drama",
         "Romance",
       ],
+      "classification": "15",
       "directors": [
         "John Crowley",
       ],
@@ -1012,6 +1015,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Mystery",
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -1274,6 +1278,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Sci-Fi",
         "Animation",
       ],
+      "classification": "PG",
       "directors": [
         "Jeff Fowler",
       ],
@@ -1638,6 +1643,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Crime",
         "Mystery",
       ],
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -1930,6 +1936,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Kids",
         "Family",
       ],
+      "classification": "PG",
       "directors": [
         "Dave Derrick Jr.",
       ],
@@ -2093,6 +2100,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Thriller",
       ],
+      "classification": "15",
       "directors": [
         "Mel Gibson",
       ],
@@ -2840,6 +2848,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Musical",
         "Fantasy",
       ],
+      "classification": "PG",
       "directors": [
         "Jon M. Chu",
       ],
@@ -3077,6 +3086,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Horror",
       ],
+      "classification": "15",
       "directors": [
         "Leigh Whannell",
       ],
@@ -3511,6 +3521,7 @@ VueXtreme: 30% larger than our regular cinema screens  for the most immersive ex
         "Comedy",
         "Romance",
       ],
+      "classification": "12A",
       "directors": [
         "Robert Zemeckis",
       ],
@@ -3570,6 +3581,7 @@ VueXtreme: 30% larger than our regular cinema screens  for the most immersive ex
         "Comedy",
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -3655,6 +3667,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Thriller",
       ],
+      "classification": "12A",
       "directors": [
         "Edward Berger",
       ],
@@ -3764,6 +3777,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Biography",
         "Music",
       ],
+      "classification": "12A",
       "directors": [
         "Pablo Larraín",
       ],
@@ -3895,6 +3909,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Comedy",
         "Fantasy",
       ],
+      "classification": "U",
       "directors": [
         "Peter Hastings",
       ],
@@ -4086,6 +4101,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Comedy",
         "Family",
       ],
+      "classification": "PG",
       "directors": [
         "Dougal Wilson",
       ],
@@ -4189,6 +4205,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Ridley Scott",
       ],
@@ -4422,6 +4439,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
     "overview": {
       "actors": [],
       "categories": [],
+      "classification": "U",
       "directors": [],
       "duration": 3600000,
     },
@@ -4453,6 +4471,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Animation",
       ],
+      "classification": "U",
       "directors": [
         "Tim O'Sullivan",
       ],
@@ -4487,6 +4506,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Animation",
       ],
+      "classification": "U",
       "directors": [
         "Chris Sanders",
       ],
@@ -4527,6 +4547,7 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "Horror",
         "Thriller",
       ],
+      "classification": "15",
       "directors": [
         "Steven Soderbergh",
       ],
@@ -4878,6 +4899,7 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
       "categories": [
         "Drama",
       ],
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -5233,6 +5255,7 @@ Interval: Films that are shown with a Interval",
         "Horror",
         "Sci-Fi",
       ],
+      "classification": "15",
       "directors": [
         "Drew Hancock",
       ],
@@ -5275,6 +5298,7 @@ Interval: Films that are shown with a Interval",
         "Thriller",
         "Crime",
       ],
+      "classification": "18",
       "directors": [
         "David Fincher",
       ],
@@ -5323,6 +5347,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
         "Thriller",
         "Mystery",
       ],
+      "classification": "18",
       "directors": [
         "David Fincher",
       ],
@@ -5365,6 +5390,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Animation",
       ],
+      "classification": "PG",
       "directors": [
         "Don Hall",
         "Carlos López Estrada",
@@ -5420,6 +5446,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Drama",
       ],
+      "classification": "12A",
       "directors": [
         "RaMell Ross",
       ],
@@ -5456,6 +5483,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Music",
       ],
+      "classification": "12A",
       "directors": [
         "Yoondong Oh",
       ],
@@ -5520,6 +5548,7 @@ Big Screen Music: Get up close and personal with your favourite artists. From in
         "BAEKHYUN",
       ],
       "categories": [],
+      "classification": "PG",
       "directors": [],
       "duration": 6000000,
     },
@@ -5620,6 +5649,7 @@ Big Screen Music: Get up close and personal with your favourite artists. From in
       "categories": [
         "Musical",
       ],
+      "classification": "15",
       "directors": [
         "Stephen Daldry",
       ],
@@ -5658,6 +5688,7 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
       "categories": [
         "Fantasy",
       ],
+      "classification": "12A",
       "directors": [
         "Ang Lee",
       ],
@@ -5725,6 +5756,7 @@ Mandarin: Films shown in the Mandarin language",
     "overview": {
       "actors": [],
       "categories": [],
+      "classification": "15",
       "directors": [],
     },
     "performances": [
@@ -5753,6 +5785,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Musical",
       ],
+      "classification": "15",
       "directors": [
         "Conor McPherson",
       ],
@@ -5821,6 +5854,7 @@ Big Screen Music: Get up close and personal with your favourite artists. From in
       "categories": [
         "Musical",
       ],
+      "classification": "12A",
       "directors": [],
       "duration": 6900000,
     },
@@ -5858,6 +5892,7 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
       "categories": [
         "Musical",
       ],
+      "classification": "12A",
       "directors": [
         "Nick Morris",
       ],
@@ -5899,6 +5934,7 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "Music",
         "Documentary",
       ],
+      "classification": "15",
       "directors": [
         "Dawn Porter",
       ],
@@ -5992,6 +6028,7 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "Drama",
         "Comedy",
       ],
+      "classification": "15",
       "directors": [
         "Sean Foley",
       ],
@@ -6126,6 +6163,7 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "Animation",
         "Comedy",
       ],
+      "classification": "U",
       "directors": [
         "Richard Claus",
         "Karsten Kiilerich",
@@ -6314,6 +6352,7 @@ Big Screen Opera: Unexpected love. Tragic consequences. A prince in disguise. Lo
         "Comedy",
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Jason Reitman",
       ],
@@ -6440,6 +6479,7 @@ AD: Audio Description. Headphones are available for visually impaired customers 
       "categories": [
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Gia Coppola",
       ],
@@ -6512,6 +6552,7 @@ Recorded Q&A: A special screening, complete with a recorded Q&A section, typical
       "categories": [
         "Drama",
       ],
+      "classification": "15",
       "directors": [
         "Maura Delpero",
       ],
@@ -6550,6 +6591,7 @@ Recorded Q&A: A special screening, complete with a recorded Q&A section, typical
     "overview": {
       "actors": [],
       "categories": [],
+      "classification": "15",
       "directors": [],
     },
     "performances": [

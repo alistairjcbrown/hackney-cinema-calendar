@@ -16,7 +16,7 @@ exports[`East Dulwich Picturehouse & Cafe retrieve and transform 1`] = `
         "Matt Berry",
       ],
       "categories": [],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Chris Sanders",
       ],
@@ -48,7 +48,7 @@ exports[`East Dulwich Picturehouse & Cafe retrieve and transform 1`] = `
         "Emma Laird",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Brady Corbet",
       ],
@@ -180,7 +180,7 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "U",
+      "classification": "U",
       "directors": [],
       "duration": 1560000,
     },
@@ -256,7 +256,7 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "Dan Fogler",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -442,7 +442,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Michele Austin",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Mike Leigh",
       ],
@@ -474,7 +474,7 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "Daniel Oreskes",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -735,7 +735,7 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "Peter Kálmán",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -763,7 +763,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Hansung Yoo",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Andrei Serban",
       ],
@@ -793,7 +793,7 @@ Subtitled: This show is in the original language and will have English subtitles
         "VALERIA GOLINO",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Pablo Larraín",
       ],
@@ -836,7 +836,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Kenneth MacMillan",
       ],
@@ -866,7 +866,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Elizabeth Bishop",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -895,7 +895,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Judit Kutasi",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -924,7 +924,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Elisabet Strid",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Barrie Kosky",
       ],
@@ -947,7 +947,7 @@ Subtitled: This show is in the original language and will have English subtitles
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Christopher Wheeldon",
       ],
@@ -977,7 +977,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Magnus Dietrich",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -1006,7 +1006,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Nicole Scherzinger",
       ],
       "categories": [],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Dave Derrick Jr.",
       ],
@@ -1047,7 +1047,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Anoop Desai",
       ],
       "categories": [],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -1117,7 +1117,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Claude Rains",
       ],
       "categories": [],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Michael Curtiz",
       ],
@@ -1145,7 +1145,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Elisabet Strid",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Barrie Kosky",
       ],
@@ -1171,7 +1171,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "Kirk Douglas",
       ],
       "categories": [],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Billy Wilder",
       ],
@@ -1193,7 +1193,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [],
       "duration": 5700000,
     },
@@ -1221,7 +1221,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "John Philliber",
       ],
       "categories": [],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Billy Wilder",
       ],
@@ -1253,7 +1253,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "Reed Hadley",
       ],
       "categories": [],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "John M. Stahl",
       ],
@@ -1282,7 +1282,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "Magnus Dietrich",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -1311,7 +1311,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "Marian Carr",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Robert Aldrich",
       ],
@@ -1337,7 +1337,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "Jocelyn Brando",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Fritz Lang",
       ],
@@ -1359,7 +1359,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [],
       "duration": 13200000,
     },
@@ -1389,7 +1389,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "Simon McBurney",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -1481,7 +1481,7 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "Piotr Buszewski",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -1516,7 +1516,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Peter Kálmán",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -1547,7 +1547,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "Elizabeth Bishop",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
@@ -1641,7 +1641,7 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Christopher Wheeldon",
       ],
@@ -1664,7 +1664,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Kenneth MacMillan",
       ],
@@ -1693,7 +1693,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "Hansung Yoo",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Andrei Serban",
       ],
@@ -1752,7 +1752,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Cush Jumbo",
       ],
       "categories": [],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Max Webster",
       ],
@@ -1816,7 +1816,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Giles Terera",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Sean Foley",
       ],
@@ -1863,7 +1863,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Kiernan Shipka",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Gia Coppola",
       ],
@@ -1893,7 +1893,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Eddy Maday",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Steven Soderbergh",
       ],

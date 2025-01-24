@@ -17,7 +17,7 @@ exports[`Cineworld Wembley retrieve and transform 1`] = `
       "categories": [
         "Comedy",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Gautham Vasudev Menon",
       ],
@@ -132,7 +132,7 @@ exports[`Cineworld Wembley retrieve and transform 1`] = `
         "Adventure",
         "Action",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Abhishek Kapoor",
       ],
@@ -231,7 +231,7 @@ exports[`Cineworld Wembley retrieve and transform 1`] = `
         "Revathi",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Sreeraj Sreenivasan",
       ],
@@ -264,7 +264,7 @@ exports[`Cineworld Wembley retrieve and transform 1`] = `
       "categories": [
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Leigh Whannell",
       ],
@@ -466,7 +466,7 @@ exports[`Cineworld Wembley retrieve and transform 1`] = `
       "categories": [
         "Comedy",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Kiruthiga Udhayanidhi",
       ],
@@ -586,7 +586,7 @@ exports[`Cineworld Wembley retrieve and transform 1`] = `
       "categories": [
         "Action",
       ],
-      "certification": "18",
+      "classification": "18",
       "directors": [
         "Sonu Sood",
       ],
@@ -616,7 +616,7 @@ exports[`Cineworld Wembley retrieve and transform 1`] = `
         "Drama",
         "Action",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "S. Shankar",
       ],
@@ -646,7 +646,7 @@ exports[`Cineworld Wembley retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Jofin T. Chacko",
       ],
@@ -696,7 +696,7 @@ exports[`Cineworld Wembley retrieve and transform 1`] = `
       "categories": [
         "Horror",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -777,7 +777,7 @@ exports[`Cineworld Wembley retrieve and transform 1`] = `
       "categories": [
         "Action",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Jeff Fowler",
       ],
@@ -938,7 +938,7 @@ exports[`Cineworld Wembley retrieve and transform 1`] = `
         "Action",
         "Animation",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Barry Jenkins",
       ],
@@ -1159,7 +1159,7 @@ exports[`Cineworld Wembley retrieve and transform 1`] = `
       "categories": [
         "Action",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Mel Gibson",
       ],
@@ -1365,7 +1365,7 @@ This is a subtitled screening",
         "Eddy Maday",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Steven Soderbergh",
       ],
@@ -1460,7 +1460,7 @@ This is a subtitled screening",
       "categories": [
         "Action",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Abhishek Anil Kapur",
         "Sandeep Kewlani",
@@ -1588,7 +1588,7 @@ This is a subtitled screening",
         "Raechelle Banno",
       ],
       "categories": [],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Michael Gracey",
       ],
@@ -1641,7 +1641,7 @@ This is a subtitled screening",
         "Action",
         "Comedy",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Sundar C.",
       ],
@@ -1689,7 +1689,7 @@ This is a subtitled screening",
       "categories": [
         "Comedy",
       ],
-      "certification": "12A",
+      "classification": "12A",
       "directors": [
         "Anil Ravipudi",
       ],
@@ -1747,7 +1747,7 @@ This is a subtitled screening",
         "Adventure",
         "Animation",
       ],
-      "certification": "U",
+      "classification": "U",
       "directors": [
         "Chris Sanders",
       ],
@@ -1785,7 +1785,7 @@ This is a subtitled screening",
         "Action",
         "Animation",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Dave Derrick Jr.",
       ],
@@ -1851,7 +1851,7 @@ This is a subtitled screening",
       "categories": [
         "Adventure",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [
         "Dougal Wilson",
       ],
@@ -2012,7 +2012,7 @@ This is a subtitled screening",
       "categories": [
         "Animation",
       ],
-      "certification": "PG",
+      "classification": "PG",
       "directors": [],
       "duration": 7080000,
       "trailer": "https://youtu.be/do0c3iLWdE8?si=3tzVMXcXPFEo4OCK",
@@ -2046,7 +2046,7 @@ This is a subtitled screening",
       "categories": [
         "Drama",
       ],
-      "certification": "15",
+      "classification": "15",
       "directors": [
         "Tim Fehlbaum",
       ],

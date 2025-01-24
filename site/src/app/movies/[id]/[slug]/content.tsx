@@ -13,9 +13,10 @@ import Text from "rsuite/cjs/Text";
 import useMediaQuery from "rsuite/cjs/useMediaQuery";
 import { useCinemaData } from "@/state/cinema-data-context";
 import { useFilters } from "@/state/filters-context";
+import getMovieClassification from "@/utils/get-movie-classification";
 import getMatchingMovies from "@/utils/get-matching-movies";
 import MoviePoster from "@/components/movie-poster";
-import MovieCertification from "@/components/movie-certification";
+import MovieClassification from "@/components/movie-classification";
 import PerformanceList from "@/components/performance-list";
 import AppHeading from "@/components/app-heading";
 import "./index.scss";
@@ -77,6 +78,7 @@ export default function MoviePageContent({
       </Tag>
     ));
 
+  const classification = getMovieClassification(displayedMovie);
   return (
     <Container>
       <AppHeading />
@@ -101,10 +103,10 @@ export default function MoviePageContent({
                 >
                   <Stack.Item>
                     <Heading level={2}>
-                      {displayedMovie.certification ? (
+                      {classification ? (
                         <>
-                          <MovieCertification
-                            certification={displayedMovie.certification}
+                          <MovieClassification
+                            classification={classification}
                           />
                           &nbsp;
                         </>
