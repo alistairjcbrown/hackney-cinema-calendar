@@ -1,17 +1,12 @@
 const path = require("node:path");
-const { schemaValidate } = require("../../../common/test-utils");
-const { dailyCache } = require("../../../common/cache");
-const { readCache } = jest.requireActual("../../../common/cache");
+const {
+  schemaValidate,
+  setupCacheMock,
+} = require("../../../common/test-utils");
 const { retrieve, transform, attributes } = require("..");
 
-// Mock out the caching function so we can return manual cache recordings for
-// repsonses without needing to spin up a full browser
 jest.mock("../../../common/cache");
-dailyCache.mockImplementation((key) =>
-  readCache(key, (filename) =>
-    path.join(__dirname, "__manual-recordings__", `${filename}-2025-01-23`),
-  ),
-);
+setupCacheMock(__dirname, "2025-01-23");
 
 // Hide script output
 console.log = () => {};

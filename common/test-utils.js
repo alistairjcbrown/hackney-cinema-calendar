@@ -1,4 +1,4 @@
-const path = require("path");
+const path = require("node:path");
 const { setupPolly } = require("setup-polly-jest");
 const FetchAdapter = require("@pollyjs/adapter-fetch");
 const PersisterFs = require("@pollyjs/persister-fs");
@@ -45,7 +45,19 @@ function schemaValidate(data) {
   return validate(data);
 }
 
+const setupCacheMock = (dirname, suffix) => {
+  const { dailyCache } = require("./cache");
+  const { readCache } = jest.requireActual("./cache");
+
+  dailyCache.mockImplementation((key) =>
+    readCache(key, (filename) =>
+      path.join(dirname, "__manual-recordings__", `${filename}-${suffix}`),
+    ),
+  );
+};
+
 module.exports = {
   setupPolly: setupPollyWrapper,
   schemaValidate,
+  setupCacheMock,
 };
