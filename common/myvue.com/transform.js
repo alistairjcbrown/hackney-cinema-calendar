@@ -1,5 +1,4 @@
 const {
-  filterHistoricalPerformances,
   parseMinsToMs,
   convertToList,
   sanitizeRichText,
@@ -31,32 +30,30 @@ async function transform({ domain, url }, { result: movies }, sourcedEvents) {
         title: movie.filmTitle,
         url: movie.filmUrl.replace(domain, url),
         overview,
-        performances: filterHistoricalPerformances(
-          movie.showingGroups.reduce(
-            (performances, { sessions }) =>
-              performances.concat(
-                sessions.map((showing) => {
-                  const date = new Date(showing.showTimeWithTimeZone);
-                  return {
-                    time: date.getTime(),
-                    screen: showing.screenName.replace("Screen ", ""),
-                    notes: (showing.attributes || [])
-                      .reduce(
-                        (notes, { shortName: title, description }) =>
-                          title && description
-                            ? notes.concat(
-                                `${title}: ${sanitizeRichText(description)}`,
-                              )
-                            : notes,
-                        [],
-                      )
-                      .join("\n"),
-                    bookingUrl: `${domain}${showing.bookingUrl}`,
-                  };
-                }),
-              ),
-            [],
-          ),
+        performances: movie.showingGroups.reduce(
+          (performances, { sessions }) =>
+            performances.concat(
+              sessions.map((showing) => {
+                const date = new Date(showing.showTimeWithTimeZone);
+                return {
+                  time: date.getTime(),
+                  screen: showing.screenName.replace("Screen ", ""),
+                  notes: (showing.attributes || [])
+                    .reduce(
+                      (notes, { shortName: title, description }) =>
+                        title && description
+                          ? notes.concat(
+                              `${title}: ${sanitizeRichText(description)}`,
+                            )
+                          : notes,
+                      [],
+                    )
+                    .join("\n"),
+                  bookingUrl: `${domain}${showing.bookingUrl}`,
+                };
+              }),
+            ),
+          [],
         ),
       };
       return moviesAtCinema.concat([transformedMovie]);

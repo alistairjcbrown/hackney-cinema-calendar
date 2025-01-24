@@ -31,9 +31,14 @@ const getEventDate = (time) =>
     .split("-")
     .map((value) => parseInt(value, 10));
 
-const filterHistoricalPerformances = (performances) => {
+const filterHistoricalPerformances = (movies) => {
   const startOfToday = startOfDay(new Date());
-  return performances.filter(({ time }) => isAfter(time, startOfToday));
+  return movies.map((movie) => ({
+    ...movie,
+    performances: movie.performances.filter(({ time }) =>
+      isAfter(time, startOfToday),
+    ),
+  }));
 };
 
 const convertToList = (value) => {
@@ -91,6 +96,7 @@ const createOverview = ({
   directors,
   actors,
   certification,
+  trailer,
 }) => {
   return {
     duration: parseMinsToMs(duration) || undefined,
@@ -99,6 +105,7 @@ const createOverview = ({
     directors: splitConjoinedItemsInList(convertToList(directors)),
     actors: splitConjoinedItemsInList(convertToList(actors)),
     certification: isValidClassification(certification),
+    trailer: trailer || undefined,
   };
 };
 

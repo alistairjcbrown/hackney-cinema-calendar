@@ -1,5 +1,6 @@
 /** @jest-environment setup-polly-jest/jest-environment-node */
 const { setupPolly, schemaValidate } = require("../../../common/test-utils");
+const { filterHistoricalPerformances } = require("../../../common/utils");
 const { retrieve, transform, attributes } = require("..");
 
 const isRecording = false;
@@ -18,7 +19,9 @@ describe(attributes.name, () => {
       expect(moviePages).toBeTruthy();
       expect(Object.keys(moviePages).length).toBe(29);
 
-      const output = await transform({ movieListPage, moviePages }, {});
+      const output = filterHistoricalPerformances(
+        await transform({ movieListPage, moviePages }, {}),
+      );
       const data = JSON.parse(JSON.stringify(output));
 
       // Make sure the data looks roughly correct

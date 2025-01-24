@@ -1,8 +1,4 @@
-const {
-  filterHistoricalPerformances,
-  parseMinsToMs,
-  convertToList,
-} = require("../../common/utils");
+const { parseMinsToMs, convertToList } = require("../../common/utils");
 
 async function transform(
   { domain, cinemaId },
@@ -47,33 +43,31 @@ async function transform(
       );
       return {
         ...movies[movieId],
-        performances: filterHistoricalPerformances(
-          performances.map((performance) => {
-            let notes = "";
-            if (performance.occupancy.rate === 100) {
-              notes += "\nSold out";
-            } else {
-              notes += `\n${performance.occupancy.rate}% of seats sold`;
-            }
-            notes += performance.tags.reduce((tagNotes, tag) => {
-              if (tag !== "Format.Projection.Digital") {
-                const tagData = attributeData.find(
-                  ({ id }) => id === `${cinemaId}_${tag}`,
-                );
-                if (tagData) {
-                  return `${tagNotes}\n${tagData.localizations[0].description}`;
-                }
+        performances: performances.map((performance) => {
+          let notes = "";
+          if (performance.occupancy.rate === 100) {
+            notes += "\nSold out";
+          } else {
+            notes += `\n${performance.occupancy.rate}% of seats sold`;
+          }
+          notes += performance.tags.reduce((tagNotes, tag) => {
+            if (tag !== "Format.Projection.Digital") {
+              const tagData = attributeData.find(
+                ({ id }) => id === `${cinemaId}_${tag}`,
+              );
+              if (tagData) {
+                return `${tagNotes}\n${tagData.localizations[0].description}`;
               }
-              return tagNotes;
-            }, "");
+            }
+            return tagNotes;
+          }, "");
 
-            return {
-              time: new Date(performance.startsAt).getTime(),
-              notes: notes.trim(),
-              bookingUrl: performance.data.ticketing[0].urls[0],
-            };
-          }),
-        ),
+          return {
+            time: new Date(performance.startsAt).getTime(),
+            notes: notes.trim(),
+            bookingUrl: performance.data.ticketing[0].urls[0],
+          };
+        }),
       };
     })
     .concat(listOfSourcedEvents);

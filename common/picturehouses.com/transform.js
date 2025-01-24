@@ -2,11 +2,7 @@ const cheerio = require("cheerio");
 const slugify = require("slugify");
 const { parse } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
-const {
-  filterHistoricalPerformances,
-  parseMinsToMs,
-  convertToList,
-} = require("../utils");
+const { parseMinsToMs, convertToList } = require("../utils");
 
 function extractData(value) {
   const $ = cheerio.load(value);
@@ -65,29 +61,27 @@ async function transform(
         title: movie.Title,
         url: `${domain}/movie-details/${cinemaId}/${movie.ScheduledFilmId}/${slug}`,
         overview,
-        performances: filterHistoricalPerformances(
-          showings.map((showing) => {
-            const date = parse(
-              showing.Showtime,
-              "yyyy-MM-dd'T'HH:mm:ss",
-              new Date(),
-              {
-                locale: enGB,
-              },
-            );
-            return {
-              time: date.getTime(),
-              screen: showing.ScreenName.replace("Screen ", ""),
-              notes: (showing.attributes || [])
-                .map(({ attribute_full: title, description }) => {
-                  if (description) return `${title}: ${description}`;
-                  return title;
-                })
-                .join("\n"),
-              bookingUrl: `https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=${cinemaId}&txtSessionId=${showing.SessionId}&visLang=1`,
-            };
-          }),
-        ),
+        performances: showings.map((showing) => {
+          const date = parse(
+            showing.Showtime,
+            "yyyy-MM-dd'T'HH:mm:ss",
+            new Date(),
+            {
+              locale: enGB,
+            },
+          );
+          return {
+            time: date.getTime(),
+            screen: showing.ScreenName.replace("Screen ", ""),
+            notes: (showing.attributes || [])
+              .map(({ attribute_full: title, description }) => {
+                if (description) return `${title}: ${description}`;
+                return title;
+              })
+              .join("\n"),
+            bookingUrl: `https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=${cinemaId}&txtSessionId=${showing.SessionId}&visLang=1`,
+          };
+        }),
       };
       return moviesAtCinema.concat([transformedMovie]);
     }, [])
