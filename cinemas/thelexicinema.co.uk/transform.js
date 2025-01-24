@@ -1,76 +1,74 @@
-const { parse } = require("date-fns");
-const { enGB } = require("date-fns/locale/en-GB");
 const {
-  convertToList,
-  parseMinsToMs,
   sanitizeRichText,
+  createPerformance,
+  createOverview,
 } = require("../../common/utils");
+const { parseDate } = require("./utils");
 const { domain } = require("./attributes");
+
+function getScreen({ AuditoriumName: screen }) {
+  return screen.toLowerCase().replace("screen", "").trim();
+}
+
+function getNotesList(performance) {
+  const notes = [];
+  // Baby-friendly screening
+  if (performance.BF.toLowerCase() === "y") {
+    notes.push("Baby Friendly");
+  }
+  // Audio described
+  if (performance.AD.toLowerCase() === "y") {
+    notes.push("Audio described");
+  }
+  // Hard of hearing subtitles
+  if (performance.HOH.toLowerCase() === "y") {
+    notes.push("Closed Captioned screening for Hard of Hearing");
+  }
+  // Relaxed screening
+  if (performance.RS.toLowerCase() === "y") {
+    notes.push("Relaxed screening");
+  }
+  // Q+A
+  if (performance.QA.toLowerCase() === "y") {
+    notes.push("This screening will be followed by a Q&A");
+  }
+  // Accessible screening
+  if (performance.AS.toLowerCase() === "y") {
+    notes.push("Accessible screening");
+  }
+  // Talking Pictures
+  if (performance.TP.toLowerCase() === "y") {
+    notes.push(
+      "Talking Pictures: A friendly film discussion group for seniors",
+    );
+  }
+  // Sold Out
+  if (performance.IsSoldOut.toLowerCase() === "y") {
+    notes.push("Sold out");
+  }
+  return notes;
+}
 
 async function transform(movieData, sourcedEvents) {
   const movies = movieData.Events.map((movie) => {
     return {
       title: sanitizeRichText(movie.Title),
       url: movie.URL,
-      overview: {
-        duration: parseMinsToMs(movie.RunningTime),
+      overview: createOverview({
+        duration: movie.RunningTime,
         certification: movie.Rating.match(/bbfc\/lrg\/([^.]+)\./)[1],
-        categories: [],
-        directors: convertToList(movie.Director),
-        actors: convertToList(movie.Cast),
-      },
-      performances: movie.Performances.map((performance) => {
-        const date = parse(
-          `${performance.StartDate}T${performance.StartTimeAndNotes}`,
-          "yyyy-MM-dd'T'HH:mm",
-          new Date(),
-          {
-            locale: enGB,
-          },
-        );
-
-        let notes = "";
-        // Baby-friendly screening
-        if (performance.BF.toLowerCase() === "y") {
-          notes += `\nBaby Friendly`;
-        }
-        // Audio described
-        if (performance.AD.toLowerCase() === "y") {
-          notes += `\nAudio described`;
-        }
-        // Hard of hearing subtitles
-        if (performance.HOH.toLowerCase() === "y") {
-          notes += `\nClosed Captioned screening for Hard of Hearing`;
-        }
-        // Relaxed screening
-        if (performance.RS.toLowerCase() === "y") {
-          notes += `\nRelaxed screening`;
-        }
-        // Q+A
-        if (performance.QA.toLowerCase() === "y") {
-          notes += `\nThis screening will be followed by a Q&A`;
-        }
-        // Accessible screening
-        if (performance.AS.toLowerCase() === "y") {
-          notes += `\nAccessible screening`;
-        }
-        if (performance.TP.toLowerCase() === "y") {
-          notes += `\nTalking Pictures: A friendly film discussion group for seniors`;
-        }
-        // "IsSoldOut": "N",
-        if (performance.IsSoldOut.toLowerCase() === "y") {
-          notes += `\nSold out`;
-        }
-
-        return {
-          time: date.getTime(),
-          notes: notes.trim(),
-          bookingUrl: `${domain}/TheLexiCinema.dll/${performance.URL}`,
-          screen: performance.AuditoriumName.toLowerCase()
-            .replace("screen", "")
-            .trim(),
-        };
+        categories: "",
+        directors: movie.Director,
+        actors: movie.Cast,
       }),
+      performances: movie.Performances.map((performance) =>
+        createPerformance({
+          date: parseDate(performance),
+          notesList: getNotesList(performance),
+          url: `${domain}/TheLexiCinema.dll/${performance.URL}`,
+          screen: getScreen(performance),
+        }),
+      ),
     };
   });
 
