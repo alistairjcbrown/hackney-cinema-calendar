@@ -65,6 +65,7 @@ const isValidClassification = (value = "") => {
     .replace("*", "")
     .replace(" certificate", "")
     .replace("advised ", "")
+    .replace("r18", "18")
     .trim()
     .toUpperCase();
   return classifications.includes(sanitizedValue) ? sanitizedValue : undefined;

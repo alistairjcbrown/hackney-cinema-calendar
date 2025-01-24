@@ -12,7 +12,6 @@ exports[`Finsbury Park Picturehouse retrieve and transform 1`] = `
         "Emma Thompson",
       ],
       "categories": [],
-      "certification": "TBC",
       "directors": [
         "Michael Morris",
       ],
@@ -915,7 +914,6 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "TBC",
       "directors": [],
       "duration": 5340000,
       "trailer": "https://www.youtube.com/watch?v=6tJEhKoMcu8",
@@ -1464,7 +1462,6 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "TBC",
       "directors": [],
       "duration": 5400000,
       "trailer": "https://www.youtube.com/watch?v=TFOCSb77BRE",
@@ -1651,7 +1648,6 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "TBC",
       "directors": [],
       "duration": 5100000,
     },
@@ -1757,7 +1753,6 @@ Preview: A special preview screening of this film. See it before anyone else on 
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "TBC",
       "directors": [
         "Ali Ray",
       ],
@@ -1790,7 +1785,6 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "Cristine Acidini",
       ],
       "categories": [],
-      "certification": "TBC",
       "directors": [
         "David Bickerstaff",
       ],
@@ -1892,7 +1886,6 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "Charles ‘Bud’ Tingwell",
       ],
       "categories": [],
-      "certification": "N/A",
       "directors": [
         "Rob Sitch",
       ],
@@ -1920,7 +1913,6 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "Sharon D. Clarke",
       ],
       "categories": [],
-      "certification": "TBC",
       "directors": [
         "Max Webster",
       ],

@@ -1113,7 +1113,6 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Emma Thompson",
       ],
       "categories": [],
-      "certification": "TBC",
       "directors": [
         "Michael Morris",
       ],
@@ -2451,7 +2450,6 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "Cristine Acidini",
       ],
       "categories": [],
-      "certification": "TBC",
       "directors": [
         "David Bickerstaff",
       ],
@@ -2480,7 +2478,6 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "TBC",
       "directors": [
         "Ali Ray",
       ],
@@ -2515,7 +2512,6 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "Sharon D. Clarke",
       ],
       "categories": [],
-      "certification": "TBC",
       "directors": [
         "Max Webster",
       ],
@@ -2599,7 +2595,6 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "Yasmine Naghdi",
       ],
       "categories": [],
-      "certification": "TBC",
       "directors": [
         "Liam Scarlett",
       ],
@@ -2674,7 +2669,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     "performances": [
       {
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=033&txtSessionId=14270&visLang=1",
-        "notes": " Q&A: This screening will be followed by a Q&A.",
+        "notes": "Q&A: This screening will be followed by a Q&A.",
         "screen": "3",
         "time": 1738438200000,
       },
