@@ -1,46 +1,37 @@
 const { startOfDay, format, endOfDay, addYears } = require("date-fns");
+const { fetchJson, fetchText } = require("../../common/utils");
+
+const formatDate = (date) => format(date, "yyyy-MM-dd'T'HH:mm:ss");
 
 async function retrieve({ domain, url, cinemaId }) {
-  const mainPageResponse = await fetch(url);
-  const mainPage = await mainPageResponse.text();
-  const websiteId = mainPage.match(
-    /name="boapp:website:id" content="([^"]+)"/i,
-  )[1];
+  const mainPage = await fetchText(url);
+
   // Extract the CMS hash URL from the main page
   const requestPrefix = mainPage.match(/src=\"([^"]+)webpack-runtime-/i)[1];
   const suffix = url.replace(domain, "");
-  const pageDataResponse = await fetch(
+  const pageData = await fetchJson(
     `${requestPrefix}page-data${suffix}page-data.json`,
   );
-  const pageData = await pageDataResponse.json();
 
   let movieData = null;
   let attributeData = null;
   // Run through all page data blobs until we find the ones we want to keep
   for (hash of pageData.staticQueryHashes) {
-    const dataResponse = await fetch(
-      `${requestPrefix}page-data/sq/d/${hash}.json`,
-    );
-    const data = await dataResponse.json();
-
-    // All movie data
-    if (data?.data?.allMovie) {
-      movieData = data.data.allMovie.nodes;
-    }
-
-    // Attribute values
-    if (data?.data?.allAttribute) {
-      attributeData = data.data.allAttribute.nodes;
-    }
+    const data = await fetchJson(`${requestPrefix}page-data/sq/d/${hash}.json`);
+    if (data?.data?.allMovie) movieData = data.data.allMovie.nodes;
+    if (data?.data?.allAttribute) attributeData = data.data.allAttribute.nodes;
   }
 
+  const websiteId = mainPage.match(
+    /name="boapp:website:id" content="([^"]+)"/i,
+  )[1];
   const movieIds = movieData.map(({ id }) => id);
   const today = new Date();
   const schedulePayload = {
     theaters: [{ id: cinemaId, timeZone: "Europe/London" }],
     movieIds,
-    from: format(startOfDay(today), "yyyy-MM-dd'T'HH:mm:ss"),
-    to: format(endOfDay(addYears(today, 1)), "yyyy-MM-dd'T'HH:mm:ss"),
+    from: formatDate(startOfDay(today)),
+    to: formatDate(endOfDay(addYears(today, 1))),
     nin: [],
     sin: [],
     websiteId,

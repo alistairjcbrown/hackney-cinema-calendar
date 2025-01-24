@@ -5,326 +5,6 @@ exports[`Everyman Muswell Hill retrieve and transform 1`] = `
   {
     "overview": {
       "actors": [
-        "Lily-Rose Depp",
-        "Nicholas Hoult",
-        "Bill Skarsgård",
-        "Aaron Taylor-Johnson",
-        "Willem Dafoe",
-        "Emma Corrin",
-        "Ralph Ineson",
-        "Simon McBurney",
-        "Adéla Hesová",
-        "Milena Konstantinova",
-      ],
-      "categories": [
-        "Horror",
-      ],
-      "certification": "15",
-      "directors": [
-        "Robert Eggers",
-      ],
-      "duration": 7920000,
-      "trailer": "https://www.youtube.com/watch?v=nulvWqYUM8k",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64061",
-        "notes": "0% of seats sold",
-        "time": 1737739800000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64065",
-        "notes": "18% of seats sold",
-        "time": 1737828000000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64109",
-        "notes": "4% of seats sold",
-        "time": 1737913200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64162",
-        "notes": "5% of seats sold",
-        "time": 1737999900000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64167",
-        "notes": "0% of seats sold",
-        "time": 1738095600000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64171",
-        "notes": "11% of seats sold",
-        "time": 1738171800000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64043",
-        "notes": "0% of seats sold",
-        "time": 1738249800000,
-      },
-    ],
-    "title": "Nosferatu",
-    "url": "https://www.everymancinema.com/film-listing/239839-nosferatu",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Adrien Brody",
-        "Felicity Jones",
-        "Guy Pearce",
-        "Joe Alwyn",
-        "Raffey Cassidy",
-        "Stacy Martin",
-        "Isaach de Bankolé",
-        "Alessandro Nivola",
-        "Emma Laird",
-        "Jonathan Hyde",
-      ],
-      "categories": [
-        "Drama",
-        "Romance",
-      ],
-      "certification": "18",
-      "directors": [
-        "Brady Corbet",
-      ],
-      "duration": 12840000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64059",
-        "notes": "5% of seats sold",
-        "time": 1737714600000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64068",
-        "notes": "8% of seats sold",
-        "time": 1737729000000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64069",
-        "notes": "50% of seats sold",
-        "time": 1737745200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64063",
-        "notes": "2% of seats sold",
-        "time": 1737801900000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64071",
-        "notes": "25% of seats sold",
-        "time": 1737815400000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64072",
-        "notes": "75% of seats sold",
-        "time": 1737831600000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64107",
-        "notes": "4% of seats sold",
-        "time": 1737886200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64124",
-        "notes": "41% of seats sold",
-        "time": 1737901200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64125",
-        "notes": "6% of seats sold",
-        "time": 1737918000000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64126",
-        "notes": "11% of seats sold",
-        "time": 1737972000000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64127",
-        "notes": "5% of seats sold
-Reduced ticket price for guests aged 55 and over, including a complimentary hot drink and a slice of cake",
-        "time": 1737988200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64128",
-        "notes": "17% of seats sold",
-        "time": 1738004400000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64129",
-        "notes": "0% of seats sold",
-        "time": 1738062000000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64130",
-        "notes": "0% of seats sold",
-        "time": 1738072800000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64131",
-        "notes": "2% of seats sold",
-        "time": 1738090800000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64104",
-        "notes": "1% of seats sold",
-        "time": 1738144200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64105",
-        "notes": "1% of seats sold",
-        "time": 1738160400000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64106",
-        "notes": "3% of seats sold",
-        "time": 1738177200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64042",
-        "notes": "0% of seats sold",
-        "time": 1738233600000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64027",
-        "notes": "0% of seats sold",
-        "time": 1738251600000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64036",
-        "notes": "2% of seats sold",
-        "time": 1738263600000,
-      },
-    ],
-    "title": "The Brutalist",
-    "url": "https://www.everymancinema.com/film-listing/269838-the-brutalist",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Anthony Mackie",
-        "Tim Blake Nelson",
-        "Shira Haas",
-        "Danny Ramirez",
-        "Carl Lumbly",
-        "Harrison Ford",
-        "Liv Tyler",
-        "Mark Ruffalo",
-        "Xosha Roquemore",
-        "Colby Lopez",
-      ],
-      "categories": [
-        "Action",
-        "Adventure",
-        "Fantasy",
-      ],
-      "directors": [
-        "Julius Onah",
-      ],
-      "duration": 7080000,
-      "trailer": "https://www.youtube.com/watch?v=t2BVzqHT-5s",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63977",
-        "notes": "2% of seats sold",
-        "time": 1739552400000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63978",
-        "notes": "8% of seats sold",
-        "time": 1739563200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63981",
-        "notes": "2% of seats sold",
-        "time": 1739628000000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63982",
-        "notes": "5% of seats sold",
-        "time": 1739639400000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63983",
-        "notes": "2% of seats sold",
-        "time": 1739650500000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64003",
-        "notes": "5% of seats sold",
-        "time": 1739708100000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64004",
-        "notes": "5% of seats sold",
-        "time": 1739719200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63987",
-        "notes": "5% of seats sold",
-        "time": 1739725200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63988",
-        "notes": "2% of seats sold",
-        "time": 1739736900000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63989",
-        "notes": "2% of seats sold",
-        "time": 1739821500000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63990",
-        "notes": "0% of seats sold",
-        "time": 1739907900000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63991",
-        "notes": "0% of seats sold",
-        "time": 1739996100000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63974",
-        "notes": "0% of seats sold",
-        "time": 1740082500000,
-      },
-    ],
-    "title": "Captain America: Brave New World",
-    "url": "https://www.everymancinema.com/film-listing/275210-captain-america-brave-new-world",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Mary Bridget Davies",
-        "Jennifer Leigh Warren",
-        "Aurianna Angelique",
-        "Ashley Tamar Davis",
-      ],
-      "categories": [
-        "Musical",
-      ],
-      "directors": [
-        "David Horn",
-      ],
-      "duration": 8400000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63188",
-        "notes": "0% of seats sold",
-        "time": 1741894200000,
-      },
-    ],
-    "title": "A Night with Janis Joplin: The Musical",
-    "url": "https://www.everymancinema.com/film-listing/277273-a-night-with-janis-joplin-the-musical",
-  },
-  {
-    "overview": {
-      "actors": [
         "Timothée Chalamet",
         "Edward Norton",
         "Elle Fanning",
@@ -519,223 +199,28 @@ This feature is Subtitled in English",
   {
     "overview": {
       "actors": [
-        "Aaron Pierre",
-        "Kelvin Harrison Jr.",
-        "Seth Rogen",
-        "Billy Eichner",
-        "Blue Ivy Carter",
-        "John Kani",
-        "Donald Glover",
-        "Beyoncé Knowles-Carter",
-        "Mads Mikkelsen",
-        "Tiffany Boone",
+        "Mary Bridget Davies",
+        "Jennifer Leigh Warren",
+        "Aurianna Angelique",
+        "Ashley Tamar Davis",
       ],
       "categories": [
-        "Animation",
-        "Music",
-        "Adventure",
-        "Family",
+        "Musical",
       ],
-      "certification": "PG",
       "directors": [
-        "Barry Jenkins",
+        "David Horn",
       ],
-      "duration": 7080000,
-      "trailer": "https://www.youtube.com/watch?v=lMXh6vjiZrI",
+      "duration": 8400000,
     },
     "performances": [
       {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64055",
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63188",
         "notes": "0% of seats sold",
-        "time": 1737799200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64056",
-        "notes": "4% of seats sold",
-        "time": 1737810600000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64092",
-        "notes": "0% of seats sold",
-        "time": 1737884700000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64093",
-        "notes": "3% of seats sold",
-        "time": 1737896400000,
+        "time": 1741894200000,
       },
     ],
-    "title": "Mufasa: The Lion King",
-    "url": "https://www.everymancinema.com/film-listing/286777-mufasa-the-lion-king",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Robbie Williams",
-        "Jonno Davies",
-        "Steve Pemberton",
-        "Damon Herriman",
-        "Raechelle Banno",
-        "Alison Steadman",
-        "Kate Mulvany",
-        "Frazer Hadfield",
-        "Tom Budge",
-        "Anthony Hayes",
-      ],
-      "categories": [
-        "Biopic",
-        "Music",
-      ],
-      "certification": "15",
-      "directors": [
-        "Michael Gracey",
-      ],
-      "duration": 8160000,
-      "trailer": "https://www.youtube.com/watch?v=KVeH5T4wxkE",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64073",
-        "notes": "0% of seats sold",
-        "time": 1737711600000,
-      },
-    ],
-    "title": "Better Man",
-    "url": "https://www.everymancinema.com/film-listing/290583-better-man",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Led Zeppelin",
-      ],
-      "categories": [
-        "Documentary",
-        "Music",
-      ],
-      "directors": [
-        "Bernard MacMahon",
-      ],
-      "duration": 7320000,
-      "trailer": "https://www.youtube.com/watch?v=EDKC77QS8WM",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64046",
-        "notes": "5% of seats sold",
-        "time": 1741291200000,
-      },
-    ],
-    "title": "Becoming Led Zeppelin",
-    "url": "https://www.everymancinema.com/film-listing/295068-becoming-led-zeppelin",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Tom Hanks",
-        "Robin Wright",
-        "Paul Bettany",
-        "Kelly Reilly",
-        "Michelle Dockery",
-        "Gwilym Lee",
-        "Ophelia Lovibond",
-        "David Fynn",
-        "Jonathan Aris",
-        "Nikki Amuka-Bird",
-      ],
-      "categories": [
-        "Fantasy",
-        "Drama",
-      ],
-      "certification": "12A",
-      "directors": [
-        "Robert Zemeckis",
-      ],
-      "duration": 6240000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63808",
-        "notes": "0% of seats sold
-This feature is Subtitled in English",
-        "time": 1737654600000,
-      },
-    ],
-    "title": "Here",
-    "url": "https://www.everymancinema.com/film-listing/301046-here",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Ralph Fiennes",
-        "Stanley Tucci",
-        "Isabella Rossellini",
-        "John Lithgow",
-        "Carlos Diehz",
-        "Lucian Msamati",
-        "Brían F. O'Byrne",
-        "Merab Ninidze",
-        "Sergio Castellitto",
-        "Thomas Loibl",
-      ],
-      "categories": [
-        "Thriller",
-      ],
-      "certification": "12A",
-      "directors": [
-        "Edward Berger",
-      ],
-      "duration": 7200000,
-      "trailer": "https://www.youtube.com/watch?v=t915aZmyEBg",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63898",
-        "notes": "41% of seats sold",
-        "time": 1737664200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64074",
-        "notes": "0% of seats sold",
-        "time": 1737722700000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64076",
-        "notes": "1% of seats sold",
-        "time": 1737735300000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64081",
-        "notes": "23% of seats sold",
-        "time": 1737829800000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64141",
-        "notes": "0% of seats sold",
-        "time": 1737910800000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64144",
-        "notes": "0% of seats sold",
-        "time": 1737992400000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64101",
-        "notes": "1% of seats sold",
-        "time": 1738071000000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64152",
-        "notes": "5% of seats sold",
-        "time": 1738146000000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64022",
-        "notes": "0% of seats sold",
-        "time": 1738245600000,
-      },
-    ],
-    "title": "Conclave",
-    "url": "https://www.everymancinema.com/film-listing/304895-conclave",
+    "title": "A Night with Janis Joplin: The Musical",
+    "url": "https://www.everymancinema.com/film-listing/277273-a-night-with-janis-joplin-the-musical",
   },
   {
     "overview": {
@@ -853,314 +338,6 @@ This feature is Subtitled in English",
   {
     "overview": {
       "actors": [
-        "Angelina Jolie",
-        "Pierfrancesco Favino",
-        "Alba Rohrwacher",
-        "Haluk Bilginer",
-        "Kodi Smit-McPhee",
-        "Stephen Ashfield",
-        "Valeria Golino",
-        "Caspar Phillipson",
-        "Vincent Macaigne",
-        "Lydia Koniordou",
-      ],
-      "categories": [
-        "Biopic",
-      ],
-      "certification": "12A",
-      "directors": [
-        "Pablo Larraín",
-      ],
-      "duration": 7380000,
-      "trailer": "https://www.youtube.com/watch?v=4l1J14b96d4",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63865",
-        "notes": "50% of seats sold",
-        "time": 1737656400000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64067",
-        "notes": "2% of seats sold",
-        "time": 1737718200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64053",
-        "notes": "14% of seats sold",
-        "time": 1737742500000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64070",
-        "notes": "5% of seats sold",
-        "time": 1737804600000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64089",
-        "notes": "25% of seats sold",
-        "time": 1737825600000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64138",
-        "notes": "0% of seats sold",
-        "time": 1737883800000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64140",
-        "notes": "0% of seats sold",
-        "time": 1737905400000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64096",
-        "notes": "0% of seats sold",
-        "time": 1737973800000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64112",
-        "notes": "4% of seats sold",
-        "time": 1737998100000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64100",
-        "notes": "1% of seats sold",
-        "time": 1738059300000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64166",
-        "notes": "0% of seats sold",
-        "time": 1738084800000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64153",
-        "notes": "0% of seats sold",
-        "time": 1738156500000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64154",
-        "notes": "0% of seats sold",
-        "time": 1738168200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64038",
-        "notes": "0% of seats sold",
-        "time": 1738237500000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64035",
-        "notes": "2% of seats sold",
-        "time": 1738252800000,
-      },
-    ],
-    "title": "Maria",
-    "url": "https://www.everymancinema.com/film-listing/309615-maria",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Andrew Garfield",
-        "Florence Pugh",
-        "Aoife Hinds",
-        "Adam James",
-        "Grace Delaney",
-        "Lee Braithwaite",
-        "Douglas Hodge",
-        "Marama Corlett",
-        "Nikhil Parmar",
-        "Amy Morgan",
-      ],
-      "categories": [
-        "Comedy drama",
-        "Romance",
-        "Drama",
-      ],
-      "certification": "15",
-      "directors": [
-        "John Crowley",
-      ],
-      "duration": 6480000,
-      "trailer": "https://www.youtube.com/watch?v=MH02yagHaNw",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64075",
-        "notes": "7% of seats sold",
-        "time": 1737733200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64078",
-        "notes": "0% of seats sold",
-        "time": 1737797400000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64080",
-        "notes": "5% of seats sold",
-        "time": 1737819900000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64123",
-        "notes": "2% of seats sold",
-        "time": 1737891600000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64145",
-        "notes": "5% of seats sold",
-        "time": 1738002600000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64147",
-        "notes": "0% of seats sold",
-        "time": 1738056000000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64149",
-        "notes": "2% of seats sold",
-        "time": 1738081200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64134",
-        "notes": "2% of seats sold",
-        "time": 1738165500000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64025",
-        "notes": "0% of seats sold",
-        "time": 1738227600000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64137",
-        "notes": "2% of seats sold",
-        "time": 1738242900000,
-      },
-    ],
-    "title": "We Live In Time",
-    "url": "https://www.everymancinema.com/film-listing/314383-we-live-in-time",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Matthew Ball",
-        "Yasmine Naghdi",
-      ],
-      "categories": [
-        "Opera",
-        "Musical",
-      ],
-      "certification": "12A",
-      "directors": [
-        "Liam Scarlett",
-      ],
-      "duration": 11700000,
-      "trailer": "https://www.youtube.com/watch?v=ITU241Ypino",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57805",
-        "notes": "11% of seats sold",
-        "time": 1740682800000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57988",
-        "notes": "8% of seats sold",
-        "time": 1741093200000,
-      },
-    ],
-    "title": "Royal Ballet and Opera: Swan Lake",
-    "url": "https://www.everymancinema.com/film-listing/316805-royal-ballet-and-opera-swan-lake",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Lucy Liu",
-        "Chris Sullivan",
-        "Callina Liang",
-        "Julia Fox",
-        "Eddy Maday",
-        "West Mulholland",
-      ],
-      "categories": [
-        "Horror",
-        "Thriller",
-      ],
-      "certification": "15",
-      "directors": [
-        "Steven Soderbergh",
-      ],
-      "duration": 5100000,
-      "trailer": "https://www.youtube.com/watch?v=S5TFrtUmgRc",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64060",
-        "notes": "0% of seats sold",
-        "time": 1737731400000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64062",
-        "notes": "4% of seats sold",
-        "time": 1737751500000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64066",
-        "notes": "0% of seats sold",
-        "time": 1737841500000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64142",
-        "notes": "7% of seats sold",
-        "time": 1737926100000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64110",
-        "notes": "0% of seats sold",
-        "time": 1737977400000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64146",
-        "notes": "0% of seats sold",
-        "time": 1738012800000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64116",
-        "notes": "0% of seats sold",
-        "time": 1738078200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64151",
-        "notes": "0% of seats sold",
-        "time": 1738099200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64118",
-        "notes": "0% of seats sold",
-        "time": 1738149300000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64172",
-        "notes": "0% of seats sold",
-        "time": 1738183500000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64033",
-        "notes": "0% of seats sold",
-        "time": 1738230000000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64044",
-        "notes": "0% of seats sold",
-        "time": 1738261800000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64041",
-        "notes": "0% of seats sold",
-        "time": 1738272000000,
-      },
-    ],
-    "title": "Presence",
-    "url": "https://www.everymancinema.com/film-listing/317270-presence",
-  },
-  {
-    "overview": {
-      "actors": [
         "Nicole Kidman",
         "Harris Dickinson",
         "Antonio Banderas",
@@ -1267,32 +444,185 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
   {
     "overview": {
       "actors": [
-        "Luther Vandross",
-        "Jamie Foxx",
-        "Mariah Carey",
-        "Dionne Warwick",
-        "Patti LaBelle",
+        "Led Zeppelin",
       ],
       "categories": [
         "Documentary",
         "Music",
       ],
-      "certification": "15",
       "directors": [
-        "Dawn Porter",
+        "Bernard MacMahon",
       ],
-      "duration": 6060000,
-      "trailer": "https://www.youtube.com/watch?v=W2DzYSv9a-k",
+      "duration": 7320000,
+      "trailer": "https://www.youtube.com/watch?v=EDKC77QS8WM",
     },
     "performances": [
       {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64028",
-        "notes": "32% of seats sold",
-        "time": 1738268100000,
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64046",
+        "notes": "5% of seats sold",
+        "time": 1741291200000,
       },
     ],
-    "title": "Luther: Never Too Much",
-    "url": "https://www.everymancinema.com/film-listing/325217-luther-never-too-much",
+    "title": "Becoming Led Zeppelin",
+    "url": "https://www.everymancinema.com/film-listing/295068-becoming-led-zeppelin",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Robbie Williams",
+        "Jonno Davies",
+        "Steve Pemberton",
+        "Damon Herriman",
+        "Raechelle Banno",
+        "Alison Steadman",
+        "Kate Mulvany",
+        "Frazer Hadfield",
+        "Tom Budge",
+        "Anthony Hayes",
+      ],
+      "categories": [
+        "Biopic",
+        "Music",
+      ],
+      "certification": "15",
+      "directors": [
+        "Michael Gracey",
+      ],
+      "duration": 8160000,
+      "trailer": "https://www.youtube.com/watch?v=KVeH5T4wxkE",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64073",
+        "notes": "0% of seats sold",
+        "time": 1737711600000,
+      },
+    ],
+    "title": "Better Man",
+    "url": "https://www.everymancinema.com/film-listing/290583-better-man",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Tom Hanks",
+        "Robin Wright",
+        "Paul Bettany",
+        "Kelly Reilly",
+        "Michelle Dockery",
+      ],
+      "categories": [
+        "Fantasy",
+        "Drama",
+      ],
+      "certification": "12A",
+      "directors": [
+        "Robert Zemeckis",
+      ],
+      "duration": 6240000,
+      "trailer": "https://www.youtube.com/watch?v=I_id-SkGU2k",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63905",
+        "notes": "0% of seats sold
+One more chance to discover curated cinema beyond the mainstream.",
+        "time": 1738585800000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63909",
+        "notes": "0% of seats sold
+One more chance to discover curated cinema beyond the mainstream.",
+        "time": 1738777500000,
+      },
+    ],
+    "title": "Beyond: Here",
+    "url": "https://www.everymancinema.com/film-listing/1000018162-beyond-here",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Ethan Herisse",
+        "Brandon Wilson",
+        "Aunjanue Ellis-Taylor",
+        "Sam Malone",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "certification": "12A",
+      "directors": [
+        "RaMell Ross",
+      ],
+      "duration": 8400000,
+      "trailer": "https://www.youtube.com/watch?v=8HZKgYknVN0",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63755",
+        "notes": "0% of seats sold
+One more chance to discover curated cinema beyond the mainstream.",
+        "time": 1737981000000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63756",
+        "notes": "5% of seats sold
+One more chance to discover curated cinema beyond the mainstream.",
+        "time": 1738179900000,
+      },
+    ],
+    "title": "Beyond: Nickel Boys",
+    "url": "https://www.everymancinema.com/film-listing/1000018090-beyond-nickel-boys",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Elliot Hanna",
+        "Liam Mower",
+        "Deka Walmsley",
+      ],
+      "categories": [
+        "Musical",
+      ],
+      "certification": "15",
+      "directors": [
+        "Stephen Daldry",
+      ],
+      "duration": 9780000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/59122",
+        "notes": "2% of seats sold",
+        "time": 1743444000000,
+      },
+    ],
+    "title": "Billy Elliot The Musical Live (20th Anniversary)",
+    "url": "https://www.everymancinema.com/film-listing/1000007857-billy-elliot-the-musical-live-20th-anniversary",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Jeremy Jordan (II)",
+        "Frances Mayli McCann",
+        "Gillian Bevan",
+      ],
+      "categories": [
+        "Musical",
+      ],
+      "directors": [
+        "Ben Crabb",
+      ],
+      "duration": 9000000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63177",
+        "notes": "0% of seats sold",
+        "time": 1746469800000,
+      },
+    ],
+    "title": "Bonnie & Clyde The Musical",
+    "url": "https://www.everymancinema.com/film-listing/1000014030-bonnie-and-clyde-the-musical",
   },
   {
     "overview": {
@@ -1396,61 +726,783 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
   {
     "overview": {
       "actors": [
+        "Anthony Mackie",
+        "Tim Blake Nelson",
+        "Shira Haas",
+        "Danny Ramirez",
+        "Carl Lumbly",
+        "Harrison Ford",
+        "Liv Tyler",
+        "Mark Ruffalo",
+        "Xosha Roquemore",
+        "Colby Lopez",
+      ],
+      "categories": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+      ],
+      "directors": [
+        "Julius Onah",
+      ],
+      "duration": 7080000,
+      "trailer": "https://www.youtube.com/watch?v=t2BVzqHT-5s",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63977",
+        "notes": "2% of seats sold",
+        "time": 1739552400000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63978",
+        "notes": "8% of seats sold",
+        "time": 1739563200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63981",
+        "notes": "2% of seats sold",
+        "time": 1739628000000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63982",
+        "notes": "5% of seats sold",
+        "time": 1739639400000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63983",
+        "notes": "2% of seats sold",
+        "time": 1739650500000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64003",
+        "notes": "5% of seats sold",
+        "time": 1739708100000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64004",
+        "notes": "5% of seats sold",
+        "time": 1739719200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63987",
+        "notes": "5% of seats sold",
+        "time": 1739725200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63988",
+        "notes": "2% of seats sold",
+        "time": 1739736900000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63989",
+        "notes": "2% of seats sold",
+        "time": 1739821500000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63990",
+        "notes": "0% of seats sold",
+        "time": 1739907900000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63991",
+        "notes": "0% of seats sold",
+        "time": 1739996100000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63974",
+        "notes": "0% of seats sold",
+        "time": 1740082500000,
+      },
+    ],
+    "title": "Captain America: Brave New World",
+    "url": "https://www.everymancinema.com/film-listing/275210-captain-america-brave-new-world",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Ralph Fiennes",
+        "Stanley Tucci",
+        "Isabella Rossellini",
+        "John Lithgow",
+        "Carlos Diehz",
+        "Lucian Msamati",
+        "Brían F. O'Byrne",
+        "Merab Ninidze",
+        "Sergio Castellitto",
+        "Thomas Loibl",
+      ],
+      "categories": [
+        "Thriller",
+      ],
+      "certification": "12A",
+      "directors": [
+        "Edward Berger",
+      ],
+      "duration": 7200000,
+      "trailer": "https://www.youtube.com/watch?v=t915aZmyEBg",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63898",
+        "notes": "41% of seats sold",
+        "time": 1737664200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64074",
+        "notes": "0% of seats sold",
+        "time": 1737722700000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64076",
+        "notes": "1% of seats sold",
+        "time": 1737735300000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64081",
+        "notes": "23% of seats sold",
+        "time": 1737829800000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64141",
+        "notes": "0% of seats sold",
+        "time": 1737910800000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64144",
+        "notes": "0% of seats sold",
+        "time": 1737992400000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64101",
+        "notes": "1% of seats sold",
+        "time": 1738071000000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64152",
+        "notes": "5% of seats sold",
+        "time": 1738146000000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64022",
+        "notes": "0% of seats sold",
+        "time": 1738245600000,
+      },
+    ],
+    "title": "Conclave",
+    "url": "https://www.everymancinema.com/film-listing/304895-conclave",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Tom Hanks",
+        "Robin Wright",
+        "Paul Bettany",
+        "Kelly Reilly",
+        "Michelle Dockery",
+        "Gwilym Lee",
+        "Ophelia Lovibond",
+        "David Fynn",
+        "Jonathan Aris",
+        "Nikki Amuka-Bird",
+      ],
+      "categories": [
+        "Fantasy",
+        "Drama",
+      ],
+      "certification": "12A",
+      "directors": [
+        "Robert Zemeckis",
+      ],
+      "duration": 6240000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63808",
+        "notes": "0% of seats sold
+This feature is Subtitled in English",
+        "time": 1737654600000,
+      },
+    ],
+    "title": "Here",
+    "url": "https://www.everymancinema.com/film-listing/301046-here",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Tim Minchin",
+        "Ben Forster",
+        "Chris Moyles",
+      ],
+      "categories": [
+        "Musical",
+      ],
+      "directors": [
+        "Nick Morris",
+      ],
+      "duration": 6900000,
+      "trailer": "https://www.youtube.com/watch?v=xAFzTvQZ6iE",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/59123",
+        "notes": "2% of seats sold",
+        "time": 1741031100000,
+      },
+    ],
+    "title": "Jesus Christ Superstar Live",
+    "url": "https://www.everymancinema.com/film-listing/1000007855-jesus-christ-superstar-live",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Annabelle Aquino",
+        "Hazel Baldwin",
+        "Brad Barnley",
+        "Michael Baxter",
+        "Will Callan",
+      ],
+      "categories": [
+        "Musical",
+      ],
+      "certification": "12A",
+      "directors": [
+        "Cameron Mackintosh",
+      ],
+      "duration": 9900000,
+      "trailer": "https://www.youtube.com/watch?v=E9j9_cbRuX4",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/59125",
+        "notes": "22% of seats sold",
+        "time": 1738609200000,
+      },
+    ],
+    "title": "Les Misérables - The Staged Concert (40th Anniversary)",
+    "url": "https://www.everymancinema.com/film-listing/1000007782-les-miserables-the-staged-concert-40th-anniversary",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Luther Vandross",
+        "Jamie Foxx",
+        "Mariah Carey",
+        "Dionne Warwick",
+        "Patti LaBelle",
+      ],
+      "categories": [
+        "Documentary",
+        "Music",
+      ],
+      "certification": "15",
+      "directors": [
+        "Dawn Porter",
+      ],
+      "duration": 6060000,
+      "trailer": "https://www.youtube.com/watch?v=W2DzYSv9a-k",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64028",
+        "notes": "32% of seats sold",
+        "time": 1738268100000,
+      },
+    ],
+    "title": "Luther: Never Too Much",
+    "url": "https://www.everymancinema.com/film-listing/325217-luther-never-too-much",
+  },
+  {
+    "overview": {
+      "actors": [
+        "David Tennant",
+        "Cush Jumbo",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "directors": [
+        "Max Webster",
+      ],
+      "duration": 6840000,
+      "trailer": "https://www.youtube.com/watch?v=qY1sJphZN-8",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/61320",
+        "notes": "53% of seats sold",
+        "time": 1738784700000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/61323",
+        "notes": "8% of seats sold",
+        "time": 1739280600000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63002",
+        "notes": "4% of seats sold",
+        "time": 1739388600000,
+      },
+    ],
+    "title": "Macbeth: David Tennant & Cush Jumbo",
+    "url": "https://www.everymancinema.com/film-listing/1000013074-macbeth-david-tennant-and-cush-jumbo",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Angelina Jolie",
+        "Pierfrancesco Favino",
+        "Alba Rohrwacher",
+        "Haluk Bilginer",
+        "Kodi Smit-McPhee",
+        "Stephen Ashfield",
+        "Valeria Golino",
+        "Caspar Phillipson",
+        "Vincent Macaigne",
+        "Lydia Koniordou",
+      ],
+      "categories": [
+        "Biopic",
+      ],
+      "certification": "12A",
+      "directors": [
+        "Pablo Larraín",
+      ],
+      "duration": 7380000,
+      "trailer": "https://www.youtube.com/watch?v=4l1J14b96d4",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63865",
+        "notes": "50% of seats sold",
+        "time": 1737656400000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64067",
+        "notes": "2% of seats sold",
+        "time": 1737718200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64053",
+        "notes": "14% of seats sold",
+        "time": 1737742500000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64070",
+        "notes": "5% of seats sold",
+        "time": 1737804600000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64089",
+        "notes": "25% of seats sold",
+        "time": 1737825600000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64138",
+        "notes": "0% of seats sold",
+        "time": 1737883800000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64140",
+        "notes": "0% of seats sold",
+        "time": 1737905400000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64096",
+        "notes": "0% of seats sold",
+        "time": 1737973800000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64112",
+        "notes": "4% of seats sold",
+        "time": 1737998100000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64100",
+        "notes": "1% of seats sold",
+        "time": 1738059300000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64166",
+        "notes": "0% of seats sold",
+        "time": 1738084800000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64153",
+        "notes": "0% of seats sold",
+        "time": 1738156500000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64154",
+        "notes": "0% of seats sold",
+        "time": 1738168200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64038",
+        "notes": "0% of seats sold",
+        "time": 1738237500000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64035",
+        "notes": "2% of seats sold",
+        "time": 1738252800000,
+      },
+    ],
+    "title": "Maria",
+    "url": "https://www.everymancinema.com/film-listing/309615-maria",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Rachel Sennott",
+        "Gabriel LaBelle",
+        "Cooper Hoffman",
+        "Ella Hunt",
+        "Emily Fairn",
+      ],
+      "categories": [
+        "Comedy",
+        "Drama",
+      ],
+      "directors": [
+        "Jason Reitman",
+      ],
+      "duration": 6540000,
+      "trailer": "https://www.youtube.com/watch?v=CV16GHIqtGE",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63337",
+        "notes": "28% of seats sold",
+        "time": 1737665100000,
+      },
+    ],
+    "title": "Members’ Preview: Saturday Night",
+    "url": "https://www.everymancinema.com/film-listing/1000017076-members-preview-saturday-night",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "certification": "15",
+      "directors": [],
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63908",
+        "notes": "4% of seats sold",
+        "time": 1738615500000,
+      },
+    ],
+    "title": "Members’ Preview: September 5",
+    "url": "https://www.everymancinema.com/film-listing/1000018250-members-preview-september-5",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Aaron Pierre",
+        "Kelvin Harrison Jr.",
+        "Seth Rogen",
+        "Billy Eichner",
+        "Blue Ivy Carter",
+        "John Kani",
+        "Donald Glover",
+        "Beyoncé Knowles-Carter",
+        "Mads Mikkelsen",
+        "Tiffany Boone",
+      ],
+      "categories": [
+        "Animation",
+        "Music",
+        "Adventure",
+        "Family",
+      ],
+      "certification": "PG",
+      "directors": [
+        "Barry Jenkins",
+      ],
+      "duration": 7080000,
+      "trailer": "https://www.youtube.com/watch?v=lMXh6vjiZrI",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64055",
+        "notes": "0% of seats sold",
+        "time": 1737799200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64056",
+        "notes": "4% of seats sold",
+        "time": 1737810600000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64092",
+        "notes": "0% of seats sold",
+        "time": 1737884700000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64093",
+        "notes": "3% of seats sold",
+        "time": 1737896400000,
+      },
+    ],
+    "title": "Mufasa: The Lion King",
+    "url": "https://www.everymancinema.com/film-listing/286777-mufasa-the-lion-king",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Ncuti Gatwa",
+        "Hugh Skinner",
+        "Sharon D. Clarke",
+        "Ronke Adekoluejo",
+        "Julian Bleach",
+        "Shereener Browne",
+        "Richard Cant",
+        "Jasmine Kerr",
+        "Amanda Lawrence",
+        "Gillian McCafferty",
+      ],
+      "categories": [
+        "Musical",
+      ],
+      "directors": [
+        "Max Webster",
+      ],
+      "duration": 10800000,
+      "trailer": "https://www.youtube.com/watch?v=aIAF60jBpbo",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/60153",
+        "notes": "21% of seats sold",
+        "time": 1740078000000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/60156",
+        "notes": "4% of seats sold",
+        "time": 1740574800000,
+      },
+    ],
+    "title": "NT Live: The Importance of Being Earnest",
+    "url": "https://www.everymancinema.com/film-listing/1000010290-nt-live-the-importance-of-being-earnest",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Steve Coogan",
+        "Giles Terera",
+      ],
+      "categories": [
+        "Musical",
+      ],
+      "directors": [
+        "Sean Foley",
+      ],
+      "duration": 9000000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/62820",
+        "notes": "1% of seats sold",
+        "time": 1743102000000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/62920",
+        "notes": "1% of seats sold",
+        "time": 1743274800000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/62921",
+        "notes": "0% of seats sold",
+        "time": 1743679800000,
+      },
+    ],
+    "title": "National Theatre Live: Dr. Strangelove",
+    "url": "https://www.everymancinema.com/film-listing/1000015783-national-theatre-live-dr-strangelove",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Lily-Rose Depp",
+        "Nicholas Hoult",
+        "Bill Skarsgård",
+        "Aaron Taylor-Johnson",
+        "Willem Dafoe",
+        "Emma Corrin",
+        "Ralph Ineson",
+        "Simon McBurney",
+        "Adéla Hesová",
+        "Milena Konstantinova",
+      ],
+      "categories": [
+        "Horror",
+      ],
+      "certification": "15",
+      "directors": [
+        "Robert Eggers",
+      ],
+      "duration": 7920000,
+      "trailer": "https://www.youtube.com/watch?v=nulvWqYUM8k",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64061",
+        "notes": "0% of seats sold",
+        "time": 1737739800000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64065",
+        "notes": "18% of seats sold",
+        "time": 1737828000000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64109",
+        "notes": "4% of seats sold",
+        "time": 1737913200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64162",
+        "notes": "5% of seats sold",
+        "time": 1737999900000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64167",
+        "notes": "0% of seats sold",
+        "time": 1738095600000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64171",
+        "notes": "11% of seats sold",
+        "time": 1738171800000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64043",
+        "notes": "0% of seats sold",
+        "time": 1738249800000,
+      },
+    ],
+    "title": "Nosferatu",
+    "url": "https://www.everymancinema.com/film-listing/239839-nosferatu",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Lucy Liu",
+        "Chris Sullivan",
+        "Callina Liang",
+        "Julia Fox",
+        "Eddy Maday",
+        "West Mulholland",
+      ],
+      "categories": [
+        "Horror",
+        "Thriller",
+      ],
+      "certification": "15",
+      "directors": [
+        "Steven Soderbergh",
+      ],
+      "duration": 5100000,
+      "trailer": "https://www.youtube.com/watch?v=S5TFrtUmgRc",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64060",
+        "notes": "0% of seats sold",
+        "time": 1737731400000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64062",
+        "notes": "4% of seats sold",
+        "time": 1737751500000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64066",
+        "notes": "0% of seats sold",
+        "time": 1737841500000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64142",
+        "notes": "7% of seats sold",
+        "time": 1737926100000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64110",
+        "notes": "0% of seats sold",
+        "time": 1737977400000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64146",
+        "notes": "0% of seats sold",
+        "time": 1738012800000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64116",
+        "notes": "0% of seats sold",
+        "time": 1738078200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64151",
+        "notes": "0% of seats sold",
+        "time": 1738099200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64118",
+        "notes": "0% of seats sold",
+        "time": 1738149300000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64172",
+        "notes": "0% of seats sold",
+        "time": 1738183500000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64033",
+        "notes": "0% of seats sold",
+        "time": 1738230000000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64044",
+        "notes": "0% of seats sold",
+        "time": 1738261800000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64041",
+        "notes": "0% of seats sold",
+        "time": 1738272000000,
+      },
+    ],
+    "title": "Presence",
+    "url": "https://www.everymancinema.com/film-listing/317270-presence",
+  },
+  {
+    "overview": {
+      "actors": [
         "The Orchestra of the Royal Opera House",
       ],
       "categories": [
         "Opera",
       ],
       "directors": [
-        "Kenneth MacMillan",
+        "Christopher Wheeldon",
       ],
-      "duration": 12600000,
+      "duration": 10800000,
     },
     "performances": [
       {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57806",
-        "notes": "8% of seats sold",
-        "time": 1742497200000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57987",
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57982",
         "notes": "2% of seats sold",
-        "time": 1742907600000,
-      },
-    ],
-    "title": "Royal Ballet and Opera: Romeo and Juliet",
-    "url": "https://www.everymancinema.com/film-listing/1000003754-royal-ballet-and-opera-romeo-and-juliet",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Sondra Radvanovsky",
-        "SeokJong Baek",
-        "Anna Princeva",
-        "Adam Palka",
-      ],
-      "categories": [
-        "Opera",
-      ],
-      "directors": [
-        "Andrei Serban",
-      ],
-      "duration": 12300000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57807",
-        "notes": "2% of seats sold",
-        "time": 1743530400000,
+        "time": 1747936800000,
       },
       {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57985",
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57983",
         "notes": "0% of seats sold",
-        "time": 1744113600000,
+        "time": 1748348100000,
       },
     ],
-    "title": "Royal Ballet and Opera: Turandot",
-    "url": "https://www.everymancinema.com/film-listing/1000003755-royal-ballet-and-opera-turandot",
+    "title": "Royal Ballet and Opera: Ballet to Broadway: Wheeldon Works",
+    "url": "https://www.everymancinema.com/film-listing/1000003759-royal-ballet-and-opera-ballet-to-broadway-wheeldon-works",
   },
   {
     "overview": {
@@ -1498,237 +1550,286 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
         "Opera",
       ],
       "directors": [
-        "Christopher Wheeldon",
+        "Kenneth MacMillan",
       ],
-      "duration": 10800000,
+      "duration": 12600000,
     },
     "performances": [
       {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57982",
-        "notes": "2% of seats sold",
-        "time": 1747936800000,
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57806",
+        "notes": "8% of seats sold",
+        "time": 1742497200000,
       },
       {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57983",
-        "notes": "0% of seats sold",
-        "time": 1748348100000,
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57987",
+        "notes": "2% of seats sold",
+        "time": 1742907600000,
       },
     ],
-    "title": "Royal Ballet and Opera: Ballet to Broadway: Wheeldon Works",
-    "url": "https://www.everymancinema.com/film-listing/1000003759-royal-ballet-and-opera-ballet-to-broadway-wheeldon-works",
+    "title": "Royal Ballet and Opera: Romeo and Juliet",
+    "url": "https://www.everymancinema.com/film-listing/1000003754-royal-ballet-and-opera-romeo-and-juliet",
   },
   {
     "overview": {
       "actors": [
-        "Annabelle Aquino",
-        "Hazel Baldwin",
-        "Brad Barnley",
-        "Michael Baxter",
-        "Will Callan",
+        "Matthew Ball",
+        "Yasmine Naghdi",
       ],
       "categories": [
+        "Opera",
         "Musical",
       ],
       "certification": "12A",
       "directors": [
-        "Cameron Mackintosh",
+        "Liam Scarlett",
       ],
-      "duration": 9900000,
-      "trailer": "https://www.youtube.com/watch?v=E9j9_cbRuX4",
+      "duration": 11700000,
+      "trailer": "https://www.youtube.com/watch?v=ITU241Ypino",
     },
     "performances": [
       {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/59125",
-        "notes": "22% of seats sold",
-        "time": 1738609200000,
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57805",
+        "notes": "11% of seats sold",
+        "time": 1740682800000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57988",
+        "notes": "8% of seats sold",
+        "time": 1741093200000,
       },
     ],
-    "title": "Les Misérables - The Staged Concert (40th Anniversary)",
-    "url": "https://www.everymancinema.com/film-listing/1000007782-les-miserables-the-staged-concert-40th-anniversary",
+    "title": "Royal Ballet and Opera: Swan Lake",
+    "url": "https://www.everymancinema.com/film-listing/316805-royal-ballet-and-opera-swan-lake",
   },
   {
     "overview": {
       "actors": [
-        "Tim Minchin",
-        "Ben Forster",
-        "Chris Moyles",
+        "Sondra Radvanovsky",
+        "SeokJong Baek",
+        "Anna Princeva",
+        "Adam Palka",
       ],
       "categories": [
-        "Musical",
+        "Opera",
       ],
       "directors": [
-        "Nick Morris",
+        "Andrei Serban",
       ],
-      "duration": 6900000,
-      "trailer": "https://www.youtube.com/watch?v=xAFzTvQZ6iE",
+      "duration": 12300000,
     },
     "performances": [
       {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/59123",
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57807",
         "notes": "2% of seats sold",
-        "time": 1741031100000,
+        "time": 1743530400000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/57985",
+        "notes": "0% of seats sold",
+        "time": 1744113600000,
       },
     ],
-    "title": "Jesus Christ Superstar Live",
-    "url": "https://www.everymancinema.com/film-listing/1000007855-jesus-christ-superstar-live",
+    "title": "Royal Ballet and Opera: Turandot",
+    "url": "https://www.everymancinema.com/film-listing/1000003755-royal-ballet-and-opera-turandot",
   },
   {
     "overview": {
       "actors": [
-        "Elliot Hanna",
-        "Liam Mower",
-        "Deka Walmsley",
+        "Adrien Brody",
+        "Felicity Jones",
+        "Guy Pearce",
+        "Joe Alwyn",
+        "Raffey Cassidy",
+        "Stacy Martin",
+        "Isaach de Bankolé",
+        "Alessandro Nivola",
+        "Emma Laird",
+        "Jonathan Hyde",
       ],
       "categories": [
-        "Musical",
+        "Drama",
+        "Romance",
       ],
-      "certification": "15",
+      "certification": "18",
       "directors": [
-        "Stephen Daldry",
+        "Brady Corbet",
       ],
-      "duration": 9780000,
+      "duration": 12840000,
     },
     "performances": [
       {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/59122",
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64059",
+        "notes": "5% of seats sold",
+        "time": 1737714600000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64068",
+        "notes": "8% of seats sold",
+        "time": 1737729000000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64069",
+        "notes": "50% of seats sold",
+        "time": 1737745200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64063",
         "notes": "2% of seats sold",
-        "time": 1743444000000,
-      },
-    ],
-    "title": "Billy Elliot The Musical Live (20th Anniversary)",
-    "url": "https://www.everymancinema.com/film-listing/1000007857-billy-elliot-the-musical-live-20th-anniversary",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Ncuti Gatwa",
-        "Hugh Skinner",
-        "Sharon D. Clarke",
-        "Ronke Adekoluejo",
-        "Julian Bleach",
-        "Shereener Browne",
-        "Richard Cant",
-        "Jasmine Kerr",
-        "Amanda Lawrence",
-        "Gillian McCafferty",
-      ],
-      "categories": [
-        "Musical",
-      ],
-      "directors": [
-        "Max Webster",
-      ],
-      "duration": 10800000,
-      "trailer": "https://www.youtube.com/watch?v=aIAF60jBpbo",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/60153",
-        "notes": "21% of seats sold",
-        "time": 1740078000000,
+        "time": 1737801900000,
       },
       {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/60156",
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64071",
+        "notes": "25% of seats sold",
+        "time": 1737815400000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64072",
+        "notes": "75% of seats sold",
+        "time": 1737831600000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64107",
         "notes": "4% of seats sold",
-        "time": 1740574800000,
+        "time": 1737886200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64124",
+        "notes": "41% of seats sold",
+        "time": 1737901200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64125",
+        "notes": "6% of seats sold",
+        "time": 1737918000000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64126",
+        "notes": "11% of seats sold",
+        "time": 1737972000000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64127",
+        "notes": "5% of seats sold
+Reduced ticket price for guests aged 55 and over, including a complimentary hot drink and a slice of cake",
+        "time": 1737988200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64128",
+        "notes": "17% of seats sold",
+        "time": 1738004400000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64129",
+        "notes": "0% of seats sold",
+        "time": 1738062000000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64130",
+        "notes": "0% of seats sold",
+        "time": 1738072800000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64131",
+        "notes": "2% of seats sold",
+        "time": 1738090800000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64104",
+        "notes": "1% of seats sold",
+        "time": 1738144200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64105",
+        "notes": "1% of seats sold",
+        "time": 1738160400000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64106",
+        "notes": "3% of seats sold",
+        "time": 1738177200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64042",
+        "notes": "0% of seats sold",
+        "time": 1738233600000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64027",
+        "notes": "0% of seats sold",
+        "time": 1738251600000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64036",
+        "notes": "2% of seats sold",
+        "time": 1738263600000,
       },
     ],
-    "title": "NT Live: The Importance of Being Earnest",
-    "url": "https://www.everymancinema.com/film-listing/1000010290-nt-live-the-importance-of-being-earnest",
+    "title": "The Brutalist",
+    "url": "https://www.everymancinema.com/film-listing/269838-the-brutalist",
   },
   {
     "overview": {
       "actors": [
-        "David Tennant",
-        "Cush Jumbo",
+        "Pamela Anderson",
+        "Kiernan Shipka",
+        "Brenda Song",
+        "Billie Lourd",
+        "Jamie Lee Curtis",
       ],
       "categories": [
         "Drama",
       ],
       "directors": [
-        "Max Webster",
+        "Gia Coppola",
       ],
-      "duration": 6840000,
-      "trailer": "https://www.youtube.com/watch?v=qY1sJphZN-8",
+      "duration": 6300000,
+      "trailer": "https://www.youtube.com/watch?v=hZDs_lLGrTU",
     },
     "performances": [
       {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/61320",
-        "notes": "53% of seats sold",
-        "time": 1738784700000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/61323",
-        "notes": "8% of seats sold",
-        "time": 1739280600000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63002",
-        "notes": "4% of seats sold",
-        "time": 1739388600000,
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63084",
+        "notes": "39% of seats sold",
+        "time": 1739218500000,
       },
     ],
-    "title": "Macbeth: David Tennant & Cush Jumbo",
-    "url": "https://www.everymancinema.com/film-listing/1000013074-macbeth-david-tennant-and-cush-jumbo",
+    "title": "The Last Showgirl + Pamela Anderson Q&A",
+    "url": "https://www.everymancinema.com/film-listing/1000016805-the-last-showgirl-pamela-anderson-qanda",
   },
   {
     "overview": {
       "actors": [
-        "Jeremy Jordan (II)",
-        "Frances Mayli McCann",
-        "Gillian Bevan",
+        "Harrison Ford",
+        "Rutger Hauer",
+        "Sean Young",
       ],
       "categories": [
-        "Musical",
+        "Action",
+        "Drama",
+        "Science fiction",
+        "Thriller",
       ],
       "directors": [
-        "Ben Crabb",
+        "Ridley Scott",
       ],
-      "duration": 9000000,
+      "duration": 7020000,
+      "trailer": "https://www.youtube.com/watch?v=qoEyZoOTtss",
     },
     "performances": [
       {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63177",
-        "notes": "0% of seats sold",
-        "time": 1746469800000,
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63319",
+        "notes": "11% of seats sold
+Includes complimentary popcorn and a drink",
+        "time": 1737924300000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63320",
+        "notes": "11% of seats sold
+Includes complimentary popcorn and a drink",
+        "time": 1738097100000,
       },
     ],
-    "title": "Bonnie & Clyde The Musical",
-    "url": "https://www.everymancinema.com/film-listing/1000014030-bonnie-and-clyde-the-musical",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Steve Coogan",
-        "Giles Terera",
-      ],
-      "categories": [
-        "Musical",
-      ],
-      "directors": [
-        "Sean Foley",
-      ],
-      "duration": 9000000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/62820",
-        "notes": "1% of seats sold",
-        "time": 1743102000000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/62920",
-        "notes": "1% of seats sold",
-        "time": 1743274800000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/62921",
-        "notes": "0% of seats sold",
-        "time": 1743679800000,
-      },
-    ],
-    "title": "National Theatre Live: Dr. Strangelove",
-    "url": "https://www.everymancinema.com/film-listing/1000015783-national-theatre-live-dr-strangelove",
+    "title": "Throwback: Blade Runner (The Final Cut)",
+    "url": "https://www.everymancinema.com/film-listing/1000017087-throwback-blade-runner-the-final-cut",
   },
   {
     "overview": {
@@ -1763,64 +1864,6 @@ Includes complimentary popcorn and a drink",
     ],
     "title": "Throwback: The Usual Suspects",
     "url": "https://www.everymancinema.com/film-listing/1000016745-throwback-the-usual-suspects",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Pamela Anderson",
-        "Kiernan Shipka",
-        "Brenda Song",
-        "Billie Lourd",
-        "Jamie Lee Curtis",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "directors": [
-        "Gia Coppola",
-      ],
-      "duration": 6300000,
-      "trailer": "https://www.youtube.com/watch?v=hZDs_lLGrTU",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63084",
-        "notes": "39% of seats sold
-null",
-        "time": 1739218500000,
-      },
-    ],
-    "title": "The Last Showgirl + Pamela Anderson Q&A",
-    "url": "https://www.everymancinema.com/film-listing/1000016805-the-last-showgirl-pamela-anderson-qanda",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Rachel Sennott",
-        "Gabriel LaBelle",
-        "Cooper Hoffman",
-        "Ella Hunt",
-        "Emily Fairn",
-      ],
-      "categories": [
-        "Comedy",
-        "Drama",
-      ],
-      "directors": [
-        "Jason Reitman",
-      ],
-      "duration": 6540000,
-      "trailer": "https://www.youtube.com/watch?v=CV16GHIqtGE",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63337",
-        "notes": "28% of seats sold",
-        "time": 1737665100000,
-      },
-    ],
-    "title": "Members’ Preview: Saturday Night",
-    "url": "https://www.everymancinema.com/film-listing/1000017076-members-preview-saturday-night",
   },
   {
     "overview": {
@@ -1868,127 +1911,83 @@ A ticket includes one seat for you and one for your child aged 1 to 5, plus a co
   {
     "overview": {
       "actors": [
-        "Harrison Ford",
-        "Rutger Hauer",
-        "Sean Young",
+        "Andrew Garfield",
+        "Florence Pugh",
+        "Aoife Hinds",
+        "Adam James",
+        "Grace Delaney",
+        "Lee Braithwaite",
+        "Douglas Hodge",
+        "Marama Corlett",
+        "Nikhil Parmar",
+        "Amy Morgan",
       ],
       "categories": [
-        "Action",
-        "Drama",
-        "Science fiction",
-        "Thriller",
-      ],
-      "directors": [
-        "Ridley Scott",
-      ],
-      "duration": 7020000,
-      "trailer": "https://www.youtube.com/watch?v=qoEyZoOTtss",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63319",
-        "notes": "11% of seats sold
-Includes complimentary popcorn and a drink",
-        "time": 1737924300000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63320",
-        "notes": "11% of seats sold
-Includes complimentary popcorn and a drink",
-        "time": 1738097100000,
-      },
-    ],
-    "title": "Throwback: Blade Runner (The Final Cut)",
-    "url": "https://www.everymancinema.com/film-listing/1000017087-throwback-blade-runner-the-final-cut",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Ethan Herisse",
-        "Brandon Wilson",
-        "Aunjanue Ellis-Taylor",
-        "Sam Malone",
-      ],
-      "categories": [
+        "Comedy drama",
+        "Romance",
         "Drama",
       ],
-      "certification": "12A",
-      "directors": [
-        "RaMell Ross",
-      ],
-      "duration": 8400000,
-      "trailer": "https://www.youtube.com/watch?v=8HZKgYknVN0",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63755",
-        "notes": "0% of seats sold
-One more chance to discover curated cinema beyond the mainstream.",
-        "time": 1737981000000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63756",
-        "notes": "5% of seats sold
-One more chance to discover curated cinema beyond the mainstream.",
-        "time": 1738179900000,
-      },
-    ],
-    "title": "Beyond: Nickel Boys",
-    "url": "https://www.everymancinema.com/film-listing/1000018090-beyond-nickel-boys",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Tom Hanks",
-        "Robin Wright",
-        "Paul Bettany",
-        "Kelly Reilly",
-        "Michelle Dockery",
-      ],
-      "categories": [
-        "Fantasy",
-        "Drama",
-      ],
-      "certification": "12A",
-      "directors": [
-        "Robert Zemeckis",
-      ],
-      "duration": 6240000,
-      "trailer": "https://www.youtube.com/watch?v=I_id-SkGU2k",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63905",
-        "notes": "0% of seats sold
-One more chance to discover curated cinema beyond the mainstream.",
-        "time": 1738585800000,
-      },
-      {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63909",
-        "notes": "0% of seats sold
-One more chance to discover curated cinema beyond the mainstream.",
-        "time": 1738777500000,
-      },
-    ],
-    "title": "Beyond: Here",
-    "url": "https://www.everymancinema.com/film-listing/1000018162-beyond-here",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
       "certification": "15",
-      "directors": [],
+      "directors": [
+        "John Crowley",
+      ],
+      "duration": 6480000,
+      "trailer": "https://www.youtube.com/watch?v=MH02yagHaNw",
     },
     "performances": [
       {
-        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/63908",
-        "notes": "4% of seats sold",
-        "time": 1738615500000,
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64075",
+        "notes": "7% of seats sold",
+        "time": 1737733200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64078",
+        "notes": "0% of seats sold",
+        "time": 1737797400000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64080",
+        "notes": "5% of seats sold",
+        "time": 1737819900000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64123",
+        "notes": "2% of seats sold",
+        "time": 1737891600000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64145",
+        "notes": "5% of seats sold",
+        "time": 1738002600000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64147",
+        "notes": "0% of seats sold",
+        "time": 1738056000000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64149",
+        "notes": "2% of seats sold",
+        "time": 1738081200000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64134",
+        "notes": "2% of seats sold",
+        "time": 1738165500000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64025",
+        "notes": "0% of seats sold",
+        "time": 1738227600000,
+      },
+      {
+        "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64137",
+        "notes": "2% of seats sold",
+        "time": 1738242900000,
       },
     ],
-    "title": "Members’ Preview: September 5",
-    "url": "https://www.everymancinema.com/film-listing/1000018250-members-preview-september-5",
+    "title": "We Live In Time",
+    "url": "https://www.everymancinema.com/film-listing/314383-we-live-in-time",
   },
 ]
 `;

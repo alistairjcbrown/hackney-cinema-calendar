@@ -1,4 +1,4 @@
-const { parseMinsToMs, convertToList } = require("../../common/utils");
+const { createOverview, createPerformance } = require("../../common/utils");
 
 async function transform(
   { domain, cinemaId },
@@ -9,68 +9,57 @@ async function transform(
     const isShowing = !!movie.theaters.find(({ th }) => th === cinemaId);
     if (!isShowing) return moviesAtThreate;
 
-    const overview = {
-      duration: movie.runtime ? parseMinsToMs(movie.runtime / 60) : undefined,
-      categories: convertToList(movie.genres),
+    if (!movieListPage[movie.id]) return moviesAtThreate;
+
+    const overview = createOverview({
+      duration: movie.runtime ? movie.runtime / 60 : undefined,
+      categories: movie.genres,
       actors: movie.casting,
       directors: movie.direction.concat(movie.coDirection),
-    };
+      certification: movie.certificate,
+      trailer: movie.trailer.youtube?.[0],
+    });
 
-    if (movie.certificate && !movie.certificate.includes("TBC")) {
-      overview.certification = movie.certificate;
-    }
+    const performances = Object.values(movieListPage[movie.id])
+      .flatMap((dayPerformances) => dayPerformances)
+      .map((performance) => {
+        let notesList = [];
+        if (performance.occupancy.rate === 100) {
+          notesList.push("Sold out");
+        } else {
+          notesList.push(`${performance.occupancy.rate}% of seats sold`);
+        }
+        notesList = notesList.concat(
+          performance.tags.reduce((tagNotes, tag) => {
+            if (tag === "Format.Projection.Digital") return tagNotes;
+            const tagId = `${cinemaId}_${tag}`;
+            const tagData = attributeData.find(({ id }) => id === tagId);
+            if (tagData) {
+              return tagNotes.concat(tagData.localizations[0].description);
+            }
+          }, []),
+        );
 
-    if (movie.trailer.youtube?.length > 0) {
-      overview.trailer = movie.trailer.youtube[0];
-    }
+        return createPerformance({
+          date: new Date(performance.startsAt),
+          notesList,
+          url: performance.data.ticketing[0].urls[0],
+        });
+      });
 
-    moviesAtThreate[movie.id] = {
+    return moviesAtThreate.concat({
       title: movie.title,
       url: `${domain}${movie.path}`,
       overview,
-    };
-    return moviesAtThreate;
-  }, {});
+      performances,
+    });
+  }, []);
 
   const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
     (events) => events,
   );
 
-  return Object.keys(movieListPage)
-    .map((movieId) => {
-      const performances = Object.values(movieListPage[movieId]).flatMap(
-        (dayPerformances) => dayPerformances,
-      );
-      return {
-        ...movies[movieId],
-        performances: performances.map((performance) => {
-          let notes = "";
-          if (performance.occupancy.rate === 100) {
-            notes += "\nSold out";
-          } else {
-            notes += `\n${performance.occupancy.rate}% of seats sold`;
-          }
-          notes += performance.tags.reduce((tagNotes, tag) => {
-            if (tag !== "Format.Projection.Digital") {
-              const tagData = attributeData.find(
-                ({ id }) => id === `${cinemaId}_${tag}`,
-              );
-              if (tagData) {
-                return `${tagNotes}\n${tagData.localizations[0].description}`;
-              }
-            }
-            return tagNotes;
-          }, "");
-
-          return {
-            time: new Date(performance.startsAt).getTime(),
-            notes: notes.trim(),
-            bookingUrl: performance.data.ticketing[0].urls[0],
-          };
-        }),
-      };
-    })
-    .concat(listOfSourcedEvents);
+  return movies.concat(listOfSourcedEvents);
 }
 
 module.exports = transform;

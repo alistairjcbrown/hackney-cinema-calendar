@@ -59,7 +59,7 @@ const splitConjoinedItemsInList = (list, joiner = " and ") => {
 
 const classifications = ["U", "PG", "12", "12A", "15", "18"];
 const isValidClassification = (value = "") => {
-  const sanitizedValue = value
+  const sanitizedValue = (value ?? "")
     .toLowerCase()
     .replace("+", "")
     .replace("*", "")
