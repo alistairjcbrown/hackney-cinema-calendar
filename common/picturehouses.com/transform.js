@@ -1,14 +1,31 @@
+const cheerio = require("cheerio");
 const slugify = require("slugify");
 const { parse } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
 const {
   filterHistoricalPerformances,
   parseMinsToMs,
-} = require("../../common/utils");
+  convertToList,
+} = require("../utils");
+
+function extractData(value) {
+  const $ = cheerio.load(value);
+  const data = {};
+  $(".directorDiv .directorInner").each(function () {
+    const key = $(this).text().toLowerCase().replace(":", "").trim();
+    if (key === "director") {
+      data.directors = convertToList($(this).next().text());
+    }
+    if (key === "starring") {
+      data.actors = convertToList($(this).next().text());
+    }
+  });
+  return data;
+}
 
 async function transform(
   { domain, cinemaId },
-  { movieListPage: { movies }, moviePages: additionalData },
+  { movieListPage: { movies }, moviePages },
   sourcedEvents,
 ) {
   const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
@@ -29,10 +46,11 @@ async function transform(
         return moviesAtCinema;
       }
 
+      const additionalData = extractData(moviePages[movie.ScheduledFilmId]);
       const overview = {
         categories: [],
-        directors: additionalData[movie.ScheduledFilmId]?.directors || [],
-        actors: additionalData[movie.ScheduledFilmId]?.actors || [],
+        directors: additionalData.directors || [],
+        actors: additionalData.actors || [],
         duration: parseMinsToMs(movie.RunTime),
       };
 

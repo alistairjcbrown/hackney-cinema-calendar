@@ -1,21 +1,3 @@
-const cheerio = require("cheerio");
-const { convertToList } = require("../utils");
-
-function extractData(value) {
-  const $ = cheerio.load(value);
-  const data = {};
-  $(".directorDiv .directorInner").each(function () {
-    const key = $(this).text().toLowerCase().replace(":", "").trim();
-    if (key === "director") {
-      data.directors = convertToList($(this).next().text());
-    }
-    if (key === "starring") {
-      data.actors = convertToList($(this).next().text());
-    }
-  });
-  return data;
-}
-
 async function retrieve({ domain, cinemaId }) {
   const variables = {
     start_date: "show_all_dates",
@@ -41,8 +23,7 @@ async function retrieve({ domain, cinemaId }) {
 
   for (movieId of moviesIdsAtCinema) {
     const url = `${domain}/movie-details/${cinemaId}/${movieId}/-`;
-    const additionalFilmData = await (await fetch(url)).text();
-    moviePages[movieId] = extractData(additionalFilmData);
+    moviePages[movieId] = await (await fetch(url)).text();
   }
 
   return { movieListPage, moviePages };
