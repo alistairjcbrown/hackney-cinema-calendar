@@ -63,9 +63,7 @@ function processListingPage(data) {
         ? convertDurationStringToMinutes(summary.runtime)
         : footnotes.duration,
       year: summary["release year"] || footnotes.year,
-      categories: "",
       directors: summary.director || footnotes.director || movieBlurbDirectors,
-      actors: "",
       certification: getText($("._classification")).replace(/[()]/g, "").trim(),
     }),
   };

@@ -57,7 +57,6 @@ async function transform(movieData, sourcedEvents) {
       overview: createOverview({
         duration: movie.RunningTime,
         certification: movie.Rating.match(/bbfc\/lrg\/([^.]+)\./)[1],
-        categories: "",
         directors: movie.Director,
         actors: movie.Cast,
       }),

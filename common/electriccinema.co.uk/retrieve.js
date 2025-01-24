@@ -1,6 +1,7 @@
+const { fetchText } = require("../../common/utils");
+
 async function retrieve({ url }) {
-  const response = await fetch(url);
-  const site = await response.text();
+  const site = await fetchText(url);
   const [, data] = site.match(
     /\/*\s+<!\[CDATA\[\s+\*\/\s+var\s+electric\s+=\s+(.+?);\s+\/\*\s+\]\]>\s+\*\//i,
   );

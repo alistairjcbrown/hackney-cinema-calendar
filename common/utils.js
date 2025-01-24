@@ -92,9 +92,9 @@ const createPerformance = ({ date, notesList, url, screen }) => ({
 const createOverview = ({
   duration,
   year,
-  categories,
-  directors,
-  actors,
+  categories = "",
+  directors = "",
+  actors = "",
   certification,
   trailer,
 }) => {

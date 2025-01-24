@@ -94,7 +94,6 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
         year,
         duration: stats[stats.length - 1].replace("m.", ""),
         certification,
-        categories: "",
         directors: isCatchAll(stats[0]) ? "" : stats[0],
         actors: getText($cast),
       }),
