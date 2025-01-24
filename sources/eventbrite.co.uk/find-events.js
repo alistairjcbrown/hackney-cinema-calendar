@@ -1,38 +1,33 @@
 const { readDailyCache } = require("../../common/cache");
 const normalizeName = require("../../common/normalize-name");
 const distanceInKmBetweenCoordinates = require("../../common/distance-in-km-between-coordinates");
+const { createOverview, createPerformance } = require("../../common/utils");
+const { parseDate } = require("./utils");
 const { cacheKey } = require("./attributes");
 
 function convertEventbriteEvent(event) {
-  const startDate = new Date(`${event.start_date}T${event.start_time}`);
-  const endDate = new Date(`${event.end_date}T${event.end_time}`);
-
-  const overview = {
-    duration: (endDate.getTime() - startDate.getTime()) / 1000 / 60,
-    categories: [],
-    directors: [],
-    actors: [],
-  };
-
-  const performances = [
-    {
-      time: startDate.getTime(),
-      notes: "",
-      bookingUrl: event.tickets_url,
-    },
-  ];
+  const startDate = parseDate(`${event.start_date}T${event.start_time}`);
+  const endDate = parseDate(`${event.end_date}T${event.end_time}`);
 
   return {
     title: event.name,
     url: event.url,
-    overview,
-    performances,
+    overview: createOverview({
+      duration: (endDate.getTime() - startDate.getTime()) / 1000 / 60,
+    }),
+    performances: [
+      createPerformance({
+        date: startDate,
+        notesList: [],
+        url: event.tickets_url,
+      }),
+    ],
   };
 }
 
 function uniqueEvents(events) {
   const ids = {};
-  return events.filter(function (event) {
+  return events.filter((event) => {
     const isNewEvent = !ids[event.id];
     ids[event.id] = true;
     return isNewEvent;

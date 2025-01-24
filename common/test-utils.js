@@ -48,10 +48,16 @@ function schemaValidate(data) {
 }
 
 const setupCacheMock = (dirname, suffix) => {
-  const { dailyCache } = require("./cache");
+  const { dailyCache, readDailyCache } = require("./cache");
   const { readCache } = jest.requireActual("./cache");
 
   dailyCache.mockImplementation((key) =>
+    readCache(key, (filename) =>
+      path.join(dirname, "__manual-recordings__", `${filename}-${suffix}`),
+    ),
+  );
+
+  readDailyCache.mockImplementation((key) =>
     readCache(key, (filename) =>
       path.join(dirname, "__manual-recordings__", `${filename}-${suffix}`),
     ),
