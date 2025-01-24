@@ -42,7 +42,9 @@ function schemaValidate(data) {
   const ajv = new Ajv({ allErrors: true });
   addFormats(ajv);
   const validate = ajv.compile(schema);
-  return validate(data);
+  const isValid = validate(data);
+  if (!isValid) console.error(validate.errors);
+  return isValid;
 }
 
 const setupCacheMock = (dirname, suffix) => {

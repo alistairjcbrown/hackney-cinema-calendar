@@ -1,9 +1,12 @@
-const path = require("node:path");
+/** @jest-environment setup-polly-jest/jest-environment-node */
 const {
+  setupPolly,
   schemaValidate,
   setupCacheMock,
 } = require("../../../common/test-utils");
 const { retrieve, transform, attributes } = require("..");
+
+const isRecording = false;
 
 jest.mock("../../../common/cache");
 setupCacheMock(__dirname, "2025-01-23");
@@ -11,12 +14,13 @@ setupCacheMock(__dirname, "2025-01-23");
 // Hide script output
 console.log = () => {};
 
-describe(
-  attributes.name,
-  () => {
-    jest.useFakeTimers().setSystemTime(new Date("2025-01-23"));
+describe(attributes.name, () => {
+  setupPolly(isRecording, __dirname);
+  jest.useFakeTimers().setSystemTime(new Date("2025-01-23"));
 
-    it("retrieve and transform", async () => {
+  it(
+    "retrieve and transform",
+    async () => {
       const moviePages = await retrieve();
 
       // Make sure the input looks roughly correct
@@ -31,7 +35,7 @@ describe(
 
       expect(schemaValidate(data)).toBe(true);
       expect(data).toMatchSnapshot();
-    });
-  },
-  10_000,
-);
+    },
+    isRecording ? 120_000 : 10_000,
+  );
+});

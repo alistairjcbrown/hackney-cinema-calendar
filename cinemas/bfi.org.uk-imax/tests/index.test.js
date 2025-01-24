@@ -1,9 +1,12 @@
-const path = require("node:path");
+/** @jest-environment setup-polly-jest/jest-environment-node */
 const {
+  setupPolly,
   schemaValidate,
   setupCacheMock,
 } = require("../../../common/test-utils");
 const { retrieve, transform, attributes } = require("..");
+
+const isRecording = false;
 
 jest.mock("../../../common/cache");
 setupCacheMock(__dirname, "2025-01-23");
@@ -12,22 +15,27 @@ setupCacheMock(__dirname, "2025-01-23");
 console.log = () => {};
 
 describe(attributes.name, () => {
+  setupPolly(isRecording, __dirname);
   jest.useFakeTimers().setSystemTime(new Date("2025-01-23"));
 
-  it("retrieve and transform", async () => {
-    const moviePages = await retrieve();
+  it(
+    "retrieve and transform",
+    async () => {
+      const moviePages = await retrieve();
 
-    // Make sure the input looks roughly correct
-    expect(moviePages).toBeTruthy();
-    expect(Object.keys(moviePages).length).toBe(39);
+      // Make sure the input looks roughly correct
+      expect(moviePages).toBeTruthy();
+      expect(Object.keys(moviePages).length).toBe(39);
 
-    const output = await transform(moviePages, {});
-    const data = JSON.parse(JSON.stringify(output));
+      const output = await transform(moviePages, {});
+      const data = JSON.parse(JSON.stringify(output));
 
-    // Make sure the data looks roughly correct
-    expect(data.length).toBe(39);
+      // Make sure the data looks roughly correct
+      expect(data.length).toBe(39);
 
-    expect(schemaValidate(data)).toBe(true);
-    expect(data).toMatchSnapshot();
-  });
+      expect(schemaValidate(data)).toBe(true);
+      expect(data).toMatchSnapshot();
+    },
+    isRecording ? 120_000 : undefined,
+  );
 });

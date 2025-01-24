@@ -5199,6 +5199,61 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
   },
   {
     "overview": {
+      "actors": [],
+      "categories": [
+        "Animation",
+      ],
+      "directors": [],
+      "duration": 6300000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=963-84996",
+        "notes": "Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 5",
+        "time": 1740823800000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=963-84997",
+        "notes": "Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 5",
+        "time": 1740832800000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=963-84998",
+        "notes": "Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 5",
+        "time": 1740919200000,
+      },
+    ],
+    "title": "Dragon Ball Z: Battle of Gods - Extended (Dub)",
+    "url": "https://www.odeon.co.uk/films/dragon-ball-z-battle-of-gods-extended-dub/HO00006791/?siteId=963",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
+        "Animation",
+        "Subtitled Foreign Language",
+      ],
+      "directors": [],
+      "duration": 6300000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=963-84995",
+        "notes": "English (Sub)
+Japanese (Audio)
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 5",
+        "time": 1740910200000,
+      },
+    ],
+    "title": "Dragon Ball Z: Battle of Gods - Extended (Sub)",
+    "url": "https://www.odeon.co.uk/films/dragon-ball-z-battle-of-gods-extended-sub/HO00006793/?siteId=963",
+  },
+  {
+    "overview": {
       "actors": [
         "Steve Buscemi",
         "John Goodman",
@@ -5229,6 +5284,44 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
     ],
     "title": "The Big Lebowski",
     "url": "https://www.odeon.co.uk/films/the-big-lebowski/HO00006733/?siteId=963",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Jennifer Lawrence",
+        "Toby Jones",
+        "Donald Sutherland",
+        "Lenny Kravitz",
+        "Wes Bentley",
+        "Liam Hemsworth",
+        "Josh Hutcherson",
+        "Paula Malcomson",
+        "Willow Shields",
+        "Woody Harrelson",
+        "Elizabeth Banks",
+        "Stanley Tucci",
+      ],
+      "categories": [
+        "Action",
+        "Family",
+        "Thriller",
+      ],
+      "certification": "12A",
+      "directors": [
+        "Gary Ross",
+      ],
+      "duration": 8520000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=963-84999",
+        "notes": "Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 5",
+        "time": 1741809000000,
+      },
+    ],
+    "title": "The Hunger Games",
+    "url": "https://www.odeon.co.uk/films/the-hunger-games/HO00006796/?siteId=963",
   },
   {
     "overview": {

@@ -79,7 +79,7 @@ const createOverview = ({
   certification,
 }) => {
   return {
-    duration: parseMinsToMs(duration),
+    duration: parseMinsToMs(duration) || undefined,
     year: year || undefined,
     categories: splitConjoinedItemsInList(convertToList(categories)),
     directors: splitConjoinedItemsInList(convertToList(directors)),
