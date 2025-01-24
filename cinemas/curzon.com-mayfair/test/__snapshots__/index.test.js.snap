@@ -149,438 +149,6 @@ exports[`Curzon Mayfair retrieve and transform 1`] = `
   {
     "overview": {
       "actors": [
-        "Angelina Jolie",
-        "Kodi Smit-McPhee",
-        "Alba Rohrwacher",
-        "Pierfrancesco Favino",
-        "Haluk Bilginer",
-        "VALERIA GOLINO",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "12A",
-      "directors": [
-        "Pablo Larraín",
-      ],
-      "duration": 7380000,
-      "trailer": "https://www.youtube.com/watch?v=mVIXaTdxlQc",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29093/",
-        "notes": "",
-        "screen": "Screen 1",
-        "time": 1737655800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29105/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737717600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29102/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737740400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28977/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737818400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29107/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737889200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29110/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737910800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29112/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737989400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29115/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1738010700000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29118/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1738063200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29121/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1738086000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29141/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1738162200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29138/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1738183500000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29130/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1738236000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29133/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1738258800000,
-      },
-    ],
-    "title": "Maria",
-    "url": "https://www.curzon.com/films/maria/HO00005855/?siteId=MAY1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Stanley Tucci",
-        "Merab Ninidze",
-        "Lucian Msamati",
-        "Ralph Fiennes",
-        "Isabella Rossellini",
-        "John Lithgow",
-        "Sergio Castellitto",
-        "Brian F. O'Byrne",
-        "Carlos Diehz",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "12A",
-      "directors": [
-        "Edward Berger",
-      ],
-      "duration": 7200000,
-      "trailer": "https://www.youtube.com/watch?v=Znr38bHNXp4",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29101/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 1",
-        "time": 1737719100000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29106/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 1",
-        "time": 1737891000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29116/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 2",
-        "time": 1737979200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29122/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 1",
-        "time": 1738064700000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29137/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 2",
-        "time": 1738152000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29134/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 1",
-        "time": 1738237500000,
-      },
-    ],
-    "title": "Conclave",
-    "url": "https://www.curzon.com/films/conclave/HO00005766/?siteId=MAY1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Felicity Jones",
-        "Joe Alwyn",
-        "Stacy Martin",
-        "Alessandro Nivola",
-        "Adrien Brody",
-        "Raffey Cassidy",
-        "Emma Laird",
-        "Isaach De Bankolé",
-        "Guy Pearce",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "18",
-      "directors": [
-        "Brady Corbet",
-      ],
-      "duration": 12900000,
-      "trailer": "https://www.youtube.com/watch?v=hNiwPU5vjCk",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28965/",
-        "notes": "",
-        "screen": "Screen 1",
-        "time": 1737729600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28964/",
-        "notes": "",
-        "screen": "Screen 1",
-        "time": 1737745200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28966/",
-        "notes": "",
-        "screen": "Screen 1",
-        "time": 1737808200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28967/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737829200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28969/",
-        "notes": "",
-        "screen": "Screen 1",
-        "time": 1737901200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28970/",
-        "notes": "",
-        "screen": "Screen 1",
-        "time": 1737916800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29111/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 1",
-        "time": 1737988200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28972/",
-        "notes": "",
-        "screen": "Screen 1",
-        "time": 1738004400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29117/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 1",
-        "time": 1738075200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28973/",
-        "notes": "",
-        "screen": "Screen 1",
-        "time": 1738090800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29142/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 1",
-        "time": 1738161000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29136/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 1",
-        "time": 1738177200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29129/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 1",
-        "time": 1738248000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28975/",
-        "notes": "",
-        "screen": "Screen 1",
-        "time": 1738263600000,
-      },
-    ],
-    "title": "The Brutalist",
-    "url": "https://www.curzon.com/films/the-brutalist/HO00005872/?siteId=MAY1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Angel Blue",
-        "Piotr Beczala",
-        "Quinn Kelsey",
-        "Harold Wilson",
-        "Morris Robinson",
-        "Judit Kutasi",
-      ],
-      "categories": [
-        "Live Opera, Music & Theatre",
-      ],
-      "directors": [
-        "The Metropolitan Opera",
-      ],
-      "duration": 13200000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27384/",
-        "notes": "Satellite Event: Live Via Satellite",
-        "screen": "Screen 1",
-        "time": 1737826200000,
-      },
-    ],
-    "title": "The Met: Live in HD 2024-25: Aida",
-    "url": "https://www.curzon.com/films/the-met-live-in-hd-2024-25-aida/HO00005536/?siteId=MAY1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Michael Fassbender",
-        "Fionnuala Flaherty",
-        "Naoise Ó Cairealláin",
-        "Liam Óg Ó Hannaidh",
-        "JJ Ó Dochartaigh",
-        "Josie Walker",
-        "Jessica Reynolds",
-      ],
-      "categories": [
-        "Drama",
-        "Comedy",
-      ],
-      "classification": "18",
-      "directors": [
-        "Rich Peppiatt",
-      ],
-      "duration": 6300000,
-      "trailer": "https://www.youtube.com/watch?v=2sCxDw8v5cY",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29098/",
-        "notes": "Screening followed by a Q&A: Q&A",
-        "screen": "Screen 1",
-        "time": 1738425600000,
-      },
-    ],
-    "title": "Kneecap",
-    "url": "https://www.curzon.com/films/kneecap/HO00005482/?siteId=MAY1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "David Tennant",
-        "Cush Jumbo",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "directors": [
-        "Max Webster",
-      ],
-      "duration": 6840000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28211/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1738780200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28212/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1739109600000,
-      },
-    ],
-    "title": "MACBETH: David Tennant & Cush Jumbo",
-    "url": "https://www.curzon.com/films/macbeth-david-tennant-and-cush-jumbo/HO00005788/?siteId=MAY1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Dave Bautista",
-        "Jamie Lee Curtis",
-        "Billie Lourd",
-        "Kiernan Shipka",
-        "Pamela Anderson",
-        "Brenda Song",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "directors": [
-        "Gia Coppola",
-      ],
-      "duration": 5100000,
-      "trailer": "https://www.youtube.com/watch?v=r4xpoKBKrpo",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28796/",
-        "notes": "Recorded Performance: Prerecorded Q&A",
-        "screen": "Screen 2",
-        "time": 1739220000000,
-      },
-    ],
-    "title": "The Last Showgirl",
-    "url": "https://www.curzon.com/films/the-last-showgirl/HO00005898/?siteId=MAY1",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "18",
-      "directors": [
-        "Mahdi Fleifel",
-      ],
-      "duration": 6300000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28909/",
-        "notes": "Special Preview: Special Preview Screening
-Screening followed by a Q&A: Q&A",
-        "screen": "Screen 1",
-        "time": 1739296800000,
-      },
-    ],
-    "title": "LPFF: To A Land Unknown",
-    "url": "https://www.curzon.com/films/lpff-to-a-land-unknown/HO00005702/?siteId=MAY1",
-  },
-  {
-    "overview": {
-      "actors": [
         "Emma Thompson",
         "Hugh Grant",
         "Chiwetel Ejiofor",
@@ -732,116 +300,263 @@ Screening followed by a Q&A: Q&A",
   {
     "overview": {
       "actors": [
-        "Eliza Scanlen",
-        "Amanda Lawrence",
-        "Hugh Skinner",
-        "Ncuti Gatwa",
-        "Sharon D. Clarke",
+        "Stanley Tucci",
+        "Merab Ninidze",
+        "Lucian Msamati",
+        "Ralph Fiennes",
+        "Isabella Rossellini",
+        "John Lithgow",
+        "Sergio Castellitto",
+        "Brian F. O'Byrne",
+        "Carlos Diehz",
       ],
       "categories": [
-        "Live Opera, Music & Theatre",
+        "Drama",
       ],
-      "classification": "PG",
+      "classification": "12A",
       "directors": [
-        "Max Webster",
+        "Edward Berger",
       ],
-      "duration": 10200000,
-      "trailer": "https://www.youtube.com/watch?v=SkQNuoceik0",
+      "duration": 7200000,
+      "trailer": "https://www.youtube.com/watch?v=Znr38bHNXp4",
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27847/",
-        "notes": "Recorded Performance: Prerecorded Q&A",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29101/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Screen 1",
-        "time": 1740078000000,
+        "time": 1737719100000,
       },
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28714/",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29106/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 1",
+        "time": 1737891000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29116/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 2",
+        "time": 1737979200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29122/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 1",
+        "time": 1738064700000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29137/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 2",
+        "time": 1738152000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29134/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 1",
+        "time": 1738237500000,
+      },
+    ],
+    "title": "Conclave",
+    "url": "https://www.curzon.com/films/conclave/HO00005766/?siteId=MAY1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Michael Fassbender",
+        "Fionnuala Flaherty",
+        "Naoise Ó Cairealláin",
+        "Liam Óg Ó Hannaidh",
+        "JJ Ó Dochartaigh",
+        "Josie Walker",
+        "Jessica Reynolds",
+      ],
+      "categories": [
+        "Drama",
+        "Comedy",
+      ],
+      "classification": "18",
+      "directors": [
+        "Rich Peppiatt",
+      ],
+      "duration": 6300000,
+      "trailer": "https://www.youtube.com/watch?v=2sCxDw8v5cY",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29098/",
         "notes": "Screening followed by a Q&A: Q&A",
         "screen": "Screen 1",
-        "time": 1740319200000,
+        "time": 1738425600000,
       },
     ],
-    "title": "NT Live: The Importance of Being Earnest",
-    "url": "https://www.curzon.com/films/nt-live-the-importance-of-being-earnest/HO00005676/?siteId=MAY1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "The Royal Ballet",
-        "Matthew Ball",
-        "Yasmine Naghdi",
-      ],
-      "categories": [
-        "Documentary",
-      ],
-      "directors": [
-        "Liam Scarlett",
-      ],
-      "duration": 12600000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27058/",
-        "notes": "Encore: Encore",
-        "screen": "Screen 1",
-        "time": 1740924000000,
-      },
-    ],
-    "title": "RBO 2024-25: Swan Lake",
-    "url": "https://www.curzon.com/films/rbo-2024-25-swan-lake/HO00005444/?siteId=MAY1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "René Pape",
-        "Lise Davidsen",
-        "Ying Fang",
-        "Stephen Milling",
-        "Tomasz Konieczny",
-        "David Butt Philip",
-        "Magnus Dietrich",
-      ],
-      "categories": [
-        "Live Opera, Music & Theatre",
-      ],
-      "directors": [
-        "The Metropolitan Opera",
-      ],
-      "duration": 13500000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27385/",
-        "notes": "Satellite Event: Live Via Satellite",
-        "screen": "Screen 1",
-        "time": 1742058000000,
-      },
-    ],
-    "title": "The Met: Live in HD 2024-25: Fidelio",
-    "url": "https://www.curzon.com/films/the-met-live-in-hd-2024-25-fidelio/HO00005537/?siteId=MAY1",
+    "title": "Kneecap",
+    "url": "https://www.curzon.com/films/kneecap/HO00005482/?siteId=MAY1",
   },
   {
     "overview": {
       "actors": [],
       "categories": [
-        "Documentary",
+        "Drama",
       ],
+      "classification": "18",
       "directors": [
-        "Kenneth MacMillan",
+        "Mahdi Fleifel",
       ],
-      "duration": 12600000,
+      "duration": 6300000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27059/",
-        "notes": "Encore: Encore",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28909/",
+        "notes": "Special Preview: Special Preview Screening
+Screening followed by a Q&A: Q&A",
         "screen": "Screen 1",
-        "time": 1742738400000,
+        "time": 1739296800000,
       },
     ],
-    "title": "RBO 2024-25: Romeo and Juliet",
-    "url": "https://www.curzon.com/films/rbo-2024-25-romeo-and-juliet/HO00005445/?siteId=MAY1",
+    "title": "LPFF: To A Land Unknown",
+    "url": "https://www.curzon.com/films/lpff-to-a-land-unknown/HO00005702/?siteId=MAY1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "David Tennant",
+        "Cush Jumbo",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "directors": [
+        "Max Webster",
+      ],
+      "duration": 6840000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28211/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1738780200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28212/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1739109600000,
+      },
+    ],
+    "title": "MACBETH: David Tennant & Cush Jumbo",
+    "url": "https://www.curzon.com/films/macbeth-david-tennant-and-cush-jumbo/HO00005788/?siteId=MAY1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Angelina Jolie",
+        "Kodi Smit-McPhee",
+        "Alba Rohrwacher",
+        "Pierfrancesco Favino",
+        "Haluk Bilginer",
+        "VALERIA GOLINO",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "12A",
+      "directors": [
+        "Pablo Larraín",
+      ],
+      "duration": 7380000,
+      "trailer": "https://www.youtube.com/watch?v=mVIXaTdxlQc",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29093/",
+        "notes": "",
+        "screen": "Screen 1",
+        "time": 1737655800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29105/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737717600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29102/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737740400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28977/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737818400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29107/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737889200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29110/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737910800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29112/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737989400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29115/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1738010700000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29118/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1738063200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29121/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1738086000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29141/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1738162200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29138/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1738183500000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29130/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1738236000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29133/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1738258800000,
+      },
+    ],
+    "title": "Maria",
+    "url": "https://www.curzon.com/films/maria/HO00005855/?siteId=MAY1",
   },
   {
     "overview": {
@@ -884,6 +599,141 @@ Recorded Performance: Prerecorded Q&A",
   {
     "overview": {
       "actors": [
+        "Eliza Scanlen",
+        "Amanda Lawrence",
+        "Hugh Skinner",
+        "Ncuti Gatwa",
+        "Sharon D. Clarke",
+      ],
+      "categories": [
+        "Live Opera, Music & Theatre",
+      ],
+      "classification": "PG",
+      "directors": [
+        "Max Webster",
+      ],
+      "duration": 10200000,
+      "trailer": "https://www.youtube.com/watch?v=SkQNuoceik0",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27847/",
+        "notes": "Recorded Performance: Prerecorded Q&A",
+        "screen": "Screen 1",
+        "time": 1740078000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28714/",
+        "notes": "Screening followed by a Q&A: Q&A",
+        "screen": "Screen 1",
+        "time": 1740319200000,
+      },
+    ],
+    "title": "NT Live: The Importance of Being Earnest",
+    "url": "https://www.curzon.com/films/nt-live-the-importance-of-being-earnest/HO00005676/?siteId=MAY1",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
+        "Documentary",
+      ],
+      "directors": [
+        "Christopher Wheeldon",
+      ],
+      "duration": 10800000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27062/",
+        "notes": "Encore: Encore",
+        "screen": "Screen 1",
+        "time": 1748178000000,
+      },
+    ],
+    "title": "RBO 2024-25: Ballet To Broadway - Wheeldon Works",
+    "url": "https://www.curzon.com/films/rbo-2024-25-ballet-to-broadway-wheeldon-works/HO00005448/?siteId=MAY1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Lise Davidsen",
+        "Christopher Maltman",
+        "Soloman Howard",
+        "Stanislas de Barbeyrac",
+        "Marina Prudenskaya",
+        "Elisabet Strid",
+      ],
+      "categories": [
+        "Live Opera, Music & Theatre",
+      ],
+      "directors": [
+        "Barrie Kosky",
+      ],
+      "duration": 21900000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27061/",
+        "notes": "Encore: Encore",
+        "screen": "Screen 1",
+        "time": 1747573200000,
+      },
+    ],
+    "title": "RBO 2024-25: Die Walküre",
+    "url": "https://www.curzon.com/films/rbo-2024-25-die-walkure/HO00005447/?siteId=MAY1",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
+        "Documentary",
+      ],
+      "directors": [
+        "Kenneth MacMillan",
+      ],
+      "duration": 12600000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27059/",
+        "notes": "Encore: Encore",
+        "screen": "Screen 1",
+        "time": 1742738400000,
+      },
+    ],
+    "title": "RBO 2024-25: Romeo and Juliet",
+    "url": "https://www.curzon.com/films/rbo-2024-25-romeo-and-juliet/HO00005445/?siteId=MAY1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "The Royal Ballet",
+        "Matthew Ball",
+        "Yasmine Naghdi",
+      ],
+      "categories": [
+        "Documentary",
+      ],
+      "directors": [
+        "Liam Scarlett",
+      ],
+      "duration": 12600000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27058/",
+        "notes": "Encore: Encore",
+        "screen": "Screen 1",
+        "time": 1740924000000,
+      },
+    ],
+    "title": "RBO 2024-25: Swan Lake",
+    "url": "https://www.curzon.com/films/rbo-2024-25-swan-lake/HO00005444/?siteId=MAY1",
+  },
+  {
+    "overview": {
+      "actors": [
         "Sondra Radvanovsky",
         "Adam Palka",
         "SeokJong Baek",
@@ -908,6 +758,207 @@ Recorded Performance: Prerecorded Q&A",
     ],
     "title": "RBO 2024-25: Turandot",
     "url": "https://www.curzon.com/films/rbo-2024-25-turandot/HO00005446/?siteId=MAY1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Felicity Jones",
+        "Joe Alwyn",
+        "Stacy Martin",
+        "Alessandro Nivola",
+        "Adrien Brody",
+        "Raffey Cassidy",
+        "Emma Laird",
+        "Isaach De Bankolé",
+        "Guy Pearce",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "18",
+      "directors": [
+        "Brady Corbet",
+      ],
+      "duration": 12900000,
+      "trailer": "https://www.youtube.com/watch?v=hNiwPU5vjCk",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28965/",
+        "notes": "",
+        "screen": "Screen 1",
+        "time": 1737729600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28964/",
+        "notes": "",
+        "screen": "Screen 1",
+        "time": 1737745200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28966/",
+        "notes": "",
+        "screen": "Screen 1",
+        "time": 1737808200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28967/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737829200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28969/",
+        "notes": "",
+        "screen": "Screen 1",
+        "time": 1737901200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28970/",
+        "notes": "",
+        "screen": "Screen 1",
+        "time": 1737916800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29111/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 1",
+        "time": 1737988200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28972/",
+        "notes": "",
+        "screen": "Screen 1",
+        "time": 1738004400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29117/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 1",
+        "time": 1738075200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28973/",
+        "notes": "",
+        "screen": "Screen 1",
+        "time": 1738090800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29142/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 1",
+        "time": 1738161000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29136/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 1",
+        "time": 1738177200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29129/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 1",
+        "time": 1738248000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28975/",
+        "notes": "",
+        "screen": "Screen 1",
+        "time": 1738263600000,
+      },
+    ],
+    "title": "The Brutalist",
+    "url": "https://www.curzon.com/films/the-brutalist/HO00005872/?siteId=MAY1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Dave Bautista",
+        "Jamie Lee Curtis",
+        "Billie Lourd",
+        "Kiernan Shipka",
+        "Pamela Anderson",
+        "Brenda Song",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "directors": [
+        "Gia Coppola",
+      ],
+      "duration": 5100000,
+      "trailer": "https://www.youtube.com/watch?v=r4xpoKBKrpo",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28796/",
+        "notes": "Recorded Performance: Prerecorded Q&A",
+        "screen": "Screen 2",
+        "time": 1739220000000,
+      },
+    ],
+    "title": "The Last Showgirl",
+    "url": "https://www.curzon.com/films/the-last-showgirl/HO00005898/?siteId=MAY1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Angel Blue",
+        "Piotr Beczala",
+        "Quinn Kelsey",
+        "Harold Wilson",
+        "Morris Robinson",
+        "Judit Kutasi",
+      ],
+      "categories": [
+        "Live Opera, Music & Theatre",
+      ],
+      "directors": [
+        "The Metropolitan Opera",
+      ],
+      "duration": 13200000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27384/",
+        "notes": "Satellite Event: Live Via Satellite",
+        "screen": "Screen 1",
+        "time": 1737826200000,
+      },
+    ],
+    "title": "The Met: Live in HD 2024-25: Aida",
+    "url": "https://www.curzon.com/films/the-met-live-in-hd-2024-25-aida/HO00005536/?siteId=MAY1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "René Pape",
+        "Lise Davidsen",
+        "Ying Fang",
+        "Stephen Milling",
+        "Tomasz Konieczny",
+        "David Butt Philip",
+        "Magnus Dietrich",
+      ],
+      "categories": [
+        "Live Opera, Music & Theatre",
+      ],
+      "directors": [
+        "The Metropolitan Opera",
+      ],
+      "duration": 13500000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27385/",
+        "notes": "Satellite Event: Live Via Satellite",
+        "screen": "Screen 1",
+        "time": 1742058000000,
+      },
+    ],
+    "title": "The Met: Live in HD 2024-25: Fidelio",
+    "url": "https://www.curzon.com/films/the-met-live-in-hd-2024-25-fidelio/HO00005537/?siteId=MAY1",
   },
   {
     "overview": {
@@ -966,57 +1017,6 @@ Recorded Performance: Prerecorded Q&A",
     ],
     "title": "The Met: Live in HD 2024-25: Salome",
     "url": "https://www.curzon.com/films/the-met-live-in-hd-2024-25-salome/HO00005539/?siteId=MAY1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Lise Davidsen",
-        "Christopher Maltman",
-        "Soloman Howard",
-        "Stanislas de Barbeyrac",
-        "Marina Prudenskaya",
-        "Elisabet Strid",
-      ],
-      "categories": [
-        "Live Opera, Music & Theatre",
-      ],
-      "directors": [
-        "Barrie Kosky",
-      ],
-      "duration": 21900000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27061/",
-        "notes": "Encore: Encore",
-        "screen": "Screen 1",
-        "time": 1747573200000,
-      },
-    ],
-    "title": "RBO 2024-25: Die Walküre",
-    "url": "https://www.curzon.com/films/rbo-2024-25-die-walkure/HO00005447/?siteId=MAY1",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [
-        "Documentary",
-      ],
-      "directors": [
-        "Christopher Wheeldon",
-      ],
-      "duration": 10800000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27062/",
-        "notes": "Encore: Encore",
-        "screen": "Screen 1",
-        "time": 1748178000000,
-      },
-    ],
-    "title": "RBO 2024-25: Ballet To Broadway - Wheeldon Works",
-    "url": "https://www.curzon.com/films/rbo-2024-25-ballet-to-broadway-wheeldon-works/HO00005448/?siteId=MAY1",
   },
   {
     "overview": {

@@ -5,6 +5,37 @@ exports[`Vue Islington retrieve and transform 1`] = `
   {
     "overview": {
       "actors": [
+        "(G)I-DLE",
+      ],
+      "categories": [
+        "Music",
+      ],
+      "classification": "12A",
+      "directors": [
+        "Yoondong Oh",
+      ],
+      "duration": 6120000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020074/356554",
+        "notes": "Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
+        "screen": "3",
+        "time": 1738177200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020074/357131",
+        "notes": "Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
+        "screen": "8",
+        "time": 1738422000000,
+      },
+    ],
+    "title": "(G)I-DLE WORLD TOUR [iDOL] IN CINEMAS",
+    "url": "https://www.myvue.com/cinema/islington/film/gi-dle-world-tour-idol-in-cinemas",
+  },
+  {
+    "overview": {
+      "actors": [
         "Timothée Chalamet",
         "Elle Fanning",
         "Scoot McNairy",
@@ -229,419 +260,138 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
   {
     "overview": {
       "actors": [
-        "Aaron Pierre",
-        "Kelvin Harrison Jr.",
-        "Seth Rogen",
-        "Billy Eichner",
-        "John Kani",
+        "Jesse Eisenberg",
+        "Kieran Culkin",
+        "Olha Bosova",
+        "Banner Eisenberg",
+        "Jakub Gasowski",
       ],
       "categories": [
-        "Animation",
+        "Comedy",
         "Drama",
-        "Musical",
-        "Family",
-        "Kids",
       ],
-      "classification": "PG",
+      "classification": "15",
       "directors": [
-        "Barry Jenkins",
+        "Jesse Eisenberg",
       ],
-      "duration": 7080000,
+      "duration": 5400000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/356871",
-        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
-        "screen": "5",
-        "time": 1737763500000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/356993",
-        "notes": "",
-        "screen": "3",
-        "time": 1737797700000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/356917",
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/356923",
         "notes": "",
         "screen": "4",
-        "time": 1737804900000,
+        "time": 1737744300000,
       },
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/357068",
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/356995",
         "notes": "",
-        "screen": "7",
-        "time": 1737823800000,
+        "screen": "3",
+        "time": 1737827100000,
       },
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/356972",
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/356859",
+        "notes": "",
+        "screen": "5",
+        "time": 1737915300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/357109",
+        "notes": "",
+        "screen": "1",
+        "time": 1737981300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/356962",
+        "notes": "",
+        "screen": "1",
+        "time": 1737989100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/356965",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "1",
-        "time": 1737846300000,
+        "time": 1738017000000,
       },
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/357087",
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/357118",
         "notes": "",
-        "screen": "6",
-        "time": 1737892800000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/356855",
-        "notes": "",
-        "screen": "5",
-        "time": 1738016400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/356901",
-        "notes": "",
-        "screen": "4",
-        "time": 1738169700000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/356926",
-        "notes": "",
-        "screen": "10",
-        "time": 1738246500000,
-      },
-    ],
-    "title": "Mufasa: The Lion King",
-    "url": "https://www.myvue.com/cinema/islington/film/mufasa-the-lion-king",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Andrew Garfield",
-        "Florence Pugh",
-        "Marama Corlett",
-        "Adam James",
-      ],
-      "categories": [
-        "Drama",
-        "Romance",
-      ],
-      "classification": "15",
-      "directors": [
-        "John Crowley",
-      ],
-      "duration": 6420000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357104",
-        "notes": "",
-        "screen": "2",
-        "time": 1737720300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357024",
-        "notes": "",
-        "screen": "2",
-        "time": 1737745200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357025",
-        "notes": "",
-        "screen": "2",
-        "time": 1737754800000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357017",
-        "notes": "",
-        "screen": "2",
-        "time": 1737799500000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357018",
-        "notes": "",
-        "screen": "2",
-        "time": 1737808500000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/356920",
-        "notes": "",
-        "screen": "4",
-        "time": 1737832800000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/356866",
-        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
-        "screen": "5",
-        "time": 1737847500000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357089",
-        "notes": "",
-        "screen": "6",
-        "time": 1737913200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/356914",
-        "notes": "",
-        "screen": "4",
-        "time": 1737920700000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/356915",
-        "notes": "",
-        "screen": "4",
-        "time": 1737930300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357056",
-        "notes": "",
-        "screen": "7",
-        "time": 1737986400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/356983",
-        "notes": "",
-        "screen": "3",
-        "time": 1738080300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357122",
-        "notes": "",
-        "screen": "4",
-        "time": 1738153200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/356902",
-        "notes": "",
-        "screen": "4",
-        "time": 1738179300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/356977",
-        "notes": "",
-        "screen": "3",
-        "time": 1738255500000,
-      },
-    ],
-    "title": "We Live in Time",
-    "url": "https://www.myvue.com/cinema/islington/film/we-live-in-time",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Lily-Rose Depp",
-        "Emma Corrin",
-        "Aaron Taylor-Johnson",
-        "Bill Skarsgård",
-        "Nicholas Hoult",
-        "Willem Dafoe",
-      ],
-      "categories": [
-        "Fantasy",
-        "Horror",
-        "Mystery",
-        "Drama",
-      ],
-      "classification": "15",
-      "directors": [
-        "Robert Eggers",
-      ],
-      "duration": 7920000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357100",
-        "notes": "",
-        "screen": "6",
-        "time": 1737720300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357097",
-        "notes": "",
-        "screen": "6",
-        "time": 1737730800000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356870",
-        "notes": "",
-        "screen": "5",
-        "time": 1737753000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356896",
-        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
-        "screen": "8",
-        "time": 1737760200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357095",
-        "notes": "",
-        "screen": "6",
-        "time": 1737838800000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356857",
-        "notes": "Open Captioned: Films and Events that feature subtitles on screen for dialogue, sound effects and music.",
-        "screen": "5",
-        "time": 1737896100000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357088",
-        "notes": "",
-        "screen": "6",
-        "time": 1737902400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356913",
-        "notes": "",
-        "screen": "4",
-        "time": 1737909900000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356992",
-        "notes": "",
-        "screen": "3",
-        "time": 1737925200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356987",
-        "notes": "",
-        "screen": "3",
-        "time": 1738008000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357114",
-        "notes": "",
-        "screen": "2",
-        "time": 1738067400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357007",
-        "notes": "",
-        "screen": "2",
-        "time": 1738077600000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356879",
-        "notes": "",
-        "screen": "8",
-        "time": 1738095600000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357077",
-        "notes": "",
-        "screen": "6",
-        "time": 1738178400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356981",
-        "notes": "",
-        "screen": "3",
-        "time": 1738185900000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357003",
-        "notes": "",
-        "screen": "2",
-        "time": 1738269600000,
-      },
-    ],
-    "title": "Nosferatu",
-    "url": "https://www.myvue.com/cinema/islington/film/nosferatu",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Ben Schwartz",
-        "Colleen O'Shaughnessey",
-        "Idris Elba",
-        "Keanu Reeves",
-        "Jim Carrey",
-      ],
-      "categories": [
-        "Fantasy",
-        "Family",
-        "Sci-Fi",
-        "Animation",
-      ],
-      "classification": "PG",
-      "directors": [
-        "Jeff Fowler",
-      ],
-      "duration": 6600000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/356894",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "8",
-        "time": 1737739500000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/356952",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Over 18s: Shows only those aged 18+ can attend - ID may be required",
-        "screen": "10",
-        "time": 1737764400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/356916",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "4",
-        "time": 1737795900000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/357039",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "9",
-        "time": 1737803100000,
+        "time": 1738067700000,
       },
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/357067",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "7",
-        "time": 1737814500000,
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/357032",
+        "notes": "",
+        "screen": "9",
+        "time": 1738075800000,
       },
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/357060",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "7",
-        "time": 1737886800000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/357013",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/357008",
+        "notes": "",
         "screen": "2",
-        "time": 1737896400000,
+        "time": 1738088100000,
       },
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/357064",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Over 18s: Shows only those aged 18+ can attend - ID may be required",
-        "screen": "7",
-        "time": 1737933600000,
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/357123",
+        "notes": "",
+        "screen": "6",
+        "time": 1738152900000,
       },
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/356881",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "8",
-        "time": 1737993900000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/356979",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "3",
-        "time": 1738159200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/356980",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "3",
-        "time": 1738168200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/356898",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/356900",
+        "notes": "",
         "screen": "4",
-        "time": 1738255200000,
+        "time": 1738161900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/357076",
+        "notes": "",
+        "screen": "6",
+        "time": 1738170000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/357027",
+        "notes": "",
+        "screen": "9",
+        "time": 1738258500000,
       },
     ],
-    "title": "Sonic the Hedgehog 3",
-    "url": "https://www.myvue.com/cinema/islington/film/sonic-the-hedgehog-3",
+    "title": "A Real Pain",
+    "url": "https://www.myvue.com/cinema/islington/film/a-real-pain",
+  },
+  {
+    "overview": {
+      "actors": [
+        "André Rieu",
+        "The Johann Strauss Orchestra",
+      ],
+      "categories": [
+        "Music",
+      ],
+      "directors": [
+        "André Rieu",
+        "Michel Fizzano",
+      ],
+      "duration": 10800000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019969/354249",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
+        "screen": "3",
+        "time": 1744480800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019969/354248",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
+        "screen": "3",
+        "time": 1744549200000,
+      },
+    ],
+    "title": "Andre Rieu's 75th Birthday Celebration: The Dream Continues",
+    "url": "https://www.myvue.com/cinema/islington/film/andre-rieus-75th-birthday-celebration-the-dream-continues",
   },
   {
     "overview": {
@@ -871,253 +621,207 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
   {
     "overview": {
       "actors": [
-        "Auli'i Cravalho",
-        "Dwayne Johnson",
-        "Alan Tudyk",
+        "BAEKHYUN",
       ],
-      "categories": [
-        "Animation",
-        "Action/Adventure",
-        "Kids",
-        "Family",
-      ],
+      "categories": [],
       "classification": "PG",
-      "directors": [
-        "Dave Derrick Jr.",
-      ],
+      "directors": [],
       "duration": 6000000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019225/357066",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "7",
-        "time": 1737805800000,
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020007/356721",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
+Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
+        "screen": "3",
+        "time": 1737745200000,
       },
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019225/356856",
-        "notes": "ATF: Autism Friendly Screenings - Screenings for sensory sensitivity, lights are at half, volume is reduced
-Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "5",
-        "time": 1737887400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019225/357116",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "7",
-        "time": 1738069200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019225/356904",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "4",
-        "time": 1738075200000,
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020007/356175",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
+Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
+        "screen": "3",
+        "time": 1737817200000,
       },
     ],
-    "title": "Moana 2",
-    "url": "https://www.myvue.com/cinema/islington/film/moana-2",
+    "title": "BAEKHYUN: Lonsdaleite [dot] IN CINEMAS",
+    "url": "https://www.myvue.com/cinema/islington/film/baekhyun-lonsdaleite-dot-in-cinemas",
   },
   {
     "overview": {
       "actors": [
-        "Mark Wahlberg",
-        "Topher Grace",
-        "Michelle Dockery",
-        "Monib Abhat",
+        "Jimmy Page",
+        "John Paul Jones",
+        "John Bonham",
+        "Robert Plant",
       ],
       "categories": [
-        "Thriller",
+        "Music",
+        "Documentary",
       ],
-      "classification": "15",
       "directors": [
-        "Mel Gibson",
+        "Bernard MacMahon",
       ],
-      "duration": 5460000,
+      "duration": 8220000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357101",
-        "notes": "",
-        "screen": "10",
-        "time": 1737720300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357070",
-        "notes": "",
-        "screen": "7",
-        "time": 1737727800000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356868",
-        "notes": "",
-        "screen": "5",
-        "time": 1737735000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357000",
-        "notes": "",
-        "screen": "3",
-        "time": 1737753900000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356951",
-        "notes": "",
-        "screen": "10",
-        "time": 1737756300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357093",
-        "notes": "",
-        "screen": "6",
-        "time": 1737819600000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356919",
-        "notes": "",
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020056/357143",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
+Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
         "screen": "4",
-        "time": 1737824700000,
+        "time": 1738942200000,
       },
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356865",
-        "notes": "",
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020056/357146",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
+Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
         "screen": "5",
-        "time": 1737837600000,
+        "time": 1738957500000,
       },
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356997",
-        "notes": "",
-        "screen": "3",
-        "time": 1737843000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356858",
-        "notes": "",
-        "screen": "5",
-        "time": 1737907200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356886",
-        "notes": "",
-        "screen": "8",
-        "time": 1737918000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356941",
-        "notes": "",
-        "screen": "10",
-        "time": 1737925500000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356888",
-        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
-        "screen": "8",
-        "time": 1737934200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357111",
-        "notes": "",
-        "screen": "3",
-        "time": 1737981300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356852",
-        "notes": "",
-        "screen": "5",
-        "time": 1737987300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356986",
-        "notes": "",
-        "screen": "3",
-        "time": 1737999900000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356911",
-        "notes": "",
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020056/357142",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
+Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
         "screen": "4",
-        "time": 1738014300000,
+        "time": 1739023200000,
       },
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357117",
-        "notes": "",
-        "screen": "10",
-        "time": 1738070100000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356933",
-        "notes": "Open Captioned: Films and Events that feature subtitles on screen for dialogue, sound effects and music.",
-        "screen": "10",
-        "time": 1738078800000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356960",
-        "notes": "",
-        "screen": "1",
-        "time": 1738084800000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356850",
-        "notes": "",
-        "screen": "5",
-        "time": 1738089900000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357082",
-        "notes": "",
-        "screen": "6",
-        "time": 1738100400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357124",
-        "notes": "",
-        "screen": "7",
-        "time": 1738152900000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356874",
-        "notes": "",
-        "screen": "8",
-        "time": 1738159200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357050",
-        "notes": "",
-        "screen": "7",
-        "time": 1738168200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356847",
-        "notes": "",
-        "screen": "5",
-        "time": 1738176300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357006",
-        "notes": "",
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020056/357137",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
+Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
         "screen": "2",
-        "time": 1738187400000,
+        "time": 1739043000000,
       },
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356976",
-        "notes": "",
-        "screen": "3",
-        "time": 1738247400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356843",
-        "notes": "",
-        "screen": "5",
-        "time": 1738257000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356899",
-        "notes": "",
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020056/357141",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
+Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
         "screen": "4",
-        "time": 1738274100000,
+        "time": 1739111400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020056/357136",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
+Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
+        "screen": "2",
+        "time": 1739125800000,
       },
     ],
-    "title": "Flight Risk",
-    "url": "https://www.myvue.com/cinema/islington/film/flight-risk",
+    "title": "Becoming Led Zeppelin",
+    "url": "https://www.myvue.com/cinema/islington/film/becoming-led-zeppelin",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Damon Herriman",
+        "Alison Steadman",
+        "Anthony Hayes",
+        "Steve Pemberton",
+        "Kate Mulvany",
+        "Robbie Williams",
+        "Jonno Davies",
+        "Raechelle Banno",
+      ],
+      "categories": [
+        "Biography",
+        "Musical",
+      ],
+      "classification": "15",
+      "directors": [
+        "Michael Gracey",
+      ],
+      "duration": 8100000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356973",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "1",
+        "time": 1737729900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/357099",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
+Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "6",
+        "time": 1737758400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/357092",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "6",
+        "time": 1737808200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356891",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "8",
+        "time": 1737824400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356884",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "8",
+        "time": 1737897300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/357057",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "7",
+        "time": 1737995400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356910",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "4",
+        "time": 1738003800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/357012",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "2",
+        "time": 1738011300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356934",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "10",
+        "time": 1738087200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356935",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "10",
+        "time": 1738098300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356848",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "5",
+        "time": 1738184400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356903",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "4",
+        "time": 1738188300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356953",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "1",
+        "time": 1738247100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/357074",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "6",
+        "time": 1738263600000,
+      },
+    ],
+    "title": "Better Man",
+    "url": "https://www.myvue.com/cinema/islington/film/better-man",
   },
   {
     "overview": {
@@ -1428,201 +1132,6 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
     ],
     "title": "Bridget Jones: Mad About the Boy",
     "url": "https://www.myvue.com/cinema/islington/film/bridget-jones-mad-about-the-boy",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Damon Herriman",
-        "Alison Steadman",
-        "Anthony Hayes",
-        "Steve Pemberton",
-        "Kate Mulvany",
-        "Robbie Williams",
-        "Jonno Davies",
-        "Raechelle Banno",
-      ],
-      "categories": [
-        "Biography",
-        "Musical",
-      ],
-      "classification": "15",
-      "directors": [
-        "Michael Gracey",
-      ],
-      "duration": 8100000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356973",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "1",
-        "time": 1737729900000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/357099",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Over 18s: Shows only those aged 18+ can attend - ID may be required",
-        "screen": "6",
-        "time": 1737758400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/357092",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "6",
-        "time": 1737808200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356891",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "8",
-        "time": 1737824400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356884",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "8",
-        "time": 1737897300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/357057",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "7",
-        "time": 1737995400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356910",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "4",
-        "time": 1738003800000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/357012",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "2",
-        "time": 1738011300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356934",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "10",
-        "time": 1738087200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356935",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "10",
-        "time": 1738098300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356848",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "5",
-        "time": 1738184400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356903",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "4",
-        "time": 1738188300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/356953",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "1",
-        "time": 1738247100000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019806/357074",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "6",
-        "time": 1738263600000,
-      },
-    ],
-    "title": "Better Man",
-    "url": "https://www.myvue.com/cinema/islington/film/better-man",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Peter Dinklage",
-        "Jeff Goldblum",
-        "Michelle Yeoh",
-        "Cynthia Erivo",
-        "Keala Settle",
-        "Ariana Grande",
-        "Bowen Yang",
-        "Marissa Bode",
-        "Jonathan Bailey",
-        "Bronwyn James",
-        "Ethan Slater",
-      ],
-      "categories": [
-        "Romance",
-        "Musical",
-        "Fantasy",
-      ],
-      "classification": "PG",
-      "directors": [
-        "Jon M. Chu",
-      ],
-      "duration": 9600000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018919/356863",
-        "notes": "",
-        "screen": "5",
-        "time": 1737808200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018919/357037",
-        "notes": "",
-        "screen": "9",
-        "time": 1737927300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018919/357010",
-        "notes": "",
-        "screen": "2",
-        "time": 1737990000000,
-      },
-    ],
-    "title": "Wicked",
-    "url": "https://www.myvue.com/cinema/islington/film/wicked",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Julia Garner",
-        "Christopher Abbott",
-        "Sam Jaeger",
-        "Matilda Firth",
-      ],
-      "categories": [
-        "Horror",
-      ],
-      "classification": "15",
-      "directors": [
-        "Leigh Whannell",
-      ],
-      "duration": 6180000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019671/357096",
-        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
-        "screen": "6",
-        "time": 1737849600000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019671/357016",
-        "notes": "",
-        "screen": "2",
-        "time": 1737927900000,
-      },
-    ],
-    "title": "Wolf Man",
-    "url": "https://www.myvue.com/cinema/islington/film/wolf-man",
   },
   {
     "overview": {
@@ -1946,134 +1455,48 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
   {
     "overview": {
       "actors": [
-        "Tom Hanks",
-        "Robin Wright",
-        "Paul Bettany",
-        "Kelly Reilly",
+        "Rupert Friend",
+        "Jack Quaid",
+        "Sophie Thatcher",
+        "Marc Menchaca",
+        "Lukas Gage",
+        "Woody Fu",
+        "Harvey Guillén",
+        "Megan Suri",
       ],
       "categories": [
-        "Drama",
-        "Comedy",
-        "Romance",
-      ],
-      "classification": "12A",
-      "directors": [
-        "Robert Zemeckis",
-      ],
-      "duration": 6240000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020025/356845",
-        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
-        "screen": "5",
-        "time": 1738276200000,
-      },
-    ],
-    "title": "Here",
-    "url": "https://www.myvue.com/cinema/islington/film/here",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Jesse Eisenberg",
-        "Kieran Culkin",
-        "Olha Bosova",
-        "Banner Eisenberg",
-        "Jakub Gasowski",
-      ],
-      "categories": [
-        "Comedy",
-        "Drama",
+        "Thriller",
+        "Horror",
+        "Sci-Fi",
       ],
       "classification": "15",
       "directors": [
-        "Jesse Eisenberg",
+        "Drew Hancock",
       ],
-      "duration": 5400000,
+      "duration": 5820000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/356923",
-        "notes": "",
-        "screen": "4",
-        "time": 1737744300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/356995",
-        "notes": "",
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019666/356556",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
         "screen": "3",
-        "time": 1737827100000,
+        "time": 1738354500000,
       },
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/356859",
-        "notes": "",
-        "screen": "5",
-        "time": 1737915300000,
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019666/356558",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "3",
+        "time": 1738440900000,
       },
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/357109",
-        "notes": "",
-        "screen": "1",
-        "time": 1737981300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/356962",
-        "notes": "",
-        "screen": "1",
-        "time": 1737989100000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/356965",
-        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
-        "screen": "1",
-        "time": 1738017000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/357118",
-        "notes": "",
-        "screen": "9",
-        "time": 1738067700000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/357032",
-        "notes": "",
-        "screen": "9",
-        "time": 1738075800000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/357008",
-        "notes": "",
-        "screen": "2",
-        "time": 1738088100000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/357123",
-        "notes": "",
-        "screen": "6",
-        "time": 1738152900000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/356900",
-        "notes": "",
-        "screen": "4",
-        "time": 1738161900000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/357076",
-        "notes": "",
-        "screen": "6",
-        "time": 1738170000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019668/357027",
-        "notes": "",
-        "screen": "9",
-        "time": 1738258500000,
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019666/357129",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
+        "screen": "3",
+        "time": 1738527300000,
       },
     ],
-    "title": "A Real Pain",
-    "url": "https://www.myvue.com/cinema/islington/film/a-real-pain",
+    "title": "Companion",
+    "url": "https://www.myvue.com/cinema/islington/film/companion",
   },
   {
     "overview": {
@@ -2241,87 +1664,6 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
     ],
     "title": "Conclave",
     "url": "https://www.myvue.com/cinema/islington/film/conclave",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Angelina Jolie",
-        "Alba Rohrwacher",
-        "Kodi Smit-McPhee",
-        "Pierfrancesco Favino",
-        "Haluk Bilginer",
-        "VALERIA GOLINO",
-      ],
-      "categories": [
-        "Drama",
-        "Biography",
-        "Music",
-      ],
-      "classification": "12A",
-      "directors": [
-        "Pablo Larraín",
-      ],
-      "duration": 7440000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/356949",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "10",
-        "time": 1737738000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/356994",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "3",
-        "time": 1737807300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/357061",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "7",
-        "time": 1737900000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/356853",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "5",
-        "time": 1737995400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/357059",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "7",
-        "time": 1738015500000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/357079",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "6",
-        "time": 1738073100000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/357120",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Open Captioned: Films and Events that feature subtitles on screen for dialogue, sound effects and music.",
-        "screen": "10",
-        "time": 1738154700000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/356930",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "10",
-        "time": 1738165200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/357026",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
-        "screen": "9",
-        "time": 1738248600000,
-      },
-    ],
-    "title": "Maria",
-    "url": "https://www.myvue.com/cinema/islington/film/maria",
   },
   {
     "overview": {
@@ -2521,6 +1863,841 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
   {
     "overview": {
       "actors": [
+        "Mark Wahlberg",
+        "Topher Grace",
+        "Michelle Dockery",
+        "Monib Abhat",
+      ],
+      "categories": [
+        "Thriller",
+      ],
+      "classification": "15",
+      "directors": [
+        "Mel Gibson",
+      ],
+      "duration": 5460000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357101",
+        "notes": "",
+        "screen": "10",
+        "time": 1737720300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357070",
+        "notes": "",
+        "screen": "7",
+        "time": 1737727800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356868",
+        "notes": "",
+        "screen": "5",
+        "time": 1737735000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357000",
+        "notes": "",
+        "screen": "3",
+        "time": 1737753900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356951",
+        "notes": "",
+        "screen": "10",
+        "time": 1737756300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357093",
+        "notes": "",
+        "screen": "6",
+        "time": 1737819600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356919",
+        "notes": "",
+        "screen": "4",
+        "time": 1737824700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356865",
+        "notes": "",
+        "screen": "5",
+        "time": 1737837600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356997",
+        "notes": "",
+        "screen": "3",
+        "time": 1737843000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356858",
+        "notes": "",
+        "screen": "5",
+        "time": 1737907200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356886",
+        "notes": "",
+        "screen": "8",
+        "time": 1737918000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356941",
+        "notes": "",
+        "screen": "10",
+        "time": 1737925500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356888",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "8",
+        "time": 1737934200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357111",
+        "notes": "",
+        "screen": "3",
+        "time": 1737981300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356852",
+        "notes": "",
+        "screen": "5",
+        "time": 1737987300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356986",
+        "notes": "",
+        "screen": "3",
+        "time": 1737999900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356911",
+        "notes": "",
+        "screen": "4",
+        "time": 1738014300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357117",
+        "notes": "",
+        "screen": "10",
+        "time": 1738070100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356933",
+        "notes": "Open Captioned: Films and Events that feature subtitles on screen for dialogue, sound effects and music.",
+        "screen": "10",
+        "time": 1738078800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356960",
+        "notes": "",
+        "screen": "1",
+        "time": 1738084800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356850",
+        "notes": "",
+        "screen": "5",
+        "time": 1738089900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357082",
+        "notes": "",
+        "screen": "6",
+        "time": 1738100400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357124",
+        "notes": "",
+        "screen": "7",
+        "time": 1738152900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356874",
+        "notes": "",
+        "screen": "8",
+        "time": 1738159200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357050",
+        "notes": "",
+        "screen": "7",
+        "time": 1738168200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356847",
+        "notes": "",
+        "screen": "5",
+        "time": 1738176300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/357006",
+        "notes": "",
+        "screen": "2",
+        "time": 1738187400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356976",
+        "notes": "",
+        "screen": "3",
+        "time": 1738247400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356843",
+        "notes": "",
+        "screen": "5",
+        "time": 1738257000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019635/356899",
+        "notes": "",
+        "screen": "4",
+        "time": 1738274100000,
+      },
+    ],
+    "title": "Flight Risk",
+    "url": "https://www.myvue.com/cinema/islington/film/flight-risk",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Tom Hanks",
+        "Robin Wright",
+        "Paul Bettany",
+        "Kelly Reilly",
+      ],
+      "categories": [
+        "Drama",
+        "Comedy",
+        "Romance",
+      ],
+      "classification": "12A",
+      "directors": [
+        "Robert Zemeckis",
+      ],
+      "duration": 6240000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020025/356845",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "5",
+        "time": 1738276200000,
+      },
+    ],
+    "title": "Here",
+    "url": "https://www.myvue.com/cinema/islington/film/here",
+  },
+  {
+    "overview": {
+      "actors": [
+        "IU",
+      ],
+      "categories": [
+        "Music",
+      ],
+      "directors": [
+        "Yeji Lee",
+        "Yoondong Oh",
+      ],
+      "duration": 7440000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020077/357128",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
+        "screen": "3",
+        "time": 1738783800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020077/357145",
+        "notes": "Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
+        "screen": "8",
+        "time": 1739028600000,
+      },
+    ],
+    "title": "IU CONCERT: THE WINNING",
+    "url": "https://www.myvue.com/cinema/islington/film/iu-concert-the-winning",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Luther Vandross",
+        "Jamie Foxx",
+        "Mariah Carey",
+        "Patti LaBelle",
+        "Dionne Warwick",
+        "Richard Marx",
+        "Roberta Flack",
+      ],
+      "categories": [
+        "Music",
+        "Documentary",
+      ],
+      "classification": "15",
+      "directors": [
+        "Dawn Porter",
+      ],
+      "duration": 6060000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020080/356716",
+        "notes": "Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
+        "screen": "4",
+        "time": 1738265400000,
+      },
+    ],
+    "title": "Luther: Never Too Much",
+    "url": "https://www.myvue.com/cinema/islington/film/luther-never-too-much",
+  },
+  {
+    "overview": {
+      "actors": [
+        "David Tennant",
+        "Cush Jumbo",
+      ],
+      "categories": [
+        "Event Cinema",
+        "Theatre",
+      ],
+      "directors": [
+        "Max Webster",
+      ],
+      "duration": 6840000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/350631",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "5",
+        "time": 1738765800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/350140",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "1",
+        "time": 1738782000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/350630",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "2",
+        "time": 1738869300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/350633",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "2",
+        "time": 1738956600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/350141",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "3",
+        "time": 1739109600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/354788",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "4",
+        "time": 1739214000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/357138",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "3",
+        "time": 1739280600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/355836",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "2",
+        "time": 1739385000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/356548",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "2",
+        "time": 1741028400000,
+      },
+    ],
+    "title": "Macbeth: David Tennant & Cush Jumbo",
+    "url": "https://www.myvue.com/cinema/islington/film/macbeth-with-david-tennant",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Angelina Jolie",
+        "Alba Rohrwacher",
+        "Kodi Smit-McPhee",
+        "Pierfrancesco Favino",
+        "Haluk Bilginer",
+        "VALERIA GOLINO",
+      ],
+      "categories": [
+        "Drama",
+        "Biography",
+        "Music",
+      ],
+      "classification": "12A",
+      "directors": [
+        "Pablo Larraín",
+      ],
+      "duration": 7440000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/356949",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "10",
+        "time": 1737738000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/356994",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "3",
+        "time": 1737807300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/357061",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "7",
+        "time": 1737900000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/356853",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "5",
+        "time": 1737995400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/357059",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "7",
+        "time": 1738015500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/357079",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "6",
+        "time": 1738073100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/357120",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
+Open Captioned: Films and Events that feature subtitles on screen for dialogue, sound effects and music.",
+        "screen": "10",
+        "time": 1738154700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/356930",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "10",
+        "time": 1738165200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019986/357026",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "9",
+        "time": 1738248600000,
+      },
+    ],
+    "title": "Maria",
+    "url": "https://www.myvue.com/cinema/islington/film/maria",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Auli'i Cravalho",
+        "Dwayne Johnson",
+        "Alan Tudyk",
+      ],
+      "categories": [
+        "Animation",
+        "Action/Adventure",
+        "Kids",
+        "Family",
+      ],
+      "classification": "PG",
+      "directors": [
+        "Dave Derrick Jr.",
+      ],
+      "duration": 6000000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019225/357066",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "7",
+        "time": 1737805800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019225/356856",
+        "notes": "ATF: Autism Friendly Screenings - Screenings for sensory sensitivity, lights are at half, volume is reduced
+Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "5",
+        "time": 1737887400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019225/357116",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "7",
+        "time": 1738069200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019225/356904",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "4",
+        "time": 1738075200000,
+      },
+    ],
+    "title": "Moana 2",
+    "url": "https://www.myvue.com/cinema/islington/film/moana-2",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Aaron Pierre",
+        "Kelvin Harrison Jr.",
+        "Seth Rogen",
+        "Billy Eichner",
+        "John Kani",
+      ],
+      "categories": [
+        "Animation",
+        "Drama",
+        "Musical",
+        "Family",
+        "Kids",
+      ],
+      "classification": "PG",
+      "directors": [
+        "Barry Jenkins",
+      ],
+      "duration": 7080000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/356871",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "5",
+        "time": 1737763500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/356993",
+        "notes": "",
+        "screen": "3",
+        "time": 1737797700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/356917",
+        "notes": "",
+        "screen": "4",
+        "time": 1737804900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/357068",
+        "notes": "",
+        "screen": "7",
+        "time": 1737823800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/356972",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "1",
+        "time": 1737846300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/357087",
+        "notes": "",
+        "screen": "6",
+        "time": 1737892800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/356855",
+        "notes": "",
+        "screen": "5",
+        "time": 1738016400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/356901",
+        "notes": "",
+        "screen": "4",
+        "time": 1738169700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018857/356926",
+        "notes": "",
+        "screen": "10",
+        "time": 1738246500000,
+      },
+    ],
+    "title": "Mufasa: The Lion King",
+    "url": "https://www.myvue.com/cinema/islington/film/mufasa-the-lion-king",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Lily-Rose Depp",
+        "Emma Corrin",
+        "Aaron Taylor-Johnson",
+        "Bill Skarsgård",
+        "Nicholas Hoult",
+        "Willem Dafoe",
+      ],
+      "categories": [
+        "Fantasy",
+        "Horror",
+        "Mystery",
+        "Drama",
+      ],
+      "classification": "15",
+      "directors": [
+        "Robert Eggers",
+      ],
+      "duration": 7920000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357100",
+        "notes": "",
+        "screen": "6",
+        "time": 1737720300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357097",
+        "notes": "",
+        "screen": "6",
+        "time": 1737730800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356870",
+        "notes": "",
+        "screen": "5",
+        "time": 1737753000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356896",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "8",
+        "time": 1737760200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357095",
+        "notes": "",
+        "screen": "6",
+        "time": 1737838800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356857",
+        "notes": "Open Captioned: Films and Events that feature subtitles on screen for dialogue, sound effects and music.",
+        "screen": "5",
+        "time": 1737896100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357088",
+        "notes": "",
+        "screen": "6",
+        "time": 1737902400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356913",
+        "notes": "",
+        "screen": "4",
+        "time": 1737909900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356992",
+        "notes": "",
+        "screen": "3",
+        "time": 1737925200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356987",
+        "notes": "",
+        "screen": "3",
+        "time": 1738008000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357114",
+        "notes": "",
+        "screen": "2",
+        "time": 1738067400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357007",
+        "notes": "",
+        "screen": "2",
+        "time": 1738077600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356879",
+        "notes": "",
+        "screen": "8",
+        "time": 1738095600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357077",
+        "notes": "",
+        "screen": "6",
+        "time": 1738178400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/356981",
+        "notes": "",
+        "screen": "3",
+        "time": 1738185900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019664/357003",
+        "notes": "",
+        "screen": "2",
+        "time": 1738269600000,
+      },
+    ],
+    "title": "Nosferatu",
+    "url": "https://www.myvue.com/cinema/islington/film/nosferatu",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Steve Coogan",
+        "Tony Jayawardena",
+        "Dharmesh Patel",
+        "John Hopkins",
+        "Giles Terera",
+      ],
+      "categories": [
+        "War",
+        "Drama",
+        "Comedy",
+      ],
+      "classification": "15",
+      "directors": [
+        "Sean Foley",
+      ],
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019968/354141",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "5",
+        "time": 1743084000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019968/354140",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "1",
+        "time": 1743102000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019968/354145",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "4",
+        "time": 1743190200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019968/354143",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "3",
+        "time": 1743341400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019968/354144",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "3",
+        "time": 1743597000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019968/354146",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "2",
+        "time": 1743704100000,
+      },
+    ],
+    "title": "NT Live: Dr. Strangelove",
+    "url": "https://www.myvue.com/cinema/islington/film/nt-live-dr-strangelove",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Eliza Scanlen",
+        "Amanda Lawrence",
+        "Hugh Skinner",
+        "Ncuti Gatwa",
+        "Sharon D. Clarke",
+      ],
+      "categories": [
+        "Theatre",
+        "NT Live",
+        "Event Cinema",
+      ],
+      "directors": [
+        "Max Webster",
+      ],
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019743/354250",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "5",
+        "time": 1740058200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019743/347095",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "3",
+        "time": 1740078000000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019743/347097",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "5",
+        "time": 1740163500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019743/347098",
+        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
+Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "3",
+        "time": 1740319200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019743/354252",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "5",
+        "time": 1740490200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019743/354253",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "4",
+        "time": 1740596400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019743/356547",
+        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
+        "screen": "4",
+        "time": 1741287600000,
+      },
+    ],
+    "title": "NT Live: The Importance of Being Earnest",
+    "url": "https://www.myvue.com/cinema/islington/film/nt-live-the-importance-of-being-earnest",
+  },
+  {
+    "overview": {
+      "actors": [
         "Ben Whishaw",
         "Olivia Colman",
         "Hugh Bonneville",
@@ -2562,99 +2739,45 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
   },
   {
     "overview": {
-      "actors": [],
-      "categories": [],
-      "classification": "U",
-      "directors": [],
-      "duration": 3600000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019978/357038",
-        "notes": "",
-        "screen": "9",
-        "time": 1737797100000,
-      },
-    ],
-    "title": "Tabby McTat & Stick Man",
-    "url": "https://www.myvue.com/cinema/islington/film/tabby-mctat--stick-man",
-  },
-  {
-    "overview": {
       "actors": [
-        "Roger Allam",
-        "Tasha Lawrence",
-        "Lesley Nichol",
-        "Andy Nyman",
+        "Adrian Pang",
+        "Thom Hoffman",
+        "Yootha Wong-Loi-Sing",
+        "Georgina Verbaan",
+        "Maurits Delchot",
+        "Namisa Mdalose",
+        "Silas Lekgoathi",
+        "Candice Modiselle",
+        "Sthandile Nkosi",
+        "Thulani Nzonzo",
       ],
       "categories": [
         "Animation",
+        "Comedy",
       ],
       "classification": "U",
       "directors": [
-        "Tim O'Sullivan",
+        "Richard Claus",
+        "Karsten Kiilerich",
       ],
-      "duration": 3540000,
+      "duration": 5640000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019951/357103",
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020004/357091",
         "notes": "",
-        "screen": "3",
-        "time": 1737720600000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019951/356998",
-        "notes": "",
-        "screen": "3",
-        "time": 1737728100000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019951/356889",
-        "notes": "",
-        "screen": "8",
-        "time": 1737801000000,
-      },
-    ],
-    "title": "Sarah & Duck On The Big Screen",
-    "url": "https://www.myvue.com/cinema/islington/film/sarah--duck-on-the-big-screen",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Lupita Nyong'o",
-        "Pedro Pascal",
-        "Catherine O'Hara",
-        "Bill Nighy",
-        "Kit Connor",
-      ],
-      "categories": [
-        "Animation",
-      ],
-      "classification": "U",
-      "directors": [
-        "Chris Sanders",
-      ],
-      "duration": 6120000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019274/356862",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Mighty Mornings: Keep their love of cinema going, with hand-picked family films for just £2.49/€2.99 when booked online.",
-        "screen": "5",
+        "screen": "6",
         "time": 1737799200000,
       },
       {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019274/356988",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Mighty Mornings: Keep their love of cinema going, with hand-picked family films for just £2.49/€2.99 when booked online.",
-        "screen": "3",
-        "time": 1737885600000,
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020004/356897",
+        "notes": "",
+        "screen": "4",
+        "time": 1738246800000,
       },
     ],
-    "title": "The Wild Robot",
-    "url": "https://www.myvue.com/cinema/islington/film/the-wild-robot",
+    "title": "Panda Bear in Africa",
+    "url": "https://www.myvue.com/cinema/islington/film/panda-bear-in-africa",
   },
   {
     "overview": {
@@ -2847,6 +2970,460 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
   {
     "overview": {
       "actors": [
+        "Sandra Oh",
+        "Alan Tudyk",
+        "Gemma Chan",
+        "Daniel Dae Kim",
+        "Kelly Marie Tran",
+        "Ross Butler",
+        "Awkwafina",
+      ],
+      "categories": [
+        "Animation",
+      ],
+      "classification": "PG",
+      "directors": [
+        "Don Hall",
+        "Carlos López Estrada",
+      ],
+      "duration": 6840000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020052/356943",
+        "notes": "",
+        "screen": "10",
+        "time": 1737802800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020052/356944",
+        "notes": "",
+        "screen": "10",
+        "time": 1737812700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020052/356938",
+        "notes": "",
+        "screen": "10",
+        "time": 1737889200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020052/356212",
+        "notes": "",
+        "screen": "10",
+        "time": 1737899100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020052/356927",
+        "notes": "",
+        "screen": "10",
+        "time": 1738256400000,
+      },
+    ],
+    "title": "Raya and the Last Dragon (2021)",
+    "url": "https://www.myvue.com/cinema/islington/film/raya-and-the-last-dragon",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
+        "Ballet",
+      ],
+      "directors": [
+        "Christopher Wheeldon",
+      ],
+      "duration": 10800000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019507/344663",
+        "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
+        "screen": "5",
+        "time": 1747937700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019507/344665",
+        "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
+        "screen": "5",
+        "time": 1748178000000,
+      },
+    ],
+    "title": "Royal Ballet & Opera: Ballet To Broadway - Wheeldon Works",
+    "url": "https://www.myvue.com/cinema/islington/film/rbo-cinema-season-2024-25-ballet-to-broadway-wheeldon-works",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Christopher Maltman",
+        "Stanislas de Barbeyrac",
+        "Lise Davidsen",
+        "Soloman Howard",
+        "Marina Prudenskaya",
+        "Elisabet Strid",
+      ],
+      "categories": [
+        "Opera",
+      ],
+      "directors": [
+        "Barrie Kosky",
+      ],
+      "duration": 21900000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019506/344662",
+        "notes": "Big Screen Opera: Unexpected love. Tragic consequences. A prince in disguise. Lose yourself in the extraordinary world of Big Screen Opera, where classics and new family favourites come to life in stunning clarity.",
+        "screen": "5",
+        "time": 1747239300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019506/344664",
+        "notes": "Big Screen Opera: Unexpected love. Tragic consequences. A prince in disguise. Lose yourself in the extraordinary world of Big Screen Opera, where classics and new family favourites come to life in stunning clarity.",
+        "screen": "5",
+        "time": 1747573200000,
+      },
+    ],
+    "title": "Royal Ballet & Opera: Die Walkure",
+    "url": "https://www.myvue.com/cinema/islington/film/rbo-die-walkure-2025",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
+        "Ballet",
+      ],
+      "directors": [
+        "Kenneth MacMillan",
+      ],
+      "duration": 12600000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019504/355450",
+        "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
+        "screen": "5",
+        "time": 1742498100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019504/354142",
+        "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
+        "screen": "5",
+        "time": 1742738400000,
+      },
+    ],
+    "title": "Royal Ballet & Opera: Romeo and Juliet",
+    "url": "https://www.myvue.com/cinema/islington/film/rbo-romeo-and-juliet-2025",
+  },
+  {
+    "overview": {
+      "actors": [
+        "The Royal Ballet",
+        "Matthew Ball",
+        "Yasmine Naghdi",
+      ],
+      "categories": [
+        "Ballet",
+      ],
+      "directors": [],
+      "duration": 12600000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019503/356743",
+        "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
+        "screen": "5",
+        "time": 1740683700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019503/356549",
+        "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
+        "screen": "5",
+        "time": 1740924000000,
+      },
+    ],
+    "title": "Royal Ballet & Opera: Swan Lake",
+    "url": "https://www.myvue.com/cinema/islington/film/rbo-swan-lake-2025",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Sondra Radvanovsky",
+        "Adam Palka",
+        "SeokJong Baek",
+        "Anna Princeva",
+        "Hansung Yoo",
+      ],
+      "categories": [
+        "Opera",
+      ],
+      "directors": [
+        "Andrei Serban",
+      ],
+      "duration": 12300000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019542/344660",
+        "notes": "Big Screen Opera: Unexpected love. Tragic consequences. A prince in disguise. Lose yourself in the extraordinary world of Big Screen Opera, where classics and new family favourites come to life in stunning clarity.",
+        "screen": "5",
+        "time": 1743531300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019542/344661",
+        "notes": "Big Screen Opera: Unexpected love. Tragic consequences. A prince in disguise. Lose yourself in the extraordinary world of Big Screen Opera, where classics and new family favourites come to life in stunning clarity.",
+        "screen": "5",
+        "time": 1743944400000,
+      },
+    ],
+    "title": "ROYAL BALLET & OPERA: Turandot",
+    "url": "https://www.myvue.com/cinema/islington/film/rbo-cinema-season-2024-25-turandot",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Roger Allam",
+        "Tasha Lawrence",
+        "Lesley Nichol",
+        "Andy Nyman",
+      ],
+      "categories": [
+        "Animation",
+      ],
+      "classification": "U",
+      "directors": [
+        "Tim O'Sullivan",
+      ],
+      "duration": 3540000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019951/357103",
+        "notes": "",
+        "screen": "3",
+        "time": 1737720600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019951/356998",
+        "notes": "",
+        "screen": "3",
+        "time": 1737728100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019951/356889",
+        "notes": "",
+        "screen": "8",
+        "time": 1737801000000,
+      },
+    ],
+    "title": "Sarah & Duck On The Big Screen",
+    "url": "https://www.myvue.com/cinema/islington/film/sarah--duck-on-the-big-screen",
+  },
+  {
+    "overview": {
+      "actors": [
+        "J.K Simmons",
+        "Dylan O'Brien",
+        "Matthew Rhys",
+        "Willem Dafoe",
+        "Cory Michael Smith",
+        "Lamorne Morris",
+        "Finn Wolfhard",
+        "Ella Hunt",
+        "Nicholas Braun",
+        "Rachel Sennott",
+        "Tommy Dewey",
+        "Jon Batiste",
+        "Cooper Hoffman",
+        "Gabriel LaBelle",
+        "Kaia Gerber",
+        "Andrew Barth Feldman",
+        "Emily Fairn",
+        "Matt Wood",
+        "Kim Matula",
+        "Naomi McPherson",
+      ],
+      "categories": [
+        "Biography",
+        "Comedy",
+        "Drama",
+      ],
+      "classification": "15",
+      "directors": [
+        "Jason Reitman",
+      ],
+      "duration": 6540000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019956/357021",
+        "notes": "",
+        "screen": "2",
+        "time": 1737840600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019956/357022",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "2",
+        "time": 1737849900000,
+      },
+    ],
+    "title": "Saturday Night",
+    "url": "https://www.myvue.com/cinema/islington/film/saturday-night",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Brad Pitt",
+        "Morgan Freeman",
+        "Gwyneth Paltrow",
+        "John C. McGinley",
+      ],
+      "categories": [
+        "Mystery",
+        "Drama",
+        "Thriller",
+        "Crime",
+      ],
+      "classification": "18",
+      "directors": [
+        "David Fincher",
+      ],
+      "duration": 7620000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020008/356861",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
+Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "5",
+        "time": 1737933300000,
+      },
+    ],
+    "title": "Se7en (30th Anniversary)",
+    "url": "https://www.myvue.com/cinema/islington/film/se7en-30th-anniversary",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Ben Schwartz",
+        "Colleen O'Shaughnessey",
+        "Idris Elba",
+        "Keanu Reeves",
+        "Jim Carrey",
+      ],
+      "categories": [
+        "Fantasy",
+        "Family",
+        "Sci-Fi",
+        "Animation",
+      ],
+      "classification": "PG",
+      "directors": [
+        "Jeff Fowler",
+      ],
+      "duration": 6600000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/356894",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "8",
+        "time": 1737739500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/356952",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
+Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "10",
+        "time": 1737764400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/356916",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "4",
+        "time": 1737795900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/357039",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "9",
+        "time": 1737803100000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/357067",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "7",
+        "time": 1737814500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/357060",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "7",
+        "time": 1737886800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/357013",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "2",
+        "time": 1737896400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/357064",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
+Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "7",
+        "time": 1737933600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/356881",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "8",
+        "time": 1737993900000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/356979",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "3",
+        "time": 1738159200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/356980",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "3",
+        "time": 1738168200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018921/356898",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
+        "screen": "4",
+        "time": 1738255200000,
+      },
+    ],
+    "title": "Sonic the Hedgehog 3",
+    "url": "https://www.myvue.com/cinema/islington/film/sonic-the-hedgehog-3",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "U",
+      "directors": [],
+      "duration": 3600000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019978/357038",
+        "notes": "",
+        "screen": "9",
+        "time": 1737797100000,
+      },
+    ],
+    "title": "Tabby McTat & Stick Man",
+    "url": "https://www.myvue.com/cinema/islington/film/tabby-mctat--stick-man",
+  },
+  {
+    "overview": {
+      "actors": [
         "Adrien Brody",
         "Felicity Jones",
         "Guy Pearce",
@@ -3030,816 +3607,6 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
   {
     "overview": {
       "actors": [
-        "Rupert Friend",
-        "Jack Quaid",
-        "Sophie Thatcher",
-        "Marc Menchaca",
-        "Lukas Gage",
-        "Woody Fu",
-        "Harvey Guillén",
-        "Megan Suri",
-      ],
-      "categories": [
-        "Thriller",
-        "Horror",
-        "Sci-Fi",
-      ],
-      "classification": "15",
-      "directors": [
-        "Drew Hancock",
-      ],
-      "duration": 5820000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019666/356556",
-        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
-        "screen": "3",
-        "time": 1738354500000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019666/356558",
-        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
-        "screen": "3",
-        "time": 1738440900000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019666/357129",
-        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.",
-        "screen": "3",
-        "time": 1738527300000,
-      },
-    ],
-    "title": "Companion",
-    "url": "https://www.myvue.com/cinema/islington/film/companion",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Brad Pitt",
-        "Morgan Freeman",
-        "Gwyneth Paltrow",
-        "John C. McGinley",
-      ],
-      "categories": [
-        "Mystery",
-        "Drama",
-        "Thriller",
-        "Crime",
-      ],
-      "classification": "18",
-      "directors": [
-        "David Fincher",
-      ],
-      "duration": 7620000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020008/356861",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Over 18s: Shows only those aged 18+ can attend - ID may be required",
-        "screen": "5",
-        "time": 1737933300000,
-      },
-    ],
-    "title": "Se7en (30th Anniversary)",
-    "url": "https://www.myvue.com/cinema/islington/film/se7en-30th-anniversary",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Sandra Oh",
-        "Alan Tudyk",
-        "Gemma Chan",
-        "Daniel Dae Kim",
-        "Kelly Marie Tran",
-        "Ross Butler",
-        "Awkwafina",
-      ],
-      "categories": [
-        "Animation",
-      ],
-      "classification": "PG",
-      "directors": [
-        "Don Hall",
-        "Carlos López Estrada",
-      ],
-      "duration": 6840000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020052/356943",
-        "notes": "",
-        "screen": "10",
-        "time": 1737802800000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020052/356944",
-        "notes": "",
-        "screen": "10",
-        "time": 1737812700000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020052/356938",
-        "notes": "",
-        "screen": "10",
-        "time": 1737889200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020052/356212",
-        "notes": "",
-        "screen": "10",
-        "time": 1737899100000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020052/356927",
-        "notes": "",
-        "screen": "10",
-        "time": 1738256400000,
-      },
-    ],
-    "title": "Raya and the Last Dragon (2021)",
-    "url": "https://www.myvue.com/cinema/islington/film/raya-and-the-last-dragon",
-  },
-  {
-    "overview": {
-      "actors": [
-        "(G)I-DLE",
-      ],
-      "categories": [
-        "Music",
-      ],
-      "classification": "12A",
-      "directors": [
-        "Yoondong Oh",
-      ],
-      "duration": 6120000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020074/356554",
-        "notes": "Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
-        "screen": "3",
-        "time": 1738177200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020074/357131",
-        "notes": "Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
-        "screen": "8",
-        "time": 1738422000000,
-      },
-    ],
-    "title": "(G)I-DLE WORLD TOUR [iDOL] IN CINEMAS",
-    "url": "https://www.myvue.com/cinema/islington/film/gi-dle-world-tour-idol-in-cinemas",
-  },
-  {
-    "overview": {
-      "actors": [
-        "André Rieu",
-        "The Johann Strauss Orchestra",
-      ],
-      "categories": [
-        "Music",
-      ],
-      "directors": [
-        "André Rieu",
-        "Michel Fizzano",
-      ],
-      "duration": 10800000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019969/354249",
-        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
-Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
-        "screen": "3",
-        "time": 1744480800000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019969/354248",
-        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
-Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
-        "screen": "3",
-        "time": 1744549200000,
-      },
-    ],
-    "title": "Andre Rieu's 75th Birthday Celebration: The Dream Continues",
-    "url": "https://www.myvue.com/cinema/islington/film/andre-rieus-75th-birthday-celebration-the-dream-continues",
-  },
-  {
-    "overview": {
-      "actors": [
-        "BAEKHYUN",
-      ],
-      "categories": [],
-      "classification": "PG",
-      "directors": [],
-      "duration": 6000000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020007/356721",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
-        "screen": "3",
-        "time": 1737745200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020007/356175",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
-        "screen": "3",
-        "time": 1737817200000,
-      },
-    ],
-    "title": "BAEKHYUN: Lonsdaleite [dot] IN CINEMAS",
-    "url": "https://www.myvue.com/cinema/islington/film/baekhyun-lonsdaleite-dot-in-cinemas",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Jimmy Page",
-        "John Paul Jones",
-        "John Bonham",
-        "Robert Plant",
-      ],
-      "categories": [
-        "Music",
-        "Documentary",
-      ],
-      "directors": [
-        "Bernard MacMahon",
-      ],
-      "duration": 8220000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020056/357143",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
-        "screen": "4",
-        "time": 1738942200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020056/357146",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
-        "screen": "5",
-        "time": 1738957500000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020056/357142",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
-        "screen": "4",
-        "time": 1739023200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020056/357137",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
-        "screen": "2",
-        "time": 1739043000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020056/357141",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
-        "screen": "4",
-        "time": 1739111400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020056/357136",
-        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
-        "screen": "2",
-        "time": 1739125800000,
-      },
-    ],
-    "title": "Becoming Led Zeppelin",
-    "url": "https://www.myvue.com/cinema/islington/film/becoming-led-zeppelin",
-  },
-  {
-    "overview": {
-      "actors": [
-        "IU",
-      ],
-      "categories": [
-        "Music",
-      ],
-      "directors": [
-        "Yeji Lee",
-        "Yoondong Oh",
-      ],
-      "duration": 7440000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020077/357128",
-        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
-Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
-        "screen": "3",
-        "time": 1738783800000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020077/357145",
-        "notes": "Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
-        "screen": "8",
-        "time": 1739028600000,
-      },
-    ],
-    "title": "IU CONCERT: THE WINNING",
-    "url": "https://www.myvue.com/cinema/islington/film/iu-concert-the-winning",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Luther Vandross",
-        "Jamie Foxx",
-        "Mariah Carey",
-        "Patti LaBelle",
-        "Dionne Warwick",
-        "Richard Marx",
-        "Roberta Flack",
-      ],
-      "categories": [
-        "Music",
-        "Documentary",
-      ],
-      "classification": "15",
-      "directors": [
-        "Dawn Porter",
-      ],
-      "duration": 6060000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020080/356716",
-        "notes": "Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
-        "screen": "4",
-        "time": 1738265400000,
-      },
-    ],
-    "title": "Luther: Never Too Much",
-    "url": "https://www.myvue.com/cinema/islington/film/luther-never-too-much",
-  },
-  {
-    "overview": {
-      "actors": [
-        "David Tennant",
-        "Cush Jumbo",
-      ],
-      "categories": [
-        "Event Cinema",
-        "Theatre",
-      ],
-      "directors": [
-        "Max Webster",
-      ],
-      "duration": 6840000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/350631",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "5",
-        "time": 1738765800000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/350140",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "1",
-        "time": 1738782000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/350630",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "2",
-        "time": 1738869300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/350633",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "2",
-        "time": 1738956600000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/350141",
-        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
-Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "3",
-        "time": 1739109600000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/354788",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "4",
-        "time": 1739214000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/357138",
-        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
-Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "3",
-        "time": 1739280600000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/355836",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "2",
-        "time": 1739385000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019872/356548",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "2",
-        "time": 1741028400000,
-      },
-    ],
-    "title": "Macbeth: David Tennant & Cush Jumbo",
-    "url": "https://www.myvue.com/cinema/islington/film/macbeth-with-david-tennant",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Steve Coogan",
-        "Tony Jayawardena",
-        "Dharmesh Patel",
-        "John Hopkins",
-        "Giles Terera",
-      ],
-      "categories": [
-        "War",
-        "Drama",
-        "Comedy",
-      ],
-      "classification": "15",
-      "directors": [
-        "Sean Foley",
-      ],
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019968/354141",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "5",
-        "time": 1743084000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019968/354140",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "1",
-        "time": 1743102000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019968/354145",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "4",
-        "time": 1743190200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019968/354143",
-        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
-Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "3",
-        "time": 1743341400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019968/354144",
-        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
-Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "3",
-        "time": 1743597000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019968/354146",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "2",
-        "time": 1743704100000,
-      },
-    ],
-    "title": "NT Live: Dr. Strangelove",
-    "url": "https://www.myvue.com/cinema/islington/film/nt-live-dr-strangelove",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Eliza Scanlen",
-        "Amanda Lawrence",
-        "Hugh Skinner",
-        "Ncuti Gatwa",
-        "Sharon D. Clarke",
-      ],
-      "categories": [
-        "Theatre",
-        "NT Live",
-        "Event Cinema",
-      ],
-      "directors": [
-        "Max Webster",
-      ],
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019743/354250",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "5",
-        "time": 1740058200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019743/347095",
-        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
-Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "3",
-        "time": 1740078000000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019743/347097",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "5",
-        "time": 1740163500000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019743/347098",
-        "notes": "AD: Audio Description. Headphones are available for visually impaired customers in this session.
-Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "3",
-        "time": 1740319200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019743/354252",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "5",
-        "time": 1740490200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019743/354253",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "4",
-        "time": 1740596400000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019743/356547",
-        "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
-        "screen": "4",
-        "time": 1741287600000,
-      },
-    ],
-    "title": "NT Live: The Importance of Being Earnest",
-    "url": "https://www.myvue.com/cinema/islington/film/nt-live-the-importance-of-being-earnest",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Adrian Pang",
-        "Thom Hoffman",
-        "Yootha Wong-Loi-Sing",
-        "Georgina Verbaan",
-        "Maurits Delchot",
-        "Namisa Mdalose",
-        "Silas Lekgoathi",
-        "Candice Modiselle",
-        "Sthandile Nkosi",
-        "Thulani Nzonzo",
-      ],
-      "categories": [
-        "Animation",
-        "Comedy",
-      ],
-      "classification": "U",
-      "directors": [
-        "Richard Claus",
-        "Karsten Kiilerich",
-      ],
-      "duration": 5640000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020004/357091",
-        "notes": "",
-        "screen": "6",
-        "time": 1737799200000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00020004/356897",
-        "notes": "",
-        "screen": "4",
-        "time": 1738246800000,
-      },
-    ],
-    "title": "Panda Bear in Africa",
-    "url": "https://www.myvue.com/cinema/islington/film/panda-bear-in-africa",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [
-        "Ballet",
-      ],
-      "directors": [
-        "Christopher Wheeldon",
-      ],
-      "duration": 10800000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019507/344663",
-        "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
-        "screen": "5",
-        "time": 1747937700000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019507/344665",
-        "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
-        "screen": "5",
-        "time": 1748178000000,
-      },
-    ],
-    "title": "Royal Ballet & Opera: Ballet To Broadway - Wheeldon Works",
-    "url": "https://www.myvue.com/cinema/islington/film/rbo-cinema-season-2024-25-ballet-to-broadway-wheeldon-works",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Christopher Maltman",
-        "Stanislas de Barbeyrac",
-        "Lise Davidsen",
-        "Soloman Howard",
-        "Marina Prudenskaya",
-        "Elisabet Strid",
-      ],
-      "categories": [
-        "Opera",
-      ],
-      "directors": [
-        "Barrie Kosky",
-      ],
-      "duration": 21900000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019506/344662",
-        "notes": "Big Screen Opera: Unexpected love. Tragic consequences. A prince in disguise. Lose yourself in the extraordinary world of Big Screen Opera, where classics and new family favourites come to life in stunning clarity.",
-        "screen": "5",
-        "time": 1747239300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019506/344664",
-        "notes": "Big Screen Opera: Unexpected love. Tragic consequences. A prince in disguise. Lose yourself in the extraordinary world of Big Screen Opera, where classics and new family favourites come to life in stunning clarity.",
-        "screen": "5",
-        "time": 1747573200000,
-      },
-    ],
-    "title": "Royal Ballet & Opera: Die Walkure",
-    "url": "https://www.myvue.com/cinema/islington/film/rbo-die-walkure-2025",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [
-        "Ballet",
-      ],
-      "directors": [
-        "Kenneth MacMillan",
-      ],
-      "duration": 12600000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019504/355450",
-        "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
-        "screen": "5",
-        "time": 1742498100000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019504/354142",
-        "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
-        "screen": "5",
-        "time": 1742738400000,
-      },
-    ],
-    "title": "Royal Ballet & Opera: Romeo and Juliet",
-    "url": "https://www.myvue.com/cinema/islington/film/rbo-romeo-and-juliet-2025",
-  },
-  {
-    "overview": {
-      "actors": [
-        "The Royal Ballet",
-        "Matthew Ball",
-        "Yasmine Naghdi",
-      ],
-      "categories": [
-        "Ballet",
-      ],
-      "directors": [],
-      "duration": 12600000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019503/356743",
-        "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
-        "screen": "5",
-        "time": 1740683700000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019503/356549",
-        "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
-        "screen": "5",
-        "time": 1740924000000,
-      },
-    ],
-    "title": "Royal Ballet & Opera: Swan Lake",
-    "url": "https://www.myvue.com/cinema/islington/film/rbo-swan-lake-2025",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Sondra Radvanovsky",
-        "Adam Palka",
-        "SeokJong Baek",
-        "Anna Princeva",
-        "Hansung Yoo",
-      ],
-      "categories": [
-        "Opera",
-      ],
-      "directors": [
-        "Andrei Serban",
-      ],
-      "duration": 12300000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019542/344660",
-        "notes": "Big Screen Opera: Unexpected love. Tragic consequences. A prince in disguise. Lose yourself in the extraordinary world of Big Screen Opera, where classics and new family favourites come to life in stunning clarity.",
-        "screen": "5",
-        "time": 1743531300000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019542/344661",
-        "notes": "Big Screen Opera: Unexpected love. Tragic consequences. A prince in disguise. Lose yourself in the extraordinary world of Big Screen Opera, where classics and new family favourites come to life in stunning clarity.",
-        "screen": "5",
-        "time": 1743944400000,
-      },
-    ],
-    "title": "ROYAL BALLET & OPERA: Turandot",
-    "url": "https://www.myvue.com/cinema/islington/film/rbo-cinema-season-2024-25-turandot",
-  },
-  {
-    "overview": {
-      "actors": [
-        "J.K Simmons",
-        "Dylan O'Brien",
-        "Matthew Rhys",
-        "Willem Dafoe",
-        "Cory Michael Smith",
-        "Lamorne Morris",
-        "Finn Wolfhard",
-        "Ella Hunt",
-        "Nicholas Braun",
-        "Rachel Sennott",
-        "Tommy Dewey",
-        "Jon Batiste",
-        "Cooper Hoffman",
-        "Gabriel LaBelle",
-        "Kaia Gerber",
-        "Andrew Barth Feldman",
-        "Emily Fairn",
-        "Matt Wood",
-        "Kim Matula",
-        "Naomi McPherson",
-      ],
-      "categories": [
-        "Biography",
-        "Comedy",
-        "Drama",
-      ],
-      "classification": "15",
-      "directors": [
-        "Jason Reitman",
-      ],
-      "duration": 6540000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019956/357021",
-        "notes": "",
-        "screen": "2",
-        "time": 1737840600000,
-      },
-      {
-        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019956/357022",
-        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
-        "screen": "2",
-        "time": 1737849900000,
-      },
-    ],
-    "title": "Saturday Night",
-    "url": "https://www.myvue.com/cinema/islington/film/saturday-night",
-  },
-  {
-    "overview": {
-      "actors": [
         "Pamela Anderson",
         "Kiernan Shipka",
         "Brenda Song",
@@ -3911,6 +3678,43 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
   {
     "overview": {
       "actors": [
+        "Lupita Nyong'o",
+        "Pedro Pascal",
+        "Catherine O'Hara",
+        "Bill Nighy",
+        "Kit Connor",
+      ],
+      "categories": [
+        "Animation",
+      ],
+      "classification": "U",
+      "directors": [
+        "Chris Sanders",
+      ],
+      "duration": 6120000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019274/356862",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
+Mighty Mornings: Keep their love of cinema going, with hand-picked family films for just £2.49/€2.99 when booked online.",
+        "screen": "5",
+        "time": 1737799200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019274/356988",
+        "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
+Mighty Mornings: Keep their love of cinema going, with hand-picked family films for just £2.49/€2.99 when booked online.",
+        "screen": "3",
+        "time": 1737885600000,
+      },
+    ],
+    "title": "The Wild Robot",
+    "url": "https://www.myvue.com/cinema/islington/film/the-wild-robot",
+  },
+  {
+    "overview": {
+      "actors": [
         "Sara Serraiocco",
         "Tommaso Ragno",
         "Carlotta Gamba",
@@ -3944,6 +3748,202 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
     ],
     "title": "Vermiglio",
     "url": "https://www.myvue.com/cinema/islington/film/vermiglio",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Andrew Garfield",
+        "Florence Pugh",
+        "Marama Corlett",
+        "Adam James",
+      ],
+      "categories": [
+        "Drama",
+        "Romance",
+      ],
+      "classification": "15",
+      "directors": [
+        "John Crowley",
+      ],
+      "duration": 6420000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357104",
+        "notes": "",
+        "screen": "2",
+        "time": 1737720300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357024",
+        "notes": "",
+        "screen": "2",
+        "time": 1737745200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357025",
+        "notes": "",
+        "screen": "2",
+        "time": 1737754800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357017",
+        "notes": "",
+        "screen": "2",
+        "time": 1737799500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357018",
+        "notes": "",
+        "screen": "2",
+        "time": 1737808500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/356920",
+        "notes": "",
+        "screen": "4",
+        "time": 1737832800000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/356866",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "5",
+        "time": 1737847500000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357089",
+        "notes": "",
+        "screen": "6",
+        "time": 1737913200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/356914",
+        "notes": "",
+        "screen": "4",
+        "time": 1737920700000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/356915",
+        "notes": "",
+        "screen": "4",
+        "time": 1737930300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357056",
+        "notes": "",
+        "screen": "7",
+        "time": 1737986400000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/356983",
+        "notes": "",
+        "screen": "3",
+        "time": 1738080300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/357122",
+        "notes": "",
+        "screen": "4",
+        "time": 1738153200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/356902",
+        "notes": "",
+        "screen": "4",
+        "time": 1738179300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019665/356977",
+        "notes": "",
+        "screen": "3",
+        "time": 1738255500000,
+      },
+    ],
+    "title": "We Live in Time",
+    "url": "https://www.myvue.com/cinema/islington/film/we-live-in-time",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Peter Dinklage",
+        "Jeff Goldblum",
+        "Michelle Yeoh",
+        "Cynthia Erivo",
+        "Keala Settle",
+        "Ariana Grande",
+        "Bowen Yang",
+        "Marissa Bode",
+        "Jonathan Bailey",
+        "Bronwyn James",
+        "Ethan Slater",
+      ],
+      "categories": [
+        "Romance",
+        "Musical",
+        "Fantasy",
+      ],
+      "classification": "PG",
+      "directors": [
+        "Jon M. Chu",
+      ],
+      "duration": 9600000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018919/356863",
+        "notes": "",
+        "screen": "5",
+        "time": 1737808200000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018919/357037",
+        "notes": "",
+        "screen": "9",
+        "time": 1737927300000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00018919/357010",
+        "notes": "",
+        "screen": "2",
+        "time": 1737990000000,
+      },
+    ],
+    "title": "Wicked",
+    "url": "https://www.myvue.com/cinema/islington/film/wicked",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Julia Garner",
+        "Christopher Abbott",
+        "Sam Jaeger",
+        "Matilda Firth",
+      ],
+      "categories": [
+        "Horror",
+      ],
+      "classification": "15",
+      "directors": [
+        "Leigh Whannell",
+      ],
+      "duration": 6180000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019671/357096",
+        "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
+        "screen": "6",
+        "time": 1737849600000,
+      },
+      {
+        "bookingUrl": "https://www.myvue.com/book-tickets/summary/10032/HO00019671/357016",
+        "notes": "",
+        "screen": "2",
+        "time": 1737927900000,
+      },
+    ],
+    "title": "Wolf Man",
+    "url": "https://www.myvue.com/cinema/islington/film/wolf-man",
   },
   {
     "overview": {

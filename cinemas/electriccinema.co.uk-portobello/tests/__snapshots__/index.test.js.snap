@@ -6,85 +6,6 @@ exports[`Electric Cinema Portobello retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "classification": "U",
-      "directors": [
-        "James Bobin",
-      ],
-      "year": "2014",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/770532",
-        "notes": "Electric Kids Club",
-        "screen": "1",
-        "time": 1737795600000,
-      },
-    ],
-    "title": "Muppets Most Wanted",
-    "url": "https://www.electriccinema.co.uk/film/muppets-most-wanted/",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "classification": "15",
-      "directors": [
-        "Jesse Eisenberg",
-      ],
-      "year": "2024",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771094",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1737816300000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771206",
-        "notes": "Electric Subtitled",
-        "screen": "1",
-        "time": 1737988200000,
-      },
-    ],
-    "title": "A Real Pain",
-    "url": "https://www.electriccinema.co.uk/film/a-real-pain/",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "classification": "18",
-      "directors": [],
-      "year": "2024",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/film/babygirl/",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1737665100000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771205",
-        "notes": "Electric Scream!",
-        "screen": "1",
-        "time": 1737976500000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771202",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1738184400000,
-      },
-    ],
-    "title": "Babygirl",
-    "url": "https://www.electriccinema.co.uk/film/babygirl/",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
       "classification": "15",
       "directors": [
         "James Mangold",
@@ -190,58 +111,59 @@ exports[`Electric Cinema Portobello retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "classification": "18",
+      "classification": "15",
       "directors": [
-        "Brady Corbet",
+        "Jesse Eisenberg",
       ],
-      "year": "2025",
+      "year": "2024",
     },
     "performances": [
       {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771160",
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771094",
         "notes": "Main Feature",
         "screen": "1",
-        "time": 1738351800000,
+        "time": 1737816300000,
       },
       {
-        "bookingUrl": "https://www.electriccinema.co.uk/film/the-brutalist/",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1738434600000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/film/the-brutalist/",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1738507500000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771161",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1738607400000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/film/the-brutalist/",
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771206",
         "notes": "Electric Subtitled",
         "screen": "1",
-        "time": 1738693800000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771163",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1738780200000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771164",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1738866600000,
+        "time": 1737988200000,
       },
     ],
-    "title": "The Brutalist",
-    "url": "https://www.electriccinema.co.uk/film/the-brutalist/",
+    "title": "A Real Pain",
+    "url": "https://www.electriccinema.co.uk/film/a-real-pain/",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "18",
+      "directors": [],
+      "year": "2024",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/film/babygirl/",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1737665100000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771205",
+        "notes": "Electric Scream!",
+        "screen": "1",
+        "time": 1737976500000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771202",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1738184400000,
+      },
+    ],
+    "title": "Babygirl",
+    "url": "https://www.electriccinema.co.uk/film/babygirl/",
   },
   {
     "overview": {
@@ -310,6 +232,84 @@ exports[`Electric Cinema Portobello retrieve and transform 1`] = `
     ],
     "title": "Bridget Jones: Mad About the Boy",
     "url": "https://www.electriccinema.co.uk/film/bridget-jones-mad-about-the-boy/",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "U",
+      "directors": [
+        "James Bobin",
+      ],
+      "year": "2014",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/770532",
+        "notes": "Electric Kids Club",
+        "screen": "1",
+        "time": 1737795600000,
+      },
+    ],
+    "title": "Muppets Most Wanted",
+    "url": "https://www.electriccinema.co.uk/film/muppets-most-wanted/",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "18",
+      "directors": [
+        "Brady Corbet",
+      ],
+      "year": "2025",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771160",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1738351800000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/film/the-brutalist/",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1738434600000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/film/the-brutalist/",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1738507500000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771161",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1738607400000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/film/the-brutalist/",
+        "notes": "Electric Subtitled",
+        "screen": "1",
+        "time": 1738693800000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771163",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1738780200000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771164",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1738866600000,
+      },
+    ],
+    "title": "The Brutalist",
+    "url": "https://www.electriccinema.co.uk/film/the-brutalist/",
   },
 ]
 `;

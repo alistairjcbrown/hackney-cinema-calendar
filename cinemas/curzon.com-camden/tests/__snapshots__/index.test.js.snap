@@ -5,116 +5,6 @@ exports[`Curzon Camden retrieve and transform 1`] = `
   {
     "overview": {
       "actors": [
-        "Yuriy Borisov",
-        "Mikey Madison",
-        "Karren Karagulian",
-        "Ross Brodar",
-        "Ivy Wolk",
-        "Lindsey Normington",
-        "Mark Eydelshteyn",
-        "Vache Tovmasyan",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "18",
-      "directors": [
-        "Sean Baker",
-      ],
-      "duration": 8340000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30257/",
-        "notes": "",
-        "screen": "N13",
-        "time": 1737664800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30376/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1737728400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30377/",
-        "notes": "",
-        "screen": "N13",
-        "time": 1737752400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30393/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1737818400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30392/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1737838800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30410/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1737898800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30409/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1737920400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30427/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1737987600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30426/",
-        "notes": "",
-        "screen": "N13",
-        "time": 1738011600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30483/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1738074000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30471/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1738095600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30442/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1738160400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30443/",
-        "notes": "",
-        "screen": "N13",
-        "time": 1738184400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30460/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1738246800000,
-      },
-    ],
-    "title": "Anora",
-    "url": "https://www.curzon.com/films/anora/HO00005763/?siteId=CAM1",
-  },
-  {
-    "overview": {
-      "actors": [
         "Timothée Chalamet",
         "Norbert Leo Butz",
         "Dan Fogler",
@@ -316,114 +206,6 @@ exports[`Curzon Camden retrieve and transform 1`] = `
   {
     "overview": {
       "actors": [
-        "Simon McBurney",
-        "Nicholas Hoult",
-        "Ralph Ineson",
-        "Willem Dafoe",
-        "Aaron Taylor-Johnson",
-        "Emma Corrin",
-        "Bill Skarsgård",
-        "Lily-Rose Depp",
-      ],
-      "categories": [
-        "Drama",
-        "Fantasy",
-        "Horror",
-      ],
-      "classification": "15",
-      "directors": [
-        "Robert Eggers",
-      ],
-      "duration": 7920000,
-      "trailer": "https://www.youtube.com/watch?v=Px6S0RxfAHg",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30247/",
-        "notes": "",
-        "screen": "N11",
-        "time": 1737663600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30168/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1737751200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30387/",
-        "notes": "",
-        "screen": "N13",
-        "time": 1737837600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30404/",
-        "notes": "",
-        "screen": "N13",
-        "time": 1737922800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30421/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1738010400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30476/",
-        "notes": "",
-        "screen": "N13",
-        "time": 1738098000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30448/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1738183200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30465/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1738269600000,
-      },
-    ],
-    "title": "Nosferatu",
-    "url": "https://www.curzon.com/films/nosferatu/HO00005839/?siteId=CAM1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Tommaso Ragno",
-        "Sara Serraiocco",
-        "Carlotta Gamba",
-        "Roberta Rovelli",
-        "Martina Scrinzi",
-        "Giuseppe De Domenico",
-        "Orietta Notari",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "15",
-      "directors": [
-        "Maura Delpero",
-      ],
-      "duration": 7140000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30256/",
-        "notes": "",
-        "screen": "N13",
-        "time": 1737655200000,
-      },
-    ],
-    "title": "Vermiglio",
-    "url": "https://www.curzon.com/films/vermiglio/HO00005880/?siteId=CAM1",
-  },
-  {
-    "overview": {
-      "actors": [
         "Will Sharpe",
         "Jesse Eisenberg",
         "Jennifer Grey",
@@ -586,6 +368,116 @@ Closed Captioned: Closed Captioned screening for Hard of Hearing",
     ],
     "title": "A Real Pain",
     "url": "https://www.curzon.com/films/a-real-pain/HO00005873/?siteId=CAM1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Yuriy Borisov",
+        "Mikey Madison",
+        "Karren Karagulian",
+        "Ross Brodar",
+        "Ivy Wolk",
+        "Lindsey Normington",
+        "Mark Eydelshteyn",
+        "Vache Tovmasyan",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "18",
+      "directors": [
+        "Sean Baker",
+      ],
+      "duration": 8340000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30257/",
+        "notes": "",
+        "screen": "N13",
+        "time": 1737664800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30376/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1737728400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30377/",
+        "notes": "",
+        "screen": "N13",
+        "time": 1737752400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30393/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1737818400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30392/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1737838800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30410/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1737898800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30409/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1737920400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30427/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1737987600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30426/",
+        "notes": "",
+        "screen": "N13",
+        "time": 1738011600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30483/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1738074000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30471/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1738095600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30442/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1738160400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30443/",
+        "notes": "",
+        "screen": "N13",
+        "time": 1738184400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30460/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1738246800000,
+      },
+    ],
+    "title": "Anora",
+    "url": "https://www.curzon.com/films/anora/HO00005763/?siteId=CAM1",
   },
   {
     "overview": {
@@ -754,525 +646,6 @@ Closed Captioned: Closed Captioned screening for Hard of Hearing",
   {
     "overview": {
       "actors": [
-        "Edgar Ramírez",
-        "Zoe Saldana",
-        "Selena Gomez",
-        "Karla Sofía Gascón",
-      ],
-      "categories": [
-        "Drama",
-        "Crime",
-        "Musical",
-      ],
-      "classification": "15",
-      "directors": [
-        "Jacques Audiard",
-      ],
-      "duration": 7920000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30167/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1737716400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30157/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1737740400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30384/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N12",
-        "time": 1737803700000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30390/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N13",
-        "time": 1737826800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30401/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N14",
-        "time": 1737888300000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30407/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N14",
-        "time": 1737910200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30418/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season
-Relaxed: Weekly screenings for people on the autism spectrum and their families, with reduced volume levels, increased lighting, extra signage, relaxed seating arrangements, sensory-friendly amenities and designated quiet spaces.",
-        "screen": "N14",
-        "time": 1737975600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30424/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N14",
-        "time": 1737999600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30479/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N14",
-        "time": 1738063800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30473/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N14",
-        "time": 1738084800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30433/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N14",
-        "time": 1738148400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30445/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N14",
-        "time": 1738172400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30451/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N14",
-        "time": 1738234800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30462/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N13",
-        "time": 1738270800000,
-      },
-    ],
-    "title": "Emilia Pérez",
-    "url": "https://www.curzon.com/films/emilia-perez/HO00005728/?siteId=CAM1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Felicity Jones",
-        "Joe Alwyn",
-        "Stacy Martin",
-        "Alessandro Nivola",
-        "Adrien Brody",
-        "Raffey Cassidy",
-        "Emma Laird",
-        "Isaach De Bankolé",
-        "Guy Pearce",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "18",
-      "directors": [
-        "Brady Corbet",
-      ],
-      "duration": 12900000,
-      "trailer": "https://www.youtube.com/watch?v=hNiwPU5vjCk",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30158/",
-        "notes": "",
-        "screen": "N10",
-        "time": 1737720900000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30378/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N13",
-        "time": 1737726000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30152/",
-        "notes": "",
-        "screen": "N11",
-        "time": 1737738000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30151/",
-        "notes": "",
-        "screen": "N10",
-        "time": 1737744600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30383/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N10",
-        "time": 1737807300000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30391/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N13",
-        "time": 1737810600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30173/",
-        "notes": "",
-        "screen": "N11",
-        "time": 1737824400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30185/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N10",
-        "time": 1737831000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30400/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N10",
-        "time": 1737891900000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30408/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N13",
-        "time": 1737897300000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30174/",
-        "notes": "",
-        "screen": "N11",
-        "time": 1737909000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30186/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N10",
-        "time": 1737915600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30417/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N10",
-        "time": 1737980100000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30425/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N13",
-        "time": 1737985200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30175/",
-        "notes": "",
-        "screen": "N11",
-        "time": 1737997200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30430/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N10",
-        "time": 1738003800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30472/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N13",
-        "time": 1738071900000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30176/",
-        "notes": "",
-        "screen": "N12",
-        "time": 1738083600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30480/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N10",
-        "time": 1738092000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30434/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N10",
-        "time": 1738152900000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30444/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N13",
-        "time": 1738158000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30177/",
-        "notes": "",
-        "screen": "N11",
-        "time": 1738170000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30439/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N10",
-        "time": 1738176600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30452/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N10",
-        "time": 1738239300000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30461/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N13",
-        "time": 1738244400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30178/",
-        "notes": "",
-        "screen": "N11",
-        "time": 1738256400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30457/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "N10",
-        "time": 1738263000000,
-      },
-    ],
-    "title": "The Brutalist",
-    "url": "https://www.curzon.com/films/the-brutalist/HO00005872/?siteId=CAM1",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [
-        "Comedy",
-        "Family",
-        "Animation",
-      ],
-      "classification": "PG",
-      "directors": [
-        "Pablo Berger",
-      ],
-      "duration": 5400000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30485/",
-        "notes": "Kids Club: A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a ‘Kids' Club’ screening.",
-        "screen": "N14",
-        "time": 1737801000000,
-      },
-    ],
-    "title": "Kids Club: Robot Dreams",
-    "url": "https://www.curzon.com/films/kids-club-robot-dreams/HO00005090/?siteId=CAM1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Jamie Foxx",
-        "Luther Vandross",
-        "Mariah Carey",
-        "Patti LaBelle",
-        "Dionne Warwick",
-        "Richard Marx",
-        "Roberta Flack",
-      ],
-      "categories": [
-        "Documentary",
-      ],
-      "classification": "15",
-      "directors": [
-        "Dawn Porter",
-      ],
-      "duration": 6060000,
-      "trailer": "https://www.youtube.com/watch?v=HAQupfsbXfg",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30466/",
-        "notes": "",
-        "screen": "N13",
-        "time": 1738261200000,
-      },
-    ],
-    "title": "Luther: Never Too Much",
-    "url": "https://www.curzon.com/films/luther-never-too-much/HO00005935/?siteId=CAM1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "John Magaro",
-        "Peter Sarsgaard",
-        "Leonie Benesch",
-        "Ben Chaplin",
-        "Zinedine Soualem",
-        "Georgina Rich",
-        "Corey Johnson",
-        "Marcus Rutherford",
-        "Daniel Adeosun",
-        "Benjamin Walker",
-        "Ferdinand Dörfler",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "15",
-      "directors": [
-        "Tim Fehlbaum",
-      ],
-      "duration": 5700000,
-      "trailer": "https://www.youtube.com/watch?v=GGBpfkrr8Ms",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30373/",
-        "notes": "Members preview: Members' only preview screening.
-Special Preview: Special Preview Screening",
-        "screen": "N14",
-        "time": 1738693200000,
-      },
-    ],
-    "title": "September 5",
-    "url": "https://www.curzon.com/films/september-5/HO00005877/?siteId=CAM1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "David Tennant",
-        "Cush Jumbo",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "directors": [
-        "Max Webster",
-      ],
-      "duration": 6840000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-28211/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1738780200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-28212/",
-        "notes": "",
-        "screen": "N14",
-        "time": 1739109600000,
-      },
-    ],
-    "title": "MACBETH: David Tennant & Cush Jumbo",
-    "url": "https://www.curzon.com/films/macbeth-david-tennant-and-cush-jumbo/HO00005788/?siteId=CAM1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Brian Tyree Henry",
-        "Ryan Destiny",
-        "Olunike Adeliyi",
-        "De'Adre Aziza",
-        "Lanette Ware",
-        "Amanda Barker",
-        "Adam Clark",
-        "Bobby Daniels",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "12A",
-      "directors": [
-        "Rachel Morrison",
-      ],
-      "duration": 6540000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30492/",
-        "notes": "",
-        "screen": "N10",
-        "time": 1738952400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30496/",
-        "notes": "",
-        "screen": "N10",
-        "time": 1739038800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30497/",
-        "notes": "",
-        "screen": "N10",
-        "time": 1739123400000,
-      },
-    ],
-    "title": "The Fire Inside",
-    "url": "https://www.curzon.com/films/the-fire-inside/HO00005882/?siteId=CAM1",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [
-        "Family",
-      ],
-      "classification": "PG",
-      "directors": [],
-      "duration": 5940000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30179/",
-        "notes": "Kids Club: A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a ‘Kids' Club’ screening.",
-        "screen": "N10",
-        "time": 1739010600000,
-      },
-    ],
-    "title": "Kids Club: Dragonkeeper",
-    "url": "https://www.curzon.com/films/kids-club-dragonkeeper/HO00005905/?siteId=CAM1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Dave Bautista",
-        "Jamie Lee Curtis",
-        "Billie Lourd",
-        "Kiernan Shipka",
-        "Pamela Anderson",
-        "Brenda Song",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "directors": [
-        "Gia Coppola",
-      ],
-      "duration": 5100000,
-      "trailer": "https://www.youtube.com/watch?v=r4xpoKBKrpo",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-29613/",
-        "notes": "Recorded Performance: Prerecorded Q&A",
-        "screen": "N14",
-        "time": 1739220000000,
-      },
-    ],
-    "title": "The Last Showgirl",
-    "url": "https://www.curzon.com/films/the-last-showgirl/HO00005898/?siteId=CAM1",
-  },
-  {
-    "overview": {
-      "actors": [
         "Emma Thompson",
         "Hugh Grant",
         "Chiwetel Ejiofor",
@@ -1317,69 +690,6 @@ Special Preview: Special Preview Screening",
     ],
     "title": "Bridget Jones: Mad About the Boy",
     "url": "https://www.curzon.com/films/bridget-jones-mad-about-the-boy/HO00005909/?siteId=CAM1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Brad Pitt",
-        "Harvey Keitel",
-        "Geena Davis",
-        "Michael Madsen",
-        "Susan Sarandon",
-      ],
-      "categories": [
-        "Drama",
-        "Family",
-        "Crime",
-      ],
-      "classification": "15",
-      "directors": [
-        "Ridley Scott",
-      ],
-      "duration": 7800000,
-      "trailer": "https://www.youtube.com/watch?v=g8Uti7PDLnI",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30183/",
-        "notes": "Valentine's Day: Special Valentine's Day Screening",
-        "screen": "N14",
-        "time": 1739469600000,
-      },
-    ],
-    "title": "Thelma & Louise",
-    "url": "https://www.curzon.com/films/thelma-and-louise/HO00005911/?siteId=CAM1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Stanley Holloway",
-        "Trevor Howard",
-        "Celia Johnson",
-        "Joyce Carey",
-        "Cyril Raymond",
-        "Everley Gregg",
-        "Margaret Barton",
-      ],
-      "categories": [
-        "Drama",
-        "Romance",
-      ],
-      "directors": [
-        "David Lean",
-      ],
-      "duration": 5160000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30184/",
-        "notes": "Valentine's Day: Special Valentine's Day Screening",
-        "screen": "N14",
-        "time": 1739557200000,
-      },
-    ],
-    "title": "Brief Encounter (80th Anniversary)",
-    "url": "https://www.curzon.com/films/brief-encounter-80th-anniversary/HO00005913/?siteId=CAM1",
   },
   {
     "overview": {
@@ -1580,72 +890,211 @@ Special Preview: Special Preview Screening",
   {
     "overview": {
       "actors": [
-        "Pharrell Williams",
+        "Stanley Holloway",
+        "Trevor Howard",
+        "Celia Johnson",
+        "Joyce Carey",
+        "Cyril Raymond",
+        "Everley Gregg",
+        "Margaret Barton",
       ],
       "categories": [
-        "Animation",
+        "Drama",
+        "Romance",
       ],
-      "classification": "PG",
       "directors": [
-        "Morgan Neville",
+        "David Lean",
       ],
-      "duration": 5580000,
-      "trailer": "https://www.youtube.com/watch?v=9ijpI2VSS14",
+      "duration": 5160000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30180/",
-        "notes": "Kids Club: A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a ‘Kids' Club’ screening.",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30184/",
+        "notes": "Valentine's Day: Special Valentine's Day Screening",
         "screen": "N14",
-        "time": 1739615400000,
+        "time": 1739557200000,
       },
     ],
-    "title": "Kids Club: Piece By Piece",
-    "url": "https://www.curzon.com/films/kids-club-piece-by-piece/HO00005907/?siteId=CAM1",
+    "title": "Brief Encounter (80th Anniversary)",
+    "url": "https://www.curzon.com/films/brief-encounter-80th-anniversary/HO00005913/?siteId=CAM1",
   },
   {
     "overview": {
       "actors": [
-        "Eliza Scanlen",
-        "Amanda Lawrence",
-        "Hugh Skinner",
-        "Ncuti Gatwa",
-        "Sharon D. Clarke",
+        "Edgar Ramírez",
+        "Zoe Saldana",
+        "Selena Gomez",
+        "Karla Sofía Gascón",
       ],
       "categories": [
-        "Live Opera, Music & Theatre",
+        "Drama",
+        "Crime",
+        "Musical",
       ],
-      "classification": "PG",
+      "classification": "15",
       "directors": [
-        "Max Webster",
+        "Jacques Audiard",
       ],
-      "duration": 10200000,
-      "trailer": "https://www.youtube.com/watch?v=SkQNuoceik0",
+      "duration": 7920000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-27545/",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30167/",
         "notes": "",
         "screen": "N14",
-        "time": 1740078000000,
+        "time": 1737716400000,
       },
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30371/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing
-Encore: Encore",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30157/",
+        "notes": "",
         "screen": "N14",
-        "time": 1740322800000,
+        "time": 1737740400000,
       },
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30372/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing
-Encore: Encore",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30384/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N12",
+        "time": 1737803700000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30390/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N13",
+        "time": 1737826800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30401/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N14",
-        "time": 1740505200000,
+        "time": 1737888300000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30407/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N14",
+        "time": 1737910200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30418/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season
+Relaxed: Weekly screenings for people on the autism spectrum and their families, with reduced volume levels, increased lighting, extra signage, relaxed seating arrangements, sensory-friendly amenities and designated quiet spaces.",
+        "screen": "N14",
+        "time": 1737975600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30424/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N14",
+        "time": 1737999600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30479/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N14",
+        "time": 1738063800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30473/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N14",
+        "time": 1738084800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30433/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N14",
+        "time": 1738148400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30445/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N14",
+        "time": 1738172400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30451/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N14",
+        "time": 1738234800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30462/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N13",
+        "time": 1738270800000,
       },
     ],
-    "title": "NT Live: The Importance of Being Earnest",
-    "url": "https://www.curzon.com/films/nt-live-the-importance-of-being-earnest/HO00005676/?siteId=CAM1",
+    "title": "Emilia Pérez",
+    "url": "https://www.curzon.com/films/emilia-perez/HO00005728/?siteId=CAM1",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
+        "Documentary",
+      ],
+      "directors": [
+        "Ali Ray",
+      ],
+      "duration": 5400000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-27106/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1742320800000,
+      },
+    ],
+    "title": "EOS: Dawn of Impressionism - Paris 1874",
+    "url": "https://www.curzon.com/films/eos-dawn-of-impressionism-paris-1874/HO00005678/?siteId=CAM1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Michelangelo ",
+        "Peter Abrahams",
+        "Cristine Acidini",
+      ],
+      "categories": [
+        "Documentary",
+      ],
+      "directors": [
+        "David Bickerstaff",
+      ],
+      "duration": 5400000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-27107/",
+        "notes": "",
+        "screen": "N13",
+        "time": 1747760400000,
+      },
+    ],
+    "title": "EOS: Michelangelo: Love and Death Encore",
+    "url": "https://www.curzon.com/films/eos-michelangelo-love-and-death-encore/HO00005679/?siteId=CAM1",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
+        "Family",
+      ],
+      "classification": "PG",
+      "directors": [],
+      "duration": 5940000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30179/",
+        "notes": "Kids Club: A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a ‘Kids' Club’ screening.",
+        "screen": "N10",
+        "time": 1739010600000,
+      },
+    ],
+    "title": "Kids Club: Dragonkeeper",
+    "url": "https://www.curzon.com/films/kids-club-dragonkeeper/HO00005905/?siteId=CAM1",
   },
   {
     "overview": {
@@ -1693,72 +1142,193 @@ Encore: Encore",
   {
     "overview": {
       "actors": [
-        "The Royal Ballet",
-        "Matthew Ball",
-        "Yasmine Naghdi",
+        "Pharrell Williams",
       ],
       "categories": [
-        "Documentary",
+        "Animation",
       ],
+      "classification": "PG",
       "directors": [
-        "Liam Scarlett",
+        "Morgan Neville",
       ],
-      "duration": 12600000,
+      "duration": 5580000,
+      "trailer": "https://www.youtube.com/watch?v=9ijpI2VSS14",
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-25136/",
-        "notes": "Live event: Live Via Satellite",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30180/",
+        "notes": "Kids Club: A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a ‘Kids' Club’ screening.",
         "screen": "N14",
-        "time": 1740683700000,
+        "time": 1739615400000,
       },
     ],
-    "title": "RBO 2024-25: Swan Lake",
-    "url": "https://www.curzon.com/films/rbo-2024-25-swan-lake/HO00005444/?siteId=CAM1",
+    "title": "Kids Club: Piece By Piece",
+    "url": "https://www.curzon.com/films/kids-club-piece-by-piece/HO00005907/?siteId=CAM1",
   },
   {
     "overview": {
       "actors": [],
       "categories": [
-        "Documentary",
+        "Comedy",
+        "Family",
+        "Animation",
       ],
+      "classification": "PG",
       "directors": [
-        "Ali Ray",
+        "Pablo Berger",
       ],
       "duration": 5400000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-27106/",
-        "notes": "",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30485/",
+        "notes": "Kids Club: A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a ‘Kids' Club’ screening.",
         "screen": "N14",
-        "time": 1742320800000,
+        "time": 1737801000000,
       },
     ],
-    "title": "EOS: Dawn of Impressionism - Paris 1874",
-    "url": "https://www.curzon.com/films/eos-dawn-of-impressionism-paris-1874/HO00005678/?siteId=CAM1",
+    "title": "Kids Club: Robot Dreams",
+    "url": "https://www.curzon.com/films/kids-club-robot-dreams/HO00005090/?siteId=CAM1",
   },
   {
     "overview": {
-      "actors": [],
+      "actors": [
+        "Jamie Foxx",
+        "Luther Vandross",
+        "Mariah Carey",
+        "Patti LaBelle",
+        "Dionne Warwick",
+        "Richard Marx",
+        "Roberta Flack",
+      ],
       "categories": [
         "Documentary",
       ],
+      "classification": "15",
       "directors": [
-        "Kenneth MacMillan",
+        "Dawn Porter",
       ],
-      "duration": 12600000,
+      "duration": 6060000,
+      "trailer": "https://www.youtube.com/watch?v=HAQupfsbXfg",
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-25137/",
-        "notes": "Live event: Live Via Satellite",
-        "screen": "N14",
-        "time": 1742498100000,
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30466/",
+        "notes": "",
+        "screen": "N13",
+        "time": 1738261200000,
       },
     ],
-    "title": "RBO 2024-25: Romeo and Juliet",
-    "url": "https://www.curzon.com/films/rbo-2024-25-romeo-and-juliet/HO00005445/?siteId=CAM1",
+    "title": "Luther: Never Too Much",
+    "url": "https://www.curzon.com/films/luther-never-too-much/HO00005935/?siteId=CAM1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "David Tennant",
+        "Cush Jumbo",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "directors": [
+        "Max Webster",
+      ],
+      "duration": 6840000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-28211/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1738780200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-28212/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1739109600000,
+      },
+    ],
+    "title": "MACBETH: David Tennant & Cush Jumbo",
+    "url": "https://www.curzon.com/films/macbeth-david-tennant-and-cush-jumbo/HO00005788/?siteId=CAM1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Simon McBurney",
+        "Nicholas Hoult",
+        "Ralph Ineson",
+        "Willem Dafoe",
+        "Aaron Taylor-Johnson",
+        "Emma Corrin",
+        "Bill Skarsgård",
+        "Lily-Rose Depp",
+      ],
+      "categories": [
+        "Drama",
+        "Fantasy",
+        "Horror",
+      ],
+      "classification": "15",
+      "directors": [
+        "Robert Eggers",
+      ],
+      "duration": 7920000,
+      "trailer": "https://www.youtube.com/watch?v=Px6S0RxfAHg",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30247/",
+        "notes": "",
+        "screen": "N11",
+        "time": 1737663600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30168/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1737751200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30387/",
+        "notes": "",
+        "screen": "N13",
+        "time": 1737837600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30404/",
+        "notes": "",
+        "screen": "N13",
+        "time": 1737922800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30421/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1738010400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30476/",
+        "notes": "",
+        "screen": "N13",
+        "time": 1738098000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30448/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1738183200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30465/",
+        "notes": "",
+        "screen": "N14",
+        "time": 1738269600000,
+      },
+    ],
+    "title": "Nosferatu",
+    "url": "https://www.curzon.com/films/nosferatu/HO00005839/?siteId=CAM1",
   },
   {
     "overview": {
@@ -1808,30 +1378,68 @@ Recorded Performance: Prerecorded Q&A",
   {
     "overview": {
       "actors": [
-        "Sondra Radvanovsky",
-        "Adam Palka",
-        "SeokJong Baek",
-        "Anna Princeva",
-        "Hansung Yoo",
+        "Eliza Scanlen",
+        "Amanda Lawrence",
+        "Hugh Skinner",
+        "Ncuti Gatwa",
+        "Sharon D. Clarke",
       ],
       "categories": [
         "Live Opera, Music & Theatre",
       ],
+      "classification": "PG",
       "directors": [
-        "Andrei Serban",
+        "Max Webster",
       ],
-      "duration": 12300000,
+      "duration": 10200000,
+      "trailer": "https://www.youtube.com/watch?v=SkQNuoceik0",
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-25138/",
-        "notes": "Live event: Live Via Satellite",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-27545/",
+        "notes": "",
         "screen": "N14",
-        "time": 1743531300000,
+        "time": 1740078000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30371/",
+        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing
+Encore: Encore",
+        "screen": "N14",
+        "time": 1740322800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30372/",
+        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing
+Encore: Encore",
+        "screen": "N14",
+        "time": 1740505200000,
       },
     ],
-    "title": "RBO 2024-25: Turandot",
-    "url": "https://www.curzon.com/films/rbo-2024-25-turandot/HO00005446/?siteId=CAM1",
+    "title": "NT Live: The Importance of Being Earnest",
+    "url": "https://www.curzon.com/films/nt-live-the-importance-of-being-earnest/HO00005676/?siteId=CAM1",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
+        "Documentary",
+      ],
+      "directors": [
+        "Christopher Wheeldon",
+      ],
+      "duration": 10800000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-25140/",
+        "notes": "Live event: Live Via Satellite",
+        "screen": "N14",
+        "time": 1747937700000,
+      },
+    ],
+    "title": "RBO 2024-25: Ballet To Broadway - Wheeldon Works",
+    "url": "https://www.curzon.com/films/rbo-2024-25-ballet-to-broadway-wheeldon-works/HO00005448/?siteId=CAM1",
   },
   {
     "overview": {
@@ -1864,51 +1472,380 @@ Recorded Performance: Prerecorded Q&A",
   },
   {
     "overview": {
-      "actors": [
-        "Michelangelo ",
-        "Peter Abrahams",
-        "Cristine Acidini",
-      ],
-      "categories": [
-        "Documentary",
-      ],
-      "directors": [
-        "David Bickerstaff",
-      ],
-      "duration": 5400000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-27107/",
-        "notes": "",
-        "screen": "N13",
-        "time": 1747760400000,
-      },
-    ],
-    "title": "EOS: Michelangelo: Love and Death Encore",
-    "url": "https://www.curzon.com/films/eos-michelangelo-love-and-death-encore/HO00005679/?siteId=CAM1",
-  },
-  {
-    "overview": {
       "actors": [],
       "categories": [
         "Documentary",
       ],
       "directors": [
-        "Christopher Wheeldon",
+        "Kenneth MacMillan",
       ],
-      "duration": 10800000,
+      "duration": 12600000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-25140/",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-25137/",
         "notes": "Live event: Live Via Satellite",
         "screen": "N14",
-        "time": 1747937700000,
+        "time": 1742498100000,
       },
     ],
-    "title": "RBO 2024-25: Ballet To Broadway - Wheeldon Works",
-    "url": "https://www.curzon.com/films/rbo-2024-25-ballet-to-broadway-wheeldon-works/HO00005448/?siteId=CAM1",
+    "title": "RBO 2024-25: Romeo and Juliet",
+    "url": "https://www.curzon.com/films/rbo-2024-25-romeo-and-juliet/HO00005445/?siteId=CAM1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "The Royal Ballet",
+        "Matthew Ball",
+        "Yasmine Naghdi",
+      ],
+      "categories": [
+        "Documentary",
+      ],
+      "directors": [
+        "Liam Scarlett",
+      ],
+      "duration": 12600000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-25136/",
+        "notes": "Live event: Live Via Satellite",
+        "screen": "N14",
+        "time": 1740683700000,
+      },
+    ],
+    "title": "RBO 2024-25: Swan Lake",
+    "url": "https://www.curzon.com/films/rbo-2024-25-swan-lake/HO00005444/?siteId=CAM1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Sondra Radvanovsky",
+        "Adam Palka",
+        "SeokJong Baek",
+        "Anna Princeva",
+        "Hansung Yoo",
+      ],
+      "categories": [
+        "Live Opera, Music & Theatre",
+      ],
+      "directors": [
+        "Andrei Serban",
+      ],
+      "duration": 12300000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-25138/",
+        "notes": "Live event: Live Via Satellite",
+        "screen": "N14",
+        "time": 1743531300000,
+      },
+    ],
+    "title": "RBO 2024-25: Turandot",
+    "url": "https://www.curzon.com/films/rbo-2024-25-turandot/HO00005446/?siteId=CAM1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "John Magaro",
+        "Peter Sarsgaard",
+        "Leonie Benesch",
+        "Ben Chaplin",
+        "Zinedine Soualem",
+        "Georgina Rich",
+        "Corey Johnson",
+        "Marcus Rutherford",
+        "Daniel Adeosun",
+        "Benjamin Walker",
+        "Ferdinand Dörfler",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "15",
+      "directors": [
+        "Tim Fehlbaum",
+      ],
+      "duration": 5700000,
+      "trailer": "https://www.youtube.com/watch?v=GGBpfkrr8Ms",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30373/",
+        "notes": "Members preview: Members' only preview screening.
+Special Preview: Special Preview Screening",
+        "screen": "N14",
+        "time": 1738693200000,
+      },
+    ],
+    "title": "September 5",
+    "url": "https://www.curzon.com/films/september-5/HO00005877/?siteId=CAM1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Felicity Jones",
+        "Joe Alwyn",
+        "Stacy Martin",
+        "Alessandro Nivola",
+        "Adrien Brody",
+        "Raffey Cassidy",
+        "Emma Laird",
+        "Isaach De Bankolé",
+        "Guy Pearce",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "18",
+      "directors": [
+        "Brady Corbet",
+      ],
+      "duration": 12900000,
+      "trailer": "https://www.youtube.com/watch?v=hNiwPU5vjCk",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30158/",
+        "notes": "",
+        "screen": "N10",
+        "time": 1737720900000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30378/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N13",
+        "time": 1737726000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30152/",
+        "notes": "",
+        "screen": "N11",
+        "time": 1737738000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30151/",
+        "notes": "",
+        "screen": "N10",
+        "time": 1737744600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30383/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N10",
+        "time": 1737807300000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30391/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N13",
+        "time": 1737810600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30173/",
+        "notes": "",
+        "screen": "N11",
+        "time": 1737824400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30185/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N10",
+        "time": 1737831000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30400/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N10",
+        "time": 1737891900000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30408/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N13",
+        "time": 1737897300000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30174/",
+        "notes": "",
+        "screen": "N11",
+        "time": 1737909000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30186/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N10",
+        "time": 1737915600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30417/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N10",
+        "time": 1737980100000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30425/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N13",
+        "time": 1737985200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30175/",
+        "notes": "",
+        "screen": "N11",
+        "time": 1737997200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30430/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N10",
+        "time": 1738003800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30472/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N13",
+        "time": 1738071900000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30176/",
+        "notes": "",
+        "screen": "N12",
+        "time": 1738083600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30480/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N10",
+        "time": 1738092000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30434/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N10",
+        "time": 1738152900000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30444/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N13",
+        "time": 1738158000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30177/",
+        "notes": "",
+        "screen": "N11",
+        "time": 1738170000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30439/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N10",
+        "time": 1738176600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30452/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N10",
+        "time": 1738239300000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30461/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N13",
+        "time": 1738244400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30178/",
+        "notes": "",
+        "screen": "N11",
+        "time": 1738256400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30457/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "N10",
+        "time": 1738263000000,
+      },
+    ],
+    "title": "The Brutalist",
+    "url": "https://www.curzon.com/films/the-brutalist/HO00005872/?siteId=CAM1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Brian Tyree Henry",
+        "Ryan Destiny",
+        "Olunike Adeliyi",
+        "De'Adre Aziza",
+        "Lanette Ware",
+        "Amanda Barker",
+        "Adam Clark",
+        "Bobby Daniels",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "12A",
+      "directors": [
+        "Rachel Morrison",
+      ],
+      "duration": 6540000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30492/",
+        "notes": "",
+        "screen": "N10",
+        "time": 1738952400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30496/",
+        "notes": "",
+        "screen": "N10",
+        "time": 1739038800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30497/",
+        "notes": "",
+        "screen": "N10",
+        "time": 1739123400000,
+      },
+    ],
+    "title": "The Fire Inside",
+    "url": "https://www.curzon.com/films/the-fire-inside/HO00005882/?siteId=CAM1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Dave Bautista",
+        "Jamie Lee Curtis",
+        "Billie Lourd",
+        "Kiernan Shipka",
+        "Pamela Anderson",
+        "Brenda Song",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "directors": [
+        "Gia Coppola",
+      ],
+      "duration": 5100000,
+      "trailer": "https://www.youtube.com/watch?v=r4xpoKBKrpo",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-29613/",
+        "notes": "Recorded Performance: Prerecorded Q&A",
+        "screen": "N14",
+        "time": 1739220000000,
+      },
+    ],
+    "title": "The Last Showgirl",
+    "url": "https://www.curzon.com/films/the-last-showgirl/HO00005898/?siteId=CAM1",
   },
   {
     "overview": {
@@ -1938,6 +1875,69 @@ Recorded Performance: Prerecorded Q&A",
     ],
     "title": "The Met: Live in HD 24-25: Il Barbiere di Siviglia",
     "url": "https://www.curzon.com/films/the-met-live-in-hd-24-25-il-barbiere-di-siviglia/HO00005540/?siteId=CAM1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Brad Pitt",
+        "Harvey Keitel",
+        "Geena Davis",
+        "Michael Madsen",
+        "Susan Sarandon",
+      ],
+      "categories": [
+        "Drama",
+        "Family",
+        "Crime",
+      ],
+      "classification": "15",
+      "directors": [
+        "Ridley Scott",
+      ],
+      "duration": 7800000,
+      "trailer": "https://www.youtube.com/watch?v=g8Uti7PDLnI",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30183/",
+        "notes": "Valentine's Day: Special Valentine's Day Screening",
+        "screen": "N14",
+        "time": 1739469600000,
+      },
+    ],
+    "title": "Thelma & Louise",
+    "url": "https://www.curzon.com/films/thelma-and-louise/HO00005911/?siteId=CAM1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Tommaso Ragno",
+        "Sara Serraiocco",
+        "Carlotta Gamba",
+        "Roberta Rovelli",
+        "Martina Scrinzi",
+        "Giuseppe De Domenico",
+        "Orietta Notari",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "15",
+      "directors": [
+        "Maura Delpero",
+      ],
+      "duration": 7140000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30256/",
+        "notes": "",
+        "screen": "N13",
+        "time": 1737655200000,
+      },
+    ],
+    "title": "Vermiglio",
+    "url": "https://www.curzon.com/films/vermiglio/HO00005880/?siteId=CAM1",
   },
 ]
 `;

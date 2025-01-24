@@ -5,101 +5,6 @@ exports[`Curzon Kingston retrieve and transform 1`] = `
   {
     "overview": {
       "actors": [
-        "Stanley Tucci",
-        "Merab Ninidze",
-        "Lucian Msamati",
-        "Ralph Fiennes",
-        "Isabella Rossellini",
-        "John Lithgow",
-        "Sergio Castellitto",
-        "Brian F. O'Byrne",
-        "Carlos Diehz",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "12A",
-      "directors": [
-        "Edward Berger",
-      ],
-      "duration": 7200000,
-      "trailer": "https://www.youtube.com/watch?v=Znr38bHNXp4",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16208/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "CENTURY",
-        "time": 1737663600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16363/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "COLISEUM",
-        "time": 1737713700000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16318/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "ELECTRIC",
-        "time": 1737752400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16292/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "COLISEUM",
-        "time": 1737800100000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16327/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "ELECTRIC",
-        "time": 1737924000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16274/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season
-Relaxed: Weekly screenings for people on the autism spectrum and their families, with reduced volume levels, increased lighting, extra signage, relaxed seating arrangements, sensory-friendly amenities and designated quiet spaces.",
-        "screen": "CENTURY",
-        "time": 1737978000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16361/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "COLISEUM",
-        "time": 1738059300000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16340/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "ELECTRIC",
-        "time": 1738098000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16305/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "CENTURY",
-        "time": 1738150800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16359/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "COLISEUM",
-        "time": 1738232100000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16354/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "ELECTRIC",
-        "time": 1738270800000,
-      },
-    ],
-    "title": "Conclave",
-    "url": "https://www.curzon.com/films/conclave/HO00005766/?siteId=KIN1",
-  },
-  {
-    "overview": {
-      "actors": [
         "Timothée Chalamet",
         "Norbert Leo Butz",
         "Dan Fogler",
@@ -301,112 +206,6 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
   {
     "overview": {
       "actors": [
-        "Simon McBurney",
-        "Nicholas Hoult",
-        "Ralph Ineson",
-        "Willem Dafoe",
-        "Aaron Taylor-Johnson",
-        "Emma Corrin",
-        "Bill Skarsgård",
-        "Lily-Rose Depp",
-      ],
-      "categories": [
-        "Drama",
-        "Fantasy",
-        "Horror",
-      ],
-      "classification": "15",
-      "directors": [
-        "Robert Eggers",
-      ],
-      "duration": 7920000,
-      "trailer": "https://www.youtube.com/watch?v=Px6S0RxfAHg",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16209/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing",
-        "screen": "PALACE",
-        "time": 1737666000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16316/",
-        "notes": "",
-        "screen": "CENTURY",
-        "time": 1737729000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16290/",
-        "notes": "",
-        "screen": "PALACE",
-        "time": 1737813600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16329/",
-        "notes": "",
-        "screen": "PALACE",
-        "time": 1737894600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16276/",
-        "notes": "",
-        "screen": "CENTURY",
-        "time": 1737988200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16342/",
-        "notes": "",
-        "screen": "CENTURY",
-        "time": 1738074600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16303/",
-        "notes": "",
-        "screen": "CENTURY",
-        "time": 1738161000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16352/",
-        "notes": "",
-        "screen": "CENTURY",
-        "time": 1738247400000,
-      },
-    ],
-    "title": "Nosferatu",
-    "url": "https://www.curzon.com/films/nosferatu/HO00005839/?siteId=KIN1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Robin Wright",
-        "Tom Hanks",
-        "Paul Bettany",
-        "Kelly Reilly",
-      ],
-      "categories": [
-        "Drama",
-        "Romance",
-      ],
-      "classification": "12A",
-      "directors": [
-        "Robert Zemeckis",
-      ],
-      "duration": 6240000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16212/",
-        "notes": "",
-        "screen": "ELECTRIC",
-        "time": 1737667200000,
-      },
-    ],
-    "title": "Here",
-    "url": "https://www.curzon.com/films/here/HO00005852/?siteId=KIN1",
-  },
-  {
-    "overview": {
-      "actors": [
         "Antonio Banderas",
         "Nicole Kidman",
         "Harris Dickinson",
@@ -489,514 +288,6 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
     ],
     "title": "Babygirl",
     "url": "https://www.curzon.com/films/babygirl/HO00005853/?siteId=KIN1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Angelina Jolie",
-        "Kodi Smit-McPhee",
-        "Alba Rohrwacher",
-        "Pierfrancesco Favino",
-        "Haluk Bilginer",
-        "VALERIA GOLINO",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "12A",
-      "directors": [
-        "Pablo Larraín",
-      ],
-      "duration": 7380000,
-      "trailer": "https://www.youtube.com/watch?v=mVIXaTdxlQc",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16206/",
-        "notes": "",
-        "screen": "PALACE",
-        "time": 1737655800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16312/",
-        "notes": "",
-        "screen": "ELECTRIC",
-        "time": 1737716400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16314/",
-        "notes": "",
-        "screen": "ELECTRIC",
-        "time": 1737742200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16321/",
-        "notes": "",
-        "screen": "COLISEUM",
-        "time": 1737822000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16288/",
-        "notes": "",
-        "screen": "ELECTRIC",
-        "time": 1737828000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16332/",
-        "notes": "",
-        "screen": "PALACE",
-        "time": 1737904800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16330/",
-        "notes": "",
-        "screen": "PALACE",
-        "time": 1737915000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16280/",
-        "notes": "",
-        "screen": "ELECTRIC",
-        "time": 1737975600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16278/",
-        "notes": "",
-        "screen": "ELECTRIC",
-        "time": 1738001400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16333/",
-        "notes": "",
-        "screen": "ELECTRIC",
-        "time": 1738062000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16344/",
-        "notes": "",
-        "screen": "ELECTRIC",
-        "time": 1738087800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16299/",
-        "notes": "Baby Club: Regular screenings for parents and guardians with babies under12 months old, with reduced volume and increased lighting. For babies up to 12 months old are free of charge. Where the certificate is U, PG or 12A, older children may also attend although a baby (0-12 months) is still required.
-
-Adults without a baby will not be allowed to purchase a ticket to a ‘Baby Club’ screening.",
-        "screen": "ELECTRIC",
-        "time": 1738148400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16301/",
-        "notes": "",
-        "screen": "ELECTRIC",
-        "time": 1738174200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16348/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing",
-        "screen": "ELECTRIC",
-        "time": 1738234800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16350/",
-        "notes": "",
-        "screen": "ELECTRIC",
-        "time": 1738260600000,
-      },
-    ],
-    "title": "Maria",
-    "url": "https://www.curzon.com/films/maria/HO00005855/?siteId=KIN1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Edgar Ramírez",
-        "Zoe Saldana",
-        "Selena Gomez",
-        "Karla Sofía Gascón",
-      ],
-      "categories": [
-        "Drama",
-        "Crime",
-        "Musical",
-      ],
-      "classification": "15",
-      "directors": [
-        "Jacques Audiard",
-      ],
-      "duration": 7920000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16311/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "CENTURY",
-        "time": 1737717600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16286/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "ELECTRIC",
-        "time": 1737838800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16322/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "CENTURY",
-        "time": 1737889200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16282/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "ELECTRIC",
-        "time": 1738011600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16334/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "CENTURY",
-        "time": 1738063200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16298/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "ELECTRIC",
-        "time": 1738184400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16347/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "CENTURY",
-        "time": 1738236000000,
-      },
-    ],
-    "title": "Emilia Pérez",
-    "url": "https://www.curzon.com/films/emilia-perez/HO00005728/?siteId=KIN1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Felicity Jones",
-        "Joe Alwyn",
-        "Stacy Martin",
-        "Alessandro Nivola",
-        "Adrien Brody",
-        "Raffey Cassidy",
-        "Emma Laird",
-        "Isaach De Bankolé",
-        "Guy Pearce",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "18",
-      "directors": [
-        "Brady Corbet",
-      ],
-      "duration": 12900000,
-      "trailer": "https://www.youtube.com/watch?v=hNiwPU5vjCk",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16315/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "PALACE",
-        "time": 1737721200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16313/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "ELECTRIC",
-        "time": 1737726600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16319/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "PALACE",
-        "time": 1737738000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-15482/",
-        "notes": "",
-        "screen": "COLISEUM",
-        "time": 1737746400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16287/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "CENTURY",
-        "time": 1737807600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16289/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "ELECTRIC",
-        "time": 1737812400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16293/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "PALACE",
-        "time": 1737824400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16085/",
-        "notes": "",
-        "screen": "COLISEUM",
-        "time": 1737832800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16331/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "COLISEUM",
-        "time": 1737890400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-15766/",
-        "notes": "",
-        "screen": "ELECTRIC",
-        "time": 1737892800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-15765/",
-        "notes": "",
-        "screen": "ELECTRIC",
-        "time": 1737908400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-15769/",
-        "notes": "",
-        "screen": "COLISEUM",
-        "time": 1737918000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16277/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "PALACE",
-        "time": 1737980400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16279/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "ELECTRIC",
-        "time": 1737985800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16273/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "PALACE",
-        "time": 1737997200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16086/",
-        "notes": "",
-        "screen": "COLISEUM",
-        "time": 1738005600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16343/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "PALACE",
-        "time": 1738066800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16345/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "ELECTRIC",
-        "time": 1738072200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16339/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "PALACE",
-        "time": 1738083600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16087/",
-        "notes": "",
-        "screen": "COLISEUM",
-        "time": 1738092000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16302/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "PALACE",
-        "time": 1738153200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16300/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "ELECTRIC",
-        "time": 1738158600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16306/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "PALACE",
-        "time": 1738170000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16088/",
-        "notes": "",
-        "screen": "COLISEUM",
-        "time": 1738178400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16351/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "PALACE",
-        "time": 1738239600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16349/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "ELECTRIC",
-        "time": 1738245000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16355/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "PALACE",
-        "time": 1738256400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16089/",
-        "notes": "",
-        "screen": "COLISEUM",
-        "time": 1738264800000,
-      },
-    ],
-    "title": "The Brutalist",
-    "url": "https://www.curzon.com/films/the-brutalist/HO00005872/?siteId=KIN1",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [
-        "Comedy",
-        "Family",
-        "Animation",
-      ],
-      "classification": "PG",
-      "directors": [
-        "Pablo Berger",
-      ],
-      "duration": 5400000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-15990/",
-        "notes": "Kids Club: A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a ‘Kids' Club’ screening.",
-        "screen": "ELECTRIC",
-        "time": 1737801000000,
-      },
-    ],
-    "title": "Kids Club: Robot Dreams",
-    "url": "https://www.curzon.com/films/kids-club-robot-dreams/HO00005090/?siteId=KIN1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "John Magaro",
-        "Peter Sarsgaard",
-        "Leonie Benesch",
-        "Ben Chaplin",
-        "Zinedine Soualem",
-        "Georgina Rich",
-        "Corey Johnson",
-        "Marcus Rutherford",
-        "Daniel Adeosun",
-        "Benjamin Walker",
-        "Ferdinand Dörfler",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "15",
-      "directors": [
-        "Tim Fehlbaum",
-      ],
-      "duration": 5700000,
-      "trailer": "https://www.youtube.com/watch?v=GGBpfkrr8Ms",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16268/",
-        "notes": "Members preview: Members' only preview screening.
-Special Preview: Special Preview Screening",
-        "screen": "CENTURY",
-        "time": 1738693200000,
-      },
-    ],
-    "title": "September 5",
-    "url": "https://www.curzon.com/films/september-5/HO00005877/?siteId=KIN1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "David Tennant",
-        "Cush Jumbo",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "directors": [
-        "Max Webster",
-      ],
-      "duration": 6840000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-14409/",
-        "notes": "",
-        "screen": "COLISEUM",
-        "time": 1738780200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-14410/",
-        "notes": "",
-        "screen": "PALACE",
-        "time": 1739109600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16387/",
-        "notes": "",
-        "screen": "PALACE",
-        "time": 1739383200000,
-      },
-    ],
-    "title": "MACBETH: David Tennant & Cush Jumbo",
-    "url": "https://www.curzon.com/films/macbeth-david-tennant-and-cush-jumbo/HO00005788/?siteId=KIN1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Dave Bautista",
-        "Jamie Lee Curtis",
-        "Billie Lourd",
-        "Kiernan Shipka",
-        "Pamela Anderson",
-        "Brenda Song",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "directors": [
-        "Gia Coppola",
-      ],
-      "duration": 5100000,
-      "trailer": "https://www.youtube.com/watch?v=r4xpoKBKrpo",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-15661/",
-        "notes": "",
-        "screen": "PALACE",
-        "time": 1739220000000,
-      },
-    ],
-    "title": "The Last Showgirl",
-    "url": "https://www.curzon.com/films/the-last-showgirl/HO00005898/?siteId=KIN1",
   },
   {
     "overview": {
@@ -1205,97 +496,192 @@ Special Preview: Special Preview Screening",
   {
     "overview": {
       "actors": [
-        "Brad Pitt",
-        "Harvey Keitel",
-        "Geena Davis",
-        "Michael Madsen",
-        "Susan Sarandon",
+        "Stanley Tucci",
+        "Merab Ninidze",
+        "Lucian Msamati",
+        "Ralph Fiennes",
+        "Isabella Rossellini",
+        "John Lithgow",
+        "Sergio Castellitto",
+        "Brian F. O'Byrne",
+        "Carlos Diehz",
       ],
       "categories": [
         "Drama",
-        "Family",
+      ],
+      "classification": "12A",
+      "directors": [
+        "Edward Berger",
+      ],
+      "duration": 7200000,
+      "trailer": "https://www.youtube.com/watch?v=Znr38bHNXp4",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16208/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "CENTURY",
+        "time": 1737663600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16363/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "COLISEUM",
+        "time": 1737713700000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16318/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "ELECTRIC",
+        "time": 1737752400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16292/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "COLISEUM",
+        "time": 1737800100000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16327/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "ELECTRIC",
+        "time": 1737924000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16274/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season
+Relaxed: Weekly screenings for people on the autism spectrum and their families, with reduced volume levels, increased lighting, extra signage, relaxed seating arrangements, sensory-friendly amenities and designated quiet spaces.",
+        "screen": "CENTURY",
+        "time": 1737978000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16361/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "COLISEUM",
+        "time": 1738059300000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16340/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "ELECTRIC",
+        "time": 1738098000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16305/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "CENTURY",
+        "time": 1738150800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16359/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "COLISEUM",
+        "time": 1738232100000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16354/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "ELECTRIC",
+        "time": 1738270800000,
+      },
+    ],
+    "title": "Conclave",
+    "url": "https://www.curzon.com/films/conclave/HO00005766/?siteId=KIN1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Edgar Ramírez",
+        "Zoe Saldana",
+        "Selena Gomez",
+        "Karla Sofía Gascón",
+      ],
+      "categories": [
+        "Drama",
         "Crime",
+        "Musical",
       ],
       "classification": "15",
       "directors": [
-        "Ridley Scott",
+        "Jacques Audiard",
       ],
-      "duration": 7800000,
-      "trailer": "https://www.youtube.com/watch?v=g8Uti7PDLnI",
+      "duration": 7920000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16101/",
-        "notes": "Valentine's Day: Special Valentine's Day Screening",
-        "screen": "PALACE",
-        "time": 1739469600000,
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16311/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "CENTURY",
+        "time": 1737717600000,
       },
-    ],
-    "title": "Thelma & Louise",
-    "url": "https://www.curzon.com/films/thelma-and-louise/HO00005911/?siteId=KIN1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Pharrell Williams",
-      ],
-      "categories": [
-        "Animation",
-      ],
-      "classification": "PG",
-      "directors": [
-        "Morgan Neville",
-      ],
-      "duration": 5580000,
-      "trailer": "https://www.youtube.com/watch?v=9ijpI2VSS14",
-    },
-    "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-15995/",
-        "notes": "Kids Club: A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a ‘Kids' Club’ screening.",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16286/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "ELECTRIC",
-        "time": 1739615400000,
+        "time": 1737838800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16322/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "CENTURY",
+        "time": 1737889200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16282/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "ELECTRIC",
+        "time": 1738011600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16334/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "CENTURY",
+        "time": 1738063200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16298/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "ELECTRIC",
+        "time": 1738184400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16347/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "CENTURY",
+        "time": 1738236000000,
       },
     ],
-    "title": "Kids Club: Piece By Piece",
-    "url": "https://www.curzon.com/films/kids-club-piece-by-piece/HO00005907/?siteId=KIN1",
+    "title": "Emilia Pérez",
+    "url": "https://www.curzon.com/films/emilia-perez/HO00005728/?siteId=KIN1",
   },
   {
     "overview": {
       "actors": [
-        "Eliza Scanlen",
-        "Amanda Lawrence",
-        "Hugh Skinner",
-        "Ncuti Gatwa",
-        "Sharon D. Clarke",
+        "Robin Wright",
+        "Tom Hanks",
+        "Paul Bettany",
+        "Kelly Reilly",
       ],
       "categories": [
-        "Live Opera, Music & Theatre",
+        "Drama",
+        "Romance",
       ],
-      "classification": "PG",
+      "classification": "12A",
       "directors": [
-        "Max Webster",
+        "Robert Zemeckis",
       ],
-      "duration": 10200000,
-      "trailer": "https://www.youtube.com/watch?v=SkQNuoceik0",
+      "duration": 6240000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-13490/",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16212/",
         "notes": "",
-        "screen": "COLISEUM",
-        "time": 1740078000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16265/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing
-Encore: Encore",
-        "screen": "COLISEUM",
-        "time": 1740232800000,
+        "screen": "ELECTRIC",
+        "time": 1737667200000,
       },
     ],
-    "title": "NT Live: The Importance of Being Earnest",
-    "url": "https://www.curzon.com/films/nt-live-the-importance-of-being-earnest/HO00005676/?siteId=KIN1",
+    "title": "Here",
+    "url": "https://www.curzon.com/films/here/HO00005852/?siteId=KIN1",
   },
   {
     "overview": {
@@ -1343,50 +729,284 @@ Encore: Encore",
   {
     "overview": {
       "actors": [
-        "The Royal Ballet",
-        "Matthew Ball",
-        "Yasmine Naghdi",
+        "Pharrell Williams",
       ],
       "categories": [
-        "Documentary",
+        "Animation",
       ],
+      "classification": "PG",
       "directors": [
-        "Liam Scarlett",
+        "Morgan Neville",
       ],
-      "duration": 12600000,
+      "duration": 5580000,
+      "trailer": "https://www.youtube.com/watch?v=9ijpI2VSS14",
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-11483/",
-        "notes": "Live event: Live Via Satellite",
-        "screen": "PALACE",
-        "time": 1740683700000,
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-15995/",
+        "notes": "Kids Club: A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a ‘Kids' Club’ screening.",
+        "screen": "ELECTRIC",
+        "time": 1739615400000,
       },
     ],
-    "title": "RBO 2024-25: Swan Lake",
-    "url": "https://www.curzon.com/films/rbo-2024-25-swan-lake/HO00005444/?siteId=KIN1",
+    "title": "Kids Club: Piece By Piece",
+    "url": "https://www.curzon.com/films/kids-club-piece-by-piece/HO00005907/?siteId=KIN1",
   },
   {
     "overview": {
       "actors": [],
       "categories": [
-        "Documentary",
+        "Comedy",
+        "Family",
+        "Animation",
       ],
+      "classification": "PG",
       "directors": [
-        "Kenneth MacMillan",
+        "Pablo Berger",
       ],
-      "duration": 12600000,
+      "duration": 5400000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-11484/",
-        "notes": "Live event: Live Via Satellite",
-        "screen": "PALACE",
-        "time": 1742498100000,
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-15990/",
+        "notes": "Kids Club: A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a ‘Kids' Club’ screening.",
+        "screen": "ELECTRIC",
+        "time": 1737801000000,
       },
     ],
-    "title": "RBO 2024-25: Romeo and Juliet",
-    "url": "https://www.curzon.com/films/rbo-2024-25-romeo-and-juliet/HO00005445/?siteId=KIN1",
+    "title": "Kids Club: Robot Dreams",
+    "url": "https://www.curzon.com/films/kids-club-robot-dreams/HO00005090/?siteId=KIN1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "David Tennant",
+        "Cush Jumbo",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "directors": [
+        "Max Webster",
+      ],
+      "duration": 6840000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-14409/",
+        "notes": "",
+        "screen": "COLISEUM",
+        "time": 1738780200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-14410/",
+        "notes": "",
+        "screen": "PALACE",
+        "time": 1739109600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16387/",
+        "notes": "",
+        "screen": "PALACE",
+        "time": 1739383200000,
+      },
+    ],
+    "title": "MACBETH: David Tennant & Cush Jumbo",
+    "url": "https://www.curzon.com/films/macbeth-david-tennant-and-cush-jumbo/HO00005788/?siteId=KIN1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Angelina Jolie",
+        "Kodi Smit-McPhee",
+        "Alba Rohrwacher",
+        "Pierfrancesco Favino",
+        "Haluk Bilginer",
+        "VALERIA GOLINO",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "12A",
+      "directors": [
+        "Pablo Larraín",
+      ],
+      "duration": 7380000,
+      "trailer": "https://www.youtube.com/watch?v=mVIXaTdxlQc",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16206/",
+        "notes": "",
+        "screen": "PALACE",
+        "time": 1737655800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16312/",
+        "notes": "",
+        "screen": "ELECTRIC",
+        "time": 1737716400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16314/",
+        "notes": "",
+        "screen": "ELECTRIC",
+        "time": 1737742200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16321/",
+        "notes": "",
+        "screen": "COLISEUM",
+        "time": 1737822000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16288/",
+        "notes": "",
+        "screen": "ELECTRIC",
+        "time": 1737828000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16332/",
+        "notes": "",
+        "screen": "PALACE",
+        "time": 1737904800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16330/",
+        "notes": "",
+        "screen": "PALACE",
+        "time": 1737915000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16280/",
+        "notes": "",
+        "screen": "ELECTRIC",
+        "time": 1737975600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16278/",
+        "notes": "",
+        "screen": "ELECTRIC",
+        "time": 1738001400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16333/",
+        "notes": "",
+        "screen": "ELECTRIC",
+        "time": 1738062000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16344/",
+        "notes": "",
+        "screen": "ELECTRIC",
+        "time": 1738087800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16299/",
+        "notes": "Baby Club: Regular screenings for parents and guardians with babies under12 months old, with reduced volume and increased lighting. For babies up to 12 months old are free of charge. Where the certificate is U, PG or 12A, older children may also attend although a baby (0-12 months) is still required.
+
+Adults without a baby will not be allowed to purchase a ticket to a ‘Baby Club’ screening.",
+        "screen": "ELECTRIC",
+        "time": 1738148400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16301/",
+        "notes": "",
+        "screen": "ELECTRIC",
+        "time": 1738174200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16348/",
+        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing",
+        "screen": "ELECTRIC",
+        "time": 1738234800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16350/",
+        "notes": "",
+        "screen": "ELECTRIC",
+        "time": 1738260600000,
+      },
+    ],
+    "title": "Maria",
+    "url": "https://www.curzon.com/films/maria/HO00005855/?siteId=KIN1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Simon McBurney",
+        "Nicholas Hoult",
+        "Ralph Ineson",
+        "Willem Dafoe",
+        "Aaron Taylor-Johnson",
+        "Emma Corrin",
+        "Bill Skarsgård",
+        "Lily-Rose Depp",
+      ],
+      "categories": [
+        "Drama",
+        "Fantasy",
+        "Horror",
+      ],
+      "classification": "15",
+      "directors": [
+        "Robert Eggers",
+      ],
+      "duration": 7920000,
+      "trailer": "https://www.youtube.com/watch?v=Px6S0RxfAHg",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16209/",
+        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing",
+        "screen": "PALACE",
+        "time": 1737666000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16316/",
+        "notes": "",
+        "screen": "CENTURY",
+        "time": 1737729000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16290/",
+        "notes": "",
+        "screen": "PALACE",
+        "time": 1737813600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16329/",
+        "notes": "",
+        "screen": "PALACE",
+        "time": 1737894600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16276/",
+        "notes": "",
+        "screen": "CENTURY",
+        "time": 1737988200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16342/",
+        "notes": "",
+        "screen": "CENTURY",
+        "time": 1738074600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16303/",
+        "notes": "",
+        "screen": "CENTURY",
+        "time": 1738161000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16352/",
+        "notes": "",
+        "screen": "CENTURY",
+        "time": 1738247400000,
+      },
+    ],
+    "title": "Nosferatu",
+    "url": "https://www.curzon.com/films/nosferatu/HO00005839/?siteId=KIN1",
   },
   {
     "overview": {
@@ -1431,30 +1051,61 @@ Recorded Performance: Prerecorded Q&A",
   {
     "overview": {
       "actors": [
-        "Sondra Radvanovsky",
-        "Adam Palka",
-        "SeokJong Baek",
-        "Anna Princeva",
-        "Hansung Yoo",
+        "Eliza Scanlen",
+        "Amanda Lawrence",
+        "Hugh Skinner",
+        "Ncuti Gatwa",
+        "Sharon D. Clarke",
       ],
       "categories": [
         "Live Opera, Music & Theatre",
       ],
+      "classification": "PG",
       "directors": [
-        "Andrei Serban",
+        "Max Webster",
       ],
-      "duration": 12300000,
+      "duration": 10200000,
+      "trailer": "https://www.youtube.com/watch?v=SkQNuoceik0",
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-11485/",
-        "notes": "Live event: Live Via Satellite",
-        "screen": "PALACE",
-        "time": 1743531300000,
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-13490/",
+        "notes": "",
+        "screen": "COLISEUM",
+        "time": 1740078000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16265/",
+        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing
+Encore: Encore",
+        "screen": "COLISEUM",
+        "time": 1740232800000,
       },
     ],
-    "title": "RBO 2024-25: Turandot",
-    "url": "https://www.curzon.com/films/rbo-2024-25-turandot/HO00005446/?siteId=KIN1",
+    "title": "NT Live: The Importance of Being Earnest",
+    "url": "https://www.curzon.com/films/nt-live-the-importance-of-being-earnest/HO00005676/?siteId=KIN1",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
+        "Documentary",
+      ],
+      "directors": [
+        "Christopher Wheeldon",
+      ],
+      "duration": 10800000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-11487/",
+        "notes": "Live event: Live Via Satellite",
+        "screen": "PALACE",
+        "time": 1747937700000,
+      },
+    ],
+    "title": "RBO 2024-25: Ballet To Broadway - Wheeldon Works",
+    "url": "https://www.curzon.com/films/rbo-2024-25-ballet-to-broadway-wheeldon-works/HO00005448/?siteId=KIN1",
   },
   {
     "overview": {
@@ -1492,20 +1143,337 @@ Recorded Performance: Prerecorded Q&A",
         "Documentary",
       ],
       "directors": [
-        "Christopher Wheeldon",
+        "Kenneth MacMillan",
       ],
-      "duration": 10800000,
+      "duration": 12600000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-11487/",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-11484/",
         "notes": "Live event: Live Via Satellite",
         "screen": "PALACE",
-        "time": 1747937700000,
+        "time": 1742498100000,
       },
     ],
-    "title": "RBO 2024-25: Ballet To Broadway - Wheeldon Works",
-    "url": "https://www.curzon.com/films/rbo-2024-25-ballet-to-broadway-wheeldon-works/HO00005448/?siteId=KIN1",
+    "title": "RBO 2024-25: Romeo and Juliet",
+    "url": "https://www.curzon.com/films/rbo-2024-25-romeo-and-juliet/HO00005445/?siteId=KIN1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "The Royal Ballet",
+        "Matthew Ball",
+        "Yasmine Naghdi",
+      ],
+      "categories": [
+        "Documentary",
+      ],
+      "directors": [
+        "Liam Scarlett",
+      ],
+      "duration": 12600000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-11483/",
+        "notes": "Live event: Live Via Satellite",
+        "screen": "PALACE",
+        "time": 1740683700000,
+      },
+    ],
+    "title": "RBO 2024-25: Swan Lake",
+    "url": "https://www.curzon.com/films/rbo-2024-25-swan-lake/HO00005444/?siteId=KIN1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Sondra Radvanovsky",
+        "Adam Palka",
+        "SeokJong Baek",
+        "Anna Princeva",
+        "Hansung Yoo",
+      ],
+      "categories": [
+        "Live Opera, Music & Theatre",
+      ],
+      "directors": [
+        "Andrei Serban",
+      ],
+      "duration": 12300000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-11485/",
+        "notes": "Live event: Live Via Satellite",
+        "screen": "PALACE",
+        "time": 1743531300000,
+      },
+    ],
+    "title": "RBO 2024-25: Turandot",
+    "url": "https://www.curzon.com/films/rbo-2024-25-turandot/HO00005446/?siteId=KIN1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "John Magaro",
+        "Peter Sarsgaard",
+        "Leonie Benesch",
+        "Ben Chaplin",
+        "Zinedine Soualem",
+        "Georgina Rich",
+        "Corey Johnson",
+        "Marcus Rutherford",
+        "Daniel Adeosun",
+        "Benjamin Walker",
+        "Ferdinand Dörfler",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "15",
+      "directors": [
+        "Tim Fehlbaum",
+      ],
+      "duration": 5700000,
+      "trailer": "https://www.youtube.com/watch?v=GGBpfkrr8Ms",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16268/",
+        "notes": "Members preview: Members' only preview screening.
+Special Preview: Special Preview Screening",
+        "screen": "CENTURY",
+        "time": 1738693200000,
+      },
+    ],
+    "title": "September 5",
+    "url": "https://www.curzon.com/films/september-5/HO00005877/?siteId=KIN1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Felicity Jones",
+        "Joe Alwyn",
+        "Stacy Martin",
+        "Alessandro Nivola",
+        "Adrien Brody",
+        "Raffey Cassidy",
+        "Emma Laird",
+        "Isaach De Bankolé",
+        "Guy Pearce",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "18",
+      "directors": [
+        "Brady Corbet",
+      ],
+      "duration": 12900000,
+      "trailer": "https://www.youtube.com/watch?v=hNiwPU5vjCk",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16315/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "PALACE",
+        "time": 1737721200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16313/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "ELECTRIC",
+        "time": 1737726600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16319/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "PALACE",
+        "time": 1737738000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-15482/",
+        "notes": "",
+        "screen": "COLISEUM",
+        "time": 1737746400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16287/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "CENTURY",
+        "time": 1737807600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16289/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "ELECTRIC",
+        "time": 1737812400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16293/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "PALACE",
+        "time": 1737824400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16085/",
+        "notes": "",
+        "screen": "COLISEUM",
+        "time": 1737832800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16331/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "COLISEUM",
+        "time": 1737890400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-15766/",
+        "notes": "",
+        "screen": "ELECTRIC",
+        "time": 1737892800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-15765/",
+        "notes": "",
+        "screen": "ELECTRIC",
+        "time": 1737908400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-15769/",
+        "notes": "",
+        "screen": "COLISEUM",
+        "time": 1737918000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16277/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "PALACE",
+        "time": 1737980400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16279/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "ELECTRIC",
+        "time": 1737985800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16273/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "PALACE",
+        "time": 1737997200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16086/",
+        "notes": "",
+        "screen": "COLISEUM",
+        "time": 1738005600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16343/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "PALACE",
+        "time": 1738066800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16345/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "ELECTRIC",
+        "time": 1738072200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16339/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "PALACE",
+        "time": 1738083600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16087/",
+        "notes": "",
+        "screen": "COLISEUM",
+        "time": 1738092000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16302/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "PALACE",
+        "time": 1738153200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16300/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "ELECTRIC",
+        "time": 1738158600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16306/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "PALACE",
+        "time": 1738170000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16088/",
+        "notes": "",
+        "screen": "COLISEUM",
+        "time": 1738178400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16351/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "PALACE",
+        "time": 1738239600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16349/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "ELECTRIC",
+        "time": 1738245000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16355/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "PALACE",
+        "time": 1738256400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16089/",
+        "notes": "",
+        "screen": "COLISEUM",
+        "time": 1738264800000,
+      },
+    ],
+    "title": "The Brutalist",
+    "url": "https://www.curzon.com/films/the-brutalist/HO00005872/?siteId=KIN1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Dave Bautista",
+        "Jamie Lee Curtis",
+        "Billie Lourd",
+        "Kiernan Shipka",
+        "Pamela Anderson",
+        "Brenda Song",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "directors": [
+        "Gia Coppola",
+      ],
+      "duration": 5100000,
+      "trailer": "https://www.youtube.com/watch?v=r4xpoKBKrpo",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-15661/",
+        "notes": "",
+        "screen": "PALACE",
+        "time": 1739220000000,
+      },
+    ],
+    "title": "The Last Showgirl",
+    "url": "https://www.curzon.com/films/the-last-showgirl/HO00005898/?siteId=KIN1",
   },
   {
     "overview": {
@@ -1535,6 +1503,38 @@ Recorded Performance: Prerecorded Q&A",
     ],
     "title": "The Met: Live in HD 24-25: Il Barbiere di Siviglia",
     "url": "https://www.curzon.com/films/the-met-live-in-hd-24-25-il-barbiere-di-siviglia/HO00005540/?siteId=KIN1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Brad Pitt",
+        "Harvey Keitel",
+        "Geena Davis",
+        "Michael Madsen",
+        "Susan Sarandon",
+      ],
+      "categories": [
+        "Drama",
+        "Family",
+        "Crime",
+      ],
+      "classification": "15",
+      "directors": [
+        "Ridley Scott",
+      ],
+      "duration": 7800000,
+      "trailer": "https://www.youtube.com/watch?v=g8Uti7PDLnI",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/KIN1-16101/",
+        "notes": "Valentine's Day: Special Valentine's Day Screening",
+        "screen": "PALACE",
+        "time": 1739469600000,
+      },
+    ],
+    "title": "Thelma & Louise",
+    "url": "https://www.curzon.com/films/thelma-and-louise/HO00005911/?siteId=KIN1",
   },
 ]
 `;

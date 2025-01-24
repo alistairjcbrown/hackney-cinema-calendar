@@ -5,161 +5,6 @@ exports[`Curzon Victoria retrieve and transform 1`] = `
   {
     "overview": {
       "actors": [
-        "Stanley Tucci",
-        "Merab Ninidze",
-        "Lucian Msamati",
-        "Ralph Fiennes",
-        "Isabella Rossellini",
-        "John Lithgow",
-        "Sergio Castellitto",
-        "Brian F. O'Byrne",
-        "Carlos Diehz",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "12A",
-      "directors": [
-        "Edward Berger",
-      ],
-      "duration": 7200000,
-      "trailer": "https://www.youtube.com/watch?v=Znr38bHNXp4",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78744/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 1",
-        "time": 1737657000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78752/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 1",
-        "time": 1737666900000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78880/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1737720900000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78879/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1737742500000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78878/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1737752400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78900/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1737828000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78901/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 1",
-        "time": 1737838800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78915/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season
-Dog Days: Weekly screenings with lowered sound, for dog owners and their canine companions. (Dog lovers without one of their own are also welcome.)",
-        "screen": "Screen 5",
-        "time": 1737891300000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78916/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1737913500000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78917/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1737923400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78931/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1737980100000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78932/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1738001700000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78933/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1738011600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78947/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1738066500000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78946/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1738088100000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78945/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1738098000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78964/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1738152900000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78963/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1738174500000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78962/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1738184400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78981/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 4",
-        "time": 1738238400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78979/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 5",
-        "time": 1738270800000,
-      },
-    ],
-    "title": "Conclave",
-    "url": "https://www.curzon.com/films/conclave/HO00005766/?siteId=VIC1",
-  },
-  {
-    "overview": {
-      "actors": [
         "Timothée Chalamet",
         "Norbert Leo Butz",
         "Dan Fogler",
@@ -363,83 +208,6 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
     ],
     "title": "A Complete Unknown",
     "url": "https://www.curzon.com/films/a-complete-unknown/HO00005874/?siteId=VIC1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Simon McBurney",
-        "Nicholas Hoult",
-        "Ralph Ineson",
-        "Willem Dafoe",
-        "Aaron Taylor-Johnson",
-        "Emma Corrin",
-        "Bill Skarsgård",
-        "Lily-Rose Depp",
-      ],
-      "categories": [
-        "Drama",
-        "Fantasy",
-        "Horror",
-      ],
-      "classification": "15",
-      "directors": [
-        "Robert Eggers",
-      ],
-      "duration": 7920000,
-      "trailer": "https://www.youtube.com/watch?v=Px6S0RxfAHg",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78754/",
-        "notes": "",
-        "screen": "Screen 5",
-        "time": 1737665100000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78887/",
-        "notes": "",
-        "screen": "Screen 5",
-        "time": 1737731700000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78894/",
-        "notes": "",
-        "screen": "Screen 3",
-        "time": 1737837900000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78909/",
-        "notes": "",
-        "screen": "Screen 5",
-        "time": 1737902700000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78925/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing",
-        "screen": "Screen 5",
-        "time": 1737990900000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78936/",
-        "notes": "",
-        "screen": "Screen 5",
-        "time": 1738077300000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78953/",
-        "notes": "",
-        "screen": "Screen 5",
-        "time": 1738163700000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78970/",
-        "notes": "",
-        "screen": "Screen 5",
-        "time": 1738239300000,
-      },
-    ],
-    "title": "Nosferatu",
-    "url": "https://www.curzon.com/films/nosferatu/HO00005839/?siteId=VIC1",
   },
   {
     "overview": {
@@ -719,509 +487,6 @@ Dog Days: Weekly screenings with lowered sound, for dog owners and their canine 
   {
     "overview": {
       "actors": [
-        "Angelina Jolie",
-        "Kodi Smit-McPhee",
-        "Alba Rohrwacher",
-        "Pierfrancesco Favino",
-        "Haluk Bilginer",
-        "VALERIA GOLINO",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "12A",
-      "directors": [
-        "Pablo Larraín",
-      ],
-      "duration": 7380000,
-      "trailer": "https://www.youtube.com/watch?v=mVIXaTdxlQc",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78743/",
-        "notes": "",
-        "screen": "Screen 3",
-        "time": 1737662400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78884/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737720000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78883/",
-        "notes": "",
-        "screen": "Screen 3",
-        "time": 1737751500000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78897/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737806400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78898/",
-        "notes": "",
-        "screen": "Screen 1",
-        "time": 1737818100000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78912/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737891000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78913/",
-        "notes": "",
-        "screen": "Screen 3",
-        "time": 1737919800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78928/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737979200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78929/",
-        "notes": "",
-        "screen": "Screen 3",
-        "time": 1738010700000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78950/",
-        "notes": "Silver Screen: These screenings provide an inclusive and enjoyable cinema experience for senior citizens, where we will be showing classic films as well as recent releases.",
-        "screen": "Screen 2",
-        "time": 1738065600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78949/",
-        "notes": "",
-        "screen": "Screen 3",
-        "time": 1738097100000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78967/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1738152000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78966/",
-        "notes": "",
-        "screen": "Screen 3",
-        "time": 1738183500000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78983/",
-        "notes": "",
-        "screen": "Screen 3",
-        "time": 1738269000000,
-      },
-    ],
-    "title": "Maria",
-    "url": "https://www.curzon.com/films/maria/HO00005855/?siteId=VIC1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Edgar Ramírez",
-        "Zoe Saldana",
-        "Selena Gomez",
-        "Karla Sofía Gascón",
-      ],
-      "categories": [
-        "Drama",
-        "Crime",
-        "Musical",
-      ],
-      "classification": "15",
-      "directors": [
-        "Jacques Audiard",
-      ],
-      "duration": 7920000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78882/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 3",
-        "time": 1737740700000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78899/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 3",
-        "time": 1737810900000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78914/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 3",
-        "time": 1737909000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78930/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 3",
-        "time": 1737984600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78948/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 3",
-        "time": 1738086300000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78965/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 3",
-        "time": 1738157400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78982/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 3",
-        "time": 1738258200000,
-      },
-    ],
-    "title": "Emilia Pérez",
-    "url": "https://www.curzon.com/films/emilia-perez/HO00005728/?siteId=VIC1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Felicity Jones",
-        "Joe Alwyn",
-        "Stacy Martin",
-        "Alessandro Nivola",
-        "Adrien Brody",
-        "Raffey Cassidy",
-        "Emma Laird",
-        "Isaach De Bankolé",
-        "Guy Pearce",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "18",
-      "directors": [
-        "Brady Corbet",
-      ],
-      "duration": 12900000,
-      "trailer": "https://www.youtube.com/watch?v=hNiwPU5vjCk",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78885/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 3",
-        "time": 1737725400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78654/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737729900000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78653/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737745200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78680/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 2",
-        "time": 1737816300000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78896/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 3",
-        "time": 1737821700000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78655/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737831600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78911/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 3",
-        "time": 1737891900000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78681/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 2",
-        "time": 1737900900000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78656/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737916200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78935/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 2",
-        "time": 1737989100000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78927/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 3",
-        "time": 1737995400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78657/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1738004400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78951/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 3",
-        "time": 1738071000000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78943/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 2",
-        "time": 1738075500000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78658/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1738090800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78960/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 2",
-        "time": 1738161900000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78968/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 3",
-        "time": 1738168200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78659/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1738177200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78985/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 3",
-        "time": 1738242900000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78977/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
-        "screen": "Screen 1",
-        "time": 1738245600000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78660/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1738261200000,
-      },
-    ],
-    "title": "The Brutalist",
-    "url": "https://www.curzon.com/films/the-brutalist/HO00005872/?siteId=VIC1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Jamie Foxx",
-        "Luther Vandross",
-        "Mariah Carey",
-        "Patti LaBelle",
-        "Dionne Warwick",
-        "Richard Marx",
-        "Roberta Flack",
-      ],
-      "categories": [
-        "Documentary",
-      ],
-      "classification": "15",
-      "directors": [
-        "Dawn Porter",
-      ],
-      "duration": 6060000,
-      "trailer": "https://www.youtube.com/watch?v=HAQupfsbXfg",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78867/",
-        "notes": "Members preview: Members' only preview screening.",
-        "screen": "Screen 1",
-        "time": 1738261200000,
-      },
-    ],
-    "title": "Luther: Never Too Much",
-    "url": "https://www.curzon.com/films/luther-never-too-much/HO00005935/?siteId=VIC1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "John Magaro",
-        "Peter Sarsgaard",
-        "Leonie Benesch",
-        "Ben Chaplin",
-        "Zinedine Soualem",
-        "Georgina Rich",
-        "Corey Johnson",
-        "Marcus Rutherford",
-        "Daniel Adeosun",
-        "Benjamin Walker",
-        "Ferdinand Dörfler",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "15",
-      "directors": [
-        "Tim Fehlbaum",
-      ],
-      "duration": 5700000,
-      "trailer": "https://www.youtube.com/watch?v=GGBpfkrr8Ms",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78866/",
-        "notes": "Members preview: Members' only preview screening.
-Special Preview: Special Preview Screening",
-        "screen": "Screen 1",
-        "time": 1738693200000,
-      },
-    ],
-    "title": "September 5",
-    "url": "https://www.curzon.com/films/september-5/HO00005877/?siteId=VIC1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "David Tennant",
-        "Cush Jumbo",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "directors": [
-        "Max Webster",
-      ],
-      "duration": 6840000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-76696/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1738780200000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-76697/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1739109600000,
-      },
-    ],
-    "title": "MACBETH: David Tennant & Cush Jumbo",
-    "url": "https://www.curzon.com/films/macbeth-david-tennant-and-cush-jumbo/HO00005788/?siteId=VIC1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Brian Tyree Henry",
-        "Ryan Destiny",
-        "Olunike Adeliyi",
-        "De'Adre Aziza",
-        "Lanette Ware",
-        "Amanda Barker",
-        "Adam Clark",
-        "Bobby Daniels",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "12A",
-      "directors": [
-        "Rachel Morrison",
-      ],
-      "duration": 6540000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78996/",
-        "notes": "",
-        "screen": "Screen 3",
-        "time": 1738949400000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-79002/",
-        "notes": "",
-        "screen": "Screen 3",
-        "time": 1739035800000,
-      },
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-79003/",
-        "notes": "",
-        "screen": "Screen 3",
-        "time": 1739120400000,
-      },
-    ],
-    "title": "The Fire Inside",
-    "url": "https://www.curzon.com/films/the-fire-inside/HO00005882/?siteId=VIC1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Dave Bautista",
-        "Jamie Lee Curtis",
-        "Billie Lourd",
-        "Kiernan Shipka",
-        "Pamela Anderson",
-        "Brenda Song",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "directors": [
-        "Gia Coppola",
-      ],
-      "duration": 5100000,
-      "trailer": "https://www.youtube.com/watch?v=r4xpoKBKrpo",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78133/",
-        "notes": "Recorded Performance: Prerecorded Q&A",
-        "screen": "Screen 1",
-        "time": 1739220000000,
-      },
-    ],
-    "title": "The Last Showgirl",
-    "url": "https://www.curzon.com/films/the-last-showgirl/HO00005898/?siteId=VIC1",
-  },
-  {
-    "overview": {
-      "actors": [
         "Emma Thompson",
         "Hugh Grant",
         "Chiwetel Ejiofor",
@@ -1492,38 +757,6 @@ Special Preview: Special Preview Screening",
   {
     "overview": {
       "actors": [
-        "Brad Pitt",
-        "Harvey Keitel",
-        "Geena Davis",
-        "Michael Madsen",
-        "Susan Sarandon",
-      ],
-      "categories": [
-        "Drama",
-        "Family",
-        "Crime",
-      ],
-      "classification": "15",
-      "directors": [
-        "Ridley Scott",
-      ],
-      "duration": 7800000,
-      "trailer": "https://www.youtube.com/watch?v=g8Uti7PDLnI",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78679/",
-        "notes": "Valentine's Day: Special Valentine's Day Screening",
-        "screen": "Screen 3",
-        "time": 1739469600000,
-      },
-    ],
-    "title": "Thelma & Louise",
-    "url": "https://www.curzon.com/films/thelma-and-louise/HO00005911/?siteId=VIC1",
-  },
-  {
-    "overview": {
-      "actors": [
         "Xosha Roquemore",
         "Danny Ramirez",
         "Harrison Ford",
@@ -1719,58 +952,223 @@ Special Preview: Special Preview Screening",
   {
     "overview": {
       "actors": [
-        "Eliza Scanlen",
-        "Amanda Lawrence",
-        "Hugh Skinner",
-        "Ncuti Gatwa",
-        "Sharon D. Clarke",
+        "Stanley Tucci",
+        "Merab Ninidze",
+        "Lucian Msamati",
+        "Ralph Fiennes",
+        "Isabella Rossellini",
+        "John Lithgow",
+        "Sergio Castellitto",
+        "Brian F. O'Byrne",
+        "Carlos Diehz",
       ],
       "categories": [
-        "Live Opera, Music & Theatre",
+        "Drama",
       ],
-      "classification": "PG",
+      "classification": "12A",
       "directors": [
-        "Max Webster",
+        "Edward Berger",
       ],
-      "duration": 10200000,
-      "trailer": "https://www.youtube.com/watch?v=SkQNuoceik0",
+      "duration": 7200000,
+      "trailer": "https://www.youtube.com/watch?v=Znr38bHNXp4",
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-75584/",
-        "notes": "Recorded Performance: Prerecorded Q&A",
-        "screen": "Screen 2",
-        "time": 1740078000000,
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78744/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 1",
+        "time": 1737657000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78752/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 1",
+        "time": 1737666900000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78880/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1737720900000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78879/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1737742500000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78878/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1737752400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78900/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1737828000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78901/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 1",
+        "time": 1737838800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78915/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season
+Dog Days: Weekly screenings with lowered sound, for dog owners and their canine companions. (Dog lovers without one of their own are also welcome.)",
+        "screen": "Screen 5",
+        "time": 1737891300000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78916/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1737913500000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78917/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1737923400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78931/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1737980100000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78932/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1738001700000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78933/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1738011600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78947/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1738066500000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78946/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1738088100000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78945/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1738098000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78964/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1738152900000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78963/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1738174500000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78962/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1738184400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78981/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 4",
+        "time": 1738238400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78979/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 5",
+        "time": 1738270800000,
       },
     ],
-    "title": "NT Live: The Importance of Being Earnest",
-    "url": "https://www.curzon.com/films/nt-live-the-importance-of-being-earnest/HO00005676/?siteId=VIC1",
+    "title": "Conclave",
+    "url": "https://www.curzon.com/films/conclave/HO00005766/?siteId=VIC1",
   },
   {
     "overview": {
       "actors": [
-        "The Royal Ballet",
-        "Matthew Ball",
-        "Yasmine Naghdi",
+        "Edgar Ramírez",
+        "Zoe Saldana",
+        "Selena Gomez",
+        "Karla Sofía Gascón",
       ],
       "categories": [
-        "Documentary",
+        "Drama",
+        "Crime",
+        "Musical",
       ],
+      "classification": "15",
       "directors": [
-        "Liam Scarlett",
+        "Jacques Audiard",
       ],
-      "duration": 12600000,
+      "duration": 7920000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-73517/",
-        "notes": "Live event: Live Via Satellite",
-        "screen": "Screen 2",
-        "time": 1740683700000,
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78882/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 3",
+        "time": 1737740700000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78899/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 3",
+        "time": 1737810900000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78914/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 3",
+        "time": 1737909000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78930/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 3",
+        "time": 1737984600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78948/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 3",
+        "time": 1738086300000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78965/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 3",
+        "time": 1738157400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78982/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 3",
+        "time": 1738258200000,
       },
     ],
-    "title": "RBO 2024-25: Swan Lake",
-    "url": "https://www.curzon.com/films/rbo-2024-25-swan-lake/HO00005444/?siteId=VIC1",
+    "title": "Emilia Pérez",
+    "url": "https://www.curzon.com/films/emilia-perez/HO00005728/?siteId=VIC1",
   },
   {
     "overview": {
@@ -1796,25 +1194,278 @@ Special Preview: Special Preview Screening",
   },
   {
     "overview": {
-      "actors": [],
+      "actors": [
+        "Michelangelo ",
+        "Peter Abrahams",
+        "Cristine Acidini",
+      ],
       "categories": [
         "Documentary",
       ],
       "directors": [
-        "Kenneth MacMillan",
+        "David Bickerstaff",
       ],
-      "duration": 12600000,
+      "duration": 5400000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-73518/",
-        "notes": "Live event: Live Via Satellite",
-        "screen": "Screen 2",
-        "time": 1742498100000,
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-75416/",
+        "notes": "",
+        "screen": "Screen 1",
+        "time": 1747760400000,
       },
     ],
-    "title": "RBO 2024-25: Romeo and Juliet",
-    "url": "https://www.curzon.com/films/rbo-2024-25-romeo-and-juliet/HO00005445/?siteId=VIC1",
+    "title": "EOS: Michelangelo: Love and Death Encore",
+    "url": "https://www.curzon.com/films/eos-michelangelo-love-and-death-encore/HO00005679/?siteId=VIC1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Jamie Foxx",
+        "Luther Vandross",
+        "Mariah Carey",
+        "Patti LaBelle",
+        "Dionne Warwick",
+        "Richard Marx",
+        "Roberta Flack",
+      ],
+      "categories": [
+        "Documentary",
+      ],
+      "classification": "15",
+      "directors": [
+        "Dawn Porter",
+      ],
+      "duration": 6060000,
+      "trailer": "https://www.youtube.com/watch?v=HAQupfsbXfg",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78867/",
+        "notes": "Members preview: Members' only preview screening.",
+        "screen": "Screen 1",
+        "time": 1738261200000,
+      },
+    ],
+    "title": "Luther: Never Too Much",
+    "url": "https://www.curzon.com/films/luther-never-too-much/HO00005935/?siteId=VIC1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "David Tennant",
+        "Cush Jumbo",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "directors": [
+        "Max Webster",
+      ],
+      "duration": 6840000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-76696/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1738780200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-76697/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1739109600000,
+      },
+    ],
+    "title": "MACBETH: David Tennant & Cush Jumbo",
+    "url": "https://www.curzon.com/films/macbeth-david-tennant-and-cush-jumbo/HO00005788/?siteId=VIC1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Angelina Jolie",
+        "Kodi Smit-McPhee",
+        "Alba Rohrwacher",
+        "Pierfrancesco Favino",
+        "Haluk Bilginer",
+        "VALERIA GOLINO",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "12A",
+      "directors": [
+        "Pablo Larraín",
+      ],
+      "duration": 7380000,
+      "trailer": "https://www.youtube.com/watch?v=mVIXaTdxlQc",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78743/",
+        "notes": "",
+        "screen": "Screen 3",
+        "time": 1737662400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78884/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737720000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78883/",
+        "notes": "",
+        "screen": "Screen 3",
+        "time": 1737751500000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78897/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737806400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78898/",
+        "notes": "",
+        "screen": "Screen 1",
+        "time": 1737818100000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78912/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737891000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78913/",
+        "notes": "",
+        "screen": "Screen 3",
+        "time": 1737919800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78928/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737979200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78929/",
+        "notes": "",
+        "screen": "Screen 3",
+        "time": 1738010700000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78950/",
+        "notes": "Silver Screen: These screenings provide an inclusive and enjoyable cinema experience for senior citizens, where we will be showing classic films as well as recent releases.",
+        "screen": "Screen 2",
+        "time": 1738065600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78949/",
+        "notes": "",
+        "screen": "Screen 3",
+        "time": 1738097100000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78967/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1738152000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78966/",
+        "notes": "",
+        "screen": "Screen 3",
+        "time": 1738183500000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78983/",
+        "notes": "",
+        "screen": "Screen 3",
+        "time": 1738269000000,
+      },
+    ],
+    "title": "Maria",
+    "url": "https://www.curzon.com/films/maria/HO00005855/?siteId=VIC1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Simon McBurney",
+        "Nicholas Hoult",
+        "Ralph Ineson",
+        "Willem Dafoe",
+        "Aaron Taylor-Johnson",
+        "Emma Corrin",
+        "Bill Skarsgård",
+        "Lily-Rose Depp",
+      ],
+      "categories": [
+        "Drama",
+        "Fantasy",
+        "Horror",
+      ],
+      "classification": "15",
+      "directors": [
+        "Robert Eggers",
+      ],
+      "duration": 7920000,
+      "trailer": "https://www.youtube.com/watch?v=Px6S0RxfAHg",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78754/",
+        "notes": "",
+        "screen": "Screen 5",
+        "time": 1737665100000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78887/",
+        "notes": "",
+        "screen": "Screen 5",
+        "time": 1737731700000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78894/",
+        "notes": "",
+        "screen": "Screen 3",
+        "time": 1737837900000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78909/",
+        "notes": "",
+        "screen": "Screen 5",
+        "time": 1737902700000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78925/",
+        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing",
+        "screen": "Screen 5",
+        "time": 1737990900000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78936/",
+        "notes": "",
+        "screen": "Screen 5",
+        "time": 1738077300000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78953/",
+        "notes": "",
+        "screen": "Screen 5",
+        "time": 1738163700000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78970/",
+        "notes": "",
+        "screen": "Screen 5",
+        "time": 1738239300000,
+      },
+    ],
+    "title": "Nosferatu",
+    "url": "https://www.curzon.com/films/nosferatu/HO00005839/?siteId=VIC1",
   },
   {
     "overview": {
@@ -1857,30 +1508,54 @@ Recorded Performance: Prerecorded Q&A",
   {
     "overview": {
       "actors": [
-        "Sondra Radvanovsky",
-        "Adam Palka",
-        "SeokJong Baek",
-        "Anna Princeva",
-        "Hansung Yoo",
+        "Eliza Scanlen",
+        "Amanda Lawrence",
+        "Hugh Skinner",
+        "Ncuti Gatwa",
+        "Sharon D. Clarke",
       ],
       "categories": [
         "Live Opera, Music & Theatre",
       ],
+      "classification": "PG",
       "directors": [
-        "Andrei Serban",
+        "Max Webster",
       ],
-      "duration": 12300000,
+      "duration": 10200000,
+      "trailer": "https://www.youtube.com/watch?v=SkQNuoceik0",
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-73519/",
-        "notes": "Live event: Live Via Satellite",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-75584/",
+        "notes": "Recorded Performance: Prerecorded Q&A",
         "screen": "Screen 2",
-        "time": 1743531300000,
+        "time": 1740078000000,
       },
     ],
-    "title": "RBO 2024-25: Turandot",
-    "url": "https://www.curzon.com/films/rbo-2024-25-turandot/HO00005446/?siteId=VIC1",
+    "title": "NT Live: The Importance of Being Earnest",
+    "url": "https://www.curzon.com/films/nt-live-the-importance-of-being-earnest/HO00005676/?siteId=VIC1",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
+        "Documentary",
+      ],
+      "directors": [
+        "Christopher Wheeldon",
+      ],
+      "duration": 10800000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-73521/",
+        "notes": "Live event: Live Via Satellite",
+        "screen": "Screen 2",
+        "time": 1747937700000,
+      },
+    ],
+    "title": "RBO 2024-25: Ballet To Broadway - Wheeldon Works",
+    "url": "https://www.curzon.com/films/rbo-2024-25-ballet-to-broadway-wheeldon-works/HO00005448/?siteId=VIC1",
   },
   {
     "overview": {
@@ -1913,51 +1588,344 @@ Recorded Performance: Prerecorded Q&A",
   },
   {
     "overview": {
-      "actors": [
-        "Michelangelo ",
-        "Peter Abrahams",
-        "Cristine Acidini",
-      ],
-      "categories": [
-        "Documentary",
-      ],
-      "directors": [
-        "David Bickerstaff",
-      ],
-      "duration": 5400000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-75416/",
-        "notes": "",
-        "screen": "Screen 1",
-        "time": 1747760400000,
-      },
-    ],
-    "title": "EOS: Michelangelo: Love and Death Encore",
-    "url": "https://www.curzon.com/films/eos-michelangelo-love-and-death-encore/HO00005679/?siteId=VIC1",
-  },
-  {
-    "overview": {
       "actors": [],
       "categories": [
         "Documentary",
       ],
       "directors": [
-        "Christopher Wheeldon",
+        "Kenneth MacMillan",
       ],
-      "duration": 10800000,
+      "duration": 12600000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-73521/",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-73518/",
         "notes": "Live event: Live Via Satellite",
         "screen": "Screen 2",
-        "time": 1747937700000,
+        "time": 1742498100000,
       },
     ],
-    "title": "RBO 2024-25: Ballet To Broadway - Wheeldon Works",
-    "url": "https://www.curzon.com/films/rbo-2024-25-ballet-to-broadway-wheeldon-works/HO00005448/?siteId=VIC1",
+    "title": "RBO 2024-25: Romeo and Juliet",
+    "url": "https://www.curzon.com/films/rbo-2024-25-romeo-and-juliet/HO00005445/?siteId=VIC1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "The Royal Ballet",
+        "Matthew Ball",
+        "Yasmine Naghdi",
+      ],
+      "categories": [
+        "Documentary",
+      ],
+      "directors": [
+        "Liam Scarlett",
+      ],
+      "duration": 12600000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-73517/",
+        "notes": "Live event: Live Via Satellite",
+        "screen": "Screen 2",
+        "time": 1740683700000,
+      },
+    ],
+    "title": "RBO 2024-25: Swan Lake",
+    "url": "https://www.curzon.com/films/rbo-2024-25-swan-lake/HO00005444/?siteId=VIC1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Sondra Radvanovsky",
+        "Adam Palka",
+        "SeokJong Baek",
+        "Anna Princeva",
+        "Hansung Yoo",
+      ],
+      "categories": [
+        "Live Opera, Music & Theatre",
+      ],
+      "directors": [
+        "Andrei Serban",
+      ],
+      "duration": 12300000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-73519/",
+        "notes": "Live event: Live Via Satellite",
+        "screen": "Screen 2",
+        "time": 1743531300000,
+      },
+    ],
+    "title": "RBO 2024-25: Turandot",
+    "url": "https://www.curzon.com/films/rbo-2024-25-turandot/HO00005446/?siteId=VIC1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "John Magaro",
+        "Peter Sarsgaard",
+        "Leonie Benesch",
+        "Ben Chaplin",
+        "Zinedine Soualem",
+        "Georgina Rich",
+        "Corey Johnson",
+        "Marcus Rutherford",
+        "Daniel Adeosun",
+        "Benjamin Walker",
+        "Ferdinand Dörfler",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "15",
+      "directors": [
+        "Tim Fehlbaum",
+      ],
+      "duration": 5700000,
+      "trailer": "https://www.youtube.com/watch?v=GGBpfkrr8Ms",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78866/",
+        "notes": "Members preview: Members' only preview screening.
+Special Preview: Special Preview Screening",
+        "screen": "Screen 1",
+        "time": 1738693200000,
+      },
+    ],
+    "title": "September 5",
+    "url": "https://www.curzon.com/films/september-5/HO00005877/?siteId=VIC1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Felicity Jones",
+        "Joe Alwyn",
+        "Stacy Martin",
+        "Alessandro Nivola",
+        "Adrien Brody",
+        "Raffey Cassidy",
+        "Emma Laird",
+        "Isaach De Bankolé",
+        "Guy Pearce",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "18",
+      "directors": [
+        "Brady Corbet",
+      ],
+      "duration": 12900000,
+      "trailer": "https://www.youtube.com/watch?v=hNiwPU5vjCk",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78885/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 3",
+        "time": 1737725400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78654/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737729900000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78653/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737745200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78680/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 2",
+        "time": 1737816300000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78896/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 3",
+        "time": 1737821700000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78655/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737831600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78911/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 3",
+        "time": 1737891900000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78681/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 2",
+        "time": 1737900900000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78656/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737916200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78935/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 2",
+        "time": 1737989100000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78927/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 3",
+        "time": 1737995400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78657/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1738004400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78951/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 3",
+        "time": 1738071000000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78943/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 2",
+        "time": 1738075500000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78658/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1738090800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78960/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 2",
+        "time": 1738161900000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78968/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 3",
+        "time": 1738168200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78659/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1738177200000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78985/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 3",
+        "time": 1738242900000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78977/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
+        "screen": "Screen 1",
+        "time": 1738245600000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78660/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1738261200000,
+      },
+    ],
+    "title": "The Brutalist",
+    "url": "https://www.curzon.com/films/the-brutalist/HO00005872/?siteId=VIC1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Brian Tyree Henry",
+        "Ryan Destiny",
+        "Olunike Adeliyi",
+        "De'Adre Aziza",
+        "Lanette Ware",
+        "Amanda Barker",
+        "Adam Clark",
+        "Bobby Daniels",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "12A",
+      "directors": [
+        "Rachel Morrison",
+      ],
+      "duration": 6540000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78996/",
+        "notes": "",
+        "screen": "Screen 3",
+        "time": 1738949400000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-79002/",
+        "notes": "",
+        "screen": "Screen 3",
+        "time": 1739035800000,
+      },
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-79003/",
+        "notes": "",
+        "screen": "Screen 3",
+        "time": 1739120400000,
+      },
+    ],
+    "title": "The Fire Inside",
+    "url": "https://www.curzon.com/films/the-fire-inside/HO00005882/?siteId=VIC1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Dave Bautista",
+        "Jamie Lee Curtis",
+        "Billie Lourd",
+        "Kiernan Shipka",
+        "Pamela Anderson",
+        "Brenda Song",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "directors": [
+        "Gia Coppola",
+      ],
+      "duration": 5100000,
+      "trailer": "https://www.youtube.com/watch?v=r4xpoKBKrpo",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78133/",
+        "notes": "Recorded Performance: Prerecorded Q&A",
+        "screen": "Screen 1",
+        "time": 1739220000000,
+      },
+    ],
+    "title": "The Last Showgirl",
+    "url": "https://www.curzon.com/films/the-last-showgirl/HO00005898/?siteId=VIC1",
   },
   {
     "overview": {
@@ -1987,6 +1955,38 @@ Recorded Performance: Prerecorded Q&A",
     ],
     "title": "The Met: Live in HD 24-25: Il Barbiere di Siviglia",
     "url": "https://www.curzon.com/films/the-met-live-in-hd-24-25-il-barbiere-di-siviglia/HO00005540/?siteId=VIC1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Brad Pitt",
+        "Harvey Keitel",
+        "Geena Davis",
+        "Michael Madsen",
+        "Susan Sarandon",
+      ],
+      "categories": [
+        "Drama",
+        "Family",
+        "Crime",
+      ],
+      "classification": "15",
+      "directors": [
+        "Ridley Scott",
+      ],
+      "duration": 7800000,
+      "trailer": "https://www.youtube.com/watch?v=g8Uti7PDLnI",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/VIC1-78679/",
+        "notes": "Valentine's Day: Special Valentine's Day Screening",
+        "screen": "Screen 3",
+        "time": 1739469600000,
+      },
+    ],
+    "title": "Thelma & Louise",
+    "url": "https://www.curzon.com/films/thelma-and-louise/HO00005911/?siteId=VIC1",
   },
 ]
 `;

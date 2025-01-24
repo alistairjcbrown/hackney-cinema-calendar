@@ -5,247 +5,6 @@ exports[`East Dulwich Picturehouse & Cafe retrieve and transform 1`] = `
   {
     "overview": {
       "actors": [
-        "Catherine O'Hara",
-        "Mark Hamill",
-        "Lupita Nyong'o",
-        "Bill Nighy",
-        "Kit Connor",
-        "Pedro Pascal",
-        "Ving Rhames",
-        "Stephanie Hsu",
-        "Matt Berry",
-      ],
-      "categories": [],
-      "classification": "U",
-      "directors": [
-        "Chris Sanders",
-      ],
-      "duration": 6120000,
-      "trailer": "https://www.youtube.com/watch?v=N3oENyzAIiw",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52559&visLang=1",
-        "notes": "Kids' Club: Exclusively for children and their parents or carers. Unaccompanied adults are not admitted.",
-        "screen": "One",
-        "time": 1737797400000,
-      },
-    ],
-    "title": "The Wild Robot",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00015245/The-Wild-Robot",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Felicity Jones",
-        "Adrien Brody",
-        "Guy Pearce",
-        "Stacy Martin",
-        "Alessandro Nivola",
-        "Joe Alwyn",
-        "Isaach De Bankolé",
-        "Raffey Cassidy",
-        "Emma Laird",
-      ],
-      "categories": [],
-      "classification": "18",
-      "directors": [
-        "Brady Corbet",
-      ],
-      "duration": 12900000,
-      "trailer": "https://www.youtube.com/watch?v=Ctj427qOHfk",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52399&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
-        "screen": "One",
-        "time": 1737714000000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52398&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "One",
-        "time": 1737730200000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52397&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "One",
-        "time": 1737746400000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52402&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "One",
-        "time": 1737816600000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52400&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "One",
-        "time": 1737832800000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52404&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "One",
-        "time": 1737901200000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52403&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "One",
-        "time": 1737917400000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52407&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "One",
-        "time": 1737972900000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52406&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "One",
-        "time": 1737988800000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52405&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
-        "screen": "One",
-        "time": 1738005300000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52408&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
-        "screen": "One",
-        "time": 1738059300000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52409&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
-        "screen": "One",
-        "time": 1738075200000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52410&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "One",
-        "time": 1738091700000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52412&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "One",
-        "time": 1738161600000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52411&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "One",
-        "time": 1738178100000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52415&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
-        "screen": "One",
-        "time": 1738232100000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52414&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
-        "screen": "One",
-        "time": 1738248000000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52413&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "One",
-        "time": 1738264500000,
-      },
-    ],
-    "title": "The Brutalist",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00015725/The-Brutalist",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "classification": "U",
-      "directors": [],
-      "duration": 1560000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52599&visLang=1",
-        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
-        "screen": "Three",
-        "time": 1737714600000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52579&visLang=1",
-        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
-        "screen": "Two",
-        "time": 1737798300000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52578&visLang=1",
-        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
-        "screen": "Three",
-        "time": 1737800400000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52589&visLang=1",
-        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
-        "screen": "Three",
-        "time": 1737885600000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52588&visLang=1",
-        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
-        "screen": "One",
-        "time": 1737887400000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52598&visLang=1",
-        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
-        "screen": "Three",
-        "time": 1737973800000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52607&visLang=1",
-        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
-        "screen": "Two",
-        "time": 1738060200000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52614&visLang=1",
-        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
-        "screen": "Two",
-        "time": 1738145400000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52624&visLang=1",
-        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
-        "screen": "Three",
-        "time": 1738232100000,
-      },
-    ],
-    "title": "Zog And The Flying Doctors",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00010953/Zog-And-The-Flying-Doctors",
-  },
-  {
-    "overview": {
-      "actors": [
         "Elle Fanning",
         "Edward Norton",
         "Timothée Chalamet",
@@ -438,33 +197,6 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
   {
     "overview": {
       "actors": [
-        "Marianne Jean-Baptiste",
-        "Michele Austin",
-      ],
-      "categories": [],
-      "classification": "12A",
-      "directors": [
-        "Mike Leigh",
-      ],
-      "duration": 5820000,
-      "trailer": "https://www.youtube.com/watch?v=gFuEZfZUKIk",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52637&visLang=1",
-        "notes": "Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.
-Relaxed: Designed to make cinema-going easier for those needing additional support, including neurodivergent audiences and those living with dementia. Lights are left on low, volume is reduced, and the audience is free to move around.",
-        "screen": "Three",
-        "time": 1739185200000,
-      },
-    ],
-    "title": "Relaxed Screening: Hard Truths",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00015832/Relaxed-Screening:-Hard-Truths",
-  },
-  {
-    "overview": {
-      "actors": [
         "Jennifer Grey",
         "Jesse Eisenberg",
         "Will Sharpe",
@@ -492,6 +224,100 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
     ],
     "title": "A Real Pain",
     "url": "https://www.picturehouses.com/movie-details/009/HO00015292/A-Real-Pain",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Kirk Douglas",
+      ],
+      "categories": [],
+      "classification": "U",
+      "directors": [
+        "Billy Wilder",
+      ],
+      "duration": 6660000,
+      "trailer": "https://www.youtube.com/watch?v=zQCp_EEbqZU",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51744&visLang=1",
+        "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
+        "screen": "Three",
+        "time": 1739120400000,
+      },
+    ],
+    "title": "Ace in the Hole",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00003198/Ace-in-the-Hole",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Harris Dickinson",
+        "Nicole Kidman",
+        "Jean Reno",
+        "Antonio Banderas",
+        "Sophie Wilde",
+        "Anoop Desai",
+      ],
+      "categories": [],
+      "classification": "18",
+      "directors": [
+        "Halina Reijn",
+      ],
+      "duration": 6840000,
+      "trailer": "https://www.youtube.com/watch?v=9XXoNB0lVGo",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52566&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
+Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "screen": "Three",
+        "time": 1737730800000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52577&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "Three",
+        "time": 1737804000000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52585&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "Three",
+        "time": 1737890700000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52596&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "Three",
+        "time": 1737990000000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52601&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
+Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.
+Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "screen": "Three",
+        "time": 1738076400000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52613&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "Three",
+        "time": 1738174500000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52619&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
+Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.
+Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "screen": "Three",
+        "time": 1738248300000,
+      },
+    ],
+    "title": "Babygirl",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00015708/Babygirl",
   },
   {
     "overview": {
@@ -728,59 +554,240 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
   {
     "overview": {
       "actors": [
-        "Alexander Vinogradov",
-        "Andrey Zhilikhovsky",
-        "Aigul Akhmetshina",
-        "Jack Swanson",
-        "Peter Kálmán",
+        "Peter Lorre",
+        "Humphrey Bogart",
+        "Ingrid Bergman",
+        "Paul Henreid",
+        "Sydney Greenstreet",
+        "Claude Rains",
       ],
       "categories": [],
-      "classification": "12A",
+      "classification": "U",
       "directors": [
-        "The Metropolitan Opera",
+        "Michael Curtiz",
       ],
-      "duration": 12900000,
+      "duration": 5880000,
     },
     "performances": [
       {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49656&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
-        "screen": "Two",
-        "time": 1748948400000,
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52636&visLang=1",
+        "notes": "",
+        "screen": "Three",
+        "time": 1739631600000,
       },
     ],
-    "title": "Met Opera Encore: Il Barbiere di Siviglia (2025)",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014969/Met-Opera-Encore:-Il-Barbiere-di-Siviglia-(2025)",
+    "title": "Casablanca",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00012475/Casablanca",
   },
   {
     "overview": {
       "actors": [
-        "Sondra Radvanovsky",
-        "Adam Palka",
-        "SeokJong Baek",
-        "Anna Princeva",
-        "Hansung Yoo",
+        "Fred MacMurray",
+        "Barbara Stanwyck",
+        "Porter Hall",
+        "Edward G. Robinson",
+        "Jean Heather",
+        "Richard Gaines",
+        "Byron Barr",
+        "John Philliber",
+      ],
+      "categories": [],
+      "classification": "PG",
+      "directors": [
+        "Billy Wilder",
+      ],
+      "duration": 6300000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51747&visLang=1",
+        "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
+        "screen": "Three",
+        "time": 1740934800000,
+      },
+    ],
+    "title": "Double Indemnity",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00015667/Double-Indemnity",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "directors": [
+        "Ali Ray",
+      ],
+      "duration": 5400000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=50416&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
+Picturehouse Docs: Bringing you the best in new and topical documentaries covering issues around the world.",
+        "screen": "Three",
+        "time": 1742320800000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=50417&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
+Picturehouse Docs: Bringing you the best in new and topical documentaries covering issues around the world.",
+        "screen": "Three",
+        "time": 1742990400000,
+      },
+    ],
+    "title": "Exhibition On Screen: Dawn of Impressionism - Paris 1874",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014995/Exhibition-On-Screen:-Dawn-of-Impressionism-Paris-1874",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Michelangelo",
+        "Peter Abrahams",
+        "Cristine Acidini",
+      ],
+      "categories": [],
+      "directors": [
+        "David Bickerstaff",
+      ],
+      "duration": 5400000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=50418&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
+Picturehouse Docs: Bringing you the best in new and topical documentaries covering issues around the world.",
+        "screen": "Two",
+        "time": 1747762200000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=50419&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
+Picturehouse Docs: Bringing you the best in new and topical documentaries covering issues around the world.",
+        "screen": "Three",
+        "time": 1748430000000,
+      },
+    ],
+    "title": "Exhibition On Screen: Michelangelo: Love and Death (Encore)",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014996/Exhibition-On-Screen:-Michelangelo:-Love-and-Death-(Encore)",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Paul Stewart",
+        "Albert Dekker",
+        "Ralph Meeker",
+        "Juano Hernandez",
+        "Marian Carr",
       ],
       "categories": [],
       "classification": "12A",
       "directors": [
-        "Andrei Serban",
+        "Robert Aldrich",
       ],
-      "duration": 12300000,
+      "duration": 6240000,
     },
     "performances": [
       {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=48959&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled: This show is in the original language and will have English subtitles",
-        "screen": "Two",
-        "time": 1744110000000,
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51745&visLang=1",
+        "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
+        "screen": "Three",
+        "time": 1739725200000,
       },
     ],
-    "title": "RBO Encore: Turandot (2025)",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014795/RBO-Encore:-Turandot-(2025)",
+    "title": "Kiss Me Deadly",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00015665/Kiss-Me-Deadly",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Ray Collins",
+        "Vincent Price",
+        "Gene Tierney",
+        "Jeanne Crain",
+        "Darryl Hickman",
+        "Gene Lockhart",
+        "Chill Wills",
+        "Cornel Wilde",
+        "Mary Philips",
+        "Reed Hadley",
+      ],
+      "categories": [],
+      "classification": "PG",
+      "directors": [
+        "John M. Stahl",
+      ],
+      "duration": 6600000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51742&visLang=1",
+        "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
+        "screen": "Three",
+        "time": 1737910800000,
+      },
+    ],
+    "title": "Leave Her to Heaven",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014860/Leave-Her-to-Heaven",
+  },
+  {
+    "overview": {
+      "actors": [
+        "David Tennant",
+        "Cush Jumbo",
+      ],
+      "categories": [],
+      "classification": "12A",
+      "directors": [
+        "Max Webster",
+      ],
+      "duration": 6840000,
+      "trailer": "https://www.youtube.com/watch?v=zmCvRCHNoxs",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51268&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
+        "screen": "Three",
+        "time": 1738785600000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51147&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
+        "screen": "Two",
+        "time": 1738787400000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52640&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
+        "screen": "One",
+        "time": 1738872000000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52639&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
+        "screen": "Two",
+        "time": 1738958400000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52638&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
+        "screen": "Two",
+        "time": 1739044800000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51148&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
+        "screen": "Two",
+        "time": 1739106000000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52556&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
+        "screen": "Two",
+        "time": 1739390400000,
+      },
+    ],
+    "title": "MACBETH: David Tennant & Cush Jumbo",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00015513/MACBETH:-David-Tennant-and-Cush-Jumbo",
   },
   {
     "overview": {
@@ -834,25 +841,90 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
   },
   {
     "overview": {
-      "actors": [],
+      "actors": [
+        "Quinn Kelsey",
+        "Piotr Beczala",
+        "Angel Blue",
+        "Dmitry Belosselskiy",
+        "Morris Robinson",
+        "Judit Kutasi",
+      ],
       "categories": [],
       "classification": "12A",
       "directors": [
-        "Kenneth MacMillan",
+        "The Metropolitan Opera",
       ],
-      "duration": 12600000,
+      "duration": 13200000,
     },
     "performances": [
       {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=48957&visLang=1",
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49648&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "Two",
-        "time": 1742904000000,
+        "time": 1738065600000,
       },
     ],
-    "title": "RBO Encore: Romeo & Juliet (2025)",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014794/RBO-Encore:-Romeo-and-Juliet-(2025)",
+    "title": "Met Opera Encore: Aida (2025)",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014961/Met-Opera-Encore:-Aida-(2025)",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Lise Davidsen",
+        "René Pape",
+        "Tomasz Konieczny",
+        "Stephen Milling",
+        "Ying Fang",
+        "David Butt Philip",
+        "Magnus Dietrich",
+      ],
+      "categories": [],
+      "classification": "12A",
+      "directors": [
+        "The Metropolitan Opera",
+      ],
+      "duration": 13500000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49650&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
+Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
+        "screen": "Two",
+        "time": 1742299200000,
+      },
+    ],
+    "title": "Met Opera Encore: Fidelio (2025)",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014963/Met-Opera-Encore:-Fidelio-(2025)",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Alexander Vinogradov",
+        "Andrey Zhilikhovsky",
+        "Aigul Akhmetshina",
+        "Jack Swanson",
+        "Peter Kálmán",
+      ],
+      "categories": [],
+      "classification": "12A",
+      "directors": [
+        "The Metropolitan Opera",
+      ],
+      "duration": 12900000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49656&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
+Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
+        "screen": "Two",
+        "time": 1748948400000,
+      },
+    ],
+    "title": "Met Opera Encore: Il Barbiere di Siviglia (2025)",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014969/Met-Opera-Encore:-Il-Barbiere-di-Siviglia-(2025)",
   },
   {
     "overview": {
@@ -887,83 +959,58 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
   {
     "overview": {
       "actors": [
-        "Quinn Kelsey",
-        "Piotr Beczala",
-        "Angel Blue",
-        "Dmitry Belosselskiy",
-        "Morris Robinson",
-        "Judit Kutasi",
+        "Peter Mattei",
+        "Michelle DeYoung",
+        "Elza van den Heever",
+        "Gerhard Siegel",
+        "Piotr Buszewski",
       ],
       "categories": [],
       "classification": "12A",
       "directors": [
         "The Metropolitan Opera",
       ],
-      "duration": 13200000,
+      "duration": 8100000,
     },
     "performances": [
       {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49648&visLang=1",
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49653&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "Two",
-        "time": 1738065600000,
+        "time": 1747501200000,
       },
-    ],
-    "title": "Met Opera Encore: Aida (2025)",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014961/Met-Opera-Encore:-Aida-(2025)",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Christopher Maltman",
-        "Lise Davidsen",
-        "Stanislas de Barbeyrac",
-        "Soloman Howard",
-        "Marina Prudenskaya",
-        "Elisabet Strid",
-      ],
-      "categories": [],
-      "classification": "12A",
-      "directors": [
-        "Barrie Kosky",
-      ],
-      "duration": 21900000,
-    },
-    "performances": [
       {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=48961&visLang=1",
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49654&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled: This show is in the original language and will have English subtitles",
+Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "Two",
-        "time": 1747738800000,
+        "time": 1747825200000,
       },
     ],
-    "title": "RBO Encore: Die Walkure (2025)",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014796/RBO-Encore:-Die-Walkure-(2025)",
+    "title": "Met Opera Encore: Salome (2025)",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014967/Met-Opera-Encore:-Salome-(2025)",
   },
   {
     "overview": {
       "actors": [],
       "categories": [],
       "classification": "12A",
-      "directors": [
-        "Christopher Wheeldon",
-      ],
-      "duration": 10800000,
+      "directors": [],
+      "duration": 13200000,
     },
     "performances": [
       {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=48963&visLang=1",
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49647&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
+Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
+Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "Two",
-        "time": 1748343600000,
+        "time": 1737826200000,
       },
     ],
-    "title": "RBO Encore: Ballet To Broadway: Wheeldon Works (2025)",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014797/RBO-Encore:-Ballet-To-Broadway:-Wheeldon-Works-(2025)",
+    "title": "Met Opera Live: Aida (2025)",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014960/Met-Opera-Live:-Aida-(2025)",
   },
   {
     "overview": {
@@ -985,15 +1032,76 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
     },
     "performances": [
       {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49650&visLang=1",
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49649&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
+Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
+Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "Two",
-        "time": 1742299200000,
+        "time": 1742058000000,
       },
     ],
-    "title": "Met Opera Encore: Fidelio (2025)",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014963/Met-Opera-Encore:-Fidelio-(2025)",
+    "title": "Met Opera Live: Fidelio (2025)",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014962/Met-Opera-Live:-Fidelio-(2025)",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Alexander Vinogradov",
+        "Andrey Zhilikhovsky",
+        "Aigul Akhmetshina",
+        "Jack Swanson",
+        "Peter Kálmán",
+      ],
+      "categories": [],
+      "classification": "12A",
+      "directors": [
+        "The Metropolitan Opera",
+      ],
+      "duration": 12900000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49655&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
+Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
+Live via Satellite: This screening will be streamed live via a Satellite Feed",
+        "screen": "Two",
+        "time": 1748710800000,
+      },
+    ],
+    "title": "Met Opera Live: Il Barbiere di Siviglia (2025)",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014968/Met-Opera-Live:-Il-Barbiere-di-Siviglia-(2025)",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Maurizio Muraro",
+        "Joshua Hopkins",
+        "Marianne Crebassa",
+        "Federica Lombardi",
+        "Michael Sumuel",
+        "Olga Kulchynska",
+        "Elizabeth Bishop",
+      ],
+      "categories": [],
+      "classification": "12A",
+      "directors": [
+        "The Metropolitan Opera",
+      ],
+      "duration": 14100000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49651&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
+Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
+Live via Satellite: This screening will be streamed live via a Satellite Feed",
+        "screen": "Two",
+        "time": 1745686800000,
+      },
+    ],
+    "title": "Met Opera Live: Le Nozze di Figaro (2025)",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014964/Met-Opera-Live:-Le-Nozze-di-Figaro-(2025)",
   },
   {
     "overview": {
@@ -1038,159 +1146,6 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
   },
   {
     "overview": {
-      "actors": [
-        "Harris Dickinson",
-        "Nicole Kidman",
-        "Jean Reno",
-        "Antonio Banderas",
-        "Sophie Wilde",
-        "Anoop Desai",
-      ],
-      "categories": [],
-      "classification": "18",
-      "directors": [
-        "Halina Reijn",
-      ],
-      "duration": 6840000,
-      "trailer": "https://www.youtube.com/watch?v=9XXoNB0lVGo",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52566&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
-        "screen": "Three",
-        "time": 1737730800000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52577&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "Three",
-        "time": 1737804000000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52585&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "Three",
-        "time": 1737890700000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52596&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "Three",
-        "time": 1737990000000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52601&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
-        "screen": "Three",
-        "time": 1738076400000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52613&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "Three",
-        "time": 1738174500000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52619&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
-        "screen": "Three",
-        "time": 1738248300000,
-      },
-    ],
-    "title": "Babygirl",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00015708/Babygirl",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Peter Lorre",
-        "Humphrey Bogart",
-        "Ingrid Bergman",
-        "Paul Henreid",
-        "Sydney Greenstreet",
-        "Claude Rains",
-      ],
-      "categories": [],
-      "classification": "U",
-      "directors": [
-        "Michael Curtiz",
-      ],
-      "duration": 5880000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52636&visLang=1",
-        "notes": "",
-        "screen": "Three",
-        "time": 1739631600000,
-      },
-    ],
-    "title": "Casablanca",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00012475/Casablanca",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Christopher Maltman",
-        "Lise Davidsen",
-        "Stanislas de Barbeyrac",
-        "Soloman Howard",
-        "Marina Prudenskaya",
-        "Elisabet Strid",
-      ],
-      "categories": [],
-      "classification": "12A",
-      "directors": [
-        "Barrie Kosky",
-      ],
-      "duration": 21900000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=48960&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled: This show is in the original language and will have English subtitles
-Live via Satellite: This screening will be streamed live via a Satellite Feed",
-        "screen": "Two",
-        "time": 1747238400000,
-      },
-    ],
-    "title": "RBO Live: Die Walkure (2025)",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014746/RBO-Live:-Die-Walkure-(2025)",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Kirk Douglas",
-      ],
-      "categories": [],
-      "classification": "U",
-      "directors": [
-        "Billy Wilder",
-      ],
-      "duration": 6660000,
-      "trailer": "https://www.youtube.com/watch?v=zQCp_EEbqZU",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51744&visLang=1",
-        "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
-        "screen": "Three",
-        "time": 1739120400000,
-      },
-    ],
-    "title": "Ace in the Hole",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00003198/Ace-in-the-Hole",
-  },
-  {
-    "overview": {
       "actors": [],
       "categories": [],
       "classification": "PG",
@@ -1207,174 +1162,6 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     ],
     "title": "Night and the City (1950)",
     "url": "https://www.picturehouses.com/movie-details/009/HO00015666/Night-and-the-City-(1950)",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Fred MacMurray",
-        "Barbara Stanwyck",
-        "Porter Hall",
-        "Edward G. Robinson",
-        "Jean Heather",
-        "Richard Gaines",
-        "Byron Barr",
-        "John Philliber",
-      ],
-      "categories": [],
-      "classification": "PG",
-      "directors": [
-        "Billy Wilder",
-      ],
-      "duration": 6300000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51747&visLang=1",
-        "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
-        "screen": "Three",
-        "time": 1740934800000,
-      },
-    ],
-    "title": "Double Indemnity",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00015667/Double-Indemnity",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Ray Collins",
-        "Vincent Price",
-        "Gene Tierney",
-        "Jeanne Crain",
-        "Darryl Hickman",
-        "Gene Lockhart",
-        "Chill Wills",
-        "Cornel Wilde",
-        "Mary Philips",
-        "Reed Hadley",
-      ],
-      "categories": [],
-      "classification": "PG",
-      "directors": [
-        "John M. Stahl",
-      ],
-      "duration": 6600000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51742&visLang=1",
-        "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
-        "screen": "Three",
-        "time": 1737910800000,
-      },
-    ],
-    "title": "Leave Her to Heaven",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014860/Leave-Her-to-Heaven",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Lise Davidsen",
-        "René Pape",
-        "Tomasz Konieczny",
-        "Stephen Milling",
-        "Ying Fang",
-        "David Butt Philip",
-        "Magnus Dietrich",
-      ],
-      "categories": [],
-      "classification": "12A",
-      "directors": [
-        "The Metropolitan Opera",
-      ],
-      "duration": 13500000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49649&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Live via Satellite: This screening will be streamed live via a Satellite Feed",
-        "screen": "Two",
-        "time": 1742058000000,
-      },
-    ],
-    "title": "Met Opera Live: Fidelio (2025)",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014962/Met-Opera-Live:-Fidelio-(2025)",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Paul Stewart",
-        "Albert Dekker",
-        "Ralph Meeker",
-        "Juano Hernandez",
-        "Marian Carr",
-      ],
-      "categories": [],
-      "classification": "12A",
-      "directors": [
-        "Robert Aldrich",
-      ],
-      "duration": 6240000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51745&visLang=1",
-        "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
-        "screen": "Three",
-        "time": 1739725200000,
-      },
-    ],
-    "title": "Kiss Me Deadly",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00015665/Kiss-Me-Deadly",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Glenn Ford",
-        "Gloria Grahame",
-        "Lee Marvin",
-        "Jocelyn Brando",
-      ],
-      "categories": [],
-      "classification": "15",
-      "directors": [
-        "Fritz Lang",
-      ],
-      "duration": 5220000,
-      "trailer": "https://www.youtube.com/watch?v=ULTeMBUeA7I",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51743&visLang=1",
-        "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
-        "screen": "Three",
-        "time": 1738516800000,
-      },
-    ],
-    "title": "The Big Heat",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00015664/The-Big-Heat",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "classification": "12A",
-      "directors": [],
-      "duration": 13200000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49647&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Live via Satellite: This screening will be streamed live via a Satellite Feed",
-        "screen": "Two",
-        "time": 1737826200000,
-      },
-    ],
-    "title": "Met Opera Live: Aida (2025)",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014960/Met-Opera-Live:-Aida-(2025)",
   },
   {
     "overview": {
@@ -1445,158 +1232,49 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
   },
   {
     "overview": {
-      "actors": [],
-      "categories": [],
-      "directors": [
-        "Ali Ray",
-      ],
-      "duration": 5400000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=50416&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Picturehouse Docs: Bringing you the best in new and topical documentaries covering issues around the world.",
-        "screen": "Three",
-        "time": 1742320800000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=50417&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Picturehouse Docs: Bringing you the best in new and topical documentaries covering issues around the world.",
-        "screen": "Three",
-        "time": 1742990400000,
-      },
-    ],
-    "title": "Exhibition On Screen: Dawn of Impressionism - Paris 1874",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014995/Exhibition-On-Screen:-Dawn-of-Impressionism-Paris-1874",
-  },
-  {
-    "overview": {
       "actors": [
-        "Peter Mattei",
-        "Michelle DeYoung",
-        "Elza van den Heever",
-        "Gerhard Siegel",
-        "Piotr Buszewski",
+        "Steve Coogan",
+        "Tony Jayawardena",
+        "Dharmesh Patel",
+        "John Hopkins",
+        "Giles Terera",
       ],
       "categories": [],
-      "classification": "12A",
+      "classification": "15",
       "directors": [
-        "The Metropolitan Opera",
+        "Sean Foley",
       ],
-      "duration": 8100000,
+      "duration": 9000000,
     },
     "performances": [
       {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49653&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51839&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "Two",
-        "time": 1747501200000,
+        "time": 1743105600000,
       },
       {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49654&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51840&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "Two",
-        "time": 1747825200000,
+        "time": 1743192000000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51841&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
+        "screen": "Two",
+        "time": 1743336000000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51842&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
+Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "screen": "Two",
+        "time": 1743508800000,
       },
     ],
-    "title": "Met Opera Encore: Salome (2025)",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014967/Met-Opera-Encore:-Salome-(2025)",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Alexander Vinogradov",
-        "Andrey Zhilikhovsky",
-        "Aigul Akhmetshina",
-        "Jack Swanson",
-        "Peter Kálmán",
-      ],
-      "categories": [],
-      "classification": "12A",
-      "directors": [
-        "The Metropolitan Opera",
-      ],
-      "duration": 12900000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49655&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Live via Satellite: This screening will be streamed live via a Satellite Feed",
-        "screen": "Two",
-        "time": 1748710800000,
-      },
-    ],
-    "title": "Met Opera Live: Il Barbiere di Siviglia (2025)",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014968/Met-Opera-Live:-Il-Barbiere-di-Siviglia-(2025)",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Maurizio Muraro",
-        "Joshua Hopkins",
-        "Marianne Crebassa",
-        "Federica Lombardi",
-        "Michael Sumuel",
-        "Olga Kulchynska",
-        "Elizabeth Bishop",
-      ],
-      "categories": [],
-      "classification": "12A",
-      "directors": [
-        "The Metropolitan Opera",
-      ],
-      "duration": 14100000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=49651&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Live via Satellite: This screening will be streamed live via a Satellite Feed",
-        "screen": "Two",
-        "time": 1745686800000,
-      },
-    ],
-    "title": "Met Opera Live: Le Nozze di Figaro (2025)",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014964/Met-Opera-Live:-Le-Nozze-di-Figaro-(2025)",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Michelangelo",
-        "Peter Abrahams",
-        "Cristine Acidini",
-      ],
-      "categories": [],
-      "directors": [
-        "David Bickerstaff",
-      ],
-      "duration": 5400000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=50418&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Picturehouse Docs: Bringing you the best in new and topical documentaries covering issues around the world.",
-        "screen": "Two",
-        "time": 1747762200000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=50419&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Picturehouse Docs: Bringing you the best in new and topical documentaries covering issues around the world.",
-        "screen": "Three",
-        "time": 1748430000000,
-      },
-    ],
-    "title": "Exhibition On Screen: Michelangelo: Love and Death (Encore)",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00014996/Exhibition-On-Screen:-Michelangelo:-Love-and-Death-(Encore)",
+    "title": "NT Live: Dr. Strangelove",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00015724/NT-Live:-Dr.-Strangelove",
   },
   {
     "overview": {
@@ -1639,6 +1317,176 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
   },
   {
     "overview": {
+      "actors": [
+        "Lucy Liu",
+        "Lucas Papaelias",
+        "Chris Sullivan",
+        "Julia Fox",
+        "Callina Liang",
+        "West Mulholland",
+        "Eddy Maday",
+      ],
+      "categories": [],
+      "classification": "15",
+      "directors": [
+        "Steven Soderbergh",
+      ],
+      "duration": 5100000,
+      "trailer": "https://www.youtube.com/watch?v=JnouQ4TFCMs",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52560&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "Three",
+        "time": 1737752400000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52571&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "Two",
+        "time": 1737840600000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52580&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "Two",
+        "time": 1737912300000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52590&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
+Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "screen": "Three",
+        "time": 1738011600000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52602&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "Three",
+        "time": 1738098000000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52615&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "Three",
+        "time": 1738185000000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52621&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "Three",
+        "time": 1738270200000,
+      },
+    ],
+    "title": "Presence",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00015541/Presence",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "12A",
+      "directors": [
+        "Christopher Wheeldon",
+      ],
+      "duration": 10800000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=48963&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
+Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
+        "screen": "Two",
+        "time": 1748343600000,
+      },
+    ],
+    "title": "RBO Encore: Ballet To Broadway: Wheeldon Works (2025)",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014797/RBO-Encore:-Ballet-To-Broadway:-Wheeldon-Works-(2025)",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Christopher Maltman",
+        "Lise Davidsen",
+        "Stanislas de Barbeyrac",
+        "Soloman Howard",
+        "Marina Prudenskaya",
+        "Elisabet Strid",
+      ],
+      "categories": [],
+      "classification": "12A",
+      "directors": [
+        "Barrie Kosky",
+      ],
+      "duration": 21900000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=48961&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
+Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
+Subtitled: This show is in the original language and will have English subtitles",
+        "screen": "Two",
+        "time": 1747738800000,
+      },
+    ],
+    "title": "RBO Encore: Die Walkure (2025)",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014796/RBO-Encore:-Die-Walkure-(2025)",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "12A",
+      "directors": [
+        "Kenneth MacMillan",
+      ],
+      "duration": 12600000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=48957&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
+Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
+        "screen": "Two",
+        "time": 1742904000000,
+      },
+    ],
+    "title": "RBO Encore: Romeo & Juliet (2025)",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014794/RBO-Encore:-Romeo-and-Juliet-(2025)",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Sondra Radvanovsky",
+        "Adam Palka",
+        "SeokJong Baek",
+        "Anna Princeva",
+        "Hansung Yoo",
+      ],
+      "categories": [],
+      "classification": "12A",
+      "directors": [
+        "Andrei Serban",
+      ],
+      "duration": 12300000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=48959&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
+Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
+Subtitled: This show is in the original language and will have English subtitles",
+        "screen": "Two",
+        "time": 1744110000000,
+      },
+    ],
+    "title": "RBO Encore: Turandot (2025)",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014795/RBO-Encore:-Turandot-(2025)",
+  },
+  {
+    "overview": {
       "actors": [],
       "categories": [],
       "classification": "12A",
@@ -1659,6 +1507,37 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     ],
     "title": "RBO Live: Ballet To Broadway: Wheeldon Works (2025)",
     "url": "https://www.picturehouses.com/movie-details/009/HO00014747/RBO-Live:-Ballet-To-Broadway:-Wheeldon-Works-(2025)",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Christopher Maltman",
+        "Lise Davidsen",
+        "Stanislas de Barbeyrac",
+        "Soloman Howard",
+        "Marina Prudenskaya",
+        "Elisabet Strid",
+      ],
+      "categories": [],
+      "classification": "12A",
+      "directors": [
+        "Barrie Kosky",
+      ],
+      "duration": 21900000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=48960&visLang=1",
+        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
+Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
+Subtitled: This show is in the original language and will have English subtitles
+Live via Satellite: This screening will be streamed live via a Satellite Feed",
+        "screen": "Two",
+        "time": 1747238400000,
+      },
+    ],
+    "title": "RBO Live: Die Walkure (2025)",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00014746/RBO-Live:-Die-Walkure-(2025)",
   },
   {
     "overview": {
@@ -1748,109 +1627,198 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
   {
     "overview": {
       "actors": [
-        "David Tennant",
-        "Cush Jumbo",
+        "Marianne Jean-Baptiste",
+        "Michele Austin",
       ],
       "categories": [],
       "classification": "12A",
       "directors": [
-        "Max Webster",
+        "Mike Leigh",
       ],
-      "duration": 6840000,
-      "trailer": "https://www.youtube.com/watch?v=zmCvRCHNoxs",
+      "duration": 5820000,
+      "trailer": "https://www.youtube.com/watch?v=gFuEZfZUKIk",
     },
     "performances": [
       {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51268&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52637&visLang=1",
+        "notes": "Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
+Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.
+Relaxed: Designed to make cinema-going easier for those needing additional support, including neurodivergent audiences and those living with dementia. Lights are left on low, volume is reduced, and the audience is free to move around.",
         "screen": "Three",
-        "time": 1738785600000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51147&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
-        "screen": "Two",
-        "time": 1738787400000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52640&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
-        "screen": "One",
-        "time": 1738872000000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52639&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
-        "screen": "Two",
-        "time": 1738958400000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52638&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
-        "screen": "Two",
-        "time": 1739044800000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51148&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
-        "screen": "Two",
-        "time": 1739106000000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52556&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
-        "screen": "Two",
-        "time": 1739390400000,
+        "time": 1739185200000,
       },
     ],
-    "title": "MACBETH: David Tennant & Cush Jumbo",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00015513/MACBETH:-David-Tennant-and-Cush-Jumbo",
+    "title": "Relaxed Screening: Hard Truths",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00015832/Relaxed-Screening:-Hard-Truths",
   },
   {
     "overview": {
       "actors": [
-        "Steve Coogan",
-        "Tony Jayawardena",
-        "Dharmesh Patel",
-        "John Hopkins",
-        "Giles Terera",
+        "Glenn Ford",
+        "Gloria Grahame",
+        "Lee Marvin",
+        "Jocelyn Brando",
       ],
       "categories": [],
       "classification": "15",
       "directors": [
-        "Sean Foley",
+        "Fritz Lang",
       ],
-      "duration": 9000000,
+      "duration": 5220000,
+      "trailer": "https://www.youtube.com/watch?v=ULTeMBUeA7I",
     },
     "performances": [
       {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51839&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
-        "screen": "Two",
-        "time": 1743105600000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51840&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
-        "screen": "Two",
-        "time": 1743192000000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51841&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
-        "screen": "Two",
-        "time": 1743336000000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51842&visLang=1",
-        "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
-        "screen": "Two",
-        "time": 1743508800000,
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=51743&visLang=1",
+        "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
+        "screen": "Three",
+        "time": 1738516800000,
       },
     ],
-    "title": "NT Live: Dr. Strangelove",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00015724/NT-Live:-Dr.-Strangelove",
+    "title": "The Big Heat",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00015664/The-Big-Heat",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Felicity Jones",
+        "Adrien Brody",
+        "Guy Pearce",
+        "Stacy Martin",
+        "Alessandro Nivola",
+        "Joe Alwyn",
+        "Isaach De Bankolé",
+        "Raffey Cassidy",
+        "Emma Laird",
+      ],
+      "categories": [],
+      "classification": "18",
+      "directors": [
+        "Brady Corbet",
+      ],
+      "duration": 12900000,
+      "trailer": "https://www.youtube.com/watch?v=Ctj427qOHfk",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52399&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
+Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "screen": "One",
+        "time": 1737714000000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52398&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "One",
+        "time": 1737730200000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52397&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "One",
+        "time": 1737746400000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52402&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "One",
+        "time": 1737816600000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52400&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "One",
+        "time": 1737832800000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52404&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "One",
+        "time": 1737901200000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52403&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "One",
+        "time": 1737917400000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52407&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "One",
+        "time": 1737972900000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52406&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "One",
+        "time": 1737988800000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52405&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
+Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "screen": "One",
+        "time": 1738005300000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52408&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
+Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "screen": "One",
+        "time": 1738059300000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52409&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
+Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.
+Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "screen": "One",
+        "time": 1738075200000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52410&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "One",
+        "time": 1738091700000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52412&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "One",
+        "time": 1738161600000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52411&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "One",
+        "time": 1738178100000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52415&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
+Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.
+Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "screen": "One",
+        "time": 1738232100000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52414&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
+Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "screen": "One",
+        "time": 1738248000000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52413&visLang=1",
+        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "screen": "One",
+        "time": 1738264500000,
+      },
+    ],
+    "title": "The Brutalist",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00015725/The-Brutalist",
   },
   {
     "overview": {
@@ -1884,69 +1852,101 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
   {
     "overview": {
       "actors": [
-        "Lucy Liu",
-        "Lucas Papaelias",
-        "Chris Sullivan",
-        "Julia Fox",
-        "Callina Liang",
-        "West Mulholland",
-        "Eddy Maday",
+        "Catherine O'Hara",
+        "Mark Hamill",
+        "Lupita Nyong'o",
+        "Bill Nighy",
+        "Kit Connor",
+        "Pedro Pascal",
+        "Ving Rhames",
+        "Stephanie Hsu",
+        "Matt Berry",
       ],
       "categories": [],
-      "classification": "15",
+      "classification": "U",
       "directors": [
-        "Steven Soderbergh",
+        "Chris Sanders",
       ],
-      "duration": 5100000,
-      "trailer": "https://www.youtube.com/watch?v=JnouQ4TFCMs",
+      "duration": 6120000,
+      "trailer": "https://www.youtube.com/watch?v=N3oENyzAIiw",
     },
     "performances": [
       {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52560&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "Three",
-        "time": 1737752400000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52571&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "Two",
-        "time": 1737840600000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52580&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "Two",
-        "time": 1737912300000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52590&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
-        "screen": "Three",
-        "time": 1738011600000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52602&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "Three",
-        "time": 1738098000000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52615&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "Three",
-        "time": 1738185000000,
-      },
-      {
-        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52621&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
-        "screen": "Three",
-        "time": 1738270200000,
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52559&visLang=1",
+        "notes": "Kids' Club: Exclusively for children and their parents or carers. Unaccompanied adults are not admitted.",
+        "screen": "One",
+        "time": 1737797400000,
       },
     ],
-    "title": "Presence",
-    "url": "https://www.picturehouses.com/movie-details/009/HO00015541/Presence",
+    "title": "The Wild Robot",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00015245/The-Wild-Robot",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "U",
+      "directors": [],
+      "duration": 1560000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52599&visLang=1",
+        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
+        "screen": "Three",
+        "time": 1737714600000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52579&visLang=1",
+        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
+        "screen": "Two",
+        "time": 1737798300000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52578&visLang=1",
+        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
+        "screen": "Three",
+        "time": 1737800400000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52589&visLang=1",
+        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
+        "screen": "Three",
+        "time": 1737885600000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52588&visLang=1",
+        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
+        "screen": "One",
+        "time": 1737887400000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52598&visLang=1",
+        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
+        "screen": "Three",
+        "time": 1737973800000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52607&visLang=1",
+        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
+        "screen": "Two",
+        "time": 1738060200000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52614&visLang=1",
+        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
+        "screen": "Two",
+        "time": 1738145400000,
+      },
+      {
+        "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=009&txtSessionId=52624&visLang=1",
+        "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
+        "screen": "Three",
+        "time": 1738232100000,
+      },
+    ],
+    "title": "Zog And The Flying Doctors",
+    "url": "https://www.picturehouses.com/movie-details/009/HO00010953/Zog-And-The-Flying-Doctors",
   },
 ]
 `;

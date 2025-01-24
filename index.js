@@ -14,7 +14,7 @@ const {
   getEventDate,
   parseMinsToMs,
   sanitize,
-  filterHistoricalPerformances,
+  sortAndFilterMovies,
 } = require("./common/utils");
 const schema = require("./schema.json");
 
@@ -57,7 +57,7 @@ async function generateCalendar(cinema) {
   let shows;
   try {
     const start = Date.now();
-    shows = filterHistoricalPerformances(await transform(data, sourcedEvents));
+    shows = sortAndFilterMovies(await transform(data, sourcedEvents));
     console.log(
       `\t✅ Transformed (${Math.round((Date.now() - start) / 1000)}s)`,
     );

@@ -5,308 +5,6 @@ exports[`ODEON Luxe West End retrieve and transform 1`] = `
   {
     "overview": {
       "actors": [
-        "Jeff Goldblum",
-        "Keala Settle",
-        "Bowen Yang",
-        "Ariana Grande",
-        "Marissa Bode",
-        "Jonathan Bailey",
-        "Bronwyn James",
-        "Ethan Slater",
-        "Peter Dinklage",
-        "Michelle Yeoh",
-        "Cynthia Erivo",
-      ],
-      "categories": [
-        "Fantasy",
-        "Musical ",
-        "Romance",
-      ],
-      "classification": "PG",
-      "directors": [
-        "Jon M. Chu",
-      ],
-      "duration": 9660000,
-      "trailer": "https://www.youtube.com/watch?v=OlwRRxY5VHo",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9107",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1737727200000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9108",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1737813600000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9116",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1737895800000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9133",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738080900000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9139",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738167300000,
-      },
-    ],
-    "title": "Wicked",
-    "url": "https://www.odeon.co.uk/films/wicked/HO00005779/?siteId=155",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Alison Steadman",
-        "Robbie Williams",
-        "Anthony Hayes",
-        "Steve Pemberton",
-        "Kate Mulvany",
-        "Jonno Davies",
-        "Raechelle Banno",
-        "Damon Herriman",
-      ],
-      "categories": [
-        "Biography",
-        "Musical ",
-      ],
-      "classification": "15",
-      "directors": [
-        "Michael Gracey",
-      ],
-      "duration": 8100000,
-      "trailer": "https://www.youtube.com/watch?v=4yh9HY90tp8",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9106",
-        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-Laser
-Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
-        "time": 1737733200000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9109",
-        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-Laser
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
-        "time": 1737822600000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9117",
-        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-Laser
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
-        "time": 1737911400000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9131",
-        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-Laser
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
-        "time": 1738086300000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9137",
-        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
-Laser
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
-        "time": 1738172700000,
-      },
-    ],
-    "title": "Better Man",
-    "url": "https://www.odeon.co.uk/films/better-man/HO00006516/?siteId=155",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Aaron Taylor-Johnson",
-        "Lily-Rose Depp",
-        "Bill Skarsgård",
-        "Emma Corrin",
-        "Ralph Ineson",
-        "Willem Dafoe",
-        "Nicholas Hoult",
-        "Simon McBurney",
-      ],
-      "categories": [
-        "Drama",
-        "Fantasy",
-        "Horror",
-      ],
-      "classification": "15",
-      "directors": [
-        "Robert Eggers",
-      ],
-      "duration": 7920000,
-      "trailer": "https://www.youtube.com/watch?v=Px6S0RxfAHg",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9103",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1737739800000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9104",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1737751200000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9112",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1737826200000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9111",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1737837600000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9119",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1737908400000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9115",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1737919800000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9127",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1737985500000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9125",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Laser
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
-        "time": 1737999900000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9128",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738070100000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9130",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738093500000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9134",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738156500000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9136",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738179900000,
-      },
-    ],
-    "title": "Nosferatu",
-    "url": "https://www.odeon.co.uk/films/nosferatu/HO00006545/?siteId=155",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Christopher Abbott",
-        "Sam Jaeger",
-        "Matilda Firth",
-        "Ben Prendergast",
-        "Zac Chandler",
-        "Beatriz Romilly",
-        "Milo Cawthorne",
-        "Benedict Hardie",
-        "Julia Garner",
-      ],
-      "categories": [
-        "Horror",
-      ],
-      "classification": "15",
-      "directors": [
-        "Leigh Whannell",
-      ],
-      "duration": 6180000,
-      "trailer": "https://www.youtube.com/watch?v=XEJWxrPGKYA",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9114",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Laser
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
-        "time": 1737753600000,
-      },
-    ],
-    "title": "Wolf Man",
-    "url": "https://www.odeon.co.uk/films/wolf-man/HO00006547/?siteId=155",
-  },
-  {
-    "overview": {
-      "actors": [
         "Jean Reno",
         "Sophie Wilde",
         "Anoop Desai",
@@ -415,264 +113,71 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
   {
     "overview": {
       "actors": [
-        "Seth Rogen",
-        "Aaron Pierre",
-        "Lennie James",
-        "Anika Noni Rose",
-        "Kagiso Lediga",
-        "Blue Ivy Carter",
-        "Thandiwe Newton",
-        "Tiffany Boone",
-        "Preston Nyman",
-        "Keith David",
-        "Kelvin Harrison Jr.",
-        "Mads Mikkelsen",
-        "Beyoncé Knowles-Carter",
-        "Billy Eichner",
-        "John Kani",
+        "Alison Steadman",
+        "Robbie Williams",
+        "Anthony Hayes",
+        "Steve Pemberton",
+        "Kate Mulvany",
+        "Jonno Davies",
+        "Raechelle Banno",
+        "Damon Herriman",
       ],
       "categories": [
-        "Animation",
-        "Drama",
-        "Family",
-      ],
-      "classification": "PG",
-      "directors": [
-        "Barry Jenkins",
-      ],
-      "duration": 7080000,
-      "trailer": "https://www.youtube.com/watch?v=g8N7zH9w0XI",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9113",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1737803700000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9121",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Laser
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
-        "time": 1737891000000,
-      },
-    ],
-    "title": "Mufasa: The Lion King",
-    "url": "https://www.odeon.co.uk/films/mufasa-the-lion-king/HO00005774/?siteId=155",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Chow Yun-Fat",
-        "Sam Hayden-Smith",
-        "Baoqiang Wang",
-        "Tony Jaa",
-        "Haoran Liu",
-      ],
-      "categories": [
-        "Comedy",
-        "Drama",
-        "Subtitled Foreign Language",
-      ],
-      "directors": [
-        "Mo Dai",
-        "Sicheng Chen",
-      ],
-      "duration": 8220000,
-      "trailer": "https://www.youtube.com/watch?v=7M9uRxxBkU8",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9143",
-        "notes": "Laser
-Mandarin (Audio)
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
-        "time": 1738237200000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9041",
-        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Mandarin (Audio)
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738244700000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9140",
-        "notes": "Laser
-Mandarin (Audio)
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
-        "time": 1738248600000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9040",
-        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Mandarin (Audio)
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738256400000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9141",
-        "notes": "Laser
-Mandarin (Audio)
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
-        "time": 1738260000000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9039",
-        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Mandarin (Audio)
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738268100000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9142",
-        "notes": "Laser
-Mandarin (Audio)
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
-        "time": 1738271400000,
-      },
-    ],
-    "title": "Detective Chinatown 1900 (Mandarin)",
-    "url": "https://www.odeon.co.uk/films/detective-chinatown-1900-mandarin/HO00006737/?siteId=155",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Jack Quaid",
-        "Harvey Guillén",
-        "Lukas Gage",
-        "Sophie Thatcher",
-        "Megan Suri",
-        "Marc Menchaca",
-        "Woody Fu",
-        "Rupert Friend",
-      ],
-      "categories": [
-        "Horror",
-        "Thriller",
-        "Sci-Fi",
+        "Biography",
+        "Musical ",
       ],
       "classification": "15",
       "directors": [
-        "Drew Hancock",
+        "Michael Gracey",
       ],
-      "duration": 5820000,
+      "duration": 8100000,
+      "trailer": "https://www.youtube.com/watch?v=4yh9HY90tp8",
     },
     "performances": [
       {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9161",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9106",
+        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
+Laser
+Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738346400000,
+        "screen": "Screen 2",
+        "time": 1737733200000,
       },
       {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9162",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9109",
+        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
+Laser
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738355400000,
+        "screen": "Screen 2",
+        "time": 1737822600000,
       },
       {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9164",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9117",
+        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
+Laser
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738432800000,
+        "screen": "Screen 2",
+        "time": 1737911400000,
       },
       {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9165",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9131",
+        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
+Laser
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738441800000,
+        "screen": "Screen 2",
+        "time": 1738086300000,
       },
       {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9166",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9137",
+        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
+Laser
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738519200000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9167",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738528200000,
+        "screen": "Screen 2",
+        "time": 1738172700000,
       },
     ],
-    "title": "Companion",
-    "url": "https://www.odeon.co.uk/films/companion/HO00006658/?siteId=155",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Guy Pearce",
-        "Adrien Brody",
-        "Isaach De Bankolé",
-        "Stacy Martin",
-        "Emma Laird",
-        "Raffey Cassidy",
-        "Joe Alwyn",
-        "Felicity Jones",
-        "Alessandro Nivola",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "18",
-      "directors": [
-        "Brady Corbet",
-      ],
-      "duration": 12900000,
-      "trailer": "https://www.youtube.com/watch?v=hNiwPU5vjCk",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9176",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1738954800000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9177",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1739041200000,
-      },
-      {
-        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9178",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
-Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 1",
-        "time": 1739126700000,
-      },
-    ],
-    "title": "The Brutalist",
-    "url": "https://www.odeon.co.uk/films/the-brutalist/HO00006613/?siteId=155",
+    "title": "Better Man",
+    "url": "https://www.odeon.co.uk/films/better-man/HO00006516/?siteId=155",
   },
   {
     "overview": {
@@ -896,6 +401,501 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
     ],
     "title": "Captain America: Brave New World",
     "url": "https://www.odeon.co.uk/films/captain-america-brave-new-world/HO00006617/?siteId=155",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Jack Quaid",
+        "Harvey Guillén",
+        "Lukas Gage",
+        "Sophie Thatcher",
+        "Megan Suri",
+        "Marc Menchaca",
+        "Woody Fu",
+        "Rupert Friend",
+      ],
+      "categories": [
+        "Horror",
+        "Thriller",
+        "Sci-Fi",
+      ],
+      "classification": "15",
+      "directors": [
+        "Drew Hancock",
+      ],
+      "duration": 5820000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9161",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738346400000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9162",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738355400000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9164",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738432800000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9165",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738441800000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9166",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738519200000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9167",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738528200000,
+      },
+    ],
+    "title": "Companion",
+    "url": "https://www.odeon.co.uk/films/companion/HO00006658/?siteId=155",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Chow Yun-Fat",
+        "Sam Hayden-Smith",
+        "Baoqiang Wang",
+        "Tony Jaa",
+        "Haoran Liu",
+      ],
+      "categories": [
+        "Comedy",
+        "Drama",
+        "Subtitled Foreign Language",
+      ],
+      "directors": [
+        "Mo Dai",
+        "Sicheng Chen",
+      ],
+      "duration": 8220000,
+      "trailer": "https://www.youtube.com/watch?v=7M9uRxxBkU8",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9143",
+        "notes": "Laser
+Mandarin (Audio)
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 2",
+        "time": 1738237200000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9041",
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Mandarin (Audio)
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738244700000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9140",
+        "notes": "Laser
+Mandarin (Audio)
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 2",
+        "time": 1738248600000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9040",
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Mandarin (Audio)
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738256400000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9141",
+        "notes": "Laser
+Mandarin (Audio)
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 2",
+        "time": 1738260000000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9039",
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Mandarin (Audio)
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738268100000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9142",
+        "notes": "Laser
+Mandarin (Audio)
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 2",
+        "time": 1738271400000,
+      },
+    ],
+    "title": "Detective Chinatown 1900 (Mandarin)",
+    "url": "https://www.odeon.co.uk/films/detective-chinatown-1900-mandarin/HO00006737/?siteId=155",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Seth Rogen",
+        "Aaron Pierre",
+        "Lennie James",
+        "Anika Noni Rose",
+        "Kagiso Lediga",
+        "Blue Ivy Carter",
+        "Thandiwe Newton",
+        "Tiffany Boone",
+        "Preston Nyman",
+        "Keith David",
+        "Kelvin Harrison Jr.",
+        "Mads Mikkelsen",
+        "Beyoncé Knowles-Carter",
+        "Billy Eichner",
+        "John Kani",
+      ],
+      "categories": [
+        "Animation",
+        "Drama",
+        "Family",
+      ],
+      "classification": "PG",
+      "directors": [
+        "Barry Jenkins",
+      ],
+      "duration": 7080000,
+      "trailer": "https://www.youtube.com/watch?v=g8N7zH9w0XI",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9113",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1737803700000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9121",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Laser
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 2",
+        "time": 1737891000000,
+      },
+    ],
+    "title": "Mufasa: The Lion King",
+    "url": "https://www.odeon.co.uk/films/mufasa-the-lion-king/HO00005774/?siteId=155",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Aaron Taylor-Johnson",
+        "Lily-Rose Depp",
+        "Bill Skarsgård",
+        "Emma Corrin",
+        "Ralph Ineson",
+        "Willem Dafoe",
+        "Nicholas Hoult",
+        "Simon McBurney",
+      ],
+      "categories": [
+        "Drama",
+        "Fantasy",
+        "Horror",
+      ],
+      "classification": "15",
+      "directors": [
+        "Robert Eggers",
+      ],
+      "duration": 7920000,
+      "trailer": "https://www.youtube.com/watch?v=Px6S0RxfAHg",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9103",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1737739800000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9104",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1737751200000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9112",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1737826200000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9111",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1737837600000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9119",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1737908400000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9115",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1737919800000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9127",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1737985500000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9125",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Laser
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 2",
+        "time": 1737999900000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9128",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738070100000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9130",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738093500000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9134",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738156500000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9136",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738179900000,
+      },
+    ],
+    "title": "Nosferatu",
+    "url": "https://www.odeon.co.uk/films/nosferatu/HO00006545/?siteId=155",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Guy Pearce",
+        "Adrien Brody",
+        "Isaach De Bankolé",
+        "Stacy Martin",
+        "Emma Laird",
+        "Raffey Cassidy",
+        "Joe Alwyn",
+        "Felicity Jones",
+        "Alessandro Nivola",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "18",
+      "directors": [
+        "Brady Corbet",
+      ],
+      "duration": 12900000,
+      "trailer": "https://www.youtube.com/watch?v=hNiwPU5vjCk",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9176",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738954800000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9177",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1739041200000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9178",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1739126700000,
+      },
+    ],
+    "title": "The Brutalist",
+    "url": "https://www.odeon.co.uk/films/the-brutalist/HO00006613/?siteId=155",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Jeff Goldblum",
+        "Keala Settle",
+        "Bowen Yang",
+        "Ariana Grande",
+        "Marissa Bode",
+        "Jonathan Bailey",
+        "Bronwyn James",
+        "Ethan Slater",
+        "Peter Dinklage",
+        "Michelle Yeoh",
+        "Cynthia Erivo",
+      ],
+      "categories": [
+        "Fantasy",
+        "Musical ",
+        "Romance",
+      ],
+      "classification": "PG",
+      "directors": [
+        "Jon M. Chu",
+      ],
+      "duration": 9660000,
+      "trailer": "https://www.youtube.com/watch?v=OlwRRxY5VHo",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9107",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1737727200000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9108",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1737813600000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9116",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1737895800000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9133",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738080900000,
+      },
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9139",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 1",
+        "time": 1738167300000,
+      },
+    ],
+    "title": "Wicked",
+    "url": "https://www.odeon.co.uk/films/wicked/HO00005779/?siteId=155",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Christopher Abbott",
+        "Sam Jaeger",
+        "Matilda Firth",
+        "Ben Prendergast",
+        "Zac Chandler",
+        "Beatriz Romilly",
+        "Milo Cawthorne",
+        "Benedict Hardie",
+        "Julia Garner",
+      ],
+      "categories": [
+        "Horror",
+      ],
+      "classification": "15",
+      "directors": [
+        "Leigh Whannell",
+      ],
+      "duration": 6180000,
+      "trailer": "https://www.youtube.com/watch?v=XEJWxrPGKYA",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9114",
+        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
+Laser
+Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
+        "screen": "Screen 2",
+        "time": 1737753600000,
+      },
+    ],
+    "title": "Wolf Man",
+    "url": "https://www.odeon.co.uk/films/wolf-man/HO00006547/?siteId=155",
   },
 ]
 `;

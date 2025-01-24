@@ -6,49 +6,118 @@ exports[`Electric Cinema White City retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "classification": "U",
-      "directors": [
-        "James Bobin",
-      ],
-      "year": "2014",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/769990",
-        "notes": "Electric Kids Club",
-        "screen": "1",
-        "time": 1737889200000,
-      },
-    ],
-    "title": "Muppets Most Wanted",
-    "url": "https://www.electriccinema.co.uk/film/muppets-most-wanted/",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
       "classification": "15",
       "directors": [
-        "Robert Eggers",
+        "James Mangold",
       ],
       "year": "2024",
     },
     "performances": [
       {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771712",
+        "bookingUrl": "https://www.electriccinema.co.uk/film/a-complete-unknown/",
         "notes": "Main Feature",
-        "screen": "3",
-        "time": 1737999000000,
+        "screen": "1",
+        "time": 1737653400000,
       },
       {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771713",
+        "bookingUrl": "https://www.electriccinema.co.uk/film/a-complete-unknown/",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1737665400000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771117",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1737740700000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771118",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1737752400000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771123",
         "notes": "Main Feature",
         "screen": "3",
-        "time": 1738258200000,
+        "time": 1737818100000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771121",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1737823500000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771122",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1737837000000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771125",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1737899100000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771126",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1737911700000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771127",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1737923400000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771147",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1737999900000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771148",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1738011600000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771171",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1738085400000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771172",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1738097100000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771176",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1738172700000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771177",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1738184400000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771182",
+        "notes": "Main Feature",
+        "screen": "1",
+        "time": 1738270800000,
       },
     ],
-    "title": "Nosferatu",
-    "url": "https://www.electriccinema.co.uk/film/nosferatu/",
+    "title": "A Complete Unknown",
+    "url": "https://www.electriccinema.co.uk/film/a-complete-unknown/",
   },
   {
     "overview": {
@@ -214,123 +283,6 @@ exports[`Electric Cinema White City retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "classification": "15",
-      "directors": [
-        "James Mangold",
-      ],
-      "year": "2024",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/film/a-complete-unknown/",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1737653400000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/film/a-complete-unknown/",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1737665400000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771117",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1737740700000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771118",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1737752400000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771123",
-        "notes": "Main Feature",
-        "screen": "3",
-        "time": 1737818100000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771121",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1737823500000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771122",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1737837000000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771125",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1737899100000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771126",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1737911700000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771127",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1737923400000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771147",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1737999900000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771148",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1738011600000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771171",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1738085400000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771172",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1738097100000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771176",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1738172700000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771177",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1738184400000,
-      },
-      {
-        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771182",
-        "notes": "Main Feature",
-        "screen": "1",
-        "time": 1738270800000,
-      },
-    ],
-    "title": "A Complete Unknown",
-    "url": "https://www.electriccinema.co.uk/film/a-complete-unknown/",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
       "directors": [
         "Michael Morris",
       ],
@@ -400,6 +352,54 @@ exports[`Electric Cinema White City retrieve and transform 1`] = `
     ],
     "title": "Bridget Jones: Mad About the Boy",
     "url": "https://www.electriccinema.co.uk/film/bridget-jones-mad-about-the-boy/",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "U",
+      "directors": [
+        "James Bobin",
+      ],
+      "year": "2014",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/769990",
+        "notes": "Electric Kids Club",
+        "screen": "1",
+        "time": 1737889200000,
+      },
+    ],
+    "title": "Muppets Most Wanted",
+    "url": "https://www.electriccinema.co.uk/film/muppets-most-wanted/",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "15",
+      "directors": [
+        "Robert Eggers",
+      ],
+      "year": "2024",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771712",
+        "notes": "Main Feature",
+        "screen": "3",
+        "time": 1737999000000,
+      },
+      {
+        "bookingUrl": "https://www.electriccinema.co.uk/tickets/771713",
+        "notes": "Main Feature",
+        "screen": "3",
+        "time": 1738258200000,
+      },
+    ],
+    "title": "Nosferatu",
+    "url": "https://www.electriccinema.co.uk/film/nosferatu/",
   },
 ]
 `;

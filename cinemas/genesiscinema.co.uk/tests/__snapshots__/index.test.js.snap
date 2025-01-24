@@ -381,6 +381,422 @@ exports[`Genesis Cinema retrieve and transform 1`] = `
   },
   {
     "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "18",
+      "directors": [],
+      "duration": 8700000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2582",
+        "notes": "",
+        "time": 1737837000000,
+      },
+    ],
+    "title": "Bar Trash: A toast to David Lynch: DUNE (1984)",
+    "url": "https://www.genesiscinema.co.uk/event/94701",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "18",
+      "directors": [],
+      "duration": 8700000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2315",
+        "notes": "",
+        "time": 1738183500000,
+      },
+    ],
+    "title": "Bar Trash: IT CAME FROM OUTER SPACE (1953)",
+    "url": "https://www.genesiscinema.co.uk/event/94712",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "12A",
+      "directors": [],
+      "duration": 5520000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2434",
+        "notes": "",
+        "time": 1739385000000,
+      },
+    ],
+    "title": "Before Nikkah + Q&A",
+    "url": "https://www.genesiscinema.co.uk/event/94711",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Isabella Rossellini",
+        "Kyle MacLachlan",
+        "Dennis Hopper",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "18",
+      "directors": [
+        "David Lynch",
+      ],
+      "duration": 7200000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2554",
+        "notes": "",
+        "time": 1738097400000,
+      },
+    ],
+    "title": "Blue Velvet",
+    "url": "https://www.genesiscinema.co.uk/event/1812",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Renee Zellweger",
+        "Hugh Grant",
+        "Emma Thompson",
+        "Isla Fisher",
+      ],
+      "categories": [
+        "Comedy",
+        "Drama",
+        "Romance",
+      ],
+      "classification": "15",
+      "directors": [
+        "Michael Morris",
+      ],
+      "duration": 6000000,
+      "trailer": "https://www.youtube.com/watch?v=fc5zbSCgudA",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2447",
+        "notes": "",
+        "time": 1739470800000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2448",
+        "notes": "",
+        "time": 1739479800000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2449",
+        "notes": "",
+        "time": 1739557200000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2452",
+        "notes": "",
+        "time": 1739557800000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2450",
+        "notes": "",
+        "time": 1739566200000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2451",
+        "notes": "",
+        "time": 1739566800000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2453",
+        "notes": "",
+        "time": 1739633400000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2454",
+        "notes": "",
+        "time": 1739642400000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2457",
+        "notes": "",
+        "time": 1739644200000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2455",
+        "notes": "",
+        "time": 1739651400000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2456",
+        "notes": "",
+        "time": 1739653200000,
+      },
+    ],
+    "title": "Bridget Jones: Mad About The Boy",
+    "url": "https://www.genesiscinema.co.uk/event/93069",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Harrison Ford",
+        "Giancarlo Esposito",
+        "Rosa Salazar",
+      ],
+      "categories": [
+        "Action",
+        "Adventure",
+        "Sci-Fi",
+      ],
+      "classification": "12A",
+      "directors": [
+        "Julius Onah",
+      ],
+      "duration": 7140000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2583",
+        "notes": "",
+        "time": 1739555400000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2584",
+        "notes": "",
+        "time": 1739565600000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2585",
+        "notes": "",
+        "time": 1739632800000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2586",
+        "notes": "",
+        "time": 1739643000000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2587",
+        "notes": "",
+        "time": 1739652900000,
+      },
+    ],
+    "title": "Captain America: Brave New World",
+    "url": "https://www.genesiscinema.co.uk/event/90393",
+  },
+  {
+    "overview": {
+      "actors": [
+        "John Nance",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "18",
+      "directors": [
+        "David Lynch",
+      ],
+      "duration": 5340000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2463",
+        "notes": "",
+        "time": 1737743400000,
+      },
+    ],
+    "title": "Eraserhead",
+    "url": "https://www.genesiscinema.co.uk/event/435",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "18",
+      "directors": [],
+      "duration": 7200000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2445",
+        "notes": "",
+        "time": 1740247800000,
+      },
+    ],
+    "title": "Goodbye Julia - I'm Migrant Film Festival 2025",
+    "url": "https://www.genesiscinema.co.uk/event/94703",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "18",
+      "directors": [],
+      "duration": 7020000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2444",
+        "notes": "",
+        "time": 1739901600000,
+      },
+    ],
+    "title": "Hanging Gardens (UK Premiere) - I'm Migrant Film Festival 2025",
+    "url": "https://www.genesiscinema.co.uk/event/94704",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "18",
+      "directors": [],
+      "duration": 4680000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2441",
+        "notes": "",
+        "time": 1738694700000,
+      },
+    ],
+    "title": "Hidden Lives - An Evening of Short Films - I'm Migrant Film Festival 2025",
+    "url": "https://www.genesiscinema.co.uk/event/94708",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "18",
+      "directors": [],
+      "duration": 4560000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2443",
+        "notes": "",
+        "time": 1739040300000,
+      },
+    ],
+    "title": "I'm Migrant - I'm Migrant Film Festival 2025",
+    "url": "https://www.genesiscinema.co.uk/event/94706",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [],
+      "classification": "18",
+      "directors": [],
+      "duration": 5100000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2442",
+        "notes": "",
+        "time": 1738867500000,
+      },
+    ],
+    "title": "Leaving Baghdad - I'm Migrant Film Festival 2025",
+    "url": "https://www.genesiscinema.co.uk/event/94707",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Bill Pullman",
+        "Patricia Arquette",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "18",
+      "directors": [
+        "David Lynch",
+      ],
+      "duration": 8040000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2555",
+        "notes": "",
+        "time": 1738183800000,
+      },
+    ],
+    "title": "Lost Highway",
+    "url": "https://www.genesiscinema.co.uk/event/714",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Aaron Pierre",
+        "Kelvin Harrison Jr",
+        "Seth Rogen",
+      ],
+      "categories": [
+        "Animation",
+        "Adventure",
+        "Drama",
+      ],
+      "classification": "PG",
+      "directors": [
+        "Barry Jenkins",
+      ],
+      "duration": 7140000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2581",
+        "notes": "",
+        "time": 1737807600000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2488",
+        "notes": "",
+        "time": 1737817200000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2508",
+        "notes": "",
+        "time": 1737889800000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2502",
+        "notes": "",
+        "time": 1737903900000,
+      },
+    ],
+    "title": "Mufasa: The Lion King",
+    "url": "https://www.genesiscinema.co.uk/event/88269",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Naomi Watts",
+        "Laura Harring",
+        "Justin Theroux",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "15",
+      "directors": [
+        "David Lynch",
+      ],
+      "duration": 8760000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2556",
+        "notes": "",
+        "time": 1738270200000,
+      },
+    ],
+    "title": "Mulholland Drive",
+    "url": "https://www.genesiscinema.co.uk/event/1837",
+  },
+  {
+    "overview": {
       "actors": [
         "Emma Corrin",
         "Aaron Taylor-Johnson",
@@ -519,58 +935,6 @@ exports[`Genesis Cinema retrieve and transform 1`] = `
   },
   {
     "overview": {
-      "actors": [
-        "Andrew Garfield",
-        "Florence Pugh",
-        "Grace Delaney",
-      ],
-      "categories": [
-        "Drama",
-        "Romance",
-      ],
-      "classification": "15",
-      "directors": [
-        "John Crowley",
-      ],
-      "duration": 6420000,
-      "trailer": "https://www.youtube.com/watch?v=bS0Clau5700",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2423",
-        "notes": "",
-        "time": 1737665400000,
-      },
-    ],
-    "title": "We Live in Time",
-    "url": "https://www.genesiscinema.co.uk/event/92641",
-  },
-  {
-    "overview": {
-      "actors": [
-        "John Nance",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "18",
-      "directors": [
-        "David Lynch",
-      ],
-      "duration": 5340000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2463",
-        "notes": "",
-        "time": 1737743400000,
-      },
-    ],
-    "title": "Eraserhead",
-    "url": "https://www.genesiscinema.co.uk/event/435",
-  },
-  {
-    "overview": {
       "actors": [],
       "categories": [],
       "directors": [],
@@ -585,6 +949,45 @@ exports[`Genesis Cinema retrieve and transform 1`] = `
     ],
     "title": "Some Like it Swing",
     "url": "https://www.genesiscinema.co.uk/event/92488",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Ben Schwartz",
+        "Idris Elba",
+        "Colleen O'Shaughnessey",
+      ],
+      "categories": [
+        "Action",
+        "Adventure",
+        "Comedy",
+      ],
+      "classification": "PG",
+      "directors": [
+        "Jeff Fowler",
+      ],
+      "duration": 6600000,
+      "trailer": "https://www.youtube.com/watch?v=qSu6i2iFMO0",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2489",
+        "notes": "",
+        "time": 1737807900000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2578",
+        "notes": "",
+        "time": 1737885600000,
+      },
+      {
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2506",
+        "notes": "",
+        "time": 1737894600000,
+      },
+    ],
+    "title": "Sonic the Hedgehog 3",
+    "url": "https://www.genesiscinema.co.uk/event/90193",
   },
   {
     "overview": {
@@ -706,106 +1109,6 @@ exports[`Genesis Cinema retrieve and transform 1`] = `
   },
   {
     "overview": {
-      "actors": [],
-      "categories": [],
-      "classification": "18",
-      "directors": [],
-      "duration": 8700000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2582",
-        "notes": "",
-        "time": 1737837000000,
-      },
-    ],
-    "title": "Bar Trash: A toast to David Lynch: DUNE (1984)",
-    "url": "https://www.genesiscinema.co.uk/event/94701",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Aaron Pierre",
-        "Kelvin Harrison Jr",
-        "Seth Rogen",
-      ],
-      "categories": [
-        "Animation",
-        "Adventure",
-        "Drama",
-      ],
-      "classification": "PG",
-      "directors": [
-        "Barry Jenkins",
-      ],
-      "duration": 7140000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2581",
-        "notes": "",
-        "time": 1737807600000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2488",
-        "notes": "",
-        "time": 1737817200000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2508",
-        "notes": "",
-        "time": 1737889800000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2502",
-        "notes": "",
-        "time": 1737903900000,
-      },
-    ],
-    "title": "Mufasa: The Lion King",
-    "url": "https://www.genesiscinema.co.uk/event/88269",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Ben Schwartz",
-        "Idris Elba",
-        "Colleen O'Shaughnessey",
-      ],
-      "categories": [
-        "Action",
-        "Adventure",
-        "Comedy",
-      ],
-      "classification": "PG",
-      "directors": [
-        "Jeff Fowler",
-      ],
-      "duration": 6600000,
-      "trailer": "https://www.youtube.com/watch?v=qSu6i2iFMO0",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2489",
-        "notes": "",
-        "time": 1737807900000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2578",
-        "notes": "",
-        "time": 1737885600000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2506",
-        "notes": "",
-        "time": 1737894600000,
-      },
-    ],
-    "title": "Sonic the Hedgehog 3",
-    "url": "https://www.genesiscinema.co.uk/event/90193",
-  },
-  {
-    "overview": {
       "actors": [
         "John Hurt",
         "Anthony Hopkins",
@@ -833,98 +1136,21 @@ exports[`Genesis Cinema retrieve and transform 1`] = `
   },
   {
     "overview": {
-      "actors": [
-        "Isabella Rossellini",
-        "Kyle MacLachlan",
-        "Dennis Hopper",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "18",
-      "directors": [
-        "David Lynch",
-      ],
-      "duration": 7200000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2554",
-        "notes": "",
-        "time": 1738097400000,
-      },
-    ],
-    "title": "Blue Velvet",
-    "url": "https://www.genesiscinema.co.uk/event/1812",
-  },
-  {
-    "overview": {
       "actors": [],
       "categories": [],
-      "classification": "18",
-      "directors": [],
-      "duration": 8700000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2315",
-        "notes": "",
-        "time": 1738183500000,
-      },
-    ],
-    "title": "Bar Trash: IT CAME FROM OUTER SPACE (1953)",
-    "url": "https://www.genesiscinema.co.uk/event/94712",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Bill Pullman",
-        "Patricia Arquette",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "18",
-      "directors": [
-        "David Lynch",
-      ],
-      "duration": 8040000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2555",
-        "notes": "",
-        "time": 1738183800000,
-      },
-    ],
-    "title": "Lost Highway",
-    "url": "https://www.genesiscinema.co.uk/event/714",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Naomi Watts",
-        "Laura Harring",
-        "Justin Theroux",
-      ],
-      "categories": [
-        "Drama",
-      ],
       "classification": "15",
-      "directors": [
-        "David Lynch",
-      ],
-      "duration": 8760000,
+      "directors": [],
+      "duration": 5100000,
     },
     "performances": [
       {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2556",
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=1805",
         "notes": "",
-        "time": 1738270200000,
+        "time": 1739211300000,
       },
     ],
-    "title": "Mulholland Drive",
-    "url": "https://www.genesiscinema.co.uk/event/1837",
+    "title": "The Last Showgirl + Recorded Q&A",
+    "url": "https://www.genesiscinema.co.uk/event/93963",
   },
   {
     "overview": {
@@ -950,235 +1176,17 @@ exports[`Genesis Cinema retrieve and transform 1`] = `
       "categories": [],
       "classification": "18",
       "directors": [],
-      "duration": 4680000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2441",
-        "notes": "",
-        "time": 1738694700000,
-      },
-    ],
-    "title": "Hidden Lives - An Evening of Short Films - I'm Migrant Film Festival 2025",
-    "url": "https://www.genesiscinema.co.uk/event/94708",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "classification": "18",
-      "directors": [],
       "duration": 5100000,
     },
     "performances": [
       {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2442",
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2446",
         "notes": "",
-        "time": 1738867500000,
+        "time": 1740768300000,
       },
     ],
-    "title": "Leaving Baghdad - I'm Migrant Film Festival 2025",
-    "url": "https://www.genesiscinema.co.uk/event/94707",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "classification": "18",
-      "directors": [],
-      "duration": 4560000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2443",
-        "notes": "",
-        "time": 1739040300000,
-      },
-    ],
-    "title": "I'm Migrant - I'm Migrant Film Festival 2025",
-    "url": "https://www.genesiscinema.co.uk/event/94706",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "classification": "15",
-      "directors": [],
-      "duration": 5100000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=1805",
-        "notes": "",
-        "time": 1739211300000,
-      },
-    ],
-    "title": "The Last Showgirl + Recorded Q&A",
-    "url": "https://www.genesiscinema.co.uk/event/93963",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "classification": "12A",
-      "directors": [],
-      "duration": 5520000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2434",
-        "notes": "",
-        "time": 1739385000000,
-      },
-    ],
-    "title": "Before Nikkah + Q&A",
-    "url": "https://www.genesiscinema.co.uk/event/94711",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Renee Zellweger",
-        "Hugh Grant",
-        "Emma Thompson",
-        "Isla Fisher",
-      ],
-      "categories": [
-        "Comedy",
-        "Drama",
-        "Romance",
-      ],
-      "classification": "15",
-      "directors": [
-        "Michael Morris",
-      ],
-      "duration": 6000000,
-      "trailer": "https://www.youtube.com/watch?v=fc5zbSCgudA",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2447",
-        "notes": "",
-        "time": 1739470800000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2448",
-        "notes": "",
-        "time": 1739479800000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2449",
-        "notes": "",
-        "time": 1739557200000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2452",
-        "notes": "",
-        "time": 1739557800000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2450",
-        "notes": "",
-        "time": 1739566200000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2451",
-        "notes": "",
-        "time": 1739566800000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2453",
-        "notes": "",
-        "time": 1739633400000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2454",
-        "notes": "",
-        "time": 1739642400000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2457",
-        "notes": "",
-        "time": 1739644200000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2455",
-        "notes": "",
-        "time": 1739651400000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2456",
-        "notes": "",
-        "time": 1739653200000,
-      },
-    ],
-    "title": "Bridget Jones: Mad About The Boy",
-    "url": "https://www.genesiscinema.co.uk/event/93069",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Harrison Ford",
-        "Giancarlo Esposito",
-        "Rosa Salazar",
-      ],
-      "categories": [
-        "Action",
-        "Adventure",
-        "Sci-Fi",
-      ],
-      "classification": "12A",
-      "directors": [
-        "Julius Onah",
-      ],
-      "duration": 7140000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2583",
-        "notes": "",
-        "time": 1739555400000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2584",
-        "notes": "",
-        "time": 1739565600000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2585",
-        "notes": "",
-        "time": 1739632800000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2586",
-        "notes": "",
-        "time": 1739643000000,
-      },
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2587",
-        "notes": "",
-        "time": 1739652900000,
-      },
-    ],
-    "title": "Captain America: Brave New World",
-    "url": "https://www.genesiscinema.co.uk/event/90393",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "classification": "18",
-      "directors": [],
-      "duration": 7020000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2444",
-        "notes": "",
-        "time": 1739901600000,
-      },
-    ],
-    "title": "Hanging Gardens (UK Premiere) - I'm Migrant Film Festival 2025",
-    "url": "https://www.genesiscinema.co.uk/event/94704",
+    "title": "The Woodman - I'm Migrant Film Festival 2025",
+    "url": "https://www.genesiscinema.co.uk/event/94702",
   },
   {
     "overview": {
@@ -1200,39 +1208,31 @@ exports[`Genesis Cinema retrieve and transform 1`] = `
   },
   {
     "overview": {
-      "actors": [],
-      "categories": [],
-      "classification": "18",
-      "directors": [],
-      "duration": 7200000,
+      "actors": [
+        "Andrew Garfield",
+        "Florence Pugh",
+        "Grace Delaney",
+      ],
+      "categories": [
+        "Drama",
+        "Romance",
+      ],
+      "classification": "15",
+      "directors": [
+        "John Crowley",
+      ],
+      "duration": 6420000,
+      "trailer": "https://www.youtube.com/watch?v=bS0Clau5700",
     },
     "performances": [
       {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2445",
+        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2423",
         "notes": "",
-        "time": 1740247800000,
+        "time": 1737665400000,
       },
     ],
-    "title": "Goodbye Julia - I'm Migrant Film Festival 2025",
-    "url": "https://www.genesiscinema.co.uk/event/94703",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [],
-      "classification": "18",
-      "directors": [],
-      "duration": 5100000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://genesis.admit-one.co.uk/seats/?perfCode=2446",
-        "notes": "",
-        "time": 1740768300000,
-      },
-    ],
-    "title": "The Woodman - I'm Migrant Film Festival 2025",
-    "url": "https://www.genesiscinema.co.uk/event/94702",
+    "title": "We Live in Time",
+    "url": "https://www.genesiscinema.co.uk/event/92641",
   },
 ]
 `;

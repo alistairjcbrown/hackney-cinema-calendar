@@ -31,16 +31,20 @@ const getEventDate = (time) =>
     .split("-")
     .map((value) => parseInt(value, 10));
 
-const filterHistoricalPerformances = (movies) => {
+const sortAndFilterMovies = (movies) => {
   const startOfToday = startOfDay(new Date());
-  return movies.reduce((populatedMovies, movie) => {
-    const performances = movie.performances.filter(({ time }) =>
-      isAfter(time, startOfToday),
-    );
+
+  const updatesMovies = movies.reduce((populatedMovies, movie) => {
+    const performances = movie.performances
+      .filter(({ time }) => isAfter(time, startOfToday))
+      .sort((a, b) => a.time - b.time);
+
     // Remove movies which don't have any performances
     if (performances.length === 0) return populatedMovies;
     return populatedMovies.concat({ ...movie, performances });
   }, []);
+
+  return updatesMovies.sort((a, b) => a.title.localeCompare(b.title));
 };
 
 const convertToList = (value) => {
@@ -127,7 +131,7 @@ const createOverview = ({
 module.exports = {
   generateEventDescription,
   getEventDate,
-  filterHistoricalPerformances,
+  sortAndFilterMovies,
   convertToList,
   splitConjoinedItemsInList,
   parseMinsToMs,

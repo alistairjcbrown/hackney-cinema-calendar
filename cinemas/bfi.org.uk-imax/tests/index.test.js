@@ -4,7 +4,7 @@ const {
   schemaValidate,
   setupCacheMock,
 } = require("../../../common/test-utils");
-const { filterHistoricalPerformances } = require("../../../common/utils");
+const { sortAndFilterMovies } = require("../../../common/utils");
 const { retrieve, transform, attributes } = require("..");
 
 const isRecording = false;
@@ -29,7 +29,7 @@ describe(attributes.name, () => {
       expect(moviePages).toBeTruthy();
       expect(Object.keys(moviePages).length).toBe(39);
 
-      const output = filterHistoricalPerformances(
+      const output = sortAndFilterMovies(
         await transform({ movieListPage, moviePages }, {}),
       );
       const data = JSON.parse(JSON.stringify(output));

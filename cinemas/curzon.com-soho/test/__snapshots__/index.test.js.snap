@@ -4,27 +4,6 @@ exports[`Curzon Soho retrieve and transform 1`] = `
 [
   {
     "overview": {
-      "actors": [],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "18",
-      "directors": [],
-      "duration": 5520000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-47703/",
-        "notes": "Festival: Film Festival",
-        "screen": "Screen 1",
-        "time": 1737656400000,
-      },
-    ],
-    "title": "LSFF 2025: London Lives",
-    "url": "https://www.curzon.com/films/lsff-2025-london-lives/HO00005862/?siteId=SOH1",
-  },
-  {
-    "overview": {
       "actors": [
         "Timothée Chalamet",
         "Norbert Leo Butz",
@@ -203,37 +182,37 @@ exports[`Curzon Soho retrieve and transform 1`] = `
   {
     "overview": {
       "actors": [
-        "Simon McBurney",
-        "Nicholas Hoult",
-        "Ralph Ineson",
-        "Willem Dafoe",
-        "Aaron Taylor-Johnson",
-        "Emma Corrin",
-        "Bill Skarsgård",
-        "Lily-Rose Depp",
+        "Will Sharpe",
+        "Jesse Eisenberg",
+        "Jennifer Grey",
+        "Kieran Culkin",
+        "Kurt Egyiawan",
+        "Liza Sadovy",
+        "Daniel Oreskes",
       ],
       "categories": [
         "Drama",
-        "Fantasy",
-        "Horror",
+        "Comedy",
       ],
       "classification": "15",
       "directors": [
-        "Robert Eggers",
+        "Jesse Eisenberg",
       ],
-      "duration": 7920000,
-      "trailer": "https://www.youtube.com/watch?v=Px6S0RxfAHg",
+      "duration": 5400000,
+      "trailer": "https://www.youtube.com/watch?v=lGeZQWMMDgM",
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-48297/",
-        "notes": "",
-        "screen": "Screen 2",
-        "time": 1737663600000,
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-48332/",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season
+Members preview: Members' only preview screening.
+Screening followed by a Q&A: Q&A",
+        "screen": "Screen 1",
+        "time": 1738428000000,
       },
     ],
-    "title": "Nosferatu",
-    "url": "https://www.curzon.com/films/nosferatu/HO00005839/?siteId=SOH1",
+    "title": "A Real Pain",
+    "url": "https://www.curzon.com/films/a-real-pain/HO00005873/?siteId=SOH1",
   },
   {
     "overview": {
@@ -361,6 +340,130 @@ exports[`Curzon Soho retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [
+        "Comedy",
+        "Family",
+        "Fantasy",
+      ],
+      "classification": "U",
+      "directors": [
+        "Gints Zilbalodis",
+      ],
+      "duration": 5100000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-48333/",
+        "notes": "Special Preview: Special Preview Screening
+Screening followed by a Q&A: Q&A",
+        "screen": "Screen 1",
+        "time": 1738497600000,
+      },
+    ],
+    "title": "Flow",
+    "url": "https://www.curzon.com/films/flow/HO00005936/?siteId=SOH1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Marianne Jean-Baptiste",
+        "Michele Austin",
+      ],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "12A",
+      "directors": [
+        "Mike Leigh",
+      ],
+      "duration": 5820000,
+      "trailer": "https://www.youtube.com/watch?v=gFuEZfZUKIk",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-48109/",
+        "notes": "Screening followed by a Q&A: Q&A",
+        "screen": "Screen 1",
+        "time": 1738347600000,
+      },
+    ],
+    "title": "Hard Truths",
+    "url": "https://www.curzon.com/films/hard-truths/HO00005876/?siteId=SOH1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Martin Parr",
+      ],
+      "categories": [
+        "Documentary",
+      ],
+      "directors": [
+        "Lee Shulman",
+      ],
+      "duration": 4080000,
+      "trailer": "https://www.youtube.com/watch?v=60-EJ6RCiTE",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-48334/",
+        "notes": "Members preview: Members' only preview screening.
+Special Preview: Special Preview Screening
+Screening followed by a Q&A: Q&A",
+        "screen": "Screen 1",
+        "time": 1739989200000,
+      },
+    ],
+    "title": "I Am Martin Parr",
+    "url": "https://www.curzon.com/films/i-am-martin-parr/HO00005930/?siteId=SOH1",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "18",
+      "directors": [
+        "Chantal Akerman",
+      ],
+      "duration": 5160000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-48233/",
+        "notes": "Valentine's Day: Special Valentine's Day Screening",
+        "screen": "Screen 3",
+        "time": 1739566800000,
+      },
+    ],
+    "title": "Je, tu, il, elle",
+    "url": "https://www.curzon.com/films/je-tu-il-elle/HO00005916/?siteId=SOH1",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "18",
+      "directors": [],
+      "duration": 7200000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-47707/",
+        "notes": "Festival: Film Festival",
+        "screen": "Screen 1",
+        "time": 1737903600000,
+      },
+    ],
+    "title": "LSFF 2025: Awards Winners",
+    "url": "https://www.curzon.com/films/lsff-2025-awards-winners/HO00005865/?siteId=SOH1",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
         "Drama",
       ],
       "classification": "18",
@@ -377,6 +480,83 @@ exports[`Curzon Soho retrieve and transform 1`] = `
     ],
     "title": "LSFF 2025: British Lives",
     "url": "https://www.curzon.com/films/lsff-2025-british-lives/HO00005863/?siteId=SOH1",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "18",
+      "directors": [],
+      "duration": 5100000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-47706/",
+        "notes": "Festival: Film Festival",
+        "screen": "Screen 3",
+        "time": 1737828000000,
+      },
+    ],
+    "title": "LSFF 2025: I Film, Therefore I Am",
+    "url": "https://www.curzon.com/films/lsff-2025-i-film-therefore-i-am/HO00005864/?siteId=SOH1",
+  },
+  {
+    "overview": {
+      "actors": [],
+      "categories": [
+        "Drama",
+      ],
+      "classification": "18",
+      "directors": [],
+      "duration": 5520000,
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-47703/",
+        "notes": "Festival: Film Festival",
+        "screen": "Screen 1",
+        "time": 1737656400000,
+      },
+    ],
+    "title": "LSFF 2025: London Lives",
+    "url": "https://www.curzon.com/films/lsff-2025-london-lives/HO00005862/?siteId=SOH1",
+  },
+  {
+    "overview": {
+      "actors": [
+        "Simon McBurney",
+        "Nicholas Hoult",
+        "Ralph Ineson",
+        "Willem Dafoe",
+        "Aaron Taylor-Johnson",
+        "Emma Corrin",
+        "Bill Skarsgård",
+        "Lily-Rose Depp",
+      ],
+      "categories": [
+        "Drama",
+        "Fantasy",
+        "Horror",
+      ],
+      "classification": "15",
+      "directors": [
+        "Robert Eggers",
+      ],
+      "duration": 7920000,
+      "trailer": "https://www.youtube.com/watch?v=Px6S0RxfAHg",
+    },
+    "performances": [
+      {
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-48297/",
+        "notes": "",
+        "screen": "Screen 2",
+        "time": 1737663600000,
+      },
+    ],
+    "title": "Nosferatu",
+    "url": "https://www.curzon.com/films/nosferatu/HO00005839/?siteId=SOH1",
   },
   {
     "overview": {
@@ -570,45 +750,33 @@ exports[`Curzon Soho retrieve and transform 1`] = `
   },
   {
     "overview": {
-      "actors": [],
+      "actors": [
+        "Dave Bautista",
+        "Jamie Lee Curtis",
+        "Billie Lourd",
+        "Kiernan Shipka",
+        "Pamela Anderson",
+        "Brenda Song",
+      ],
       "categories": [
         "Drama",
       ],
-      "classification": "18",
-      "directors": [],
+      "directors": [
+        "Gia Coppola",
+      ],
       "duration": 5100000,
+      "trailer": "https://www.youtube.com/watch?v=r4xpoKBKrpo",
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-47706/",
-        "notes": "Festival: Film Festival",
-        "screen": "Screen 3",
-        "time": 1737828000000,
-      },
-    ],
-    "title": "LSFF 2025: I Film, Therefore I Am",
-    "url": "https://www.curzon.com/films/lsff-2025-i-film-therefore-i-am/HO00005864/?siteId=SOH1",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "18",
-      "directors": [],
-      "duration": 7200000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-47707/",
-        "notes": "Festival: Film Festival",
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-47931/",
+        "notes": "Recorded Performance: Prerecorded Q&A",
         "screen": "Screen 1",
-        "time": 1737903600000,
+        "time": 1739221200000,
       },
     ],
-    "title": "LSFF 2025: Awards Winners",
-    "url": "https://www.curzon.com/films/lsff-2025-awards-winners/HO00005865/?siteId=SOH1",
+    "title": "The Last Showgirl",
+    "url": "https://www.curzon.com/films/the-last-showgirl/HO00005898/?siteId=SOH1",
   },
   {
     "overview": {
@@ -644,121 +812,32 @@ Screening followed by a Q&A: Q&A",
   },
   {
     "overview": {
-      "actors": [
-        "Marianne Jean-Baptiste",
-        "Michele Austin",
-      ],
+      "actors": [],
       "categories": [
-        "Drama",
+        "Documentary",
       ],
       "classification": "12A",
       "directors": [
-        "Mike Leigh",
+        "Lucy Walker",
+        "Sam Chown Ahern",
+        "Georgia Bradburn",
+        "Benjamin Brown",
+        "Robin Elliott-Knowles",
+        "Steven Eastwood",
       ],
-      "duration": 5820000,
-      "trailer": "https://www.youtube.com/watch?v=gFuEZfZUKIk",
+      "duration": 4020000,
     },
     "performances": [
       {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-48109/",
-        "notes": "Screening followed by a Q&A: Q&A",
-        "screen": "Screen 1",
-        "time": 1738347600000,
-      },
-    ],
-    "title": "Hard Truths",
-    "url": "https://www.curzon.com/films/hard-truths/HO00005876/?siteId=SOH1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Will Sharpe",
-        "Jesse Eisenberg",
-        "Jennifer Grey",
-        "Kieran Culkin",
-        "Kurt Egyiawan",
-        "Liza Sadovy",
-        "Daniel Oreskes",
-      ],
-      "categories": [
-        "Drama",
-        "Comedy",
-      ],
-      "classification": "15",
-      "directors": [
-        "Jesse Eisenberg",
-      ],
-      "duration": 5400000,
-      "trailer": "https://www.youtube.com/watch?v=lGeZQWMMDgM",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-48332/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season
-Members preview: Members' only preview screening.
+        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-48336/",
+        "notes": "Members preview: Members' only preview screening.
 Screening followed by a Q&A: Q&A",
-        "screen": "Screen 1",
-        "time": 1738428000000,
+        "screen": "Screen 3",
+        "time": 1742494800000,
       },
     ],
-    "title": "A Real Pain",
-    "url": "https://www.curzon.com/films/a-real-pain/HO00005873/?siteId=SOH1",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [
-        "Comedy",
-        "Family",
-        "Fantasy",
-      ],
-      "classification": "U",
-      "directors": [
-        "Gints Zilbalodis",
-      ],
-      "duration": 5100000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-48333/",
-        "notes": "Special Preview: Special Preview Screening
-Screening followed by a Q&A: Q&A",
-        "screen": "Screen 1",
-        "time": 1738497600000,
-      },
-    ],
-    "title": "Flow",
-    "url": "https://www.curzon.com/films/flow/HO00005936/?siteId=SOH1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Dave Bautista",
-        "Jamie Lee Curtis",
-        "Billie Lourd",
-        "Kiernan Shipka",
-        "Pamela Anderson",
-        "Brenda Song",
-      ],
-      "categories": [
-        "Drama",
-      ],
-      "directors": [
-        "Gia Coppola",
-      ],
-      "duration": 5100000,
-      "trailer": "https://www.youtube.com/watch?v=r4xpoKBKrpo",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-47931/",
-        "notes": "Recorded Performance: Prerecorded Q&A",
-        "screen": "Screen 1",
-        "time": 1739221200000,
-      },
-    ],
-    "title": "The Last Showgirl",
-    "url": "https://www.curzon.com/films/the-last-showgirl/HO00005898/?siteId=SOH1",
+    "title": "The Stimming Pool",
+    "url": "https://www.curzon.com/films/the-stimming-pool/HO00005937/?siteId=SOH1",
   },
   {
     "overview": {
@@ -792,85 +871,6 @@ Valentine's Day: Special Valentine's Day Screening",
     ],
     "title": "Thelma & Louise",
     "url": "https://www.curzon.com/films/thelma-and-louise/HO00005911/?siteId=SOH1",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [
-        "Drama",
-      ],
-      "classification": "18",
-      "directors": [
-        "Chantal Akerman",
-      ],
-      "duration": 5160000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-48233/",
-        "notes": "Valentine's Day: Special Valentine's Day Screening",
-        "screen": "Screen 3",
-        "time": 1739566800000,
-      },
-    ],
-    "title": "Je, tu, il, elle",
-    "url": "https://www.curzon.com/films/je-tu-il-elle/HO00005916/?siteId=SOH1",
-  },
-  {
-    "overview": {
-      "actors": [
-        "Martin Parr",
-      ],
-      "categories": [
-        "Documentary",
-      ],
-      "directors": [
-        "Lee Shulman",
-      ],
-      "duration": 4080000,
-      "trailer": "https://www.youtube.com/watch?v=60-EJ6RCiTE",
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-48334/",
-        "notes": "Members preview: Members' only preview screening.
-Special Preview: Special Preview Screening
-Screening followed by a Q&A: Q&A",
-        "screen": "Screen 1",
-        "time": 1739989200000,
-      },
-    ],
-    "title": "I Am Martin Parr",
-    "url": "https://www.curzon.com/films/i-am-martin-parr/HO00005930/?siteId=SOH1",
-  },
-  {
-    "overview": {
-      "actors": [],
-      "categories": [
-        "Documentary",
-      ],
-      "classification": "12A",
-      "directors": [
-        "Lucy Walker",
-        "Sam Chown Ahern",
-        "Georgia Bradburn",
-        "Benjamin Brown",
-        "Robin Elliott-Knowles",
-        "Steven Eastwood",
-      ],
-      "duration": 4020000,
-    },
-    "performances": [
-      {
-        "bookingUrl": "https://www.curzon.com/ticketing/seats/SOH1-48336/",
-        "notes": "Members preview: Members' only preview screening.
-Screening followed by a Q&A: Q&A",
-        "screen": "Screen 3",
-        "time": 1742494800000,
-      },
-    ],
-    "title": "The Stimming Pool",
-    "url": "https://www.curzon.com/films/the-stimming-pool/HO00005937/?siteId=SOH1",
   },
 ]
 `;
