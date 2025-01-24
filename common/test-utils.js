@@ -21,6 +21,10 @@ class FetchAdapterNoWarning extends FetchAdapter {
 }
 
 function setupPollyWrapper(isRecording, dirname) {
+  if (isRecording && process.env.CI) {
+    throw new Error("Polly recording turned on on CI");
+  }
+
   return setupPolly({
     adapters: [FetchAdapterNoWarning],
     persister: PersisterFs,

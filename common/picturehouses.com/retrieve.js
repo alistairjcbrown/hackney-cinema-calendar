@@ -1,6 +1,5 @@
 const cheerio = require("cheerio");
 const { convertToList } = require("../utils");
-const { dailyCache } = require("../cache");
 
 function extractData(value) {
   const $ = cheerio.load(value);
@@ -30,10 +29,10 @@ async function retrieve({ domain, cinemaId }) {
       "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
     },
   });
-  const { movies } = await moviesResponse.json();
+  const movieListPage = await moviesResponse.json();
 
-  const additionalData = {};
-  const moviesIdsAtCinema = movies.reduce((list, movie) => {
+  const moviePages = {};
+  const moviesIdsAtCinema = movieListPage.movies.reduce((list, movie) => {
     const showings = movie.show_times.filter(
       (showing) => showing.CinemaId === cinemaId,
     );
@@ -41,17 +40,12 @@ async function retrieve({ domain, cinemaId }) {
   }, []);
 
   for (movieId of moviesIdsAtCinema) {
-    const additionalFilmData = await dailyCache(
-      `picturehouse.com-info-${movieId}`,
-      async () => {
-        const url = `${domain}/movie-details/${cinemaId}/${movieId}/-`;
-        return (await fetch(url)).text();
-      },
-    );
-    additionalData[movieId] = extractData(additionalFilmData);
+    const url = `${domain}/movie-details/${cinemaId}/${movieId}/-`;
+    const additionalFilmData = await (await fetch(url)).text();
+    moviePages[movieId] = extractData(additionalFilmData);
   }
 
-  return { movies, additionalData };
+  return { movieListPage, moviePages };
 }
 
 module.exports = retrieve;

@@ -8,7 +8,7 @@ const {
 
 async function transform(
   { domain, cinemaId },
-  { movies, additionalData },
+  { movieListPage: { movies }, moviePages: additionalData },
   sourcedEvents,
 ) {
   const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
