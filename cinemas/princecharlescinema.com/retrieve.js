@@ -1,8 +1,8 @@
+const { fetchText } = require("../../common/utils");
 const { domain } = require("./attributes");
 
 async function retrieve() {
-  const response = await fetch(`${domain}/whats-on/`);
-  return await response.text();
+  return await fetchText(`${domain}/whats-on/`);
 }
 
 module.exports = retrieve;

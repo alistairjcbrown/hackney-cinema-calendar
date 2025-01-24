@@ -631,8 +631,7 @@ Q&A",
     "performances": [
       {
         "bookingUrl": "https://princecharlescinema.com/film/1259026/apocalypse-now-final-cut",
-        "notes": "Sold Out
-",
+        "notes": "Sold Out",
         "time": 1737835200000,
       },
       {
@@ -692,8 +691,7 @@ Q&A",
     "performances": [
       {
         "bookingUrl": "https://princecharlescinema.com/film/7614149/mystery-movie-marathon",
-        "notes": "Sold Out
-",
+        "notes": "Sold Out",
         "time": 1737849300000,
       },
       {
@@ -4411,7 +4409,6 @@ Q&A",
         "Comedy",
         "Horror",
       ],
-      "certification": "18TBC",
       "directors": [
         "Osgood Perkins",
       ],

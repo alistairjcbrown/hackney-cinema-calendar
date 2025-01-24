@@ -38,7 +38,8 @@ const filterHistoricalPerformances = (performances) => {
 
 const convertToList = (value) => {
   if (!value) return [];
-  return value.split(/,|\n|\||\/|&/g).map((value) => value.trim());
+  const list = value.split(/,|\n|\||\/|&/g).map((value) => value.trim());
+  return list.filter((item) => item !== "");
 };
 
 const splitConjoinedItemsInList = (list, joiner = " and ") => {
@@ -47,6 +48,12 @@ const splitConjoinedItemsInList = (list, joiner = " and ") => {
       updatedList.concat(item.split(joiner).map((value) => value.trim())),
     [],
   );
+};
+
+const classifications = ["U", "PG", "12", "12A", "15", "18"];
+const isValidClassification = (value = "") => {
+  const sanitizedValue = value.toUpperCase().replace("+", "").replace("*", "");
+  return classifications.includes(sanitizedValue) ? sanitizedValue : undefined;
 };
 
 const parseMinsToMs = (value) => parseInt(value, 10) * 60 * 1000;
@@ -84,7 +91,7 @@ const createOverview = ({
     categories: splitConjoinedItemsInList(convertToList(categories)),
     directors: splitConjoinedItemsInList(convertToList(directors)),
     actors: splitConjoinedItemsInList(convertToList(actors)),
-    certification: certification || undefined,
+    certification: isValidClassification(certification),
   };
 };
 

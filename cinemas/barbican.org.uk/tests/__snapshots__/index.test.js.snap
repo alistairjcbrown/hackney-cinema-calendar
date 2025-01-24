@@ -424,7 +424,7 @@ exports[`The Barbican retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "12*",
+      "certification": "12",
       "directors": [
         "Chetna Vora",
       ],
@@ -1242,7 +1242,7 @@ exports[`The Barbican retrieve and transform 1`] = `
     "overview": {
       "actors": [],
       "categories": [],
-      "certification": "15*",
+      "certification": "15",
       "directors": [
         "Mara Tamkovich",
       ],
