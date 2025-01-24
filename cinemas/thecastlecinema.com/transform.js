@@ -3,10 +3,10 @@ const { setHours, setMinutes } = require("date-fns");
 const { domain } = require("./attributes");
 const {
   getText,
-  parseDate,
   createPerformance,
   createOverview,
-} = require("./utils");
+} = require("../../common/utils");
+const { parseDate } = require("./utils");
 
 const getEntry = ($el, movieAdditionalData) => {
   const url = `${domain}${$el.find(".tile-details > a").attr("href")}`;
@@ -49,7 +49,7 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
     if ($entry.hasClass("date")) {
       // Ignore the final heading which doesn't have a date
       if (getText($entry).toLowerCase() !== "the end") {
-        date = parseDate($entry);
+        date = parseDate(getText($entry));
       }
       return;
     }

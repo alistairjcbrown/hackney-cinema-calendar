@@ -1,12 +1,14 @@
 const cheerio = require("cheerio");
 const { parseISO } = require("date-fns");
 const {
-  convertDurationStringToMinutes,
   getText,
-  getYear,
-  getDirectorDuration,
   createOverview,
   createPerformance,
+} = require("../../common/utils");
+const {
+  convertDurationStringToMinutes,
+  getYear,
+  getDirectorDuration,
 } = require("./utils");
 
 const convertSummaryToMapping = ($) => {

@@ -1,15 +1,3 @@
-const {
-  parseMinsToMs,
-  convertToList,
-  splitConjoinedItemsInList,
-} = require("../../common/utils");
-
-const fetchJson = async (url) => (await fetch(url)).json();
-
-const fetchText = async (url) => (await fetch(url)).text();
-
-const getText = ($el) => $el.text().trim();
-
 const getParams = (page) =>
   new URLSearchParams({
     // Filters to just cinema
@@ -42,39 +30,9 @@ const getDirectorDuration = (value) => {
   return { director: match[1], duration: match[2] };
 };
 
-const createOverview = ({
-  duration,
-  year,
-  categories,
-  directors,
-  actors,
-  certification,
-}) => {
-  return {
-    duration: duration ? parseMinsToMs(duration) : undefined,
-    year: year || undefined,
-    categories: splitConjoinedItemsInList(convertToList(categories)),
-    directors: splitConjoinedItemsInList(convertToList(directors)),
-    actors: splitConjoinedItemsInList(convertToList(actors)),
-    certification: certification || undefined,
-  };
-};
-
-const createPerformance = ({ date, notesList, url, screen }) => ({
-  time: date.getTime(),
-  notes: notesList.join("\n").trim(),
-  bookingUrl: url,
-  screen: screen || undefined,
-});
-
 module.exports = {
-  fetchJson,
-  fetchText,
-  getText,
   getParams,
   convertDurationStringToMinutes,
   getYear,
   getDirectorDuration,
-  createOverview,
-  createPerformance,
 };

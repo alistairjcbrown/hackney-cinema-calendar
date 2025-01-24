@@ -1,5 +1,5 @@
 const cheerio = require("cheerio");
-const { fetchText } = require("./utils");
+const { fetchText } = require("../../common/utils");
 const { domain } = require("./attributes");
 
 async function retrieve() {

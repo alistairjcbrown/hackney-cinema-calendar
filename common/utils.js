@@ -57,6 +57,37 @@ const sanitize = (value) =>
 const sanitizeRichText = (value) =>
   decode(value.replaceAll("<br />", "\n").trim());
 
+const fetchText = async (url) => (await fetch(url)).text();
+
+const fetchJson = async (url) => (await fetch(url)).json();
+
+const getText = ($el) => $el.text().trim();
+
+const createPerformance = ({ date, notesList, url, screen }) => ({
+  time: date.getTime(),
+  notes: notesList.join("\n").trim(),
+  bookingUrl: url,
+  screen: screen || undefined,
+});
+
+const createOverview = ({
+  duration,
+  year,
+  categories,
+  directors,
+  actors,
+  certification,
+}) => {
+  return {
+    duration: parseMinsToMs(duration),
+    year: year || undefined,
+    categories: splitConjoinedItemsInList(convertToList(categories)),
+    directors: splitConjoinedItemsInList(convertToList(directors)),
+    actors: splitConjoinedItemsInList(convertToList(actors)),
+    certification: certification || undefined,
+  };
+};
+
 module.exports = {
   generateEventDescription,
   getEventDate,
@@ -66,4 +97,9 @@ module.exports = {
   parseMinsToMs,
   sanitize,
   sanitizeRichText,
+  fetchText,
+  fetchJson,
+  getText,
+  createPerformance,
+  createOverview,
 };

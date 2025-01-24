@@ -2,7 +2,7 @@ const { parse, isBefore, startOfDay, addYears } = require("date-fns");
 const { enGB } = require("date-fns/locale/en-GB");
 
 const parseDate = (dateString) => {
-  const parsedDate = parse(dateString, "EEE, d LLL", new Date(), {
+  const parsedDate = parse(dateString, "EEE dd MMM 'T' HH:mm", new Date(), {
     locale: enGB,
   });
 
