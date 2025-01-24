@@ -52,7 +52,14 @@ const splitConjoinedItemsInList = (list, joiner = " and ") => {
 
 const classifications = ["U", "PG", "12", "12A", "15", "18"];
 const isValidClassification = (value = "") => {
-  const sanitizedValue = value.toUpperCase().replace("+", "").replace("*", "");
+  const sanitizedValue = value
+    .toLowerCase()
+    .replace("+", "")
+    .replace("*", "")
+    .replace(" certificate", "")
+    .replace("advised ", "")
+    .trim()
+    .toUpperCase();
   return classifications.includes(sanitizedValue) ? sanitizedValue : undefined;
 };
 

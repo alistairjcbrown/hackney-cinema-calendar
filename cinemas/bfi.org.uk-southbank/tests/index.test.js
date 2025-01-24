@@ -21,13 +21,14 @@ describe(attributes.name, () => {
   it(
     "retrieve and transform",
     async () => {
-      const moviePages = await retrieve();
+      const { movieListPage, moviePages } = await retrieve();
 
       // Make sure the input looks roughly correct
+      expect(movieListPage).toBeTruthy();
       expect(moviePages).toBeTruthy();
       expect(Object.keys(moviePages).length).toBe(203);
 
-      const output = await transform(moviePages, {});
+      const output = await transform({ movieListPage, moviePages }, {});
       const data = JSON.parse(JSON.stringify(output));
 
       // Make sure the data looks roughly correct

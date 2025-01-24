@@ -3194,7 +3194,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
         "Edward James Olmos",
       ],
       "categories": [],
-      "certification": "Advised 15 certificate",
+      "certification": "15",
       "directors": [
         "Mario Van Peebles",
       ],
@@ -3628,7 +3628,6 @@ exports[`BFI Southbank retrieve and transform 1`] = `
         "Fernanda Montenegro",
       ],
       "categories": [],
-      "certification": "TBC",
       "directors": [
         "Walter Salles",
       ],
@@ -5615,7 +5614,6 @@ exports[`BFI Southbank retrieve and transform 1`] = `
         "Joana Santos",
       ],
       "categories": [],
-      "certification": "TBC",
       "directors": [
         "Laura Carreira",
       ],
@@ -5750,7 +5748,6 @@ exports[`BFI Southbank retrieve and transform 1`] = `
         "Joana Santos",
       ],
       "categories": [],
-      "certification": "TBC",
       "directors": [
         "Laura Carreira",
       ],
@@ -5924,7 +5921,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
         "Olga Baclanova",
       ],
       "categories": [],
-      "certification": "Advised 12A",
+      "certification": "12A",
       "directors": [
         "Victor Schertzinger",
       ],
@@ -6020,7 +6017,6 @@ exports[`BFI Southbank retrieve and transform 1`] = `
         "Chhaya Kadam",
       ],
       "categories": [],
-      "certification": "TBC",
       "directors": [
         "Karan Kandhari",
       ],
@@ -6244,7 +6240,6 @@ exports[`BFI Southbank retrieve and transform 1`] = `
         "Chhaya Kadam",
       ],
       "categories": [],
-      "certification": "TBC",
       "directors": [
         "Karan Kandhari",
       ],

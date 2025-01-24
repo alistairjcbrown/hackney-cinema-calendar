@@ -2,12 +2,13 @@ const cheerio = require("cheerio");
 const { format, addYears } = require("date-fns");
 const slugify = require("slugify");
 const getPageWithPlaywright = require("../get-page-with-playwright");
+const { getText } = require("../utils");
 
 const dateFormat = "yyyy-MM-dd";
 
 async function processSearchResultPage(
   { domain, articleId },
-  parsedData,
+  moviePages,
   html,
 ) {
   const $ = cheerio.load(html);
@@ -22,21 +23,22 @@ async function processSearchResultPage(
     const showUrl = href.split(
       "&BOparam::WScontent::loadArticle::context_id=",
     )[0];
-    parsedData[showUrl] = parsedData[showUrl] || { performances: [] };
-    parsedData[showUrl].performances.push($(this).html());
-    parsedData[showUrl].title = $showLink.text().trim();
+    moviePages[showUrl] = moviePages[showUrl] || { performances: [] };
+    moviePages[showUrl].performances.push($(this).html());
+    moviePages[showUrl].title = getText($showLink);
   });
 
-  for (showUrl in parsedData) {
-    const showData = parsedData[showUrl];
+  for (showUrl in moviePages) {
+    const showData = moviePages[showUrl];
     if (showData.html) continue;
 
     console.log(
       `    - [${Date.now()}] Getting data for "${showData.title}" ... `,
     );
+
     const slug = slugify(showData.title, { strict: true }).toLowerCase();
     const cacheKey = `bfi.org.uk-${articleId}-${slug}`;
-    parsedData[showUrl].html = await getPageWithPlaywright(
+    moviePages[showUrl].html = await getPageWithPlaywright(
       `${domain}${showUrl}`,
       cacheKey,
       async (page) => {
@@ -63,14 +65,16 @@ async function processSearchResultPage(
     );
   }
 
-  return parsedData;
+  return moviePages;
 }
 
 async function retrieve(attributes) {
   const { articleId, url } = attributes;
+
   const today = new Date();
   const start = format(today, dateFormat);
   const end = format(addYears(today, 1), dateFormat);
+
   const urlQuery = [
     `doWork%3A%3AWScontent%3A%3Asearch=1`,
     `BOparam%3A%3AWScontent%3A%3Asearch%3A%3Aarticle_search_id=${articleId}`,
@@ -80,8 +84,9 @@ async function retrieve(attributes) {
 
   console.log("");
   console.log(`    - [${Date.now()}] Retriving search results pages ... `);
+
   const cacheKey = `bfi.org.uk-${articleId}`;
-  const searchResultPages = await getPageWithPlaywright(
+  const movieListPage = await getPageWithPlaywright(
     `${url}?${urlQuery.join("&")}`,
     cacheKey,
     async (page) => {
@@ -127,17 +132,17 @@ async function retrieve(attributes) {
   );
 
   console.log(
-    `    - [${Date.now()}] Processing ${searchResultPages.length} search results pages ... `,
+    `    - [${Date.now()}] Processing ${movieListPage.length} search results pages ... `,
   );
-  let parsedData = {};
-  for (searchResultPage of searchResultPages) {
-    parsedData = await processSearchResultPage(
+  let moviePages = {};
+  for (searchResultPage of movieListPage) {
+    moviePages = await processSearchResultPage(
       attributes,
-      parsedData,
+      moviePages,
       searchResultPage,
     );
   }
-  return parsedData;
+  return { movieListPage, moviePages };
 }
 
 module.exports = retrieve;

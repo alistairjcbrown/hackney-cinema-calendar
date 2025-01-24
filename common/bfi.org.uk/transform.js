@@ -1,36 +1,27 @@
 const cheerio = require("cheerio");
-const { parse } = require("date-fns");
-const { enGB } = require("date-fns/locale/en-GB");
-const {
-  convertToList,
-  splitConjoinedItemsInList,
-  parseMinsToMs,
-} = require("../utils");
+const { createOverview, getText, createPerformance } = require("../utils");
+const { parseDate } = require("./utils");
 
 function getOverviewFor({ html }) {
   const $ = cheerio.load(html);
 
   const overview = {
-    categories: [],
-    directors: [],
-    actors: [],
+    categories: "",
+    directors: "",
+    actors: "",
   };
+
   const $showInfo = $("ul.Film-info__information li");
   $showInfo.each(function () {
-    const heading = $(this)
-      .find(".Film-info__information__heading")
-      .text()
-      .trim()
-      .toLowerCase();
-    const content = $(this)
-      .find(".Film-info__information__value")
-      .text()
-      .trim();
+    const heading = getText(
+      $(this).find(".Film-info__information__heading"),
+    ).toLowerCase();
+    const content = getText($(this).find(".Film-info__information__value"));
 
-    if (heading === "director" && overview.directors.length === 0) {
-      overview.directors = splitConjoinedItemsInList(convertToList(content));
-    } else if (heading === "with" && overview.actors.length === 0) {
-      overview.actors = splitConjoinedItemsInList(convertToList(content));
+    if (heading === "director" && !overview.directors) {
+      overview.directors = content;
+    } else if (heading === "with" && !overview.actors) {
+      overview.actors = content;
     } else if (heading === "certificate" && !overview.certification) {
       overview.certification = content;
     } else {
@@ -39,43 +30,40 @@ function getOverviewFor({ html }) {
         overview.year = hasTimings[1];
       }
       if (hasTimings && !overview.duration) {
-        overview.duration = parseMinsToMs(hasTimings[2]);
+        overview.duration = hasTimings[2];
       }
     }
   });
 
-  return overview;
+  return createOverview(overview);
 }
 
-async function getPerformancesFor(pageUrl, { performances }) {
+function getPerformancesFor(url, { performances }) {
   const showPerformances = [];
   for (performance of performances) {
     const $ = cheerio.load(performance);
-    const showTime = $(".start-date").text().trim();
-    const date = parse(showTime, "EEEE dd MMMM yyyy HH:mm", new Date(), {
-      locale: enGB,
-    });
-    showPerformances.push({
-      bookingUrl: pageUrl,
-      screen: $(".item-venue").text().trim(),
-      notes: "",
-      time: date.getTime(),
-    });
+    showPerformances.push(
+      createPerformance({
+        url,
+        screen: getText($(".item-venue")),
+        notesList: [],
+        date: parseDate(getText($(".start-date"))),
+      }),
+    );
   }
   return showPerformances;
 }
 
-async function transform({ url }, showData, sourcedEvents) {
+async function transform({ url }, { moviePages }, sourcedEvents) {
   const shows = [];
 
-  for (showPath in showData) {
-    const show = showData[showPath];
-
+  for (showPath in moviePages) {
+    const show = moviePages[showPath];
     shows.push({
       title: show.title,
       url: `${url}?${showPath}`,
       overview: getOverviewFor(show),
-      performances: await getPerformancesFor(`${url}?${showPath}`, show),
+      performances: getPerformancesFor(`${url}?${showPath}`, show),
     });
   }
 
