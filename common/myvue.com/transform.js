@@ -1,3 +1,4 @@
+const { parseISO } = require("date-fns");
 const {
   sanitizeRichText,
   createOverview,
@@ -23,7 +24,7 @@ async function transform(
     const performances = movie.showingGroups.flatMap(({ sessions }) =>
       sessions.map((showing) =>
         createPerformance({
-          date: new Date(showing.showTimeWithTimeZone),
+          date: parseISO(showing.showTimeWithTimeZone),
           screen: showing.screenName.replace("Screen ", ""),
           notesList: (showing.attributes || []).reduce(
             (notes, { shortName: title, description }) =>

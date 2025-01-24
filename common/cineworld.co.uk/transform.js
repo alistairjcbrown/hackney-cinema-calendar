@@ -1,3 +1,4 @@
+const { parseISO } = require("date-fns");
 const { createOverview, createPerformance } = require("../../common/utils");
 
 const getCertificate = (attributeIds) => {
@@ -75,7 +76,7 @@ async function transform(venue, { movieListPage, moviePages }, sourcedEvents) {
 
     movie.performances = movie.performances.concat(
       createPerformance({
-        date: new Date(event.eventDateTime),
+        date: parseISO(event.eventDateTime),
         screen: event.auditorium,
         notesList,
         url: event.bookingLink,

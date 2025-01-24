@@ -1,3 +1,4 @@
+const { parseISO } = require("date-fns");
 const { createOverview, createPerformance } = require("../../common/utils");
 
 async function transform(
@@ -41,7 +42,7 @@ async function transform(
         );
 
         return createPerformance({
-          date: new Date(performance.startsAt),
+          date: parseISO(performance.startsAt),
           notesList,
           url: performance.data.ticketing[0].urls[0],
         });

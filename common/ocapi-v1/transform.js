@@ -1,4 +1,5 @@
 const slugify = require("slugify");
+const { parseISO } = require("date-fns");
 const { createPerformance, createOverview } = require("../../common/utils");
 
 const findFor = (list, idMatch) => list.find(({ id }) => id === idMatch);
@@ -85,7 +86,7 @@ async function transform(
 
         movie.performances = movie.performances.concat(
           createPerformance({
-            date: new Date(schedule.startsAt),
+            date: parseISO(schedule.startsAt),
             screen: findFor(screens, screenId).name.text,
             notesList,
             url: getBookingUrl(performance),
