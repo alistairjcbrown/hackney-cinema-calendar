@@ -1,5 +1,7 @@
 const slugify = require("slugify");
-const { parseMinsToMs } = require("../../common/utils");
+const { createPerformance, createOverview } = require("../../common/utils");
+
+const findFor = (list, idMatch) => list.find(({ id }) => id === idMatch);
 
 async function transform(
   { domain },
@@ -17,40 +19,31 @@ async function transform(
 
         const findByRole = (role) => (group, member) => {
           if (!member.roles.includes(role)) return group;
-          const match = castAndCrew.find(
-            ({ id }) => id === member.castAndCrewMemberId,
-          );
+
+          const match = findFor(castAndCrew, member.castAndCrewMemberId);
           if (!match) return group;
+
           const {
             name: { givenName, familyName },
           } = match;
           return group.concat(`${givenName.trim()} ${familyName.trim()}`);
         };
 
-        const slug = slugify(film.title.text, { strict: true }).toLowerCase();
+        const certification = findFor(censorRatings, film.censorRatingId)
+          ?.classification?.text;
 
-        const overview = {
-          duration: film.runtimeInMinutes
-            ? parseMinsToMs(film.runtimeInMinutes)
-            : undefined,
+        const overview = createOverview({
+          duration: film.runtimeInMinutes,
           categories: film.genreIds.map(
-            (genreId) => genres.find(({ id }) => id === genreId).name.text,
+            (genreId) => findFor(genres, genreId).name.text,
           ),
           directors: film.castAndCrew.reduce(findByRole("Director"), []),
           actors: film.castAndCrew.reduce(findByRole("Actor"), []),
-        };
+          certification,
+          trailer: film.trailerUrl,
+        });
 
-        const certification = censorRatings.find(
-          ({ id }) => id === film.censorRatingId,
-        )?.classification?.text;
-        if (certification && !certification.includes("TBC")) {
-          overview.certification = certification;
-        }
-
-        if (film.trailerUrl) {
-          overview.trailer = film.trailerUrl;
-        }
-
+        const slug = slugify(film.title.text, { strict: true }).toLowerCase();
         return {
           ...mappedFilms,
           [film.id]: {
@@ -70,28 +63,34 @@ async function transform(
         const { screenId, schedule } = performance;
         const movie = movies[performance.filmId];
 
-        let notes = "";
-        if (performance.isSoldOut) notes += "\nSold out";
-        if (performance.requires3dGlasses) notes += "\nRequires 3D glasses";
+        const notesList = [];
+        if (performance.isSoldOut) {
+          notesList.push("Sold out");
+        }
+        if (performance.requires3dGlasses) {
+          notesList.push("Requires 3D glasses");
+        }
         performance.attributeIds.forEach((attributeId) => {
-          const attribute = attributes.find(({ id }) => id === attributeId);
+          const attribute = findFor(attributes, attributeId);
           if (attribute) {
             if (!attribute.description?.text) {
-              notes += `\n${attribute.name.text}`;
+              notesList.push(`${attribute.name.text}`);
             } else {
-              notes += `\n${attribute.name.text}: ${attribute.description.text}`;
+              notesList.push(
+                `${attribute.name.text}: ${attribute.description.text}`,
+              );
             }
           }
         });
 
-        const screen = screens.find(({ id }) => id === screenId).name.text;
-
-        movie.performances = movie.performances.concat({
-          time: new Date(schedule.startsAt).getTime(),
-          screen,
-          notes: notes.trim(),
-          bookingUrl: getBookingUrl(performance),
-        });
+        movie.performances = movie.performances.concat(
+          createPerformance({
+            date: new Date(schedule.startsAt),
+            screen: findFor(screens, screenId).name.text,
+            notesList,
+            url: getBookingUrl(performance),
+          }),
+        );
       });
     },
   );
