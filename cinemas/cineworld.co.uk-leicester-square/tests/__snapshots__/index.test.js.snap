@@ -18,7 +18,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
         "Drama",
         "Comedy",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "James Mangold",
       ],
@@ -178,7 +178,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
       "categories": [
         "Comedy",
       ],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [
         "Thomas Lee",
         "Daniel Ho",
@@ -213,7 +213,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
       "categories": [
         "Horror",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Leigh Whannell",
       ],
@@ -424,7 +424,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certificate": "18",
+      "certification": "18",
       "directors": [
         "Halina Reijn",
       ],
@@ -570,7 +570,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
       "categories": [
         "Comedy",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Jesse Eisenberg",
       ],
@@ -765,7 +765,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
       "categories": [
         "Horror",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Robert Eggers",
       ],
@@ -932,7 +932,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "John Crowley",
       ],
@@ -1095,7 +1095,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
         "Raechelle Banno",
       ],
       "categories": [],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Michael Gracey",
       ],
@@ -1136,7 +1136,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
         "Action",
         "Animation",
       ],
-      "certificate": "PG",
+      "certification": "PG",
       "directors": [
         "Barry Jenkins",
       ],
@@ -1237,7 +1237,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
       "categories": [
         "Action",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Mel Gibson",
       ],
@@ -1441,7 +1441,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
         "Eddy Maday",
       ],
       "categories": [],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Steven Soderbergh",
       ],
@@ -1618,7 +1618,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
       "categories": [
         "Action",
       ],
-      "certificate": "PG",
+      "certification": "PG",
       "directors": [
         "Jeff Fowler",
       ],
@@ -1714,7 +1714,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
       "categories": [
         "Adventure",
       ],
-      "certificate": "PG",
+      "certification": "PG",
       "directors": [
         "Jon M. Chu",
       ],
@@ -1798,7 +1798,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
       "categories": [
         "Adventure",
       ],
-      "certificate": "PG",
+      "certification": "PG",
       "directors": [
         "Dougal Wilson",
       ],
@@ -1856,7 +1856,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
         "Drama",
         "Comedy",
       ],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [
         "David Fincher",
       ],
@@ -1880,7 +1880,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
         "Adventure",
         "Animation",
       ],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [],
       "duration": 8040000,
     },
@@ -1901,7 +1901,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
         "(G)I-DLE",
       ],
       "categories": [],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [
         "Yoondong Oh",
       ],
@@ -1997,7 +1997,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
         "Megan Suri",
       ],
       "categories": [],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Drew Hancock",
       ],
@@ -2039,7 +2039,7 @@ exports[`Cineworld Leicester Square retrieve and transform 1`] = `
       "categories": [
         "Action",
       ],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [
         "Ang Lee",
       ],
@@ -2075,7 +2075,7 @@ This is a subtitled screening",
       "categories": [
         "Drama",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Tim Fehlbaum",
       ],
@@ -2125,7 +2125,7 @@ This is a subtitled screening",
         "IU",
       ],
       "categories": [],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [
         "Yoondong Oh",
         "Yeji Lee",
@@ -2150,7 +2150,7 @@ This is a subtitled screening",
         "Cush Jumbo",
       ],
       "categories": [],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [
         "Max Webster",
       ],
@@ -2182,7 +2182,7 @@ This is a subtitled screening",
         "Drama",
         "Comedy",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Michel Gondry",
       ],
@@ -2565,7 +2565,7 @@ This is a subtitled screening",
         "Drama",
         "Comedy",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Garry Marshall",
       ],
@@ -2916,7 +2916,7 @@ This is a subtitled screening",
         "Ncuti Gatwa",
       ],
       "categories": [],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [
         "Max Webster",
       ],
@@ -3077,7 +3077,7 @@ This is a subtitled screening",
     "overview": {
       "actors": [],
       "categories": [],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [],
       "duration": 8400000,
     },
@@ -3108,7 +3108,7 @@ This is a subtitled screening",
         "Tony Jayawardena",
       ],
       "categories": [],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Sean Foley",
       ],
@@ -3138,7 +3138,7 @@ This is a subtitled screening",
         "The Johann Strauss Orchestra",
       ],
       "categories": [],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [
         "André Rieu",
         "Michel Fizzano",
@@ -3166,7 +3166,7 @@ This is a subtitled screening",
     "overview": {
       "actors": [],
       "categories": [],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [],
       "duration": 9000000,
     },

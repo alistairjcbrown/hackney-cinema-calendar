@@ -17,7 +17,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
       "categories": [
         "Comedy",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Gautham Vasudev Menon",
       ],
@@ -162,7 +162,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
         "Adventure",
         "Action",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Abhishek Kapoor",
       ],
@@ -201,7 +201,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
         "Revathi",
       ],
       "categories": [],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Sreeraj Sreenivasan",
       ],
@@ -330,7 +330,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
       "categories": [
         "Horror",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Leigh Whannell",
       ],
@@ -406,7 +406,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
       "categories": [
         "Comedy",
       ],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [
         "Kiruthiga Udhayanidhi",
       ],
@@ -533,7 +533,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
       "categories": [
         "Comedy",
       ],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [
         "Anil Ravipudi",
       ],
@@ -671,7 +671,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
         "Drama",
         "Action",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Bobby Kolli",
       ],
@@ -774,7 +774,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
         "Drama",
         "Action",
       ],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [
         "S. Shankar",
       ],
@@ -804,7 +804,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [
         "Jofin T. Chacko",
       ],
@@ -980,7 +980,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
       "categories": [
         "Action",
       ],
-      "certificate": "PG",
+      "certification": "PG",
       "directors": [
         "Jeff Fowler",
       ],
@@ -1087,7 +1087,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
         "Action",
         "Comedy",
       ],
-      "certificate": "12A",
+      "certification": "12A",
       "directors": [
         "Sundar C.",
       ],
@@ -1253,7 +1253,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
       "categories": [
         "Comedy",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Kęstutis Gudavičius",
       ],
@@ -1397,7 +1397,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Pratim D. Gupta",
       ],
@@ -1664,7 +1664,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
       "categories": [
         "Action",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Abhishek Anil Kapur",
         "Sandeep Kewlani",
@@ -1838,7 +1838,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
         "Action",
         "Animation",
       ],
-      "certificate": "PG",
+      "certification": "PG",
       "directors": [
         "Barry Jenkins",
       ],
@@ -1981,7 +1981,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
         "Adventure",
         "Animation",
       ],
-      "certificate": "U",
+      "certification": "U",
       "directors": [
         "Chris Sanders",
       ],
@@ -2019,7 +2019,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
         "Action",
         "Animation",
       ],
-      "certificate": "PG",
+      "certification": "PG",
       "directors": [
         "Dave Derrick Jr.",
       ],
@@ -2139,7 +2139,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
       "categories": [
         "Animation",
       ],
-      "certificate": "PG",
+      "certification": "PG",
       "directors": [],
       "duration": 7080000,
       "trailer": "https://youtu.be/do0c3iLWdE8?si=3tzVMXcXPFEo4OCK",
@@ -2173,7 +2173,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
       "categories": [
         "Drama",
       ],
-      "certificate": "15",
+      "certification": "15",
       "directors": [
         "Tim Fehlbaum",
       ],

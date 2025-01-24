@@ -1,21 +1,20 @@
 const { format, addYears } = require("date-fns");
+const { fetchJson } = require("../../common/utils");
 
 const tenantId = "10108";
 
 async function retrieve({ cinemaId }) {
   const apiUrl = "https://www.cineworld.co.uk/uk/data-api-service/v1";
   const untilDate = format(addYears(new Date(), 1), "yyyy-MM-dd");
-  const activeDatesResponse = await fetch(
+  const activeDates = await fetchJson(
     `${apiUrl}/quickbook/${tenantId}/dates/in-cinema/${cinemaId}/until/${untilDate}?attr=&lang=en_GB`,
   );
-  const activeDates = await activeDatesResponse.json();
 
   const movieListPage = [];
   for (activeDate of activeDates.body.dates) {
-    const showingsOnDateResponse = await fetch(
+    const showingsOnDate = await fetchJson(
       `${apiUrl}/quickbook/${tenantId}/film-events/in-cinema/${cinemaId}/at-date/${activeDate}?attr=&lang=en_GB`,
     );
-    const showingsOnDate = await showingsOnDateResponse.json();
     movieListPage.push(showingsOnDate.body);
   }
 
@@ -26,7 +25,7 @@ async function retrieve({ cinemaId }) {
   const moviePages = {};
   for (filmId of filmIds) {
     const url = `${apiUrl}/${tenantId}/films/byDistributorCode/${filmId}`;
-    const additionalFilmData = await (await fetch(url)).json();
+    const additionalFilmData = await fetchJson(url);
     moviePages[filmId] = additionalFilmData.body;
   }
 

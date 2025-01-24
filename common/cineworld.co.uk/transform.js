@@ -1,4 +1,4 @@
-const { parseMinsToMs, convertToList } = require("../../common/utils");
+const { createOverview, createPerformance } = require("../../common/utils");
 
 const getCertificate = (attributeIds) => {
   if (attributeIds.includes("u")) return "U";
@@ -30,21 +30,14 @@ async function transform(venue, { movieListPage, moviePages }, sourcedEvents) {
     dayData.films.forEach((film) => {
       const additionalData = moviePages[film.id].filmDetails;
 
-      const overview = {
-        duration: film.length ? parseMinsToMs(film.length) : undefined,
+      const overview = createOverview({
+        duration: film.length,
         categories: getCategories(film.attributeIds),
-        directors: convertToList(additionalData.directors),
-        actors: convertToList(additionalData.cast),
-      };
-
-      if (film.videoLink) {
-        overview.trailer = film.videoLink;
-      }
-
-      const certificate = getCertificate(film.attributeIds);
-      if (certificate) {
-        overview.certificate = certificate;
-      }
+        directors: additionalData.directors,
+        actors: additionalData.cast,
+        trailer: film.videoLink,
+        certification: getCertificate(film.attributeIds),
+      });
 
       // Ignore placeholders for private screenings
       if (film.name.toUpperCase() === "THEATRE LET") return;
@@ -64,26 +57,30 @@ async function transform(venue, { movieListPage, moviePages }, sourcedEvents) {
     // If the movie isn't available, then we've omitted it previously
     if (!movie) return;
 
-    let notes = "";
-    if (event.soldOut) notes += "\nSold out";
+    const notesList = [];
+    if (event.soldOut) notesList.push("Sold out");
     event.attributeIds.forEach((attributeId) => {
       if (attributeId === "audio-described") {
-        notes += `\This is an audio described screening. A special headset will be supplied if required. The performance is otherwise unaffected and is suitable for all customers.`;
+        notesList.push(
+          "This is an audio described screening. A special headset will be supplied if required. The performance is otherwise unaffected and is suitable for all customers.",
+        );
       }
       if (attributeId === "subbed") {
-        notes += `\nThis is a subtitled screening`;
+        notesList.push("This is a subtitled screening");
       }
       if (attributeId === "classicfilm") {
-        notes += `\nThis is a classic film`;
+        notesList.push("This is a classic film");
       }
     });
 
-    movie.performances = movie.performances.concat({
-      time: new Date(event.eventDateTime).getTime(),
-      screen: event.auditorium,
-      notes: notes.trim(),
-      bookingUrl: event.bookingLink,
-    });
+    movie.performances = movie.performances.concat(
+      createPerformance({
+        date: new Date(event.eventDateTime),
+        screen: event.auditorium,
+        notesList,
+        url: event.bookingLink,
+      }),
+    );
   });
 
   const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(

@@ -101,9 +101,15 @@ const createOverview = ({
   return {
     duration: parseMinsToMs(duration) || undefined,
     year: year || undefined,
-    categories: splitConjoinedItemsInList(convertToList(categories)),
-    directors: splitConjoinedItemsInList(convertToList(directors)),
-    actors: splitConjoinedItemsInList(convertToList(actors)),
+    categories: Array.isArray(categories)
+      ? categories
+      : splitConjoinedItemsInList(convertToList(categories)),
+    directors: Array.isArray(directors)
+      ? directors
+      : splitConjoinedItemsInList(convertToList(directors)),
+    actors: Array.isArray(actors)
+      ? actors
+      : splitConjoinedItemsInList(convertToList(actors)),
     certification: isValidClassification(certification),
     trailer: trailer || undefined,
   };
