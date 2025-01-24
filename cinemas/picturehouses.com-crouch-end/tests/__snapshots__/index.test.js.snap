@@ -8,13 +8,13 @@ exports[`Crouch End Picturehouse retrieve and transform 1`] = `
         "Ben Whishaw",
         "Hugh Bonneville",
         "Julie Walters",
-        "Emily  Mortimer",
+        "Emily Mortimer",
         "Imelda Staunton",
         "Jim Broadbent",
         "Antonio Banderas",
         "Olivia Colman",
         "Samuel Joslin",
-        "Madeleine  Harris",
+        "Madeleine Harris",
         "Carla Tous",
       ],
       "categories": [],
@@ -45,7 +45,7 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "Jesse Eisenberg",
         "Will Sharpe",
         "Kieran Culkin",
-        "Kurt  Egyiawan",
+        "Kurt Egyiawan",
         "Liza Sadovy",
         "Daniel Oreskes",
       ],
@@ -261,8 +261,8 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "Humphrey Bogart",
         "Ingrid Bergman",
         "Paul Henreid",
-        "Sydney  Greenstreet",
-        "Claude  Rains",
+        "Sydney Greenstreet",
+        "Claude Rains",
       ],
       "categories": [],
       "certification": "U",
@@ -687,7 +687,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Jesse Eisenberg",
         "Will Sharpe",
         "Kieran Culkin",
-        "Kurt  Egyiawan",
+        "Kurt Egyiawan",
         "Liza Sadovy",
         "Daniel Oreskes",
       ],
@@ -753,9 +753,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Willem Dafoe",
         "Nicholas Hoult",
         "Aaron Taylor-Johnson",
-        "Bill  Skarsgård",
+        "Bill Skarsgård",
         "Ralph Ineson",
-        "Lily-Rose  Depp",
+        "Lily-Rose Depp",
         "Emma Corrin",
         "Simon McBurney",
       ],
@@ -983,7 +983,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
     "overview": {
       "actors": [
         "Lise Davidsen",
-        "René  Pape",
+        "René Pape",
         "Tomasz Konieczny",
         "Stephen Milling",
         "Ying Fang",
@@ -1014,7 +1014,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
       "actors": [
         "Peter Mattei",
         "Michelle DeYoung",
-        "Elza  van den Heever",
+        "Elza van den Heever",
         "Gerhard Siegel",
         "Piotr Buszewski",
       ],
@@ -1040,7 +1040,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
   {
     "overview": {
       "actors": [
-        "Maurizio  Muraro",
+        "Maurizio Muraro",
         "Joshua Hopkins",
         "Marianne Crebassa",
         "Federica Lombardi",
@@ -1070,7 +1070,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
   {
     "overview": {
       "actors": [
-        "Christopher  Maltman",
+        "Christopher Maltman",
         "Lise Davidsen",
         "Stanislas de Barbeyrac",
         "Soloman Howard",
@@ -1100,7 +1100,7 @@ Subtitled: This show is in the original language and will have English subtitles
   {
     "overview": {
       "actors": [
-        "Alexander  Vinogradov",
+        "Alexander Vinogradov",
         "Andrey Zhilikhovsky",
         "Aigul Akhmetshina",
         "Jack Swanson",
@@ -1130,7 +1130,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
       "actors": [
         "Quinn Kelsey",
         "Piotr Beczala",
-        "Angel  Blue",
+        "Angel Blue",
         "Dmitry Belosselskiy",
         "Morris Robinson",
         "Judit Kutasi",
@@ -1163,8 +1163,8 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Stacy Martin",
         "Alessandro Nivola",
         "Joe Alwyn",
-        "Isaach  De Bankolé",
-        "Raffey  Cassidy",
+        "Isaach De Bankolé",
+        "Raffey Cassidy",
         "Emma Laird",
       ],
       "categories": [],
@@ -1341,7 +1341,7 @@ Subtitled: This show is in the original language and will have English subtitles
       "categories": [],
       "certification": "12A",
       "directors": [
-        "Kenneth  MacMillan",
+        "Kenneth MacMillan",
       ],
       "duration": 12600000,
     },
@@ -1362,7 +1362,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
       "actors": [
         "Seth Rogen",
         "Keith David",
-        "Kelvin  Harrison Jr.",
+        "Kelvin Harrison Jr.",
         "Thandiwe Newton",
         "Beyoncé Knowles-Carter",
         "Billy Eichner",
@@ -1371,7 +1371,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Aaron Pierre",
         "Anika Noni Rose",
         "Lennie James",
-        "Kagiso  Lediga",
+        "Kagiso Lediga",
         "Blue Ivy Carter",
         "Tiffany Boone",
         "Preston Nyman",
@@ -1402,8 +1402,8 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "Humphrey Bogart",
         "Ingrid Bergman",
         "Paul Henreid",
-        "Sydney  Greenstreet",
-        "Claude  Rains",
+        "Sydney Greenstreet",
+        "Claude Rains",
       ],
       "categories": [],
       "certification": "U",
@@ -1666,7 +1666,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
     "overview": {
       "actors": [
         "Lise Davidsen",
-        "René  Pape",
+        "René Pape",
         "Tomasz Konieczny",
         "Stephen Milling",
         "Ying Fang",
@@ -1696,7 +1696,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
   {
     "overview": {
       "actors": [
-        "Christopher  Maltman",
+        "Christopher Maltman",
         "Lise Davidsen",
         "Stanislas de Barbeyrac",
         "Soloman Howard",
@@ -1728,9 +1728,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     "overview": {
       "actors": [
         "Glenn Ford",
-        "Gloria  Grahame",
+        "Gloria Grahame",
         "Lee Marvin",
-        "Jocelyn  Brando",
+        "Jocelyn Brando",
       ],
       "categories": [],
       "certification": "15",
@@ -1777,7 +1777,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
       "actors": [
         "Peter Mattei",
         "Michelle DeYoung",
-        "Elza  van den Heever",
+        "Elza van den Heever",
         "Gerhard Siegel",
         "Piotr Buszewski",
       ],
@@ -1804,7 +1804,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
   {
     "overview": {
       "actors": [
-        "Maurizio  Muraro",
+        "Maurizio Muraro",
         "Joshua Hopkins",
         "Marianne Crebassa",
         "Federica Lombardi",
@@ -1895,7 +1895,7 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
   {
     "overview": {
       "actors": [
-        "Alexander  Vinogradov",
+        "Alexander Vinogradov",
         "Andrey Zhilikhovsky",
         "Aigul Akhmetshina",
         "Jack Swanson",
@@ -1924,7 +1924,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
   {
     "overview": {
       "actors": [
-        "Marianne  Jean-Baptiste",
+        "Marianne Jean-Baptiste",
         "Michele Austin",
       ],
       "categories": [],
@@ -2007,7 +2007,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
       "categories": [],
       "certification": "12A",
       "directors": [
-        "Kenneth  MacMillan",
+        "Kenneth MacMillan",
       ],
       "duration": 12600000,
     },
@@ -2027,7 +2027,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
   {
     "overview": {
       "actors": [
-        "The Royal  Ballet",
+        "The Royal Ballet",
         "Matthew Ball",
         "Yasmine Naghdi",
       ],

@@ -87,7 +87,7 @@ exports[`Greenwich Picturehouse retrieve and transform 1`] = `
         "Phyllis Smith",
         "Liza Lapira",
         "Paul Walter Hauser",
-        "Adèle  Exarchopoulos",
+        "Adèle Exarchopoulos",
         "Ayo Edebiri",
       ],
       "categories": [],
@@ -143,8 +143,8 @@ Kids' Club: Exclusively for children and their parents or carers. Unaccompanied 
         "Stacy Martin",
         "Alessandro Nivola",
         "Joe Alwyn",
-        "Isaach  De Bankolé",
-        "Raffey  Cassidy",
+        "Isaach De Bankolé",
+        "Raffey Cassidy",
         "Emma Laird",
       ],
       "categories": [],
@@ -350,13 +350,13 @@ Kids' Club: Exclusively for children and their parents or carers. Unaccompanied 
         "Ben Whishaw",
         "Hugh Bonneville",
         "Julie Walters",
-        "Emily  Mortimer",
+        "Emily Mortimer",
         "Imelda Staunton",
         "Jim Broadbent",
         "Antonio Banderas",
         "Olivia Colman",
         "Samuel Joslin",
-        "Madeleine  Harris",
+        "Madeleine Harris",
         "Carla Tous",
       ],
       "categories": [],
@@ -700,8 +700,8 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Humphrey Bogart",
         "Ingrid Bergman",
         "Paul Henreid",
-        "Sydney  Greenstreet",
-        "Claude  Rains",
+        "Sydney Greenstreet",
+        "Claude Rains",
       ],
       "categories": [],
       "certification": "U",
@@ -752,7 +752,7 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
   {
     "overview": {
       "actors": [
-        "Marianne  Jean-Baptiste",
+        "Marianne Jean-Baptiste",
         "Michele Austin",
       ],
       "categories": [],
@@ -990,13 +990,13 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "Kodi Smit-McPhee",
         "Alba Rohrwacher",
         "Haluk Bilginer",
-        "Pierfrancesco  Favino",
+        "Pierfrancesco Favino",
         "VALERIA GOLINO",
       ],
       "categories": [],
       "certification": "12A",
       "directors": [
-        "Pablo  Larraín",
+        "Pablo Larraín",
       ],
       "duration": 7440000,
       "trailer": "https://www.youtube.com/watch?v=mVIXaTdxlQc",
@@ -1103,9 +1103,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "Willem Dafoe",
         "Nicholas Hoult",
         "Aaron Taylor-Johnson",
-        "Bill  Skarsgård",
+        "Bill Skarsgård",
         "Ralph Ineson",
-        "Lily-Rose  Depp",
+        "Lily-Rose Depp",
         "Emma Corrin",
         "Simon McBurney",
       ],
@@ -1217,7 +1217,7 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
       "categories": [],
       "certification": "12A",
       "directors": [
-        "Kenneth  MacMillan",
+        "Kenneth MacMillan",
       ],
       "duration": 12600000,
     },
@@ -1258,7 +1258,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
   {
     "overview": {
       "actors": [
-        "Christopher  Maltman",
+        "Christopher Maltman",
         "Lise Davidsen",
         "Stanislas de Barbeyrac",
         "Soloman Howard",
@@ -1288,7 +1288,7 @@ Subtitled: This show is in the original language and will have English subtitles
   {
     "overview": {
       "actors": [
-        "Maurizio  Muraro",
+        "Maurizio Muraro",
         "Joshua Hopkins",
         "Marianne Crebassa",
         "Federica Lombardi",
@@ -1349,7 +1349,7 @@ Subtitled: This show is in the original language and will have English subtitles
       "actors": [
         "Quinn Kelsey",
         "Piotr Beczala",
-        "Angel  Blue",
+        "Angel Blue",
         "Dmitry Belosselskiy",
         "Morris Robinson",
         "Judit Kutasi",
@@ -1376,7 +1376,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
   {
     "overview": {
       "actors": [
-        "Alexander  Vinogradov",
+        "Alexander Vinogradov",
         "Andrey Zhilikhovsky",
         "Aigul Akhmetshina",
         "Jack Swanson",
@@ -1405,7 +1405,7 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
     "overview": {
       "actors": [
         "Lise Davidsen",
-        "René  Pape",
+        "René Pape",
         "Tomasz Konieczny",
         "Stephen Milling",
         "Ying Fang",
@@ -1538,7 +1538,7 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "Jesse Eisenberg",
         "Will Sharpe",
         "Kieran Culkin",
-        "Kurt  Egyiawan",
+        "Kurt Egyiawan",
         "Liza Sadovy",
         "Daniel Oreskes",
       ],
@@ -1878,7 +1878,7 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
     "overview": {
       "actors": [
         "Lise Davidsen",
-        "René  Pape",
+        "René Pape",
         "Tomasz Konieczny",
         "Stephen Milling",
         "Ying Fang",
@@ -1928,9 +1928,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     "overview": {
       "actors": [
         "Glenn Ford",
-        "Gloria  Grahame",
+        "Gloria Grahame",
         "Lee Marvin",
-        "Jocelyn  Brando",
+        "Jocelyn Brando",
       ],
       "categories": [],
       "certification": "15",
@@ -1954,7 +1954,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
   {
     "overview": {
       "actors": [
-        "Christopher  Maltman",
+        "Christopher Maltman",
         "Lise Davidsen",
         "Stanislas de Barbeyrac",
         "Soloman Howard",
@@ -2008,7 +2008,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
       "actors": [
         "Peter Mattei",
         "Michelle DeYoung",
-        "Elza  van den Heever",
+        "Elza van den Heever",
         "Gerhard Siegel",
         "Piotr Buszewski",
       ],
@@ -2067,7 +2067,7 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
   {
     "overview": {
       "actors": [
-        "Alexander  Vinogradov",
+        "Alexander Vinogradov",
         "Andrey Zhilikhovsky",
         "Aigul Akhmetshina",
         "Jack Swanson",
@@ -2147,7 +2147,7 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
   {
     "overview": {
       "actors": [
-        "Maurizio  Muraro",
+        "Maurizio Muraro",
         "Joshua Hopkins",
         "Marianne Crebassa",
         "Federica Lombardi",
@@ -2314,7 +2314,7 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
       "categories": [],
       "certification": "12A",
       "directors": [
-        "Kenneth  MacMillan",
+        "Kenneth MacMillan",
       ],
       "duration": 12600000,
     },
@@ -2334,7 +2334,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
   {
     "overview": {
       "actors": [
-        "The Royal  Ballet",
+        "The Royal Ballet",
         "Matthew Ball",
         "Yasmine Naghdi",
       ],
@@ -2419,7 +2419,7 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
   {
     "overview": {
       "actors": [
-        "Marianne  Jean-Baptiste",
+        "Marianne Jean-Baptiste",
         "Michele Austin",
       ],
       "categories": [],

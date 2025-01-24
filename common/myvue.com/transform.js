@@ -1,64 +1,56 @@
 const {
-  parseMinsToMs,
-  convertToList,
   sanitizeRichText,
+  createOverview,
+  createPerformance,
 } = require("../../common/utils");
 
-async function transform({ domain, url }, { result: movies }, sourcedEvents) {
+async function transform(
+  { domain, url },
+  { result: movieData },
+  sourcedEvents,
+) {
+  const movies = movieData.reduce((moviesAtCinema, movie) => {
+    if (movie.showingGroups.length === 0) return moviesAtCinema;
+
+    const overview = createOverview({
+      categories: movie.genres,
+      directors: movie.director,
+      actors: movie.cast,
+      duration: movie.runningTime,
+      certification: movie.certification?.name,
+    });
+
+    const performances = movie.showingGroups.flatMap(({ sessions }) =>
+      sessions.map((showing) =>
+        createPerformance({
+          date: new Date(showing.showTimeWithTimeZone),
+          screen: showing.screenName.replace("Screen ", ""),
+          notesList: (showing.attributes || []).reduce(
+            (notes, { shortName: title, description }) =>
+              title && description
+                ? notes.concat(`${title}: ${sanitizeRichText(description)}`)
+                : notes,
+            [],
+          ),
+          url: `${domain}${showing.bookingUrl}`,
+        }),
+      ),
+    );
+
+    const transformedMovie = {
+      title: movie.filmTitle,
+      url: movie.filmUrl.replace(domain, url),
+      overview,
+      performances,
+    };
+    return moviesAtCinema.concat(transformedMovie);
+  }, []);
+
   const listOfSourcedEvents = Object.values(sourcedEvents).flatMap(
     (events) => events,
   );
 
-  return movies
-    .reduce((moviesAtCinema, movie) => {
-      if (movie.showingGroups.length === 0) return moviesAtCinema;
-
-      const overview = {
-        categories: movie.genres || [],
-        directors: convertToList(movie.director.replace(/\s+/g, " ")),
-        actors: convertToList(movie.cast.replace(/\s+/g, " ")),
-        duration: movie.runningTime
-          ? parseMinsToMs(movie.runningTime)
-          : undefined,
-      };
-
-      if (movie.certification?.name) {
-        overview.certification = movie.certification.name;
-      }
-
-      const transformedMovie = {
-        title: movie.filmTitle,
-        url: movie.filmUrl.replace(domain, url),
-        overview,
-        performances: movie.showingGroups.reduce(
-          (performances, { sessions }) =>
-            performances.concat(
-              sessions.map((showing) => {
-                const date = new Date(showing.showTimeWithTimeZone);
-                return {
-                  time: date.getTime(),
-                  screen: showing.screenName.replace("Screen ", ""),
-                  notes: (showing.attributes || [])
-                    .reduce(
-                      (notes, { shortName: title, description }) =>
-                        title && description
-                          ? notes.concat(
-                              `${title}: ${sanitizeRichText(description)}`,
-                            )
-                          : notes,
-                      [],
-                    )
-                    .join("\n"),
-                  bookingUrl: `${domain}${showing.bookingUrl}`,
-                };
-              }),
-            ),
-          [],
-        ),
-      };
-      return moviesAtCinema.concat([transformedMovie]);
-    }, [])
-    .concat(listOfSourcedEvents);
+  return movies.concat(listOfSourcedEvents);
 }
 
 module.exports = transform;

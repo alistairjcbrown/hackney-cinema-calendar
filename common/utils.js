@@ -45,7 +45,9 @@ const filterHistoricalPerformances = (movies) => {
 
 const convertToList = (value) => {
   if (!value) return [];
-  const list = value.split(/,|\n|\||\/|&/g).map((value) => value.trim());
+  const list = value
+    .split(/,|\n|\||\/|&/g)
+    .map((value) => value.replace(/\s+/g, " ").trim());
   return list.filter((item) => item !== "");
 };
 
