@@ -46,7 +46,6 @@ async function hydrate(shows) {
         // Nothing to be done if the movieBD is having an issue!
         // This can happen if the match has been removed, but is still being
         // returned by the search API - looking up the movie will return 404
-        console.log(">>> error", e);
       }
     }
 

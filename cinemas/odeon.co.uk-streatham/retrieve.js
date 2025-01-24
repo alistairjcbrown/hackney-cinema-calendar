@@ -1,8 +1,8 @@
 const attributes = require("./attributes");
-const curzonRetrieve = require("../../common/odeon.co.uk/retrieve");
+const odeonRetrieve = require("../../common/odeon.co.uk/retrieve");
 
 async function retrieve() {
-  return curzonRetrieve(attributes);
+  return odeonRetrieve(attributes);
 }
 
 module.exports = retrieve;
