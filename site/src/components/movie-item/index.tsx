@@ -2,6 +2,7 @@ import type { Filters, Movie } from "@/types";
 import { intervalToDuration, formatDuration } from "date-fns";
 import classNames from "classnames";
 import { useFilters } from "@/state/filters-context";
+import showNumber from "@/utils/show-number";
 import MoviePoster from "../movie-poster";
 import "./index.scss";
 
@@ -56,11 +57,13 @@ export default function MovieItem({
   const performanceSummary =
     performanceCount === 1
       ? `${performanceCount} performance`
-      : `${performanceCount} performances`;
+      : `${showNumber(performanceCount)} performances`;
 
   const venueCount = getVenueCount(movie, filters);
   const venueSummary =
-    venueCount === 1 ? `${venueCount} venue` : `${venueCount} venues`;
+    venueCount === 1
+      ? `${venueCount} venue`
+      : `${showNumber(venueCount)} venues`;
 
   return (
     <div

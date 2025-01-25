@@ -1,4 +1,5 @@
 "use client";
+import { Classification } from "@/types";
 import { use, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { intervalToDuration, formatDuration } from "date-fns";
@@ -15,6 +16,7 @@ import { useCinemaData } from "@/state/cinema-data-context";
 import { useFilters } from "@/state/filters-context";
 import getMovieClassification from "@/utils/get-movie-classification";
 import getMatchingMovies from "@/utils/get-matching-movies";
+import showNumber from "@/utils/show-number";
 import MoviePoster from "@/components/movie-poster";
 import MovieClassification from "@/components/movie-classification";
 import PerformanceList from "@/components/performance-list";
@@ -102,18 +104,28 @@ export default function MoviePageContent({
                   style={{ width: "100%" }}
                 >
                   <Stack.Item>
-                    <Heading level={2}>
-                      {classification ? (
-                        <>
+                    <Stack
+                      direction="row"
+                      spacing={"0.75rem"}
+                      alignItems="flex-start"
+                    >
+                      {classification &&
+                      classification !== Classification.Unknown ? (
+                        <Stack.Item style={{ paddingTop: "0.5rem" }}>
                           <MovieClassification
                             classification={classification}
                           />
-                          &nbsp;
-                        </>
-                      ) : null}{" "}
-                      {displayedMovie.title}&nbsp;
-                      {displayedMovie.year ? `(${displayedMovie.year})` : null}
-                    </Heading>
+                        </Stack.Item>
+                      ) : null}
+                      <Stack.Item>
+                        <Heading level={2}>
+                          {displayedMovie.title}{" "}
+                          {displayedMovie.year
+                            ? `(${displayedMovie.year})`
+                            : null}
+                        </Heading>
+                      </Stack.Item>
+                    </Stack>
                   </Stack.Item>
                   {displayedMovie.overview ? (
                     <Stack.Item>
@@ -287,8 +299,10 @@ export default function MoviePageContent({
                   border: "1px solid var(--rs-yellow-200)",
                 }}
               >
-                {(isShowingAllPerformances ? movieAllPerformances : movie)
-                  ?.performances.length || 0}
+                {showNumber(
+                  (isShowingAllPerformances ? movieAllPerformances : movie)
+                    ?.performances.length || 0,
+                )}
               </Tag>
               {isFilterApplied ? (
                 <>

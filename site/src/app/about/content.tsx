@@ -5,7 +5,6 @@ import {
   type CinemaData,
   type Movie,
 } from "@/types";
-import { ComponentProps } from "react";
 import {
   formatDuration,
   intervalToDuration,
@@ -22,15 +21,17 @@ import Message from "rsuite/cjs/Message";
 import Stack from "rsuite/cjs/Stack";
 import Text from "rsuite/cjs/Text";
 import Divider from "rsuite/cjs/Divider";
+import slugify from "@sindresorhus/slugify";
 import { useFilters } from "@/state/filters-context";
-import AppHeading from "@/components/app-heading";
 import { useCinemaData } from "@/state/cinema-data-context";
 import getMovieClassification from "@/utils/get-movie-classification";
-import MovieClassification from "@/components/movie-classification";
-import logo from "./blue_long_1-8ba2ac31f354005783fab473602c34c3f4fd207150182061e425d366e4f34596.svg";
-import slugify from "@sindresorhus/slugify";
 import getMatchingMovies from "@/utils/get-matching-movies";
+import showNumber from "@/utils/show-number";
+import AppHeading from "@/components/app-heading";
+import MovieClassification from "@/components/movie-classification";
 import FilterLink from "@/components/filter-link";
+import ExternalLink from "@/components/external-link";
+import logo from "./blue_long_1-8ba2ac31f354005783fab473602c34c3f4fd207150182061e425d366e4f34596.svg";
 
 const convertToMapping = (values: string[]) =>
   values.reduce((mapping, value) => ({ ...mapping, [value]: true }), {});
@@ -135,13 +136,6 @@ const genreIcons: Record<string, string> = {
   "10770": "📺",
   "95b92df1": "❓",
 };
-
-const showNumber = (value: number) =>
-  new Intl.NumberFormat("en-GB").format(value);
-
-const ExternalLink = (props: ComponentProps<typeof Link>) => (
-  <Link {...props} rel="noreferrer" target="_blank" />
-);
 
 const releaseForMovie = (
   date: string,

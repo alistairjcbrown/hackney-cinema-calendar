@@ -12,14 +12,15 @@ import { format, formatRelative } from "date-fns";
 import { useCinemaData } from "@/state/cinema-data-context";
 import "./index.scss";
 import { enGB } from "date-fns/locale";
+import showNumber from "@/utils/show-number";
 
 const formatRelativeLocale = {
-  lastWeek: "'Last' eeee (P)",
-  yesterday: "'Yesterday' (P)",
-  today: "'Today' (P)",
-  tomorrow: "'Tomorrow' (P)",
-  nextWeek: "eeee (P)",
-  other: "P",
+  lastWeek: "'Last' eeee [P]",
+  yesterday: "'Yesterday' [P]",
+  today: "'Today' [P]",
+  tomorrow: "'Tomorrow' [P]",
+  nextWeek: "eeee [P]",
+  other: "eeee do MMM [P]",
 };
 
 function PerformanceNotes({ notes }: { notes: string }) {
@@ -153,14 +154,14 @@ export default function PerformanceList({ movie }: { movie?: Movie }) {
           <Fragment key={date.getTime()}>
             <Heading level={4}>
               <Divider>
-                {relativeDay}{" "}
+                <time dateTime={format(date, "yyyy-MM-dd")}>{relativeDay}</time>{" "}
                 <Tag
                   style={{
                     backgroundColor: "var(--rs-yellow-100)",
                     border: "1px solid var(--rs-yellow-200)",
                   }}
                 >
-                  {performanceGroup.length}
+                  {showNumber(performanceGroup.length)}
                 </Tag>
               </Divider>
             </Heading>
@@ -197,7 +198,7 @@ export default function PerformanceList({ movie }: { movie?: Movie }) {
                         }
                         disabled={isInThePast}
                       >
-                        {time}
+                        <time dateTime={date.toISOString()}>{time}</time>
                       </Button>
                     </div>
                   );
@@ -223,7 +224,7 @@ export default function PerformanceList({ movie }: { movie?: Movie }) {
                         }
                         disabled={isInThePast}
                       >
-                        {time}
+                        <time dateTime={date.toISOString()}>{time}</time>
                       </Button>
                     </summary>
                     <div className="performance-extra-details">

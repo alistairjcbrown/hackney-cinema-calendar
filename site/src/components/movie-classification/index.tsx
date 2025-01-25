@@ -38,5 +38,5 @@ export default function MovieClassification({
         {...props}
       />
     );
-  return <span>[{classification}]</span>;
+  return null;
 }
