@@ -265,10 +265,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9092",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -277,10 +278,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739532600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9091",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -289,10 +291,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739543400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9090",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -301,10 +304,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739554200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9089",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -313,10 +317,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739565000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9093",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -325,10 +330,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739619000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9094",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -337,10 +343,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739629800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9095",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -349,10 +356,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739640600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9096",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -361,10 +369,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739651400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9097",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -373,10 +382,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739705400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9098",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -385,10 +395,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739716200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9099",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -397,10 +408,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739727000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9100",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -409,10 +421,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739737800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9147",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -421,10 +434,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739802600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9148",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -433,10 +447,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739813400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9149",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -446,10 +461,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739824200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9150",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -458,10 +474,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739889000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9151",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -470,10 +487,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739899800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9152",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -482,10 +500,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739910600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9153",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -494,10 +513,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739975400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9154",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -507,10 +527,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739986200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9155",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -519,10 +540,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739997000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9156",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -531,10 +553,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1740061800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9157",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -543,10 +566,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1740072600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9158",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -583,10 +607,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9161",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -595,10 +620,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738346400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9162",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -607,10 +633,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738355400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9164",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -619,10 +646,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738432800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9165",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -631,10 +659,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738441800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9166",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -643,10 +672,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738519200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9167",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -801,10 +831,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9113",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -813,10 +844,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737803700000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9121",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Laser
+        "notes": "Laser
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "status": {
@@ -854,10 +886,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9103",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -866,10 +899,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737739800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9104",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -878,10 +912,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737751200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9112",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -890,10 +925,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737826200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9111",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -902,10 +938,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737837600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9119",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -914,10 +951,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737908400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9115",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -926,10 +964,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737919800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9127",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -938,10 +977,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737985500000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9125",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Laser
+        "notes": "Laser
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "status": {
@@ -950,10 +990,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737999900000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9128",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -962,10 +1003,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738070100000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9130",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -974,10 +1016,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738093500000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9134",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -986,10 +1029,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738156500000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9136",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -1026,10 +1070,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9176",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -1038,10 +1083,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738954800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9177",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -1050,10 +1096,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1739041200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9178",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -1094,10 +1141,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9107",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -1106,10 +1154,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737727200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9108",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -1118,10 +1167,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737813600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9116",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -1130,10 +1180,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737895800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9133",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -1142,10 +1193,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738080900000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9139",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
+        "notes": "Dolby: Dolby Cinema™ combines the most powerful image and sound technologies with inspired design to transform your visit into an unforgettable cinematic event.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -1182,10 +1234,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=155-9114",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Laser
+        "notes": "Laser
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "status": {

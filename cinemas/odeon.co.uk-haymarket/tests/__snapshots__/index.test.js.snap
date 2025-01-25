@@ -26,10 +26,11 @@ exports[`ODEON Luxe Haymarket retrieve and transform 1`] = `
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20595",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 4",
         "status": {
           "soldOut": false,
@@ -37,10 +38,11 @@ ODEON Luxe",
         "time": 1737720000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20594",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 3",
         "status": {
           "soldOut": false,
@@ -48,10 +50,11 @@ ODEON Luxe",
         "time": 1737735300000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20587",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 3",
         "status": {
           "soldOut": false,
@@ -59,10 +62,11 @@ ODEON Luxe",
         "time": 1737743400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20626",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.",
         "screen": "Screen 4",
         "status": {
@@ -71,10 +75,11 @@ Open Captioned: Open captions (English subtitles) are text and sound description
         "time": 1737807000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20627",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 3",
         "status": {
           "soldOut": false,
@@ -82,10 +87,11 @@ ODEON Luxe",
         "time": 1737821700000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20620",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 3",
         "status": {
           "soldOut": false,
@@ -93,10 +99,11 @@ ODEON Luxe",
         "time": 1737829800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20608",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -105,10 +112,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737892800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20607",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 3",
         "status": {
           "soldOut": false,
@@ -116,10 +124,11 @@ ODEON Luxe",
         "time": 1737907200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20602",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 3",
         "status": {
           "soldOut": false,
@@ -127,10 +136,11 @@ ODEON Luxe",
         "time": 1737916200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20644",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Saver",
         "screen": "Screen 4",
         "status": {
@@ -139,10 +149,11 @@ Saver",
         "time": 1737980100000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20645",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Saver",
         "screen": "Screen 3",
         "status": {
@@ -151,10 +162,11 @@ Saver",
         "time": 1737994500000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20634",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Saver",
         "screen": "Screen 3",
         "status": {
@@ -163,10 +175,11 @@ Saver",
         "time": 1738002600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20660",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 4",
         "status": {
           "soldOut": false,
@@ -174,10 +187,11 @@ ODEON Luxe",
         "time": 1738066500000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20659",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 3",
         "status": {
           "soldOut": false,
@@ -185,10 +199,11 @@ ODEON Luxe",
         "time": 1738080900000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20654",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 3",
         "status": {
           "soldOut": false,
@@ -196,10 +211,11 @@ ODEON Luxe",
         "time": 1738089000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20675",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 4",
         "status": {
           "soldOut": false,
@@ -207,10 +223,11 @@ ODEON Luxe",
         "time": 1738152900000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20676",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 3",
         "status": {
           "soldOut": false,
@@ -218,10 +235,11 @@ ODEON Luxe",
         "time": 1738167300000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20667",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 3",
         "status": {
           "soldOut": false,
@@ -229,10 +247,11 @@ ODEON Luxe",
         "time": 1738175400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20690",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -241,10 +260,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738252800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20686",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -365,10 +385,11 @@ ODEON Luxe",
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20592",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "status": {
@@ -377,10 +398,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737750600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20629",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "status": {
@@ -389,10 +411,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737837000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20638",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
@@ -1506,10 +1529,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20589",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
+        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -1519,10 +1543,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737738000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20622",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
+        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -1532,10 +1557,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737824400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20610",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
+        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -1545,10 +1571,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737900900000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20613",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
+        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -1558,10 +1585,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737911700000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20636",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
+        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Saver",
         "screen": "Screen 4",
@@ -1571,10 +1599,11 @@ Saver",
         "time": 1738007100000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20652",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
+        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -1584,10 +1613,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738083600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20669",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
+        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -1597,10 +1627,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738170000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20687",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
+        "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.",
         "screen": "Screen 4",
@@ -1835,10 +1866,11 @@ ODEON Luxe",
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20616",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -1847,10 +1879,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737729900000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20615",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 4",
         "status": {
           "soldOut": false,
@@ -1858,10 +1891,11 @@ ODEON Luxe",
         "time": 1737749700000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20630",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -1870,10 +1904,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737816300000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20631",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 4",
         "status": {
           "soldOut": false,
@@ -1881,10 +1916,11 @@ ODEON Luxe",
         "time": 1737836100000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20633",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "status": {
@@ -1893,10 +1929,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737894600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20632",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "status": {
@@ -1905,10 +1942,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737923400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20647",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -1918,10 +1956,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737989100000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20648",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Saver",
         "screen": "Screen 4",
         "status": {
@@ -1930,10 +1969,11 @@ Saver",
         "time": 1737999000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20657",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -1942,10 +1982,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738075500000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20656",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 4",
         "status": {
           "soldOut": false,
@@ -1953,10 +1994,11 @@ ODEON Luxe",
         "time": 1738085400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20678",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -1965,10 +2007,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738161900000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20679",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 4",
         "status": {
           "soldOut": false,
@@ -1976,10 +2019,11 @@ ODEON Luxe",
         "time": 1738181700000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20685",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 4",
         "status": {
           "soldOut": false,
@@ -2013,10 +2057,11 @@ ODEON Luxe",
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20597",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 3",
         "status": {
           "soldOut": false,
@@ -2024,10 +2069,11 @@ ODEON Luxe",
         "time": 1737723600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20609",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 4",
         "status": {
           "soldOut": false,
@@ -2035,10 +2081,11 @@ ODEON Luxe",
         "time": 1737897300000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20680",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 3",
         "status": {
           "soldOut": false,
@@ -2119,10 +2166,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20593",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "status": {
@@ -2131,10 +2179,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737730800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20586",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "status": {
@@ -2143,10 +2192,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737740700000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20590",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -2155,10 +2205,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737748800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20628",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "status": {
@@ -2167,10 +2218,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737817200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20621",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "status": {
@@ -2179,10 +2231,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737827100000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20619",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -2191,10 +2244,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737835200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20606",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "status": {
@@ -2203,10 +2257,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737903600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20601",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "status": {
@@ -2215,10 +2270,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737913500000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20603",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -2227,10 +2283,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737922500000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20637",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
@@ -2240,10 +2297,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737990000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20635",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
@@ -2253,10 +2311,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1737999900000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20640",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
@@ -2266,10 +2325,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738008000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20651",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "status": {
@@ -2278,10 +2338,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738076400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20653",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
@@ -2291,10 +2352,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738086300000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20664",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -2303,10 +2365,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738094400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20670",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 2",
         "status": {
@@ -2315,10 +2378,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738163700000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20668",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 4",
         "status": {
           "soldOut": false,
@@ -2326,10 +2390,11 @@ ODEON Luxe",
         "time": 1738171800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20672",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -2338,10 +2403,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738180800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20689",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe
+        "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
         "screen": "Screen 1",
         "status": {
@@ -2350,10 +2416,11 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "time": 1738242900000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=158-20684",
-        "notes": "Audio Described: A narrator describes the action, scene changes, and actors' body language, along with the dialogue of the film. Audio Description is accessed via headphones and a body pack.
-ODEON Luxe",
+        "notes": "ODEON Luxe",
         "screen": "Screen 4",
         "status": {
           "soldOut": false,

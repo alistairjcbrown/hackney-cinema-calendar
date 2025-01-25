@@ -76,6 +76,14 @@ async function transform(
         performance.attributeIds.forEach((attributeId) => {
           const attribute = findFor(attributes, attributeId);
           if (attribute) {
+            if (attribute.name.text.toLowerCase().endsWith(" (sub)")) {
+              accessibility.subtitled = true;
+              return;
+            }
+            if (attribute.name.text.toLowerCase() === "audio described") {
+              accessibility.audioDescription = true;
+              return;
+            }
             if (attribute.name.text.toLowerCase() === "closed captioned") {
               accessibility.hardOfHearing = true;
               return;
@@ -89,7 +97,8 @@ async function transform(
               return;
             }
 
-            // Anything directly related to accessibility can be added as notes
+            // Anything not directly related to accessibility features can be
+            // added into the performance notes
             if (!attribute.description?.text) {
               notesList.push(attribute.name.text);
             } else {
