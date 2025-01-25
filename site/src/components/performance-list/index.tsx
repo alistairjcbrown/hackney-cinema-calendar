@@ -1,4 +1,8 @@
-import type { Movie, MoviePerformance } from "@/types";
+import {
+  AccessibilityFeature,
+  type Movie,
+  type MoviePerformance,
+} from "@/types";
 import { Fragment } from "react";
 import Button from "rsuite/cjs/Button";
 import Divider from "rsuite/cjs/Divider";
@@ -24,6 +28,92 @@ function PerformanceNotes({ notes }: { notes: string }) {
     return notePieces.map((piece, index) => <div key={index}>{piece}</div>);
   }
   return notes;
+}
+
+function getAccessibilityDescriptionFor(feature: AccessibilityFeature) {
+  switch (feature) {
+    case AccessibilityFeature.AudioDescription: {
+      return (
+        <>
+          <Tag color="green">Audio Description</Tag> Commentary is provided
+          through a headset describing visual action that is essential to
+          understanding the story as it unfolds.
+        </>
+      );
+    }
+    case AccessibilityFeature.BabyFriendly: {
+      return (
+        <>
+          <Tag color="green">Baby Friendly</Tag> A relaxed environment for new
+          parents and babies to enjoy cinema without worry.
+        </>
+      );
+    }
+    case AccessibilityFeature.HardOfHearing: {
+      return (
+        <>
+          <Tag color="green">Hard of Hearing</Tag> Captioning is is provided and
+          includes text description of significant sound effects as well as
+          dialogue.
+        </>
+      );
+    }
+    case AccessibilityFeature.Relaxed: {
+      return (
+        <>
+          <Tag color="green">Relaxed</Tag> Relaxed Screenings are tailored for a
+          neurodiverse audience.
+        </>
+      );
+    }
+    case AccessibilityFeature.Subtitled: {
+      return (
+        <>
+          <Tag color="green">Subtitled</Tag>
+        </>
+      );
+    }
+    default: {
+      return null;
+    }
+  }
+}
+
+function PerformanceAccessibility({
+  accessibility,
+}: {
+  accessibility: MoviePerformance["accessibility"];
+}) {
+  if (!accessibility) return null;
+  const accessibilityFeatures = Object.keys(accessibility)
+    .filter((key) => accessibility[key as AccessibilityFeature])
+    .map((key) => ({
+      key,
+      description: getAccessibilityDescriptionFor(key as AccessibilityFeature),
+    }))
+    .filter(({ description }) => !!description);
+
+  if (accessibilityFeatures.length === 0) return null;
+
+  if (accessibilityFeatures.length === 1) {
+    return (
+      <div>
+        <strong>Accessibility features:</strong>{" "}
+        {accessibilityFeatures[0].description}
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <strong>Accessibility features:</strong>
+      <ul>
+        {accessibilityFeatures.map(({ key, description }) => (
+          <li key={key}>{description}</li>
+        ))}
+      </ul>
+    </div>
+  );
 }
 
 export default function PerformanceList({ movie }: { movie?: Movie }) {
@@ -148,6 +238,14 @@ export default function PerformanceList({ movie }: { movie?: Movie }) {
                           <em>{showing.title}</em>
                         </div>
                       ) : null}
+                      {performance.status?.soldOut ? (
+                        <div>
+                          <strong>Status:</strong> This performance is sold out
+                        </div>
+                      ) : null}
+                      <PerformanceAccessibility
+                        accessibility={performance.accessibility}
+                      />
                       {performance.notes ? (
                         <div>
                           <strong>Venue notes:</strong>{" "}

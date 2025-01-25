@@ -1,4 +1,8 @@
-const { createOverview, createPerformance } = require("../utils");
+const {
+  createOverview,
+  createPerformance,
+  createAccessibility,
+} = require("../utils");
 const { parseDate } = require("./utils");
 
 async function transform(
@@ -30,16 +34,30 @@ async function transform(
     show.performances = screeningIds.map((screeningId) => {
       const screening = screenings[screeningId];
 
-      const notesList = [];
-      if (screening.st) {
-        notesList.push(screeningTypes[screening.st].title);
-      }
+      const status = {
+        soldOut:
+          !screening.bookable &&
+          screening.message.toLowerCase().includes("sold out"),
+      };
+
+      const screeningType = screeningTypes[screening.st]?.title?.toLowerCase();
+      const accessibility = {
+        subtitled: screeningType === "electric subtitled",
+        babyFriendly:
+          screeningType === "electric scream!" ||
+          screeningType === "electric kids club",
+      };
 
       return createPerformance({
         date: parseDate(`${screening.d}T${screening.t}`),
         screen: screening.sn,
-        notesList,
+        notesList:
+          screeningType !== "main feature"
+            ? [screeningTypes[screening.st]?.title]
+            : [],
         url: screening.link ? `${domain}${screening.link}` : movieUrl,
+        status,
+        accessibility: createAccessibility(accessibility),
       });
     });
 

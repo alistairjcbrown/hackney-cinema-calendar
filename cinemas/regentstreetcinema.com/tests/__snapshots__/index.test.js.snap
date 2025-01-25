@@ -24,9 +24,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-canterbury-tale/261652",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1744632000000,
       },
     ],
@@ -56,69 +60,113 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-complete-unknown/261437",
         "notes": "174 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737663300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-complete-unknown/261457",
         "notes": "168 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737748800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-complete-unknown/265403",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737814200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-complete-unknown/261458",
         "notes": "163 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737835200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-complete-unknown/265404",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737900300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-complete-unknown/261459",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737910800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-complete-unknown/261460",
         "notes": "186 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738007400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-complete-unknown/261461",
         "notes": "186 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738075500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-complete-unknown/261462",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738181400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-complete-unknown/261463",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738265400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-complete-unknown/266399",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738683900000,
       },
     ],
@@ -148,9 +196,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-matter-of-life-and-death/263440",
         "notes": "183 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1745236800000,
       },
     ],
@@ -179,39 +231,63 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-real-pain/265420",
         "notes": "178 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737741000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-real-pain/265421",
         "notes": "186 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737806400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-real-pain/265422",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737892800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-real-pain/265423",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737989400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-real-pain/265424",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738173600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/a-real-pain/265425",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738257600000,
       },
     ],
@@ -241,15 +317,23 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/babygirl/261443",
         "notes": "187 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737654300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/babygirl/265497",
         "notes": "187 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737921600000,
       },
     ],
@@ -275,15 +359,23 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/becoming-led-zeppelin/261505",
         "notes": "181 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738958400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/becoming-led-zeppelin/263279",
         "notes": "183 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739110800000,
       },
     ],
@@ -314,15 +406,23 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/better-man/265452",
         "notes": "181 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737825000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/better-man/265451",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737997200000,
       },
     ],
@@ -349,9 +449,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/black-narcissus/263441",
         "notes": "187 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1745841600000,
       },
     ],
@@ -384,177 +488,293 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/262401",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739475900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261605",
         "notes": "187 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739553000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261606",
         "notes": "182 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739563200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261607",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739620800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261608",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739630700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261609",
         "notes": "186 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739640600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261610",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739650500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261611",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739715000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261612",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739725200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261613",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739735100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/264066",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739898900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/264065",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739908800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261618",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739980800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261620",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740068100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261621",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740157200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261622",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740167100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261623",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740225600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261624",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740235500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261625",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740245400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261626",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740255300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261629",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740313800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261627",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740339000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261631",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740423600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261632",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740502800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261633",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740512700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261634",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740589200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261635",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740599100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261636",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740675600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bridget-jones-mad-about-the-boy/261637",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740685500000,
       },
     ],
@@ -581,63 +801,103 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bring-them-down/263270",
         "notes": "187 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738950000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bring-them-down/263283",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739020500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bring-them-down/263271",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739044800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bring-them-down/263273",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739102400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bring-them-down/263272",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739130000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bring-them-down/263278",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739202300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bring-them-down/263274",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739220000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bring-them-down/263275",
         "notes": "183 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739304000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bring-them-down/264110",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739377800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/bring-them-down/263277",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739466900000,
       },
     ],
@@ -656,9 +916,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/dawn-of-impressionism-paris-1874/196132",
         "notes": "165 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742731200000,
       },
     ],
@@ -680,9 +944,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/i-am-martin-parr/264064",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741802400000,
       },
     ],
@@ -710,9 +978,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/i-know-where-im-going/261638",
         "notes": "187 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743422400000,
       },
     ],
@@ -739,9 +1011,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/it-should-happen-to-you/261355",
         "notes": "180 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739192400000,
       },
     ],
@@ -764,15 +1040,23 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/macbeth-david-tennant-cush-jumbo/256657",
         "notes": "182 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738782000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/macbeth-david-tennant-cush-jumbo/256658",
         "notes": "169 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739120400000,
       },
     ],
@@ -794,9 +1078,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/michelangelo-love-death/196135",
         "notes": "183 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1748170800000,
       },
     ],
@@ -822,9 +1110,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/murder-by-contract/238796",
         "notes": "130 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737982800000,
       },
     ],
@@ -849,9 +1141,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/my-sister-eileen/261356",
         "notes": "181 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739797200000,
       },
     ],
@@ -872,9 +1168,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/national-theatre-live-dr-strangelove/255216",
         "notes": "181 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743102000000,
       },
     ],
@@ -897,9 +1197,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/national-theatre-live-the-importance-of-being-earnest/220520",
         "notes": "172 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740078000000,
       },
     ],
@@ -926,9 +1230,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/north-by-northwest---4k-restoration-live-organ/261358",
         "notes": "180 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741006800000,
       },
     ],
@@ -956,9 +1264,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/oh-rosalinda/263448",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747051200000,
       },
     ],
@@ -986,9 +1298,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-apartment---65th-anniversary-4k-restoration-live-organ/261354",
         "notes": "165 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738587600000,
       },
     ],
@@ -1018,51 +1334,83 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-brutalist/261576",
         "notes": "180 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738349100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-brutalist/261577",
         "notes": "181 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738435500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-brutalist/261578",
         "notes": "185 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738521000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-brutalist/261580",
         "notes": "166 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738694700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-brutalist/261581",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738765200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-brutalist/261582",
         "notes": "181 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738867500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-brutalist/263280",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739029200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-brutalist/263281",
         "notes": "188 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739288700000,
       },
     ],
@@ -1092,9 +1440,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-brutalist-qa-with-costume-designer-kate-forbes/261464",
         "notes": "125 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738088100000,
       },
     ],
@@ -1125,9 +1477,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-evolution-of-horror-presents-mulholland-drive/264227",
         "notes": "160 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739386800000,
       },
     ],
@@ -1155,9 +1511,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/preview-screening-of-the-last-showgirl-qa/257796",
         "notes": "174 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739211300000,
       },
     ],
@@ -1186,9 +1546,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-life-and-death-of-colonel-blimp-live-organ/261639",
         "notes": "187 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1744027200000,
       },
     ],
@@ -1214,9 +1578,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-odd-couple/261357",
         "notes": "178 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740402000000,
       },
     ],
@@ -1244,9 +1612,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-red-shoes-live-organ/263447",
         "notes": "186 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1746446400000,
       },
     ],
@@ -1273,9 +1645,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-roaring-twenties/261360",
         "notes": "178 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742216400000,
       },
     ],
@@ -1303,9 +1679,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-searchers/261359",
         "notes": "184 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741611600000,
       },
     ],
@@ -1332,9 +1712,13 @@ exports[`Regent Street Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.regentstreetcinema.com/checkout/showing/the-talk-of-the-town/261361",
         "notes": "184 of 188 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742821200000,
       },
     ],

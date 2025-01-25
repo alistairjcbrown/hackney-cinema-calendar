@@ -1,6 +1,10 @@
 const slugify = require("slugify");
 const { parseISO } = require("date-fns");
-const { createPerformance, createOverview } = require("../../common/utils");
+const {
+  createPerformance,
+  createOverview,
+  createAccessibility,
+} = require("../../common/utils");
 
 const findFor = (list, idMatch) => list.find(({ id }) => id === idMatch);
 
@@ -65,15 +69,27 @@ async function transform(
         const movie = movies[performance.filmId];
 
         const notesList = [];
-        if (performance.isSoldOut) {
-          notesList.push("Sold out");
-        }
+        const accessibility = {};
         if (performance.requires3dGlasses) {
           notesList.push("Requires 3D glasses");
         }
         performance.attributeIds.forEach((attributeId) => {
           const attribute = findFor(attributes, attributeId);
           if (attribute) {
+            if (attribute.name.text.toLowerCase() === "closed captioned") {
+              accessibility.hardOfHearing = true;
+              return;
+            }
+            if (attribute.name.text.toLowerCase() === "relaxed") {
+              accessibility.relaxed = true;
+              return;
+            }
+            if (attribute.name.text.toLowerCase() === "baby club") {
+              accessibility.babyFriendly = true;
+              return;
+            }
+
+            // Anything directly related to accessibility can be added as notes
             if (!attribute.description?.text) {
               notesList.push(attribute.name.text);
             } else {
@@ -90,6 +106,8 @@ async function transform(
             screen: findFor(screens, screenId).name.text,
             notesList,
             url: getBookingUrl(performance),
+            status: { soldOut: performance.isSoldOut },
+            accessibility: createAccessibility(accessibility),
           }),
         );
       });

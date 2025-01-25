@@ -4,6 +4,7 @@ const {
   getText,
   createOverview,
   createPerformance,
+  createAccessibility,
 } = require("../../common/utils");
 const {
   convertDurationStringToMinutes,
@@ -78,24 +79,17 @@ function processPerformancePage(data, fallbackUrl, fallbackScreen) {
   $(".instance-listing").each(function () {
     const $bookingButton = $(this).find(".instance-listing__button a");
 
-    const notesList = [];
-    if (getText($bookingButton).toLowerCase() === "sold out") {
-      notesList.push("Sold out");
-    }
+    const status = {
+      soldOut: getText($bookingButton).toLowerCase() === "sold out",
+    };
 
-    const $tags = $(this).find(".instance-accessibility-tags");
-    $tags.each(function () {
-      const tag = getText($(this)).toLowerCase();
-      if (tag === "ad") {
-        notesList.push(
-          "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
-        );
-      }
-      if (tag === "cap") {
-        notesList.push(
-          "This event is captioned. Captioning is a format that includes text description of significant sound effects as well as dialogue.",
-        );
-      }
+    const tags = getText($(this).find(".instance-accessibility-tags"))
+      .split(/\s+/)
+      .map((tag) => tag.trim().toLowerCase());
+    const accessibility = createAccessibility({
+      audioDescription: tags.includes("ad"),
+      relaxed: tags.includes("rel"),
+      hardOfHearing: tags.includes("cap"),
     });
 
     const dateTime = $(this).find(".instance-time__time time").attr("datetime");
@@ -103,9 +97,10 @@ function processPerformancePage(data, fallbackUrl, fallbackScreen) {
     performances.push(
       createPerformance({
         date: parseISO(dateTime),
-        notesList,
         url: $bookingButton.attr("href") || fallbackUrl,
         screen: screen || fallbackScreen,
+        status,
+        accessibility,
       }),
     );
   });

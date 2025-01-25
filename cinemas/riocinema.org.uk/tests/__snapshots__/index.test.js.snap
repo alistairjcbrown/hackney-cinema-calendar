@@ -22,9 +22,13 @@ exports[`Rio Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/2073-asif-kapadia-qa/263792",
         "notes": "134 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740318300000,
       },
     ],
@@ -55,111 +59,185 @@ exports[`Rio Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/261785",
         "notes": "1 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737664200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264100",
         "notes": "26 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737739800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264099",
         "notes": "12 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737750600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264105",
         "notes": "18 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737814500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264104",
         "notes": "21 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737826200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264103",
         "notes": "19 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737837000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264109",
         "notes": "30 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737900000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264108",
         "notes": "19 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737910800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264107",
         "notes": "23 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737921600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264119",
         "notes": "29 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737986400000,
       },
       {
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264120",
         "notes": "29 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737997200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264121",
         "notes": "26 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738008000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264127",
         "notes": "28 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738083600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264128",
         "notes": "19 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738094400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264124",
         "notes": "30 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738170000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264123",
         "notes": "27 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738180800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264126",
         "notes": "30 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738256400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/a-complete-unknown/264125",
         "notes": "29 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738267200000,
       },
     ],
@@ -179,22 +257,34 @@ exports[`Rio Cinema retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/architecton/264101",
         "notes": "168 of 172 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737736200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/architecton/264102",
         "notes": "158 of 162 seats remaining
 No adverts or trailers",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737823500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/architecton/264122",
         "notes": "169 of 172 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737994500000,
       },
     ],
@@ -223,9 +313,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/babymother-qa/263268",
         "notes": "134 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739469600000,
       },
     ],
@@ -248,21 +342,33 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/badlands/259338",
         "notes": "25 of 25 seats remaining",
         "screen": "Ludski Bar",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739708100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/badlands/259333",
         "notes": "153 of 172 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739714400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/badlands/259341",
         "notes": "25 of 25 seats remaining",
         "screen": "Ludski Bar",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739727000000,
       },
     ],
@@ -292,9 +398,15 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/carers-babies-club-the-brutalist/264118",
         "notes": "169 of 172 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737975600000,
       },
     ],
@@ -322,9 +434,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/celebrating-david-lynch-fire-walk-with-me-shorts/266271",
         "notes": "164 of 386 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740256200000,
       },
     ],
@@ -348,9 +464,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/classic-matinee-casablanca/261086",
         "notes": "154 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739802600000,
       },
     ],
@@ -373,9 +493,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/classic-matinee-easter-parade/261201",
         "notes": "162 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1744637400000,
       },
     ],
@@ -402,9 +526,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/classic-matinee-mrs-harris-goes-to-paris/261161",
         "notes": "162 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741617000000,
       },
     ],
@@ -427,9 +555,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/doc-n-roll-preview-dig-xx-joel-gion-qa/266388",
         "notes": "156 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742587200000,
       },
     ],
@@ -449,9 +581,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/docn-roll-electronic-body-movie-director-qa/260976",
         "notes": "115 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742053500000,
       },
     ],
@@ -478,9 +614,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/docn-roll-god-said-give-em-drum-machines/260807",
         "notes": "126 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740594600000,
       },
     ],
@@ -500,9 +640,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/dory-previn-on-my-way-to-where-director-qa/260890",
         "notes": "137 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741285800000,
       },
     ],
@@ -528,9 +672,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/haxan-witchcraft-through-the-ages-live-score/251750",
         "notes": "144 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742675400000,
       },
     ],
@@ -547,9 +695,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/lsff-wtf-with-filmmaker-qa/249101",
         "notes": "197 of 386 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737815400000,
       },
     ],
@@ -566,9 +718,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/lsffdark-fantasies/249093",
         "notes": "224 of 386 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737657900000,
       },
     ],
@@ -585,9 +741,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/lssf-midnight-movies/249097",
         "notes": "53 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737761400000,
       },
     ],
@@ -617,21 +777,33 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/moonrise-kingdom/259339",
         "notes": "25 of 25 seats remaining",
         "screen": "Ludski Bar",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739716800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/moonrise-kingdom/259334",
         "notes": "157 of 172 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739721600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/moonrise-kingdom/259342",
         "notes": "25 of 25 seats remaining",
         "screen": "Ludski Bar",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739735700000,
       },
     ],
@@ -657,9 +829,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/my-name-is-andrea-discussion/262968",
         "notes": "153 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741528800000,
       },
     ],
@@ -690,9 +866,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/nosferatu/261786",
         "notes": "9 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737653400000,
       },
     ],
@@ -721,9 +901,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/pink-palace-buddies/257838",
         "notes": "0 of 25 seats remaining",
         "screen": "Ludski Bar",
+        "status": {
+          "soldOut": true,
+        },
         "time": 1737660600000,
       },
     ],
@@ -749,9 +933,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/pink-palace-drifter/259060",
         "notes": "13 of 25 seats remaining",
         "screen": "Ludski Bar",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739475000000,
       },
     ],
@@ -777,21 +965,33 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/pink-palace-pat-rocco-dared/259335",
         "notes": "30 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739716200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/pink-palace-pat-rocco-dared/259336",
         "notes": "30 of 30 seats remaining",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739737800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/pink-palace-pat-rocco-dared/257864",
         "notes": "21 of 25 seats remaining",
         "screen": "Ludski Bar",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739995200000,
       },
     ],
@@ -815,9 +1015,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/pink-palace-sunday-bloody-sunday/257863",
         "notes": "9 of 25 seats remaining",
         "screen": "Ludski Bar",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738265400000,
       },
     ],
@@ -840,15 +1044,23 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/pink-palace-the-peoples-joker/263452",
         "notes": "17 of 25 seats remaining",
         "screen": "Ludski Bar",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740600000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/pink-palace-the-peoples-joker/265071",
         "notes": "25 of 25 seats remaining",
         "screen": "Ludski Bar",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741030200000,
       },
     ],
@@ -868,9 +1080,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/pink-palaceindias-1st-best-trans-model-agency/258556",
         "notes": "6 of 25 seats remaining",
         "screen": "Ludski Bar",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738785600000,
       },
     ],
@@ -896,9 +1112,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/pink-palacethe-flower-of-my-secret/259004",
         "notes": "0 of 25 seats remaining",
         "screen": "Ludski Bar",
+        "status": {
+          "soldOut": true,
+        },
         "time": 1738180800000,
       },
     ],
@@ -925,9 +1145,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/preview-the-last-showgirl-pamela-anderson-qa/254131",
         "notes": "155 of 386 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739220300000,
       },
     ],
@@ -957,51 +1181,83 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/the-brutalist/261020",
         "notes": "98 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737745200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/the-brutalist/261021",
         "notes": "125 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737831600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/the-brutalist/264106",
         "notes": "132 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737901800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/the-brutalist/261022",
         "notes": "156 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737918000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/the-brutalist/261023",
         "notes": "111 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738004400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/the-brutalist/261024",
         "notes": "139 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738090800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/the-brutalist/261025",
         "notes": "150 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738177200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/the-brutalist/261026",
         "notes": "159 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738263600000,
       },
     ],
@@ -1018,21 +1274,33 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/valentines-wes-anderson-double-bill-badlands-moonrise-kingdom/259337",
         "notes": "25 of 25 seats remaining",
         "screen": "Ludski Bar",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739708100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/valentines-wes-anderson-double-bill-badlands-moonrise-kingdom/259332",
         "notes": "153 of 172 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739714400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/valentines-wes-anderson-double-bill-badlands-moonrise-kingdom/259340",
         "notes": "25 of 25 seats remaining",
         "screen": "Ludski Bar",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739727000000,
       },
     ],
@@ -1054,9 +1322,13 @@ No adverts or trailers",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.riocinema.org.uk/checkout/showing/we-are-fugazi-from-washington-dc-qa/259880",
         "notes": "38 of 162 seats remaining",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739032200000,
       },
     ],

@@ -18,15 +18,23 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=2CF5A191-6949-4F26-BFEA-5967B6738252",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737652500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=2CF5A191-6949-4F26-BFEA-5967B6738252",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737664200000,
       },
     ],
@@ -51,9 +59,15 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=05289C65-BC27-430B-8016-09D4DD24C899",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739120400000,
       },
     ],
@@ -73,15 +87,27 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=97672025-7435-4244-83CB-6C6733981229",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737824400000,
       },
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=97672025-7435-4244-83CB-6C6733981229",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738081800000,
       },
     ],
@@ -103,9 +129,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=A83AC52C-1B93-4112-8CC1-A2EAC79FB0BE",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737804600000,
       },
     ],
@@ -129,9 +159,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=15331CA8-6CF6-44E3-BA32-A370A674402B",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737814800000,
       },
     ],
@@ -158,9 +192,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=D2701869-A435-4CE2-8876-AE11400E9CD4",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737891000000,
       },
     ],
@@ -183,129 +221,213 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739534400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739544600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739565600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739575800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739617200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739638800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739649600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739716200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739726400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739793600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739803800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739824200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739880000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739890200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739900400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739967300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739987400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739997900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740053700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740063600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8DD26470-C3F9-4A7F-9B9A-CA9ECE2F68FC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740084300000,
       },
     ],
@@ -328,45 +450,73 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=B7A0DBBC-B9D6-4BFD-82BC-0FBE58E2C836",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739554800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=B7A0DBBC-B9D6-4BFD-82BC-0FBE58E2C836",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739628000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=B7A0DBBC-B9D6-4BFD-82BC-0FBE58E2C836",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739736900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=B7A0DBBC-B9D6-4BFD-82BC-0FBE58E2C836",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739814000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=B7A0DBBC-B9D6-4BFD-82BC-0FBE58E2C836",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739910600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=B7A0DBBC-B9D6-4BFD-82BC-0FBE58E2C836",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739977200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=B7A0DBBC-B9D6-4BFD-82BC-0FBE58E2C836",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740073800000,
       },
     ],
@@ -393,57 +543,93 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9D745837-09CC-44F8-A450-6A0317FD8D32",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738324800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9D745837-09CC-44F8-A450-6A0317FD8D32",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738357200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9D745837-09CC-44F8-A450-6A0317FD8D32",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738442700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9D745837-09CC-44F8-A450-6A0317FD8D32",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738527300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9D745837-09CC-44F8-A450-6A0317FD8D32",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738614600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9D745837-09CC-44F8-A450-6A0317FD8D32",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738674000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9D745837-09CC-44F8-A450-6A0317FD8D32",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738701000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9D745837-09CC-44F8-A450-6A0317FD8D32",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738759500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9D745837-09CC-44F8-A450-6A0317FD8D32",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738864800000,
       },
     ],
@@ -465,27 +651,51 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=1ADCA96F-11B1-4998-9050-ED2FA15B3DFF",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738333800000,
       },
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=1ADCA96F-11B1-4998-9050-ED2FA15B3DFF",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738422000000,
       },
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=1ADCA96F-11B1-4998-9050-ED2FA15B3DFF",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738504800000,
       },
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=1ADCA96F-11B1-4998-9050-ED2FA15B3DFF",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738602900000,
       },
     ],
@@ -513,9 +723,15 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=CE9856FB-1279-4D94-96F9-0CDBF3E2F4F0",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739111400000,
       },
     ],
@@ -541,9 +757,15 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=C6A0E2CA-E9E4-4790-8D1A-AE4675A10E1A",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738591200000,
       },
     ],
@@ -567,9 +789,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=2CE2E417-8FE7-41D3-8121-31352B2B460F",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738434000000,
       },
     ],
@@ -593,9 +819,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=AF6CFB87-75AF-4492-9104-574DE399B20E",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740310200000,
       },
     ],
@@ -620,9 +850,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=C690BABA-0A3F-4E93-8A8A-7D8195A32AB5",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738172700000,
       },
     ],
@@ -648,21 +882,33 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=DE12D7A7-4116-4D1E-8B08-261F34FC4989",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737726300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=DE12D7A7-4116-4D1E-8B08-261F34FC4989",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738006200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=DE12D7A7-4116-4D1E-8B08-261F34FC4989",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738159200000,
       },
     ],
@@ -686,9 +932,15 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=33ECD3FB-303B-42B8-80FC-00AB1B745450",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741519800000,
       },
     ],
@@ -710,9 +962,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=B002B3B7-8EEB-46E1-868D-D0807F42F64E",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": true,
+        },
         "time": 1742637600000,
       },
     ],
@@ -734,9 +990,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=8081B8C9-CA2C-437F-B654-5A21B38E1144",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742646600000,
       },
     ],
@@ -760,9 +1020,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=CDF6ACE8-A6A6-4E95-A277-B7C4B0C387F1",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742499000000,
       },
     ],
@@ -786,9 +1050,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=7D1E280D-1D69-43B3-A9E3-BCEBE1A78BEC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742826600000,
       },
     ],
@@ -815,9 +1083,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=5CC7C0CB-0524-486A-A88B-48FA656A84C0",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742924700000,
       },
     ],
@@ -844,9 +1116,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=53B58F73-CC7C-4C6C-BA19-A62DB75543E4",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742934600000,
       },
     ],
@@ -880,9 +1156,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=A3886CA1-2423-47FF-A724-942BF09698D2",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": true,
+        },
         "time": 1742733000000,
       },
     ],
@@ -909,15 +1189,23 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=65CAEB9D-9E2F-4E2F-9A18-99B562C27E02",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738071000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=65CAEB9D-9E2F-4E2F-9A18-99B562C27E02",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738269600000,
       },
     ],
@@ -943,9 +1231,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=4AEDAF7F-F18D-4E18-A65C-FD8318329818",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739705400000,
       },
     ],
@@ -970,9 +1262,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=53F428C8-1740-49CB-9071-5C0B762BEFF1",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738516500000,
       },
     ],
@@ -994,39 +1290,63 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=84EC0EB8-09D4-4626-97DC-A4D23CAC77CC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738768500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=84EC0EB8-09D4-4626-97DC-A4D23CAC77CC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738779000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=84EC0EB8-09D4-4626-97DC-A4D23CAC77CC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738789200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=84EC0EB8-09D4-4626-97DC-A4D23CAC77CC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738844100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=84EC0EB8-09D4-4626-97DC-A4D23CAC77CC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738854600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=84EC0EB8-09D4-4626-97DC-A4D23CAC77CC",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738873800000,
       },
     ],
@@ -1052,15 +1372,27 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=228E168F-3424-48FF-A8A4-05F03C94670A",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": true,
+        },
         "time": 1738182600000,
       },
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=228E168F-3424-48FF-A8A4-05F03C94670A",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738258200000,
       },
     ],
@@ -1077,9 +1409,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=57825306-FFD9-481C-BB46-13A23F745EF1",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738407600000,
       },
     ],
@@ -1096,9 +1432,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=A6B073FF-B83E-4C91-9F37-D19C341855E5",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": true,
+        },
         "time": 1740506400000,
       },
     ],
@@ -1123,9 +1463,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=6E30ED18-2363-433D-AE74-9302D44A4A8A",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737739800000,
       },
     ],
@@ -1149,33 +1493,53 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=B355F3C0-4802-46A2-B6DB-BE71FAA91FC6",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737747900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=B355F3C0-4802-46A2-B6DB-BE71FAA91FC6",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737833400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=B355F3C0-4802-46A2-B6DB-BE71FAA91FC6",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737901800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=B355F3C0-4802-46A2-B6DB-BE71FAA91FC6",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737990000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=B355F3C0-4802-46A2-B6DB-BE71FAA91FC6",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738090800000,
       },
     ],
@@ -1200,21 +1564,33 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9D8DFFB3-EA88-4CBA-BA17-CDA28AC3B3D9",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738413000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9D8DFFB3-EA88-4CBA-BA17-CDA28AC3B3D9",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738683000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=9D8DFFB3-EA88-4CBA-BA17-CDA28AC3B3D9",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738692000000,
       },
     ],
@@ -1241,9 +1617,15 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=47804070-D8F1-40AE-B540-FEEDDAC8309F",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738345800000,
       },
     ],
@@ -1269,9 +1651,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=1AA5A0B3-1AD8-4A37-862F-1C865A38813E",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738495800000,
       },
     ],
@@ -1295,9 +1681,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=C75648AC-21D1-433E-9060-152CD4579AF0",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": true,
+        },
         "time": 1737918000000,
       },
     ],
@@ -1321,9 +1711,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=820910C2-470A-4D3F-8B12-670A87EF1115",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739660400000,
       },
     ],
@@ -1347,9 +1741,13 @@ exports[`BFI IMAX retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://whatson.bfi.org.uk/imax/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=7DCFBDAD-7CA2-4AE1-BB29-5B5107EB047D",
         "notes": "",
         "screen": "BFI IMAX",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740915000000,
       },
     ],

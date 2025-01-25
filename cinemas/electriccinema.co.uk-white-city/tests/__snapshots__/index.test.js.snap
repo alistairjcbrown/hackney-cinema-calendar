@@ -14,105 +14,173 @@ exports[`Electric Cinema White City retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/film/a-complete-unknown/",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": true,
+        },
         "time": 1737653400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/film/a-complete-unknown/",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": true,
+        },
         "time": 1737665400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771117",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737740700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771118",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737752400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771123",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737818100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771121",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737823500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771122",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737837000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771125",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737899100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771126",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737911700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771127",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737923400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771147",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737999900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771148",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738011600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771171",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738085400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771172",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738097100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771176",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738172700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771177",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738184400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771182",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738270800000,
       },
     ],
@@ -131,63 +199,103 @@ exports[`Electric Cinema White City retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/769979",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737655200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771119",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737742500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771120",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737814500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771124",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737829800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771128",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737892800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771129",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737912600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771149",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737997200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771173",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738089000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771178",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738174500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771180",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738256700000,
       },
     ],
@@ -204,75 +312,129 @@ exports[`Electric Cinema White City retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/film/babygirl/",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": true,
+        },
         "time": 1737664200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771165",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737751500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771167",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737808200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771166",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737838800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771168",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737901800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771169",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737921600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771170",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738010700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771174",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738098600000,
       },
       {
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771175",
         "notes": "Electric Scream!",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738153800000,
       },
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771207",
         "notes": "Electric Subtitled",
         "screen": "2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738159200000,
       },
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771179",
         "notes": "Electric Subtitled",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738183500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771181",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738269900000,
       },
     ],
@@ -290,63 +452,103 @@ exports[`Electric Cinema White City retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/film/bridget-jones-mad-about-the-boy/",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739469600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/film/bridget-jones-mad-about-the-boy/",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739480400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/film/bridget-jones-mad-about-the-boy/",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739556000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/film/bridget-jones-mad-about-the-boy/",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739567700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/film/bridget-jones-mad-about-the-boy/",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739633400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/film/bridget-jones-mad-about-the-boy/",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739644200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/film/bridget-jones-mad-about-the-boy/",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739655000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/film/bridget-jones-mad-about-the-boy/",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739715600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/film/bridget-jones-mad-about-the-boy/",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739727000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/film/bridget-jones-mad-about-the-boy/",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739737800000,
       },
     ],
@@ -365,9 +567,15 @@ exports[`Electric Cinema White City retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/769990",
         "notes": "Electric Kids Club",
         "screen": "1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737889200000,
       },
     ],
@@ -386,15 +594,23 @@ exports[`Electric Cinema White City retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771712",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737999000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.electriccinema.co.uk/tickets/771713",
-        "notes": "Main Feature",
+        "notes": "",
         "screen": "3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738258200000,
       },
     ],

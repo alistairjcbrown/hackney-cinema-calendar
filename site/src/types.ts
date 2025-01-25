@@ -38,12 +38,30 @@ export type Showing = {
   venueId: string;
 };
 
+type MoviePerformanceStatus = {
+  soldOut?: boolean;
+};
+
+export enum AccessibilityFeature {
+  AudioDescription = "audioDescription",
+  BabyFriendly = "babyFriendly",
+  HardOfHearing = "hardOfHearing",
+  Relaxed = "relaxed",
+  Subtitled = "subtitled",
+}
+
+type MoviePerformanceAccessibility = Partial<
+  Record<AccessibilityFeature, boolean>
+>;
+
 export type MoviePerformance = {
   bookingUrl: string;
   showingId: string;
   time: number;
   notes?: string;
   screen?: string;
+  status?: MoviePerformanceStatus;
+  accessibility?: MoviePerformanceAccessibility;
 };
 
 export enum Classification {

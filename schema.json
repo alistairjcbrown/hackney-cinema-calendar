@@ -53,6 +53,7 @@
             "minLength": 1
           }
         },
+        "additionalProperties": false,
         "required": ["categories", "directors", "actors"]
       },
       "performances": {
@@ -61,7 +62,6 @@
         "minItems": 1,
         "items": {
           "type": "object",
-          "required": ["time", "notes", "bookingUrl"],
           "properties": {
             "time": {
               "type": "number"
@@ -77,8 +77,39 @@
             "bookingUrl": {
               "type": "string",
               "format": "uri"
-            }
-          }
+            },
+            "status": {
+              "type": "object",
+              "properties": {
+                "soldOut": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "accessibility": {
+              "type": "object",
+              "properties": {
+                "audioDescription": {
+                  "type": "boolean"
+                },
+                "babyFriendly": {
+                  "type": "boolean"
+                },
+                "hardOfHearing": {
+                  "type": "boolean"
+                },
+                "relaxed": {
+                  "type": "boolean"
+                },
+                "subtitled": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          "additionalProperties": false,
+          "required": ["time", "notes", "bookingUrl", "status", "accessibility"]
         }
       },
       "moviedb": {
@@ -99,8 +130,10 @@
             "type": "string"
           }
         },
+        "additionalProperties": false,
         "required": ["id", "title", "releaseDate", "summary"]
-      }
+      },
+      "additionalProperties": false
     }
   }
 }

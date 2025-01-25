@@ -12,6 +12,8 @@ const {
 const { parseMinsToMs } = require("../common/utils");
 const standardizePrefixingForTheatrePerformances = require("../common/standardize-prefixing-for-theatre-performances");
 
+const basicNormalize = (value) => value.toLowerCase().trim();
+
 const getId = (value) =>
   crypto.createHash("sha256").update(value).digest("hex").slice(0, 8);
 
@@ -30,7 +32,7 @@ const getClassification = ({ release_dates: { results } }) => {
 
 const getDirectors = ({ credits: { crew } }) =>
   crew
-    .filter(({ job }) => job.toLowerCase() === "director")
+    .filter(({ job }) => basicNormalize(job) === "director")
     .map(({ id, name }) => ({ id: `${id}`, name }));
 
 const getActors = ({ credits: { cast } }) =>
@@ -45,7 +47,7 @@ const getGenres = ({ genres }) =>
 const getYoutubeTrailer = ({ videos: { results } }) => {
   const trailer = results.find(
     ({ type, site }) =>
-      type.toLowerCase() === "trailer" && site.toLowerCase() === "youtube",
+      basicNormalize(type) === "trailer" && basicNormalize(site) === "youtube",
   );
   return trailer ? trailer.key : undefined;
 };
@@ -180,8 +182,7 @@ const siteData = {
           (matchedCategories, name) => {
             const match = movieGenres.genres.find(
               (movieGenre) =>
-                movieGenre.name.toLowerCase().trim() ===
-                name.toLowerCase().trim(),
+                basicNormalize(movieGenre.name) === basicNormalize(name),
             );
             if (match) return [...matchedCategories, match.id];
             return matchedCategories;
@@ -195,19 +196,34 @@ const siteData = {
       movie.showings[showingId] = {
         id: showingId,
         venueId,
-        title: title !== movie.title ? title : undefined,
+        title:
+          normalizeTitle(title) !== normalizeTitle(movie.title)
+            ? title
+            : undefined,
         url,
         overview,
       };
 
       movie.performances = movie.performances.concat(
-        performances.map(({ time, notes, bookingUrl, screen }) => ({
-          showingId,
-          time,
-          notes: notes !== "" ? notes : undefined,
-          bookingUrl,
-          screen,
-        })),
+        performances.map(
+          ({
+            time,
+            notes,
+            bookingUrl,
+            screen,
+            status = {},
+            accessibility = {},
+          }) => ({
+            showingId,
+            time,
+            notes: notes !== "" ? notes : undefined,
+            bookingUrl,
+            screen,
+            status: Object.keys(status).length > 0 ? status : undefined,
+            accessibility:
+              Object.keys(accessibility).length > 0 ? accessibility : undefined,
+          }),
+        ),
       );
     }
 
@@ -265,7 +281,7 @@ const siteData = {
 
     // If we've just updated the container title, add the old title into the
     // existing showings
-    if (container.title !== originalTitle) {
+    if (basicNormalize(container.title) !== basicNormalize(originalTitle)) {
       container.showings = Object.keys(container.showings).reduce(
         (updatedShowings, showingId) => {
           const showing = container.showings[showingId];
@@ -284,7 +300,10 @@ const siteData = {
       movie.showings = Object.keys(movie.showings).reduce(
         (updatedShowings, showingId) => {
           const showing = movie.showings[showingId];
-          if (showing.title || movie.title === container.title) {
+          if (
+            showing.title ||
+            basicNormalize(movie.title) === basicNormalize(container.title)
+          ) {
             return { ...updatedShowings, [showingId]: showing };
           }
           return {

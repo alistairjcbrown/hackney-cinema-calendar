@@ -1,5 +1,12 @@
 const cheerio = require("cheerio");
-const { createOverview, getText, createPerformance } = require("../utils");
+const {
+  createOverview,
+  getText,
+  createPerformance,
+  createAccessibility,
+  convertToList,
+  splitConjoinedItemsInList,
+} = require("../utils");
 const { parseDate } = require("./utils");
 
 function getOverviewFor({ html }) {
@@ -38,16 +45,61 @@ function getOverviewFor({ html }) {
   return createOverview(overview);
 }
 
-function getPerformancesFor(url, { performances }) {
+function getPerformancesFor(url, { title, performances, html }) {
+  const $ = cheerio.load(html);
+
+  const $showInfo = $("ul.Film-info__information li");
+  let isSubtitled = false;
+  $showInfo.each(function () {
+    if (isSubtitled) return;
+    isSubtitled = getText($(this)).toLowerCase().includes(" subtitles");
+  });
+
+  const movieBlurb = getText($(".Rich-text")).toLowerCase();
+  const hasAudioDescription =
+    movieBlurb.includes("Audio Description available at all screenings") ||
+    movieBlurb.includes("Audio Description is available at this screening");
+
+  const presentedMatch = movieBlurb.match(
+    /The screenings on\s+(.+?)\s+will be presented with([^.]+)\./i,
+  );
+  let accessibilityMapping = {};
+  if (presentedMatch) {
+    const times = splitConjoinedItemsInList(convertToList(presentedMatch[1]));
+    const accessibilityFeature = presentedMatch[2].toLowerCase();
+    accessibilityMapping = times.reduce((mapping, time) => {
+      const key = time.trim();
+      mapping[key] = mapping[key] || {};
+      mapping[key].HardOfHearing = accessibilityFeature.includes(
+        "descriptive subtitles",
+      );
+      return mapping;
+    }, accessibilityMapping);
+  }
+
   const showPerformances = [];
   for (performance of performances) {
     const $ = cheerio.load(performance);
+    const key =
+      `${getText($(".start-date")).replace(/\d{4}/, "")} ${getText($(".item-venue"))}`
+        .replace(/\s+/g, " ")
+        .trim()
+        .toLowerCase();
     showPerformances.push(
       createPerformance({
         url,
         screen: getText($(".item-venue")),
         notesList: [],
         date: parseDate(getText($(".start-date"))),
+        status: {
+          soldOut: $(".item-link").hasClass("soldout"),
+        },
+        accessibility: createAccessibility({
+          audioDescription: hasAudioDescription,
+          relaxed: title.toLowerCase().trim().startsWith("relaxed "),
+          subtitled: isSubtitled,
+          ...accessibilityMapping[key],
+        }),
       }),
     );
   }

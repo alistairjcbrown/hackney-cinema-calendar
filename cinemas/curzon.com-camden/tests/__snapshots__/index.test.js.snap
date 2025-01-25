@@ -26,177 +26,295 @@ exports[`Curzon Camden retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-29779/",
         "notes": "",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737662400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30163/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737719100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30162/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737727200000,
       },
       {
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30161/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing",
+        "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737739200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30155/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737750000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30385/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737805500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30381/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737814500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30389/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737825600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30386/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737836400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30402/",
         "notes": "Dog Days: Weekly screenings with lowered sound, for dog owners and their canine companions. (Dog lovers without one of their own are also welcome.)",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737890100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30398/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737900000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30406/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737910800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30403/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737921600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30419/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737978300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30415/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737986400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30423/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737998400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30420/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738009200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30478/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738064700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30468/",
         "notes": "",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738070100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30474/",
         "notes": "",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738081200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30477/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738096800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30432/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738151100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30436/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738159200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30446/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738171200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30431/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738182000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30450/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738237500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30454/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738245600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30463/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738257600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30449/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738268400000,
       },
     ],
@@ -227,142 +345,235 @@ exports[`Curzon Camden retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30243/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737656400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30240/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737667200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30159/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737717300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30375/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737730200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30153/",
         "notes": "",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737736800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30382/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737801900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30394/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737816600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30379/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737823200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30399/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737889200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30411/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737901200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30396/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737907800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30416/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737976500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30428/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737989400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30413/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737996000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30467/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738062000000,
       },
       {
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30482/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season
-Closed Captioned: Closed Captioned screening for Hard of Hearing",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738075800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30470/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738088400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30435/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738149300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30441/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738162200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30438/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738168800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30453/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738235700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30459/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738248600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30456/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738255200000,
       },
     ],
@@ -392,87 +603,143 @@ Closed Captioned: Closed Captioned screening for Hard of Hearing",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30257/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737664800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30376/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737728400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30377/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737752400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30393/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737818400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30392/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737838800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30410/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737898800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30409/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737920400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30427/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737987600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30426/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738011600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30483/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738074000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30471/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738095600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30442/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738160400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30443/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738184400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30460/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738246800000,
       },
     ],
@@ -502,141 +769,233 @@ Closed Captioned: Closed Captioned screening for Hard of Hearing",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30250/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737657600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30251/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737666000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30165/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737718200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30164/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737741600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30374/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737753600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30380/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737809100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30388/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737829200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30395/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737840000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30397/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737891000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30405/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737912600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30412/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737924300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30414/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737977400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30422/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738000800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30429/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738012800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30469/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738062900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30475/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738087200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30481/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738099200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30437/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738150200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30447/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738173600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30440/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738185600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30455/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738236600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30464/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738260000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30458/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738272000000,
       },
     ],
@@ -664,27 +1023,43 @@ Closed Captioned: Closed Captioned screening for Hard of Hearing",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30370/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739450700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30369/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739460600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30367/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739470800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30368/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739481000000,
       },
     ],
@@ -716,171 +1091,283 @@ Closed Captioned: Closed Captioned screening for Hard of Hearing",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30336/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739539200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30337/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739547600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30334/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739556000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30333/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739564400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30339/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739625600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30338/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739634000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30341/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739642400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30342/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739650800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30346/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739709600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30347/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739718600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30344/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739727600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30343/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739736000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30349/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739798400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30348/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739806800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30351/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739815200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30352/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739823600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30354/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739884800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30353/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739893200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30356/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739901600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30357/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739910000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30359/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739971200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30358/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739979600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30360/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739988000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30361/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739996400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30363/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740057600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30362/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740066000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30364/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740074400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30365/",
         "notes": "Ivory Christmas: Curated Christmas season in partnership with Beronia",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740082800000,
       },
     ],
@@ -909,9 +1396,13 @@ Closed Captioned: Closed Captioned screening for Hard of Hearing",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30184/",
         "notes": "Valentine's Day: Special Valentine's Day Screening",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739557200000,
       },
     ],
@@ -939,88 +1430,145 @@ Closed Captioned: Closed Captioned screening for Hard of Hearing",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30167/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737716400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30157/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737740400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30384/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737803700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30390/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737826800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30401/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737888300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30407/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737910200000,
       },
       {
+        "accessibility": {
+          "relaxed": true,
+        },
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30418/",
-        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season
-Relaxed: Weekly screenings for people on the autism spectrum and their families, with reduced volume levels, increased lighting, extra signage, relaxed seating arrangements, sensory-friendly amenities and designated quiet spaces.",
+        "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737975600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30424/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737999600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30479/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738063800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30473/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738084800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30433/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738148400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30445/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738172400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30451/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738234800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30462/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738270800000,
       },
     ],
@@ -1040,9 +1588,13 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-27106/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742320800000,
       },
     ],
@@ -1066,9 +1618,13 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-27107/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747760400000,
       },
     ],
@@ -1087,9 +1643,13 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30179/",
         "notes": "Kids Club: A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a ‘Kids' Club’ screening.",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739010600000,
       },
     ],
@@ -1124,15 +1684,23 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30181/",
         "notes": "Kids Club: A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a ‘Kids' Club’ screening.",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740220200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30182/",
         "notes": "Kids Club: A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a ‘Kids' Club’ screening.",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740825000000,
       },
     ],
@@ -1156,9 +1724,13 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30180/",
         "notes": "Kids Club: A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a ‘Kids' Club’ screening.",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739615400000,
       },
     ],
@@ -1181,9 +1753,13 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30485/",
         "notes": "Kids Club: A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a ‘Kids' Club’ screening.",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737801000000,
       },
     ],
@@ -1213,9 +1789,13 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30466/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738261200000,
       },
     ],
@@ -1238,15 +1818,23 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-28211/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738780200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-28212/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739109600000,
       },
     ],
@@ -1279,51 +1867,83 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30247/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737663600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30168/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737751200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30387/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737837600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30404/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737922800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30421/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738010400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30476/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738098000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30448/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738183200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30465/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738269600000,
       },
     ],
@@ -1352,23 +1972,37 @@ Relaxed: Weekly screenings for people on the autism spectrum and their families,
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-29285/",
         "notes": "Recorded Performance: Prerecorded Q&A",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743102000000,
       },
       {
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-29286/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing
-Recorded Performance: Prerecorded Q&A",
+        "notes": "Recorded Performance: Prerecorded Q&A",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743339600000,
       },
       {
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-29287/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing
-Recorded Performance: Prerecorded Q&A",
+        "notes": "Recorded Performance: Prerecorded Q&A",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743439200000,
       },
     ],
@@ -1396,23 +2030,37 @@ Recorded Performance: Prerecorded Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-27545/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740078000000,
       },
       {
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30371/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing
-Encore: Encore",
+        "notes": "Encore: Encore",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740322800000,
       },
       {
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30372/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing
-Encore: Encore",
+        "notes": "Encore: Encore",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740505200000,
       },
     ],
@@ -1432,9 +2080,13 @@ Encore: Encore",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-25140/",
         "notes": "Live event: Live Via Satellite",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747937700000,
       },
     ],
@@ -1461,9 +2113,13 @@ Encore: Encore",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-25139/",
         "notes": "Live event: Live Via Satellite",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747238400000,
       },
     ],
@@ -1483,9 +2139,13 @@ Encore: Encore",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-25137/",
         "notes": "Live event: Live Via Satellite",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742498100000,
       },
     ],
@@ -1509,9 +2169,13 @@ Encore: Encore",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-25136/",
         "notes": "Live event: Live Via Satellite",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740683700000,
       },
     ],
@@ -1537,9 +2201,13 @@ Encore: Encore",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-25138/",
         "notes": "Live event: Live Via Satellite",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743531300000,
       },
     ],
@@ -1573,10 +2241,14 @@ Encore: Encore",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30373/",
         "notes": "Members preview: Members' only preview screening.
 Special Preview: Special Preview Screening",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738693200000,
       },
     ],
@@ -1608,165 +2280,273 @@ Special Preview: Special Preview Screening",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30158/",
         "notes": "",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737720900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30378/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737726000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30152/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737738000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30151/",
         "notes": "",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737744600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30383/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737807300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30391/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737810600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30173/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737824400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30185/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737831000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30400/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737891900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30408/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737897300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30174/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737909000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30186/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737915600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30417/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737980100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30425/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737985200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30175/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737997200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30430/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738003800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30472/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738071900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30176/",
         "notes": "",
         "screen": "N12",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738083600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30480/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738092000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30434/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738152900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30444/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738158000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30177/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738170000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30439/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738176600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30452/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738239300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30461/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738244400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30178/",
         "notes": "",
         "screen": "N11",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738256400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30457/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738263000000,
       },
     ],
@@ -1796,21 +2576,33 @@ Special Preview: Special Preview Screening",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30492/",
         "notes": "",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738952400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30496/",
         "notes": "",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739038800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30497/",
         "notes": "",
         "screen": "N10",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739123400000,
       },
     ],
@@ -1838,9 +2630,13 @@ Special Preview: Special Preview Screening",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-29613/",
         "notes": "Recorded Performance: Prerecorded Q&A",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739220000000,
       },
     ],
@@ -1867,9 +2663,13 @@ Special Preview: Special Preview Screening",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30491/",
         "notes": "",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1748974500000,
       },
     ],
@@ -1899,9 +2699,13 @@ Special Preview: Special Preview Screening",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30183/",
         "notes": "Valentine's Day: Special Valentine's Day Screening",
         "screen": "N14",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739469600000,
       },
     ],
@@ -1930,9 +2734,13 @@ Special Preview: Special Preview Screening",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/CAM1-30256/",
         "notes": "",
         "screen": "N13",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737655200000,
       },
     ],

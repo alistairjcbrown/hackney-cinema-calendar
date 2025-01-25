@@ -30,105 +30,187 @@ exports[`Everyman Borough Yards retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12662",
         "notes": "75% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737659700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12829",
         "notes": "6% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737720900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12830",
         "notes": "8% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737732600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12708",
         "notes": "33% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737751200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12808",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737799200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12833",
         "notes": "31% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737819900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12726",
         "notes": "58% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737837000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12812",
         "notes": "3% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737895500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12835",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737923400000,
       },
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12836",
-        "notes": "3% of seats sold
-This feature is Subtitled in English",
+        "notes": "3% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737972000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12816",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737991800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12839",
         "notes": "7% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738009200000,
       },
       {
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12840",
-        "notes": "7% of seats sold
-A ticket includes one seat for you and one for your baby under 12 months, plus a complimentary hot drink and a slice of cake",
+        "notes": "7% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738062900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12841",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738074600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12843",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738096200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12844",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738144800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12823",
         "notes": "6% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738165500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12847",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738182600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12825",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738234800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12850",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738254000000,
       },
     ],
@@ -161,63 +243,111 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12606",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739464200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12607",
         "notes": "61% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739475000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12676",
         "notes": "35% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739550600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12751",
         "notes": "95% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739561400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12668",
         "notes": "14% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739626200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12669",
         "notes": "27% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739637000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12670",
         "notes": "36% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739647800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12671",
         "notes": "4% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739712600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12672",
         "notes": "40% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739723400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12673",
         "notes": "7% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739734200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12674",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739810700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12675",
         "notes": "25% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739821500000,
       },
     ],
@@ -250,13 +380,21 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12828",
         "notes": "3% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737710100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12814",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737970200000,
       },
     ],
@@ -284,8 +422,12 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12270",
         "notes": "11% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737665100000,
       },
     ],
@@ -301,8 +443,12 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12854",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738604700000,
       },
     ],
@@ -338,8 +484,12 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12831",
         "notes": "6% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737797400000,
       },
     ],
@@ -362,13 +512,21 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/11779",
         "notes": "6% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743103800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/11782",
         "notes": "1% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743679800000,
       },
     ],
@@ -401,39 +559,67 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12633",
         "notes": "20% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737654300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12807",
         "notes": "20% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737739800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12832",
         "notes": "5% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737808200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12813",
         "notes": "6% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737907200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12815",
         "notes": "0% of seats sold
 Reduced ticket price for guests aged 55 and over, including a complimentary hot drink and a slice of cake",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737980400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12819",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738081800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12822",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738153800000,
       },
     ],
@@ -459,8 +645,12 @@ Reduced ticket price for guests aged 55 and over, including a complimentary hot 
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12853",
         "notes": "72% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738263600000,
       },
     ],
@@ -493,75 +683,132 @@ Reduced ticket price for guests aged 55 and over, including a complimentary hot 
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12806",
         "notes": "3% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737723600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12688",
         "notes": "78% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737744300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12809",
         "notes": "17% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737810900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12692",
         "notes": "66% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737831600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12356",
         "notes": "32% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737897300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12696",
         "notes": "14% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737918000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12837",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737983400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12700",
         "notes": "44% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738003500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12818",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738065600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12820",
         "notes": "4% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738092600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12845",
         "notes": "5% of seats sold
 Reduced ticket price for guests aged 55 and over, including a complimentary hot drink and a slice of cake",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738156500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12824",
         "notes": "4% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738177200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12849",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738238400000,
       },
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12851",
-        "notes": "2% of seats sold
-This feature is Subtitled in English",
+        "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738265400000,
       },
     ],
@@ -589,15 +836,23 @@ This feature is Subtitled in English",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12357",
         "notes": "52% of seats sold
 Includes complimentary popcorn and a drink",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737913500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12842",
         "notes": "0% of seats sold
 Includes complimentary popcorn and a drink",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738086300000,
       },
     ],
@@ -623,9 +878,13 @@ Includes complimentary popcorn and a drink",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12361",
         "notes": "11% of seats sold
 Includes complimentary popcorn and a drink",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738529100000,
       },
     ],
@@ -660,39 +919,68 @@ Includes complimentary popcorn and a drink",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12805",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737713700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12810",
         "notes": "25% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737827400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12811",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737885600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12838",
         "notes": "9% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737999600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12817",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738056000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12846",
         "notes": "13% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738173000000,
       },
       {
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1046/12848",
-        "notes": "2% of seats sold
-A ticket includes one seat for you and one for your baby under 12 months, plus a complimentary hot drink and a slice of cake",
+        "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738228800000,
       },
     ],

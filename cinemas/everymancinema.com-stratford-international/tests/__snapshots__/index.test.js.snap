@@ -30,121 +30,215 @@ exports[`Everyman Stratford International retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/940",
         "notes": "16% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737659700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1159",
         "notes": "9% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737719100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1113",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737733500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1090",
         "notes": "41% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737748800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1115",
         "notes": "4% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737808200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1116",
         "notes": "9% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737819900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1094",
         "notes": "41% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737835200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1118",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737894600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1119",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737906300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1170",
         "notes": "7% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737921600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1121",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737976500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1172",
         "notes": "7% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737986400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1174",
         "notes": "21% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738008000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1148",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738062000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1149",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738073700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1178",
         "notes": "7% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738085400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1151",
         "notes": "0% of seats sold
 Reduced ticket price for guests aged 55 and over, including a complimentary hot drink and a slice of cake.",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738149300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1181",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738165500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/834",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738182600000,
       },
       {
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1132",
-        "notes": "60% of seats sold
-A ticket includes one seat for you and one for your baby under 12 months, plus a complimentary hot drink and a slice of cake.",
+        "notes": "60% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738235700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1184",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738239600000,
       },
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1185",
-        "notes": "0% of seats sold
-This feature is Subtitled in English.",
+        "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738251000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1186",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738269000000,
       },
     ],
@@ -176,74 +270,131 @@ This feature is Subtitled in English.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1111",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737711900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1137",
         "notes": "19% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737739800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1114",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737798600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1099",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737804600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1165",
         "notes": "7% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737829200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1117",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737885600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1168",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737901200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1144",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737972600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1146",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738002000000,
       },
       {
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1124",
-        "notes": "48% of seats sold
-A ticket includes one seat for you and one for your baby under 12 months, plus a complimentary hot drink and a slice of cake.",
+        "notes": "48% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738057800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1152",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738160700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1130",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738174200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1154",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738231200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1156",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738249200000,
       },
     ],
@@ -277,64 +428,113 @@ A ticket includes one seat for you and one for your baby under 12 months, plus a
     },
     "performances": [
       {
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/970",
-        "notes": "9% of seats sold
-This feature is Subtitled in English.",
+        "notes": "9% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737655200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1135",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737713700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1161",
         "notes": "10% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737741600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1140",
         "notes": "24% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737824400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1141",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737888000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1143",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737914400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1173",
         "notes": "3% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737998100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1175",
         "notes": "3% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738059600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1150",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738083000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1179",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738144800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1153",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738170000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1158",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738258800000,
       },
     ],
@@ -358,8 +558,12 @@ This feature is Subtitled in English.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1065",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741291200000,
       },
     ],
@@ -388,15 +592,23 @@ This feature is Subtitled in English.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1071",
         "notes": "0% of seats sold
 One more chance to discover curated cinema beyond the mainstream.",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738587600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1069",
         "notes": "3% of seats sold
 One more chance to discover curated cinema beyond the mainstream.",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738779000000,
       },
     ],
@@ -423,15 +635,23 @@ One more chance to discover curated cinema beyond the mainstream.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/835",
         "notes": "3% of seats sold
 One more chance to discover curated cinema beyond the mainstream.",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737981000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/836",
         "notes": "21% of seats sold
 One more chance to discover curated cinema beyond the mainstream.",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738179900000,
       },
     ],
@@ -464,83 +684,147 @@ One more chance to discover curated cinema beyond the mainstream.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1003",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739467200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1004",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739478000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1010",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739539200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1011",
         "notes": "17% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739549700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1012",
         "notes": "46% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739560500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1014",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739625600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1015",
         "notes": "4% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739636100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1016",
         "notes": "13% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739646900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1018",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739711700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1019",
         "notes": "6% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739722500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1020",
         "notes": "3% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739733300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1021",
         "notes": "19% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739819700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1022",
         "notes": "4% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739895300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1023",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739906100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1024",
         "notes": "7% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739992500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1025",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740080700000,
       },
     ],
@@ -567,8 +851,12 @@ One more chance to discover curated cinema beyond the mainstream.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1107",
         "notes": "41% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739473200000,
       },
     ],
@@ -602,73 +890,129 @@ One more chance to discover curated cinema beyond the mainstream.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1046",
         "notes": "7% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739532600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1047",
         "notes": "3% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739542800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1048",
         "notes": "14% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739553000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1049",
         "notes": "17% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739563200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1052",
         "notes": "7% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739629200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1053",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739639400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1054",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739649600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1056",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739715000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1057",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739725200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1058",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739736000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1059",
         "notes": "7% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739822400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1061",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739911500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1062",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739997900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1063",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740083400000,
       },
     ],
@@ -692,13 +1036,21 @@ One more chance to discover curated cinema beyond the mainstream.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/252",
         "notes": "4% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738784700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/253",
         "notes": "3% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739280600000,
       },
     ],
@@ -726,8 +1078,12 @@ One more chance to discover curated cinema beyond the mainstream.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/360",
         "notes": "38% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737665100000,
       },
     ],
@@ -743,8 +1099,12 @@ One more chance to discover curated cinema beyond the mainstream.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1073",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738606500000,
       },
     ],
@@ -780,8 +1140,12 @@ One more chance to discover curated cinema beyond the mainstream.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1138",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737800400000,
       },
     ],
@@ -804,13 +1168,21 @@ One more chance to discover curated cinema beyond the mainstream.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/167",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743102000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/170",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743679800000,
       },
     ],
@@ -843,58 +1215,102 @@ One more chance to discover curated cinema beyond the mainstream.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/998",
         "notes": "38% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737662400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1112",
         "notes": "2% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737721800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1162",
         "notes": "14% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737751500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1166",
         "notes": "19% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737837900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1167",
         "notes": "3% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737890100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1169",
         "notes": "7% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737909900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1171",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737974700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1147",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738010700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1126",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738079400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1180",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738154700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1157",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738237500000,
       },
     ],
@@ -926,13 +1342,21 @@ One more chance to discover curated cinema beyond the mainstream.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/168",
         "notes": "40% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740078000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/169",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740574800000,
       },
     ],
@@ -965,74 +1389,130 @@ One more chance to discover curated cinema beyond the mainstream.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1136",
         "notes": "7% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737723600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1080",
         "notes": "14% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737745200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1164",
         "notes": "16% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737813000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1084",
         "notes": "45% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737831600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1142",
         "notes": "19% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737898200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1120",
         "notes": "15% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737918000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1122",
         "notes": "4% of seats sold
 Reduced ticket price for guests aged 55 and over, including a complimentary hot drink and a slice of cake.",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737988200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1123",
         "notes": "34% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738004400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1176",
         "notes": "1% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738066800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1127",
         "notes": "3% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738090800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1129",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738158000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1182",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738177200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1133",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738247400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1134",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738262700000,
       },
     ],
@@ -1060,15 +1540,23 @@ Reduced ticket price for guests aged 55 and over, including a complimentary hot 
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/344",
         "notes": "40% of seats sold
 Includes complimentary popcorn and a drink.",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737924300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/345",
         "notes": "10% of seats sold
 Includes complimentary popcorn and a drink.",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738097100000,
       },
     ],
@@ -1094,15 +1582,23 @@ Includes complimentary popcorn and a drink.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/399",
         "notes": "12% of seats sold
 Includes complimentary popcorn and a drink.",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738528200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/400",
         "notes": "3% of seats sold
 Includes complimentary popcorn and a drink.",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738701900000,
       },
     ],
@@ -1137,23 +1633,39 @@ Includes complimentary popcorn and a drink.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1160",
         "notes": "5% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737731700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1145",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737992700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1125",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738069800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1128",
         "notes": "0% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738147500000,
       },
     ],
@@ -1187,8 +1699,12 @@ Includes complimentary popcorn and a drink.",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1052/1139",
         "notes": "38% of seats sold",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737810900000,
       },
     ],

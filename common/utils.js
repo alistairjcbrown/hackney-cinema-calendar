@@ -50,7 +50,7 @@ const sortAndFilterMovies = (movies) => {
 const convertToList = (value) => {
   if (!value) return [];
   const list = value
-    .split(/,|\n|\||\/|&/g)
+    .split(/,|\n|\||\/|&|;/g)
     .map((value) => value.replace(/\s+/g, " ").trim());
   return list.filter((item) => item !== "");
 };
@@ -91,7 +91,14 @@ const fetchJson = async (url) => (await fetch(url)).json();
 
 const getText = ($el) => $el.text().trim();
 
-const createPerformance = ({ date, notesList, url, screen }) => ({
+const createPerformance = ({
+  date,
+  notesList = [],
+  url,
+  screen,
+  status = {},
+  accessibility = {},
+}) => ({
   time: date.getTime(),
   notes: notesList
     .map((value) => value?.trim())
@@ -100,6 +107,8 @@ const createPerformance = ({ date, notesList, url, screen }) => ({
     .trim(),
   bookingUrl: url,
   screen: screen || undefined,
+  status,
+  accessibility,
 });
 
 const createOverview = ({
@@ -128,6 +137,12 @@ const createOverview = ({
   };
 };
 
+const createAccessibility = (accessibility) =>
+  Object.keys(accessibility).reduce((mapping, key) => {
+    if (!accessibility[key]) return mapping;
+    return { ...mapping, [key]: true };
+  }, {});
+
 module.exports = {
   generateEventDescription,
   getEventDate,
@@ -142,4 +157,5 @@ module.exports = {
   getText,
   createPerformance,
   createOverview,
+  createAccessibility,
 };

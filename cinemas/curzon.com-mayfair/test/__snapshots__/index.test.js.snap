@@ -26,87 +26,143 @@ exports[`Curzon Mayfair retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29092/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737663600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29104/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737728400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29103/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737750600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28968/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737806400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29108/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737899400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29109/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737921600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29113/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737976800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29114/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737999600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29119/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738074000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29120/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738096200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29140/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738149600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29139/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738172400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29131/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738246800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29132/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738269000000,
       },
     ],
@@ -137,9 +193,13 @@ exports[`Curzon Mayfair retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29091/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737666000000,
       },
     ],
@@ -167,99 +227,163 @@ exports[`Curzon Mayfair retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28982/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739534400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28981/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739545200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28979/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739556000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28980/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739566800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28983/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739620800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28984/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739631600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28986/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739642400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28985/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739653200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28987/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739703600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28988/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739714400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28990/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739725200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28989/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739736000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28994/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739815200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28998/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739901600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29002/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739988000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29006/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740074400000,
       },
     ],
@@ -288,9 +412,13 @@ exports[`Curzon Mayfair retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29007/",
         "notes": "Valentine's Day: Special Valentine's Day Screening",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739557200000,
       },
     ],
@@ -322,39 +450,63 @@ exports[`Curzon Mayfair retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29101/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737719100000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29106/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737891000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29116/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737979200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29122/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738064700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29137/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738152000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29134/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738237500000,
       },
     ],
@@ -385,9 +537,13 @@ exports[`Curzon Mayfair retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29098/",
         "notes": "Screening followed by a Q&A: Q&A",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738425600000,
       },
     ],
@@ -408,10 +564,14 @@ exports[`Curzon Mayfair retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28909/",
         "notes": "Special Preview: Special Preview Screening
 Screening followed by a Q&A: Q&A",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739296800000,
       },
     ],
@@ -434,15 +594,23 @@ Screening followed by a Q&A: Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28211/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738780200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28212/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739109600000,
       },
     ],
@@ -471,87 +639,143 @@ Screening followed by a Q&A: Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29093/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737655800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29105/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737717600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29102/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737740400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28977/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737818400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29107/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737889200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29110/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737910800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29112/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737989400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29115/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738010700000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29118/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738063200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29121/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738086000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29141/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738162200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29138/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738183500000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29130/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738236000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29133/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738258800000,
       },
     ],
@@ -580,16 +804,25 @@ Screening followed by a Q&A: Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28636/",
         "notes": "Recorded Performance: Prerecorded Q&A",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743102000000,
       },
       {
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28637/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing
-Recorded Performance: Prerecorded Q&A",
+        "notes": "Recorded Performance: Prerecorded Q&A",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743339600000,
       },
     ],
@@ -617,15 +850,23 @@ Recorded Performance: Prerecorded Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27847/",
         "notes": "Recorded Performance: Prerecorded Q&A",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740078000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28714/",
         "notes": "Screening followed by a Q&A: Q&A",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740319200000,
       },
     ],
@@ -645,9 +886,13 @@ Recorded Performance: Prerecorded Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27062/",
         "notes": "Encore: Encore",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1748178000000,
       },
     ],
@@ -674,9 +919,13 @@ Recorded Performance: Prerecorded Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27061/",
         "notes": "Encore: Encore",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747573200000,
       },
     ],
@@ -696,9 +945,13 @@ Recorded Performance: Prerecorded Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27059/",
         "notes": "Encore: Encore",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742738400000,
       },
     ],
@@ -722,9 +975,13 @@ Recorded Performance: Prerecorded Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27058/",
         "notes": "Encore: Encore",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740924000000,
       },
     ],
@@ -750,9 +1007,13 @@ Recorded Performance: Prerecorded Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27060/",
         "notes": "Encore: Encore",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743944400000,
       },
     ],
@@ -784,87 +1045,143 @@ Recorded Performance: Prerecorded Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28965/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737729600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28964/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737745200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28966/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737808200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28967/",
         "notes": "",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737829200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28969/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737901200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28970/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737916800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29111/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737988200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28972/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738004400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29117/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738075200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28973/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738090800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29142/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738161000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29136/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738177200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-29129/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738248000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28975/",
         "notes": "",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738263600000,
       },
     ],
@@ -892,9 +1209,13 @@ Recorded Performance: Prerecorded Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-28796/",
         "notes": "Recorded Performance: Prerecorded Q&A",
         "screen": "Screen 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739220000000,
       },
     ],
@@ -921,9 +1242,13 @@ Recorded Performance: Prerecorded Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27384/",
         "notes": "Satellite Event: Live Via Satellite",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737826200000,
       },
     ],
@@ -951,9 +1276,13 @@ Recorded Performance: Prerecorded Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27385/",
         "notes": "Satellite Event: Live Via Satellite",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742058000000,
       },
     ],
@@ -981,9 +1310,13 @@ Recorded Performance: Prerecorded Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27386/",
         "notes": "Satellite Event: Live Via Satellite",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1745686800000,
       },
     ],
@@ -1009,9 +1342,13 @@ Recorded Performance: Prerecorded Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27387/",
         "notes": "Satellite Event: Live Via Satellite",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747501200000,
       },
     ],
@@ -1038,9 +1375,13 @@ Recorded Performance: Prerecorded Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/MAY1-27388/",
         "notes": "Satellite Event: Live Via Satellite",
         "screen": "Screen 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1748710800000,
       },
     ],

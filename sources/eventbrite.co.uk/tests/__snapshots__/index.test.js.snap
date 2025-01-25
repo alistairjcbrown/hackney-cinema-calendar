@@ -11,8 +11,10 @@ exports[`Eventbrite find-events 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.eventbrite.com/checkout-external?eid=1140539557519",
         "notes": "",
+        "status": {},
         "time": 1737828000000,
       },
     ],
@@ -28,8 +30,10 @@ exports[`Eventbrite find-events 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.eventbrite.com/checkout-external?eid=1143433342909",
         "notes": "",
+        "status": {},
         "time": 1739624400000,
       },
     ],
@@ -45,8 +49,10 @@ exports[`Eventbrite find-events 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.eventbrite.com/checkout-external?eid=1144678878339",
         "notes": "",
+        "status": {},
         "time": 1738953000000,
       },
     ],
@@ -62,8 +68,10 @@ exports[`Eventbrite find-events 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.eventbrite.com/checkout-external?eid=1050075844117",
         "notes": "",
+        "status": {},
         "time": 1740850200000,
       },
     ],
@@ -79,8 +87,10 @@ exports[`Eventbrite find-events 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.eventbrite.com/checkout-external?eid=1119625593289",
         "notes": "",
+        "status": {},
         "time": 1740326400000,
       },
     ],
@@ -96,8 +106,10 @@ exports[`Eventbrite find-events 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.eventbrite.com/checkout-external?eid=1145691426899",
         "notes": "",
+        "status": {},
         "time": 1739023200000,
       },
     ],
@@ -113,8 +125,10 @@ exports[`Eventbrite find-events 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.eventbrite.com/checkout-external?eid=1215578761799",
         "notes": "",
+        "status": {},
         "time": 1740157200000,
       },
     ],
@@ -130,8 +144,10 @@ exports[`Eventbrite find-events 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.eventbrite.com/checkout-external?eid=1147883443279",
         "notes": "",
+        "status": {},
         "time": 1738001700000,
       },
     ],

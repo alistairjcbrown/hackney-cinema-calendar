@@ -1,5 +1,9 @@
 const { parseISO } = require("date-fns");
-const { createOverview, createPerformance } = require("../../common/utils");
+const {
+  createOverview,
+  createPerformance,
+  createAccessibility,
+} = require("../../common/utils");
 
 async function transform(
   { domain, cinemaId },
@@ -24,27 +28,38 @@ async function transform(
     const performances = Object.values(movieListPage[movie.id])
       .flatMap((dayPerformances) => dayPerformances)
       .map((performance) => {
+        let accessibility = {};
         let notesList = [];
-        if (performance.occupancy.rate === 100) {
-          notesList.push("Sold out");
-        } else {
+
+        if (performance.occupancy.rate !== 100) {
           notesList.push(`${performance.occupancy.rate}% of seats sold`);
         }
-        notesList = notesList.concat(
-          performance.tags.reduce((tagNotes, tag) => {
-            if (tag === "Format.Projection.Digital") return tagNotes;
-            const tagId = `${cinemaId}_${tag}`;
-            const tagData = attributeData.find(({ id }) => id === tagId);
-            if (tagData) {
-              return tagNotes.concat(tagData.localizations[0].description);
-            }
-          }, []),
-        );
+        performance.tags.forEach((tag) => {
+          if (tag === "Format.Projection.Digital") return;
+
+          const tagId = `${cinemaId}_${tag}`;
+          const tagData = attributeData.find(({ id }) => id === tagId);
+          if (!tagData) return;
+
+          if (tag.toLowerCase() === "showtime.accessibility.subtitled") {
+            accessibility.subtitled = true;
+            return;
+          }
+          if (tag.toLowerCase() === "showtime.restriction.babyclub") {
+            accessibility.babyFriendly = true;
+            return;
+          }
+
+          // Any tags which aren't accessibility related can be added to notes
+          notesList = notesList.concat(tagData.localizations[0].description);
+        });
 
         return createPerformance({
           date: parseISO(performance.startsAt),
           notesList,
           url: performance.data.ticketing[0].urls[0],
+          status: { soldOut: performance.occupancy.rate === 100 },
+          accessibility: createAccessibility(accessibility),
         });
       });
 

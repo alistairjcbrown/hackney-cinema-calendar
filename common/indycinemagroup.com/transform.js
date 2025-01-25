@@ -1,5 +1,9 @@
 const { parseISO } = require("date-fns");
-const { createOverview, createPerformance } = require("../../common/utils");
+const {
+  createOverview,
+  createPerformance,
+  createAccessibility,
+} = require("../../common/utils");
 
 const screenMapping = {
   115: "1", // riocinema.org.uk
@@ -8,6 +12,8 @@ const screenMapping = {
   122: "Ludski Bar", // riocinema.org.uk
   318: "1", // phoenixcinema.co.uk
   317: "2", // phoenixcinema.co.uk
+  140: "1", // actonecinema.co.uk
+  141: "2", // actonecinema.co.uk
 };
 
 const isCastPlaceholder = (value) =>
@@ -52,18 +58,34 @@ async function transform(
         const notesList = [
           `${showing.seatsRemaining} of ${showing.seatsRemaining + showing.ticketsSold} seats remaining`,
         ];
-        if (tags.includes("cc")) {
-          notesList.push("Closed Captioned screening for Hard of Hearing");
-        }
         if (tags.includes("no-trailers-or-adverts")) {
           notesList.push("No adverts or trailers");
         }
+
+        const status = {
+          soldOut: showing.seatsRemaining === 0,
+        };
+
+        const accessibility = createAccessibility({
+          audioDescription: tags.includes("ad"),
+          relaxed: tags.includes("relaxed"),
+          babyFriendly:
+            tags.includes("carers--babies") || tags.includes("baby"),
+          hardOfHearing:
+            tags.includes("hard-of-hearing") ||
+            tags.includes("hoh") ||
+            tags.includes("cc") ||
+            tags.includes("oc"),
+          subtitled: tags.includes("subbed") || tags.includes("subtitles"),
+        });
 
         return createPerformance({
           date: parseISO(showing.time),
           screen: screenMapping[showing.screenId] || showing.screenId,
           notesList,
           url: `${domain}/checkout/showing/${movie.urlSlug}/${showing.id}`,
+          status,
+          accessibility,
         });
       }),
     };

@@ -26,135 +26,225 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51275/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737663600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51628/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737721200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51631/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737741600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51629/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737748800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51639/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737813600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51722/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737820200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51640/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737835200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51651/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737891000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51646/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737912000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51645/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737919800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51670/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737980400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51664/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738000800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51672/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738008000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51701/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738074000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51694/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738083600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51723/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738095300000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51680/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738153200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51674/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738173600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51682/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738180800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51709/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738239600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51704/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738260000000,
       },
       {
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51713/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing",
+        "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738267200000,
       },
     ],
@@ -185,39 +275,63 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51633/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737740400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51642/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737802800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51648/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737903600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51666/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737992400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51676/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738165200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51706/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738258800000,
       },
     ],
@@ -245,177 +359,293 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51609/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739479200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51608/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739535600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51607/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739546400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51606/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739556000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51605/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739565600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51584/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739619600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51583/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739630400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51582/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739641200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51581/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739652000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51588/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739704800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51587/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739715600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51586/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739726400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51585/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739737200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51592/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739792400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51591/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739803200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51590/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739814000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51589/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739824800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51596/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739878800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51595/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739889600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51594/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739900400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51593/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739911200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51600/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739965200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51599/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739976000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51598/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739986800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51597/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739997600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51604/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740056400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51603/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740067200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51602/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740073200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51601/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740084000000,
       },
     ],
@@ -444,9 +674,13 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51478/",
         "notes": "Valentine's Day: Special Valentine's Day Screening",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739557200000,
       },
     ],
@@ -478,39 +712,63 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51635/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737720000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51650/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737892800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51669/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737979200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51699/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738065000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51679/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738152000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51710/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738238400000,
       },
     ],
@@ -538,87 +796,143 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51636/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737717600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51630/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737752400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51644/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737803400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51638/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737824400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51653/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737889200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51652/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737922800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51673/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737976800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51671/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738011600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51702/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738062900000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51700/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738085400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51683/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738149600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51681/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738184400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51711/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738236000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51712/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738270800000,
       },
     ],
@@ -638,9 +952,13 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-49643/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742320800000,
       },
     ],
@@ -664,9 +982,13 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-49644/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747753500000,
       },
     ],
@@ -693,45 +1015,73 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51626/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737732600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51641/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737801000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51647/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737910800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51665/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737998400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51695/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738063800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51675/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738171200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51705/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738251000000,
       },
     ],
@@ -754,15 +1104,23 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-50270/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738780200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-50271/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739109600000,
       },
     ],
@@ -791,51 +1149,85 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51578/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737664800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51634/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737728400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51643/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737810000000,
       },
       {
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51649/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing",
+        "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737900000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51668/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737987600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51698/",
         "notes": "",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738072800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51678/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738160400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51708/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738246800000,
       },
     ],
@@ -864,16 +1256,25 @@ exports[`Curzon Wimbledon retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-50998/",
         "notes": "Recorded Performance: Prerecorded Q&A",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743102000000,
       },
       {
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-50999/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing
-Recorded Performance: Prerecorded Q&A",
+        "notes": "Recorded Performance: Prerecorded Q&A",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743339600000,
       },
     ],
@@ -901,16 +1302,25 @@ Recorded Performance: Prerecorded Q&A",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-49729/",
-        "notes": "Sold out",
+        "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": true,
+        },
         "time": 1740078000000,
       },
       {
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51579/",
-        "notes": "Closed Captioned: Closed Captioned screening for Hard of Hearing
-Encore: Encore",
+        "notes": "Encore: Encore",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740318000000,
       },
     ],
@@ -930,9 +1340,13 @@ Encore: Encore",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-48318/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747937700000,
       },
     ],
@@ -959,9 +1373,13 @@ Encore: Encore",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-48317/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747238400000,
       },
     ],
@@ -981,9 +1399,13 @@ Encore: Encore",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-48315/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742498100000,
       },
     ],
@@ -1007,9 +1429,13 @@ Encore: Encore",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-48314/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740683700000,
       },
     ],
@@ -1035,9 +1461,13 @@ Encore: Encore",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-48316/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743531300000,
       },
     ],
@@ -1071,28 +1501,44 @@ Encore: Encore",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51714/",
         "notes": "Members preview: Members' only preview screening.
 Special Preview: Special Preview Screening",
         "screen": "Green",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738693200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51742/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738951200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51748/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739047800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51752/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739122800000,
       },
     ],
@@ -1124,87 +1570,143 @@ Special Preview: Special Preview Screening",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51627/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737729600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51470/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737745200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51479/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737810600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51471/",
         "notes": "",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737831600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51480/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737902400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51472/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737918000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51667/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737988800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51473/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738004400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51697/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738075200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51474/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738090800000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51677/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738161600000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51475/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738177200000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51707/",
         "notes": "Awards Season Screening: For more information visit curzon.com/awards-season",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738248000000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51476/",
         "notes": "",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738263600000,
       },
     ],
@@ -1232,9 +1734,13 @@ Special Preview: Special Preview Screening",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51183/",
         "notes": "Special Preview: Special Preview Screening",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739220000000,
       },
     ],
@@ -1261,9 +1767,13 @@ Special Preview: Special Preview Screening",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-48849/",
         "notes": "Satellite Event: Live Via Satellite",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737826200000,
       },
     ],
@@ -1291,9 +1801,13 @@ Special Preview: Special Preview Screening",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-48850/",
         "notes": "Satellite Event: Live Via Satellite",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742058000000,
       },
     ],
@@ -1321,9 +1835,13 @@ Special Preview: Special Preview Screening",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-48851/",
         "notes": "Satellite Event: Live Via Satellite",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1745686800000,
       },
     ],
@@ -1349,9 +1867,13 @@ Special Preview: Special Preview Screening",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-48852/",
         "notes": "Satellite Event: Live Via Satellite",
         "screen": "Red",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747501200000,
       },
     ],
@@ -1381,9 +1903,13 @@ Special Preview: Special Preview Screening",
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.curzon.com/ticketing/seats/WIM01-51477/",
         "notes": "Valentine's Day: Special Valentine's Day Screening",
         "screen": "Blue",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739469600000,
       },
     ],

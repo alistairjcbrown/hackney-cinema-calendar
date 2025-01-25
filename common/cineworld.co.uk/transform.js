@@ -1,5 +1,9 @@
 const { parseISO } = require("date-fns");
-const { createOverview, createPerformance } = require("../../common/utils");
+const {
+  createOverview,
+  createPerformance,
+  createAccessibility,
+} = require("../../common/utils");
 
 const getCertificate = (attributeIds) => {
   if (attributeIds.includes("u")) return "U";
@@ -58,16 +62,17 @@ async function transform(venue, { movieListPage, moviePages }, sourcedEvents) {
     // If the movie isn't available, then we've omitted it previously
     if (!movie) return;
 
+    const status = {
+      soldOut: event.soldOut,
+    };
+    const accessibility = {};
     const notesList = [];
-    if (event.soldOut) notesList.push("Sold out");
     event.attributeIds.forEach((attributeId) => {
       if (attributeId === "audio-described") {
-        notesList.push(
-          "This is an audio described screening. A special headset will be supplied if required. The performance is otherwise unaffected and is suitable for all customers.",
-        );
+        accessibility.audioDescription = true;
       }
       if (attributeId === "subbed") {
-        notesList.push("This is a subtitled screening");
+        accessibility.subtitled = true;
       }
       if (attributeId === "classicfilm") {
         notesList.push("This is a classic film");
@@ -80,6 +85,8 @@ async function transform(venue, { movieListPage, moviePages }, sourcedEvents) {
         screen: event.auditorium,
         notesList,
         url: event.bookingLink,
+        status,
+        accessibility: createAccessibility(accessibility),
       }),
     );
   });

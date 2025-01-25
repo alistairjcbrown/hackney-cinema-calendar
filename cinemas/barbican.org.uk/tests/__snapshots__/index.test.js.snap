@@ -15,81 +15,160 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2643202",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737644400000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2643401",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737655200000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2617807",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737664200000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2655003",
         "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737730800000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2654202",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737741000000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2656405",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737810000000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2656001",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737827700000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2654203",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737921000000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2654204",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738000500000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2655601",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738095000000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2656201",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738172400000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2654802",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738249800000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2655801",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738268400000,
       },
     ],
@@ -109,81 +188,160 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2639605",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737656400000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2637404",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737665400000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2656403",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737751800000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2656202",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737823800000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2655402",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737838200000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2655004",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737902400000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2656404",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737913500000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2654603",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737982800000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2656401",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738002000000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2656601",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738087200000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2654003",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738184400000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2656402",
         "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738260600000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2656801",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738270800000,
       },
     ],
@@ -203,9 +361,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2651003",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738348200000,
       },
     ],
@@ -223,9 +385,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2542201",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740679800000,
       },
     ],
@@ -241,9 +407,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2542601",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1758820800000,
       },
     ],
@@ -263,9 +433,15 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2542401",
-        "notes": "This event is captioned. Captioning is a format that includes text description of significant sound effects as well as dialogue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1748452800000,
       },
     ],
@@ -284,9 +460,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.barbican.org.uk/whats-on/2025/event/brick-and-mirror-introduction",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739026800000,
       },
     ],
@@ -301,9 +481,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.barbican.org.uk/whats-on/2025/event/chess-of-the-wind-the-crown-jewels-of-iran-intro",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740420600000,
       },
     ],
@@ -323,9 +507,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.barbican.org.uk/whats-on/2025/event/cinema-restored-frauen-in-berlin-introduction",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738260000000,
       },
     ],
@@ -344,9 +532,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2584607",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741890000000,
       },
     ],
@@ -366,9 +558,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2495801",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739211000000,
       },
     ],
@@ -383,9 +579,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2568201",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743701400000,
       },
     ],
@@ -400,9 +600,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.barbican.org.uk/whats-on/2025/event/experience-waiting-screentalk",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738692600000,
       },
     ],
@@ -417,9 +621,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2579801",
         "notes": "",
         "screen": "Frobisher Auditorium",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739734200000,
       },
     ],
@@ -438,9 +646,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2579401",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739702700000,
       },
     ],
@@ -459,9 +671,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2604001",
         "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739012400000,
       },
     ],
@@ -480,9 +696,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2604201",
         "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740222000000,
       },
     ],
@@ -502,9 +722,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2603602",
         "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739617200000,
       },
     ],
@@ -525,9 +749,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2648001",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738407600000,
       },
     ],
@@ -546,9 +774,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.barbican.org.uk/whats-on/2025/event/far-from-home-introduction",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739385000000,
       },
     ],
@@ -563,9 +795,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2474001",
         "notes": "",
         "screen": "Frobisher Auditorium 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743940800000,
       },
     ],
@@ -580,9 +816,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2439401",
         "notes": "",
         "screen": "Frobisher Auditorium 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743933600000,
       },
     ],
@@ -597,9 +837,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2416801",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1750534200000,
       },
     ],
@@ -617,15 +861,23 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.barbican.org.uk/whats-on/2025/event/macbeth-david-tennant-and-cush-jumbo",
         "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738787400000,
       },
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2534802",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739910600000,
       },
     ],
@@ -644,9 +896,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2647401",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739631600000,
       },
     ],
@@ -666,9 +922,15 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2653802",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738494000000,
       },
     ],
@@ -683,9 +945,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2382201",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742058000000,
       },
     ],
@@ -700,9 +966,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2382402",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1748710800000,
       },
     ],
@@ -717,9 +987,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2382401",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1746291600000,
       },
     ],
@@ -734,9 +1008,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2381802",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747501200000,
       },
     ],
@@ -756,9 +1034,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2615201",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739565900000,
       },
     ],
@@ -778,9 +1060,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2644201",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742926800000,
       },
     ],
@@ -800,27 +1086,53 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "audioDescription": true,
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2640601",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737643800000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2655001",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737920400000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2654602",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737990600000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2655201",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738095600000,
       },
     ],
@@ -839,9 +1151,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2568001",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742656800000,
       },
     ],
@@ -860,9 +1176,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2567801",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741803300000,
       },
     ],
@@ -882,39 +1202,76 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2639602",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737654600000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2653801",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737813600000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2654001",
         "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737910200000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2654201",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738009800000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2654002",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738086000000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2654401",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738182600000,
       },
     ],
@@ -929,9 +1286,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2562201",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743102000000,
       },
     ],
@@ -946,9 +1307,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2419604",
         "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740078000000,
       },
     ],
@@ -968,9 +1333,15 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2655002",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738408500000,
       },
     ],
@@ -990,15 +1361,27 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2644001",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737803700000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2655401",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738581300000,
       },
     ],
@@ -1013,9 +1396,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2467401",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743328800000,
       },
     ],
@@ -1035,9 +1422,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.barbican.org.uk/whats-on/2025/event/preview-hard-truths-screentalk",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738174800000,
       },
     ],
@@ -1052,9 +1443,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2340001",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747573200000,
       },
     ],
@@ -1069,9 +1464,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2339601",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742738400000,
       },
     ],
@@ -1086,9 +1485,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2339401",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740924000000,
       },
     ],
@@ -1103,9 +1506,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2339801",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743944400000,
       },
     ],
@@ -1124,9 +1531,15 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "relaxed": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2578404",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740744000000,
       },
     ],
@@ -1145,9 +1558,15 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "relaxed": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2575807",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739817000000,
       },
     ],
@@ -1162,9 +1581,15 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "relaxed": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2424001",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738324800000,
       },
     ],
@@ -1184,9 +1609,15 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "relaxed": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2644801",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741953600000,
       },
     ],
@@ -1205,9 +1636,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2561002",
         "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740999600000,
       },
     ],
@@ -1226,9 +1661,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2562001",
         "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742209200000,
       },
     ],
@@ -1247,9 +1686,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2561801",
         "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743415200000,
       },
     ],
@@ -1271,9 +1714,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2561601",
         "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739790000000,
       },
     ],
@@ -1289,9 +1736,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2561401",
         "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738580400000,
       },
     ],
@@ -1311,69 +1762,137 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2650603",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737725400000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2638601",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737744300000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.barbican.org.uk/whats-on/2025/event/the-brutalist",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737831600000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2653402",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737898200000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2638801",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737915600000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2650202",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737985200000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2639001",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738003500000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2637402",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738089900000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2639401",
         "notes": "",
         "screen": "Cinema 2",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738176300000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2650203",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738244400000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2638002",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738262700000,
       },
     ],
@@ -1388,9 +1907,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2551001",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740249900000,
       },
     ],
@@ -1405,9 +1928,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.barbican.org.uk/whats-on/2025/event/the-sealed-soil-the-house-is-black-introduction",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740507600000,
       },
     ],
@@ -1422,9 +1949,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2541601",
         "notes": "",
         "screen": "Hall",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742844600000,
       },
     ],
@@ -1444,9 +1975,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2647601",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739716200000,
       },
     ],
@@ -1465,9 +2000,13 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {},
         "bookingUrl": "https://www.barbican.org.uk/whats-on/2025/event/the-stranger-and-the-fog-introduction",
         "notes": "",
         "screen": "Cinema 1",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739111400000,
       },
     ],
@@ -1487,21 +2026,40 @@ exports[`The Barbican retrieve and transform 1`] = `
     },
     "performances": [
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2639202",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737664800000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2654601",
         "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737819000000,
       },
       {
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://tickets.barbican.org.uk/choose-seats/2654801",
-        "notes": "This event is audio described. Commentary is provided through a headset describing visual action that is essential to understanding the story as it unfolds. For audio description headphones, please contact a member of Barbican staff on arrival at your venue.",
+        "notes": "",
         "screen": "Cinema 3",
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738011000000,
       },
     ],
