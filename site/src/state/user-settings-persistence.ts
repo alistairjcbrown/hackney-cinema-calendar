@@ -77,7 +77,7 @@ async function integrateWithGist(
     await updateEverything(octokit, gistId, updateState);
   } else {
     const gistList = await octokit.rest.gists.list();
-    // TODO: Does the find need to paginate of there are many gists?
+    // TODO: Does the find need to paginate if there are many gists?
     const gistMatch = gistList.data.find(({ files }) => !!files[expectedFile]);
 
     if (gistMatch) {
@@ -112,5 +112,7 @@ export function syncWithPersistedUserSettings(
   const authToken = getAuthToken();
   if (authToken) {
     integrateWithGist(authToken, userSettings, updateState, onComplete);
+  } else {
+    if (onComplete) onComplete();
   }
 }
