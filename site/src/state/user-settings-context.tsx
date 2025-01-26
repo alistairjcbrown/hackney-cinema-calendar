@@ -1,7 +1,10 @@
 import type { FavouriteMovie } from "@/types";
-import { safelyJsonParse, safelyJsonStringify } from "@/utils/json-handling";
 import type { Dispatch, ReactNode, SetStateAction } from "react";
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
+import {
+  syncWithPersistedUserSettings,
+  setPersistedUserSettings,
+} from "./user-settings-persistence";
 
 const UserSettingsContext = createContext<{
   favouriteMovies: FavouriteMovie[];
@@ -13,22 +16,21 @@ const UserSettingsContext = createContext<{
 
 export const useUserSettings = () => useContext(UserSettingsContext);
 
-const favouriteMoviesKey = "favourite-movies";
-
 export function UserSettingsProvider({ children }: { children: ReactNode }) {
-  const favouriteMoviesValue = localStorage.getItem(favouriteMoviesKey);
-  const persistedFavouriteMovies = safelyJsonParse(
-    favouriteMoviesValue ?? "[]",
-  ) as FavouriteMovie[];
-  const [favouriteMovies, setFavouriteMovies] = useState<FavouriteMovie[]>(
-    persistedFavouriteMovies ?? [],
-  );
+  const [favouriteMovies, setFavouriteMovies] = useState<FavouriteMovie[]>([]);
+
+  useEffect(() => {
+    syncWithPersistedUserSettings(({ favouriteMovies }) => {
+      setFavouriteMovies(favouriteMovies || []);
+    });
+  }, [setFavouriteMovies]);
 
   const setFavouriteMoviesPersisted = (
     favouriteMovies: SetStateAction<FavouriteMovie[]>,
   ) => {
-    const favouriteMoviesValue = safelyJsonStringify(favouriteMovies) ?? "";
-    localStorage.setItem(favouriteMoviesKey, favouriteMoviesValue);
+    setPersistedUserSettings({ favouriteMovies } as {
+      favouriteMovies: FavouriteMovie[];
+    });
     return setFavouriteMovies(favouriteMovies);
   };
 

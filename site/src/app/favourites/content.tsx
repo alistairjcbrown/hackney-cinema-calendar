@@ -1,17 +1,32 @@
 "use client";
 import { FavouriteMovie, Movie, MoviePerformance } from "@/types";
+import { useState } from "react";
 import Link from "next/link";
+import { Octokit } from "octokit";
 import { isAfter } from "date-fns";
 import Container from "rsuite/cjs/Container";
 import Content from "rsuite/cjs/Content";
 import Heading from "rsuite/cjs/Heading";
 import Stack from "rsuite/cjs/Stack";
 import Text from "rsuite/cjs/Text";
+import Modal from "rsuite/cjs/Modal";
+import Input from "rsuite/cjs/Input";
+import Button from "rsuite/cjs/Button";
+import InputGroup from "rsuite/cjs/InputGroup";
+import WarningRoundIcon from "@rsuite/icons/WarningRound";
 import { useCinemaData } from "@/state/cinema-data-context";
+import { useUserSettings } from "@/state/user-settings-context";
+import {
+  getAuthToken,
+  getGithubGistId,
+  removeAuthToken,
+  removeGithubGistId,
+  setAuthToken,
+  syncWithPersistedUserSettings,
+} from "@/state/user-settings-persistence";
 import getMoviePath from "@/utils/get-movie-path";
 import showNumber from "@/utils/show-number";
 import AppHeading from "@/components/app-heading";
-import { useUserSettings } from "@/state/user-settings-context";
 import bestMoviesFilter from "@/components/app-heading/best-movies-filter";
 import showTimeToNextPerformance from "@/components/movie-item/show-time-to-next-performance";
 import ExternalLink from "@/components/external-link";
@@ -32,9 +47,30 @@ function filterForFuturePerformances(
     .sort((a, b) => a.time - b.time);
 }
 
+async function validateAndStoreToken(auth: string): Promise<boolean> {
+  const octokit = new Octokit({ auth });
+  let isValid = false;
+  try {
+    const gistList = await octokit.rest.gists.list();
+    isValid = Array.isArray(gistList.data);
+  } catch (e) {
+    console.log("Error validating token", e);
+  }
+  if (isValid) setAuthToken(auth);
+  return isValid;
+}
+
 export default function FavouritesContent() {
   const { data } = useCinemaData();
-  const { favouriteMovies } = useUserSettings();
+  const { favouriteMovies, setFavouriteMovies } = useUserSettings();
+  const [showSyncModal, setShowSyncModal] = useState(false);
+  const [token, setToken] = useState("");
+  const [isValidating, setIsValidating] = useState(false);
+
+  const gistId = getGithubGistId();
+  const authToken = getAuthToken();
+  const isSyncing = gistId && authToken;
+
   const matchedMovies = Object.values(data!.movies).filter(
     ({ isUnmatched }) => !isUnmatched,
   );
@@ -65,9 +101,163 @@ export default function FavouritesContent() {
     <Container>
       <AppHeading />
       <Content style={{ padding: "1rem" }}>
+        <Modal
+          keyboard={false}
+          open={showSyncModal}
+          onClose={() => {
+            setShowSyncModal(false);
+          }}
+        >
+          <Modal.Header>
+            <Modal.Title>
+              {isSyncing ? "Manage" : "Setup"} Favourites Sync
+            </Modal.Title>
+          </Modal.Header>
+          {isSyncing ? (
+            <Modal.Body>
+              <Stack direction="column" alignItems="flex-start" spacing="1rem">
+                <Stack.Item>
+                  <Text>
+                    Sync is active and linked to{" "}
+                    <ExternalLink
+                      href={`https://api.github.com/gists/${gistId}`}
+                    >
+                      a Gist on your Github account
+                    </ExternalLink>
+                    .
+                  </Text>
+                  <Text>
+                    You can use the button below to stop syncing favourites on
+                    this device.
+                  </Text>
+                </Stack.Item>
+                <Stack.Item>
+                  <Text>
+                    ℹ️ Please note that this will not delete the Gist on your
+                    Github account, and will only remove the{" "}
+                    <em>Personal Access Token</em> provided when sync was set
+                    up.
+                  </Text>
+                </Stack.Item>
+                <Stack.Item>
+                  <Button
+                    appearance="primary"
+                    color="red"
+                    onClick={() => {
+                      removeAuthToken();
+                      removeGithubGistId();
+                      setShowSyncModal(false);
+                      setToken("");
+                    }}
+                  >
+                    <WarningRoundIcon />
+                    &nbsp; Deactivate Sync
+                  </Button>
+                </Stack.Item>
+              </Stack>
+            </Modal.Body>
+          ) : (
+            <Modal.Body>
+              Sync is powered using{" "}
+              <ExternalLink href="https://gist.github.com/">
+                Github Gists
+              </ExternalLink>
+              . To set this up:
+              <ol>
+                <li>
+                  You need to have a Github account:{" "}
+                  <ExternalLink href="https://github.com/signup">
+                    <span style={{ whiteSpace: "nowrap" }}>
+                      https://github.com/signup
+                    </span>
+                  </ExternalLink>
+                </li>
+                <li>
+                  Create a <em>fine-grained personal access token</em>:{" "}
+                  <ExternalLink href="https://github.com/settings/personal-access-tokens">
+                    <span style={{ whiteSpace: "nowrap" }}>
+                      https://github.com/settings/personal-access-tokens
+                    </span>
+                  </ExternalLink>
+                  <ul>
+                    <li>
+                      Set the token to have{" "}
+                      <em>&quot;Read and Write access to gists&quot;</em>{" "}
+                      &mdash; no other permissions are required.
+                    </li>
+                    <li>Set the token have no expiry date.</li>
+                  </ul>
+                </li>
+                <li>
+                  Enter your personal access token below; it will be stored on
+                  your device and used to read and write a gist on your account.
+                </li>
+              </ol>
+              <br />
+              <Stack spacing="0.5rem">
+                <Stack.Item grow={1}>
+                  <InputGroup>
+                    <InputGroup.Addon>Token:</InputGroup.Addon>
+                    <Input
+                      placeholder={`github_pat_${Array(82).join("x")}`}
+                      value={token}
+                      onChange={setToken}
+                    />
+                  </InputGroup>
+                </Stack.Item>
+                <Stack.Item>
+                  <Button
+                    loading={isValidating}
+                    appearance="primary"
+                    onClick={async () => {
+                      setIsValidating(true);
+                      const isValid = await validateAndStoreToken(token);
+                      if (!isValid) return setIsValidating(false);
+                      syncWithPersistedUserSettings(
+                        ({ favouriteMovies }) => {
+                          setFavouriteMovies(favouriteMovies || []);
+                        },
+                        () => {
+                          setIsValidating(false);
+                          setShowSyncModal(false);
+                        },
+                      );
+                    }}
+                  >
+                    Setup Sync
+                  </Button>
+                </Stack.Item>
+              </Stack>
+            </Modal.Body>
+          )}
+        </Modal>
         <Stack spacing={18} direction="column" alignItems="flex-start">
           <Stack.Item>
             <Heading>Favourites</Heading>
+            {isSyncing ? (
+              <Text>
+                ✅ Your favourites are syncing.{" "}
+                <Button
+                  appearance="link"
+                  style={{ padding: 0, verticalAlign: "bottom" }}
+                  onClick={() => setShowSyncModal(true)}
+                >
+                  Change settings?
+                </Button>
+              </Text>
+            ) : (
+              <Text>
+                Your favourites are stored in your browser. 🔄{" "}
+                <Button
+                  appearance="link"
+                  style={{ padding: 0, verticalAlign: "bottom" }}
+                  onClick={() => setShowSyncModal(true)}
+                >
+                  Setup sync
+                </Button>{" "}
+                to share them with another device.
+              </Text>
+            )}
           </Stack.Item>
           {favouriteMovies.length === 0 ? (
             <>

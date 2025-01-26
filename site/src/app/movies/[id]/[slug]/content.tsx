@@ -154,7 +154,20 @@ export default function MoviePageContent({
                             width={250}
                             height={375}
                             hideShadow
-                          />
+                          >
+                            <div
+                              style={{
+                                position: "absolute",
+                                top: "0.7rem",
+                                left: "0.7rem",
+                              }}
+                            >
+                              <FavouriteMovieButton
+                                movie={displayedMovie}
+                                show
+                              />
+                            </div>
+                          </MoviePoster>
                         </Stack.Item>
                       ) : null}
                       {duration ? (
