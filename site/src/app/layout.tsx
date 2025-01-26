@@ -1,6 +1,7 @@
 "use client";
 import { CinemaDataProvider, GetCinemaData } from "@/state/cinema-data-context";
 import { FiltersProvider } from "@/state/filters-context";
+import { UserSettingsProvider } from "@/state/user-settings-context";
 import "rsuite/dist/rsuite.min.css";
 
 export default function RootLayout({
@@ -13,7 +14,9 @@ export default function RootLayout({
       <body>
         <CinemaDataProvider>
           <GetCinemaData>
-            <FiltersProvider>{children}</FiltersProvider>
+            <UserSettingsProvider>
+              <FiltersProvider>{children}</FiltersProvider>
+            </UserSettingsProvider>
           </GetCinemaData>
         </CinemaDataProvider>
       </body>

@@ -73,14 +73,19 @@ const locations = [
     matcher: (value: string, data: CinemaData | null): boolean =>
       value === "near-me",
     generator: (value: string, data: CinemaData | null): Promise<VenueFilter> =>
-      new Promise((resolve) => {
+      new Promise((resolve, reject) => {
         if (!("geolocation" in navigator)) return resolve(null);
 
-        navigator.geolocation.getCurrentPosition(({ coords }) => {
-          const position = { lat: coords.latitude, lon: coords.longitude };
-          const filteredVenues = getVenuesNear(position, data);
-          resolve(filteredVenues);
-        });
+        navigator.geolocation.getCurrentPosition(
+          ({ coords }) => {
+            const position = { lat: coords.latitude, lon: coords.longitude };
+            const filteredVenues = getVenuesNear(position, data);
+            resolve(filteredVenues);
+          },
+          (err) => {
+            reject(err);
+          },
+        );
       }),
   },
   {
@@ -137,8 +142,17 @@ export default function ShowingsRedirectContent() {
     });
 
     (async function () {
-      const dateRange = await pendingDateRange;
-      const filteredVenues = await pendingFilteredVanues;
+      let dateRange;
+      try {
+        dateRange = await pendingDateRange;
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      } catch (e) {}
+
+      let filteredVenues;
+      try {
+        filteredVenues = await pendingFilteredVanues;
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      } catch (e) {}
 
       const params = setFilters(
         {

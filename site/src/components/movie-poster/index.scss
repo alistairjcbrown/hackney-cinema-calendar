@@ -24,6 +24,14 @@
   .no-poster-background {
     border-radius: 2px;
   }
+
+  .movie-poster-children {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
 }
 
 .no-poster {

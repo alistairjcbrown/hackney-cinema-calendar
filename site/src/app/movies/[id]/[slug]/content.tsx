@@ -22,6 +22,7 @@ import MovieClassification from "@/components/movie-classification";
 import PerformanceList from "@/components/performance-list";
 import AppHeading from "@/components/app-heading";
 import "./index.scss";
+import FavouriteMovieButton from "@/components/favourite-movie-button";
 
 export default function MoviePageContent({
   params,
@@ -94,7 +95,17 @@ export default function MoviePageContent({
                   width={250}
                   height={375}
                   hideShadow
-                />
+                >
+                  <div
+                    style={{
+                      position: "absolute",
+                      top: "0.7rem",
+                      left: "0.7rem",
+                    }}
+                  >
+                    <FavouriteMovieButton movie={displayedMovie} show />
+                  </div>
+                </MoviePoster>
               ) : null}
               <Card.Body style={{ width: "100%" }}>
                 <Stack

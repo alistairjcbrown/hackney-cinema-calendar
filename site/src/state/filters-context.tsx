@@ -11,22 +11,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { startOfDay, endOfDay, addYears } from "date-fns";
 import { useCinemaData } from "@/state/cinema-data-context";
 import getMovieClassification from "@/utils/get-movie-classification";
-
-function safelyJsonStringify<T>(value: T): string | undefined {
-  try {
-    return JSON.stringify(value);
-  } catch {
-    return undefined;
-  }
-}
-
-function safelyJsonParse<T>(value: string): T | undefined {
-  try {
-    return JSON.parse(value);
-  } catch {
-    return undefined;
-  }
-}
+import { safelyJsonStringify, safelyJsonParse } from "@/utils/json-handling";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any -- typescript, let's not fight
 export const processingFunctions: Record<keyof Filters, any> = {

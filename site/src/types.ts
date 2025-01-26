@@ -131,3 +131,10 @@ export type Filters = {
   filteredClassifications: Record<Classification, boolean>;
   filteredGenres: Record<Genre["id"], boolean>;
 };
+
+export type FavouriteMovie = {
+  id: string;
+  title: string;
+  year?: string;
+  addedOn: number;
+};

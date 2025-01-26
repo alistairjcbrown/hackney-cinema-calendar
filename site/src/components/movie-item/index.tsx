@@ -1,9 +1,10 @@
 import type { Filters, Movie } from "@/types";
-import { intervalToDuration, formatDuration } from "date-fns";
 import classNames from "classnames";
 import { useFilters } from "@/state/filters-context";
 import showNumber from "@/utils/show-number";
 import MoviePoster from "../movie-poster";
+import FavouriteMovieButton from "../favourite-movie-button";
+import showTimeToNextPerformance from "./show-time-to-next-performance";
 import "./index.scss";
 
 const getVenueCount = (movie: Movie, filters: Filters) =>
@@ -12,33 +13,6 @@ const getVenueCount = (movie: Movie, filters: Filters) =>
     if (filters.filteredVenues[venueId]) venueIds.add(venueId);
     return venueIds;
   }, new Set()).size;
-
-const getTimeToNextPerformance = (performances: Movie["performances"]) => {
-  const sortedPerformances = performances.sort((a, b) => a.time - b.time);
-  const nextPerformance = sortedPerformances.find(
-    ({ time }) => time - Date.now() > 0,
-  );
-  if (!nextPerformance) return "All showings have finished";
-
-  const durationUntil = intervalToDuration({
-    start: new Date(),
-    end: new Date(nextPerformance.time),
-  });
-
-  const largeTimeToNextShowing = formatDuration(durationUntil, {
-    format: ["months", "weeks", "days"],
-  });
-  if (largeTimeToNextShowing)
-    return `Next showing in ${largeTimeToNextShowing}`;
-
-  const shortTimeToNextShowing = formatDuration(durationUntil, {
-    format: ["hours", "minutes"],
-  });
-  if (shortTimeToNextShowing)
-    return `Next showing in ${shortTimeToNextShowing}`;
-
-  return "Next showing now!";
-};
 
 export default function MovieItem({
   movie,
@@ -70,7 +44,13 @@ export default function MovieItem({
       className={classNames("movie-item", className)}
       style={{ width, height }}
     >
-      <MoviePoster movie={movie} />
+      <MoviePoster movie={movie}>
+        <div
+          style={{ position: "absolute", right: "0.8rem", bottom: "0.4rem" }}
+        >
+          <FavouriteMovieButton movie={movie} />
+        </div>
+      </MoviePoster>
       <div className="movie-item-text-wrapper">
         <div className="movie-item-title" tabIndex={-1}>
           {movie.title}
@@ -78,7 +58,7 @@ export default function MovieItem({
         <div className="movie-item-summary">
           {performanceSummary} at {venueSummary}
           <br />
-          {getTimeToNextPerformance(movie.performances)}
+          {showTimeToNextPerformance(movie.performances)}
         </div>
       </div>
     </div>

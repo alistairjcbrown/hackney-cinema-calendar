@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import About from "./content";
+import AboutContent from "./content";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
@@ -7,6 +7,6 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function ShowingsRedirect() {
-  return <About />;
+export default function AboutPage() {
+  return <AboutContent />;
 }

@@ -1,4 +1,5 @@
 import type { Movie } from "@/types";
+import type { ReactNode } from "react";
 import Image from "next/image";
 import { getContrastingColor } from "contra-color";
 import stringToColor from "string-to-color";
@@ -42,11 +43,13 @@ export default function MoviePoster({
   width = 171,
   height = 260,
   hideShadow = false,
+  children,
 }: {
   movie: Movie;
   width?: number;
   height?: number;
   hideShadow?: boolean;
+  children?: ReactNode;
 }) {
   return (
     <div className={`movie-poster ${hideShadow ? "" : "movie-poster--shadow"}`}>
@@ -61,6 +64,9 @@ export default function MoviePoster({
           height={height}
         />
       )}
+      {children ? (
+        <div className="movie-poster-children">{children}</div>
+      ) : null}
     </div>
   );
 }

@@ -11,7 +11,6 @@ import {
   isToday,
   parseISO,
 } from "date-fns";
-import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Container from "rsuite/cjs/Container";
@@ -21,12 +20,12 @@ import Message from "rsuite/cjs/Message";
 import Stack from "rsuite/cjs/Stack";
 import Text from "rsuite/cjs/Text";
 import Divider from "rsuite/cjs/Divider";
-import slugify from "@sindresorhus/slugify";
 import { useFilters } from "@/state/filters-context";
 import { useCinemaData } from "@/state/cinema-data-context";
 import getMovieClassification from "@/utils/get-movie-classification";
 import getMatchingMovies from "@/utils/get-matching-movies";
 import showNumber from "@/utils/show-number";
+import getMoviePath from "@/utils/get-movie-path";
 import AppHeading from "@/components/app-heading";
 import MovieClassification from "@/components/movie-classification";
 import FilterLink from "@/components/filter-link";
@@ -35,9 +34,6 @@ import logo from "./blue_long_1-8ba2ac31f354005783fab473602c34c3f4fd207150182061
 
 const convertToMapping = (values: string[]) =>
   values.reduce((mapping, value) => ({ ...mapping, [value]: true }), {});
-
-const getMoviePath = ({ id, title }: Movie) =>
-  `/movies/${id}/${slugify(title)}`;
 
 const getMoviesShowingAt = (venueId: string, movies: CinemaData["movies"]) => {
   return Object.values(movies)
@@ -202,9 +198,6 @@ export default function AboutContent() {
 
   return (
     <Container>
-      <Head>
-        <title>London Cinema Movies - About</title>
-      </Head>
       <AppHeading />
       <Content style={{ padding: "1rem" }}>
         <Stack spacing={24} direction="column" alignItems="flex-start">
