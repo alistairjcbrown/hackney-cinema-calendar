@@ -24,83 +24,123 @@ exports[`Clapham Picturehouse retrieve and transform 1`] = `
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70218&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737729900000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69989&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737736800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69984&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737747600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70006&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737813600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70005&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737825600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70001&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737833400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70165&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737894600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70166&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737906300000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70158&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737918000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70178&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737989400000,
       },
       {
@@ -108,15 +148,21 @@ exports[`Clapham Picturehouse retrieve and transform 1`] = `
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70177&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738000200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70171&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738008900000,
       },
       {
@@ -124,83 +170,118 @@ exports[`Clapham Picturehouse retrieve and transform 1`] = `
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70190&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738066500000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70191&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738077600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70219&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738085400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70186&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738096200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70200&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738162800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70199&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738172700000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70198&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738182000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70216&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738246200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70215&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738257600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70206&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738269000000,
       },
     ],
@@ -228,19 +309,27 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69993&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737741600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70220&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737804600000,
       },
       {
@@ -248,7 +337,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70000&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737817800000,
       },
       {
@@ -256,15 +347,21 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70169&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737893400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70159&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737920400000,
       },
       {
@@ -272,15 +369,21 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70180&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737990900000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70174&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738000800000,
       },
       {
@@ -288,15 +391,21 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70189&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738067400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70183&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738089000000,
       },
       {
@@ -304,24 +413,33 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70194&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738152900000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70203&visLang=1",
-        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738165800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70201&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738183800000,
       },
       {
@@ -329,7 +447,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70209&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738258200000,
       },
     ],
@@ -360,23 +480,33 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69985&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737750600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70007&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737807300000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69999&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737837000000,
       },
       {
@@ -384,7 +514,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70170&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737902700000,
       },
       {
@@ -392,15 +524,21 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70160&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737912600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70173&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738010700000,
       },
       {
@@ -408,16 +546,21 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70184&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738088400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70204&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738152000000,
       },
       {
@@ -425,15 +568,21 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70197&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738183200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70212&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738266300000,
       },
     ],
@@ -462,7 +611,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70148&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739448000000,
       },
       {
@@ -470,7 +621,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70075&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739452500000,
       },
       {
@@ -478,7 +631,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70074&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739456100000,
       },
       {
@@ -486,7 +641,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70076&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739463300000,
       },
       {
@@ -494,7 +651,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70073&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739466900000,
       },
       {
@@ -502,7 +661,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70077&visLang=1",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739474100000,
       },
       {
@@ -510,15 +671,21 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70072&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739477700000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70082&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739538000000,
       },
       {
@@ -526,15 +693,21 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70083&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739543400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70081&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739548800000,
       },
       {
@@ -542,15 +715,21 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70079&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739554200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70080&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739559600000,
       },
       {
@@ -558,7 +737,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70078&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739565000000,
       },
       {
@@ -566,7 +747,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70087&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739619000000,
       },
       {
@@ -574,7 +757,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70090&visLang=1",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739624400000,
       },
       {
@@ -582,7 +767,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70086&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739629800000,
       },
       {
@@ -590,7 +777,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70089&visLang=1",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739635200000,
       },
       {
@@ -598,7 +787,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70085&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739640600000,
       },
       {
@@ -606,7 +797,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70088&visLang=1",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739646000000,
       },
       {
@@ -614,15 +807,21 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70084&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739651400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70092&visLang=1",
         "notes": "Watch with Baby: Exclusively for parents or carers with babies under the age of one",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739703600000,
       },
       {
@@ -630,7 +829,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70097&visLang=1",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739707200000,
       },
       {
@@ -638,7 +839,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70093&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739714400000,
       },
       {
@@ -646,7 +849,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70096&visLang=1",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739718900000,
       },
       {
@@ -654,7 +859,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70094&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739725200000,
       },
       {
@@ -662,7 +869,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70095&visLang=1",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739730600000,
       },
       {
@@ -670,7 +879,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70091&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739736000000,
       },
       {
@@ -678,15 +889,21 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70103&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739801700000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70102&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739808000000,
       },
       {
@@ -694,15 +911,21 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70100&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739812500000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70101&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739818800000,
       },
       {
@@ -710,7 +933,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70099&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739823300000,
       },
       {
@@ -718,16 +943,21 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70108&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739889000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70109&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739894400000,
       },
       {
@@ -735,15 +965,21 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70106&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739899800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70107&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739905200000,
       },
       {
@@ -751,16 +987,21 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70105&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739910600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70116&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739970000000,
       },
       {
@@ -768,16 +1009,21 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70111&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739974500000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70115&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739980800000,
       },
       {
@@ -785,15 +1031,21 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70112&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739985300000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70114&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739991600000,
       },
       {
@@ -801,24 +1053,33 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70113&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739996100000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70118&visLang=1",
         "notes": "Watch with Baby: Exclusively for parents or carers with babies under the age of one",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740051000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70122&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740058200000,
       },
       {
@@ -826,16 +1087,21 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70124&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740061800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70121&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740069000000,
       },
       {
@@ -843,7 +1109,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70120&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740072600000,
       },
       {
@@ -851,7 +1119,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70125&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740078000000,
       },
       {
@@ -859,7 +1129,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70119&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740083400000,
       },
       {
@@ -867,15 +1139,21 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70128&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740159000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70129&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740165300000,
       },
       {
@@ -883,7 +1161,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70127&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740169800000,
       },
       {
@@ -891,7 +1171,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70133&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740223800000,
       },
       {
@@ -899,7 +1181,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70132&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740234600000,
       },
       {
@@ -907,15 +1191,21 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70131&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740245400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70134&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740250800000,
       },
       {
@@ -923,7 +1213,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70130&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740256200000,
       },
       {
@@ -931,7 +1223,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70150&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740319200000,
       },
       {
@@ -939,7 +1233,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70152&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740330000000,
       },
       {
@@ -947,7 +1243,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70153&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740407400000,
       },
       {
@@ -955,7 +1253,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70155&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740418200000,
       },
       {
@@ -963,7 +1263,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70156&visLang=1",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740423600000,
       },
       {
@@ -971,7 +1273,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70154&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740429000000,
       },
     ],
@@ -1004,7 +1308,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70281&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739542200000,
       },
       {
@@ -1012,7 +1318,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70280&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739553300000,
       },
       {
@@ -1020,7 +1328,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70279&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739563800000,
       },
       {
@@ -1028,7 +1338,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70287&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739619000000,
       },
       {
@@ -1036,7 +1348,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70286&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739628900000,
       },
       {
@@ -1044,7 +1358,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70285&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739639400000,
       },
       {
@@ -1052,7 +1368,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70284&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739650200000,
       },
       {
@@ -1060,7 +1378,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70288&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739713200000,
       },
       {
@@ -1068,7 +1388,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70289&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739723400000,
       },
       {
@@ -1076,7 +1398,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70290&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739734200000,
       },
       {
@@ -1084,7 +1408,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70293&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739805000000,
       },
       {
@@ -1092,7 +1418,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70292&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739815200000,
       },
       {
@@ -1100,7 +1428,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70291&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739825100000,
       },
     ],
@@ -1129,7 +1459,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70137&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740308400000,
       },
     ],
@@ -1156,7 +1488,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=68512&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738785600000,
       },
       {
@@ -1164,7 +1498,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=68745&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738872000000,
       },
       {
@@ -1172,7 +1508,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=68746&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738960200000,
       },
       {
@@ -1180,7 +1518,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=68513&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739102400000,
       },
     ],
@@ -1207,29 +1547,39 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70221&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737891600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70187&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738066500000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70210&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738239300000,
       },
     ],
@@ -1260,7 +1610,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738152000000,
       },
     ],
@@ -1292,7 +1644,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742392800000,
       },
     ],
@@ -1322,7 +1676,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1749042000000,
       },
     ],
@@ -1354,7 +1710,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1746018000000,
       },
     ],
@@ -1384,7 +1742,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747836000000,
       },
     ],
@@ -1407,7 +1767,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737826200000,
       },
     ],
@@ -1440,7 +1802,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742058000000,
       },
     ],
@@ -1471,7 +1835,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1748710800000,
       },
     ],
@@ -1504,7 +1870,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1745686800000,
       },
     ],
@@ -1535,7 +1903,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747501200000,
       },
     ],
@@ -1568,7 +1938,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69994&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737732000000,
       },
       {
@@ -1576,7 +1948,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69998&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737806400000,
       },
       {
@@ -1584,16 +1958,21 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70181&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738078200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70205&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738161900000,
       },
       {
@@ -1601,7 +1980,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70211&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738246800000,
       },
     ],
@@ -1630,7 +2011,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69418&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743105600000,
       },
       {
@@ -1638,7 +2021,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69419&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743246000000,
       },
       {
@@ -1646,7 +2031,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69420&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743674400000,
       },
       {
@@ -1654,7 +2041,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69421&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743706800000,
       },
       {
@@ -1662,7 +2051,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69422&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743847200000,
       },
     ],
@@ -1691,7 +2082,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=67746&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740079800000,
       },
       {
@@ -1699,7 +2092,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=67747&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740224700000,
       },
       {
@@ -1707,7 +2102,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=67748&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740596400000,
       },
       {
@@ -1715,7 +2112,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=67749&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740654000000,
       },
     ],
@@ -1739,12 +2138,15 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70283&visLang=1",
-        "notes": "Subtitled: This show is in the original language and will have English subtitles
-Out: Elevating and celebrating LGBTQ+ cinema, from reclaimed classics to the cutting edge.",
+        "notes": "Out: Elevating and celebrating LGBTQ+ cinema, from reclaimed classics to the cutting edge.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740686400000,
       },
     ],
@@ -1777,7 +2179,9 @@ Out: Elevating and celebrating LGBTQ+ cinema, from reclaimed classics to the cut
         "notes": "Picturehouse Docs: Bringing you the best in new and topical documentaries covering issues around the world.
 Out: Elevating and celebrating LGBTQ+ cinema, from reclaimed classics to the cutting edge.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738267200000,
       },
     ],
@@ -1808,7 +2212,9 @@ Out: Elevating and celebrating LGBTQ+ cinema, from reclaimed classics to the cut
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70282&visLang=1",
         "notes": "Out: Elevating and celebrating LGBTQ+ cinema, from reclaimed classics to the cutting edge.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739390400000,
       },
     ],
@@ -1840,7 +2246,9 @@ Out: Elevating and celebrating LGBTQ+ cinema, from reclaimed classics to the cut
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69995&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737742800000,
       },
       {
@@ -1848,15 +2256,21 @@ Out: Elevating and celebrating LGBTQ+ cinema, from reclaimed classics to the cut
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69996&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737839700000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70163&visLang=1",
         "notes": "Watch with Baby: Exclusively for parents or carers with babies under the age of one",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737890100000,
       },
       {
@@ -1864,7 +2278,9 @@ Out: Elevating and celebrating LGBTQ+ cinema, from reclaimed classics to the cut
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70164&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737922200000,
       },
       {
@@ -1872,16 +2288,21 @@ Out: Elevating and celebrating LGBTQ+ cinema, from reclaimed classics to the cut
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70175&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738011600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70193&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738068600000,
       },
       {
@@ -1889,32 +2310,45 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70185&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738098000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70195&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738174200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70217&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738238400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70214&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738258800000,
       },
     ],
@@ -1938,7 +2372,9 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1748260800000,
       },
     ],
@@ -1964,13 +2400,16 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=66036&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled: This show is in the original language and will have English subtitles",
+Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747652400000,
       },
     ],
@@ -1994,7 +2433,9 @@ Subtitled: This show is in the original language and will have English subtitles
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742821200000,
       },
     ],
@@ -2019,13 +2460,16 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=66034&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled: This show is in the original language and will have English subtitles",
+Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1744027200000,
       },
     ],
@@ -2050,7 +2494,9 @@ Subtitled: This show is in the original language and will have English subtitles
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747937700000,
       },
     ],
@@ -2076,14 +2522,17 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=66035&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled: This show is in the original language and will have English subtitles
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747238400000,
       },
     ],
@@ -2108,7 +2557,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742498100000,
       },
     ],
@@ -2133,14 +2584,17 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=66033&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled: This show is in the original language and will have English subtitles
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743531300000,
       },
     ],
@@ -2167,7 +2621,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740683700000,
       },
       {
@@ -2176,7 +2632,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741006800000,
       },
     ],
@@ -2208,13 +2666,17 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "hardOfHearing": true,
+          "relaxed": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70342&visLang=1",
         "notes": "Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.
 Relaxed: Designed to make cinema-going easier for those needing additional support, including neurodivergent audiences and those living with dementia. Lights are left on low, volume is reduced, and the audience is free to move around.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739705400000,
       },
     ],
@@ -2248,7 +2710,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69812&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737728100000,
       },
       {
@@ -2256,7 +2720,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69811&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737745200000,
       },
       {
@@ -2264,7 +2730,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69814&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737815400000,
       },
       {
@@ -2272,7 +2740,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69813&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737831600000,
       },
       {
@@ -2280,7 +2750,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69816&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737898200000,
       },
       {
@@ -2288,7 +2760,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69815&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737914400000,
       },
       {
@@ -2296,7 +2770,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69977&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737988200000,
       },
       {
@@ -2304,7 +2780,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69976&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738004400000,
       },
       {
@@ -2312,7 +2790,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69979&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738075500000,
       },
       {
@@ -2320,7 +2800,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69978&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738091700000,
       },
       {
@@ -2328,7 +2810,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69981&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738161000000,
       },
       {
@@ -2336,7 +2820,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69980&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738177200000,
       },
       {
@@ -2344,7 +2830,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69983&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738248000000,
       },
       {
@@ -2352,7 +2840,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69982&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738263600000,
       },
       {
@@ -2360,7 +2850,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69992&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738593000000,
       },
       {
@@ -2368,7 +2860,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69991&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738609200000,
       },
     ],
@@ -2399,7 +2893,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69600&visLang=1",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739219400000,
       },
     ],
@@ -2429,11 +2925,15 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70003&visLang=1",
         "notes": "Kids' Club: Exclusively for children and their parents or carers. Unaccompanied adults are not admitted.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737805200000,
       },
     ],
@@ -2458,94 +2958,136 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69990&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737728100000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69986&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737749400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70002&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737816600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=69997&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737824400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70167&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737901800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70161&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737910800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70179&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737992400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70172&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738001700000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70192&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738076400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70182&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738097100000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70202&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738153800000,
       },
       {
@@ -2553,24 +3095,33 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70196&visLang=1",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738174200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70207&visLang=1",
         "notes": "Watch with Baby: Exclusively for parents or carers with babies under the age of one",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738236600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70213&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738249800000,
       },
     ],
@@ -2587,19 +3138,27 @@ Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silv
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70223&visLang=1",
         "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737804600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=020&txtSessionId=70222&visLang=1",
         "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738065600000,
       },
     ],

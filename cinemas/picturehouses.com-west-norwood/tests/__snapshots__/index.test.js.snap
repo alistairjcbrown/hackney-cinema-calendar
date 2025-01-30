@@ -24,12 +24,15 @@ exports[`West Norwood Library & Picturehouse retrieve and transform 1`] = `
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35232&visLang=1",
-        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737724500000,
       },
       {
@@ -37,7 +40,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35231&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737736200000,
       },
       {
@@ -45,7 +50,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35230&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737747900000,
       },
       {
@@ -53,7 +60,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35214&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737811800000,
       },
       {
@@ -61,7 +70,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35213&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737823500000,
       },
       {
@@ -69,7 +80,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35208&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737835200000,
       },
       {
@@ -77,7 +90,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35267&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737886500000,
       },
       {
@@ -85,7 +100,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35220&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737906300000,
       },
       {
@@ -93,7 +110,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35221&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737918000000,
       },
       {
@@ -101,7 +120,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35233&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737982800000,
       },
       {
@@ -109,7 +130,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35234&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737994500000,
       },
       {
@@ -117,16 +140,22 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35235&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738006200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35240&visLang=1",
-        "notes": "Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.
-Watch with Baby: Exclusively for parents or carers with babies under the age of one",
+        "notes": "Watch with Baby: Exclusively for parents or carers with babies under the age of one",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738067400000,
       },
       {
@@ -134,7 +163,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35241&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738080900000,
       },
       {
@@ -142,7 +173,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35242&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738092600000,
       },
       {
@@ -150,7 +183,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35247&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738157400000,
       },
       {
@@ -158,7 +193,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35248&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738169100000,
       },
       {
@@ -166,7 +203,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35249&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738179900000,
       },
       {
@@ -174,7 +213,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35254&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738242000000,
       },
       {
@@ -182,7 +223,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35255&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738253700000,
       },
       {
@@ -190,7 +233,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35256&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738265400000,
       },
     ],
@@ -222,7 +267,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35229&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737725400000,
       },
       {
@@ -230,7 +277,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35226&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737734400000,
       },
       {
@@ -238,7 +287,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35228&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737743400000,
       },
       {
@@ -246,7 +297,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35216&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737806400000,
       },
       {
@@ -254,7 +307,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35209&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737828000000,
       },
       {
@@ -262,7 +317,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35225&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737894600000,
       },
       {
@@ -270,7 +327,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35223&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737912600000,
       },
       {
@@ -278,7 +337,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35236&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737985200000,
       },
       {
@@ -286,7 +347,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35237&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738002600000,
       },
       {
@@ -294,7 +357,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35243&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738071000000,
       },
       {
@@ -302,7 +367,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35244&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738089000000,
       },
       {
@@ -310,15 +377,21 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35250&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738155600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35251&visLang=1",
-        "notes": "Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738174500000,
       },
       {
@@ -326,7 +399,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35257&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738241100000,
       },
       {
@@ -334,7 +409,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35258&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738269000000,
       },
     ],
@@ -360,7 +437,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=34246&visLang=1",
         "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739130600000,
       },
     ],
@@ -391,7 +470,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35284&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738095300000,
       },
     ],
@@ -420,7 +501,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35163&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739451600000,
       },
       {
@@ -428,7 +511,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35162&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739456100000,
       },
       {
@@ -436,7 +521,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35164&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739462400000,
       },
       {
@@ -444,7 +531,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35161&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739466900000,
       },
       {
@@ -452,7 +541,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35165&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739473200000,
       },
       {
@@ -460,7 +551,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35160&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739478600000,
       },
       {
@@ -468,7 +561,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35168&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739536200000,
       },
       {
@@ -476,7 +571,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35169&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739541600000,
       },
       {
@@ -484,7 +581,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35167&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739547900000,
       },
       {
@@ -492,7 +591,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35170&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739553300000,
       },
       {
@@ -500,7 +601,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35166&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739559600000,
       },
       {
@@ -508,7 +611,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35171&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739565000000,
       },
       {
@@ -516,7 +621,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35178&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739628000000,
       },
       {
@@ -524,7 +631,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35190&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739639700000,
       },
       {
@@ -532,7 +641,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35196&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739647800000,
       },
       {
@@ -540,7 +651,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35202&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739651400000,
       },
       {
@@ -548,7 +661,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35179&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739710800000,
       },
       {
@@ -556,7 +671,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35191&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739722500000,
       },
       {
@@ -564,7 +681,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35197&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739730600000,
       },
       {
@@ -572,7 +691,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35203&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739734200000,
       },
       {
@@ -580,7 +701,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35174&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739797200000,
       },
       {
@@ -588,7 +711,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35180&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739800800000,
       },
       {
@@ -596,15 +721,21 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35186&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739808900000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35192&visLang=1",
-        "notes": "Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739812500000,
       },
       {
@@ -612,7 +743,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35198&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739820600000,
       },
       {
@@ -620,15 +753,21 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35204&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739824200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35181&visLang=1",
         "notes": "Watch with Baby: Exclusively for parents or carers with babies under the age of one",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739880000000,
       },
       {
@@ -636,7 +775,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35175&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739883600000,
       },
       {
@@ -644,7 +785,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35187&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739895300000,
       },
       {
@@ -652,7 +795,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35193&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739898900000,
       },
       {
@@ -660,7 +805,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35199&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739907000000,
       },
       {
@@ -668,7 +815,9 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35205&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739909700000,
       },
       {
@@ -676,16 +825,21 @@ Watch with Baby: Exclusively for parents or carers with babies under the age of 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35176&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739970000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35182&visLang=1",
-        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739974500000,
       },
       {
@@ -693,7 +847,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35188&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739981700000,
       },
       {
@@ -701,7 +857,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35194&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739985300000,
       },
       {
@@ -709,7 +867,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35200&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739993400000,
       },
       {
@@ -717,7 +877,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35206&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739996100000,
       },
       {
@@ -725,7 +887,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35177&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740056400000,
       },
       {
@@ -733,7 +897,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35183&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740060900000,
       },
       {
@@ -741,7 +907,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35189&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740067200000,
       },
       {
@@ -749,7 +917,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35195&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740071700000,
       },
       {
@@ -757,7 +927,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35201&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740076200000,
       },
       {
@@ -765,7 +937,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35207&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740082500000,
       },
     ],
@@ -798,7 +972,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35291&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739541000000,
       },
       {
@@ -806,7 +982,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35290&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739551200000,
       },
       {
@@ -814,7 +992,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35289&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739561400000,
       },
       {
@@ -822,7 +1002,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35292&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739628600000,
       },
       {
@@ -830,7 +1012,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35293&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739638800000,
       },
       {
@@ -838,7 +1022,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35294&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739649600000,
       },
       {
@@ -846,7 +1032,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35295&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739713800000,
       },
       {
@@ -854,7 +1042,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35297&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739724600000,
       },
       {
@@ -862,7 +1052,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35296&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739735400000,
       },
       {
@@ -870,7 +1062,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35300&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739801400000,
       },
       {
@@ -878,7 +1072,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35298&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739811600000,
       },
       {
@@ -886,7 +1082,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35299&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739822400000,
       },
     ],
@@ -920,7 +1118,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35219&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737896400000,
       },
     ],
@@ -952,7 +1152,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=34249&visLang=1",
         "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740945000000,
       },
     ],
@@ -975,7 +1177,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Picturehouse Docs: Bringing you the best in new and topical documentaries covering issues around the world.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742320800000,
       },
       {
@@ -984,7 +1188,9 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Picturehouse Docs: Bringing you the best in new and topical documentaries covering issues around the world.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742911200000,
       },
     ],
@@ -1011,7 +1217,9 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Picturehouse Docs: Bringing you the best in new and topical documentaries covering issues around the world.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747760400000,
       },
       {
@@ -1020,7 +1228,9 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Picturehouse Docs: Bringing you the best in new and topical documentaries covering issues around the world.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1748350800000,
       },
     ],
@@ -1049,7 +1259,9 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=34247&visLang=1",
         "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739703600000,
       },
     ],
@@ -1083,7 +1295,9 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=34244&visLang=1",
         "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737921000000,
       },
     ],
@@ -1115,7 +1329,9 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35158&visLang=1",
         "notes": "Picturehouse Docs: Bringing you the best in new and topical documentaries covering issues around the world.",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738267200000,
       },
     ],
@@ -1142,7 +1358,9 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=33617&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738785600000,
       },
       {
@@ -1150,7 +1368,9 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=33618&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739106000000,
       },
     ],
@@ -1181,7 +1401,9 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35263&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737729000000,
       },
       {
@@ -1189,7 +1411,9 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35266&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737807300000,
       },
       {
@@ -1197,7 +1421,9 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35270&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737987300000,
       },
       {
@@ -1205,7 +1431,9 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35273&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738073700000,
       },
       {
@@ -1213,7 +1441,9 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35276&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738164000000,
       },
       {
@@ -1221,7 +1451,9 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35279&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738247400000,
       },
     ],
@@ -1252,7 +1484,9 @@ Picturehouse Docs: Bringing you the best in new and topical documentaries coveri
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738157400000,
       },
     ],
@@ -1284,7 +1518,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742391000000,
       },
     ],
@@ -1314,7 +1550,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1749040200000,
       },
     ],
@@ -1346,7 +1584,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1746016200000,
       },
     ],
@@ -1376,7 +1616,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747832400000,
       },
     ],
@@ -1399,7 +1641,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737826200000,
       },
     ],
@@ -1432,7 +1676,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742058000000,
       },
     ],
@@ -1463,7 +1709,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1748710800000,
       },
     ],
@@ -1496,7 +1744,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1745686800000,
       },
     ],
@@ -1527,7 +1777,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747501200000,
       },
     ],
@@ -1558,7 +1810,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35211&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737802800000,
       },
       {
@@ -1566,7 +1820,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35218&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737887400000,
       },
     ],
@@ -1587,7 +1843,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=34248&visLang=1",
         "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740340800000,
       },
     ],
@@ -1620,7 +1878,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35262&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737749700000,
       },
       {
@@ -1628,15 +1888,21 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35264&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737837000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35268&visLang=1",
-        "notes": "Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737901800000,
       },
       {
@@ -1644,7 +1910,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35271&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738008000000,
       },
       {
@@ -1652,7 +1920,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35274&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738084500000,
       },
       {
@@ -1660,7 +1930,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35277&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738180800000,
       },
       {
@@ -1668,7 +1940,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35280&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738258200000,
       },
     ],
@@ -1697,7 +1971,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=34374&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743102000000,
       },
       {
@@ -1705,7 +1981,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=34375&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743348600000,
       },
       {
@@ -1713,7 +1991,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=34376&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743588000000,
       },
       {
@@ -1721,7 +2001,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=34377&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743620400000,
       },
       {
@@ -1729,7 +2011,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=34378&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743953400000,
       },
     ],
@@ -1758,7 +2042,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=32910&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740078000000,
       },
       {
@@ -1766,7 +2052,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=32911&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740231000000,
       },
       {
@@ -1774,7 +2062,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=32912&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740596400000,
       },
       {
@@ -1782,7 +2072,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=32914&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740654000000,
       },
     ],
@@ -1814,7 +2106,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35227&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737752400000,
       },
       {
@@ -1822,7 +2116,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35210&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737839400000,
       },
       {
@@ -1830,7 +2126,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35222&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737919800000,
       },
       {
@@ -1838,7 +2136,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35239&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737993600000,
       },
       {
@@ -1846,7 +2146,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35238&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738011000000,
       },
       {
@@ -1854,7 +2156,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35245&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738097400000,
       },
       {
@@ -1862,7 +2166,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35253&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738171800000,
       },
       {
@@ -1870,7 +2176,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35259&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738259100000,
       },
     ],
@@ -1894,7 +2202,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1748343600000,
       },
     ],
@@ -1918,7 +2228,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742904000000,
       },
     ],
@@ -1943,13 +2255,16 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=31592&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
-Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled: This show is in the original language and will have English subtitles",
+Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1744110000000,
       },
     ],
@@ -1974,7 +2289,9 @@ Subtitled: This show is in the original language and will have English subtitles
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747937700000,
       },
     ],
@@ -2000,14 +2317,17 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=31593&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled: This show is in the original language and will have English subtitles
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747238400000,
       },
     ],
@@ -2032,7 +2352,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742498100000,
       },
     ],
@@ -2057,14 +2379,17 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=31591&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled: This show is in the original language and will have English subtitles
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743531300000,
       },
     ],
@@ -2091,7 +2416,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740683700000,
       },
       {
@@ -2100,7 +2427,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741089600000,
       },
     ],
@@ -2123,13 +2452,17 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "hardOfHearing": true,
+          "relaxed": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35286&visLang=1",
         "notes": "Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.
 Relaxed: Designed to make cinema-going easier for those needing additional support, including neurodivergent audiences and those living with dementia. Lights are left on low, volume is reduced, and the audience is free to move around.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739192400000,
       },
     ],
@@ -2161,13 +2494,17 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "hardOfHearing": true,
+          "relaxed": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35287&visLang=1",
         "notes": "Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.
 Relaxed: Designed to make cinema-going easier for those needing additional support, including neurodivergent audiences and those living with dementia. Lights are left on low, volume is reduced, and the audience is free to move around.",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739700000000,
       },
     ],
@@ -2196,7 +2533,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=34245&visLang=1",
         "notes": "reDiscover: Time to broaden your cinematic horizons: you'll find the best of what's next with Discover's under-the-radar releases, and return to favourites of yesterday with our ReDiscover retrospectives.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738526400000,
       },
     ],
@@ -2230,7 +2569,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35021&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737727200000,
       },
       {
@@ -2238,7 +2579,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35022&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737743400000,
       },
       {
@@ -2246,7 +2589,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35024&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737810000000,
       },
       {
@@ -2254,7 +2599,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35026&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737815400000,
       },
       {
@@ -2262,7 +2609,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35025&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737831600000,
       },
       {
@@ -2270,7 +2619,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35029&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737898200000,
       },
       {
@@ -2278,7 +2629,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35027&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737903600000,
       },
       {
@@ -2286,7 +2639,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35028&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737914400000,
       },
       {
@@ -2294,7 +2649,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35031&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737986400000,
       },
       {
@@ -2302,7 +2659,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35030&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738002600000,
       },
       {
@@ -2310,7 +2669,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35034&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738072800000,
       },
       {
@@ -2318,7 +2679,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35035&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738089000000,
       },
       {
@@ -2326,7 +2689,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35037&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738159200000,
       },
       {
@@ -2334,7 +2699,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35038&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738175400000,
       },
       {
@@ -2342,7 +2709,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35039&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738245600000,
       },
       {
@@ -2350,7 +2719,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35040&visLang=1",
         "notes": "",
         "screen": "One",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738261800000,
       },
     ],
@@ -2381,7 +2752,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=34585&visLang=1",
         "notes": "",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739217600000,
       },
     ],
@@ -2411,19 +2784,27 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35212&visLang=1",
         "notes": "Kids' Club: Exclusively for children and their parents or carers. Unaccompanied adults are not admitted.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737801000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35217&visLang=1",
         "notes": "Kids' Club: Exclusively for children and their parents or carers. Unaccompanied adults are not admitted.",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737885600000,
       },
     ],
@@ -2452,7 +2833,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35261&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737739800000,
       },
       {
@@ -2460,7 +2843,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35265&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737818100000,
       },
       {
@@ -2468,7 +2853,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35269&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737892800000,
       },
       {
@@ -2476,7 +2863,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35272&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737998100000,
       },
       {
@@ -2484,7 +2873,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35275&visLang=1",
         "notes": "",
         "screen": "Three",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738079100000,
       },
       {
@@ -2492,7 +2883,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35278&visLang=1",
         "notes": "",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738182600000,
       },
       {
@@ -2500,7 +2893,9 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35281&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "Two",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738250100000,
       },
     ],
@@ -2517,27 +2912,39 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35282&visLang=1",
         "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737803700000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35283&visLang=1",
         "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737889200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=027&txtSessionId=35285&visLang=1",
         "notes": "Toddler Time: Exclusively for preschool children and their parents or carers.",
         "screen": "Four",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738065600000,
       },
     ],

@@ -1,6 +1,11 @@
 const cheerio = require("cheerio");
 const slugify = require("slugify");
-const { getText, createOverview, createPerformance } = require("../utils");
+const {
+  getText,
+  createOverview,
+  createPerformance,
+  createAccessibility,
+} = require("../utils");
 const { parseDate } = require("./utils");
 
 function getAdditionalDataFor(data) {
@@ -21,6 +26,24 @@ function getAdditionalDataFor(data) {
 
   return addiitionalData;
 }
+
+const screenNumberMapping = {
+  one: 1,
+  two: 2,
+  three: 3,
+  four: 4,
+  five: 5,
+  six: 6,
+  seven: 7,
+  eight: 8,
+  nine: 9,
+  ten: 10,
+};
+const getScreen = ({ ScreenName: screen }) => {
+  const screenNumber = screen.replace("Screen ", "").trim();
+  const mappedScreenNumber = screenNumberMapping[screenNumber.toLowerCase()];
+  return mappedScreenNumber ? `${mappedScreenNumber}` : screenNumber;
+};
 
 async function transform(
   { domain, cinemaId },
@@ -51,17 +74,45 @@ async function transform(
       title: movie.Title,
       url: `${domain}/movie-details/${cinemaId}/${movie.ScheduledFilmId}/${slug}`,
       overview,
-      performances: showings.map((showing) =>
-        createPerformance({
+      performances: showings.map((showing) => {
+        const hasAttribute = (value) =>
+          !!(showing.attributes || []).find(
+            ({ attribute }) => attribute.toLowerCase() === value,
+          );
+
+        const status = {
+          soldOut: !!showing.SoldoutStatus,
+        };
+
+        const accessibility = createAccessibility({
+          audioDescription: hasAttribute("audio d"),
+          relaxed: hasAttribute("relaxed"),
+          babyFriendly:
+            hasAttribute("watch baby") ||
+            hasAttribute("toddler ti") ||
+            hasAttribute("kids' club"),
+          hardOfHearing: hasAttribute("hohsub"),
+          subtitled: hasAttribute("sub cinema"),
+        });
+
+        return createPerformance({
           date: parseDate(showing.Showtime),
-          screen: showing.ScreenName.replace("Screen ", ""),
-          notesList: (showing.attributes || []).map(
-            ({ attribute_full: title, description }) =>
+          screen: getScreen(showing),
+          notesList: (showing.attributes || [])
+            .filter(
+              ({ attribute }) =>
+                !["audio d", "hohsub", "sub cinema"].includes(
+                  attribute.toLowerCase(),
+                ),
+            )
+            .map(({ attribute_full: title, description }) =>
               description ? `${title}: ${description}` : title,
-          ),
+            ),
           url: `https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=${cinemaId}&txtSessionId=${showing.SessionId}&visLang=1`,
-        }),
-      ),
+          status,
+          accessibility,
+        });
+      }),
     };
 
     return moviesAtCinema.concat(transformedMovie);

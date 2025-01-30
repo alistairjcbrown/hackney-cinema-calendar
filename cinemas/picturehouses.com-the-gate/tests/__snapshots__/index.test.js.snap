@@ -23,28 +23,40 @@ exports[`The Gate Picturehouse retrieve and transform 1`] = `
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16537&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737720900000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16538&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737809100000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16539&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.
-Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737894600000,
       },
     ],
@@ -69,11 +81,15 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16495&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739478600000,
       },
       {
@@ -81,7 +97,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16499&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739544600000,
       },
       {
@@ -89,7 +107,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16498&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739555100000,
       },
       {
@@ -97,7 +117,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16497&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739565600000,
       },
       {
@@ -105,7 +127,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16503&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739620800000,
       },
       {
@@ -113,7 +137,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16500&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739631000000,
       },
       {
@@ -121,7 +147,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16501&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739641500000,
       },
       {
@@ -129,7 +157,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16502&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739652000000,
       },
       {
@@ -137,7 +167,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16504&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739707200000,
       },
       {
@@ -145,7 +177,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16507&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739717400000,
       },
       {
@@ -153,7 +187,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16506&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739727900000,
       },
       {
@@ -161,7 +197,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16505&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739738400000,
       },
       {
@@ -169,7 +207,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16508&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739803800000,
       },
       {
@@ -177,7 +217,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16509&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739814300000,
       },
       {
@@ -185,7 +227,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16510&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739824800000,
       },
       {
@@ -193,7 +237,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16515&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739880000000,
       },
       {
@@ -201,7 +247,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16512&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739890200000,
       },
       {
@@ -209,7 +257,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16513&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739900700000,
       },
       {
@@ -217,7 +267,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16514&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739911200000,
       },
       {
@@ -225,7 +277,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16519&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739976600000,
       },
       {
@@ -233,7 +287,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16518&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739987100000,
       },
       {
@@ -241,7 +297,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16517&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739997600000,
       },
       {
@@ -249,7 +307,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16521&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740060000000,
       },
       {
@@ -257,7 +317,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16520&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740070800000,
       },
       {
@@ -265,7 +327,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16524&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740149400000,
       },
       {
@@ -273,7 +337,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16523&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740159900000,
       },
       {
@@ -281,7 +347,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16522&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740170400000,
       },
       {
@@ -289,7 +357,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16525&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740225600000,
       },
       {
@@ -297,7 +367,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16528&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740235800000,
       },
       {
@@ -305,7 +377,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16527&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740246300000,
       },
       {
@@ -313,7 +387,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16526&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740256800000,
       },
       {
@@ -321,7 +397,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16531&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740322200000,
       },
       {
@@ -329,7 +407,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16530&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740332700000,
       },
       {
@@ -337,7 +417,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16529&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740343200000,
       },
       {
@@ -345,7 +427,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16535&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740408600000,
       },
       {
@@ -353,7 +437,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16534&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740419100000,
       },
       {
@@ -361,7 +447,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16533&visLang=1",
         "notes": "Silver Screen: Everyone welcome but if you're aged over 60 you can join the Silver Screen Club for a discounted ticket and a free tea or coffee.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740429600000,
       },
     ],
@@ -390,7 +478,9 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16536&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740310200000,
       },
     ],
@@ -415,12 +505,15 @@ Subtitled (Captioned): Everyone welcome. This screening has subtitles for people
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16565&visLang=1",
-        "notes": "Subtitled: This show is in the original language and will have English subtitles
-Preview: A special preview screening of this film. See it before anyone else on the big screen!",
+        "notes": "Preview: A special preview screening of this film. See it before anyone else on the big screen!",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739305800000,
       },
     ],
@@ -447,7 +540,9 @@ Preview: A special preview screening of this film. See it before anyone else on 
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16055&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738787400000,
       },
     ],
@@ -478,7 +573,9 @@ Preview: A special preview screening of this film. See it before anyone else on 
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738157400000,
       },
     ],
@@ -510,7 +607,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742391000000,
       },
     ],
@@ -540,7 +639,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1749040200000,
       },
     ],
@@ -572,7 +673,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1746016200000,
       },
     ],
@@ -602,7 +705,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747836000000,
       },
     ],
@@ -631,7 +736,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16302&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743105600000,
       },
     ],
@@ -660,7 +767,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16001&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740081600000,
       },
     ],
@@ -685,7 +794,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747937700000,
       },
     ],
@@ -711,14 +822,17 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=15631&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled: This show is in the original language and will have English subtitles
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747238400000,
       },
     ],
@@ -743,7 +857,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742498100000,
       },
     ],
@@ -768,14 +884,17 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "subtitled": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=15630&visLang=1",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Subtitled: This show is in the original language and will have English subtitles
 Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743531300000,
       },
     ],
@@ -802,7 +921,9 @@ Live via Satellite: This screening will be streamed live via a Satellite Feed",
         "notes": "Screen Arts: Bringing world-class arts productions to the big screen.
 Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740683700000,
       },
     ],
@@ -832,11 +953,15 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16440&visLang=1",
-        "notes": "AD: Everyone welcome. Audio Description is available for this film, and is undetectable to anyone not wearing a headset.",
+        "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737729000000,
       },
       {
@@ -844,7 +969,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16439&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737745200000,
       },
       {
@@ -852,7 +979,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16441&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737817800000,
       },
       {
@@ -860,7 +989,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16442&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737833400000,
       },
       {
@@ -868,7 +999,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16445&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737903000000,
       },
       {
@@ -876,7 +1009,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16444&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737918600000,
       },
       {
@@ -884,7 +1019,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16454&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737988200000,
       },
       {
@@ -892,7 +1029,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16453&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738004400000,
       },
       {
@@ -900,7 +1039,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16455&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738074600000,
       },
       {
@@ -908,7 +1049,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16456&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738090800000,
       },
       {
@@ -916,15 +1059,21 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16452&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738177200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16458&visLang=1",
-        "notes": "Subtitled (Captioned): Everyone welcome. This screening has subtitles for people with hearing loss.",
+        "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738247400000,
       },
       {
@@ -932,7 +1081,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16457&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738263600000,
       },
     ],
@@ -963,7 +1114,9 @@ Ad and Trailer Free: No advertisements or trailers will play ahead of this scree
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=016&txtSessionId=16325&visLang=1",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739219400000,
       },
     ],
