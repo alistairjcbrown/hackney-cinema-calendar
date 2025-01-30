@@ -78,9 +78,16 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
       $(this).remove();
     });
     const stats = convertToList(getText($stats));
-    const year = isCatchAll(stats[stats.length - 2])
-      ? undefined
-      : stats[stats.length - 2];
+
+    let year;
+    let directors = "";
+
+    if (stats.length > 1) {
+      directors = isCatchAll(stats[0]) ? "" : stats[0];
+      year = isCatchAll(stats[stats.length - 2])
+        ? undefined
+        : stats[stats.length - 2];
+    }
 
     const $cast = $(".film-detail__cast");
     $cast.children().each(function () {
@@ -94,7 +101,7 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
         year,
         duration: stats[stats.length - 1].replace("m.", ""),
         classification,
-        directors: isCatchAll(stats[0]) ? "" : stats[0],
+        directors,
         actors: getText($cast),
       }),
       performances: getPerformances($, $(".film-detail__screenings").eq(0)),
