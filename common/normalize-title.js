@@ -84,7 +84,6 @@ function normalizeTitle(title, options) {
       // Mismatches between cinema listings and themoviedb
       .replace("vasthunnam", "vasthunam")
       .replace("eftihia", "eftyhia")
-      .replace("ernest", "earnest")
       .replace("10180", "1080")
       .replace(/^fire walk with me$/, "twin peaks fire walk with me")
       .replace(/^(.+),\s+the$/, "the $1")
