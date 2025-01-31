@@ -4,6 +4,7 @@ const {
   getText,
   createPerformance,
   createOverview,
+  createAccessibility,
 } = require("../../common/utils");
 const { calculate24Hours, parseDate } = require("./utils");
 
@@ -85,14 +86,39 @@ async function transform(data, sourcedEvents) {
 
       let $currentElement = $performanceDay.next();
       while ($currentElement.is("li")) {
-        const tags = [];
-        $currentElement.find(".movietag .tag").each(function () {
-          tags.push(getText($(this)));
-        });
+        const notesList = [];
+        const status = { soldOut: false };
 
-        const status = getText($currentElement.find(".hover"));
-        let notesList = status.toLowerCase() !== "book" ? [status] : [];
-        notesList.push(tags.join(", "));
+        const statusText = getText($currentElement.find(".hover"));
+        if (statusText.toLowerCase() === "sold out") {
+          status.soldOut = true;
+        } else if (statusText.toLowerCase() !== "book") {
+          notesList.push(statusText);
+        }
+
+        const tagMapping = {
+          "ext. eds": "Extended Edition",
+          "£1 mem": "£1 member screening",
+          dub: "Dubbed",
+        };
+
+        const accessibility = {};
+        $currentElement.find(".movietag .tag").each(function () {
+          const tag = getText($(this));
+          if (tag.toLowerCase() === "hoh" || tag.toLowerCase() === "sdh") {
+            accessibility.hardOfHearing = true;
+            return; // this doesn't need added to the notes
+          }
+          if (tag.toLowerCase() === "sub") {
+            accessibility.subtitled = true;
+            return; // this doesn't need added to the notes
+          }
+          if (tag.toLowerCase() === "digital") {
+            accessibility.audioDescription = true;
+          }
+
+          notesList.push(tagMapping[tag.toLowerCase()] || tag);
+        });
 
         const [, hours, minutes, suffix] = getText(
           $currentElement.find(".time"),
@@ -110,6 +136,8 @@ async function transform(data, sourcedEvents) {
             date: performanceTime,
             notesList,
             url: bookingUrl || url,
+            status,
+            accessibility: createAccessibility(accessibility),
           }),
         );
         $currentElement = $currentElement.next();
