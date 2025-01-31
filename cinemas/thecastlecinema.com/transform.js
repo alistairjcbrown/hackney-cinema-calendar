@@ -5,6 +5,8 @@ const {
   getText,
   createPerformance,
   createOverview,
+  createAccessibility,
+  convertToList,
 } = require("../../common/utils");
 const { parseDate } = require("./utils");
 
@@ -74,12 +76,21 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
         }
       });
 
+      const status = {};
       let notesList = [getText($link.find(".screening-type"))];
       if ($link.hasClass("is-sold-out")) {
-        notesList.push("Sold out");
+        status.soldOut = true;
       } else if ($link.hasClass("low-availability")) {
         notesList.push("Last few seats");
       }
+
+      const filters = convertToList($link.data("filters").toLowerCase());
+      const accessibility = {
+        audioDescribed: filters.includes("audio-described"),
+        babyFriendly: filters.includes("parent-baby"),
+        hardOfHearing: filters.includes("hard-of-hearing"),
+        relaxed: filters.includes("relaxed"),
+      };
 
       const [hours, minutes] = getText($link).split(" ")[0].split(":");
 
@@ -92,6 +103,8 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
           notesList,
           url: `${domain}${$link.attr("href")}`,
           screen: getText($link.find(".screen")),
+          status,
+          accessibility: createAccessibility(accessibility),
         }),
       );
     });
