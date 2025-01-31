@@ -4,6 +4,7 @@ const {
   getText,
   createOverview,
   createPerformance,
+  createAccessibility,
 } = require("../../common/utils");
 const { parseDate } = require("./utils");
 const { domain } = require("./attributes");
@@ -93,17 +94,44 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
         const [hours, minutes] = getText($bookingButton).split(":");
 
         const notesList = [];
+        // TODO: Are these still part of the site?
         $performance.find("i").each(function () {
           const indicatorClass = $(this).attr("class").trim();
           const indicator = indicatorClass.match(/\ba1-event-(\w+)\b/);
           if (indicator) notesList.push(indicator[1]);
         });
 
+        const status = {
+          soldOut: !$performance.attr("href"),
+        };
+        const accessibility = {};
+        let screen = undefined;
+
+        const $iconImage = $performance.children().first().find("img");
+        if ($iconImage) {
+          const alt = $iconImage.attr("alt");
+          if (alt) {
+            const iconType = alt.replace(" icon", "")?.trim();
+            if (iconType.toLowerCase() === "subtitled") {
+              accessibility.hardOfHearing = true;
+            } else if (iconType.toLowerCase() === "parent & baby") {
+              accessibility.babyFriendly = true;
+            } else if (iconType.toLowerCase() === "bar") {
+              screen = "Bar";
+            } else {
+              notesList.push(iconType);
+            }
+          }
+        }
+
         movies[id].performances = movies[id].performances.concat(
           createPerformance({
             date: parseDate(`${year}-${month}-${day} ${hours}:${minutes}`),
             notesList,
             url: $performance.attr("href") || movies[id].url,
+            screen,
+            status,
+            accessibility: createAccessibility(accessibility),
           }),
         );
       });
