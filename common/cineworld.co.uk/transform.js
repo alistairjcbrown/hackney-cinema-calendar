@@ -74,6 +74,12 @@ async function transform(venue, { movieListPage, moviePages }, sourcedEvents) {
       if (attributeId === "subbed") {
         accessibility.subtitled = true;
       }
+      if (attributeId === "autism-friendly") {
+        accessibility.relaxed = true;
+      }
+      if (attributeId === "movies-for-juniors") {
+        accessibility.babyFriendly = true;
+      }
       if (attributeId === "classicfilm") {
         notesList.push("This is a classic film");
       }

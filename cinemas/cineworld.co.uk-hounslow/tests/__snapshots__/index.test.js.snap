@@ -211,6 +211,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "relaxed": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=118&site=118&id=38347&lang=en-GB",
         "notes": "",
@@ -3202,7 +3203,9 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=118&site=118&id=39217&lang=en-GB",
         "notes": "",
         "screen": "9",
@@ -3243,6 +3246,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=118&site=118&id=38996&lang=en-GB",
         "notes": "",
@@ -3255,6 +3259,7 @@ exports[`Cineworld Hounslow retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=118&site=118&id=38997&lang=en-GB",
         "notes": "",

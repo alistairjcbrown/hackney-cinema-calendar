@@ -729,6 +729,7 @@ exports[`Cineworld Wandsworth retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "relaxed": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=066&site=066&id=280516&lang=en-GB",
         "notes": "",
@@ -3776,7 +3777,9 @@ exports[`Cineworld Wandsworth retrieve and transform 1`] = `
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=066&site=066&id=281594&lang=en-GB",
         "notes": "",
         "screen": "10",
@@ -3788,6 +3791,7 @@ exports[`Cineworld Wandsworth retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=066&site=066&id=281464&lang=en-GB",
         "notes": "",

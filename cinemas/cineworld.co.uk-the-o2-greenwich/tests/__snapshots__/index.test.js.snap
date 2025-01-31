@@ -6721,6 +6721,7 @@ exports[`Cineworld The O2 Greenwich retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=077&site=077&id=249146&lang=en-GB",
         "notes": "",
@@ -6733,6 +6734,7 @@ exports[`Cineworld The O2 Greenwich retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=077&site=077&id=249147&lang=en-GB",
         "notes": "",

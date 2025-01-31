@@ -188,6 +188,7 @@ exports[`Cineworld Feltham retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "relaxed": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=023&site=023&id=281914&lang=en-GB",
         "notes": "",
@@ -3339,6 +3340,7 @@ exports[`Cineworld Feltham retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=023&site=023&id=282747&lang=en-GB",
         "notes": "",
@@ -3351,6 +3353,7 @@ exports[`Cineworld Feltham retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=023&site=023&id=282748&lang=en-GB",
         "notes": "",

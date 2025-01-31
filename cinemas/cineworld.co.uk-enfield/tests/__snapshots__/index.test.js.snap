@@ -621,6 +621,7 @@ exports[`Cineworld Enfield retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "relaxed": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=048&site=048&id=292610&lang=en-GB",
         "notes": "",
@@ -4418,6 +4419,7 @@ exports[`Cineworld Enfield retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=048&site=048&id=293497&lang=en-GB",
         "notes": "",
@@ -4430,6 +4432,7 @@ exports[`Cineworld Enfield retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=048&site=048&id=293725&lang=en-GB",
         "notes": "",

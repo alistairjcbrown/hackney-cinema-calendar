@@ -327,6 +327,7 @@ exports[`Cineworld South Ruislip retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "relaxed": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=106&site=105&id=106724&lang=en-GB",
         "notes": "",
@@ -2894,7 +2895,9 @@ exports[`Cineworld South Ruislip retrieve and transform 1`] = `
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=106&site=105&id=107352&lang=en-GB",
         "notes": "",
         "screen": "1",
@@ -2904,7 +2907,9 @@ exports[`Cineworld South Ruislip retrieve and transform 1`] = `
         "time": 1737799800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=106&site=105&id=107353&lang=en-GB",
         "notes": "",
         "screen": "1",
@@ -2943,7 +2948,9 @@ exports[`Cineworld South Ruislip retrieve and transform 1`] = `
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=106&site=105&id=107527&lang=en-GB",
         "notes": "",
         "screen": "8",
@@ -2953,7 +2960,9 @@ exports[`Cineworld South Ruislip retrieve and transform 1`] = `
         "time": 1737799200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=106&site=105&id=107528&lang=en-GB",
         "notes": "",
         "screen": "8",

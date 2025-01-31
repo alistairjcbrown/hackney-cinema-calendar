@@ -386,6 +386,7 @@ exports[`Cineworld Bexleyheath retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "relaxed": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=027&site=027&id=161783&lang=en-GB",
         "notes": "",
@@ -2875,6 +2876,7 @@ exports[`Cineworld Bexleyheath retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=027&site=027&id=162500&lang=en-GB",
         "notes": "",
@@ -2887,6 +2889,7 @@ exports[`Cineworld Bexleyheath retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=027&site=027&id=162501&lang=en-GB",
         "notes": "",

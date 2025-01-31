@@ -494,6 +494,7 @@ exports[`Cineworld West India Quay retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "relaxed": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=041&site=041&id=173103&lang=en-GB",
         "notes": "",
@@ -3343,6 +3344,7 @@ exports[`Cineworld West India Quay retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=041&site=041&id=173820&lang=en-GB",
         "notes": "",
@@ -3355,6 +3357,7 @@ exports[`Cineworld West India Quay retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=041&site=041&id=173797&lang=en-GB",
         "notes": "",

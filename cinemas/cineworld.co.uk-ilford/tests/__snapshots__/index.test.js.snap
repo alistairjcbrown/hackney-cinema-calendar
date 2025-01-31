@@ -63,6 +63,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "relaxed": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=060&site=060&id=202980&lang=en-GB",
         "notes": "",
@@ -2480,6 +2481,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=060&site=060&id=203592&lang=en-GB",
         "notes": "",
@@ -2492,6 +2494,7 @@ exports[`Cineworld Ilford retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=060&site=060&id=203749&lang=en-GB",
         "notes": "",

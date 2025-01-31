@@ -87,6 +87,7 @@ exports[`Cineworld Wembley retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "relaxed": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=082&site=082&id=148168&lang=en-GB",
         "notes": "",
@@ -2687,6 +2688,7 @@ exports[`Cineworld Wembley retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=082&site=082&id=148908&lang=en-GB",
         "notes": "",
@@ -2699,6 +2701,7 @@ exports[`Cineworld Wembley retrieve and transform 1`] = `
       {
         "accessibility": {
           "audioDescription": true,
+          "babyFriendly": true,
         },
         "bookingUrl": "https://experience.cineworld.co.uk/select-tickets?sitecode=082&site=082&id=148875&lang=en-GB",
         "notes": "",
