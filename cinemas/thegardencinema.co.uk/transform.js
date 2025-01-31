@@ -4,16 +4,28 @@ const {
   getText,
   createPerformance,
   createOverview,
+  createAccessibility,
 } = require("../../common/utils");
 const { parseDate } = require("./utils");
 
 const isCatchAll = (value) => value.toLowerCase().trim().startsWith("various");
 
+function getStatus($el) {
+  return { soldOut: $el.hasClass("sold-out") };
+}
+
+function getAccessibility($el) {
+  return {
+    audioDescription: $el.hasClass("audio_description"),
+    hardOfHearing: $el.hasClass("hoh"),
+  };
+}
+
 function getNotes($el) {
   const notes = [];
   if ($el.hasClass("pay_what_you_can")) {
     notes.push(
-      "The screening is Pay What You Can, which means you’re free to pay as much or as little as you can afford.",
+      "The screening is Pay What You Can, which means you're free to pay as much or as little as you can afford.",
     );
   }
   if ($el.hasClass("intro")) {
@@ -22,11 +34,11 @@ function getNotes($el) {
   if ($el.hasClass("q_and_a")) {
     notes.push("The screening will be followed by a Q&A.");
   }
-  if ($el.hasClass("hoh")) {
-    notes.push("Open captioned screening for the hard of hearing.");
+  if ($el.hasClass("discussion")) {
+    notes.push("The screening will be followed by a discussion.");
   }
-  if ($el.hasClass("sold-out")) {
-    notes.push("Sold out");
+  if ($el.hasClass("matinee")) {
+    notes.push("Matinee price");
   }
   return notes;
 }
@@ -54,6 +66,8 @@ function getPerformances($, $filmScreenings) {
         date,
         notesList: getNotes($(this)),
         url: $screeningTime.find("a").attr("href"),
+        status: getStatus($(this)),
+        accessibility: createAccessibility(getAccessibility($(this))),
       }),
     );
   });

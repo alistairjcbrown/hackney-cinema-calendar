@@ -25,7 +25,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12237/a-complete-unknown",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737629100000,
       },
       {
@@ -35,7 +37,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12230/a-complete-unknown",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737648000000,
       },
       {
@@ -45,7 +49,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12233/a-complete-unknown",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737666000000,
       },
       {
@@ -55,7 +61,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12252/a-complete-unknown",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737724500000,
       },
       {
@@ -77,7 +85,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12263/a-complete-unknown",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737810900000,
       },
       {
@@ -87,7 +97,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12260/a-complete-unknown",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737838800000,
       },
       {
@@ -97,7 +109,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12270/a-complete-unknown",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737894600000,
       },
       {
@@ -107,7 +121,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12267/a-complete-unknown",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737920700000,
       },
       {
@@ -117,7 +133,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12278/a-complete-unknown",
         "notes": "£6 Monday!",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737983700000,
       },
       {
@@ -140,7 +158,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12281/a-complete-unknown",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738078200000,
       },
       {
@@ -150,7 +170,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12283/a-complete-unknown",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738098000000,
       },
       {
@@ -160,7 +182,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12302/a-complete-unknown",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738149300000,
       },
       {
@@ -170,7 +194,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12292/a-complete-unknown",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738165500000,
       },
       {
@@ -180,7 +206,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12290/a-complete-unknown",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738184400000,
       },
       {
@@ -190,7 +218,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12295/a-complete-unknown",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738260600000,
       },
       {
@@ -200,7 +230,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12296/a-complete-unknown",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738270800000,
       },
       {
@@ -211,7 +243,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12241/a-complete-unknown",
         "notes": "relaxed screening",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739098800000,
       },
     ],
@@ -241,7 +275,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12231/a-real-pain",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737640800000,
       },
       {
@@ -251,7 +287,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12235/a-real-pain",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737648900000,
       },
       {
@@ -261,7 +299,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12253/a-real-pain",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737717300000,
       },
       {
@@ -271,7 +311,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12250/a-real-pain",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737744300000,
       },
       {
@@ -282,7 +324,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12264/a-real-pain",
         "notes": "HOH subtitles",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737802800000,
       },
       {
@@ -292,7 +336,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12262/a-real-pain",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737821700000,
       },
       {
@@ -302,7 +348,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12271/a-real-pain",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737887400000,
       },
       {
@@ -312,7 +360,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12268/a-real-pain",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737913500000,
       },
       {
@@ -322,7 +372,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12279/a-real-pain",
         "notes": "£6 Monday!",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737976500000,
       },
       {
@@ -344,7 +396,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12287/a-real-pain",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738063800000,
       },
       {
@@ -354,7 +408,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12285/a-real-pain",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738080900000,
       },
       {
@@ -364,7 +420,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12294/a-real-pain",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738148400000,
       },
       {
@@ -374,7 +432,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12291/a-real-pain",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738176300000,
       },
       {
@@ -384,7 +444,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12299/a-real-pain",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738236600000,
       },
       {
@@ -394,7 +456,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12297/a-real-pain",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738252800000,
       },
     ],
@@ -425,7 +489,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12232/babygirl",
         "notes": "parent & baby",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737630000000,
       },
       {
@@ -435,7 +501,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12236/babygirl",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737639900000,
       },
       {
@@ -445,7 +513,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12234/babygirl",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737657000000,
       },
       {
@@ -455,7 +525,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12251/babygirl",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737735300000,
       },
       {
@@ -465,7 +537,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12261/babygirl",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737829800000,
       },
       {
@@ -475,7 +549,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12269/babygirl",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737904800000,
       },
       {
@@ -485,7 +561,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12276/babygirl",
         "notes": "£6 Monday!",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737994500000,
       },
       {
@@ -495,7 +573,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12286/babygirl",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738071900000,
       },
       {
@@ -505,7 +585,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12284/babygirl",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738089000000,
       },
       {
@@ -515,7 +597,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12293/babygirl",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738156500000,
       },
       {
@@ -525,7 +609,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12298/babygirl",
         "notes": "",
         "screen": "S2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738243800000,
       },
     ],
@@ -555,7 +641,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12246/camp-classics-presents-d-e-b-s",
         "notes": "camp classics!",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741287600000,
       },
     ],
@@ -585,7 +673,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12243/cine-real-presents-bonnie-clyde",
         "notes": "16mm",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739993400000,
       },
       {
@@ -593,7 +683,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12244/cine-real-presents-bonnie-clyde",
         "notes": "16mm",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740684600000,
       },
     ],
@@ -623,7 +715,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12245/cine-real-presents-cat-on-a-hot-tin-roof",
         "notes": "16mm",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740311100000,
       },
     ],
@@ -657,7 +751,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/11943/cine-real-presents-nosferatu-a-symphony-of-horror",
         "notes": "16mm",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737891900000,
       },
     ],
@@ -710,7 +806,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/11493/horror-with-hitchcock-psycho",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1744219800000,
       },
       {
@@ -718,7 +816,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/11494/horror-with-hitchcock-psycho",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1744547400000,
       },
     ],
@@ -746,7 +846,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12247/hundreds-of-beavers-live-uk-tour-q-a",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1745343000000,
       },
     ],
@@ -770,7 +872,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12238/mood-indigo",
         "notes": "jellied reels",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739559600000,
       },
     ],
@@ -797,7 +901,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/11884/nt-live-dr-strangelove",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743102000000,
       },
     ],
@@ -834,7 +940,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12303/nt-live-the-importance-of-being-earnest",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740256200000,
       },
       {
@@ -842,7 +950,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12304/nt-live-the-importance-of-being-earnest",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740913200000,
       },
       {
@@ -850,7 +960,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12305/nt-live-the-importance-of-being-earnest",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741116600000,
       },
       {
@@ -858,7 +970,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12306/nt-live-the-importance-of-being-earnest",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741807800000,
       },
     ],
@@ -879,7 +993,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/11944/pitchblack-playback-leifur-james-magic-seeds-w-q-a",
         "notes": "music",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738089000000,
       },
     ],
@@ -900,7 +1016,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12313/pitchblack-playback-tricky-maxinquaye-30th-anniversary",
         "notes": "music",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740517200000,
       },
     ],
@@ -921,7 +1039,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12239/pitchblack-premiere-mereba-the-breeze-grew-a-fire",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739480400000,
       },
     ],
@@ -951,7 +1071,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12256/the-brutalist",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737716400000,
       },
       {
@@ -961,7 +1083,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12255/the-brutalist",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737731700000,
       },
       {
@@ -971,7 +1095,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12254/the-brutalist",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737747000000,
       },
       {
@@ -981,7 +1107,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12259/the-brutalist",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737803700000,
       },
       {
@@ -991,7 +1119,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12258/the-brutalist",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737819000000,
       },
       {
@@ -1001,7 +1131,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12257/the-brutalist",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737834300000,
       },
       {
@@ -1011,7 +1143,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12266/the-brutalist",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737903600000,
       },
       {
@@ -1021,7 +1155,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12265/the-brutalist",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737918900000,
       },
       {
@@ -1031,7 +1167,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12274/the-brutalist",
         "notes": "£6 Monday!",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737977400000,
       },
       {
@@ -1041,7 +1179,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12273/the-brutalist",
         "notes": "£6 Monday!",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737992700000,
       },
       {
@@ -1064,7 +1204,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12282/the-brutalist",
         "notes": "parent & baby",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738062000000,
       },
       {
@@ -1074,7 +1216,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12280/the-brutalist",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738095300000,
       },
       {
@@ -1084,7 +1228,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12289/the-brutalist",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738160100000,
       },
       {
@@ -1094,7 +1240,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12288/the-brutalist",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738183500000,
       },
       {
@@ -1104,7 +1252,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12300/the-brutalist",
         "notes": "",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738248300000,
       },
     ],
@@ -1124,7 +1274,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "accessibility": {},
         "bookingUrl": "https://thecastlecinema.com/bookings/12314/the-castle-s-8th-birthday-party-in-the-bar",
         "notes": "",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738956600000,
       },
     ],
@@ -1148,7 +1300,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12240/transition-director-q-a",
         "notes": "documentary",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738694400000,
       },
     ],
@@ -1175,7 +1329,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12248/violet-hour-presents-audition",
         "notes": "violet hour",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739471400000,
       },
     ],
@@ -1197,7 +1353,9 @@ exports[`The Castle Cinema retrieve and transform 1`] = `
         "bookingUrl": "https://thecastlecinema.com/bookings/12242/you-have-to-come-and-see-it-presented-by-jellied-reels",
         "notes": "jellied reels",
         "screen": "S1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1744307100000,
       },
     ],

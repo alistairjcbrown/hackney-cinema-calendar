@@ -76,7 +76,7 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
         }
       });
 
-      const status = {};
+      const status = { soldOut: false };
       let notesList = [getText($link.find(".screening-type"))];
       if ($link.hasClass("is-sold-out")) {
         status.soldOut = true;
