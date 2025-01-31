@@ -91,6 +91,37 @@ const fetchJson = async (url) => (await fetch(url)).json();
 
 const getText = ($el) => $el.text().trim();
 
+const screenNumberMapping = {
+  one: 1,
+  two: 2,
+  three: 3,
+  four: 4,
+  five: 5,
+  six: 6,
+  seven: 7,
+  eight: 8,
+  nine: 9,
+  ten: 10,
+};
+const getScreen = (screen) => {
+  if (typeof screen !== "string" || !screen) return undefined;
+
+  const screenNumber = screen
+    .toLowerCase()
+    .replace("screen", "")
+    .replace("nft", "")
+    .replace("(unreserved)", "")
+    .trim();
+
+  // If we couldn't condense the screen down to a number, it's probably got a
+  // name like "Cinema 1" (Barbicon) or "Reuben Library" (BFI), so just return
+  // the original value
+  if (`${parseInt(screenNumber, 10)}` !== screenNumber) return screen;
+
+  const mappedScreenNumber = screenNumberMapping[screenNumber.toLowerCase()];
+  return mappedScreenNumber ? `${mappedScreenNumber}` : screenNumber;
+};
+
 const createPerformance = ({
   date,
   notesList = [],
@@ -106,7 +137,7 @@ const createPerformance = ({
     .join("\n")
     .trim(),
   bookingUrl: url,
-  screen: screen || undefined,
+  screen: getScreen(screen),
   status,
   accessibility,
 });

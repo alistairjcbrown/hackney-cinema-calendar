@@ -34,7 +34,7 @@ exports[`ODEON Luxe Putney retrieve and transform 1`] = `
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16414",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -47,7 +47,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16416",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -60,7 +60,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16420",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -73,7 +73,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16425",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -86,7 +86,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16428",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -99,7 +99,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16431",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -112,7 +112,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16437",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -125,7 +125,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16440",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -138,7 +138,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16443",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -152,7 +152,7 @@ ODEON Luxe",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Saver",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -166,7 +166,7 @@ Saver",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Saver",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -181,7 +181,7 @@ Saver",
 ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.
 Saver",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -194,7 +194,7 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16457",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -207,7 +207,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16460",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -220,7 +220,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16464",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -233,7 +233,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16468",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -246,7 +246,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16470",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -259,7 +259,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16472",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -272,7 +272,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16477",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -286,7 +286,7 @@ ODEON Luxe",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -299,7 +299,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16482",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -338,7 +338,7 @@ ODEON Luxe",
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16413",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -350,7 +350,7 @@ ODEON Luxe",
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16417",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -363,7 +363,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16447",
         "notes": "ODEON Luxe
 Saver",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -376,7 +376,7 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16451",
         "notes": "ODEON Luxe
 Saver",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -388,7 +388,7 @@ Saver",
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16456",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -400,7 +400,7 @@ Saver",
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16461",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -412,7 +412,7 @@ Saver",
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16467",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -425,7 +425,7 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16471",
         "notes": "ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -437,7 +437,7 @@ Open Captioned: Open captions (English subtitles) are text and sound description
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16476",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -449,7 +449,7 @@ Open Captioned: Open captions (English subtitles) are text and sound description
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16480",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -488,7 +488,7 @@ Open Captioned: Open captions (English subtitles) are text and sound description
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -500,7 +500,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -512,7 +512,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -525,7 +525,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
 ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -537,7 +537,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -549,7 +549,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -560,7 +560,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16483",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -596,7 +596,7 @@ ODEON Luxe",
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16397",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -608,7 +608,7 @@ ODEON Luxe",
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16396",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -621,7 +621,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16398",
         "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -633,7 +633,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16395",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -645,7 +645,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16401",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -657,7 +657,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16400",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -669,7 +669,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16399",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -681,7 +681,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16405",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -693,7 +693,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16402",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -705,7 +705,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16403",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -717,7 +717,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16404",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -729,7 +729,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16406",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -741,7 +741,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16409",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -753,7 +753,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16408",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -765,7 +765,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16407",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -805,7 +805,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16484",
         "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -819,7 +819,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -832,7 +832,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16486",
         "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -870,7 +870,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16410",
         "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -901,7 +901,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Event Cinema
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -942,7 +942,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -978,7 +978,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Event Cinema
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1026,7 +1026,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16415",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -1038,7 +1038,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16423",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -1051,7 +1051,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16427",
         "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1064,7 +1064,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16430",
         "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1077,7 +1077,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16435",
         "notes": "ODEON Luxe
 Open Captioned: Open captions (English subtitles) are text and sound descriptions displayed at the bottom of the screen and are visible to all in the auditorium.",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -1090,7 +1090,7 @@ Open Captioned: Open captions (English subtitles) are text and sound description
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16439",
         "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1103,7 +1103,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16442",
         "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1116,7 +1116,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16449",
         "notes": "ODEON Luxe
 Saver",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -1128,7 +1128,7 @@ Saver",
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16458",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -1140,7 +1140,7 @@ Saver",
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16469",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -1152,7 +1152,7 @@ Saver",
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16478",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -1193,7 +1193,7 @@ Saver",
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16419",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -1205,7 +1205,7 @@ Saver",
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16432",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -1217,7 +1217,7 @@ Saver",
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16444",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -1230,7 +1230,7 @@ Saver",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16454",
         "notes": "ODEON Luxe
 Saver",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -1242,7 +1242,7 @@ Saver",
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16463",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -1254,7 +1254,7 @@ Saver",
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16473",
         "notes": "ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -1290,7 +1290,7 @@ Saver",
         "notes": "Event Cinema
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1324,7 +1324,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Event Cinema
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1361,7 +1361,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Event Cinema
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1389,7 +1389,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Event Cinema
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1421,7 +1421,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Event Cinema
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1457,7 +1457,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Event Cinema
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1485,7 +1485,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "Event Cinema
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1513,7 +1513,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16500",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -1561,7 +1561,7 @@ ODEON Luxe",
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16422",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -1575,7 +1575,7 @@ ODEON Luxe",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1588,7 +1588,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16434",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe",
-        "screen": "Screen 3",
+        "screen": "3",
         "status": {
           "soldOut": false,
         },
@@ -1602,7 +1602,7 @@ ODEON Luxe",
         "notes": "Flash Warning: This title has been issued a Guest Warning by the BBFC - it contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy.
 ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1639,7 +1639,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "ODEON Luxe
 Silver Cinema
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1676,7 +1676,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16412",
         "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1689,7 +1689,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16418",
         "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1701,7 +1701,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16429",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -1713,7 +1713,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16441",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -1727,7 +1727,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1741,7 +1741,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "notes": "ODEON Luxe
 Saver
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1754,7 +1754,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16462",
         "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1767,7 +1767,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16487",
         "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1780,7 +1780,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16466",
         "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1793,7 +1793,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16475",
         "notes": "ODEON Luxe
 Wheelchair Accessible: This auditorium has bays for wheelchair users with seats beside them for accompanying guests.",
-        "screen": "Screen 2",
+        "screen": "2",
         "status": {
           "soldOut": false,
         },
@@ -1805,7 +1805,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16481",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -1849,7 +1849,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16426",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },
@@ -1861,7 +1861,7 @@ Wheelchair Accessible: This auditorium has bays for wheelchair users with seats 
         },
         "bookingUrl": "https://www.odeon.co.uk/ticketing/seat-picker/?showtimeId=486-16438",
         "notes": "ODEON Luxe",
-        "screen": "Screen 1",
+        "screen": "1",
         "status": {
           "soldOut": false,
         },

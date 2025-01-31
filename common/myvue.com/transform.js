@@ -22,20 +22,22 @@ async function transform(
     });
 
     const performances = movie.showingGroups.flatMap(({ sessions }) =>
-      sessions.map((showing) =>
-        createPerformance({
+      sessions.map((showing) => {
+        const notesList = (showing.attributes || []).reduce(
+          (notes, { shortName: title, description }) =>
+            title && description
+              ? notes.concat(`${title}: ${sanitizeRichText(description)}`)
+              : notes,
+          [],
+        );
+
+        return createPerformance({
           date: parseISO(showing.showTimeWithTimeZone),
-          screen: showing.screenName.replace("Screen ", ""),
-          notesList: (showing.attributes || []).reduce(
-            (notes, { shortName: title, description }) =>
-              title && description
-                ? notes.concat(`${title}: ${sanitizeRichText(description)}`)
-                : notes,
-            [],
-          ),
+          screen: showing.screenName,
+          notesList,
           url: `${domain}${showing.bookingUrl}`,
-        }),
-      ),
+        });
+      }),
     );
 
     const transformedMovie = {

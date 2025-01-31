@@ -58,11 +58,7 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
             date: parseDate(start),
             notesList,
             url: `${domain}/book-online/${iframeId}`,
-            screen: name
-              .toLowerCase()
-              .replace("screen", "")
-              .replace("(unreserved)", "")
-              .trim(),
+            screen: name,
             status,
           });
         },

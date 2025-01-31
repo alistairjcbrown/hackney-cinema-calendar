@@ -6,10 +6,6 @@ const {
 const { parseDate } = require("./utils");
 const { domain } = require("./attributes");
 
-function getScreen({ AuditoriumName: screen }) {
-  return screen.toLowerCase().replace("screen", "").trim();
-}
-
 function getNotesList(performance) {
   const notes = [];
   // Baby-friendly screening
@@ -65,7 +61,7 @@ async function transform(movieData, sourcedEvents) {
           date: parseDate(performance),
           notesList: getNotesList(performance),
           url: `${domain}/TheLexiCinema.dll/${performance.URL}`,
-          screen: getScreen(performance),
+          screen: performance.AuditoriumName,
         }),
       ),
     };

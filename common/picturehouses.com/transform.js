@@ -27,24 +27,6 @@ function getAdditionalDataFor(data) {
   return addiitionalData;
 }
 
-const screenNumberMapping = {
-  one: 1,
-  two: 2,
-  three: 3,
-  four: 4,
-  five: 5,
-  six: 6,
-  seven: 7,
-  eight: 8,
-  nine: 9,
-  ten: 10,
-};
-const getScreen = ({ ScreenName: screen }) => {
-  const screenNumber = screen.replace("Screen ", "").trim();
-  const mappedScreenNumber = screenNumberMapping[screenNumber.toLowerCase()];
-  return mappedScreenNumber ? `${mappedScreenNumber}` : screenNumber;
-};
-
 async function transform(
   { domain, cinemaId },
   { movieListPage: { movies: moviesData }, moviePages },
@@ -97,7 +79,7 @@ async function transform(
 
         return createPerformance({
           date: parseDate(showing.Showtime),
-          screen: getScreen(showing),
+          screen: showing.ScreenName,
           notesList: (showing.attributes || [])
             .filter(
               ({ attribute }) =>
