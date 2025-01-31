@@ -26,6 +26,7 @@ function normalizeTitle(title, options) {
     "Bar Trash: Season Launch:",
     "CELLULOID JAM! –",
     "Pierre Boulez - ",
+    "+ LIVE RECORDING OF ‘PAST PRESENT FUTURE’ PODCAST WITH DAVID RUNCIMAN & HELEN LEWIS",
   ];
 
   removablePrefixes.forEach((phrase) => {
@@ -84,6 +85,9 @@ function normalizeTitle(title, options) {
       .replace("vasthunnam", "vasthunam")
       .replace("eftihia", "eftyhia")
       .replace("ernest", "earnest")
+      .replace("10180", "1080")
+      .replace(/^fire walk with me$/, "twin peaks fire walk with me")
+      .replace(/^(.+),\s+the$/, "the $1")
       .trim()
   );
 }
