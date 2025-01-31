@@ -84,7 +84,8 @@
                 "soldOut": {
                   "type": "boolean"
                 }
-              }
+              },
+              "additionalProperties": false
             },
             "accessibility": {
               "type": "object",

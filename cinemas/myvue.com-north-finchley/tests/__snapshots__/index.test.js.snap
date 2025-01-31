@@ -31,7 +31,9 @@ exports[`Vue North Finchley retrieve and transform 1`] = `
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341203",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737729900000,
       },
       {
@@ -39,7 +41,9 @@ exports[`Vue North Finchley retrieve and transform 1`] = `
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341364",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737738300000,
       },
       {
@@ -47,7 +51,9 @@ exports[`Vue North Finchley retrieve and transform 1`] = `
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341314",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737748800000,
       },
       {
@@ -55,7 +61,9 @@ exports[`Vue North Finchley retrieve and transform 1`] = `
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341340",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737753300000,
       },
       {
@@ -63,7 +71,9 @@ exports[`Vue North Finchley retrieve and transform 1`] = `
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341281",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737799800000,
       },
       {
@@ -71,7 +81,9 @@ exports[`Vue North Finchley retrieve and transform 1`] = `
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341383",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737815100000,
       },
       {
@@ -79,7 +91,9 @@ exports[`Vue North Finchley retrieve and transform 1`] = `
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341254",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737823200000,
       },
       {
@@ -87,7 +101,9 @@ exports[`Vue North Finchley retrieve and transform 1`] = `
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341384",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737826200000,
       },
       {
@@ -95,7 +111,9 @@ exports[`Vue North Finchley retrieve and transform 1`] = `
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341255",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737834300000,
       },
       {
@@ -104,7 +122,9 @@ exports[`Vue North Finchley retrieve and transform 1`] = `
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
 Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737846000000,
       },
       {
@@ -112,7 +132,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341379",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737900900000,
       },
       {
@@ -120,7 +142,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341221",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737905400000,
       },
       {
@@ -128,7 +152,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341171",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737911100000,
       },
       {
@@ -136,7 +162,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341222",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737916500000,
       },
       {
@@ -144,7 +172,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341172",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737922800000,
       },
       {
@@ -152,7 +182,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341165",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737986400000,
       },
       {
@@ -160,7 +192,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341243",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737996300000,
       },
       {
@@ -168,7 +202,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341218",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738005300000,
       },
       {
@@ -176,7 +212,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341300",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738009800000,
       },
       {
@@ -184,7 +222,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341161",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738072800000,
       },
       {
@@ -192,7 +232,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341323",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738082700000,
       },
       {
@@ -200,7 +242,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341374",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738089900000,
       },
       {
@@ -208,7 +252,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341270",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738095900000,
       },
       {
@@ -216,7 +262,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341325",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738101600000,
       },
       {
@@ -224,7 +272,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341344",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738160400000,
       },
       {
@@ -232,7 +282,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341159",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738170300000,
       },
       {
@@ -240,7 +292,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341395",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738176300000,
       },
       {
@@ -248,7 +302,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341346",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738180800000,
       },
       {
@@ -256,7 +312,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341187",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738188000000,
       },
       {
@@ -264,7 +322,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341261",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738245900000,
       },
       {
@@ -272,7 +332,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341290",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738258200000,
       },
       {
@@ -280,7 +342,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019669/341343",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738267200000,
       },
     ],
@@ -312,7 +376,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019668/341229",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737733200000,
       },
       {
@@ -320,7 +386,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019668/341197",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737798300000,
       },
       {
@@ -328,7 +396,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019668/341284",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737828600000,
       },
       {
@@ -336,7 +406,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019668/341406",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737918900000,
       },
       {
@@ -344,7 +416,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019668/341242",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737988200000,
       },
       {
@@ -352,7 +426,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019668/341372",
         "notes": "",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738072800000,
       },
       {
@@ -360,7 +436,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019668/341373",
         "notes": "",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738080600000,
       },
       {
@@ -368,7 +446,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019668/341210",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738159500000,
       },
       {
@@ -376,7 +456,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019668/341316",
         "notes": "",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738245600000,
       },
       {
@@ -384,7 +466,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019668/341262",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738256700000,
       },
     ],
@@ -412,7 +496,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019969/338717",
         "notes": "Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1744480800000,
       },
       {
@@ -420,7 +506,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019969/338716",
         "notes": "Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1744549200000,
       },
     ],
@@ -452,7 +540,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "notes": "Hindi: Films shown in the Hindi language
 Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737758400000,
       },
     ],
@@ -486,7 +576,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019937/341363",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737729000000,
       },
       {
@@ -494,7 +586,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019937/341387",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737744900000,
       },
       {
@@ -502,7 +596,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019937/341259",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737751200000,
       },
       {
@@ -510,7 +606,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019937/341335",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737832800000,
       },
       {
@@ -518,7 +616,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019937/341380",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737912600000,
       },
       {
@@ -526,7 +626,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019937/341331",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737918000000,
       },
       {
@@ -534,7 +636,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019937/341191",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737988800000,
       },
       {
@@ -542,7 +646,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019937/341272",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737999600000,
       },
       {
@@ -550,7 +656,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019937/341244",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738007100000,
       },
       {
@@ -558,7 +666,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019937/341214",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738091700000,
       },
       {
@@ -566,7 +676,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019937/341160",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738181700000,
       },
       {
@@ -574,7 +686,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019937/341207",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738254600000,
       },
       {
@@ -582,7 +696,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019937/341263",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738265100000,
       },
     ],
@@ -617,7 +733,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019806/341332",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737928200000,
       },
     ],
@@ -643,7 +761,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "notes": "Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.
 Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743339600000,
       },
       {
@@ -652,7 +772,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "notes": "Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.
 Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743616800000,
       },
     ],
@@ -682,7 +804,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341592",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739457000000,
       },
       {
@@ -690,7 +814,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341596",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739464200000,
       },
       {
@@ -698,7 +824,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341593",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739467800000,
       },
       {
@@ -706,7 +834,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341595",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739471400000,
       },
       {
@@ -714,7 +844,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341138",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739475000000,
       },
       {
@@ -722,7 +854,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341594",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739478600000,
       },
       {
@@ -730,7 +864,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341597",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739485800000,
       },
       {
@@ -738,7 +874,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341085",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739538000000,
       },
       {
@@ -746,7 +884,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341535",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739549700000,
       },
       {
@@ -754,7 +894,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341491",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739553300000,
       },
       {
@@ -762,7 +904,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341469",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739560500000,
       },
       {
@@ -770,7 +914,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341492",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739564100000,
       },
       {
@@ -778,7 +924,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341520",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739568600000,
       },
       {
@@ -786,7 +934,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341559",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739572800000,
       },
       {
@@ -794,7 +944,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341532",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739624400000,
       },
       {
@@ -802,7 +954,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341533",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739636100000,
       },
       {
@@ -810,7 +964,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341487",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739639700000,
       },
       {
@@ -818,7 +974,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341534",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739646900000,
       },
       {
@@ -826,7 +984,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341488",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739650500000,
       },
       {
@@ -834,7 +994,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341515",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739655000000,
       },
       {
@@ -842,7 +1004,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341555",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739659200000,
       },
       {
@@ -850,7 +1014,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341100",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739710800000,
       },
       {
@@ -858,7 +1024,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341551",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739722500000,
       },
       {
@@ -866,7 +1034,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341115",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739726100000,
       },
       {
@@ -874,7 +1044,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341102",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739733300000,
       },
       {
@@ -882,7 +1054,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341510",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739736900000,
       },
       {
@@ -890,7 +1064,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341531",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739741400000,
       },
       {
@@ -898,7 +1074,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341579",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739745600000,
       },
       {
@@ -906,7 +1084,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341525",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739797200000,
       },
       {
@@ -914,7 +1094,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341526",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739808900000,
       },
       {
@@ -922,7 +1104,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341506",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739812500000,
       },
       {
@@ -930,7 +1114,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341507",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739823300000,
       },
       {
@@ -938,7 +1124,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341575",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739832000000,
       },
       {
@@ -946,7 +1134,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341523",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739883600000,
       },
       {
@@ -954,7 +1144,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341524",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739895300000,
       },
       {
@@ -962,7 +1154,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341503",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739898900000,
       },
       {
@@ -970,7 +1164,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341112",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739909700000,
       },
       {
@@ -978,7 +1174,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341571",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739918400000,
       },
       {
@@ -986,7 +1184,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341521",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739970000000,
       },
       {
@@ -994,7 +1194,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341522",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739981700000,
       },
       {
@@ -1002,7 +1204,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341499",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739985300000,
       },
       {
@@ -1010,7 +1214,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341500",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739996100000,
       },
       {
@@ -1018,7 +1224,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341567",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740004800000,
       },
       {
@@ -1026,7 +1234,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341586",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740056400000,
       },
       {
@@ -1034,7 +1244,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341587",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740068100000,
       },
       {
@@ -1042,7 +1254,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341495",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740071700000,
       },
       {
@@ -1050,7 +1264,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341496",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740082500000,
       },
       {
@@ -1058,7 +1274,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019577/341563",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740091200000,
       },
     ],
@@ -1087,7 +1305,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341489",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739532300000,
       },
       {
@@ -1095,7 +1315,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341556",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739539800000,
       },
       {
@@ -1103,7 +1325,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341490",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739542800000,
       },
       {
@@ -1111,7 +1335,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341557",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739551500000,
       },
       {
@@ -1119,7 +1345,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341519",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739558400000,
       },
       {
@@ -1127,7 +1355,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341558",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739562300000,
       },
       {
@@ -1136,7 +1366,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "notes": "3D: Screenings shown in 3D
 Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739565000000,
       },
       {
@@ -1144,7 +1376,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341485",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739618700000,
       },
       {
@@ -1152,7 +1386,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341552",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739626200000,
       },
       {
@@ -1160,7 +1396,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341486",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739629200000,
       },
       {
@@ -1168,7 +1406,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341553",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739637900000,
       },
       {
@@ -1177,7 +1417,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "notes": "3D: Screenings shown in 3D
 Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739642400000,
       },
       {
@@ -1185,7 +1427,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341514",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739644800000,
       },
       {
@@ -1193,7 +1437,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341554",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739648700000,
       },
       {
@@ -1201,7 +1447,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341508",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739705100000,
       },
       {
@@ -1209,7 +1457,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341576",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739712600000,
       },
       {
@@ -1217,7 +1467,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341509",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739715600000,
       },
       {
@@ -1225,7 +1477,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341577",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739724300000,
       },
       {
@@ -1233,7 +1487,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341530",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739731200000,
       },
       {
@@ -1241,7 +1497,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341578",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739735100000,
       },
       {
@@ -1249,7 +1507,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341504",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739791500000,
       },
       {
@@ -1257,7 +1517,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341572",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739799000000,
       },
       {
@@ -1265,7 +1527,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341505",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739802000000,
       },
       {
@@ -1273,7 +1537,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341573",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739810700000,
       },
       {
@@ -1281,7 +1547,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341550",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739817600000,
       },
       {
@@ -1289,7 +1557,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341574",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739821500000,
       },
       {
@@ -1298,7 +1568,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "notes": "3D: Screenings shown in 3D
 Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739824200000,
       },
       {
@@ -1306,7 +1578,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341501",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739877900000,
       },
       {
@@ -1314,7 +1588,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341568",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739885400000,
       },
       {
@@ -1322,7 +1598,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341502",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739888400000,
       },
       {
@@ -1330,7 +1608,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341569",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739897100000,
       },
       {
@@ -1339,7 +1619,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "notes": "3D: Screenings shown in 3D
 Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739901600000,
       },
       {
@@ -1347,7 +1629,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341547",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739904000000,
       },
       {
@@ -1355,7 +1639,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341570",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739907900000,
       },
       {
@@ -1363,7 +1649,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341497",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739964300000,
       },
       {
@@ -1371,7 +1659,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341564",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739971800000,
       },
       {
@@ -1379,7 +1669,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341498",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739974800000,
       },
       {
@@ -1388,7 +1680,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "notes": "3D: Screenings shown in 3D
 Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739979000000,
       },
       {
@@ -1396,7 +1690,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341565",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739983500000,
       },
       {
@@ -1404,7 +1700,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341543",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739990400000,
       },
       {
@@ -1412,7 +1710,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341566",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739994300000,
       },
       {
@@ -1420,7 +1720,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341493",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740050700000,
       },
       {
@@ -1428,7 +1730,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341560",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740058200000,
       },
       {
@@ -1436,7 +1740,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341494",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740061200000,
       },
       {
@@ -1444,7 +1750,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341561",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740069900000,
       },
       {
@@ -1452,7 +1760,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341539",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740076800000,
       },
       {
@@ -1460,7 +1770,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018860/341562",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740080700000,
       },
       {
@@ -1469,7 +1781,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "notes": "3D: Screenings shown in 3D
 Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740083400000,
       },
     ],
@@ -1505,7 +1819,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019666/340965",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738354500000,
       },
       {
@@ -1513,7 +1829,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019666/341589",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738440900000,
       },
       {
@@ -1521,7 +1839,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019666/341588",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738527300000,
       },
     ],
@@ -1552,7 +1872,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019575/341224",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737800400000,
       },
       {
@@ -1560,7 +1882,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019575/341163",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738092600000,
       },
       {
@@ -1568,7 +1892,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019575/341238",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738179000000,
       },
       {
@@ -1576,7 +1902,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019575/341235",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738266300000,
       },
     ],
@@ -1607,7 +1935,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020011/339577",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737749700000,
       },
       {
@@ -1615,7 +1945,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020011/339574",
         "notes": "",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738266000000,
       },
     ],
@@ -1650,7 +1982,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341599",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738940400000,
       },
       {
@@ -1658,7 +1992,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341146",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738949400000,
       },
       {
@@ -1666,7 +2002,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341142",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739017800000,
       },
       {
@@ -1674,7 +2012,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341143",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739026800000,
       },
       {
@@ -1682,7 +2022,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341598",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739035800000,
       },
       {
@@ -1690,7 +2032,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341600",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739104200000,
       },
       {
@@ -1698,7 +2042,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341148",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739113200000,
       },
       {
@@ -1706,7 +2052,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341601",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739122200000,
       },
       {
@@ -1714,7 +2062,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341516",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739532600000,
       },
       {
@@ -1722,7 +2072,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341517",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739541000000,
       },
       {
@@ -1730,7 +2082,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341518",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739549400000,
       },
       {
@@ -1738,7 +2092,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341511",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739619000000,
       },
       {
@@ -1746,7 +2102,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341512",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739627400000,
       },
       {
@@ -1754,7 +2112,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341513",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739635800000,
       },
       {
@@ -1762,7 +2122,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341527",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739705400000,
       },
       {
@@ -1770,7 +2132,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341528",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739713800000,
       },
       {
@@ -1778,7 +2142,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341529",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739722200000,
       },
       {
@@ -1786,7 +2152,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341548",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739791800000,
       },
       {
@@ -1794,7 +2162,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341549",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739800200000,
       },
       {
@@ -1802,7 +2172,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341484",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739808600000,
       },
       {
@@ -1810,7 +2182,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341544",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739878200000,
       },
       {
@@ -1818,7 +2192,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341545",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739886600000,
       },
       {
@@ -1826,7 +2202,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341546",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739895000000,
       },
       {
@@ -1834,7 +2212,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341540",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739964600000,
       },
       {
@@ -1842,7 +2222,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341541",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739973000000,
       },
       {
@@ -1850,7 +2232,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341542",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739981400000,
       },
       {
@@ -1858,7 +2242,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341536",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740051000000,
       },
       {
@@ -1866,7 +2252,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341537",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740059400000,
       },
       {
@@ -1874,7 +2262,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019674/341538",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740067800000,
       },
     ],
@@ -1904,7 +2294,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341178",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737727200000,
       },
       {
@@ -1912,7 +2304,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341180",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737744300000,
       },
       {
@@ -1920,7 +2314,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341231",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737750000000,
       },
       {
@@ -1928,7 +2324,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341205",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737759300000,
       },
       {
@@ -1936,7 +2334,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341307",
         "notes": "",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737808200000,
       },
       {
@@ -1944,7 +2344,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341334",
         "notes": "",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737824400000,
       },
       {
@@ -1952,7 +2354,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341228",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737839700000,
       },
       {
@@ -1960,7 +2364,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341336",
         "notes": "",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737842700000,
       },
       {
@@ -1968,7 +2374,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341195",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737915300000,
       },
       {
@@ -1976,7 +2384,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341279",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737920100000,
       },
       {
@@ -1984,7 +2394,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341407",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737926700000,
       },
       {
@@ -1992,7 +2404,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341216",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737986700000,
       },
       {
@@ -2000,7 +2414,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341192",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737998100000,
       },
       {
@@ -2008,7 +2424,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341328",
         "notes": "",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738004400000,
       },
       {
@@ -2016,7 +2434,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341245",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738016400000,
       },
       {
@@ -2024,7 +2444,9 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341240",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738073700000,
       },
       {
@@ -2032,16 +2454,21 @@ Strobe FX: Contains a sequence of flashing lights which might affect customers w
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341269",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738087800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341399",
-        "notes": "Subtitled: Films that are shown with Subtitles
-Open Captioned: Films and Events that feature subtitles on screen for dialogue, sound effects and music.",
+        "notes": "Subtitled: Films that are shown with Subtitles",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738093800000,
       },
       {
@@ -2049,7 +2476,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341215",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738101000000,
       },
       {
@@ -2057,7 +2486,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341158",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738162200000,
       },
       {
@@ -2065,7 +2496,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341369",
         "notes": "",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738172100000,
       },
       {
@@ -2073,7 +2506,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341293",
         "notes": "",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738177200000,
       },
       {
@@ -2081,7 +2516,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341396",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738187100000,
       },
       {
@@ -2089,7 +2526,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341366",
         "notes": "",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738248300000,
       },
       {
@@ -2097,7 +2536,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341156",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738260000000,
       },
       {
@@ -2105,7 +2546,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019635/341183",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738274100000,
       },
     ],
@@ -2139,7 +2582,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018866/341305",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737931500000,
       },
     ],
@@ -2172,7 +2617,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020010/341201",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737836100000,
       },
       {
@@ -2180,7 +2627,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020010/339575",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738006800000,
       },
     ],
@@ -2210,7 +2659,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
 Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.
 Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740925800000,
       },
       {
@@ -2220,7 +2671,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
 Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.
 Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1741114800000,
       },
     ],
@@ -2239,7 +2692,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020021/341417",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737755700000,
       },
       {
@@ -2247,7 +2702,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020021/341411",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737831600000,
       },
       {
@@ -2255,7 +2712,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020021/341280",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737928500000,
       },
       {
@@ -2263,7 +2722,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020021/341329",
         "notes": "",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738012800000,
       },
       {
@@ -2271,7 +2732,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020021/341375",
         "notes": "",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738100700000,
       },
       {
@@ -2279,7 +2742,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020021/341294",
         "notes": "",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738185300000,
       },
     ],
@@ -2310,7 +2775,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "notes": "Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.
 Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738504800000,
       },
       {
@@ -2319,7 +2786,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "notes": "Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.
 Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738695600000,
       },
     ],
@@ -2353,7 +2822,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020080/341126",
         "notes": "Big Screen Music: Get up close and personal with your favourite artists. From intimate documentaries to live concert events and album listening parties, Big Screen Music offers you a taste of life in the front row.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738265400000,
       },
     ],
@@ -2381,7 +2852,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019872/335407",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738765800000,
       },
       {
@@ -2389,7 +2862,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019872/334863",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738782000000,
       },
       {
@@ -2397,7 +2872,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019872/335405",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738869300000,
       },
       {
@@ -2405,7 +2882,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019872/339272",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738956600000,
       },
       {
@@ -2413,7 +2892,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019872/334866",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739109600000,
       },
       {
@@ -2421,7 +2902,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019872/335409",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739214000000,
       },
       {
@@ -2429,7 +2912,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019872/340326",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739280600000,
       },
       {
@@ -2437,7 +2922,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019872/341141",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1739385000000,
       },
     ],
@@ -2471,7 +2958,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019986/341337",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737728100000,
       },
       {
@@ -2479,7 +2968,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019986/341415",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737736200000,
       },
       {
@@ -2487,7 +2978,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019986/341308",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737816300000,
       },
       {
@@ -2496,7 +2989,9 @@ Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintilla
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
 Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737846000000,
       },
       {
@@ -2504,7 +2999,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019986/341302",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737904200000,
       },
       {
@@ -2512,7 +3009,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019986/341298",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737990900000,
       },
       {
@@ -2520,7 +3019,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019986/341347",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738074900000,
       },
       {
@@ -2528,7 +3029,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019986/341266",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738168800000,
       },
       {
@@ -2536,7 +3039,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019986/341234",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738255500000,
       },
     ],
@@ -2568,7 +3073,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019225/341312",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737730800000,
       },
       {
@@ -2576,7 +3083,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019225/341173",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737798900000,
       },
       {
@@ -2584,7 +3093,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019225/341282",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737810600000,
       },
       {
@@ -2592,7 +3103,9 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019225/341199",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737818100000,
       },
       {
@@ -2601,17 +3114,22 @@ Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "notes": "ATF: Autism Friendly Screenings - Screenings for sensory sensitivity, lights are at half, volume is reduced
 Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737887400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019225/341193",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Subtitled: Films that are shown with Subtitles
-Open Captioned: Films and Events that feature subtitles on screen for dialogue, sound effects and music.",
+Subtitled: Films that are shown with Subtitles",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737897300000,
       },
       {
@@ -2619,7 +3137,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019225/341277",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737902700000,
       },
       {
@@ -2627,7 +3147,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019225/341194",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737906300000,
       },
       {
@@ -2635,7 +3157,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019225/341271",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737990000000,
       },
       {
@@ -2643,7 +3167,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019225/341299",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738000800000,
       },
       {
@@ -2651,7 +3177,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019225/341268",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738079400000,
       },
       {
@@ -2659,7 +3187,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019225/341296",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738086900000,
       },
       {
@@ -2667,7 +3197,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019225/341184",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738161300000,
       },
       {
@@ -2675,7 +3207,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019225/341185",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738169700000,
       },
       {
@@ -2683,7 +3217,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019225/341155",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738251600000,
       },
     ],
@@ -2718,7 +3254,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341286",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737732000000,
       },
       {
@@ -2726,7 +3264,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341313",
         "notes": "",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737739200000,
       },
       {
@@ -2734,7 +3274,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341416",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737746100000,
       },
       {
@@ -2742,7 +3284,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341358",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737801600000,
       },
       {
@@ -2750,7 +3294,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341225",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737810000000,
       },
       {
@@ -2758,7 +3304,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341175",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737815400000,
       },
       {
@@ -2766,7 +3314,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341360",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737817500000,
       },
       {
@@ -2774,7 +3324,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341226",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737819900000,
       },
       {
@@ -2782,7 +3334,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341176",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737825300000,
       },
       {
@@ -2790,7 +3344,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341227",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737829800000,
       },
       {
@@ -2798,7 +3354,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341247",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737890400000,
       },
       {
@@ -2806,7 +3364,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341248",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737900000000,
       },
       {
@@ -2814,7 +3374,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341355",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737903600000,
       },
       {
@@ -2822,7 +3384,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341249",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737909900000,
       },
       {
@@ -2830,7 +3394,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341350",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737987600000,
       },
       {
@@ -2838,7 +3404,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341217",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737994800000,
       },
       {
@@ -2846,7 +3414,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341351",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737998400000,
       },
       {
@@ -2854,7 +3424,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341352",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738008900000,
       },
       {
@@ -2862,7 +3434,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341322",
         "notes": "",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738073100000,
       },
       {
@@ -2870,7 +3444,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341348",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738084800000,
       },
       {
@@ -2878,16 +3454,21 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341297",
         "notes": "",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738095300000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341265",
-        "notes": "Subtitled: Films that are shown with Subtitles
-Open Captioned: Films and Events that feature subtitles on screen for dialogue, sound effects and music.",
+        "notes": "Subtitled: Films that are shown with Subtitles",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738159200000,
       },
       {
@@ -2895,7 +3476,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341345",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738171200000,
       },
       {
@@ -2903,7 +3486,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341186",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738178100000,
       },
       {
@@ -2911,7 +3496,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341239",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738188900000,
       },
       {
@@ -2919,7 +3506,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341341",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738248000000,
       },
       {
@@ -2927,7 +3516,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018857/341342",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738257600000,
       },
     ],
@@ -2962,7 +3553,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019664/341315",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737760200000,
       },
       {
@@ -2970,7 +3563,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019664/341285",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737837000000,
       },
       {
@@ -2978,7 +3573,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019664/341362",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737845400000,
       },
       {
@@ -2986,7 +3583,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019664/341381",
         "notes": "",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737922500000,
       },
       {
@@ -2994,7 +3593,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019664/341295",
         "notes": "",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738076400000,
       },
       {
@@ -3002,7 +3603,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019664/341319",
         "notes": "",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738164000000,
       },
       {
@@ -3010,7 +3613,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019664/341291",
         "notes": "",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738269000000,
       },
     ],
@@ -3042,7 +3647,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019968/338547",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743084000000,
       },
       {
@@ -3050,7 +3657,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019968/338546",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743102000000,
       },
       {
@@ -3058,7 +3667,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019968/338552",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743190200000,
       },
       {
@@ -3066,7 +3677,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019968/338550",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743341400000,
       },
       {
@@ -3074,7 +3687,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019968/338551",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743597000000,
       },
       {
@@ -3082,7 +3697,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019968/338553",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743704100000,
       },
     ],
@@ -3113,7 +3730,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019743/338719",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740058200000,
       },
       {
@@ -3121,7 +3740,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019743/338718",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740078000000,
       },
       {
@@ -3129,7 +3750,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019743/338723",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740163500000,
       },
       {
@@ -3137,7 +3760,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019743/331632",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740319200000,
       },
       {
@@ -3145,7 +3770,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019743/341151",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740490200000,
       },
       {
@@ -3153,7 +3780,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019743/338721",
         "notes": "Big Screen Theatre: Dialogue so intense that it spills off the screen. Scintillation musical numbers that sweep you away. This is theatre like you’ve never experienced it before.",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740596400000,
       },
     ],
@@ -3185,7 +3814,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019131/341287",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737741600000,
       },
       {
@@ -3193,7 +3824,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019131/341309",
         "notes": "",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737826500000,
       },
       {
@@ -3201,7 +3834,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019131/341405",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737909000000,
       },
       {
@@ -3209,7 +3844,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019131/341327",
         "notes": "",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737995400000,
       },
       {
@@ -3217,7 +3854,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019131/341241",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738081800000,
       },
       {
@@ -3225,7 +3864,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019131/341390",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738247400000,
       },
     ],
@@ -3263,7 +3904,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020004/341382",
         "notes": "",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737800400000,
       },
       {
@@ -3271,7 +3914,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020004/341275",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737885000000,
       },
       {
@@ -3279,7 +3924,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020004/341276",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737894000000,
       },
     ],
@@ -3313,7 +3960,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341338",
         "notes": "",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737738000000,
       },
       {
@@ -3321,7 +3970,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341339",
         "notes": "",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737745800000,
       },
       {
@@ -3329,7 +3980,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341388",
         "notes": "",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737754200000,
       },
       {
@@ -3337,7 +3990,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341260",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737761400000,
       },
       {
@@ -3345,7 +4000,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341174",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737807300000,
       },
       {
@@ -3353,7 +4010,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341410",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737823800000,
       },
       {
@@ -3361,7 +4020,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341412",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737841200000,
       },
       {
@@ -3369,7 +4030,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341413",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737848700000,
       },
       {
@@ -3377,7 +4040,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341353",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737884100000,
       },
       {
@@ -3385,7 +4050,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341278",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737912000000,
       },
       {
@@ -3393,7 +4060,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341304",
         "notes": "",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737923400000,
       },
       {
@@ -3401,7 +4070,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341223",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737927600000,
       },
       {
@@ -3409,7 +4080,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341401",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737992700000,
       },
       {
@@ -3417,7 +4090,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341377",
         "notes": "",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738003200000,
       },
       {
@@ -3425,7 +4100,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341273",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738009500000,
       },
       {
@@ -3433,7 +4110,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341274",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738017300000,
       },
       {
@@ -3441,7 +4120,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341188",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738073700000,
       },
       {
@@ -3449,7 +4130,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341398",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738086300000,
       },
       {
@@ -3457,7 +4140,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341324",
         "notes": "",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738093500000,
       },
       {
@@ -3465,7 +4150,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341164",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738102200000,
       },
       {
@@ -3473,7 +4160,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341393",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738159200000,
       },
       {
@@ -3481,7 +4170,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341320",
         "notes": "",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738175700000,
       },
       {
@@ -3489,7 +4180,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341321",
         "notes": "",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738183200000,
       },
       {
@@ -3497,7 +4190,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341371",
         "notes": "",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738189200000,
       },
       {
@@ -3505,16 +4200,21 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341206",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738247100000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341367",
-        "notes": "Subtitled: Films that are shown with Subtitles
-Open Captioned: Films and Events that feature subtitles on screen for dialogue, sound effects and music.",
+        "notes": "Subtitled: Films that are shown with Subtitles",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738257000000,
       },
       {
@@ -3522,7 +4222,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341208",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738264200000,
       },
       {
@@ -3530,7 +4232,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020050/341264",
         "notes": "",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738274400000,
       },
     ],
@@ -3564,7 +4268,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020052/341408",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737802800000,
       },
       {
@@ -3572,7 +4278,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020052/341409",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737812700000,
       },
       {
@@ -3580,7 +4288,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020052/341403",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737889200000,
       },
       {
@@ -3588,7 +4298,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020052/341404",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737899100000,
       },
       {
@@ -3596,7 +4308,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020052/341391",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738256400000,
       },
     ],
@@ -3620,7 +4334,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019507/329097",
         "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747937700000,
       },
       {
@@ -3628,7 +4344,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019507/329099",
         "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1748178000000,
       },
     ],
@@ -3659,7 +4377,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019506/329096",
         "notes": "Big Screen Opera: Unexpected love. Tragic consequences. A prince in disguise. Lose yourself in the extraordinary world of Big Screen Opera, where classics and new family favourites come to life in stunning clarity.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747239300000,
       },
       {
@@ -3667,7 +4387,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019506/329098",
         "notes": "Big Screen Opera: Unexpected love. Tragic consequences. A prince in disguise. Lose yourself in the extraordinary world of Big Screen Opera, where classics and new family favourites come to life in stunning clarity.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1747573200000,
       },
     ],
@@ -3691,7 +4413,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019504/339935",
         "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742498100000,
       },
       {
@@ -3699,7 +4423,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019504/338548",
         "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1742738400000,
       },
     ],
@@ -3725,7 +4451,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019503/338720",
         "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740683700000,
       },
       {
@@ -3733,7 +4461,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019503/329091",
         "notes": "Big Screen Dance: The greatest dance performances deserve to be seen big. Whether it’s a classic ballet or something a bit more contemporary, you won’t miss a single step as these stunning productions from around the world.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740924000000,
       },
     ],
@@ -3763,7 +4493,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019542/329094",
         "notes": "Big Screen Opera: Unexpected love. Tragic consequences. A prince in disguise. Lose yourself in the extraordinary world of Big Screen Opera, where classics and new family favourites come to life in stunning clarity.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743531300000,
       },
       {
@@ -3771,7 +4503,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019542/329095",
         "notes": "Big Screen Opera: Unexpected love. Tragic consequences. A prince in disguise. Lose yourself in the extraordinary world of Big Screen Opera, where classics and new family favourites come to life in stunning clarity.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1743944400000,
       },
     ],
@@ -3797,51 +4531,75 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019951/341257",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737727800000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019951/341359",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737811500000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019951/341246",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737884400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019951/341169",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737895200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019951/341236",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738161000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "audioDescription": true,
+        },
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019951/341154",
         "notes": "",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738245600000,
       },
     ],
@@ -3870,7 +4628,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020019/341288",
         "notes": "Hindi: Films shown in the Hindi language",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737750600000,
       },
       {
@@ -3878,7 +4638,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020019/341385",
         "notes": "Hindi: Films shown in the Hindi language",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737837900000,
       },
       {
@@ -3886,7 +4648,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020019/341196",
         "notes": "Hindi: Films shown in the Hindi language",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737924300000,
       },
       {
@@ -3894,7 +4658,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020019/341378",
         "notes": "Hindi: Films shown in the Hindi language",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738011300000,
       },
       {
@@ -3902,7 +4668,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020019/341190",
         "notes": "Hindi: Films shown in the Hindi language",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738097700000,
       },
       {
@@ -3910,7 +4678,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020019/341212",
         "notes": "Hindi: Films shown in the Hindi language",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738184100000,
       },
       {
@@ -3918,7 +4688,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020019/341392",
         "notes": "Hindi: Films shown in the Hindi language",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738266900000,
       },
     ],
@@ -3952,7 +4724,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341414",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737727200000,
       },
       {
@@ -3960,7 +4734,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341179",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737735300000,
       },
       {
@@ -3968,7 +4744,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341230",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737741000000,
       },
       {
@@ -3976,7 +4754,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341252",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737804000000,
       },
       {
@@ -3984,17 +4764,22 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341253",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737813300000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "hardOfHearing": true,
+        },
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341283",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
-Subtitled: Films that are shown with Subtitles
-Open Captioned: Films and Events that feature subtitles on screen for dialogue, sound effects and music.",
+Subtitled: Films that are shown with Subtitles",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737819000000,
       },
       {
@@ -4002,7 +4787,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341200",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737826800000,
       },
       {
@@ -4010,7 +4797,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341168",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737886200000,
       },
       {
@@ -4018,7 +4807,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341220",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737894300000,
       },
       {
@@ -4026,7 +4817,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341170",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737901800000,
       },
       {
@@ -4034,7 +4827,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341326",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737986400000,
       },
       {
@@ -4042,7 +4837,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341166",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737997200000,
       },
       {
@@ -4050,7 +4847,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341162",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738083600000,
       },
       {
@@ -4058,7 +4857,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341400",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738101900000,
       },
       {
@@ -4066,7 +4867,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341368",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738163100000,
       },
       {
@@ -4074,7 +4877,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341394",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738167000000,
       },
       {
@@ -4082,7 +4887,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341233",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738246500000,
       },
       {
@@ -4090,7 +4897,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018921/341317",
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738253700000,
       },
     ],
@@ -4111,7 +4920,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019978/341251",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737797100000,
       },
       {
@@ -4119,7 +4930,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019978/341301",
         "notes": "",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737898200000,
       },
     ],
@@ -4154,7 +4967,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341386",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737728700000,
       },
       {
@@ -4162,7 +4977,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341258",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737734400000,
       },
       {
@@ -4170,7 +4987,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341365",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737749100000,
       },
       {
@@ -4178,7 +4997,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341181",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737752400000,
       },
       {
@@ -4186,7 +5007,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341333",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737807300000,
       },
       {
@@ -4194,7 +5017,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341361",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737828000000,
       },
       {
@@ -4202,7 +5027,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341177",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737835200000,
       },
       {
@@ -4210,7 +5037,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341330",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737900600000,
       },
       {
@@ -4218,7 +5047,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341356",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737913800000,
       },
       {
@@ -4226,7 +5057,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341250",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737919800000,
       },
       {
@@ -4234,7 +5067,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341376",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737987000000,
       },
       {
@@ -4242,7 +5077,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341402",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738000800000,
       },
       {
@@ -4250,7 +5087,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341167",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738006800000,
       },
       {
@@ -4258,7 +5097,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341213",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738075500000,
       },
       {
@@ -4266,7 +5107,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341189",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738081500000,
       },
       {
@@ -4274,7 +5117,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/340646",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738090800000,
       },
       {
@@ -4282,7 +5127,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341349",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738094400000,
       },
       {
@@ -4290,7 +5137,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341292",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738160100000,
       },
       {
@@ -4298,7 +5147,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341211",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738167900000,
       },
       {
@@ -4306,7 +5157,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341267",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "5",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738179600000,
       },
       {
@@ -4314,7 +5167,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341182",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738249200000,
       },
       {
@@ -4322,7 +5177,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341318",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738263300000,
       },
       {
@@ -4330,7 +5187,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019990/341157",
         "notes": "Interval: Films that are shown with a Interval",
         "screen": "1",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738268100000,
       },
     ],
@@ -4362,7 +5221,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019676/341153",
         "notes": "",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740168900000,
       },
       {
@@ -4370,7 +5231,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019676/341152",
         "notes": "",
         "screen": "7",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740255300000,
       },
       {
@@ -4378,7 +5241,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019676/341150",
         "notes": "",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1740341700000,
       },
     ],
@@ -4410,7 +5275,9 @@ Open Captioned: Films and Events that feature subtitles on screen for dialogue, 
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
 Mighty Mornings: Keep their love of cinema going, with hand-picked family films for just £2.49/€2.99 when booked online.",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737799200000,
       },
       {
@@ -4419,7 +5286,9 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "notes": "Strobe FX: Contains a sequence of flashing lights which might affect customers who are susceptible to photosensitive epilepsy
 Mighty Mornings: Keep their love of cinema going, with hand-picked family films for just £2.49/€2.99 when booked online.",
         "screen": "3",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737885600000,
       },
     ],
@@ -4450,7 +5319,9 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019665/341204",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737740700000,
       },
       {
@@ -4458,7 +5329,9 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019665/341310",
         "notes": "",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737836100000,
       },
       {
@@ -4466,7 +5339,9 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019665/341303",
         "notes": "",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737914400000,
       },
       {
@@ -4474,7 +5349,9 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019665/341370",
         "notes": "",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738180200000,
       },
     ],
@@ -4513,7 +5390,9 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018919/341198",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737806100000,
       },
       {
@@ -4521,7 +5400,9 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018919/341354",
         "notes": "",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737891600000,
       },
       {
@@ -4529,7 +5410,9 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018919/341397",
         "notes": "",
         "screen": "10",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738074300000,
       },
       {
@@ -4537,7 +5420,9 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018919/341237",
         "notes": "",
         "screen": "4",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738167000000,
       },
       {
@@ -4545,7 +5430,9 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00018919/341289",
         "notes": "",
         "screen": "6",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738246200000,
       },
     ],
@@ -4575,7 +5462,9 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019671/341389",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "9",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737762300000,
       },
       {
@@ -4583,7 +5472,9 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019671/341202",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737848700000,
       },
       {
@@ -4591,7 +5482,9 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00019671/341357",
         "notes": "Over 18s: Shows only those aged 18+ can attend - ID may be required",
         "screen": "8",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1737932400000,
       },
     ],
@@ -4611,7 +5504,9 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020012/341591",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738440900000,
       },
       {
@@ -4619,7 +5514,9 @@ Mighty Mornings: Keep their love of cinema going, with hand-picked family films 
         "bookingUrl": "https://www.myvue.com/book-tickets/summary/10022/HO00020012/341590",
         "notes": "",
         "screen": "2",
-        "status": {},
+        "status": {
+          "soldOut": false,
+        },
         "time": 1738611600000,
       },
     ],

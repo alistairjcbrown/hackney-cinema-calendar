@@ -3,6 +3,7 @@ const {
   sanitizeRichText,
   createOverview,
   createPerformance,
+  createAccessibility,
 } = require("../../common/utils");
 
 async function transform(
@@ -23,19 +24,40 @@ async function transform(
 
     const performances = movie.showingGroups.flatMap(({ sessions }) =>
       sessions.map((showing) => {
-        const notesList = (showing.attributes || []).reduce(
-          (notes, { shortName: title, description }) =>
-            title && description
-              ? notes.concat(`${title}: ${sanitizeRichText(description)}`)
-              : notes,
-          [],
+        const accessibility = {};
+        const notesList = [];
+
+        (showing.attributes || []).forEach(
+          ({ shortName: title, description, value }) => {
+            if (value.toLowerCase() === "open-captioned") {
+              accessibility.hardOfHearing = true;
+              return;
+            }
+            if (value.toLowerCase() === "audio") {
+              accessibility.audioDescription = true;
+              return;
+            }
+            if (value.toLowerCase() === "big-shorts") {
+              accessibility.audioDescription = true;
+              // Don't return so it's added to the notes
+            }
+            if (title && description) {
+              notesList.push(`${title}: ${sanitizeRichText(description)}`);
+            }
+          },
         );
+
+        const status = {
+          soldOut: showing.isSoldOut,
+        };
 
         return createPerformance({
           date: parseISO(showing.showTimeWithTimeZone),
           screen: showing.screenName,
           notesList,
           url: `${domain}${showing.bookingUrl}`,
+          accessibility: createAccessibility(accessibility),
+          status,
         });
       }),
     );
