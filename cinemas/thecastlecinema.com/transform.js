@@ -86,7 +86,7 @@ async function transform({ movieListPage, moviePages }, sourcedEvents) {
 
       const filters = convertToList($link.data("filters").toLowerCase());
       const accessibility = {
-        audioDescribed: filters.includes("audio-described"),
+        audioDescription: filters.includes("audio-described"),
         babyFriendly: filters.includes("parent-baby"),
         hardOfHearing: filters.includes("hard-of-hearing"),
         relaxed: filters.includes("relaxed"),

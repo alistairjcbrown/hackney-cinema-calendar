@@ -70,7 +70,7 @@ function getPerformancesFor(url, { title, performances, html }) {
     accessibilityMapping = times.reduce((mapping, time) => {
       const key = time.trim();
       mapping[key] = mapping[key] || {};
-      mapping[key].HardOfHearing = accessibilityFeature.includes(
+      mapping[key].hardOfHearing = accessibilityFeature.includes(
         "descriptive subtitles",
       );
       return mapping;

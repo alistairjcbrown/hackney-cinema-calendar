@@ -514,7 +514,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
           "subtitled": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=0CD4E40A-3D93-40D1-9E68-04F274E8484E",
@@ -688,7 +688,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
           "subtitled": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=04988D55-66C9-456E-A228-FD3103287C8F",
@@ -701,7 +701,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
           "subtitled": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=04988D55-66C9-456E-A228-FD3103287C8F",
@@ -2773,7 +2773,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
     "performances": [
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
           "subtitled": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=0665924A-01C9-4BC5-9606-E0B6E8FDF80C",
@@ -2934,7 +2934,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
           "subtitled": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=03BDA549-D26B-42A5-A564-0480C6F1E142",
@@ -3007,7 +3007,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
           "subtitled": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=03BDA549-D26B-42A5-A564-0480C6F1E142",
@@ -3032,7 +3032,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
           "subtitled": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=03BDA549-D26B-42A5-A564-0480C6F1E142",
@@ -3093,7 +3093,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
           "subtitled": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=03BDA549-D26B-42A5-A564-0480C6F1E142",
@@ -3279,7 +3279,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
           "subtitled": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=E87E6894-724E-4F8C-A6AF-5414E737D87D",
@@ -4501,7 +4501,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=E465C85C-7841-4A7E-BA63-183053125579",
         "notes": "",
@@ -4543,7 +4543,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=E465C85C-7841-4A7E-BA63-183053125579",
         "notes": "",
@@ -4625,7 +4625,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=E465C85C-7841-4A7E-BA63-183053125579",
         "notes": "",
@@ -4667,7 +4667,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=E465C85C-7841-4A7E-BA63-183053125579",
         "notes": "",
@@ -4931,7 +4931,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
     "performances": [
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=BA4416EC-C455-498C-BD8B-5C6FDB931961",
         "notes": "",
@@ -5220,7 +5220,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=E7FDFB7B-8A8B-4107-A0BD-3107F84321B4",
         "notes": "",
@@ -5232,7 +5232,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=E7FDFB7B-8A8B-4107-A0BD-3107F84321B4",
         "notes": "",
@@ -5264,7 +5264,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=E7FDFB7B-8A8B-4107-A0BD-3107F84321B4",
         "notes": "",
@@ -5527,7 +5527,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=6840B638-339A-4C94-A43A-4B16F5CC2207",
         "notes": "",
@@ -5549,7 +5549,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=6840B638-339A-4C94-A43A-4B16F5CC2207",
         "notes": "",
@@ -5641,7 +5641,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=6840B638-339A-4C94-A43A-4B16F5CC2207",
         "notes": "",
@@ -7048,7 +7048,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
           "subtitled": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=5A7B216E-78B2-4CD1-A505-3023E2CE3F4E",
@@ -7085,7 +7085,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
           "subtitled": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=5A7B216E-78B2-4CD1-A505-3023E2CE3F4E",
@@ -7146,7 +7146,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
           "subtitled": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=5A7B216E-78B2-4CD1-A505-3023E2CE3F4E",
@@ -7855,7 +7855,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=4BE248EA-B25E-4404-85B0-4A36C7F7F2C7",
         "notes": "",
@@ -7867,7 +7867,7 @@ exports[`BFI Southbank retrieve and transform 1`] = `
       },
       {
         "accessibility": {
-          "HardOfHearing": true,
+          "hardOfHearing": true,
         },
         "bookingUrl": "https://whatson.bfi.org.uk/Online/default.asp?default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=4BE248EA-B25E-4404-85B0-4A36C7F7F2C7",
         "notes": "",
