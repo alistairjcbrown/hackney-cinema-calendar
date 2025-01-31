@@ -83,7 +83,7 @@ async function transform(
           notesList: (showing.attributes || [])
             .filter(
               ({ attribute }) =>
-                !["audio d", "hohsub", "sub cinema"].includes(
+                !["audio d", "relaxed", "hohsub", "sub cinema"].includes(
                   attribute.toLowerCase(),
                 ),
             )

@@ -110,6 +110,7 @@ const getScreen = (screen) => {
     .toLowerCase()
     .replace("screen", "")
     .replace("nft", "")
+    .replace("kia", "")
     .replace("(unreserved)", "")
     .trim();
 
