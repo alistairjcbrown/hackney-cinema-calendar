@@ -2,28 +2,26 @@ const {
   sanitizeRichText,
   createPerformance,
   createOverview,
+  createAccessibility,
 } = require("../../common/utils");
 const { parseDate } = require("./utils");
 const { domain } = require("./attributes");
 
+function getStatus(performance) {
+  return { soldOut: performance.IsSoldOut.toLowerCase() === "y" };
+}
+
+function getAccessibility(performance) {
+  return {
+    audioDescription: performance.AD.toLowerCase() === "y",
+    hardOfHearing: performance.HOH.toLowerCase() === "y",
+    babyFriendly: performance.BF.toLowerCase() === "y",
+    relaxed: performance.RS.toLowerCase() === "y",
+  };
+}
+
 function getNotesList(performance) {
   const notes = [];
-  // Baby-friendly screening
-  if (performance.BF.toLowerCase() === "y") {
-    notes.push("Baby Friendly");
-  }
-  // Audio described
-  if (performance.AD.toLowerCase() === "y") {
-    notes.push("Audio described");
-  }
-  // Hard of hearing subtitles
-  if (performance.HOH.toLowerCase() === "y") {
-    notes.push("Closed Captioned screening for Hard of Hearing");
-  }
-  // Relaxed screening
-  if (performance.RS.toLowerCase() === "y") {
-    notes.push("Relaxed screening");
-  }
   // Q+A
   if (performance.QA.toLowerCase() === "y") {
     notes.push("This screening will be followed by a Q&A");
@@ -37,10 +35,6 @@ function getNotesList(performance) {
     notes.push(
       "Talking Pictures: A friendly film discussion group for seniors",
     );
-  }
-  // Sold Out
-  if (performance.IsSoldOut.toLowerCase() === "y") {
-    notes.push("Sold out");
   }
   return notes;
 }
@@ -62,6 +56,8 @@ async function transform(movieData, sourcedEvents) {
           notesList: getNotesList(performance),
           url: `${domain}/TheLexiCinema.dll/${performance.URL}`,
           screen: performance.AuditoriumName,
+          status: getStatus(performance),
+          accessibility: createAccessibility(getAccessibility(performance)),
         }),
       ),
     };
