@@ -72,6 +72,11 @@ async function transform(data, sourcedEvents) {
     const title = getText($movieTitle);
     const url = $movieTitle.attr("href");
 
+    // Don't pull data for entries which aren't bookable films
+    if (title.toLowerCase().includes("(do not book)")) {
+      return;
+    }
+
     const overview = createOverview({
       directors: getLine($, $moviePeople, "Directed by "),
       actors: getLine($, $moviePeople, "Starring "),
@@ -87,12 +92,12 @@ async function transform(data, sourcedEvents) {
       let $currentElement = $performanceDay.next();
       while ($currentElement.is("li")) {
         const notesList = [];
-        const status = { soldOut: false };
-
         const statusText = getText($currentElement.find(".hover"));
-        if (statusText.toLowerCase() === "sold out") {
-          status.soldOut = true;
-        } else if (statusText.toLowerCase() !== "book") {
+        const status = { soldOut: statusText.toLowerCase() === "sold out" };
+        if (
+          statusText.toLowerCase() !== "book" &&
+          statusText.toLowerCase() !== "sold out"
+        ) {
           notesList.push(statusText);
         }
 
