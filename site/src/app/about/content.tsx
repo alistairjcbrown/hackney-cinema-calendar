@@ -87,7 +87,7 @@ const getPerformanceCount = (movies: CinemaData["movies"]) =>
 type AccessibilityTotals = Record<AccessibilityFeature, number>;
 const getPerformanceAccessibilityCount = (movies: CinemaData["movies"]) =>
   Object.values(movies).reduce(
-    (totals: AccessibilityTotals, { performances, showings }: Movie) =>
+    (totals: AccessibilityTotals, { performances }: Movie) =>
       performances.reduce((totals: AccessibilityTotals, performance) => {
         if (!performance.accessibility) return totals;
         return Object.keys(performance.accessibility).reduce(
