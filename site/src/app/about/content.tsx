@@ -84,23 +84,54 @@ const getPerformanceCount = (movies: CinemaData["movies"]) =>
     0,
   );
 
-type AccessibilityTotals = Record<AccessibilityFeature, number>;
+type MovieAccessibilityTotals = Record<AccessibilityFeature, Set<Movie["id"]>>;
+const getMovieAccessibilityCount = (movies: CinemaData["movies"]) => {
+  const moviesMapping = Object.values(movies).reduce(
+    (totals: MovieAccessibilityTotals, { id, performances }: Movie) => {
+      performances.forEach((performance) => {
+        if (!performance.accessibility) return;
+        return Object.keys(performance.accessibility).forEach(
+          (accessibilityFeature) => {
+            const key = accessibilityFeature as AccessibilityFeature;
+            if (!performance.accessibility![key]) return;
+            totals[key] = totals[key] || new Set();
+            totals[key].add(id);
+          },
+        );
+      });
+      return totals;
+    },
+    {} as MovieAccessibilityTotals,
+  );
+  return Object.keys(moviesMapping).reduce(
+    (totals, accessibilityFeature) => {
+      const key = accessibilityFeature as AccessibilityFeature;
+      return { ...totals, [key]: moviesMapping[key].size };
+    },
+    {} as Record<AccessibilityFeature, number>,
+  );
+};
+
+type PerformanceAccessibilityTotals = Record<AccessibilityFeature, number>;
 const getPerformanceAccessibilityCount = (movies: CinemaData["movies"]) =>
   Object.values(movies).reduce(
-    (totals: AccessibilityTotals, { performances }: Movie) =>
-      performances.reduce((totals: AccessibilityTotals, performance) => {
-        if (!performance.accessibility) return totals;
-        return Object.keys(performance.accessibility).reduce(
-          (totals: AccessibilityTotals, accessibilityFeature) => {
-            const key = accessibilityFeature as AccessibilityFeature;
-            if (!performance.accessibility![key]) return totals;
-            const total = totals[key] || 0;
-            return { ...totals, [key]: total + 1 };
-          },
-          totals,
-        );
-      }, totals),
-    {} as AccessibilityTotals,
+    (totals: PerformanceAccessibilityTotals, { performances }: Movie) =>
+      performances.reduce(
+        (totals: PerformanceAccessibilityTotals, performance) => {
+          if (!performance.accessibility) return totals;
+          return Object.keys(performance.accessibility).reduce(
+            (totals: PerformanceAccessibilityTotals, accessibilityFeature) => {
+              const key = accessibilityFeature as AccessibilityFeature;
+              if (!performance.accessibility![key]) return totals;
+              const total = totals[key] || 0;
+              return { ...totals, [key]: total + 1 };
+            },
+            totals,
+          );
+        },
+        totals,
+      ),
+    {} as PerformanceAccessibilityTotals,
   );
 
 const getVenueCount = (venues: CinemaData["venues"]) =>
@@ -204,7 +235,10 @@ export default function AboutContent() {
   const performanceCount = getPerformanceCount(data!.movies);
   const classificationTotals = getClassificationCounts(data!.movies);
   const genreTotals = getGenreCounts(data!.movies);
-  const accessibilityTotals = getPerformanceAccessibilityCount(data!.movies);
+  const performanceAccessibilityTotals = getPerformanceAccessibilityCount(
+    data!.movies,
+  );
+  const movieAccessibilityTotals = getMovieAccessibilityCount(data!.movies);
   const festivalShowings = getFestivalShowings(data!.movies);
   const marathons = getMarathons(data!.movies);
   const premieres = getPremiere(data!.movies);
@@ -530,9 +564,18 @@ export default function AboutContent() {
             >
               {Object.values(AccessibilityFeature).map((accessibility) => {
                 const key = accessibility as AccessibilityFeature;
-                const count = accessibilityTotals[key];
+                const performanceAccessibilityCount =
+                  performanceAccessibilityTotals[key];
+                const movieAccessibilityCount = movieAccessibilityTotals[key];
                 return (
-                  <li key={key}>
+                  <li
+                    key={key}
+                    style={{
+                      display: "flex",
+                      breakInside: "avoid-column",
+                      marginBottom: "0.75rem",
+                    }}
+                  >
                     <span
                       style={{
                         textAlign: "center",
@@ -551,12 +594,25 @@ export default function AboutContent() {
                         width: "100%",
                         maxWidth: "8.5rem",
                         whiteSpace: "nowrap",
+                        lineHeight: "2rem",
                       }}
                     >
                       {accessibilityNames[key]}
                     </span>
-                    {showNumber(count)} movies (
-                    {Math.round((count / performanceCount) * 1000) / 10}%)
+                    <span style={{ whiteSpace: "nowrap" }}>
+                      {showNumber(performanceAccessibilityCount)} performances (
+                      {Math.round(
+                        (performanceAccessibilityCount / performanceCount) *
+                          1000,
+                      ) / 10}
+                      %)
+                      <br />
+                      {showNumber(movieAccessibilityCount)} movies (
+                      {Math.round(
+                        (movieAccessibilityCount / movieCount) * 1000,
+                      ) / 10}
+                      %)
+                    </span>
                   </li>
                 );
               })}
