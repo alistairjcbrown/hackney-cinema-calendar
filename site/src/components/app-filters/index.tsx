@@ -58,7 +58,6 @@ export default function AppFilters() {
   return (
     <>
       <Search value={searchTerm} onChange={setSearchTerm} />
-
       <Accordion>
         <Accordion.Panel header="More filters" style={{ padding: 0 }}>
           <Divider style={{ marginTop: 10, marginBottom: 20 }}>
