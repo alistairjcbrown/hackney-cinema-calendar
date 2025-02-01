@@ -1,5 +1,6 @@
 "use client";
 import {
+  AccessibilityFeature,
   Classification,
   classificationOrder,
   type CinemaData,
@@ -69,6 +70,7 @@ const getMarathons = filterUnmatched([
   "Variety",
 ]);
 const getPremiere = filterUnmatched(["Premier", "Preview"]);
+const getMystery = filterUnmatched(["mystery", "secret"]);
 
 const getMatchedMoviesCount = (movies: CinemaData["movies"]) =>
   Object.values(movies).filter(({ isUnmatched }) => !isUnmatched).length;
@@ -80,6 +82,25 @@ const getPerformanceCount = (movies: CinemaData["movies"]) =>
   Object.values(movies).reduce(
     (total: number, movie: Movie) => total + movie.performances.length,
     0,
+  );
+
+type AccessibilityTotals = Record<AccessibilityFeature, number>;
+const getPerformanceAccessibilityCount = (movies: CinemaData["movies"]) =>
+  Object.values(movies).reduce(
+    (totals: AccessibilityTotals, { performances, showings }: Movie) =>
+      performances.reduce((totals: AccessibilityTotals, performance) => {
+        if (!performance.accessibility) return totals;
+        return Object.keys(performance.accessibility).reduce(
+          (totals: AccessibilityTotals, accessibilityFeature) => {
+            const key = accessibilityFeature as AccessibilityFeature;
+            if (!performance.accessibility![key]) return totals;
+            const total = totals[key] || 0;
+            return { ...totals, [key]: total + 1 };
+          },
+          totals,
+        );
+      }, totals),
+    {} as AccessibilityTotals,
   );
 
 const getVenueCount = (venues: CinemaData["venues"]) =>
@@ -133,6 +154,22 @@ const genreIcons: Record<string, string> = {
   "95b92df1": "❓",
 };
 
+const accessibilityIcons: Record<AccessibilityFeature, string> = {
+  audioDescription: "💬",
+  babyFriendly: "🚼",
+  hardOfHearing: "🦻",
+  relaxed: "🏖️",
+  subtitled: "🆒",
+};
+
+const accessibilityNames: Record<AccessibilityFeature, string> = {
+  audioDescription: "Audio Description",
+  babyFriendly: "Baby Friendly",
+  hardOfHearing: "Hard of Hearing",
+  relaxed: "Relaxed",
+  subtitled: "Subtitled",
+};
+
 const releaseForMovie = (
   date: string,
   format = ["years", "months", "weeks", "days", "hours", "minutes"],
@@ -164,11 +201,14 @@ export default function AboutContent() {
   });
 
   const movieCount = getMovieCount(data!.movies);
+  const performanceCount = getPerformanceCount(data!.movies);
   const classificationTotals = getClassificationCounts(data!.movies);
   const genreTotals = getGenreCounts(data!.movies);
+  const accessibilityTotals = getPerformanceAccessibilityCount(data!.movies);
   const festivalShowings = getFestivalShowings(data!.movies);
   const marathons = getMarathons(data!.movies);
   const premieres = getPremiere(data!.movies);
+  const mysteries = getMystery(data!.movies);
   const filmsOrderedByYear = Object.values(data!.movies)
     .filter(({ releaseDate }) => !!releaseDate)
     .sort(
@@ -213,8 +253,7 @@ export default function AboutContent() {
                 </time>
               </strong>{" "}
               from <strong>{showNumber(getVenueCount(data!.venues))}</strong>{" "}
-              venues, showing{" "}
-              <strong>{showNumber(getPerformanceCount(data!.movies))}</strong>{" "}
+              venues, showing <strong>{showNumber(performanceCount)}</strong>{" "}
               performances of <strong>{showNumber(movieCount)}</strong> movies.
             </Text>
             <Text>
@@ -240,6 +279,12 @@ export default function AboutContent() {
                 filters={{ filteredMovies: convertToMapping(marathons) }}
               >
                 {showNumber(marathons.length)} movie marathons
+              </FilterLink>
+              ,{" "}
+              <FilterLink
+                filters={{ filteredMovies: convertToMapping(mysteries) }}
+              >
+                {showNumber(mysteries.length)} mystery movies
               </FilterLink>
               , and{" "}
               <FilterLink
@@ -469,6 +514,52 @@ export default function AboutContent() {
                   %)
                 </li>
               ))}
+            </ul>
+          </Stack.Item>
+          <Stack.Item>
+            <Text>Accessibility features:</Text>
+            <ul
+              style={{
+                listStyleType: "none",
+                padding: 0,
+                width: "100%",
+                columns: "27.5em 4",
+                gap: "5em",
+                columnRule: "1px dotted #666",
+              }}
+            >
+              {Object.values(AccessibilityFeature).map((accessibility) => {
+                const key = accessibility as AccessibilityFeature;
+                const count = accessibilityTotals[key];
+                return (
+                  <li key={key}>
+                    <span
+                      style={{
+                        textAlign: "center",
+                        display: "inline-block",
+                        margin: "0.2rem 0.5rem 0.2rem 0",
+                        width: 25,
+                        height: 25,
+                        fontSize: "1.3rem",
+                      }}
+                    >
+                      {accessibilityIcons[key]}
+                    </span>
+                    <span
+                      style={{
+                        display: "inline-block",
+                        width: "100%",
+                        maxWidth: "8.5rem",
+                        whiteSpace: "nowrap",
+                      }}
+                    >
+                      {accessibilityNames[key]}
+                    </span>
+                    {showNumber(count)} movies (
+                    {Math.round((count / performanceCount) * 1000) / 10}%)
+                  </li>
+                );
+              })}
             </ul>
           </Stack.Item>
           <Stack.Item>
