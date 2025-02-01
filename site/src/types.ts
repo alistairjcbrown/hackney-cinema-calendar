@@ -130,6 +130,7 @@ export type Filters = {
   filteredMovies: Record<Movie["id"], boolean>;
   filteredClassifications: Record<Classification, boolean>;
   filteredGenres: Record<Genre["id"], boolean>;
+  filteredAccessibilityFeatures: Record<AccessibilityFeature, boolean>;
 };
 
 export type FavouriteMovie = {

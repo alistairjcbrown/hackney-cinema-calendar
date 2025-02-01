@@ -1,5 +1,4 @@
 import { classificationOrder, type Classification } from "@/types";
-import Checkbox from "rsuite/cjs/Checkbox";
 import CheckPicker from "rsuite/cjs/CheckPicker";
 
 function sortArrayByOrder(
@@ -46,7 +45,7 @@ export default function ClassificationFilter({
     <div>
       <CheckPicker
         block
-        searchable
+        searchable={false}
         size="lg"
         placeholder="Movie Classification"
         data={data}
@@ -67,31 +66,6 @@ export default function ClassificationFilter({
           // input. In this case, we want to reset it back to fully populated.
           setTimeout(() => onChange(filteredClassifications), 0);
         }}
-        renderExtraFooter={() => (
-          <div style={{ borderTop: "1px solid #e5e5e5" }}>
-            <Checkbox
-              indeterminate={
-                Object.keys(values).length > 0 &&
-                Object.keys(values).length < classifications.length
-              }
-              checked={Object.keys(values).length === classifications.length}
-              onChange={(value, checked) => {
-                if (checked) {
-                  onChange(
-                    classifications.reduce(
-                      (mapping, id) => ({ ...mapping, [id]: true }),
-                      {},
-                    ),
-                  );
-                } else {
-                  onChange({});
-                }
-              }}
-            >
-              Check all
-            </Checkbox>
-          </div>
-        )}
       />
     </div>
   );

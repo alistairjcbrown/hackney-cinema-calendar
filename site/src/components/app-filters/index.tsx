@@ -1,4 +1,4 @@
-import { Classification, type Filters } from "@/types";
+import { AccessibilityFeature, Classification, type Filters } from "@/types";
 import Accordion from "rsuite/cjs/Accordion";
 import Checkbox from "rsuite/cjs/Checkbox";
 import Divider from "rsuite/cjs/Divider";
@@ -8,12 +8,14 @@ import Text from "rsuite/cjs/Text";
 import useMediaQuery from "rsuite/cjs/useMediaQuery";
 import { useCinemaData } from "@/state/cinema-data-context";
 import { useFilters } from "@/state/filters-context";
+import ResponsiveStack from "@/components/responsive-stack";
 import Search from "@/components/search";
 import DateRangePicker from "@/components/date-range";
 import VenueFilter from "@/components/venue-filter";
 import MovieFilter from "@/components/movie-filter";
 import ClassificationFilter from "@/components/classification-filter";
 import GenreFilter from "@/components/genre-filter";
+import AccessibilityFeatureFilter from "@/components/accessibility-feature-filter";
 
 export default function AppFilters() {
   const [isDesktop] = useMediaQuery(["lg"]);
@@ -25,6 +27,7 @@ export default function AppFilters() {
     filteredMovies,
     filteredClassifications,
     filteredGenres,
+    filteredAccessibilityFeatures,
     searchTerm,
     dateRange,
     yearRange,
@@ -39,6 +42,9 @@ export default function AppFilters() {
   ) => setFilters({ ...filters, filteredClassifications });
   const setFilteredGenres = (filteredGenres: Filters["filteredGenres"]) =>
     setFilters({ ...filters, filteredGenres });
+  const setFilteredAccessibilityFeatures = (
+    filteredAccessibilityFeatures: Filters["filteredAccessibilityFeatures"],
+  ) => setFilters({ ...filters, filteredAccessibilityFeatures });
   const setSearchTerm = (searchTerm: Filters["searchTerm"]) =>
     setFilters({ ...filters, searchTerm });
   const setDateRange = (dateRange: Filters["dateRange"]) =>
@@ -52,98 +58,101 @@ export default function AppFilters() {
   return (
     <>
       <Search value={searchTerm} onChange={setSearchTerm} />
+
       <Accordion>
         <Accordion.Panel header="More filters" style={{ padding: 0 }}>
+          <Divider style={{ marginTop: 10, marginBottom: 20 }}>
+            Performance Filters
+          </Divider>
           <Stack direction="column" spacing={18}>
             <Stack.Item style={{ width: "100%" }}>
-              <VenueFilter
-                venues={data!.venues}
-                values={filteredVenues}
-                onChange={setFilteredVenues}
-              />
+              <ResponsiveStack>
+                <VenueFilter
+                  venues={data!.venues}
+                  values={filteredVenues}
+                  onChange={setFilteredVenues}
+                />
+                <AccessibilityFeatureFilter
+                  accessibilityFeatures={
+                    Object.keys(
+                      defaultFilters!.filteredAccessibilityFeatures,
+                    ) as AccessibilityFeature[]
+                  }
+                  values={filteredAccessibilityFeatures}
+                  onChange={setFilteredAccessibilityFeatures}
+                />
+              </ResponsiveStack>
             </Stack.Item>
             <Stack.Item style={{ width: "100%" }}>
-              <MovieFilter
-                movies={data!.movies}
-                values={filteredMovies}
-                onChange={setFilteredMovies}
-              />
+              <ResponsiveStack>
+                <DateRangePicker
+                  value={dateRange}
+                  defaultValue={defaultFilters?.dateRange}
+                  onChange={setDateRange}
+                />
+                <></>
+              </ResponsiveStack>
             </Stack.Item>
+          </Stack>
+          <Divider style={{ marginBottom: 20 }}>Movie Filters</Divider>
+          <Stack direction="column" spacing={18}>
             <Stack.Item style={{ width: "100%" }}>
-              <ClassificationFilter
-                classifications={
-                  Object.keys(
-                    defaultFilters!.filteredClassifications,
-                  ) as Classification[]
-                }
-                values={filteredClassifications}
-                onChange={setFilteredClassifications}
-              />
-            </Stack.Item>
-            <Stack.Item style={{ width: "100%" }}>
-              <GenreFilter
-                genres={data!.genres}
-                values={filteredGenres}
-                onChange={setFilteredGenres}
-              />
-            </Stack.Item>
-            <Stack.Item style={{ width: "100%" }}>
-              <Stack
-                direction={isDesktop ? "row" : "column"}
-                spacing={isDesktop ? 0 : 8}
-                alignItems="flex-start"
-              >
-                <Stack.Item grow={1} style={isDesktop ? {} : { width: "100%" }}>
-                  <DateRangePicker
-                    value={dateRange}
-                    defaultValue={defaultFilters?.dateRange}
-                    onChange={setDateRange}
-                  />
-                </Stack.Item>
-                {yearRange.min > yearRange.max ? null : (
-                  <>
-                    {isDesktop ? <Divider vertical /> : null}
-                    <Stack.Item
-                      grow={1}
-                      style={isDesktop ? {} : { width: "100%" }}
+              <ResponsiveStack>
+                <MovieFilter
+                  movies={data!.movies}
+                  values={filteredMovies}
+                  onChange={setFilteredMovies}
+                />
+                <Stack direction={isDesktop ? "column" : "row"} spacing={8}>
+                  <Stack.Item style={isDesktop ? { width: "100%" } : {}}>
+                    <Text weight="bold" style={{ display: "inline" }}>
+                      Years:
+                    </Text>{" "}
+                    &mdash;&mdash;
+                    <Checkbox
+                      checked={includeUnknownYears}
+                      onChange={(value, checked) => {
+                        setIncludeUnknownYears(checked);
+                      }}
                     >
-                      <Stack
-                        direction={isDesktop ? "column" : "row"}
-                        spacing={8}
-                      >
-                        <Stack.Item style={isDesktop ? { width: "100%" } : {}}>
-                          <Text weight="bold">Years:</Text>
-                        </Stack.Item>
-                        <Stack.Item
-                          style={{
-                            width: "100%",
-                            paddingLeft: "1rem",
-                            paddingRight: "1rem",
-                          }}
-                        >
-                          <RangeSlider
-                            {...getYearRange()}
-                            value={[yearRange.min, yearRange.max]}
-                            onChange={([min, max]) => {
-                              setYearRange({ min, max });
-                            }}
-                          />
-                        </Stack.Item>
-                        <Stack.Item style={isDesktop ? { width: "100%" } : {}}>
-                          <Checkbox
-                            checked={includeUnknownYears}
-                            onChange={(value, checked) => {
-                              setIncludeUnknownYears(checked);
-                            }}
-                          >
-                            Include&nbsp;unknown
-                          </Checkbox>
-                        </Stack.Item>
-                      </Stack>
-                    </Stack.Item>
-                  </>
-                )}
-              </Stack>
+                      Include&nbsp;unknown
+                    </Checkbox>
+                  </Stack.Item>
+                  <Stack.Item
+                    style={{
+                      width: "100%",
+                      paddingLeft: "1rem",
+                      paddingRight: "1rem",
+                    }}
+                  >
+                    <RangeSlider
+                      {...getYearRange()}
+                      value={[yearRange.min, yearRange.max]}
+                      onChange={([min, max]) => {
+                        setYearRange({ min, max });
+                      }}
+                    />
+                  </Stack.Item>
+                </Stack>
+              </ResponsiveStack>
+            </Stack.Item>
+            <Stack.Item style={{ width: "100%" }}>
+              <ResponsiveStack>
+                <ClassificationFilter
+                  classifications={
+                    Object.keys(
+                      defaultFilters!.filteredClassifications,
+                    ) as Classification[]
+                  }
+                  values={filteredClassifications}
+                  onChange={setFilteredClassifications}
+                />
+                <GenreFilter
+                  genres={data!.genres}
+                  values={filteredGenres}
+                  onChange={setFilteredGenres}
+                />
+              </ResponsiveStack>
             </Stack.Item>
           </Stack>
         </Accordion.Panel>

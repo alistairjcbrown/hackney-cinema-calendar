@@ -3,9 +3,34 @@ import {
   type Movie,
   type Filters,
   type CinemaData,
+  AccessibilityFeature,
 } from "@/types";
 import getMovieClassification from "./get-movie-classification";
 import normalizeString from "./normalize-string";
+
+const matchesAccessibility = (
+  performance: MoviePerformance,
+  accessibilityFilters: Record<string, boolean>,
+) => {
+  if (
+    accessibilityFilters.none &&
+    (!performance.accessibility ||
+      Object.keys(performance.accessibility).length === 0)
+  ) {
+    return true;
+  }
+
+  for (const key of Object.keys(accessibilityFilters)) {
+    if (
+      accessibilityFilters[key] &&
+      performance.accessibility?.[key as AccessibilityFeature]
+    ) {
+      return true;
+    }
+  }
+
+  return false;
+};
 
 const getMatchingMovies = (
   movies: CinemaData["movies"],
@@ -15,6 +40,7 @@ const getMatchingMovies = (
     filteredVenues,
     filteredMovies,
     filteredClassifications,
+    filteredAccessibilityFeatures,
     filteredGenres,
     yearRange,
     includeUnknownYears,
@@ -67,7 +93,8 @@ const getMatchingMovies = (
           filteredVenues[venueId] &&
           // Performances that start in the expected time range (in the future)
           performance.time > Math.max(dateRange.start, Date.now()) &&
-          performance.time < dateRange.end
+          performance.time < dateRange.end &&
+          matchesAccessibility(performance, filteredAccessibilityFeatures)
         ) {
           matchingPerformances.push(performance);
         }

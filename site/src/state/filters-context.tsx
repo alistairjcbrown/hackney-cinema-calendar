@@ -1,4 +1,10 @@
-import { Classification, Movie, type CinemaData, type Filters } from "@/types";
+import {
+  AccessibilityFeature,
+  Classification,
+  Movie,
+  type CinemaData,
+  type Filters,
+} from "@/types";
 import type { ReactNode, SetStateAction } from "react";
 import {
   createContext,
@@ -78,6 +84,17 @@ export const processingFunctions: Record<keyof Filters, any> = {
           {} as Record<string, boolean>,
         ),
   },
+  filteredAccessibilityFeatures: {
+    toUrl: (value: Filters["filteredAccessibilityFeatures"]) =>
+      Object.keys(value).sort().join(","),
+    fromUrl: (value: string) =>
+      value
+        .split(",")
+        .reduce(
+          (mapping, id) => ({ ...mapping, [id.trim()]: true }),
+          {} as Record<string, boolean>,
+        ),
+  },
 };
 
 const convertToFilterList = (
@@ -116,6 +133,7 @@ const FiltersContext = createContext<{
     filteredMovies: {},
     filteredClassifications: {} as Record<Classification, boolean>,
     filteredGenres: {},
+    filteredAccessibilityFeatures: {} as Record<AccessibilityFeature, boolean>,
   },
   defaultFilters: undefined,
   getYearRange: () => ({ min: Infinity, max: -Infinity }),
@@ -154,6 +172,13 @@ export function FiltersProvider({ children }: { children: ReactNode }) {
     const filteredClassifications = data?.movies
       ? getClassificationOptions(data.movies)
       : ({} as Record<Classification, boolean>);
+    const filteredAccessibilityFeatures = [
+      ...Object.values(AccessibilityFeature),
+      "none",
+    ].reduce(
+      (mapped, name) => ({ ...mapped, [name]: true }),
+      {} as Record<string, boolean>,
+    );
     const filteredGenres = data?.genres ? convertToFilterList(data.genres) : {};
     const yearRange = getYearRange();
     const dateRange = {
@@ -169,6 +194,7 @@ export function FiltersProvider({ children }: { children: ReactNode }) {
       filteredVenues,
       filteredMovies,
       filteredClassifications,
+      filteredAccessibilityFeatures,
       filteredGenres,
     };
   }, [data?.genres, data?.venues, data?.movies, getYearRange]);
@@ -217,6 +243,16 @@ export function FiltersProvider({ children }: { children: ReactNode }) {
       urlFilters.filteredClassifications =
         processingFunctions.filteredClassifications.fromUrl(
           filteredClassifications,
+        );
+    }
+
+    const filteredAccessibilityFeatures = searchParams.get(
+      "filteredAccessibilityFeatures",
+    );
+    if (filteredAccessibilityFeatures) {
+      urlFilters.filteredAccessibilityFeatures =
+        processingFunctions.filteredAccessibilityFeatures.fromUrl(
+          filteredAccessibilityFeatures,
         );
     }
 

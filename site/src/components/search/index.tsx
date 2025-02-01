@@ -23,6 +23,7 @@ export default function Search({
         <SearchIcon />
       </InputGroup.Addon>
       <AutoComplete
+        size="lg"
         placeholder="Search"
         data={autocompleteData}
         filterBy={(value: string, item: ItemDataType) =>

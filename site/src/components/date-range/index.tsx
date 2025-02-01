@@ -34,6 +34,7 @@ export default function DateRange({
     <DateRangePicker
       block
       format="dd/MM/yyyy"
+      size="lg"
       ranges={[
         {
           label: "Today",
