@@ -16,8 +16,8 @@ const convertDurationStringToMinutes = (duration) => {
 
   const hrsAndMinsString = duration
     .trim()
-    .match(/^(?:(\d+)\s*hr?s?\s+)?(\d+)\s*mi?n?s?/i);
-  const hoursString = duration.trim().match(/^(\d+)\s*hour?s?/i);
+    .match(/^(?:(\d+)\s*ho?u?r?s?,?\s+?)?(\d+)\s*mi?n?s?/i);
+  const hoursString = duration.trim().match(/^(\d+)\s*ho?u?rs?/i);
   const [, hours = 0, minutes = 0] = hrsAndMinsString || hoursString;
   return parseInt(hours, 10) * 60 + parseInt(minutes, 10);
 };
