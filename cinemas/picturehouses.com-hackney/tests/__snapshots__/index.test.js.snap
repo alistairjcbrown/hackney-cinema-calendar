@@ -1092,8 +1092,7 @@ exports[`Hackney Picturehouse retrieve and transform 1`] = `
           "relaxed": true,
         },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=010&txtSessionId=94752&visLang=1",
-        "notes": "Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Relaxed: Designed to make cinema-going easier for those needing additional support, including neurodivergent audiences and those living with dementia. Lights are left on low, volume is reduced, and the audience is free to move around.",
+        "notes": "Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "6",
         "status": {
           "soldOut": false,
@@ -1275,8 +1274,7 @@ Relaxed: Designed to make cinema-going easier for those needing additional suppo
           "relaxed": true,
         },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=010&txtSessionId=94750&visLang=1",
-        "notes": "Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Relaxed: Designed to make cinema-going easier for those needing additional support, including neurodivergent audiences and those living with dementia. Lights are left on low, volume is reduced, and the audience is free to move around.",
+        "notes": "Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "4",
         "status": {
           "soldOut": false,
@@ -1817,8 +1815,7 @@ Q&A: This screening will be followed by a Q&A.",
           "relaxed": true,
         },
         "bookingUrl": "https://ticketing.picturehouses.com/Ticketing/visSelectTickets.aspx?cinemacode=010&txtSessionId=94751&visLang=1",
-        "notes": "Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.
-Relaxed: Designed to make cinema-going easier for those needing additional support, including neurodivergent audiences and those living with dementia. Lights are left on low, volume is reduced, and the audience is free to move around.",
+        "notes": "Ad and Trailer Free: No advertisements or trailers will play ahead of this screening. You are recommended to arrive promptly.",
         "screen": "4",
         "status": {
           "soldOut": false,
