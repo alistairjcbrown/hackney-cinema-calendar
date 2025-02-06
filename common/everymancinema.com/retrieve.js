@@ -22,9 +22,7 @@ async function retrieve({ domain, url, cinemaId }) {
     if (data?.data?.allAttribute) attributeData = data.data.allAttribute.nodes;
   }
 
-  const websiteId = mainPage.match(
-    /name="boapp:website:id" content="([^"]+)"/i,
-  )[1];
+  const websiteId = pageData.result.pageContext.websiteId;
   const movieIds = movieData.map(({ id }) => id);
   const today = new Date();
   const schedulePayload = {
