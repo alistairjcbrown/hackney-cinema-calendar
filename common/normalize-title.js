@@ -85,6 +85,7 @@ function normalizeTitle(title, options) {
       .replace("vasthunnam", "vasthunam")
       .replace("eftihia", "eftyhia")
       .replace("10180", "1080")
+      .replace("unknwon", "unknown")
       .replace(/^fire walk with me$/, "twin peaks fire walk with me")
       .replace(/^(.+),\s+the$/, "the $1")
       .trim()
