@@ -2164,10 +2164,11 @@ Includes complimentary popcorn and a drink",
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1035/38025",
-        "notes": "65% of seats sold
-A ticket includes one seat for you and one for your child aged 1 to 5, plus a complimentary hot drink and a slice of cake or small popcorn.",
+        "notes": "65% of seats sold",
         "status": {
           "soldOut": false,
         },
@@ -2199,30 +2200,33 @@ A ticket includes one seat for you and one for your child aged 1 to 5, plus a co
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1035/38022",
-        "notes": "94% of seats sold
-A ticket includes one seat for you and one for your child aged 1 to 5, plus a complimentary hot drink and a slice of cake or small popcorn.",
+        "notes": "94% of seats sold",
         "status": {
           "soldOut": false,
         },
         "time": 1737711000000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1035/38442",
-        "notes": "54% of seats sold
-A ticket includes one seat for you and one for your child aged 1 to 5, plus a complimentary hot drink and a slice of cake or small popcorn.",
+        "notes": "54% of seats sold",
         "status": {
           "soldOut": false,
         },
         "time": 1737797400000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1035/38627",
-        "notes": "75% of seats sold
-A ticket includes one seat for you and one for your child aged 1 to 5, plus a complimentary hot drink and a slice of cake or small popcorn.",
+        "notes": "75% of seats sold",
         "status": {
           "soldOut": false,
         },

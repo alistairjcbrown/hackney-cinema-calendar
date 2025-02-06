@@ -45,7 +45,10 @@ async function transform(
             accessibility.subtitled = true;
             return;
           }
-          if (tag.toLowerCase() === "showtime.restriction.babyclub") {
+          if (
+            tag.toLowerCase() === "showtime.restriction.babyclub" ||
+            tag.toLowerCase() === "showtime.restriction.kidsfriendly"
+          ) {
             accessibility.babyFriendly = true;
             return;
           }

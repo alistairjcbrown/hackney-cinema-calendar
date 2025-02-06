@@ -2683,30 +2683,33 @@ Includes complimentary popcorn and a drink",
     },
     "performances": [
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64029",
-        "notes": "55% of seats sold
-A ticket includes one seat for you and one for your child aged 1 to 5, plus a complimentary hot drink and a slice of cake or small popcorn.",
+        "notes": "55% of seats sold",
         "status": {
           "soldOut": false,
         },
         "time": 1737709200000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64030",
-        "notes": "48% of seats sold
-A ticket includes one seat for you and one for your child aged 1 to 5, plus a complimentary hot drink and a slice of cake or small popcorn.",
+        "notes": "48% of seats sold",
         "status": {
           "soldOut": false,
         },
         "time": 1737795600000,
       },
       {
-        "accessibility": {},
+        "accessibility": {
+          "babyFriendly": true,
+        },
         "bookingUrl": "https://purchase.everymancinema.com/startticketing/1019/64031",
-        "notes": "53% of seats sold
-A ticket includes one seat for you and one for your child aged 1 to 5, plus a complimentary hot drink and a slice of cake or small popcorn.",
+        "notes": "53% of seats sold",
         "status": {
           "soldOut": false,
         },
