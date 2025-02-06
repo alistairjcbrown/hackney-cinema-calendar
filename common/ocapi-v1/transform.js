@@ -21,6 +21,9 @@ async function transform(
     ) =>
       films.reduce((mappedFilms, film) => {
         if (mappedFilms[film.id]) return mappedFilms;
+        if (film.title.text.toLowerCase().startsWith("private hire ")) {
+          return mappedFilms;
+        }
 
         const findByRole = (role) => (group, member) => {
           if (!member.roles.includes(role)) return group;
