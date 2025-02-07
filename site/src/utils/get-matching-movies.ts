@@ -48,7 +48,11 @@ const getMatchingMovies = (
 ) => {
   const sortedMovies = Object.keys(movies)
     .map((id) => movies[id])
-    .sort((a, b) => a.normalizedTitle.localeCompare(b.normalizedTitle));
+    .sort((a, b) =>
+      a.normalizedTitle
+        .replace(/[^a-zA-Z0-9]/g, "")
+        .localeCompare(b.normalizedTitle.replace(/[^a-zA-Z0-9]/g, "")),
+    );
 
   return sortedMovies.reduce((matchingMovies, movie) => {
     if (

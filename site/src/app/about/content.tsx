@@ -533,18 +533,18 @@ export default function AboutContent() {
                       maxWidth: "7rem",
                     }}
                   >
-                    {data!.genres[genre].name}
+                    <FilterLink
+                      filters={{
+                        filteredGenres: {
+                          [genre]: true,
+                        },
+                      }}
+                    >
+                      {data!.genres[genre].name}
+                    </FilterLink>
                   </span>
-                  <FilterLink
-                    filters={{
-                      filteredGenres: {
-                        [genre]: true,
-                      },
-                    }}
-                  >
-                    {genreTotals[genre]} movies
-                  </FilterLink>{" "}
-                  ({Math.round((genreTotals[genre] / movieCount) * 100)}
+                  {genreTotals[genre]} movies (
+                  {Math.round((genreTotals[genre] / movieCount) * 100)}
                   %)
                 </li>
               ))}
@@ -597,7 +597,15 @@ export default function AboutContent() {
                         lineHeight: "2rem",
                       }}
                     >
-                      {accessibilityNames[key]}
+                      <FilterLink
+                        filters={{
+                          filteredAccessibilityFeatures: {
+                            [key]: true,
+                          } as Record<AccessibilityFeature, boolean>,
+                        }}
+                      >
+                        {accessibilityNames[key]}
+                      </FilterLink>
                     </span>
                     <span style={{ whiteSpace: "nowrap" }}>
                       {showNumber(performanceAccessibilityCount)} performances (

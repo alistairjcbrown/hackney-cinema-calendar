@@ -14,6 +14,7 @@ function normalizeTitle(title, options) {
     "Hitchcock: The Gainsborough Days -",
     "Bar Screening x Muse:",
     "Kung Fu Cinema:",
+    "a Preview Screening of",
     "Preview Screening of",
     "70th anniversary screening:",
     "uk premiere of:",
