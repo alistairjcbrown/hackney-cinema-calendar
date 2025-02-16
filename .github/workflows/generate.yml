@@ -12,8 +12,8 @@ on:
         - '3'
         - '4'
         - '5'
-  schedule:
-    - cron: '0 3 * * *' # every morning at 3am UTC
+  # schedule:
+  #   - cron: '0 3 * * *' # every morning at 3am UTC
 
 name: Hackney Cinema Calendar
 
